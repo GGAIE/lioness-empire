@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "version": "0.5.0-ep01-act03-v0.3",
+  "start": "PRO-SC01",
+  "chapters": [
+    {
+      "id": "DEMO",
+      "title": "序曲測試 · 尚未寫下的歷史",
+      "status": "DEMO_ONLY",
+      "file": "episodes/demo/chapter.json",
+      "entry": "DEMO_ACT01_SC01"
+    },
+    {
+      "id": "PROLOGUE",
+      "title": "母獅登基",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/prologue/chapter.json",
+      "entry": "PRO-SC01"
+    },
+    {
+      "id": "EP01",
+      "title": "王冠之前 · ACT I–III",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep01/chapter.json",
+      "entry": "EP01_ACT01_SC01"
+    },
+    {
+      "id": "EP02",
+      "title": "留下來的人",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP03",
+      "title": "責任先於權力",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP04",
+      "title": "不得已攝政",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP05",
+      "title": "攝政成為習慣",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP06",
+      "title": "兩份攝政令",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP07",
+      "title": "無旗者",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP08",
+      "title": "兩個繼承人",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP09",
+      "title": "誰在統治安度因",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP10",
+      "title": "王權的讓位",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP11",
+      "title": "母獅加冕",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP12",
+      "title": "母獅帝國",
+      "status": "NOT_YET_AVAILABLE"
+    }
+  ],
+  "flags": {
+    "DEMO_INSPECTED": {
+      "initial": false,
+      "description": "引擎示範專用，非正式設定"
+    },
+    "DEMO_RESULT_SEEN": {
+      "initial": false,
+      "description": "引擎示範專用，非正式設定"
+    },
+    "DEMO_DONE": {
+      "initial": false,
+      "description": "引擎示範專用，非正式設定"
+    },
+    "EARLY_PS_ZERO": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "ARCHIVE_TRUTH_COMPLETE": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "ALINDA_TRUCE": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "CORONATION": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "HISTORY_POLICY": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "FINAL_AGREEMENT": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "ALINDA_SAFE_HAVEN": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "DRAGON_EMPRESS_TRUCE": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "KNIGHT_COUNCIL_READY": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "OLIVIA_SURRENDER_OFFER": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "FINAL_PEACE_TREATY_SIGNED": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "SUCCESSION_CONTEST": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "POLITICAL_CAPTIVITY": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "TOWER_SURVIVAL": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "LATER_ASYLUM": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "EP01_ACT02_PRIORITY": {
+      "initial": "NONE",
+      "description": "EP01第二幕返都工作優先順序：ROYAL_AUTHORITY／EASTERN_FRONT／TECHNICAL_INTERFACE；僅記錄方向，未設定資源增減。"
+    },
+    "OLIVIA_AT_CAPITAL": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：OLIVIA_AT_CAPITAL；不代表數值獎勵或攝政授權。"
+    },
+    "FINLEY_AT_CAPITAL_AS_ACADEMY_LIAISON": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：FINLEY_AT_CAPITAL_AS_ACADEMY_LIAISON；不代表數值獎勵或攝政授權。"
+    },
+    "KING_HEALTH_INITIAL_BRIEFING_RECEIVED": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：KING_HEALTH_INITIAL_BRIEFING_RECEIVED；不代表數值獎勵或攝政授權。"
+    },
+    "AIVIS_EASTERN_DUTY_CONFIRMED": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：AIVIS_EASTERN_DUTY_CONFIRMED；不代表數值獎勵或攝政授權。"
+    },
+    "ROYAL_RECORDS_PRELIMINARY_REVIEW": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：ROYAL_RECORDS_PRELIMINARY_REVIEW；不代表數值獎勵或攝政授權。"
+    },
+    "OLIVIA_REGENCY_AUTHORITY": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：OLIVIA_REGENCY_AUTHORITY；不代表數值獎勵或攝政授權。"
+    }
+  },
+  "migrations": {
+    "DEMO_OLD_START": "DEMO_ACT01_SC01"
+  },
+  "planningFile": "planning/part-one.json"
+}

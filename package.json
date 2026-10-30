@@ -1,0 +1,47 @@
+{
+  "name": "lioness-empire",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run content:validate && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "content:validate": "tsx scripts/content.ts validate",
+    "content:report": "tsx scripts/content.ts report",
+    "schema:export": "tsx scripts/export-schemas.ts",
+    "predev": "npm run content:validate",
+    "test:production": "playwright test -c playwright.production.config.ts",
+    "format": "prettier --write apps/web-vn/src packages scripts tests *.ts",
+    "format:check": "prettier --check apps/web-vn/src packages scripts tests *.ts",
+    "content:import-plan": "tsx scripts/import-chapter-plan.ts",
+    "content:import-prologue": "tsx scripts/import-prologue.ts",
+    "content:import-ep01-act01": "tsx scripts/import-ep01-act01.ts",
+    "content:import-ep01-act02": "tsx scripts/import-ep01-act02.ts",
+    "content:import-ep01-act03": "tsx scripts/import-ep01-act03.ts"
+  },
+  "dependencies": {
+    "idb": "^8.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "^6.0.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.1.0",
+    "vitest": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "next": {
+      "type": "string",
+      "minLength": 1
+    },
+    "when": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/__schema0"
+        }
+      ]
+    },
+    "effects": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "flag"
+              },
+              "key": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]*$"
+              },
+              "value": {
+                "type": [
+                  "boolean",
+                  "number",
+                  "string"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "key",
+              "value"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "clear"
+              },
+              "key": {
+                "type": "string",
+                "enum": [
+                  "alinda",
+                  "finley",
+                  "tamara",
+                  "shalia"
+                ]
+              },
+              "delta": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "type",
+              "key",
+              "delta"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "score"
+              },
+              "delta": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "type",
+              "delta"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "political"
+              },
+              "value": {
+                "type": "string",
+                "enum": [
+                  "SACRED",
+                  "WORLD"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "value"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "reinforce"
+              },
+              "value": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "type",
+              "value"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "id",
+    "text",
+    "next",
+    "effects"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "__schema0": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "all": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/__schema0"
+              }
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "any": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/__schema0"
+              }
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "not": {
+              "$ref": "#/definitions/__schema0"
+            }
+          },
+          "required": [
+            "not"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^(politicalRoute|tarotRoute|politicalScore|clear\\.(alinda|finley|tamara|shalia)|flags\\.[A-Z][A-Z0-9_]*)$"
+            },
+            "op": {
+              "type": "string",
+              "enum": [
+                "eq",
+                "ne",
+                "gt",
+                "gte",
+                "lt",
+                "lte",
+                "exists"
+              ]
+            },
+            "value": {
+              "type": [
+                "boolean",
+                "number",
+                "string"
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "op"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "title": "Choice"
+}

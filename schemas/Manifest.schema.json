@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1
+    },
+    "version": {
+      "type": "string"
+    },
+    "start": {
+      "type": "string"
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "DEMO_ONLY",
+              "AVAILABLE",
+              "DRAFT_AVAILABLE",
+              "NOT_YET_AVAILABLE"
+            ]
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^episodes\\/[a-zA-Z0-9_./-]+\\.json$"
+          },
+          "entry": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "flags": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "initial": {
+            "type": [
+              "boolean",
+              "number",
+              "string"
+            ]
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "initial",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "migrations": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "planningFile": {
+      "type": "string",
+      "pattern": "^planning\\/[a-zA-Z0-9_-]+\\.json$"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "version",
+    "start",
+    "chapters",
+    "flags",
+    "migrations"
+  ],
+  "additionalProperties": false,
+  "title": "Manifest"
+}

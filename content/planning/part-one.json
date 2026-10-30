@@ -1,0 +1,1752 @@
+{
+  "schemaVersion": 1,
+  "id": "PART_I",
+  "version": "0.1.0-planning",
+  "status": "PLANNING_DRAFT",
+  "choiceResolution": "AUTHORED_FIXED",
+  "decisions": [],
+  "source": {
+    "file": "planning/source-v0.1.md",
+    "sha256": "9eb4d9876745de00c4915e5a832e30f3025e21fbbc76e9594a6a5525af04a1cd",
+    "version": "v0.1",
+    "scope": "使用者提供的逐章初步規劃；章節摘要與場景先後仍是提案，未含正式對白。"
+  },
+  "chapters": [
+    {
+      "id": "PROLOGUE",
+      "title": "登基的鏡框",
+      "order": 0,
+      "summary": "起因與目的：從奧莉維亞登基片段開始，提出她如何走到此處的疑問。",
+      "notes": [
+        "演出提案：只呈現儀式、人物位置與政治氣氛，不宣布最終勝負，不預先確認國家安全。無有效選項，不啟動支線或計分。",
+        "章末：回溯魔法學院生活。EP11返回相應時刻，補全各路線下的真實處境；提前失敗分支不必抵達鏡框。視覺不自行增加未核准王冠等細節。"
+      ],
+      "next": "EP01",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "PROLOGUE_ACT01",
+          "number": 1,
+          "label": "登基鏡框",
+          "summary": "演出提案：只呈現儀式、人物位置與政治氣氛，不宣布最終勝負，不預先確認國家安全。無有效選項，不啟動支線或計分。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 47
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 47
+      }
+    },
+    {
+      "id": "EP01",
+      "title": "從魔法學院召回",
+      "order": 1,
+      "summary": "起因：父親病重，艾維斯必須支援前線，奧莉維亞被召回。",
+      "notes": [
+        "結果與轉折：她返都不只是探病，而是成為可承接王室責任的人。艾維斯出發與兄妹會面的順序依原稿核對。",
+        "系統重點：建立資源、成本與結果的閱讀方式；不強制設定數值教學或早期失敗。"
+      ],
+      "next": "EP02",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP01_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "學院生活被正式召回命令打斷，建立她原本的位置。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 59
+          }
+        },
+        {
+          "id": "EP01_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "選擇先核實哪些資訊、如何完成離校準備；召回本身不可拒絕。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 60
+          }
+        },
+        {
+          "id": "EP01_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "返都後選擇如何了解病況、戰事與待辦，辨識不同消息來源。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 61
+          }
+        },
+        {
+          "id": "EP01_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "回應初步交付，確認可協助的事務；尚不取得攝政權。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 62
+          }
+        },
+        {
+          "id": "EP01_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "政治支線P1「離校與交接」：安排學院工作及返都需求，留下承諾與成本。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 63
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 55
+      }
+    },
+    {
+      "id": "EP02",
+      "title": "留下來的人",
+      "order": 2,
+      "summary": "起因：官署仍運作，但需要王室確認、見證或協調的事情開始積壓。",
+      "notes": [
+        "結果與轉折：她成為有效聯絡窗口，但下一個問題需要正式裁決。角色可依原稿出場，暫不將認識人物等同建立政治支柱。",
+        "系統重點：及時取得資源與等待查證各有代價；具體政治點數與動盪變化待設計。"
+      ],
+      "next": "EP03",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP02_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "奧莉維亞了解留在王都的有限職責。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 73
+          }
+        },
+        {
+          "id": "EP02_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "核對一項地方請求與王都摘要的差異，選擇查證方向。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 74
+          }
+        },
+        {
+          "id": "EP02_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "協調牽涉軍需、運輸與民用需求的安排，決定成本由誰承擔。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 75
+          }
+        },
+        {
+          "id": "EP02_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "分清可協助與必須正式呈報的事項，避免越權承諾。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 76
+          }
+        },
+        {
+          "id": "EP02_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "政治支線P2「等待中的請求」：處理未被主線優先回應的需求，或協商合理期限。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 77
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 69
+      }
+    },
+    {
+      "id": "EP03",
+      "title": "責任先於權力",
+      "order": 3,
+      "summary": "起因：EP02的事務鏈超出私人協調能力，各機構不能憑請託改變既有義務。",
+      "notes": [
+        "結果與轉折：正式攝政的必要性成立；EP04從授權生效開始。有限清醒的老王仍有決策意志。",
+        "系統重點：取得權力不等於取得免費資源，授權本身不能無成本填滿政治點數。"
+      ],
+      "next": "EP04",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP03_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "呈現授權缺口，而非把官員寫成集體無能。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 87
+          }
+        },
+        {
+          "id": "EP03_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "提出能處理資源衝突的方案。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 88
+          }
+        },
+        {
+          "id": "EP03_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "選擇所需授權範圍、監督與回報方式。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 89
+          }
+        },
+        {
+          "id": "EP03_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "決定是否接受相應責任；老王循適當程序作成有限授權。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 90
+          }
+        },
+        {
+          "id": "EP03_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "政治支線P3「授權之前」：確認承辦者、資源與責任鏈，不讓簽署等於自動辦成。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 91
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 83
+      }
+    },
+    {
+      "id": "EP04",
+      "title": "不得已攝政",
+      "order": 4,
+      "summary": "起因：暫時授權生效，第一批正式待辦集中送達。",
+      "notes": [
+        "成功：命令可追溯、現場可辨識。失敗：依私人記憶與模糊指令運作，後續容易出現推諉與錯令。",
+        "章末：各方開始繞過原有慢速管道找她。芬利八個支線自本章正式開始。"
+      ],
+      "next": "EP05",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP04_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "說明授權範圍、期限及原機構權責。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 101
+          }
+        },
+        {
+          "id": "EP04_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "決定道路、救濟、糧食與軍需的優先順序。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 102
+          }
+        },
+        {
+          "id": "EP04_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "決定中央與原機構如何分工，支付執行成本。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 103
+          }
+        },
+        {
+          "id": "EP04_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "處理第一項命令的後果，建立回報與補救方式。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 104
+          }
+        },
+        {
+          "id": "EP04_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "F1「第一份攝政簿」與T1上篇「誰的命令」：共同建立文書、查閱、權限與責任流程。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 105
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 97
+      }
+    },
+    {
+      "id": "EP05",
+      "title": "攝政成為習慣",
+      "order": 5,
+      "summary": "起因：承諾到期，臨時攝政逐漸成為日常治理中心。",
+      "notes": [
+        "成功：承諾與實際負擔一致，地方接受可承受的安排。失敗：帳面漂亮但執行落空，或反覆抽調同一地方。",
+        "章末：王室身分已不足以支撐全部責任，必須選擇持續合作的政治基礎。"
+      ],
+      "next": "EP06",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP05_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "展示各方新增求助與先前安排的後續成本。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 115
+          }
+        },
+        {
+          "id": "EP05_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "選擇哪些協助轉成固定安排。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 116
+          }
+        },
+        {
+          "id": "EP05_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "面對不能同時滿足的需求，選擇重談、延期或取得新資源。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 117
+          }
+        },
+        {
+          "id": "EP05_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "回應持續掌權引起的政治疑慮，形成穩定聯盟需求。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 118
+          }
+        },
+        {
+          "id": "EP05_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "F2「兩本帳」、T1下篇、S1「地方不是空倉」：交叉核對命令、帳目與徵調總負擔。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 119
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 111
+      }
+    },
+    {
+      "id": "EP06",
+      "title": "兩份攝政令",
+      "order": 6,
+      "summary": "起因：擴大的責任需要主導聯盟。",
+      "notes": [
+        "Sacred依靠聖光會見證、救濟與地方協作，但仍需學院；World依靠學院及中央協調，聖光會轉向艾維斯形成政治後果。艾莉不回歸，芬利不獲得其記憶或秘密。",
+        "成功：物資抵達、地方參與、通行可執行、學院授權有界線。失敗：儀式取代供應，或只有授權沒有責任與資源。",
+        "章末：新聯盟開始接受跨境危機考驗。"
+      ],
+      "next": "EP07",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP06_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "聖女選拔、學院工作、地方補給與兩份授權安排同時進入視野。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 129
+          }
+        },
+        {
+          "id": "EP06_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "比較支持結構及其責任條件。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 130
+          }
+        },
+        {
+          "id": "EP06_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "選擇Sacred或World主導聯盟。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 131
+          }
+        },
+        {
+          "id": "EP06_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "分配資訊、資源與執行責任，維持非主導勢力的合理合作空間。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 132
+          }
+        },
+        {
+          "id": "EP06_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "A1「空倉與名冊」、S2「被見證的承諾」、T2上篇「城門兩側」、F3「學院的授權」，由選拔與救濟調度串接。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 133
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 125
+      }
+    },
+    {
+      "id": "EP07",
+      "title": "無旗者",
+      "order": 7,
+      "summary": "起因：外交與異常危機共同影響難民、道路與地方安全。",
+      "notes": [
+        "Sacred由聖光會、領主與騎士主導現場協作；World由學院與中央整合資訊。兩線事件皆存在，代價與處理方式不同。",
+        "成功：救援可持續、地方負擔可承受、資訊區分已知與推測。失敗：把成本全推地方，或把未核實警報當成保證。",
+        "章末：臨時承諾累積成契約、責任與正式議程。"
+      ],
+      "next": "EP08",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP07_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "呈現多起事件對同一資源網的壓力，避免寫成互不相干的接案。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 145
+          }
+        },
+        {
+          "id": "EP07_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "路恩新王就任與國王議會籌備，選擇外交承諾及合作條件。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 146
+          }
+        },
+        {
+          "id": "EP07_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "虛空聖母裂縫與難民通行，選擇封鎖、救援與供應安排。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 147
+          }
+        },
+        {
+          "id": "EP07_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "奧塔莉雅殭屍龍及龍槍使聖戰，選擇跨境協作與資源承擔。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 148
+          }
+        },
+        {
+          "id": "EP07_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "A2「道路盡頭的醫療隊」、S3上篇「誰的共同體」、T2下篇、F4「不完整的求援」。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 149
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 141
+      }
+    },
+    {
+      "id": "EP08",
+      "title": "兩個繼承人",
+      "order": 8,
+      "summary": "起因：前章承諾需要正式承認，議會、契約與繼承問題集中出現。",
+      "notes": [
+        "成功：代表權與資源同時到位，物資可追查，契約有來源。失敗：給予象徵席位卻要求無限付出，或核查癱瘓必要供應。",
+        "A3暫可包含正式代表權及實際支持兩個里程碑，供尼爾斯A≥4入口校驗。章名對應、瑟維恩及繼承原文仍待核對。",
+        "章末：東線告急，國家必須動用已建立也已消耗的能力。"
+      ],
+      "next": "EP09",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP08_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "盤點國家承諾、危機資源與待定義務。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 161
+          }
+        },
+        {
+          "id": "EP08_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "國王議會及教國逃犯、捲款案，選擇跨境司法與責任承接程序。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 162
+          }
+        },
+        {
+          "id": "EP08_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "熔岩貓受騙暴怒與古老契約，選擇補償及履約方式。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 163
+          }
+        },
+        {
+          "id": "EP08_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "寒冰之眼提早甦醒，選擇撤離與冷路供應安排。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 164
+          }
+        },
+        {
+          "id": "EP08_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "A3「遠方的席位」、S3下篇、T3「看不見的搬運者」、F5「契約與缺頁」。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 165
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 157
+      }
+    },
+    {
+      "id": "EP09",
+      "title": "誰在統治安度因",
+      "order": 9,
+      "summary": "起因：艾維斯東線需要正式增援，抽調會影響王都與地方安全。",
+      "notes": [
+        "Sacred加增援進Star；World加增援進Chariot；任一聯盟不正式增援進Tower。Tower東線崩潰，莎莉亞自主率第三團攔截，並非重新成立正式增援。",
+        "尼爾斯上篇：繼承異議進入程序，奧莉維亞認出其人，與卡拉交涉揭露、保障及談判前提。身分已知不等於血緣、繼承效力已證明。",
+        "未達入口時以政治支線填補，但不視為完成尼爾斯必要條件。章末將政治環境與未決危機一併帶往EP10。"
+      ],
+      "next": "EP10",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP09_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "提供當時可知戰報、疑點與留守需求，開始F6情報場景。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 177
+          }
+        },
+        {
+          "id": "EP09_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "核實不確定性，選擇可行動員方案。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 178
+          }
+        },
+        {
+          "id": "EP09_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "決定兵力、物資與最低留守，提前提供S4與T4必要資訊。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 179
+          }
+        },
+        {
+          "id": "EP09_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "決定正式增援與否，永久鎖定三線。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 180
+          }
+        },
+        {
+          "id": "EP09_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "收束S4「第三團的代價」、T4「不能抽空的王都」、F6「戰報的空白」；A≥4者進A4尼爾斯上篇。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 181
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 173
+      }
+    },
+    {
+      "id": "EP10",
+      "title": "王權的讓位",
+      "order": 10,
+      "summary": "起因：三線進入不同危機，臨時權力必須轉為新的統治安排。",
+      "notes": [
+        "支線時序提案：先完成尼爾斯處置，再進行制度承接，父親其後遇伏死亡。死亡不得替繼承爭議解套。A5只處理喪失後的領地、人員與資源支持，不完成案情調查。",
+        "尼爾斯成功須有有效治理安排、本人保障、關鍵代價揭露及未決事項保留；不要求查明血緣。失敗封鎖XI；資源不足或強推後果待新系統規則確認。",
+        "Star走向實權或架空；Chariot形成勝出、妥協或失勢局勢；Tower面對撤離、庇護或談判窗口。甲冑不證明艾維斯已死。",
+        "章末：所有路線都必須回答，新統治安排由誰承認、如何執行。"
+      ],
+      "next": "EP11",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP10_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "呈現路線後果；父親仍在世並交付龍喉探針，此時尚非遺物。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 193
+          }
+        },
+        {
+          "id": "EP10_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "Star談聯盟權限；Chariot談兄妹政治位置；Tower處理攔截與撤離資源。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 194
+          }
+        },
+        {
+          "id": "EP10_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "Star處理監督及學院合作；Chariot進行法統、軍功與行政權交換；Tower處理莎莉亞戰死、甲冑示威與應變。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 195
+          }
+        },
+        {
+          "id": "EP10_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "老王自主讓位，奧莉維亞決定承接責任的條件與限制。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 196
+          }
+        },
+        {
+          "id": "EP10_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "分段完成A4尼爾斯下篇、A5「交付之後」、S5上篇「留下的人」、T5上篇「命令最後抵達的地方」、F7「誰能停止中樞」。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 197
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 189
+      }
+    },
+    {
+      "id": "EP11",
+      "title": "母獅加冕",
+      "order": 11,
+      "summary": "起因：實際權力已轉移，但承認、界線與歷史尚未定案。",
+      "notes": [
+        "成功：合作有界線、承諾有承接者，紀錄區分已證實與未知。失敗：要求噤聲、命令無法落地、資料無人接手或承諾不可持續。",
+        "Tower不得一律宣稱王都全面陷落；和平分支須有能成立的攻城與談判時序。龍女帝接受交換的戰略動機仍待設計。",
+        "章末：不再新增能改變結局的重大選擇。"
+      ],
+      "next": "EP12",
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP11_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "回到登基鏡框，揭示與序幕相同片段背後的處境。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 211
+          }
+        },
+        {
+          "id": "EP11_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "Star確定加冕協議；Chariot定案政爭安排；Tower建立戰時交接與存續方案。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 212
+          }
+        },
+        {
+          "id": "EP11_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "處理歷史記錄及相關責任選擇。PUBLISH、SEAL、LEAVE_MULTIPLE在本章完成；Tower按分支處理庇護、撤離或和平條件。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 213
+          }
+        },
+        {
+          "id": "EP11_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "完成主線最終承諾；愚者分支須有可執行的條約與移交。",
+          "decision": "MAIN_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 214
+          }
+        },
+        {
+          "id": "EP11_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "A6「合作的界線」、S5下篇、T5下篇、F8「留下什麼紀錄」。全章結束才封存終局狀態。",
+          "decision": "SIDE_SLOT",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 215
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 207
+      }
+    },
+    {
+      "id": "EP12",
+      "title": "母獅帝國",
+      "order": 12,
+      "summary": "起因：EP11已形成終局狀態。",
+      "notes": [
+        "全章無新選項，不增加政治點數、動盪或支柱，不補做破案與翻盤。第二部由艾琳達親自調查父親案、判斷責任並面對未決真相。"
+      ],
+      "next": null,
+      "availability": "NOT_YET_AVAILABLE",
+      "acts": [
+        {
+          "id": "EP12_ACT01",
+          "number": 1,
+          "label": "開場",
+          "summary": "演出結局處境與奧莉維亞的命運。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 227
+          }
+        },
+        {
+          "id": "EP12_ACT02",
+          "number": 2,
+          "label": "問題",
+          "summary": "演出王權、國家與制度結果。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 228
+          }
+        },
+        {
+          "id": "EP12_ACT03",
+          "number": 3,
+          "label": "承擔",
+          "summary": "演出四位角色、領地與共同體的後續。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 229
+          }
+        },
+        {
+          "id": "EP12_ACT04",
+          "number": 4,
+          "label": "轉折",
+          "summary": "呈現歷史如何記錄、封存或爭議這段統治。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 230
+          }
+        },
+        {
+          "id": "EP12_ACT05",
+          "number": 5,
+          "label": "支線／收束",
+          "summary": "尾聲。XI銜接第二部，其他為平行歷史。",
+          "decision": "NONE",
+          "authoringStatus": "NOT_AUTHORED",
+          "source": {
+            "file": "planning/source-v0.1.md",
+            "line": 231
+          }
+        }
+      ],
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 223
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "A1",
+      "character": "alinda",
+      "sourceName": "艾琳達",
+      "title": "空倉與名冊",
+      "chapters": [
+        "EP06"
+      ],
+      "parts": [
+        {
+          "id": "A1_PART1",
+          "chapter": "EP06",
+          "actId": "EP06_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 247
+      }
+    },
+    {
+      "id": "A2",
+      "character": "alinda",
+      "sourceName": "艾琳達",
+      "title": "道路盡頭的醫療隊",
+      "chapters": [
+        "EP07"
+      ],
+      "parts": [
+        {
+          "id": "A2_PART1",
+          "chapter": "EP07",
+          "actId": "EP07_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 248
+      }
+    },
+    {
+      "id": "A3",
+      "character": "alinda",
+      "sourceName": "艾琳達",
+      "title": "遠方的席位",
+      "chapters": [
+        "EP08"
+      ],
+      "parts": [
+        {
+          "id": "A3_PART1",
+          "chapter": "EP08",
+          "actId": "EP08_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 249
+      }
+    },
+    {
+      "id": "A4",
+      "character": "alinda",
+      "sourceName": "艾琳達",
+      "title": "尼爾斯繼承危機",
+      "chapters": [
+        "EP09",
+        "EP10"
+      ],
+      "parts": [
+        {
+          "id": "A4_PART1",
+          "chapter": "EP09",
+          "actId": "EP09_ACT05",
+          "clearAward": null
+        },
+        {
+          "id": "A4_PART2",
+          "chapter": "EP10",
+          "actId": "EP10_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "UNRESOLVED",
+      "entryNote": "A≥4 與前期里程碑僅為觸發方向；入口尚未核定。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 250
+      }
+    },
+    {
+      "id": "A5",
+      "character": "alinda",
+      "sourceName": "艾琳達",
+      "title": "交付之後",
+      "chapters": [
+        "EP10"
+      ],
+      "parts": [
+        {
+          "id": "A5_PART1",
+          "chapter": "EP10",
+          "actId": "EP10_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 251
+      }
+    },
+    {
+      "id": "A6",
+      "character": "alinda",
+      "sourceName": "艾琳達",
+      "title": "合作的界線",
+      "chapters": [
+        "EP11"
+      ],
+      "parts": [
+        {
+          "id": "A6_PART1",
+          "chapter": "EP11",
+          "actId": "EP11_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 252
+      }
+    },
+    {
+      "id": "S1",
+      "character": "shalia",
+      "sourceName": "莎莉亞",
+      "title": "地方不是空倉",
+      "chapters": [
+        "EP05"
+      ],
+      "parts": [
+        {
+          "id": "S1_PART1",
+          "chapter": "EP05",
+          "actId": "EP05_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 253
+      }
+    },
+    {
+      "id": "S2",
+      "character": "shalia",
+      "sourceName": "莎莉亞",
+      "title": "被見證的承諾",
+      "chapters": [
+        "EP06"
+      ],
+      "parts": [
+        {
+          "id": "S2_PART1",
+          "chapter": "EP06",
+          "actId": "EP06_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 254
+      }
+    },
+    {
+      "id": "S3",
+      "character": "shalia",
+      "sourceName": "莎莉亞",
+      "title": "誰的共同體",
+      "chapters": [
+        "EP07",
+        "EP08"
+      ],
+      "parts": [
+        {
+          "id": "S3_PART1",
+          "chapter": "EP07",
+          "actId": "EP07_ACT05",
+          "clearAward": null
+        },
+        {
+          "id": "S3_PART2",
+          "chapter": "EP08",
+          "actId": "EP08_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 255
+      }
+    },
+    {
+      "id": "S4",
+      "character": "shalia",
+      "sourceName": "莎莉亞",
+      "title": "第三團的代價",
+      "chapters": [
+        "EP09"
+      ],
+      "parts": [
+        {
+          "id": "S4_PART1",
+          "chapter": "EP09",
+          "actId": "EP09_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 256
+      }
+    },
+    {
+      "id": "S5",
+      "character": "shalia",
+      "sourceName": "莎莉亞",
+      "title": "留下的人",
+      "chapters": [
+        "EP10",
+        "EP11"
+      ],
+      "parts": [
+        {
+          "id": "S5_PART1",
+          "chapter": "EP10",
+          "actId": "EP10_ACT05",
+          "clearAward": null
+        },
+        {
+          "id": "S5_PART2",
+          "chapter": "EP11",
+          "actId": "EP11_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 257
+      }
+    },
+    {
+      "id": "T1",
+      "character": "tamara",
+      "sourceName": "塔瑪拉",
+      "title": "誰的命令",
+      "chapters": [
+        "EP04",
+        "EP05"
+      ],
+      "parts": [
+        {
+          "id": "T1_PART1",
+          "chapter": "EP04",
+          "actId": "EP04_ACT05",
+          "clearAward": null
+        },
+        {
+          "id": "T1_PART2",
+          "chapter": "EP05",
+          "actId": "EP05_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 258
+      }
+    },
+    {
+      "id": "T2",
+      "character": "tamara",
+      "sourceName": "塔瑪拉",
+      "title": "城門兩側",
+      "chapters": [
+        "EP06",
+        "EP07"
+      ],
+      "parts": [
+        {
+          "id": "T2_PART1",
+          "chapter": "EP06",
+          "actId": "EP06_ACT05",
+          "clearAward": null
+        },
+        {
+          "id": "T2_PART2",
+          "chapter": "EP07",
+          "actId": "EP07_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 259
+      }
+    },
+    {
+      "id": "T3",
+      "character": "tamara",
+      "sourceName": "塔瑪拉",
+      "title": "看不見的搬運者",
+      "chapters": [
+        "EP08"
+      ],
+      "parts": [
+        {
+          "id": "T3_PART1",
+          "chapter": "EP08",
+          "actId": "EP08_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 260
+      }
+    },
+    {
+      "id": "T4",
+      "character": "tamara",
+      "sourceName": "塔瑪拉",
+      "title": "不能抽空的王都",
+      "chapters": [
+        "EP09"
+      ],
+      "parts": [
+        {
+          "id": "T4_PART1",
+          "chapter": "EP09",
+          "actId": "EP09_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 261
+      }
+    },
+    {
+      "id": "T5",
+      "character": "tamara",
+      "sourceName": "塔瑪拉",
+      "title": "命令最後抵達的地方",
+      "chapters": [
+        "EP10",
+        "EP11"
+      ],
+      "parts": [
+        {
+          "id": "T5_PART1",
+          "chapter": "EP10",
+          "actId": "EP10_ACT05",
+          "clearAward": null
+        },
+        {
+          "id": "T5_PART2",
+          "chapter": "EP11",
+          "actId": "EP11_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 262
+      }
+    },
+    {
+      "id": "F1",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "第一份攝政簿",
+      "chapters": [
+        "EP04"
+      ],
+      "parts": [
+        {
+          "id": "F1_PART1",
+          "chapter": "EP04",
+          "actId": "EP04_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 263
+      }
+    },
+    {
+      "id": "F2",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "兩本帳",
+      "chapters": [
+        "EP05"
+      ],
+      "parts": [
+        {
+          "id": "F2_PART1",
+          "chapter": "EP05",
+          "actId": "EP05_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 264
+      }
+    },
+    {
+      "id": "F3",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "學院的授權",
+      "chapters": [
+        "EP06"
+      ],
+      "parts": [
+        {
+          "id": "F3_PART1",
+          "chapter": "EP06",
+          "actId": "EP06_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 265
+      }
+    },
+    {
+      "id": "F4",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "不完整的求援",
+      "chapters": [
+        "EP07"
+      ],
+      "parts": [
+        {
+          "id": "F4_PART1",
+          "chapter": "EP07",
+          "actId": "EP07_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 266
+      }
+    },
+    {
+      "id": "F5",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "契約與缺頁",
+      "chapters": [
+        "EP08"
+      ],
+      "parts": [
+        {
+          "id": "F5_PART1",
+          "chapter": "EP08",
+          "actId": "EP08_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 267
+      }
+    },
+    {
+      "id": "F6",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "戰報的空白",
+      "chapters": [
+        "EP09"
+      ],
+      "parts": [
+        {
+          "id": "F6_PART1",
+          "chapter": "EP09",
+          "actId": "EP09_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 268
+      }
+    },
+    {
+      "id": "F7",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "誰能停止中樞",
+      "chapters": [
+        "EP10"
+      ],
+      "parts": [
+        {
+          "id": "F7_PART1",
+          "chapter": "EP10",
+          "actId": "EP10_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 269
+      }
+    },
+    {
+      "id": "F8",
+      "character": "finley",
+      "sourceName": "芬利",
+      "title": "留下什麼紀錄",
+      "chapters": [
+        "EP11"
+      ],
+      "parts": [
+        {
+          "id": "F8_PART1",
+          "chapter": "EP11",
+          "actId": "EP11_ACT05",
+          "clearAward": null
+        }
+      ],
+      "entryStatus": "PLANNED",
+      "entryNote": "章節／支線組合為初步規劃，不自動視為事件已完成或獲得 CLEAR。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 270
+      }
+    }
+  ],
+  "rules": {
+    "resource": {
+      "definition": "執行選項付出的政治資源；與舊版政治存續 PS 分開。",
+      "initial": 50,
+      "maximum": null,
+      "insufficient": "UNRESOLVED",
+      "zeroOutcome": "UNRESOLVED",
+      "bands": [
+        {
+          "min": 0,
+          "max": 59,
+          "cost": 0
+        },
+        {
+          "min": 60,
+          "max": 79,
+          "cost": 10
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "cost": 40
+        }
+      ],
+      "prologue": "NO_SCORING",
+      "ep12": "UNRESOLVED"
+    },
+    "unrest": {
+      "min": 0,
+      "max": 100,
+      "initial": 30,
+      "changes": "UNRESOLVED"
+    },
+    "clearCaps": {
+      "alinda": 7,
+      "finley": 10,
+      "tamara": 6,
+      "shalia": 6
+    },
+    "alliance": {
+      "chapter": "EP06",
+      "act": 3
+    },
+    "reinforcement": {
+      "chapter": "EP09",
+      "act": 4
+    },
+    "xi": {
+      "route": "STAR",
+      "requiredEvent": "A4",
+      "requiredFlags": [
+        {
+          "id": "EP11_PUBLISH",
+          "label": "EP11 選擇公開紀錄 PUBLISH"
+        },
+        {
+          "id": "GOVERNANCE_RECORD_COMPLETE",
+          "label": "第一部治理紀錄完整"
+        },
+        {
+          "id": "SOURCE_CHAIN_COMPLETE",
+          "label": "治理紀錄來源鏈完整"
+        },
+        {
+          "id": "UNRESOLVED_TRUTHS_RECORDED",
+          "label": "如實記錄未決事項"
+        },
+        {
+          "id": "ALINDA_BOUNDED_COOPERATION",
+          "label": "艾琳達有界線的合作"
+        },
+        {
+          "id": "FINAL_AGREEMENT",
+          "label": "最終協議成立"
+        }
+      ],
+      "commonGate": "UNRESOLVED",
+      "nielsEntry": "UNRESOLVED",
+      "fatherCaseRequired": false,
+      "bloodlineProofRequired": false
+    }
+  },
+  "aliases": [
+    {
+      "id": "OLIVIA",
+      "existingName": "奧莉薇雅",
+      "sourceName": "奧莉維亞",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "SHALIA",
+      "existingName": "莎莉雅",
+      "sourceName": "莎莉亞",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "TAMARA",
+      "existingName": "塔娜拉",
+      "sourceName": "塔瑪拉",
+      "status": "REVIEW_REQUIRED"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "QUESTION_01",
+      "summary": "五幕制是否確定為三個主線選項幕加一個可含選項的支線幕；序幕與EP12是否維持例外。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 294
+      }
+    },
+    {
+      "id": "QUESTION_02",
+      "summary": "尼爾斯與卡拉的具體關係、奧莉維亞知情來源，以及身分揭露的代價。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 295
+      }
+    },
+    {
+      "id": "QUESTION_03",
+      "summary": "A≥4是否鎖定；前期里程碑是否讓正史入口過度嚴格。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 296
+      }
+    },
+    {
+      "id": "QUESTION_04",
+      "summary": "初始值已確認：政治點數 50、動盪 30。仍待確認政治點數上限、消耗不足與歸零規則，以及舊 PS45 門檻是否廢除或重訂。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 297
+      }
+    },
+    {
+      "id": "QUESTION_05",
+      "summary": "動盪增加及下降的具體來源、幅度與扣點不足處理；EP12開局扣點例外是否確認。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 298
+      }
+    },
+    {
+      "id": "QUESTION_06",
+      "summary": "EP06至EP08事件量與EP10支線密度是否適合預定篇幅；五幕不等於每幕固定三場。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 299
+      }
+    },
+    {
+      "id": "QUESTION_07",
+      "summary": "EP01至EP03與原稿逐場對照，EP08章名及瑟維恩資料核對，既有姓名異拼另立對照。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 300
+      }
+    },
+    {
+      "id": "QUESTION_08",
+      "summary": "v6.1 Canon原件仍需補齊核對；本稿依已讀v2.1及本次對話最新決議整理，不宣稱全文校勘完成。",
+      "source": {
+        "file": "planning/source-v0.1.md",
+        "line": 301
+      }
+    }
+  ]
+}

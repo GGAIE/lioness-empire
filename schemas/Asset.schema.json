@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "cg",
+        "background",
+        "bgm",
+        "sfx"
+      ]
+    },
+    "src": {
+      "type": "string",
+      "pattern": "^assets\\/[a-zA-Z0-9_./-]+$"
+    },
+    "label": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PLACEHOLDER",
+        "APPROVED"
+      ]
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "src",
+    "label",
+    "status",
+    "source"
+  ],
+  "additionalProperties": false,
+  "title": "Asset"
+}

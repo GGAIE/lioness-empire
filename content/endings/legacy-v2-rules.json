@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "ARCANA_06",
+    "title": "被寫回條約",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 10,
+    "when": {
+      "path": "flags.EARLY_PS_ZERO",
+      "op": "eq",
+      "value": true
+    },
+    "reason": "Tower 生存段之前政治存續歸零；需由歷史事件設定旗標。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_13",
+    "title": "女王沒有明天",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 20,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "TOWER"
+        },
+        {
+          "path": "clear.tamara",
+          "op": "eq",
+          "value": 0
+        }
+      ]
+    },
+    "reason": "Tower 塔娜拉支柱為零，硬失敗優先。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_01",
+    "title": "好啦，我們都不是主角啦",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 30,
+    "when": {
+      "any": [
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "eq",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "eq",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "eq",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.finley",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "eq",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.finley",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "eq",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.tamara",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "eq",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "至少兩個核心支柱未建立。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_00",
+    "title": "沒有名字的旅人",
+    "orientation": "UPRIGHT",
+    "grade": "GOOD",
+    "status": "DRAFT",
+    "priority": 40,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "TOWER"
+        },
+        {
+          "path": "clear.tamara",
+          "op": "gt",
+          "value": 0
+        },
+        {
+          "path": "flags.DRAGON_EMPRESS_TRUCE",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "path": "flags.KNIGHT_COUNCIL_READY",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "path": "flags.OLIVIA_SURRENDER_OFFER",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "path": "flags.FINAL_PEACE_TREATY_SIGNED",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "reason": "愚者和平條約及騎士共治已成立。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_STAR_ALINDA",
+    "title": "天空聖者",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 50,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "STAR：芬利 ≥6，alinda 恰為唯一缺席的支柱。對應牌 17 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_STAR_TAMARA",
+    "title": "幽影危機",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 51,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.tamara",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "STAR：芬利 ≥6，tamara 恰為唯一缺席的支柱。對應牌 19 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_STAR_SHALIA",
+    "title": "遺落的聖光",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 52,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.shalia",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "STAR：芬利 ≥6，shalia 恰為唯一缺席的支柱。對應牌 5 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_CHARIOT_ALINDA",
+    "title": "墮落者綱要",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 53,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "CHARIOT"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "CHARIOT：芬利 ≥6，alinda 恰為唯一缺席的支柱。對應牌 11 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_CHARIOT_TAMARA",
+    "title": "第四倡議",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 54,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "CHARIOT"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.tamara",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "CHARIOT：芬利 ≥6，tamara 恰為唯一缺席的支柱。對應牌 4 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_CHARIOT_SHALIA",
+    "title": "大陸議會",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 55,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "CHARIOT"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.shalia",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "CHARIOT：芬利 ≥6，shalia 恰為唯一缺席的支柱。對應牌 21 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_TOWER_ALINDA",
+    "title": "第七決議案",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 56,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "TOWER"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "TOWER：芬利 ≥6，alinda 恰為唯一缺席的支柱。對應牌 16 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "REVERSED_TOWER_SHALIA",
+    "title": "死靈之歌",
+    "orientation": "REVERSED",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 57,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "TOWER"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 6
+        },
+        {
+          "all": [
+            {
+              "path": "clear.shalia",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "TOWER：芬利 ≥6，shalia 恰為唯一缺席的支柱。對應牌 13 逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_09",
+    "title": "最後一個知道的人",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 70,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "all": [
+            {
+              "path": "clear.finley",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "學院支柱未建立。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_20",
+    "title": "所有名字都回來了",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 71,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "path": "clear.finley",
+          "op": "lt",
+          "value": 6
+        }
+      ]
+    },
+    "reason": "邊境支柱未建立且無逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_19",
+    "title": "最明亮的位置",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 72,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "all": [
+            {
+              "path": "clear.tamara",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.shalia",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "path": "clear.finley",
+          "op": "lt",
+          "value": 6
+        }
+      ]
+    },
+    "reason": "執行支柱未建立且無逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_10",
+    "title": "輪到別人",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 73,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "all": [
+            {
+              "path": "clear.shalia",
+              "op": "eq",
+              "value": 0
+            },
+            {
+              "path": "clear.alinda",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.finley",
+              "op": "gt",
+              "value": 0
+            },
+            {
+              "path": "clear.tamara",
+              "op": "gt",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "path": "clear.finley",
+          "op": "lt",
+          "value": 6
+        }
+      ]
+    },
+    "reason": "地方支柱未建立且無逆位。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_17",
+    "title": "看得見但到不了",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "UNRESOLVED",
+    "priority": 74,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "CHARIOT"
+        },
+        {
+          "any": [
+            {
+              "all": [
+                {
+                  "path": "clear.alinda",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.finley",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.tamara",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.shalia",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "path": "clear.finley",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.alinda",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.tamara",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.shalia",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "path": "clear.tamara",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.alinda",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.finley",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.shalia",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "path": "clear.shalia",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.alinda",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.finley",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.tamara",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "path": "flags.SUCCESSION_CONTEST",
+                  "op": "eq",
+                  "value": "LOST"
+                },
+                {
+                  "path": "flags.POLITICAL_CAPTIVITY",
+                  "op": "eq",
+                  "value": "FREE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "單支柱缺席入口；LOST 但仍自由的分界需正式事件定案。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_16",
+    "title": "沒有王冠的人",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 75,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "TOWER"
+        },
+        {
+          "any": [
+            {
+              "all": [
+                {
+                  "path": "clear.alinda",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.finley",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.tamara",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.shalia",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "path": "clear.finley",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.alinda",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.tamara",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.shalia",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "path": "clear.tamara",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.alinda",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.finley",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.shalia",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "path": "clear.shalia",
+                  "op": "eq",
+                  "value": 0
+                },
+                {
+                  "path": "clear.alinda",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.finley",
+                  "op": "gt",
+                  "value": 0
+                },
+                {
+                  "path": "clear.tamara",
+                  "op": "gt",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "path": "flags.TOWER_SURVIVAL",
+              "op": "eq",
+              "value": "FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "Tower 單支柱缺席無逆位，或生存失敗。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_12",
+    "title": "被供奉的人",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "DRAFT",
+    "priority": 80,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "politicalScore",
+          "op": "lt",
+          "value": 45
+        }
+      ]
+    },
+    "reason": "Star 最終政治存續低於45。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_07",
+    "title": "失去韁繩",
+    "orientation": "UPRIGHT",
+    "grade": "BAD",
+    "status": "UNRESOLVED",
+    "priority": 81,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "CHARIOT"
+        },
+        {
+          "any": [
+            {
+              "path": "politicalScore",
+              "op": "lt",
+              "value": 45
+            },
+            {
+              "all": [
+                {
+                  "path": "flags.SUCCESSION_CONTEST",
+                  "op": "eq",
+                  "value": "LOST"
+                },
+                {
+                  "path": "flags.POLITICAL_CAPTIVITY",
+                  "op": "eq",
+                  "value": "CAPTIVE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "低政治存續入口可測；LOST 的拘束分界尚未定案。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_21",
+    "title": "國家不需要她",
+    "orientation": "UPRIGHT",
+    "grade": "STRUCTURAL",
+    "status": "DRAFT",
+    "priority": 90,
+    "when": {
+      "all": [
+        {
+          "path": "politicalScore",
+          "op": "gte",
+          "value": 45
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.alinda",
+              "op": "lte",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.finley",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.finley",
+              "op": "lte",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.tamara",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.tamara",
+              "op": "lte",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.shalia",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.shalia",
+              "op": "lte",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "四支柱全在1–2，政治存續至少45。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_11",
+    "title": "獅王編年史",
+    "orientation": "UPRIGHT",
+    "grade": "TRUE",
+    "status": "DRAFT",
+    "priority": 100,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "flags.HISTORY_POLICY",
+          "op": "eq",
+          "value": "PUBLISH"
+        },
+        {
+          "path": "flags.ARCHIVE_TRUTH_COMPLETE",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "path": "clear.alinda",
+          "op": "gte",
+          "value": 4
+        },
+        {
+          "path": "flags.ALINDA_TRUCE",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "path": "flags.CORONATION",
+          "op": "eq",
+          "value": "FORMAL"
+        },
+        {
+          "path": "flags.FINAL_AGREEMENT",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "reason": "XI 是第二部唯一正式承接結局；真相、停戰、加冕及最終協議全部成立。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_02",
+    "title": "沒有證人的王國",
+    "orientation": "UPRIGHT",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 101,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "flags.HISTORY_POLICY",
+          "op": "eq",
+          "value": "SEAL"
+        },
+        {
+          "path": "flags.ARCHIVE_TRUTH_COMPLETE",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "reason": "真相完整而封存。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_05",
+    "title": "歌頌者",
+    "orientation": "UPRIGHT",
+    "grade": "GOOD",
+    "status": "DRAFT",
+    "priority": 102,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "clear.tamara",
+          "op": "gt",
+          "value": 4
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.alinda",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.finley",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.finley",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.shalia",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.shalia",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "塔娜拉高完成度，其餘支柱1–4。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_03",
+    "title": "最後的聖母",
+    "orientation": "UPRIGHT",
+    "grade": "GOOD",
+    "status": "DRAFT",
+    "priority": 103,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "STAR"
+        },
+        {
+          "path": "clear.shalia",
+          "op": "gt",
+          "value": 4
+        },
+        {
+          "all": [
+            {
+              "path": "clear.alinda",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.alinda",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.finley",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.finley",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "all": [
+            {
+              "path": "clear.tamara",
+              "op": "gte",
+              "value": 1
+            },
+            {
+              "path": "clear.tamara",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "莎莉雅高完成度，其餘支柱1–4。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_18",
+    "title": "月下異說",
+    "orientation": "UPRIGHT",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 104,
+    "when": {
+      "path": "tarotRoute",
+      "op": "eq",
+      "value": "STAR"
+    },
+    "reason": "Star 其他合法狀態。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_04",
+    "title": "世界理論",
+    "orientation": "UPRIGHT",
+    "grade": "GOOD",
+    "status": "DRAFT",
+    "priority": 110,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "CHARIOT"
+        },
+        {
+          "path": "flags.SUCCESSION_CONTEST",
+          "op": "eq",
+          "value": "WON"
+        },
+        {
+          "path": "clear.finley",
+          "op": "gte",
+          "value": 3
+        },
+        {
+          "path": "clear.tamara",
+          "op": "gte",
+          "value": 3
+        }
+      ]
+    },
+    "reason": "政爭勝出且芬利、塔娜拉至少3；須先通過共通門檻。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_15",
+    "title": "權力的鴆毒",
+    "orientation": "UPRIGHT",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 111,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "CHARIOT"
+        },
+        {
+          "any": [
+            {
+              "path": "flags.SUCCESSION_CONTEST",
+              "op": "eq",
+              "value": "WON"
+            },
+            {
+              "path": "flags.SUCCESSION_CONTEST",
+              "op": "eq",
+              "value": "COMPROMISE"
+            }
+          ]
+        }
+      ]
+    },
+    "reason": "勝出或妥協，未達皇帝條件。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_08",
+    "title": "光輝者",
+    "orientation": "UPRIGHT",
+    "grade": "GOOD",
+    "status": "DRAFT",
+    "priority": 120,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "TOWER"
+        },
+        {
+          "path": "clear.alinda",
+          "op": "gte",
+          "value": 4
+        },
+        {
+          "path": "flags.ALINDA_SAFE_HAVEN",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "reason": "艾琳達至少4且 Safe Haven 成立；完整生存 Gate 待事件核定。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  },
+  {
+    "id": "ARCANA_14",
+    "title": "最後守望",
+    "orientation": "UPRIGHT",
+    "grade": "NORMAL",
+    "status": "DRAFT",
+    "priority": 121,
+    "when": {
+      "all": [
+        {
+          "path": "tarotRoute",
+          "op": "eq",
+          "value": "TOWER"
+        },
+        {
+          "path": "clear.alinda",
+          "op": "gt",
+          "value": 0
+        },
+        {
+          "path": "flags.LATER_ASYLUM",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "reason": "尚有庇護，未達 Safe Haven 好結局。",
+    "source": "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  }
+]

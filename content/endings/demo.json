@@ -1,0 +1,17 @@
+[
+  {
+    "id": "DEMO_COMPLETE",
+    "title": "測試的終點",
+    "orientation": "UPRIGHT",
+    "grade": "NORMAL",
+    "status": "DEMO_ONLY",
+    "priority": 1,
+    "when": {
+      "path": "flags.DEMO_DONE",
+      "op": "eq",
+      "value": true
+    },
+    "reason": "DEMO_ONLY 狀態與分支驗證完成；不屬於正式三十結局。",
+    "source": "工程測試"
+  }
+]

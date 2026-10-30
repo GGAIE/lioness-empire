@@ -1,0 +1,105 @@
+{
+  "source": "content/sources/ep01/source-act01-v0.3.md",
+  "sourceSha256": "db0bfa49dd583064a0a243d5eb029f6bfd022e81422ade3d969a58576e9f876d",
+  "status": "DRAFT",
+  "scenes": 5,
+  "segments": 143,
+  "choices": 0,
+  "scoring": "NONE",
+  "images": [
+    {
+      "id": "EP01-ACT01-CG01-01",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC01_IMG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3283470,
+      "sha256": "a56d127a0a94d3c24e0dcea11bfd481dfc53ecbd065eacf16ed57fe0f3378828"
+    },
+    {
+      "id": "EP01-ACT01-CG01-02",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC01_IMG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2635345,
+      "sha256": "4a92eae5efecbbbe2175754953b3ed447d0a5eb234a2432bdd259ee442b7268e"
+    },
+    {
+      "id": "EP01-ACT01-CG02-01",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC02_IMG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2720738,
+      "sha256": "ccd90352da9404c5a1db79b513763cf47955c165e64c73146d69b3b4e5af0f8b"
+    },
+    {
+      "id": "EP01-ACT01-CG02-02",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC02_IMG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2778312,
+      "sha256": "c4fb16cf69685d1ed6fb44b202ed947848a6bca41f9dec5e27de150da2119a27"
+    },
+    {
+      "id": "EP01-ACT01-CG03-01",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC03_IMG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2313735,
+      "sha256": "a2d1c2e946c0f7cb999a6650b4a8ae1798344f461f8f290176f02e887690f72f"
+    },
+    {
+      "id": "EP01-ACT01-CG03-02",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC03_IMG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2503093,
+      "sha256": "4042847b4349d67d9a2fa6bcf10f184ebfbfa70b40bf19e5a31872f6523d9e1f"
+    },
+    {
+      "id": "EP01-ACT01-CG04-01",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC04_IMG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2651474,
+      "sha256": "66ca1068f4e03ca7cecbfa7892e05f7ad84f4e8173ddf4c4bfc7472fdeb4154f"
+    },
+    {
+      "id": "EP01-ACT01-CG04-02",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC04_IMG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2462505,
+      "sha256": "25f4e59400637d99f8cf290e045d956cac7b6998fa60b4e73d5186f98945131a"
+    },
+    {
+      "id": "EP01-ACT01-CG04-03",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC04_IMG03_v0.3.png",
+      "width": 1671,
+      "height": 941,
+      "bytes": 2666880,
+      "sha256": "a6eab37e4f4595435d05af1ec5d9bc6db51ca6551fef101e04779dd5ce7340ac"
+    },
+    {
+      "id": "EP01-ACT01-CG05-01",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC05_IMG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2594167,
+      "sha256": "e8e174a370b4acae4024aa102bcc305b0c4ef92394d363e2d2ec0f231088d35b"
+    },
+    {
+      "id": "EP01-ACT01-CG05-02",
+      "path": "assets/cg/ep01/act01/LE_CG_EP01_ACT01_SC05_IMG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2497117,
+      "sha256": "293a349ad557e79c091602850a1d60b637876770848129c6532b3fa155850e9c"
+    }
+  ],
+  "notes": [
+    "僅 ACT I，ACT II 尚未提供；第一幕結束不標記整章讀完、不結算整章",
+    "正文逐段保留；CG 提示詞、場景結果及文書創作說明留在來源或製作註記，不作對白",
+    "原規劃 EP01 章名為「從魔法學院召回」；遊戲採用本次劇本標題「王冠之前」，不覆寫原規劃來源",
+    "未提供音訊，未加入臆造配樂或音效"
+  ]
+}

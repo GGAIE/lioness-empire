@@ -1,0 +1,8 @@
+{
+  "id": "EP04_ACT01_SC01", "chapter": "EP04", "act": "ACT01",
+  "title": "替換為核准場景標題", "pov": "OLIVIA", "cast": ["OLIVIA"], "planNodeId":"EP04_ACT01",
+  "kind": "narrative", "status": "CANON", "source": "填寫核准原稿／版本／位置", "version": "1.0.0",
+  "knowledge": {"knows": ["填寫當下已知事項"], "withheld": ["填寫不能提前得知的資訊"]},
+  "segments": [{"id": "L001", "text": "替換為核准文字"}],
+  "choices": [], "next": "EP04_ACT01_SC02"
+}

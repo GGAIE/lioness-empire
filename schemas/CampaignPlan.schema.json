@@ -1,0 +1,749 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "const": "PART_I"
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "const": "PLANNING_DRAFT"
+    },
+    "choiceResolution": {
+      "default": "AUTHORED_FIXED",
+      "type": "string",
+      "const": "AUTHORED_FIXED"
+    },
+    "decisions": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "actId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pov": {
+            "type": "string",
+            "const": "OLIVIA"
+          },
+          "options": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "PENDING",
+                    "APPROVED"
+                  ]
+                },
+                "cost": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "resourceGain": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "unrestDelta": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "text",
+                "status",
+                "cost",
+                "resourceGain",
+                "unrestDelta"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "actId",
+          "source",
+          "pov",
+          "options"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "pattern": "^planning\\/[A-Za-z0-9_.-]+\\.md$"
+        },
+        "sha256": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64
+        },
+        "version": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "file",
+        "sha256",
+        "version",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "chapters": {
+      "minItems": 13,
+      "maxItems": 13,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(PROLOGUE|EP(0[1-9]|1[0-2]))$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 12
+          },
+          "summary": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(PROLOGUE|EP(0[1-9]|1[0-2]))$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "availability": {
+            "type": "string",
+            "const": "NOT_YET_AVAILABLE"
+          },
+          "acts": {
+            "minItems": 1,
+            "maxItems": 5,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "number": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "label": {
+                  "type": "string"
+                },
+                "summary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "decision": {
+                  "type": "string",
+                  "enum": [
+                    "NONE",
+                    "MAIN_SLOT",
+                    "SIDE_SLOT"
+                  ]
+                },
+                "authoringStatus": {
+                  "type": "string",
+                  "const": "NOT_AUTHORED"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "file": {
+                      "type": "string",
+                      "pattern": "^planning\\/[A-Za-z0-9_.-]+\\.md$"
+                    },
+                    "line": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "file",
+                    "line"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "id",
+                "number",
+                "label",
+                "summary",
+                "decision",
+                "authoringStatus",
+                "source"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "file": {
+                "type": "string",
+                "pattern": "^planning\\/[A-Za-z0-9_.-]+\\.md$"
+              },
+              "line": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "file",
+              "line"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "order",
+          "summary",
+          "notes",
+          "next",
+          "availability",
+          "acts",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "events": {
+      "minItems": 24,
+      "maxItems": 24,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[ASTF][1-8]$"
+          },
+          "character": {
+            "type": "string",
+            "enum": [
+              "alinda",
+              "shalia",
+              "tamara",
+              "finley"
+            ]
+          },
+          "sourceName": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "chapters": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^(PROLOGUE|EP(0[1-9]|1[0-2]))$"
+            }
+          },
+          "parts": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "chapter": {
+                  "type": "string",
+                  "pattern": "^(PROLOGUE|EP(0[1-9]|1[0-2]))$"
+                },
+                "actId": {
+                  "type": "string"
+                },
+                "clearAward": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "chapter",
+                "actId",
+                "clearAward"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "entryStatus": {
+            "type": "string",
+            "enum": [
+              "PLANNED",
+              "UNRESOLVED"
+            ]
+          },
+          "entryNote": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "file": {
+                "type": "string",
+                "pattern": "^planning\\/[A-Za-z0-9_.-]+\\.md$"
+              },
+              "line": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "file",
+              "line"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "character",
+          "sourceName",
+          "title",
+          "chapters",
+          "parts",
+          "entryStatus",
+          "entryNote",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "resource": {
+          "type": "object",
+          "properties": {
+            "definition": {
+              "type": "string"
+            },
+            "initial": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "maximum": {
+              "type": "null"
+            },
+            "insufficient": {
+              "type": "string",
+              "const": "UNRESOLVED"
+            },
+            "zeroOutcome": {
+              "type": "string",
+              "const": "UNRESOLVED"
+            },
+            "bands": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "min": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "max": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 100
+                  },
+                  "cost": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "min",
+                  "max",
+                  "cost"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "prologue": {
+              "type": "string",
+              "const": "NO_SCORING"
+            },
+            "ep12": {
+              "type": "string",
+              "const": "UNRESOLVED"
+            }
+          },
+          "required": [
+            "definition",
+            "initial",
+            "maximum",
+            "insufficient",
+            "zeroOutcome",
+            "bands",
+            "prologue",
+            "ep12"
+          ],
+          "additionalProperties": false
+        },
+        "unrest": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": "number",
+              "const": 0
+            },
+            "max": {
+              "type": "number",
+              "const": 100
+            },
+            "initial": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "changes": {
+              "type": "string",
+              "const": "UNRESOLVED"
+            }
+          },
+          "required": [
+            "min",
+            "max",
+            "initial",
+            "changes"
+          ],
+          "additionalProperties": false
+        },
+        "clearCaps": {
+          "type": "object",
+          "properties": {
+            "alinda": {
+              "type": "number",
+              "const": 7
+            },
+            "finley": {
+              "type": "number",
+              "const": 10
+            },
+            "tamara": {
+              "type": "number",
+              "const": 6
+            },
+            "shalia": {
+              "type": "number",
+              "const": 6
+            }
+          },
+          "required": [
+            "alinda",
+            "finley",
+            "tamara",
+            "shalia"
+          ],
+          "additionalProperties": false
+        },
+        "alliance": {
+          "type": "object",
+          "properties": {
+            "chapter": {
+              "type": "string",
+              "const": "EP06"
+            },
+            "act": {
+              "type": "number",
+              "const": 3
+            }
+          },
+          "required": [
+            "chapter",
+            "act"
+          ],
+          "additionalProperties": false
+        },
+        "reinforcement": {
+          "type": "object",
+          "properties": {
+            "chapter": {
+              "type": "string",
+              "const": "EP09"
+            },
+            "act": {
+              "type": "number",
+              "const": 4
+            }
+          },
+          "required": [
+            "chapter",
+            "act"
+          ],
+          "additionalProperties": false
+        },
+        "xi": {
+          "type": "object",
+          "properties": {
+            "route": {
+              "type": "string",
+              "const": "STAR"
+            },
+            "requiredEvent": {
+              "type": "string",
+              "const": "A4"
+            },
+            "requiredFlags": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "label"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "commonGate": {
+              "type": "string",
+              "const": "UNRESOLVED"
+            },
+            "nielsEntry": {
+              "type": "string",
+              "const": "UNRESOLVED"
+            },
+            "fatherCaseRequired": {
+              "type": "boolean",
+              "const": false
+            },
+            "bloodlineProofRequired": {
+              "type": "boolean",
+              "const": false
+            }
+          },
+          "required": [
+            "route",
+            "requiredEvent",
+            "requiredFlags",
+            "commonGate",
+            "nielsEntry",
+            "fatherCaseRequired",
+            "bloodlineProofRequired"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "resource",
+        "unrest",
+        "clearCaps",
+        "alliance",
+        "reinforcement",
+        "xi"
+      ],
+      "additionalProperties": false
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "existingName": {
+            "type": "string"
+          },
+          "sourceName": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "const": "REVIEW_REQUIRED"
+          }
+        },
+        "required": [
+          "id",
+          "existingName",
+          "sourceName",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "unresolved": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "file": {
+                "type": "string",
+                "pattern": "^planning\\/[A-Za-z0-9_.-]+\\.md$"
+              },
+              "line": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "file",
+              "line"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "summary",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "version",
+    "status",
+    "choiceResolution",
+    "decisions",
+    "source",
+    "chapters",
+    "events",
+    "rules",
+    "aliases",
+    "unresolved"
+  ],
+  "additionalProperties": false,
+  "title": "CampaignPlan"
+}

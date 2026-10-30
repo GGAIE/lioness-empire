@@ -1,0 +1,14 @@
+{
+  "version": "v2.0",
+  "date": "2026-10-28",
+  "sources": [
+    "00_專案入口/00_必讀_主參考聖經_v2.md",
+    "00_專案入口/01_結局Resolver與測試案例_v2.md（規則草案）"
+  ],
+  "status": "RULES_DRAFT",
+  "notes": [
+    "正式劇情尚未匯入",
+    "POLITICAL_CAPTIVITY 與 Tower 完整生存條件尚未核定",
+    "所有正式結局規則皆為 DRAFT 或 UNRESOLVED，不會自動頒發正式結局"
+  ]
+}

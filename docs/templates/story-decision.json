@@ -1,0 +1,16 @@
+{
+  "id": "EP04_MAIN01",
+  "actId": "EP04_ACT02",
+  "source": "填入核准劇本的檔名、版本與段落",
+  "pov": "OLIVIA",
+  "options": [
+    {
+      "id": "OPTION_A",
+      "text": "填入核准的固定選項文字",
+      "status": "PENDING",
+      "cost": null,
+      "resourceGain": null,
+      "unrestDelta": null
+    }
+  ]
+}

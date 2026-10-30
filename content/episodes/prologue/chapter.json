@@ -1,0 +1,2916 @@
+{
+  "schemaVersion": 1,
+  "id": "PROLOGUE",
+  "version": "0.6.0",
+  "status": "DRAFT",
+  "source": "使用者提供序幕 v0.6；原稿 DRAFT 標記保留，依本輪要求接入試演。",
+  "scenes": [
+    {
+      "id": "PRO-SC01",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "加冕之日",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA",
+        "PRO_ESCORT",
+        "PRO_CHILD",
+        "PRO_FATHER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 34,
+          "cue": "轉場",
+          "text": "車輪聲逐漸淡去，王宮外庭的衛兵號角響起。"
+        }
+      ],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC01",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "安度因的鐘聲，總是準時響起。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "至少在王都，人們一直努力維持這個習慣。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "今日的街道比往常熱鬧。"
+        },
+        {
+          "id": "L004",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王室的獅徽旗幟沿著大道依序垂掛，商販將攤位移到道路兩側。來自各地的貴族馬車陸續通過城門，衛兵則忙著將人群引導到警戒線後方。"
+        },
+        {
+          "id": "L005",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "今天，安度因將迎來一位新的君主。"
+        },
+        {
+          "id": "L006",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達・瓦肯坐在馬車裡，望著窗外逐漸接近的王宮。"
+        },
+        {
+          "id": "L007",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "道路忽然慢了下來。"
+        },
+        {
+          "id": "L008",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "車輪輾過石板，發出一聲短促的摩擦，隨後停住。"
+        },
+        {
+          "id": "L009",
+          "speaker": "PRO_ESCORT",
+          "speakerLabel": "隨行騎士",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大人，前方正在進行典禮管制。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「出了什麼事？」"
+        },
+        {
+          "id": "L011",
+          "speaker": "PRO_ESCORT",
+          "speakerLabel": "隨行騎士",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「幾輛運送物資的馬車還沒通過。衛兵正在清空大道。」"
+        },
+        {
+          "id": "L012",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達掀起車簾。"
+        },
+        {
+          "id": "L013",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一輛滿載麻袋的貨車停在路邊。趕車的老人正與衛兵交涉，後方幾輛車排成了不短的隊伍。"
+        },
+        {
+          "id": "L014",
+          "speaker": "PRO_ESCORT",
+          "speakerLabel": "隨行騎士",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「需要我出示第六團的通行令嗎？」"
+        },
+        {
+          "id": "L015",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不必。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們又不是趕著去救火。」"
+        },
+        {
+          "id": "L017",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "騎士愣了一下。"
+        },
+        {
+          "id": "L018",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「讓他們先把事情處理完。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「順便問問，那些貨車什麼時候能放行。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "PRO_ESCORT",
+          "speakerLabel": "隨行騎士",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是。」"
+        },
+        {
+          "id": "L021",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "騎士下車後，艾琳達重新望向街道。"
+        },
+        {
+          "id": "L022",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "人群正朝王宮的方向聚集。"
+        },
+        {
+          "id": "L023",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有人興奮地談論即將開始的典禮，有人只是想趁著今天多賣幾袋麵包。"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一個孩子騎在父親肩上，努力想看清遠處的王宮。"
+        },
+        {
+          "id": "L025",
+          "speaker": "PRO_CHILD",
+          "speakerLabel": "孩子",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「爸爸，女王會從那裡出來嗎？」"
+        },
+        {
+          "id": "L026",
+          "speaker": "PRO_FATHER",
+          "speakerLabel": "父親",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「等鐘聲再響，就能看見了吧。」"
+        },
+        {
+          "id": "L027",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達微微一笑。"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她並不知道那個父親是否真的清楚今日的儀式安排。"
+        },
+        {
+          "id": "L029",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但對孩子而言，這大概已經足夠。"
+        },
+        {
+          "id": "L030",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「對他們來說，今天應該是值得高興的日子。」"
+        },
+        {
+          "id": "L031",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "隨行騎士返回，稟報貨車將在儀式隊伍通過後恢復通行。"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達點頭，放下車簾。"
+        },
+        {
+          "id": "L033",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "馬車重新前進。"
+        },
+        {
+          "id": "L034",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮的尖塔在晨光中越來越清晰。"
+        }
+      ],
+      "choices": [],
+      "next": "PRO-SC02",
+      "cg": "PRO-CG01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    },
+    {
+      "id": "PRO-SC02",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "領主的席位",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA",
+        "PRO_PROTOCOL",
+        "KARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC02",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮外庭已經停滿了馬車。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "各地騎士團的旗幟在晨風中展開，穿著不同制服的隨從、家臣與禮儀官來回穿梭。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達剛走下馬車，一名禮儀官便迎了上來。"
+        },
+        {
+          "id": "L004",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「艾琳達・瓦萊麗亞・瓦肯大人。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第六騎士團統領，卡巴剛得領主。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「歡迎您出席今日的登基典禮。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「辛苦了。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「您的席位已經安排妥當。依照典禮規定，隨行武裝必須暫時交由王宮保管。」"
+        },
+        {
+          "id": "L009",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達解下佩劍，交給身旁的隨從。"
+        },
+        {
+          "id": "L010",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她沒有特別要求破例。"
+        },
+        {
+          "id": "L011",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "今天在這裡，每位領主都必須接受同樣的儀式規範。"
+        },
+        {
+          "id": "L012",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「請在此核對您的領地與見證身分。」"
+        },
+        {
+          "id": "L013",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她接過登記簿，確認自己的名字與印記位置。"
+        },
+        {
+          "id": "L014",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "就在這時，一道熟悉的聲音從側後方傳來。"
+        },
+        {
+          "id": "L015",
+          "speaker": "KARA",
+          "speakerLabel": "卡拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第六團今天來得倒是準時。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「卡拉。」"
+        },
+        {
+          "id": "L017",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第九騎士團的卡拉站在不遠處，正將自己的披風交給隨從。"
+        },
+        {
+          "id": "L018",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她的臉上帶著一點旅途的倦色。"
+        },
+        {
+          "id": "L019",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳們那邊的道路還好嗎？」"
+        },
+        {
+          "id": "L020",
+          "speaker": "KARA",
+          "speakerLabel": "卡拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「能走。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "KARA",
+          "speakerLabel": "卡拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「只是要把『順利抵達』當作好消息，恐怕還早了一點。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「東邊又出問題了？」"
+        },
+        {
+          "id": "L023",
+          "speaker": "KARA",
+          "speakerLabel": "卡拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「沒有什麼值得在今天說的。」"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "卡拉朝登記廳裡忙碌的禮儀官看了一眼。"
+        },
+        {
+          "id": "L025",
+          "speaker": "KARA",
+          "speakerLabel": "卡拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少今天，所有人的注意力都不在道路上。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「等典禮結束，該看的還是得看。」"
+        },
+        {
+          "id": "L027",
+          "speaker": "KARA",
+          "speakerLabel": "卡拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「希望如此。」"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人交換了簡短的禮節，便各自前往指定的入口。"
+        },
+        {
+          "id": "L029",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達沿著長廊前進。"
+        },
+        {
+          "id": "L030",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "牆上懸掛著歷代王室的紋章，腳下的石板被無數代領主與騎士磨得光滑。"
+        },
+        {
+          "id": "L031",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她並不是第一次來到這裡。"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但每一次走進王宮，都會再次意識到一件事。"
+        },
+        {
+          "id": "L033",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「在這裡，每個人都有自己的位置。」"
+        },
+        {
+          "id": "L034",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「至於能不能坐得安穩……」"
+        },
+        {
+          "id": "L035",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她沒有繼續想下去。"
+        },
+        {
+          "id": "L036",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "前方的大門已經打開。"
+        }
+      ],
+      "choices": [],
+      "next": "PRO-SC03",
+      "cg": "PRO-CG02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    },
+    {
+      "id": "PRO-SC03",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "王國的秩序",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA",
+        "PRO_PROTOCOL",
+        "PRO_NOBLE_A",
+        "PRO_NOBLE_B",
+        "PRO_ATTENDANT"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 38,
+          "cue": "轉場",
+          "text": "大廳裡的談話聲逐漸遠去，側廊的腳步聲變得清晰。"
+        }
+      ],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC03",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮的登基大廳，比平日更加擁擠。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "幾乎所有重要的貴族與領主都已經到場。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "穹頂之下，王室獅徽懸掛於王座後方。穿著儀式鎧甲的近衛騎士分列兩側，聖光會的代表則在指定的見證席前低聲交談。"
+        },
+        {
+          "id": "L004",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "再遠一些，是皇家魔法學院的席位。"
+        },
+        {
+          "id": "L005",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達沿著禮儀官指引的方向走去。"
+        },
+        {
+          "id": "L006",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「瓦肯大人，您的位置在這裡。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「謝謝。」"
+        },
+        {
+          "id": "L008",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她在席位前稍作停留，沒有立即坐下。"
+        },
+        {
+          "id": "L009",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "從這個角度，可以清楚看見王座，以及兩側安排好的王室席位。"
+        },
+        {
+          "id": "L010",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "幾名貴族正在交談。"
+        },
+        {
+          "id": "L011",
+          "speaker": "PRO_NOBLE_A",
+          "speakerLabel": "貴族甲",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今年各領地的代表倒是到得齊全。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "PRO_NOBLE_B",
+          "speakerLabel": "貴族乙",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這種場合，總不好缺席。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "PRO_NOBLE_A",
+          "speakerLabel": "貴族甲",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那可不一定。」"
+        },
+        {
+          "id": "L014",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人交換了一個意味不明的眼神，隨即結束話題。"
+        },
+        {
+          "id": "L015",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達聽見了，卻沒有回頭。"
+        },
+        {
+          "id": "L016",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她知道王都的人有時喜歡在一句普通的問候中藏進三個意思。"
+        },
+        {
+          "id": "L017",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "而且往往還期待別人猜出第四個。"
+        },
+        {
+          "id": "L018",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "聖光會的代表向幾名領主致意。"
+        },
+        {
+          "id": "L019",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "其中一位領主起身，與對方談起領地中尚未完工的救濟設施。"
+        },
+        {
+          "id": "L020",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "另一邊，皇家魔法學院的代表正在與王國官署人員核對典禮使用的元素照明與通訊安排。"
+        },
+        {
+          "id": "L021",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "沒有人高聲爭執。"
+        },
+        {
+          "id": "L022",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "也沒有人顯得特別慌亂。"
+        },
+        {
+          "id": "L023",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「至少今天，大家都很有耐心。」"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她的目光又落向王室席位。"
+        },
+        {
+          "id": "L025",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那裡象徵的，不只是一個家族。"
+        },
+        {
+          "id": "L026",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "更是安度因長久以來被認為理所當然的繼承秩序。"
+        },
+        {
+          "id": "L027",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "然而今天的儀式，將由奧莉維亞站在王座之前。"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這件事本身已經足夠讓許多人重新衡量自己的位置。"
+        },
+        {
+          "id": "L029",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達並沒有試著替所有人猜測立場。"
+        },
+        {
+          "id": "L030",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她知道，有些領主與王室有婚姻關係，有些領地依賴學院的技術，有些人則更加重視聖光會的見證。"
+        },
+        {
+          "id": "L031",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "而更多人，同時與其中幾方有關。"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "只看他們今天坐在哪裡，並不能知道明天會支持誰。"
+        },
+        {
+          "id": "L033",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「不知道這場典禮結束後，又有多少事情得重新談一次。」"
+        },
+        {
+          "id": "L034",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一名侍從走近，向她行禮。"
+        },
+        {
+          "id": "L035",
+          "speaker": "PRO_ATTENDANT",
+          "speakerLabel": "侍從",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「瓦肯大人，第三騎士團的莎莉雅大人請問，您是否方便在儀式前與她見一面？」"
+        },
+        {
+          "id": "L036",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「當然。」"
+        },
+        {
+          "id": "L037",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達將尚未喝過的茶杯放回桌上。"
+        },
+        {
+          "id": "L038",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她起身，整理披風，朝大廳側廊走去。"
+        }
+      ],
+      "choices": [],
+      "next": "PRO-SC04",
+      "cg": "PRO-CG03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    },
+    {
+      "id": "PRO-SC04",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "未被說出口的事",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC04",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "西側迴廊比登基大廳安靜許多。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "陽光穿過高大的拱窗，落在石柱與長椅之間。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "莎莉雅站在窗邊，手中拿著一份折起的典禮程序。"
+        },
+        {
+          "id": "L004",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "看見艾琳達走近，她抬起頭。"
+        },
+        {
+          "id": "L005",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我還以為妳會比我更早到。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「路上有些交通管制。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天？」"
+        },
+        {
+          "id": "L008",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「正因為是今天。」"
+        },
+        {
+          "id": "L009",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "莎莉雅笑了。"
+        },
+        {
+          "id": "L010",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「也是。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「王都總有辦法在最需要道路暢通的日子，把所有道路都封起來。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少他們知道什麼時候要重新開放。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那已經比有些命令強多了。」"
+        },
+        {
+          "id": "L014",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達沒有忍住笑意。"
+        },
+        {
+          "id": "L015",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人並肩站在窗前。"
+        },
+        {
+          "id": "L016",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "遠處的王都街道依然熱鬧，載著賓客的馬車沿著廣場緩緩前進。"
+        },
+        {
+          "id": "L017",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「卡巴剛得最近怎麼樣？」"
+        },
+        {
+          "id": "L018",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還過得去。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「道路修復得差不多了，醫療站還缺一些人手。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第三團也差不多。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我現在最怕聽到的，就是有人告訴我只需要『暫時調整』。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為通常不會只有暫時？」"
+        },
+        {
+          "id": "L023",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為他們從來不會告訴我，什麼時候可以調整回來。」"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她說得很平靜。"
+        },
+        {
+          "id": "L025",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這不是一場抱怨大會。"
+        },
+        {
+          "id": "L026",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人都知道，軍需、糧食、道路與地方治理永遠不可能毫無衝突。"
+        },
+        {
+          "id": "L027",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "問題從來不是有沒有命令。"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "而是命令發出以後，有沒有足夠的人與資源去完成。"
+        },
+        {
+          "id": "L029",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天之後，王都應該又會有很多事情要我們配合。」"
+        },
+        {
+          "id": "L030",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天之前也沒少過。」"
+        },
+        {
+          "id": "L031",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以我才說，又。」"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人相視一笑。"
+        },
+        {
+          "id": "L033",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "片刻之後，莎莉雅收起笑意，望向登基大廳的方向。"
+        },
+        {
+          "id": "L034",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳覺得呢？」"
+        },
+        {
+          "id": "L035",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「什麼？」"
+        },
+        {
+          "id": "L036",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天的事。」"
+        },
+        {
+          "id": "L037",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達知道她問的不是典禮準備得如何。"
+        },
+        {
+          "id": "L038",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她稍微思索了一會兒。"
+        },
+        {
+          "id": "L039",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「儀式還沒開始。」"
+        },
+        {
+          "id": "L040",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這可不像妳平常會給的答案。」"
+        },
+        {
+          "id": "L041",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那妳想聽什麼？」"
+        },
+        {
+          "id": "L042",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我也不知道。」"
+        },
+        {
+          "id": "L043",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "莎莉雅重新望向窗外。"
+        },
+        {
+          "id": "L044",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「或許只是想知道，接下來會不會比以前好一點。」"
+        },
+        {
+          "id": "L045",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那要看妳說的『好』是什麼。」"
+        },
+        {
+          "id": "L046",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「少一點臨時命令。」"
+        },
+        {
+          "id": "L047",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這個恐怕有點困難。」"
+        },
+        {
+          "id": "L048",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「少一點王都替我們決定地方能承受什麼。」"
+        },
+        {
+          "id": "L049",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這個倒是可以談。」"
+        },
+        {
+          "id": "L050",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那麼至少還有希望。」"
+        },
+        {
+          "id": "L051",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "遠處傳來第一聲儀式鐘響。"
+        },
+        {
+          "id": "L052",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人同時轉頭。"
+        },
+        {
+          "id": "L053",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "廊道另一端，禮儀官正通知各位領主返回大廳。"
+        },
+        {
+          "id": "L054",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「走吧。」"
+        },
+        {
+          "id": "L055",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天可不能讓新王等我們。」"
+        },
+        {
+          "id": "L056",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳剛剛不是還在抱怨王都？」"
+        },
+        {
+          "id": "L057",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「抱怨歸抱怨。」"
+        },
+        {
+          "id": "L058",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉雅",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「禮數還是要有的。」"
+        },
+        {
+          "id": "L059",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達跟著笑了起來。"
+        },
+        {
+          "id": "L060",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人沿著迴廊返回大廳。"
+        },
+        {
+          "id": "L061",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第二聲鐘響傳來。"
+        },
+        {
+          "id": "L062",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳內的交談聲逐漸停止。"
+        },
+        {
+          "id": "L063",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "遠處的儀式官已經站上台階。"
+        },
+        {
+          "id": "L064",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「今天之後，應該真的會有很多事情改變吧。」"
+        },
+        {
+          "id": "L065",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第三聲鐘響。"
+        },
+        {
+          "id": "L066",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮的大門緩緩打開。"
+        },
+        {
+          "id": "L067",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "所有人的目光，轉向同一個方向。"
+        }
+      ],
+      "choices": [],
+      "next": "PRO-SC05",
+      "cg": "PRO-CG04",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    },
+    {
+      "id": "PRO-SC05",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "奧莉維亞",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA",
+        "PRO_PROTOCOL"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 33,
+          "cue": "轉場",
+          "text": "樂聲逐漸降低，只剩下儀式官的宣讀聲。"
+        }
+      ],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC05",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第三聲鐘響落下。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "登基大廳內，最後幾句低聲交談也停止了。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩側的儀仗騎士將長槍收至胸前，槍柄整齊地敲擊地面。"
+        },
+        {
+          "id": "L004",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "沉重的大門緩緩開啟。"
+        },
+        {
+          "id": "L005",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「恭迎奧莉維亞・艾蕾諾爾・德安杜旺斯殿下。」"
+        },
+        {
+          "id": "L006",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "所有人起身。"
+        },
+        {
+          "id": "L007",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達也隨眾人站直身體，將右手輕放在胸前，行了一個符合領主身分的禮。"
+        },
+        {
+          "id": "L008",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她抬起頭。"
+        },
+        {
+          "id": "L009",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞出現在大廳另一端。"
+        },
+        {
+          "id": "L010",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "深藍近黑的長髮沿著肩背垂落，深海軍藍與象牙色的禮裝上點綴著古金色紋飾。"
+        },
+        {
+          "id": "L011",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她沒有急著向人群致意。"
+        },
+        {
+          "id": "L012",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "只是按照儀式規定的步伐，沿著中央大道向前走去。"
+        },
+        {
+          "id": "L013",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達並不是第一次見到奧莉維亞。"
+        },
+        {
+          "id": "L014",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她也不是第一次看見這位王女走進一個擠滿貴族的房間。"
+        },
+        {
+          "id": "L015",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但今天有些不同。"
+        },
+        {
+          "id": "L016",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "沒有官員在她身旁呈遞待簽署的文書。"
+        },
+        {
+          "id": "L017",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "沒有傳令兵帶來需要立刻處置的問題。"
+        },
+        {
+          "id": "L018",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "也沒有任何人能以「只是暫時安排」的名義，將今天正在發生的事輕輕帶過。"
+        },
+        {
+          "id": "L019",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「平常總是在忙的人，今天倒是終於有機會好好走完一條路了。」"
+        },
+        {
+          "id": "L020",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞經過騎士團席位。"
+        },
+        {
+          "id": "L021",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她沒有停下腳步，但目光曾短暫掃過兩側。"
+        },
+        {
+          "id": "L022",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達不確定她是否看見自己。"
+        },
+        {
+          "id": "L023",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那並不重要。"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她今日站在這裡，不是為了得到王女的特別問候。"
+        },
+        {
+          "id": "L025",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮的樂隊開始奏起莊嚴的旋律。"
+        },
+        {
+          "id": "L026",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞逐漸接近王座前的階梯。"
+        },
+        {
+          "id": "L027",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "幾名聖光會見證者低下頭。"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "學院代表停止交談。"
+        },
+        {
+          "id": "L029",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "原本分散在不同席位的注意力，終於集中在同一個人身上。"
+        },
+        {
+          "id": "L030",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「原來，所有人安靜下來的時候，是這個樣子。」"
+        },
+        {
+          "id": "L031",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞停在王座前。"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她沒有坐下。"
+        },
+        {
+          "id": "L033",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式官向前一步，展開手中的典禮文書。"
+        }
+      ],
+      "choices": [],
+      "next": "PRO-SC06",
+      "cg": "PRO-CG05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    },
+    {
+      "id": "PRO-SC06",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "王冠與誓言",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA",
+        "PRO_CEREMONY",
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC06",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式官的聲音在大廳中迴盪。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王室的血統、法律、承認與責任，依照古老的程序被逐項宣讀。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那些話語並不陌生。"
+        },
+        {
+          "id": "L004",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "在座的許多人，早已在不同場合聽過類似的誓言。"
+        },
+        {
+          "id": "L005",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "騎士就任時，需要宣誓。"
+        },
+        {
+          "id": "L006",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "領主承繼土地時，需要宣誓。"
+        },
+        {
+          "id": "L007",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "軍隊接受旗幟與指揮權時，同樣需要宣誓。"
+        },
+        {
+          "id": "L008",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「王權所承擔者，不僅為王室之尊榮。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「亦為法律之維繫、疆土之守護，以及臣民所託付之責任。」"
+        },
+        {
+          "id": "L010",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達靜靜聽著。"
+        },
+        {
+          "id": "L011",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她想起自己繼承第六騎士團職責的時候。"
+        },
+        {
+          "id": "L012",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那天也有許多人在場。"
+        },
+        {
+          "id": "L013",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有人祝賀，有人向她保證支持，有人早已準備好第一份需要她簽署的文件。"
+        },
+        {
+          "id": "L014",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "至於誓言本身，真正困難的部分，從來不在宣讀的那一天。"
+        },
+        {
+          "id": "L015",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「說出口很容易。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「之後的每一天，才是麻煩的地方。」"
+        },
+        {
+          "id": "L017",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式官轉向奧莉維亞。"
+        },
+        {
+          "id": "L018",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「奧莉維亞殿下。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「您是否願意承擔安度因王權所賦予的一切義務，維護王國的法律、疆土與人民？」"
+        },
+        {
+          "id": "L020",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞抬起頭。"
+        },
+        {
+          "id": "L021",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我願意。」"
+        },
+        {
+          "id": "L022",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她的回答清晰而平穩。"
+        },
+        {
+          "id": "L023",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "沒有多餘的修飾。"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式官繼續宣讀下一段誓詞。"
+        },
+        {
+          "id": "L025",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達注意到，站在王座前的奧莉維亞沒有顯得特別激動。"
+        },
+        {
+          "id": "L026",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但她也沒有因此覺得對方毫無感情。"
+        },
+        {
+          "id": "L027",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有些人在緊張時會說很多話。"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有些人則會把所有該說的話，都留到真正需要的時候。"
+        },
+        {
+          "id": "L029",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "聖光會見證者依照儀式向前一步。"
+        },
+        {
+          "id": "L030",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王國官署代表與領主見證席也完成相應的禮節。"
+        },
+        {
+          "id": "L031",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這是一場由許多制度共同完成的典禮。"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達不認為自己只是在看一個人接受權力。"
+        },
+        {
+          "id": "L033",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "至少在她眼中，還有許多人正在確認：從今天開始，誰必須為什麼事情負責。"
+        },
+        {
+          "id": "L034",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「希望那些今天點頭的人，明天也還記得自己答應了什麼。」"
+        },
+        {
+          "id": "L035",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式官合上文書。"
+        },
+        {
+          "id": "L036",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳再次安靜下來。"
+        },
+        {
+          "id": "L037",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "最後的王權承認程序，即將開始。"
+        }
+      ],
+      "choices": [],
+      "next": "PRO-SC07",
+      "cg": "PRO-CG06",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    },
+    {
+      "id": "PRO-SC07",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "母獅登基",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA",
+        "PRO_CEREMONY",
+        "PRO_HERALD"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 47,
+          "cue": "轉場",
+          "text": "樂聲持續。"
+        },
+        {
+          "beforeSegment": 47,
+          "cue": "轉場",
+          "text": "鏡頭不再跟隨儀式，而是停留在艾琳達望向王座的視線上。"
+        }
+      ],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC07",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮內的鐘聲再次響起。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式官退至一旁，將中央的位置留給奧莉維亞。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王座兩側，王國的禮儀官、聖光會見證者，以及依法出席的王國代表，依序完成最後的確認。"
+        },
+        {
+          "id": "L004",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那是一套延續了許多代的程序。"
+        },
+        {
+          "id": "L005",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "它曾被用來見證王權的繼承，也曾被用來確認王國的延續。"
+        },
+        {
+          "id": "L006",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「諸位領主、騎士、官署及安度因的見證者。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「王權的承認程序，至此完成。」"
+        },
+        {
+          "id": "L008",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達站在第六騎士團的席位前。"
+        },
+        {
+          "id": "L009",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她看見王座前的奧莉維亞微微低下頭，接受最後的王室禮儀。"
+        },
+        {
+          "id": "L010",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳裡沒有任何人移動。"
+        },
+        {
+          "id": "L011",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "所有人都在等待。"
+        },
+        {
+          "id": "L012",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "片刻之後，儀式官重新面向眾人。"
+        },
+        {
+          "id": "L013",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「自今日起——」"
+        },
+        {
+          "id": "L014",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「奧莉維亞・艾蕾諾爾・德安杜旺斯，承繼安度因王權。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「願王國的法律受到維護。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「願王國的人民得到庇護。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "PRO_CEREMONY",
+          "speakerLabel": "儀式官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「願所有承擔責任之人，不忘今日所立之誓。」"
+        },
+        {
+          "id": "L018",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式長杖敲擊地面。"
+        },
+        {
+          "id": "L019",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第一聲。"
+        },
+        {
+          "id": "L020",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第二聲。"
+        },
+        {
+          "id": "L021",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第三聲。"
+        },
+        {
+          "id": "L022",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳兩側的儀仗騎士同時行禮。"
+        },
+        {
+          "id": "L023",
+          "speaker": "PRO_HERALD",
+          "speakerLabel": "儀仗官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「向安度因女王致敬！」"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮的樂聲隨之響起。"
+        },
+        {
+          "id": "L025",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "領主們依照儀式向新王致意。"
+        },
+        {
+          "id": "L026",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達也低下頭。"
+        },
+        {
+          "id": "L027",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這不是第一次有人要求她向王室宣誓或行禮。"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但她知道，從現在開始，王國所有需要王權承認的事務，都將指向站在前方的那個人。"
+        },
+        {
+          "id": "L029",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她抬起頭。"
+        },
+        {
+          "id": "L030",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞仍然站在王座前。"
+        },
+        {
+          "id": "L031",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "隔著大廳的距離，艾琳達看不清她臉上每一個細微的表情。"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但她看見奧莉維亞轉身，面向那張原本不屬於她的王座。"
+        },
+        {
+          "id": "L033",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "短暫停頓後，她依照儀式坐下。"
+        },
+        {
+          "id": "L034",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "樂聲在穹頂下迴盪。"
+        },
+        {
+          "id": "L035",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳裡的人們再次行禮。"
+        },
+        {
+          "id": "L036",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "安度因有了一位新的女王。"
+        },
+        {
+          "id": "L037",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「陛下。」"
+        },
+        {
+          "id": "L038",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她在心中試著使用這個新的稱呼。"
+        },
+        {
+          "id": "L039",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "其實沒有那麼難。"
+        },
+        {
+          "id": "L040",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "只是比起稱呼的變化，她更清楚另一件事。"
+        },
+        {
+          "id": "L041",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "等到今天的典禮結束，自己仍然要回到卡巴剛得。"
+        },
+        {
+          "id": "L042",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "領地的道路仍要維修。"
+        },
+        {
+          "id": "L043",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "醫療站仍然需要人手。"
+        },
+        {
+          "id": "L044",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第六騎士團的兵員、馬匹與補給，也不會因為新王登基而自動增加。"
+        },
+        {
+          "id": "L045",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「明天開始，大家都還有得忙呢。」"
+        },
+        {
+          "id": "L046",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她看向王座上的奧莉維亞。"
+        },
+        {
+          "id": "L047",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這一次，沒有再移開視線。"
+        }
+      ],
+      "choices": [],
+      "next": "PRO-SC08",
+      "cg": "PRO-CG07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    },
+    {
+      "id": "PRO-SC08",
+      "chapter": "PROLOGUE",
+      "act": "ACT01",
+      "title": "故事尚未開始",
+      "pov": "ALINDA",
+      "cast": [
+        "ALINDA"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "CUTSCENE",
+      "scoring": "NONE",
+      "completion": {
+        "title": "序幕完",
+        "nextChapterId": "EP01",
+        "policy": "NO_SCORING",
+        "nextSceneId": "EP01_ACT01_SC01"
+      },
+      "directions": [
+        {
+          "beforeSegment": 47,
+          "cue": "畫面漸黑",
+          "text": ""
+        },
+        {
+          "beforeSegment": 53,
+          "cue": "音效",
+          "text": "遠處的學院鐘聲。"
+        },
+        {
+          "beforeSegment": 53,
+          "cue": "音效",
+          "text": "翻動書頁的細微聲響。"
+        },
+        {
+          "beforeSegment": 53,
+          "cue": "音效",
+          "text": "走廊裡逐漸接近的腳步聲。"
+        }
+      ],
+      "source": "sources/prologue/source-v0.6.md #PRO-SC08",
+      "version": "0.6.0",
+      "planNodeId": "PROLOGUE_ACT01",
+      "knowledge": {
+        "knows": [
+          "以艾琳達在現場的觀察與原稿所載回憶為限"
+        ],
+        "withheld": [
+          "未曾接觸的秘密及 EP11 路線回收尚未確認"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "典禮仍在繼續。"
+        },
+        {
+          "id": "L002",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "儀式官開始依序宣讀接下來的覲見安排。"
+        },
+        {
+          "id": "L003",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王室近衛重新調整位置，幾名官署人員則已經走向側門，準備處理典禮結束後的行政事務。"
+        },
+        {
+          "id": "L004",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一切都井然有序。"
+        },
+        {
+          "id": "L005",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "至少看起來如此。"
+        },
+        {
+          "id": "L006",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達站在原處。"
+        },
+        {
+          "id": "L007",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她看見莎莉雅正在與另一位領主交換簡短的問候。"
+        },
+        {
+          "id": "L008",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "卡拉已經重新整理好披風。"
+        },
+        {
+          "id": "L009",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "遠處的學院代表也在低聲確認某些安排。"
+        },
+        {
+          "id": "L010",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大家很快就要回到自己的事情裡去。"
+        },
+        {
+          "id": "L011",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "而奧莉維亞，仍然坐在王座之上。"
+        },
+        {
+          "id": "L012",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「現在回頭想想……」"
+        },
+        {
+          "id": "L013",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她記得自己第一次認識這位王女時，對方還沒有今日的身分。"
+        },
+        {
+          "id": "L014",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那時的奧莉維亞，並不是所有人目光的中心。"
+        },
+        {
+          "id": "L015",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "安度因有自己的國王。"
+        },
+        {
+          "id": "L016",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有受到法律承認的王儲。"
+        },
+        {
+          "id": "L017",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有一套看似完整的制度，以及許多理所當然會由別人處理的事。"
+        },
+        {
+          "id": "L018",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "如果在那個時候，有人告訴她，未來將由奧莉維亞坐上王座——"
+        },
+        {
+          "id": "L019",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達想了想。"
+        },
+        {
+          "id": "L020",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「我大概會先問，他是不是把人認錯了吧。」"
+        },
+        {
+          "id": "L021",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這個念頭讓她嘴角微微上揚。"
+        },
+        {
+          "id": "L022",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "不過笑意很快便淡去了。"
+        },
+        {
+          "id": "L023",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "因為她也記得，這段時間並不是所有事情都值得發笑。"
+        },
+        {
+          "id": "L024",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有些問題直到今日仍然存在。"
+        },
+        {
+          "id": "L025",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有些承諾已經完成。"
+        },
+        {
+          "id": "L026",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "也有些承諾，還需要很長的時間才能知道結果。"
+        },
+        {
+          "id": "L027",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達重新望向奧莉維亞。"
+        },
+        {
+          "id": "L028",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她知道自己見過的事情。"
+        },
+        {
+          "id": "L029",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "也知道自己並沒有看見全部。"
+        },
+        {
+          "id": "L030",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "同樣一場危機，在王宮、邊境與普通人家裡，可能是三種完全不同的經歷。"
+        },
+        {
+          "id": "L031",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "而在今天的典禮上，所有那些不同的經歷，似乎都被收束進同一個名字。"
+        },
+        {
+          "id": "L032",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞。"
+        },
+        {
+          "id": "L033",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「究竟是從什麼時候開始的呢？」"
+        },
+        {
+          "id": "L034",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她試著回憶。"
+        },
+        {
+          "id": "L035",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "是某一份被送錯地方的命令？"
+        },
+        {
+          "id": "L036",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "是一場沒有及時結束的會議？"
+        },
+        {
+          "id": "L037",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "還是某個人第一次發現，原本應該處理問題的人，已經無法繼續承擔所有責任？"
+        },
+        {
+          "id": "L038",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她沒有答案。"
+        },
+        {
+          "id": "L039",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "至少沒有一個簡單的答案。"
+        },
+        {
+          "id": "L040",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王座上的奧莉維亞，正接受另一位王國代表的致意。"
+        },
+        {
+          "id": "L041",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達望著她。"
+        },
+        {
+          "id": "L042",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「不過，要說起這一切……」"
+        },
+        {
+          "id": "L043",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達・心聲",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「大概得從她還在學院的時候說起吧。」"
+        },
+        {
+          "id": "L044",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳中的樂聲慢慢遠去。"
+        },
+        {
+          "id": "L045",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "窗外的光線逐漸變得明亮。"
+        },
+        {
+          "id": "L046",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "人群的身影、王座、獅徽與高大的石柱，一點一點淡出。"
+        },
+        {
+          "id": "L047",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "最後，只留下遠處的鐘聲。"
+        },
+        {
+          "id": "L048",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "BLACK",
+          "text": "那時候，奧莉維亞還不是女王。"
+        },
+        {
+          "id": "L049",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "BLACK",
+          "text": "也不是攝政者。"
+        },
+        {
+          "id": "L050",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "BLACK",
+          "text": "她只是安杜旺斯王朝的一位王女。"
+        },
+        {
+          "id": "L051",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "BLACK",
+          "text": "而安度因，還沒有真正意識到自己即將面臨什麼。"
+        },
+        {
+          "id": "L052",
+          "speakerLabel": "轉場字幕",
+          "kind": "caption",
+          "visual": "BLACK",
+          "text": "數年前。"
+        },
+        {
+          "id": "L053",
+          "speakerLabel": "轉場字幕",
+          "kind": "caption",
+          "visual": "BLACK",
+          "text": "皇家魔法學院。"
+        },
+        {
+          "id": "L054",
+          "speakerLabel": "旁白",
+          "kind": "narration",
+          "visual": "BLACK",
+          "text": "一封來自王宮的召回命令，即將打斷奧莉維亞原本的生活。"
+        }
+      ],
+      "choices": [],
+      "cg": "PRO-CG08",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 900
+      }
+    }
+  ]
+}

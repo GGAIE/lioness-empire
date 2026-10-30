@@ -1,0 +1,189 @@
+{
+  "source": "content/sources/ep01/source-act03-v0.3.md",
+  "sourceSha256": "45e47957e553a48b80809f561e2aa8db0e2e27f11697e06414dd6b58483e507c",
+  "status": "DRAFT",
+  "sourceScenes": 5,
+  "playbackNodes": 17,
+  "segments": 188,
+  "choicePoints": 3,
+  "options": 9,
+  "choiceEffects": "NONE",
+  "completionFlags": {
+    "OLIVIA_AT_CAPITAL": true,
+    "FINLEY_AT_CAPITAL_AS_ACADEMY_LIAISON": true,
+    "KING_HEALTH_INITIAL_BRIEFING_RECEIVED": true,
+    "AIVIS_EASTERN_DUTY_CONFIRMED": true,
+    "ROYAL_RECORDS_PRELIMINARY_REVIEW": true,
+    "OLIVIA_REGENCY_AUTHORITY": false
+  },
+  "images": [
+    {
+      "id": "EP01-ACT03-CG01-01",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC01_CG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2983763,
+      "sha256": "2853fd8a70ffc8689e48321e8fad942b08ab6902b00ef5494857b5951423c2d6"
+    },
+    {
+      "id": "EP01-ACT03-CG01-02",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC01_CG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2837125,
+      "sha256": "e48e2f1df5a7724b71b8b5209c4067b8b48dfdf61b91a5858dc75268f8d6a28f"
+    },
+    {
+      "id": "EP01-ACT03-CG01-03",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC01_CG03_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2924073,
+      "sha256": "986a8cc8e1751c5fd42067b2aad1f9ccd984d18da5511b6820d95b329db5310b"
+    },
+    {
+      "id": "EP01-ACT03-CG01-04",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC01_CG04_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2838561,
+      "sha256": "7fe22a007428d480eda298395b535dcc7729a5fd12d439a2b50ff055e08e6734"
+    },
+    {
+      "id": "EP01-ACT03-CG02-01",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC02_CG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2798142,
+      "sha256": "4502215db0dfff091da4fcade61a3329fd0eee02fa18cd3099f37eecd2dd7500"
+    },
+    {
+      "id": "EP01-ACT03-CG02-02",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC02_CG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2564926,
+      "sha256": "fc26aaadf78f75c8500bc7c4f6f702772cfcfc98da68c6ac76f546825735acb2"
+    },
+    {
+      "id": "EP01-ACT03-CG02-03",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC02_CG03_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2415780,
+      "sha256": "3e553b346d6cb4256145c7a30672c59474b0ac633222e93af2064fc8bf22e69f"
+    },
+    {
+      "id": "EP01-ACT03-CG02-04",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC02_CG04_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2768890,
+      "sha256": "c9a4ff7a99e852b043234fe43f4ae6a9610132ab9d6125565e51c2b90d0c361e"
+    },
+    {
+      "id": "EP01-ACT03-CG03-01",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC03_CG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2934945,
+      "sha256": "e1277346ba5faf20685d79f6e4fdfc40a909fe1ecdbf06c532df4c61dd7cc488"
+    },
+    {
+      "id": "EP01-ACT03-CG03-02",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC03_CG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2803365,
+      "sha256": "fd9f7be1993c5194f7a24e213e6d992661eb88d669ae73ee383a895a980310f8"
+    },
+    {
+      "id": "EP01-ACT03-CG03-03",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC03_CG03_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2655564,
+      "sha256": "808f835f379a868105f0a58f2326c101dd11c23850b237d4083c53265b7ad7f1"
+    },
+    {
+      "id": "EP01-ACT03-CG03-04",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC03_CG04_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2801919,
+      "sha256": "ee0665a3476dcf978d11aebd40855b70b8ff67e67f884f87f4b24c23ec6fcd8f"
+    },
+    {
+      "id": "EP01-ACT03-CG04-01",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC04_CG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2698216,
+      "sha256": "acfdb7bf1e634dadfa8644e95e8fb6009c40a77d8346a5a9b349dd52ff7d28ce"
+    },
+    {
+      "id": "EP01-ACT03-CG04-02",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC04_CG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2735981,
+      "sha256": "8344698238446357552ccedaf81916cb2dfe6a9faaaad8bfa7a48d7be2ce7b18"
+    },
+    {
+      "id": "EP01-ACT03-CG04-03",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC04_CG03_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2660566,
+      "sha256": "403254c9cfbca4ec872ba12380a6f9d504677d79d8ef2d269dc6797f767c9a7a"
+    },
+    {
+      "id": "EP01-ACT03-CG04-04",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC04_CG04_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2666515,
+      "sha256": "26b6a7b525dac910c0fa9622e3922e676e34e3fc385ba08296204ca7e78a28bb"
+    },
+    {
+      "id": "EP01-ACT03-CG05-01",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC05_CG01_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2689965,
+      "sha256": "3dfb53609e435b0f4737a8f29cdbc2381debea329256740b7c861dc82bc864e8"
+    },
+    {
+      "id": "EP01-ACT03-CG05-02",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC05_CG02_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2713145,
+      "sha256": "8154e04110fc2b4579750879c060fbe7d0a1731afea34883458dc4d5f53fe7cb"
+    },
+    {
+      "id": "EP01-ACT03-CG05-03",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC05_CG03_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2635807,
+      "sha256": "8e29075131dcfd26838ede298fb2dc5e631030e1c5b6058e84a3b27c08ca3118"
+    },
+    {
+      "id": "EP01-ACT03-CG05-04",
+      "path": "assets/cg/ep01/act03/LE_EP01_ACT03_SC05_CG04_v0.3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2656814,
+      "sha256": "6fe2b2801c8807d8f1d7760722a8876d7b0811bc1579f0c191b4ecd9e435cc43"
+    }
+  ],
+  "notes": [
+    "CG依正文行內標記切換，三組回答共用各場第三張CG並匯回第四張CG",
+    "前幕優先工作方向保留，但本稿未提供額外提醒或調序正文，不臆造相關文字及優勢",
+    "只記錄對話選擇供存讀及重讀；不新增政治、動盪、CLEAR、路線或後續事件效果",
+    "正文幕尾六個事實旗標於最後字幕讀完時設定；王女沒有攝政授權",
+    "原稿標示提示詞待生成，但本輪已另附二十張PNG，依使用者要求使用原圖",
+    "幕末接ACT IV〈有限的責任〉暫名，尚未交付；不結算整章；未提供新音訊"
+  ]
+}

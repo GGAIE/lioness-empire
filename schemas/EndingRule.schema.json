@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "orientation": {
+      "type": "string",
+      "enum": [
+        "UPRIGHT",
+        "REVERSED"
+      ]
+    },
+    "grade": {
+      "type": "string",
+      "enum": [
+        "TRUE",
+        "GOOD",
+        "NORMAL",
+        "BAD",
+        "STRUCTURAL"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "APPROVED",
+        "DRAFT",
+        "UNRESOLVED",
+        "DEMO_ONLY"
+      ]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991
+    },
+    "when": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/__schema0"
+        }
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "orientation",
+    "grade",
+    "status",
+    "priority",
+    "reason",
+    "source"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "__schema0": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "all": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/__schema0"
+              }
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "any": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/__schema0"
+              }
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "not": {
+              "$ref": "#/definitions/__schema0"
+            }
+          },
+          "required": [
+            "not"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^(politicalRoute|tarotRoute|politicalScore|clear\\.(alinda|finley|tamara|shalia)|flags\\.[A-Z][A-Z0-9_]*)$"
+            },
+            "op": {
+              "type": "string",
+              "enum": [
+                "eq",
+                "ne",
+                "gt",
+                "gte",
+                "lt",
+                "lte",
+                "exists"
+              ]
+            },
+            "value": {
+              "type": [
+                "boolean",
+                "number",
+                "string"
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "op"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "title": "EndingRule"
+}

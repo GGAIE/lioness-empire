@@ -1,0 +1,81 @@
+{
+  "source": "content/sources/prologue/source-v0.6.md",
+  "sourceSha256": "cb685c8af3ed3c7f2426a57277476be77515d61440551951f3acdcf1c09962e4",
+  "status": "DRAFT",
+  "scenes": 8,
+  "segments": 346,
+  "choices": 0,
+  "scoring": "NONE",
+  "images": [
+    {
+      "id": "PRO-CG01",
+      "path": "assets/cg/prologue/PRO-CG01_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2789117,
+      "sha256": "b7f2fe51a8ec9244eacc4873cc4554debe726a1e4207dfdfd08dbee4aef156c2"
+    },
+    {
+      "id": "PRO-CG02",
+      "path": "assets/cg/prologue/PRO-CG02_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3013608,
+      "sha256": "af8c9edc3328adfa7943a445846f4db8d0a6e0946dc47c347cddbe9c37826164"
+    },
+    {
+      "id": "PRO-CG03",
+      "path": "assets/cg/prologue/PRO-CG03_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2720512,
+      "sha256": "9af975e0754f280fe3374a297ab6b341863533a5202bd70666f203521cc32f5f"
+    },
+    {
+      "id": "PRO-CG04",
+      "path": "assets/cg/prologue/PRO-CG04_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2471960,
+      "sha256": "92326ab88c1867f763a6ff43a2f1667e23bb77bf668e81eb526b8f9b28b0d6c1"
+    },
+    {
+      "id": "PRO-CG05",
+      "path": "assets/cg/prologue/PRO-CG05_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2466943,
+      "sha256": "e9bebb6239c414cb13667731e2a62d0c65e94faa2078732f7ee31bc36868fb20"
+    },
+    {
+      "id": "PRO-CG06",
+      "path": "assets/cg/prologue/PRO-CG06_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2503313,
+      "sha256": "8ffaa345a59d0e3833b2008877ab073aebb1b1966a6eb1b4696974c519d3e286"
+    },
+    {
+      "id": "PRO-CG07",
+      "path": "assets/cg/prologue/PRO-CG07_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2519569,
+      "sha256": "785dee6caca2777a50751aa34e4690ff1ed71659575c60e0034c6c7ca911c394"
+    },
+    {
+      "id": "PRO-CG08",
+      "path": "assets/cg/prologue/PRO-CG08_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2296953,
+      "sha256": "b1aa6148b4c3193d91ff9edf7997bb87ee9a45e3a5515d2ac24cfa0a7897d089"
+    }
+  ],
+  "notes": [
+    "圖片逐一核對 SC01–SC08，保留原始位元組",
+    "英語 CG 提示詞及製作註記不當成對白",
+    "未提供配樂與音效檔；音效指示保留為製作註記",
+    "結尾銜接已提供的 EP01 第一幕；不自動生成未提供內容"
+  ]
+}

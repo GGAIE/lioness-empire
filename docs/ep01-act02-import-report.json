@@ -1,0 +1,321 @@
+{
+  "source": "content/sources/ep01/source-act02-v0.2.md",
+  "sourceSha256": "654a4b28ee7059a9b86fb96b3aa2135234975e90883942805048fedc3637989b",
+  "status": "DRAFT",
+  "sourceScenes": 5,
+  "playbackNodes": 9,
+  "segments": 177,
+  "choicePoints": 1,
+  "options": 3,
+  "images": [
+    {
+      "id": "EP01-ACT02-CG01-01",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC01_01_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2619755,
+      "sha256": "1421a0cd8ee3f3c5cfa2901d2df6d8d13c40e6d97165ec5dff8588328f1ab549"
+    },
+    {
+      "id": "EP01-ACT02-CG01-02",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC01_02_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2592797,
+      "sha256": "ac177c18140c87d9c02633807ae8787df3341b31936d8453ea9ac01a16b16dec"
+    },
+    {
+      "id": "EP01-ACT02-CG01-03",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC01_03_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2724464,
+      "sha256": "36b820d1a168779453b57e63a8195a99f2bbd845c948a12a84fbc95bcceede8e"
+    },
+    {
+      "id": "EP01-ACT02-CG01-04",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC01_04_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2810771,
+      "sha256": "623e389166b6ef769ef7f2dd3413922278f096ab38c21ad59d3054610e0a2168"
+    },
+    {
+      "id": "EP01-ACT02-CG02-01",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC02_01_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3179896,
+      "sha256": "77188d675fc6e706b92ea7ed3f28905938cc83c7c94a7d0264ce3d6abc7552d5"
+    },
+    {
+      "id": "EP01-ACT02-CG02-02",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC02_02_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2824014,
+      "sha256": "fb4e2d0d5f75562dcf9c6f41db1b9d93d13e865b42cea41729586ee9e2c6434a"
+    },
+    {
+      "id": "EP01-ACT02-CG02-03",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC02_03_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2899319,
+      "sha256": "eec09651d6af5d264b6ff173524ad848f093751bcb60f1201546f83dfca05229"
+    },
+    {
+      "id": "EP01-ACT02-CG02-04",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC02_04_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2844791,
+      "sha256": "b57fc1f3c91c9bd9f23822a8b6269b7c092d664d1557fdb2494c69c3c4581cde"
+    },
+    {
+      "id": "EP01-ACT02-CG03-01",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC03_01_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3254169,
+      "sha256": "e0e56db5e46583bf3a275097d2de9fe8f51940f6bc0af76e27350b34ad3126d6"
+    },
+    {
+      "id": "EP01-ACT02-CG03-02",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC03_02_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3046733,
+      "sha256": "82b0aa34f1fa61d172dbd5bfc1a45e48e0d6da4f430a49b560bd624874f95b28"
+    },
+    {
+      "id": "EP01-ACT02-CG03-03",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC03_03_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2742960,
+      "sha256": "ee94e7202d02acb423498965662386202753d589e142d0b4f82be0cbc300bdf0"
+    },
+    {
+      "id": "EP01-ACT02-CG03-04",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC03_04_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2803344,
+      "sha256": "ddc58b5d6d165b17882761223d3d3065fd3e9652169c63b0b3dd78d91ca09527"
+    },
+    {
+      "id": "EP01-ACT02-CG04-01",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC04_01_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2299359,
+      "sha256": "61718c0db6b92c26ceca0ca9468a166791e1a64c59d291f95793bbbc2a33341c"
+    },
+    {
+      "id": "EP01-ACT02-CG04-02",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC04_02_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2653812,
+      "sha256": "2a466e6cbace050535cc43b3743223a4cd22d3d60721b27da82766a9ef227a9a"
+    },
+    {
+      "id": "EP01-ACT02-CG04-03",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC04_03_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2359548,
+      "sha256": "a4e2f4a18606ebbe7a101659649cfafa88ce26e9935865a4bb09cfd85b77f386"
+    },
+    {
+      "id": "EP01-ACT02-CG04-04",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC04_04_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2562980,
+      "sha256": "922cc1d8918e902a25806b0265f25a8e110426d8b681e8492cf4f75577400aed"
+    },
+    {
+      "id": "EP01-ACT02-CG05-01",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC05_01_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2778684,
+      "sha256": "c5df6945cfc276daca89f21b5dc0e1416ef37c68048fd78fad9d272a8e750d47"
+    },
+    {
+      "id": "EP01-ACT02-CG05-02",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC05_02_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2555939,
+      "sha256": "7cdefd5f8c74bd205cc3f7983abf4cb3a0368ed89d66b4f6e2f38f61a527166b"
+    },
+    {
+      "id": "EP01-ACT02-CG05-03",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC05_03_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3096336,
+      "sha256": "d8ae5736a1db64cb5db6c66ce1c9c6f53976fd39e3837c6d0803280fb32fc608"
+    },
+    {
+      "id": "EP01-ACT02-CG05-04",
+      "path": "assets/cg/ep01/act02/LE_CG_EP01_ACT02_SC05_04_v0.2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3128347,
+      "sha256": "f9311f55d3135547159b8e629cb22e8f0cd38c460d25c4822f2fdf321d776502"
+    }
+  ],
+  "cgCues": [
+    {
+      "sceneId": "EP01_ACT02_SC01",
+      "beforeSegment": 0,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG01-01｜依原稿插入位置配對正文",
+      "paragraph": "清晨的研究室，比平常更早亮起了燈。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC01",
+      "beforeSegment": 4,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG01-02｜依原稿插入位置配對正文",
+      "paragraph": "房門被推開，一個帶著外勤行囊與調查資料匣的人站在門口，先是看了看房內，接著又看了看門牌，像是在確認自己是不是走錯了地方。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC01",
+      "beforeSegment": 13,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG01-03｜依原稿插入位置配對正文",
+      "paragraph": "奧莉維亞把那封已拆開的信遞了過去。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC01",
+      "beforeSegment": 35,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG01-04｜依原稿插入位置配對正文",
+      "paragraph": "芬利把外地帶回來的資料袋打開，抽出捆好的記錄與測試圖板，坐到了桌邊。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC02",
+      "beforeSegment": 0,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG02-01｜依原稿插入位置配對正文",
+      "paragraph": "研究一旦被攤開，就不會允許情緒把所有問題暫時帶過。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC02",
+      "beforeSegment": 2,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG02-02｜依原稿插入位置配對正文",
+      "paragraph": "芬利把這次出差帶回來的資料一份份拆開。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC02",
+      "beforeSegment": 14,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG02-03｜依原稿插入位置配對正文",
+      "paragraph": "很快，新的問題浮了出來：哪些工作可以留在學院，哪些卻必須有人帶去王都處理？"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC02",
+      "beforeSegment": 26,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG02-04｜依原稿插入位置配對正文",
+      "paragraph": "「我可以接這一段。」"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03",
+      "beforeSegment": 0,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG03-01｜依原稿插入位置配對正文",
+      "paragraph": "研究不可能在一個上午內就被重新安排完。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03",
+      "beforeSegment": 4,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG03-02｜依原稿插入位置配對正文",
+      "paragraph": "「如果妳回去之後，第一件事就被別人決定了，後面的安排會全部被拖著走。」芬利說。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03",
+      "beforeSegment": 14,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG03-03｜依原稿插入位置配對正文",
+      "paragraph": "奧莉維亞看著眼前的三個方向，手指在桌面上輕敲了兩下。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03_COMMON",
+      "beforeSegment": 0,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG03-04｜選擇確立後的共同工作計畫",
+      "paragraph": "不論奧莉維亞選擇哪一條路，最終都會回到同一個現實：他們不是去王都觀光，而是去工作。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC04",
+      "beforeSegment": 0,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG04-01｜依原稿插入位置配對正文",
+      "paragraph": "午後的行政會談室比研究室安靜得多。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC04",
+      "beforeSegment": 8,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG04-02｜依原稿插入位置配對正文",
+      "paragraph": "法伊德沒有立刻反對。他翻看了幾頁初步整理好的資料清單，問的也不是「為什麼要讓芬利去」，而是更實際的問題。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC04",
+      "beforeSegment": 12,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG04-03｜依原稿插入位置配對正文",
+      "paragraph": "法伊德又問：「帶去王都的資料有哪些？回報頻率如何？留在學院的人手由誰主責？」"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC04",
+      "beforeSegment": 22,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG04-04｜依原稿插入位置配對正文",
+      "paragraph": "芬利接過那份核准文件時，沒有表現得太輕鬆。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC05",
+      "beforeSegment": 0,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG05-01｜依原稿插入位置配對正文",
+      "paragraph": "傍晚時，研究室終於有了要暫時封存的模樣。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC05",
+      "beforeSegment": 11,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG05-02｜依原稿插入位置配對正文",
+      "paragraph": "從研究室離開時，兩人都停了一下。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC05",
+      "beforeSegment": 13,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG05-03｜依原稿插入位置配對正文",
+      "paragraph": "次日一早，學院大門外已備好返都馬車。"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC05",
+      "beforeSegment": 27,
+      "cue": "CG",
+      "text": "EP01-ACT02-CG05-04｜依原稿插入位置配對正文",
+      "paragraph": "片刻後，車輪開始轉動。"
+    }
+  ],
+  "notes": [
+    "正文原樣保留；原稿分支僅播放所選的一段，再匯流",
+    "CG插入清單未含行內標記，依列出的事件配對正文錨點，報告保留對照",
+    "原稿未定義政治點數／動盪數值效果：保持既有資源，只記錄優先順序旗標",
+    "芬利本幕以研究夥伴登場不解鎖EP04正式支線事件、不加CLEAR、不提早揭露秘密",
+    "僅幕末待續，不結算整章；ACT III未提供；無新增音訊"
+  ]
+}
