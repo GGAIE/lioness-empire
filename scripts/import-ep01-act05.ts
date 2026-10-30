@@ -77,7 +77,8 @@ if (images.length !== 20 || new Set(images.map((s) => s.id)).size !== 20)
 const characters = (await readJson('characters/index.json')) as Record<string, string>;
 for (const [id, name] of Object.entries(roles)) characters[id] ??= name;
 const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
-manifest.version = '0.7.1-ep01-act05-v0.4-speakers';
+if (!manifest.chapters.some((c) => c.file && !['DEMO', 'PROLOGUE', 'EP01'].includes(c.id)))
+  manifest.version = '0.7.1-ep01-act05-v0.4-speakers';
 for (const key of Object.keys(act05CompletionFlags))
   manifest.flags[key] ??= { initial: false, description: `ACT V章末事實：${key}；不作選項獎懲。` };
 Object.assign(

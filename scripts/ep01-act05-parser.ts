@@ -190,7 +190,9 @@ export function parseEp01Act05(markdown: string): {
         title: '第一章完 · 王冠之前',
         nextChapterId: 'EP02',
         scope: 'CHAPTER',
-        pendingLabel: 'EP02 · 劇本尚未提供',
+        nextSceneId: 'EP02_ACT01_SC01',
+        nextLabel: 'EP02〈留下來的人〉· ACT I〈重新升起的王旗〉',
+        continueLabel: '進入 EP02 第一幕',
         policy: 'NO_SCORING',
       };
     } else common.next = `EP01_ACT05_SC${String(index + 2).padStart(2, '0')}`;

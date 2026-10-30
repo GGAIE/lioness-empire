@@ -1,5 +1,5 @@
 import type { GameState, Scene, Story } from './schema';
-import { clone, initialState, markRead, visibleSegments } from './engine';
+import { clone, initialState, markRead, visibleSegments, enterPlayerChapter } from './engine';
 
 export const actName = (number: number) =>
   ['第一幕', '第二幕', '第三幕', '第四幕', '第五幕'][number - 1] ?? `第${number}幕`;
@@ -95,20 +95,36 @@ export function navigableScenes(story: Story, state: GameState): Set<string> {
       if (chosen) visit(chosen.next);
     } else {
       if (scene.next) visit(scene.next);
-      if (scene.completion?.nextSceneId) visit(scene.completion.nextSceneId);
+      if (
+        scene.completion?.nextSceneId &&
+        (story.scenes[scene.completion.nextSceneId]?.chapter === scene.chapter ||
+          state.readChapters.includes(scene.chapter))
+      )
+        visit(scene.completion.nextSceneId);
     }
   };
   story.manifest.chapters
     .filter((c) => c.status !== 'DEMO_ONLY')
     .forEach((c) => {
-      if (c.entry) visit(c.entry);
+      if (!c.entry) return;
+      const planned = story.plan?.chapters.find((p) => p.id === c.id);
+      const previous = story.plan?.chapters.find((p) => p.order === (planned?.order ?? 0) - 1);
+      if (
+        !planned ||
+        planned.order <= 1 ||
+        state.campaign?.chapter === c.id ||
+        state.campaign?.upkeep.some((r) => r.chapter === c.id) ||
+        (previous && state.readChapters.includes(previous.id))
+      )
+        visit(c.entry);
     });
   return reached;
 }
 export function openDirectorySection(story: Story, state: GameState, id: string): GameState {
   if (!navigableScenes(story, state).has(id)) throw Error('請先完成前一小節的選擇。');
-  const n =
+  let n =
     story.scenes[state.currentSceneId].status === 'DEMO_ONLY' ? initialState(story) : clone(state);
+  n = enterPlayerChapter(story, n, story.scenes[id].chapter);
   n.currentSceneId = id;
   n.currentSegmentIndex = 0;
   if (n.campaign) {

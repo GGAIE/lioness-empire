@@ -830,5 +830,165 @@
     "label": "EP01-ACT05-CG05-03 · 今後該怎麼辦？",
     "status": "APPROVED",
     "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP02-ACT01-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG01_v0.9.png",
+    "label": "EP02-ACT01-CG01-01 · 晨鐘再響",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG02_v0.9.png",
+    "label": "EP02-ACT01-CG01-02 · 晨鐘再響",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG03_v0.9.png",
+    "label": "EP02-ACT01-CG01-03 · 晨鐘再響",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG04_v0.9.png",
+    "label": "EP02-ACT01-CG01-04 · 晨鐘再響",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG01_v0.9.png",
+    "label": "EP02-ACT01-CG02-01 · 換了主人的旗幟",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG02_v0.9.png",
+    "label": "EP02-ACT01-CG02-02 · 換了主人的旗幟",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG03_v0.9.png",
+    "label": "EP02-ACT01-CG02-03 · 換了主人的旗幟",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG04_v0.9.png",
+    "label": "EP02-ACT01-CG02-04 · 換了主人的旗幟",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG01_v0.9.png",
+    "label": "EP02-ACT01-CG03-01 · 瓦肯家的代理人",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG02_v0.9.png",
+    "label": "EP02-ACT01-CG03-02 · 瓦肯家的代理人",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG03_v0.9.png",
+    "label": "EP02-ACT01-CG03-03 · 瓦肯家的代理人",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG04_v0.9.png",
+    "label": "EP02-ACT01-CG03-04 · 瓦肯家的代理人",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG01_v0.9.png",
+    "label": "EP02-ACT01-CG04-01 · 勝利之前的帳單",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG02_v0.9-r2.png",
+    "label": "EP02-ACT01-CG04-02 · 勝利之前的帳單",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG03_v0.9.png",
+    "label": "EP02-ACT01-CG04-03 · 勝利之前的帳單",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG04_v0.9.png",
+    "label": "EP02-ACT01-CG04-04 · 勝利之前的帳單",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG01_v0.9.png",
+    "label": "EP02-ACT01-CG05-01 · 王座上的裁決",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG02_v0.9.png",
+    "label": "EP02-ACT01-CG05-02 · 王座上的裁決",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG03_v0.9.png",
+    "label": "EP02-ACT01-CG05-03 · 王座上的裁決",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT01-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG04_v0.9.png",
+    "label": "EP02-ACT01-CG05-04 · 王座上的裁決",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
   }
 ]

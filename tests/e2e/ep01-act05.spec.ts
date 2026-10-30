@@ -138,7 +138,7 @@ test('ACT V continues the prior act, reads twenty original CGs and five choices,
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
   await expect(notice).toHaveCount(0);
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第一章完 · 王冠之前');
-  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP02 · 劇本尚未提供');
+  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP02〈留下來的人〉');
   await expect(page.locator('.stage-blackout')).toHaveCSS('opacity', '1');
   await expect
     .poll(async () => {

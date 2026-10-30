@@ -1,0 +1,3606 @@
+{
+  "schemaVersion": 1,
+  "id": "EP02",
+  "version": "0.9.0",
+  "status": "DRAFT",
+  "source": "使用者提供EP02 ACT I v0.9新稿與20張CG；工作章名、DRAFT及SOURCE_REQUIRED保留，不覆蓋未提供的舊六幕正文。",
+  "scenes": [
+    {
+      "id": "EP02_ACT01_SC01",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "晨鐘再響",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG01-01｜大公主，起來了"
+        },
+        {
+          "beforeSegment": 17,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG01-02｜今天的行程比被子還厚"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC01",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王宮的晨鐘響過第一遍。",
+          "cg": "EP02-ACT01-CG01-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "簾幕只拉開一道窄縫，柔和的光落在地毯上。幾本學院帶回的研究筆記堆在寢室小桌，昨天晚上才歸位的資料匣又被放到椅旁。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞縮在被子裡，打定主意要把難得的好覺睡到自然醒。"
+        },
+        {
+          "id": "L004",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "門外先傳來兩聲規矩的輕敲。"
+        },
+        {
+          "id": "L005",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主，起來了。」"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "床上的人沒有動。"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "又過了幾秒。"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……再五分鐘。」"
+        },
+        {
+          "id": "L010",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利得到允許後走入外側起居區。他穿著平常的學院長袍，手中拿的不是侍從用的托盤，而是前一晚託人送來、今天早上又被加了幾頁的日程副本。"
+        },
+        {
+          "id": "L011",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳昨晚不是說，要換個比較好聽的說法？」"
+        },
+        {
+          "id": "L012",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……所以你換了嗎？」"
+        },
+        {
+          "id": "L013",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「換了。」"
+        },
+        {
+          "id": "L014",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞把被子拉高一寸。"
+        },
+        {
+          "id": "L015",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我沒聽出差別。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「昨天是『大公主，別睡了』。今天是『大公主，起來了』。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……真是驚人的進步。」"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利打開日程。",
+          "cg": "EP02-ACT01-CG01-02"
+        },
+        {
+          "id": "L019",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先說今天的安排。王儲殿下那邊，有一份軍務聯絡事項需要妳確認是否收到。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「找艾維斯……他是王儲。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「幾份地方送來的報告，宮廷事務官希望在午前知道妳是否願意閱覽。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「找事務官……本來就是他們的工作。」"
+        },
+        {
+          "id": "L023",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「幾位騎士團代表今天抵達王宮。內廷提醒妳，正式場合結束後可以安排問候。」"
+        },
+        {
+          "id": "L024",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……請他們喝茶。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「下午的王室接見名單需要確認，晚上還有可能追加的聚會安排。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……把晚上的我也一起請假。」"
+        },
+        {
+          "id": "L027",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利翻過一頁。"
+        },
+        {
+          "id": "L028",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還有，學院那邊的觀測副本已經送來。我打算午前先整理，妳醒了再看看。」"
+        },
+        {
+          "id": "L029",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞終於露出一點反應。"
+        },
+        {
+          "id": "L030",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這個……可以留下。」"
+        },
+        {
+          "id": "L031",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利望了她一眼。"
+        },
+        {
+          "id": "L032",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以妳其實有在聽。」"
+        },
+        {
+          "id": "L033",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「只聽值得起床的部分。」"
+        },
+        {
+          "id": "L034",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我還沒說完。」"
+        },
+        {
+          "id": "L035",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……今天到底有多少事？」"
+        },
+        {
+          "id": "L036",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利平靜地把最後一頁翻到前面。"
+        },
+        {
+          "id": "L037",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "對芬利的晨間報告？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「我可以先睡五分鐘，醒來再接受王宮的迫害嗎？」",
+          "next": "EP02_ACT01_SC01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「軍務找艾維斯，公文找官署，為什麼最後都找到我？」",
+          "next": "EP02_ACT01_SC01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「芬利，你是不是故意把麻煩事留到我睡覺時講？」",
+          "next": "EP02_ACT01_SC01_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP02-ACT01-CG01-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC01_A",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "晨鐘再響",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC01_A",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我可以先睡五分鐘，醒來再接受王宮的迫害嗎？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「五分鐘之後，事情也不會比較少。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少我會比較有精神面對它們。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「以妳現在的回答速度，我很懷疑。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC01_COMMON",
+      "cg": "EP02-ACT01-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC01_B",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "晨鐘再響",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC01_B",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「軍務找艾維斯，公文找官署，為什麼最後都找到我？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只是告訴妳有哪些人希望聯絡，沒有說那些責任已經變成妳的。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那很好。請把這句話寫大一點，掛在王宮門口。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我不是王宮的公告官。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC01_COMMON",
+      "cg": "EP02-ACT01-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC01_C",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "晨鐘再響",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC01_C",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「芬利，你是不是故意把麻煩事留到我睡覺時講？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳醒著的時候，會要求我依序報告。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那我現在要求你報告完就讓我睡。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還差最重要的一項。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC01_COMMON",
+      "cg": "EP02-ACT01-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC01_COMMON",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "晨鐘再響",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG01-03｜……早朝！？"
+        },
+        {
+          "beforeSegment": 25,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG01-04｜重新響起的晨鐘"
+        },
+        {
+          "beforeSegment": 41,
+          "cue": "製作註記",
+          "text": "場景結束狀態：奧莉維亞得知國王將親自主朝，立刻起身準備；芬利仍是學院外派合作者，而非新任內廷秘書。無數值與關係變動。"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC01_COMMON",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利看著日程最後一行。",
+          "cg": "EP02-ACT01-CG01-03"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「另外，今天早上有正式早朝。」"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞原本還閉著眼睛。"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……嗯。」"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "下一秒，她猛然坐起。"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「早朝！？」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "被子滑到腰際，披散的藍黑長髮亂成一片。她睜大的琥珀金眼睛裡，哪裡還有半分睡意。"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你說正式早朝？不是哥哥的軍議？也不是幾個大臣自己開的會？」"
+        },
+        {
+          "id": "L009",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是正式早朝。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「誰主持？」"
+        },
+        {
+          "id": "L011",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「陛下。」"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞愣了半拍。"
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……父王？」"
+        },
+        {
+          "id": "L014",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「內廷昨晚送來通知，陛下親自看過今天的議程。今早也再次確認，會由陛下主持。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「太醫呢？太醫允許？」"
+        },
+        {
+          "id": "L016",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「通知上說，已經完成健康評估。不過我沒有看見太醫院的原始紀錄，不能替他們保證。」"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞一把掀開被子。"
+        },
+        {
+          "id": "L018",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那你為什麼不早說！」"
+        },
+        {
+          "id": "L019",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我正在照順序說。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你前面說了一堆事！」"
+        },
+        {
+          "id": "L021",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳每一項都有回答。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我根本還沒醒！」"
+        },
+        {
+          "id": "L023",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利合起日程。"
+        },
+        {
+          "id": "L024",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「現在醒了。」"
+        },
+        {
+          "id": "L025",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞張了張嘴，發現這句話竟然無從反駁。"
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「衣服呢？正式禮服，快！」",
+          "cg": "EP02-ACT01-CG01-04"
+        },
+        {
+          "id": "L027",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「內廷已經備妥。妳還有時間梳洗。」"
+        },
+        {
+          "id": "L028",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我要先看朝會安排，還有父王今天預計出席多久。」"
+        },
+        {
+          "id": "L029",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「放在桌上了。那是公開行程，不是醫療紀錄。」"
+        },
+        {
+          "id": "L030",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞一邊快步走向盥洗間，一邊回頭。"
+        },
+        {
+          "id": "L031",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「芬利。」"
+        },
+        {
+          "id": "L032",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「嗯？」"
+        },
+        {
+          "id": "L033",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你早就知道，說早朝我一定會醒，是不是？」"
+        },
+        {
+          "id": "L034",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利想了想。"
+        },
+        {
+          "id": "L035",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只是發現，比起報告十五件事，這一件最有效。」"
+        },
+        {
+          "id": "L036",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……你這個人真是越來越可怕了。」"
+        },
+        {
+          "id": "L037",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我會把它當成對工作效率的肯定。」"
+        },
+        {
+          "id": "L038",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "畫面轉到王宮外。高塔間的晨鐘再次響起，侍從們抬起沉重的王旗，通往大朝會廳的長廊一扇扇敞開。"
+        },
+        {
+          "id": "L039",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞不再惦記自己的被子。"
+        },
+        {
+          "id": "L040",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "昨天的父王還坐在寢宮的窗邊，說打算逐步恢復朝政。今天，他竟然真的要站回王國的中心。"
+        },
+        {
+          "id": "L041",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她現在只想親眼看看。"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC02",
+      "cg": "EP02-ACT01-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC02",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "換了主人的旗幟",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ELVIR",
+        "AIVIS",
+        "SHALIA",
+        "TAMARA",
+        "COURT_HERALD",
+        "PRO_PROTOCOL",
+        "MILITARY_LIAISON"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG02-01｜王座前重新站滿了人"
+        },
+        {
+          "beforeSegment": 16,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG02-02｜熟悉的旗，不熟悉的人"
+        },
+        {
+          "beforeSegment": 26,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG02-03｜王都的統領"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC02",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞走進大朝會廳時，幾乎以為自己走錯了時辰。",
+          "cg": "EP02-ACT01-CG02-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳裡竟然已經站滿人。第一列是王室與中央官署代表，再往後，騎士團的旗幟沿著石柱一面面展開。晨光掠過旗尖，照出歲月留下的擦痕。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利沒有跟進王族席位。他按原定安排前往學院工作，臨別前只提醒奧莉維亞別忘了下午還有日程。"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我現在最擔心的不是下午。」她低聲答。"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾維斯站在王族席位前方，已換上正式軍禮服。他向妹妹點頭。"
+        },
+        {
+          "id": "L006",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「來得及。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我一聽見是父王主持，就沒敢再賴床。」"
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾維斯的唇角微微動了一下。"
+        },
+        {
+          "id": "L009",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那倒是難得。」"
+        },
+        {
+          "id": "L010",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "號令官敲響長杖。"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "所有人站定。艾爾維爾在侍從協助下進入，步伐不快，卻穩穩坐上王座。"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大廳安靜下來。"
+        },
+        {
+          "id": "L013",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王環視群臣，點了幾位承辦官的名字，又要求先依既定議程核對騎士團出席情況。聲音略啞，但問題清楚，沒有人需要替他猜測意思。"
+        },
+        {
+          "id": "L014",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞不自覺挺直了背。"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這不是昨日那場床邊的父女談話。"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "父王真的回來了。"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "唱名從王都直轄編制開始，接著輪到分封各地的領主與代表。",
+          "cg": "EP02-ACT01-CG02-02"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞很快察覺異樣：不少家徽她從小見過，站在旗幟下的人卻不再是記憶中的那位。"
+        },
+        {
+          "id": "L019",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "有些是因戰爭改由新世代掌管；有些只是原領主未能到場，派出具備正式授權的代表。朝會名冊把二者分得清清楚楚，不能一概當成「新的領主」。"
+        },
+        {
+          "id": "L020",
+          "speaker": "COURT_HERALD",
+          "speakerLabel": "號令官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第三騎士團，莎莉亞。」"
+        },
+        {
+          "id": "L021",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一名氣度穩健的女性走出列隊，向王座行禮。她身上有戰場留下的實用氣息，禮節卻一絲不苟。"
+        },
+        {
+          "id": "L022",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第三團的領地事務，已按上次王命完成彙整。」"
+        },
+        {
+          "id": "L023",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾爾維爾點頭，問她領地與現役部隊的回報是否已分開呈送。"
+        },
+        {
+          "id": "L024",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「已分開。領地與軍中所負的責任，不宜混作一份帳。」"
+        },
+        {
+          "id": "L025",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王示意書記記下。"
+        },
+        {
+          "id": "L026",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞認出她，也注意到：她如今是同時對領地與第三團負責的人，而不只是穿著甲冑來受命的騎士。"
+        },
+        {
+          "id": "L027",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "接著是第二騎士團。",
+          "cg": "EP02-ACT01-CG02-03"
+        },
+        {
+          "id": "L028",
+          "speaker": "COURT_HERALD",
+          "speakerLabel": "號令官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「塔瑪拉，第二騎士團統領。」"
+        },
+        {
+          "id": "L029",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔瑪拉上前致禮。她身上的衣飾偏向王都制式，語氣俐落，沒有多餘修辭。"
+        },
+        {
+          "id": "L030",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王問的是王都治安與城防輪值，而不是「妳的封地」。第二團是王都直轄編制，統領承擔的是城防職務，而非因職銜自然獲得領主土地。"
+        },
+        {
+          "id": "L031",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔瑪拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「城門值勤已按輪換表調整。戰後入城人數增加，我們會繼續與各門官核對。」"
+        },
+        {
+          "id": "L032",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有超出你們權限的事項，就依程序交還有權官署。」國王說。"
+        },
+        {
+          "id": "L033",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔瑪拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「遵命。」"
+        },
+        {
+          "id": "L034",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔瑪拉退回列隊時，恰好與奧莉維亞對上視線，露出一個克制的笑容。"
+        },
+        {
+          "id": "L035",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞也微微頷首。"
+        },
+        {
+          "id": "L036",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "朝會不是敘舊的地方，但她已經知道，今天過後有不少人想找她說話。"
+        },
+        {
+          "id": "L037",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "朝會上先留意什麼？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「那些新面孔，是從什麼時候開始站在旗幟下的？」",
+          "next": "EP02_ACT01_SC02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「我想先知道，各騎士團還剩多少人能履職。」",
+          "next": "EP02_ACT01_SC02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「先看父王怎麼問、怎麼答。」",
+          "next": "EP02_ACT01_SC02_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP02-ACT01-CG02-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC02_A",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "換了主人的旗幟",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ELVIR",
+        "AIVIS",
+        "SHALIA",
+        "TAMARA",
+        "COURT_HERALD",
+        "PRO_PROTOCOL",
+        "MILITARY_LIAISON"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC02_A",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那些新面孔，是從什麼時候開始站在旗幟下的？」"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞翻看可供王族席位核對的出席名冊，低聲向旁邊的禮儀官詢問。"
+        },
+        {
+          "id": "L003",
+          "speaker": "PRO_PROTOCOL",
+          "speakerLabel": "禮儀官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些是正式繼任，有些只是代理出席。詳細緣由仍須依各家呈文核對。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「明白。別把代理人和繼承人算成同一回事。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC02_COMMON",
+      "cg": "EP02-ACT01-CG02-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC02_B",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "換了主人的旗幟",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ELVIR",
+        "AIVIS",
+        "SHALIA",
+        "TAMARA",
+        "COURT_HERALD",
+        "PRO_PROTOCOL",
+        "MILITARY_LIAISON"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC02_B",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我想先知道，各騎士團還剩多少人能履職。」"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她向負責朝儀的軍務聯絡官詢問，得到的是已公布的概況，而不是完整兵力機密。"
+        },
+        {
+          "id": "L003",
+          "speaker": "MILITARY_LIAISON",
+          "speakerLabel": "軍務聯絡官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些隊伍已在復員，有些仍須維持東線與城防。數字需要分別查。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就先不要拿一個總數，假裝所有人都能被調動。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC02_COMMON",
+      "cg": "EP02-ACT01-CG02-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC02_C",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "換了主人的旗幟",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ELVIR",
+        "AIVIS",
+        "SHALIA",
+        "TAMARA",
+        "COURT_HERALD",
+        "PRO_PROTOCOL",
+        "MILITARY_LIAISON"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC02_C",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先看父王怎麼問、怎麼答。」"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞沒有急著查名冊，只留意國王是否記得各人的責任。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她看見父王數次要求把不同事項拆開，並將不屬於王座即席裁決的部分交還官署。"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（內心）",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "奧莉維亞心想：「他不是只記得名字。他還記得這個王國怎麼辦事。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC02_COMMON",
+      "cg": "EP02-ACT01-CG02-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC02_COMMON",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "換了主人的旗幟",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ELVIR",
+        "AIVIS",
+        "SHALIA",
+        "TAMARA",
+        "COURT_HERALD",
+        "PRO_PROTOCOL",
+        "MILITARY_LIAISON"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG02-04｜旗幟仍在，主人已換"
+        },
+        {
+          "beforeSegment": 6,
+          "cue": "製作註記",
+          "text": "場景結束狀態：莎莉亞、塔瑪拉以各自現任職務露面；尚無政治承諾、私人支線 CLEAR 或新增兵權。各具體領主換代原因 `SOURCE_REQUIRED`。"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC02_COMMON",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "唱名結束，大廳裡的旗幟重新歸於安靜。",
+          "cg": "EP02-ACT01-CG02-04"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞終於明白，自己離開的不是一座靜止的王宮。戰爭讓很多人失去原來的位置，也讓另一些人提前站到責任之前。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她曾經認識的人仍在，但彼此再見面時，不一定還能用舊日的身分相稱。"
+        },
+        {
+          "id": "L004",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王示意下一份呈報進行。"
+        },
+        {
+          "id": "L005",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第六騎士團。」"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞抬起頭。"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC03",
+      "cg": "EP02-ACT01-CG02-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC03",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "瓦肯家的代理人",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "ELVIR",
+        "COURT_HERALD",
+        "COURT_SCRIBE"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG03-01｜第六團的席位"
+        },
+        {
+          "beforeSegment": 10,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG03-02｜代理，不是繼承"
+        },
+        {
+          "beforeSegment": 18,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG03-03｜側廊裡的一句好久不見"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC03",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "COURT_HERALD",
+          "speakerLabel": "號令官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第六騎士團，瓦肯家代理代表——艾琳達。」",
+          "cg": "EP02-ACT01-CG03-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞望向出列的身影。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "淡灰金色的頭髮束成低馬尾，深海軍藍的儀式輕甲搭著旅行披風。她走到朝堂中央，向王座端正行禮。"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「艾琳達・瓦肯，奉家父格哈德之命，代表第六騎士團呈交本次報告。」"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞的目光不由得多停了一瞬。"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「艾琳達……」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她還記得這個名字，也記得那些比今天更久遠的日子。可眼前的人已經不是需要被別人帶著走完朝儀的年輕女孩。"
+        },
+        {
+          "id": "L008",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "艾爾維爾問：「格哈德沒有親自來？」"
+        },
+        {
+          "id": "L009",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「家父仍有領地與道路相關的公務，無法及時離開。他託我呈報，也請我轉達問安。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "國王點頭：「知道了。先把他的授權送交書記核對。」"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達將附有瓦肯家印記的授權文書交到書記手中。",
+          "cg": "EP02-ACT01-CG03-02"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "書記依程序核驗文件，再向王座示意：她可代呈報告、答覆授權範圍內的問題；涉及需要領主本人決定或另行承認的事項，仍須回報格哈德。"
+        },
+        {
+          "id": "L013",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "艾爾維爾說：「很好。朕只問妳這趟帶來的事，不要妳替父親承擔沒有授權的承諾。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「謝陛下。」"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達的答覆沒有半點遲疑。"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她概述了第六團目前需維持的防務，以及卡巴剛得正在處理的日常行政。細部數字已列在呈文中，尚須由主管官署核對；她不在朝堂上把未證實的缺口說成危機，更不為了引人注意而誇大地方困境。"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞聽得很專心。"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她並不知道卡巴剛得每一處道路、倉庫與醫療站的實情。這份呈報只是入口，不是讓她立即了解全部地方代價的捷徑。"
+        },
+        {
+          "id": "L019",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "朝會進入短暫的文件交接時段。",
+          "cg": "EP02-ACT01-CG03-03"
+        },
+        {
+          "id": "L020",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞走到王族席位旁的側廊，艾琳達正好在核對她要帶回去的文書副本。"
+        },
+        {
+          "id": "L021",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人對上目光。"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「艾琳達。」"
+        },
+        {
+          "id": "L023",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「奧莉維亞殿下。」"
+        },
+        {
+          "id": "L024",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好久不見。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「確實很久了。」"
+        },
+        {
+          "id": "L026",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達的微笑很淡，卻不是敷衍。只是她的手裡還捧著父親交代的正事，四周也都是正在辦公的人。"
+        },
+        {
+          "id": "L027",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天辛苦妳了。」奧莉維亞說。"
+        },
+        {
+          "id": "L028",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這是我應做的。家父也會高興知道殿下平安回到王都。」"
+        },
+        {
+          "id": "L029",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那句話讓奧莉維亞想起，她在王都之外的幾年，別人也有自己的生活。"
+        },
+        {
+          "id": "L030",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "要向艾琳達說什麼？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「格哈德大人近來還好嗎？」",
+          "next": "EP02_ACT01_SC03_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「第六團近來一定很忙吧？」",
+          "next": "EP02_ACT01_SC03_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「看到妳站在朝堂上，我差點沒有認出來。」",
+          "next": "EP02_ACT01_SC03_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP02-ACT01-CG03-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC03_A",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "瓦肯家的代理人",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "ELVIR",
+        "COURT_HERALD",
+        "COURT_SCRIBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC03_A",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「格哈德大人近來還好嗎？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「家父仍在處理公務，精神還好，只是最近不方便離開領地。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「請替我向他問安。朝會之外，不必特地為了禮節多跑一趟。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我會轉達。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC03_COMMON",
+      "cg": "EP02-ACT01-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC03_B",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "瓦肯家的代理人",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "ELVIR",
+        "COURT_HERALD",
+        "COURT_SCRIBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC03_B",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第六團近來一定很忙吧？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些事已經能按平時的方式辦理，有些還要配合戰後調整。這不是幾句話能說完的。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我明白。若之後有機會，我想聽妳慢慢說。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「等我把手上的差事辦完吧。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC03_COMMON",
+      "cg": "EP02-ACT01-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC03_C",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "瓦肯家的代理人",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "ELVIR",
+        "COURT_HERALD",
+        "COURT_SCRIBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC03_C",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「看到妳站在朝堂上，我差點沒有認出來。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "艾琳達失笑：「殿下也是。我記得妳從前比較常談學院，不太愛聽朝儀。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「現在也沒變。只是今天不得不來。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那我們都算是有不得不做的事。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC03_COMMON",
+      "cg": "EP02-ACT01-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC03_COMMON",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "瓦肯家的代理人",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "ELVIR",
+        "COURT_HERALD",
+        "COURT_SCRIBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG03-04｜各自帶著工作離開"
+        },
+        {
+          "beforeSegment": 9,
+          "cue": "製作註記",
+          "text": "場景結束狀態：艾琳達代理父親格哈德完成呈報；格哈德仍在世且保有領主權。未設定 A1、CLEAR、SAFE_HAVEN 或對父親未來遭遇的預知。十六歲回憶原稿安置 `SOURCE_REQUIRED`。"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC03_COMMON",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "朝堂內傳來下一段議程的提示聲。",
+          "cg": "EP02-ACT01-CG03-04"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達把文書重新放進資料匣。"
+        },
+        {
+          "id": "L003",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，失陪了。我還得把回報的程序走完。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「去吧。別為了陪我說話耽誤正事。」"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達致意後離開。"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞望著她走回負責人的位置，心中有點感慨，也有點安心。"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她們的重逢不需要在今天立刻變成什麼誓約或合作。認識一個人，和真正理解她正在承擔的責任，原本就是兩回事。"
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "朝會廳的聲音再度升起。"
+        },
+        {
+          "id": "L009",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "接下來，是戰事與國政。"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC04",
+      "cg": "EP02-ACT01-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC04",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "勝利之前的帳單",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS",
+        "ELVIR",
+        "MILITARY_OFFICER",
+        "LOCAL_DELEGATE",
+        "COURT_SCRIBE",
+        "MILITARY_LIAISON",
+        "LOCAL_CLERK",
+        "ROAD_OFFICER"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG04-01｜只剩東線還沒有結束"
+        },
+        {
+          "beforeSegment": 10,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG04-02｜每一份請求都是真的"
+        },
+        {
+          "beforeSegment": 20,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG04-03｜王儲沒有廉價的答案"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC04",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "軍政官將大幅東部地圖展在朝堂側架上。",
+          "cg": "EP02-ACT01-CG04-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王國與索爾瑪漫長的戰爭，已經逐步退去最激烈的鋒芒。多個地區的部隊開始整補，領地希望解除臨時徵發，讓人們返回原本的生活。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "可地圖東側的標記仍密集。"
+        },
+        {
+          "id": "L004",
+          "speaker": "MILITARY_OFFICER",
+          "speakerLabel": "軍政官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "軍政官說：「東線還在交戰。現有軍隊與運輸安排不能視作已經解除戰時狀態。」"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾維斯上前，指出前線某段運輸路徑仍須保持暢通。"
+        },
+        {
+          "id": "L006",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們可以按原定階段調整兵力，但不能把『部分地區不再交戰』誤當成『全部補給都能停下』。」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "他沒有戲劇性地拍桌，也沒有要求所有人盲從。每一項判斷都依既有軍報與可行的供應節奏作出。"
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王問了兩個關於時間和責任單位的問題。"
+        },
+        {
+          "id": "L009",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾維斯一一回答。"
+        },
+        {
+          "id": "L010",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞又一次確定，哥哥不是因為缺乏本事才要前往東線。正因他有能力、有法統，也懂那裡的責任，他才無法把它當成可以隨便交給別人的麻煩。"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "接下來的發言來自地方。",
+          "cg": "EP02-ACT01-CG04-02"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一位領主代表要求讓已停止作戰的士兵依序返鄉，好趕上農務；另一位指出道路受損，補給車若繼續優先通行，地方修繕材料就難按時送達。"
+        },
+        {
+          "id": "L013",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "中央官署則提醒：若軍需車隊被任意拆散，東線的供應將先一步失去保障。"
+        },
+        {
+          "id": "L014",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "沒有人說的完全沒有道理。"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞看見不同呈報在桌面上交疊：一份要求人手，一份要求車馬，一份要求糧食，一份要求時間。"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "每一份背後都是不同的人。"
+        },
+        {
+          "id": "L017",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "她小聲說：「原來勝利也這麼花錢。」"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "旁邊的書記似乎沒聽清。"
+        },
+        {
+          "id": "L019",
+          "speaker": "COURT_SCRIBE",
+          "speakerLabel": "書記",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下？」"
+        },
+        {
+          "id": "L020",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「沒事。我只是終於知道，為什麼大家看起來都沒準備慶祝。」"
+        },
+        {
+          "id": "L021",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾維斯重新檢視地圖。",
+          "cg": "EP02-ACT01-CG04-03"
+        },
+        {
+          "id": "L022",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我支持已經能安全復員的部隊依序返鄉。但必須先核對誰能離開、何時離開，以及誰接替仍在履行的守備。」"
+        },
+        {
+          "id": "L023",
+          "speaker": "LOCAL_DELEGATE",
+          "speakerLabel": "地方代表",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "一位地方代表追問：「那我們何時能得到確切日期？」"
+        },
+        {
+          "id": "L024",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「當你們的承辦官署與軍務部門把交接條件核實之後。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "LOCAL_DELEGATE",
+          "speakerLabel": "地方代表",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這不是一句容易向領民交代的話。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道。」艾維斯答，「所以才不能給一個做不到的日期。」"
+        },
+        {
+          "id": "L027",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王沒有替他掩蓋難處，只要求把軍用與民用運輸的衝突列為待核項目，稍後逐件檢視。"
+        },
+        {
+          "id": "L028",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞注意到父王的手按在扶手上，偶爾會停下休息，但他的追問始終落在事情最重要的地方。"
+        },
+        {
+          "id": "L029",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞想追問什麼？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「東線目前最不能中斷的是哪一項補給？」",
+          "next": "EP02_ACT01_SC04_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「已經不再作戰的人，為什麼還不能立即回家？」",
+          "next": "EP02_ACT01_SC04_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「如果軍隊和百姓都要走同一條路，誰決定先後？」",
+          "next": "EP02_ACT01_SC04_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP02-ACT01-CG04-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC04_A",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "勝利之前的帳單",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS",
+        "ELVIR",
+        "MILITARY_OFFICER",
+        "LOCAL_DELEGATE",
+        "COURT_SCRIBE",
+        "MILITARY_LIAISON",
+        "LOCAL_CLERK",
+        "ROAD_OFFICER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC04_A",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「東線目前最不能中斷的是哪一項補給？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "MILITARY_LIAISON",
+          "speakerLabel": "軍務聯絡官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「若只談今天的已核報告，運輸的連續性比單批物資數量更難替代。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以不是有糧就夠，還得有人能把它準時送到。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "MILITARY_LIAISON",
+          "speakerLabel": "軍務聯絡官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「正是如此。具體數量仍須看最新軍報。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC04_COMMON",
+      "cg": "EP02-ACT01-CG04-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC04_B",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "勝利之前的帳單",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS",
+        "ELVIR",
+        "MILITARY_OFFICER",
+        "LOCAL_DELEGATE",
+        "COURT_SCRIBE",
+        "MILITARY_LIAISON",
+        "LOCAL_CLERK",
+        "ROAD_OFFICER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC04_B",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「已經不再作戰的人，為什麼還不能立即回家？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "LOCAL_CLERK",
+          "speakerLabel": "地方承辦官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些人仍列在交接名冊裡。若一次放行，留守和替補會出現空檔。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「可拖得太久，家鄉又等不到人。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "LOCAL_CLERK",
+          "speakerLabel": "地方承辦官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以復員也得一批一批辦。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC04_COMMON",
+      "cg": "EP02-ACT01-CG04-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC04_C",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "勝利之前的帳單",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS",
+        "ELVIR",
+        "MILITARY_OFFICER",
+        "LOCAL_DELEGATE",
+        "COURT_SCRIBE",
+        "MILITARY_LIAISON",
+        "LOCAL_CLERK",
+        "ROAD_OFFICER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC04_C",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果軍隊和百姓都要走同一條路，誰決定先後？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ROAD_OFFICER",
+          "speakerLabel": "道路官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「目前按既有軍需與民政規則處理，但受損道路的承載能力不足，容易發生衝突。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就先把衝突寫清楚。不能讓一條路在兩份報告裡都被算作空著。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ROAD_OFFICER",
+          "speakerLabel": "道路官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這部分還需要互相核表。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC04_COMMON",
+      "cg": "EP02-ACT01-CG04-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC04_COMMON",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "勝利之前的帳單",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS",
+        "ELVIR",
+        "MILITARY_OFFICER",
+        "LOCAL_DELEGATE",
+        "COURT_SCRIBE",
+        "MILITARY_LIAISON",
+        "LOCAL_CLERK",
+        "ROAD_OFFICER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG04-04｜還沒到慶功的時候"
+        },
+        {
+          "beforeSegment": 7,
+          "cue": "製作註記",
+          "text": "場景結束狀態：東線仍在作戰；民政復員、重建與軍需有真實資源衝突。艾維斯軍事責任未重新決定，亦未執行本章 ACT V 的正式出城事件。"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC04_COMMON",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "朝會沒有因為這些追問就突然找出新的糧食或道路。",
+          "cg": "EP02-ACT01-CG04-04"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾維斯把需要軍方確認的事項接回自己的責任鏈；地方代表收下需補充的資料要求；中央官署則開始整理哪些請求能按既有程序處理。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞沒有任何直接調兵的權力，也不會在此下令修路。"
+        },
+        {
+          "id": "L004",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "可她終於理解了一件事。"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "王國的戰爭或許快要結束了。真正讓人們回到正常生活的工作，才剛開始。"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾爾維爾望向整理好的議程。"
+        },
+        {
+          "id": "L007",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好。現在來看看，哪些是今天可以決定的。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC05",
+      "cg": "EP02-ACT01-CG04-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC05",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "王座上的裁決",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELVIR",
+        "AIVIS",
+        "COURT_SCRIBE",
+        "FINLEY",
+        "COURT_OFFICER"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG05-01｜國王不是擺設"
+        },
+        {
+          "beforeSegment": 12,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG05-02｜不必每件事都由王座處理"
+        },
+        {
+          "beforeSegment": 22,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG05-03｜終於可以安心了？"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC05",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾爾維爾請書記重新念出待辦摘要。",
+          "cg": "EP02-ACT01-CG05-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "他沒有將所有公文攬到自己手裡，而是先分出今天真正需要王命的部分。"
+        },
+        {
+          "id": "L003",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「已經完成查核、涉及現行王令延續的事項，按原權限辦理。」"
+        },
+        {
+          "id": "L004",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "他指向另一份報告。"
+        },
+        {
+          "id": "L005",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這一份，軍務與地方的數字不同。沒有核對之前，不要拿它作為新的徵調依據。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "一位官員正要補充，國王已先問：「誰負責核對？何時回報？」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "官員報出承辦單位，並承諾提出可行的時限。"
+        },
+        {
+          "id": "L008",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。記下來。」"
+        },
+        {
+          "id": "L009",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這不是場面話。書記當場按既有程序記錄裁示，再由各單位核對自己的責任。"
+        },
+        {
+          "id": "L010",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞靜靜看著。"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "昨天，她還坐在父王床邊，擔心他說話太久會疲倦。"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "今天，他已經能一眼看出兩份報告不能混在一起用。"
+        },
+        {
+          "id": "L013",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "接下來幾件議題涉及道路、地方呈報與復員名冊。",
+          "cg": "EP02-ACT01-CG05-02"
+        },
+        {
+          "id": "L014",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王聽完，沒有急著替每個地方選出優先順序。"
+        },
+        {
+          "id": "L015",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「官署已有權限的，交還官署。需要各部門合對的，先把來源與分歧寫清楚。等資料齊了，再送上來。」"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾維斯補充了東線需要持續確認的條件。國王聽完，點頭。"
+        },
+        {
+          "id": "L017",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你按既定軍務去準備。王都這邊，別讓官員以為任何事情都得等你從前線回來簽字。」"
+        },
+        {
+          "id": "L018",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我會讓軍務交接清楚。」艾維斯答。"
+        },
+        {
+          "id": "L019",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞望向兩人。"
+        },
+        {
+          "id": "L020",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "父王有能力主持朝政，哥哥有能力主持軍事。剩下的官署，也不是不存在。"
+        },
+        {
+          "id": "L021",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她的肩膀不知不覺放鬆下來。"
+        },
+        {
+          "id": "L022",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這個家，似乎還輪不到她把所有工作抱走。"
+        },
+        {
+          "id": "L023",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "早朝接近尾聲。艾爾維爾沒有逞強延長議程，按醫師建議在適當時間結束。",
+          "cg": "EP02-ACT01-CG05-03"
+        },
+        {
+          "id": "L024",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "朝臣依序離開，大廳裡只剩書記整理文書的聲音。"
+        },
+        {
+          "id": "L025",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞朝父王走近。"
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天辛苦您了。」"
+        },
+        {
+          "id": "L027",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾爾維爾笑了一下。"
+        },
+        {
+          "id": "L028",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳今天倒起得很早。」"
+        },
+        {
+          "id": "L029",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我聽說您要主持早朝，哪裡還睡得著。」"
+        },
+        {
+          "id": "L030",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「昨日才跟妳說我想慢慢恢復，今天總不能一句話都不算。」"
+        },
+        {
+          "id": "L031",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只是沒想到會這麼快。」"
+        },
+        {
+          "id": "L032",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王揉了揉眉心，但眼神依然清楚。"
+        },
+        {
+          "id": "L033",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「快不代表能一直做。朝政要恢復，也得照體力和程序來。」"
+        },
+        {
+          "id": "L034",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞點頭。她很高興父王沒有把恢復說成奇蹟，也很高興他沒有要求自己立刻接替任何職位。"
+        },
+        {
+          "id": "L035",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "散朝之後先做什麼？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「父王，您真的還好嗎？會不會太勉強？」",
+          "next": "EP02_ACT01_SC05_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「那些沒有處理完的事，接下來會送到哪裡？」",
+          "next": "EP02_ACT01_SC05_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「那……我是不是終於可以回去睡個午覺了？」",
+          "next": "EP02_ACT01_SC05_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP02-ACT01-CG05-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC05_A",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "王座上的裁決",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELVIR",
+        "AIVIS",
+        "COURT_SCRIBE",
+        "FINLEY",
+        "COURT_OFFICER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC05_A",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「父王，您真的還好嗎？會不會太勉強？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「累是會累，但今天的事我都聽得明白。醫師會繼續盯著我。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就好。您別因為能上朝，就忘記也要按時休息。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「看來我現在多了一位監督的人。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC05_COMMON",
+      "cg": "EP02-ACT01-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC05_B",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "王座上的裁決",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELVIR",
+        "AIVIS",
+        "COURT_SCRIBE",
+        "FINLEY",
+        "COURT_OFFICER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC05_B",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那些沒有處理完的事，接下來會送到哪裡？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "COURT_SCRIBE",
+          "speakerLabel": "書記",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "國王身旁的書記答：「依陛下剛才的裁示，各自回到有權承辦的官署；需再呈報者，待資料核對後再送。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這樣好。先有人負責，比把文件堆在王座前更有用。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「說得不錯。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC05_COMMON",
+      "cg": "EP02-ACT01-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC05_C",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "王座上的裁決",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELVIR",
+        "AIVIS",
+        "COURT_SCRIBE",
+        "FINLEY",
+        "COURT_OFFICER"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep02/source-act01-v0.9.md #SC05_C",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那……我是不是終於可以回去睡個午覺了？」"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾爾維爾忍不住笑出聲。"
+        },
+        {
+          "id": "L003",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳一大早來看父王主持朝會，心裡想的竟然是午覺？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我可是被芬利從被子裡挖出來的。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那妳應該先謝謝他。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……這件事我們可以再討論。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP02_ACT01_SC05_COMMON",
+      "cg": "EP02-ACT01-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP02_ACT01_SC05_COMMON",
+      "chapter": "EP02",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "王座上的裁決",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELVIR",
+        "AIVIS",
+        "COURT_SCRIBE",
+        "FINLEY",
+        "COURT_OFFICER"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "completion": {
+        "title": "第一幕完 · 重新升起的王旗",
+        "nextChapterId": "EP02",
+        "policy": "NO_SCORING",
+        "scope": "ACT",
+        "pendingLabel": "EP02 ACT II〈王冠之外的責任〉· 劇本尚未提供"
+      },
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP02-ACT01-CG05-04｜王旗之下，還有明天"
+        },
+        {
+          "beforeSegment": 19,
+          "cue": "製作註記",
+          "text": "轉入 ACT II〈王冠之外的責任〉：以國王確實恢復執政、艾維斯法統明確為由婉拒攝政，但在正式職責界線內討論有限協助。"
+        },
+        {
+          "beforeSegment": 19,
+          "cue": "製作註記",
+          "text": "場景結束狀態：艾爾維爾自主主持早朝並完成有限裁決；奧莉維亞尚無攝政權、無獨立王命簽署權；官署保持原有職能。全幕選項不改政治點數、動盪、角色支柱或路線。"
+        }
+      ],
+      "source": "sources/ep02/source-act01-v0.9.md #SC05_COMMON",
+      "version": "0.9.0",
+      "planNodeId": "EP02_ACT01",
+      "knowledge": {
+        "knows": [
+          "僅本幕已呈報內容與公開行程；不等於全知"
+        ],
+        "withheld": [
+          "未核實的戰死領主清單、病因、回憶原稿與軍議時序；不擅自授予攝政"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞向父王告退，沿著逐漸安靜的側廊往回走。",
+          "cg": "EP02-ACT01-CG05-04"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她心裡很踏實。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "父王恢復得比她原先預期還好。哥哥的東線工作有明確方向。朝廷雖然滿桌公文，至少每一件都有應當負責的人。"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（內心）",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「所以，」她在心中對自己說，「我暫時留在王都，幫父王分擔一點點事情，應該就夠了吧？」"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "轉過長廊時，芬利已在她原先約定的地方等候，手上拿著兩份學院觀測資料。"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「怎麼樣？」他問。"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「父王真的主持完早朝了。而且比我想像中好得多。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那是好消息。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「當然是。」奧莉維亞的步伐輕快起來，「也就是說，接下來大家應該不用老是問我要不要接什麼職務了。」"
+        },
+        {
+          "id": "L010",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利看了看她，又看向長廊盡頭正走來的宮廷承辦官。"
+        },
+        {
+          "id": "L011",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我覺得妳最好先不要說得太早。」"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞慢慢停下腳步。"
+        },
+        {
+          "id": "L013",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "承辦官上前致禮。"
+        },
+        {
+          "id": "L014",
+          "speaker": "COURT_OFFICER",
+          "speakerLabel": "宮廷承辦官",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主殿下，關於您接下來留在王都期間，可以協助分擔的事務，內廷希望與您商議……」"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞看向芬利。"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利也看向她。"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她深深吸了一口氣。"
+        },
+        {
+          "id": "L018",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我就知道。」"
+        },
+        {
+          "id": "L019",
+          "kind": "caption",
+          "visual": "BLACK",
+          "text": "ACT I〈重新升起的王旗〉結束。"
+        }
+      ],
+      "choices": [],
+      "cg": "EP02-ACT01-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.7.1-ep01-act05-v0.4-speakers",
+  "version": "0.8.0-ep02-act01-v0.9",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -27,7 +27,9 @@
     {
       "id": "EP02",
       "title": "留下來的人",
-      "status": "NOT_YET_AVAILABLE"
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep02/chapter.json",
+      "entry": "EP02_ACT01_SC01"
     },
     {
       "id": "EP03",

@@ -6,7 +6,7 @@ import {
   type Story,
   type EndingRule,
 } from './schema';
-import { createCampaign } from './campaign';
+import { createCampaign, enterChapter } from './campaign';
 export const clone = <T>(value: T): T => structuredClone(value);
 export function valueAt(state: GameState, path: string): unknown {
   if (
@@ -183,22 +183,48 @@ export function continueChapter(story: Story, state: GameState): GameState {
     (story.scenes[target].status === 'DEMO_ONLY') !== (scene.status === 'DEMO_ONLY')
   )
     throw Error('尚未到達可銜接的章節結尾');
-  const n = markRead(story, state);
+  let n = markRead(story, state);
+  n = enterPlayerChapter(story, n, story.scenes[target].chapter);
   n.currentSceneId = target;
   n.currentSegmentIndex = 0;
   if (n.campaign?.mode === 'PLAYER') {
     const chapter = story.plan?.chapters.find((c) => c.id === story.scenes[target].chapter);
     if (!chapter) throw Error('Missing next chapter plan');
-    if (
-      scene.completion?.scope !== 'ACT' &&
-      n.campaign.chapter &&
-      !n.campaign.completedChapters.includes(n.campaign.chapter)
-    )
-      n.campaign.completedChapters.push(n.campaign.chapter);
+    if (scene.completion?.scope !== 'ACT' && !n.campaign.completedChapters.includes(scene.chapter))
+      n.campaign.completedChapters.push(scene.chapter);
     n.campaign.chapter = chapter.id;
     n.campaign.act = Number(story.scenes[target].act.replace('ACT', ''));
   }
   return StateSchema.parse(n);
+}
+// Charge a new chapter once; return visits use its existing receipt.
+export function enterPlayerChapter(story: Story, state: GameState, chapterId: string): GameState {
+  if (!state.campaign || state.campaign.mode !== 'PLAYER') {
+    if ((story.plan?.chapters.find((c) => c.id === chapterId)?.order ?? 0) >= 2)
+      throw Error('缺少可結算的玩家數值，請載入具有政治點數與動盪值的存檔。');
+    return state;
+  }
+  if (state.campaign.chapter === chapterId) return state;
+  const plan = story.plan,
+    chapter = plan?.chapters.find((c) => c.id === chapterId);
+  if (!plan || !chapter) throw Error('找不到章節規劃。');
+  const n = clone(state),
+    campaign = n.campaign!;
+  if (chapter.order <= 1 || campaign.upkeep.some((r) => r.chapter === chapterId)) {
+    campaign.chapter = chapterId;
+    campaign.act = 1;
+    return n;
+  }
+  const previous = plan.chapters.find((c) => c.order === chapter.order - 1);
+  if (!previous || !n.readChapters.includes(previous.id))
+    throw Error('請先完成前一章，再進入新的章節。');
+  campaign.chapter = previous.id;
+  if (!campaign.completedChapters.includes(previous.id))
+    campaign.completedChapters.push(previous.id);
+  const entered = enterChapter(campaign, plan, chapterId);
+  if (!['APPLIED', 'UNCHANGED'].includes(entered.status)) throw Error(entered.reason);
+  n.campaign = entered.state;
+  return n;
 }
 export function resolveEnding(state: GameState, rules: EndingRule[]) {
   const evaluated = [...rules]

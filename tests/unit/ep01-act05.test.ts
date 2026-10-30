@@ -101,7 +101,7 @@ it('plays all 243 answer combinations with the same twenty CGs, unchanged resour
       ...before.decisionLog,
       ...answers.map((a, i) => `EP01_ACT05_SC${String(i + 1).padStart(2, '0')}:${a}`),
     ]);
-    expect(() => continueChapter(story, s)).toThrow();
+    expect(continueChapter(story, s).currentSceneId).toBe('EP02_ACT01_SC01');
   }
 }, 60000);
 it('records chapter facts only when the original closing caption is read and does not charge for EP02', () => {
@@ -126,7 +126,7 @@ it('records chapter facts only when the original closing caption is read and doe
   expect(s.campaign).toEqual(before.campaign);
   expect(story.scenes[s.currentSceneId].completion).toMatchObject({
     scope: 'CHAPTER',
-    pendingLabel: 'EP02 · 劇本尚未提供',
+    nextSceneId: 'EP02_ACT01_SC01',
   });
 });
 it('continues a fourth-act ending into ACT V while preserving choices and restoring mid-response', () => {

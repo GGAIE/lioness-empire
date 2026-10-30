@@ -323,12 +323,21 @@
     },
     {
       "sceneId": "EP01_ACT05_SC05_COMMON",
-      "sha256": "8a2e63dfd6285d38556a8fb15a384f54e5d6fd5e20f603a55d94316270ae4fa1"
+      "sha256": "b465ea6696231a3ebaf936a1d18d4d11ef471a0fb79921859e06961cd9128680"
     }
   ],
   "fixedSegments": 137,
   "byAct": {
     "ACT02": 2,
     "ACT05": 135
-  }
+  },
+  "approvedUpdates": [
+    {
+      "sceneId": "EP01_ACT05_SC05_COMMON",
+      "fields": [
+        "completion"
+      ],
+      "reason": "2026-10-31 EP02 ACT I v0.9接續；原文與段落位置不變。"
+    }
+  ]
 }

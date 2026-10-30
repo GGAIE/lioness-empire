@@ -1,0 +1,202 @@
+{
+  "source": "content/sources/ep02/source-act01-v0.9.md",
+  "sourceSha256": "4a6bce69b46ab3e5b5710abfd4a5059671b640f8fa7d6b6d5d78dbc0a2c0379e",
+  "status": "DRAFT",
+  "sourceScenes": 5,
+  "playbackNodes": 25,
+  "segments": 312,
+  "choicePoints": 5,
+  "options": 15,
+  "choiceEffects": "NONE",
+  "newPermanentFlags": [],
+  "images": [
+    {
+      "id": "EP02-ACT01-CG01-01",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG01_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC01_CG01_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2245994,
+      "sha256": "08fa3d21af668f8d32e3d3405dde89ecff4b18e8955778d46c29adc0b79b93cb"
+    },
+    {
+      "id": "EP02-ACT01-CG01-02",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG02_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC01_CG02_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2340163,
+      "sha256": "8d0e41f94981b1c804c30ea839773d0de1a60486b029d8b150676f0e480c0921"
+    },
+    {
+      "id": "EP02-ACT01-CG01-03",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG03_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC01_CG03_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2494941,
+      "sha256": "2b7059cddfc148a9d306d11a8173d274095cc569db2879e038f38562b7911e07"
+    },
+    {
+      "id": "EP02-ACT01-CG01-04",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC01_CG04_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC01_CG04_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3035915,
+      "sha256": "439bc746bf3628cdbd9c2baf0ae9e7702b4f93ec6aff12bf69eba50cf3bda18b"
+    },
+    {
+      "id": "EP02-ACT01-CG02-01",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG01_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC02_CG01_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2905121,
+      "sha256": "20d1cb41dea454dc4b227cbd27b9e2f3a72af44f91486f7d7cb0acf55a29d0f1"
+    },
+    {
+      "id": "EP02-ACT01-CG02-02",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG02_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC02_CG02_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2782081,
+      "sha256": "f0fc1ab716c4dde4ddb0ca3e5b404fea5be217d14b6192e962248e216a7d0747"
+    },
+    {
+      "id": "EP02-ACT01-CG02-03",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG03_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC02_CG03_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2824567,
+      "sha256": "58f71597648dcefa7c11fe9defe33d7a21ec3e097d9d1e6e0b8285df987777f3"
+    },
+    {
+      "id": "EP02-ACT01-CG02-04",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC02_CG04_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC02_CG04_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3136227,
+      "sha256": "53a6ddce53f92b10106262ae1223100f8f64f497321084a3858bc15e0bc387da"
+    },
+    {
+      "id": "EP02-ACT01-CG03-01",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG01_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC03_CG01_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2822102,
+      "sha256": "fbfe5c5361387a71a7eb3e4976660525629a62793fb8a5cf6056423af939b700"
+    },
+    {
+      "id": "EP02-ACT01-CG03-02",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG02_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC03_CG02_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2584422,
+      "sha256": "c932cfe589b5d58a224407117191d6ae94514262bc46a77032d44d6ae3e86bd2"
+    },
+    {
+      "id": "EP02-ACT01-CG03-03",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG03_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC03_CG03_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2682786,
+      "sha256": "94e1475793ce4efa5987bb86618b308bfbeae2a009641c9217f79ad58f63cde6"
+    },
+    {
+      "id": "EP02-ACT01-CG03-04",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC03_CG04_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC03_CG04_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2680923,
+      "sha256": "951fb61e28112dd6b594709b42ecaaf713872506293dabec495554e4aae59917"
+    },
+    {
+      "id": "EP02-ACT01-CG04-01",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG01_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC04_CG01_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2846210,
+      "sha256": "014ea2f7c3b09ef555b33ca6abd37254144d7f4f1e752f8a13695846ab2a549c"
+    },
+    {
+      "id": "EP02-ACT01-CG04-02",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG02_v0.9-r2.png",
+      "zipEntry": "LE_EP02_ACT01_SC04_CG02_v0.9-r2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2592846,
+      "sha256": "58356dc213ff4ac1570f48fce45d4b433c4b64e79c6386168047328b3bbc1149"
+    },
+    {
+      "id": "EP02-ACT01-CG04-03",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG03_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC04_CG03_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2825411,
+      "sha256": "80464b7c348da0d32e2a362b47207f5ba0337611d28354514307c1d5632b53d3"
+    },
+    {
+      "id": "EP02-ACT01-CG04-04",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC04_CG04_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC04_CG04_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2716943,
+      "sha256": "be8d14a35fef247174058618cf31768a3748cb898f1c0c6359fe4702c7f900dd"
+    },
+    {
+      "id": "EP02-ACT01-CG05-01",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG01_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC05_CG01_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2803651,
+      "sha256": "d16341bdff86bb27f4c42bd137f57ad104d887a37c833b0787b3b2bc917983f9"
+    },
+    {
+      "id": "EP02-ACT01-CG05-02",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG02_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC05_CG02_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2667576,
+      "sha256": "3337243b7018159de612a1eed6724fe678851bb6221d58599d4559ef16009f5c"
+    },
+    {
+      "id": "EP02-ACT01-CG05-03",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG03_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC05_CG03_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2945991,
+      "sha256": "6bdb36e71293200e2a0e555571e7f16c56e2ce1107701db109555a654953418e"
+    },
+    {
+      "id": "EP02-ACT01-CG05-04",
+      "path": "assets/cg/ep02/act01/LE_EP02_ACT01_SC05_CG04_v0.9.png",
+      "zipEntry": "LE_EP02_ACT01_SC05_CG04_v0.9.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2729892,
+      "sha256": "e023829a53cfe439f777f67a9d6946a7a1fd3a9d0a355894784ea776d3b1c6da"
+    }
+  ],
+  "notes": [
+    "每場四CG，依正文錨點切換；SC04 CG02依manifest使用r2原圖",
+    "依act01-speakers-v0.9.json逐句核對未署名對白，心想標為內心，不將引用詞語當發話",
+    "五組選項只記錄回應，不建立永久資訊旗標、不改政治／動盪／CLEAR或路線",
+    "角色名依本稿顯示莎莉亞、塔瑪拉，保留姓名與親屬衝突的SOURCE_REQUIRED，不改Canon",
+    "父王自主主持朝政；艾維斯軍事與法統不改；艾琳達代理格哈德而非繼承，尚無支線解鎖",
+    "章末停ACT II待提供；不編造正式職位、攝政或後續出城；未附音訊"
+  ]
+}

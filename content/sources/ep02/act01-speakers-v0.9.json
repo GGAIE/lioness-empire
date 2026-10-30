@@ -1,0 +1,768 @@
+{
+  "description": "依v0.9原稿上下文逐句標記；精確原文不符即停止匯入，不機械輪流發話。",
+  "annotations": [
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L005",
+      "text": "「大公主，起來了。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L008",
+      "text": "「大公主。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L009",
+      "text": "「……再五分鐘。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L011",
+      "text": "「妳昨晚不是說，要換個比較好聽的說法？」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L012",
+      "text": "「……所以你換了嗎？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L013",
+      "text": "「換了。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L015",
+      "text": "「……我沒聽出差別。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L016",
+      "text": "「昨天是『大公主，別睡了』。今天是『大公主，起來了』。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L017",
+      "text": "「……真是驚人的進步。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L019",
+      "text": "「先說今天的安排。王儲殿下那邊，有一份軍務聯絡事項需要妳確認是否收到。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L020",
+      "text": "「找艾維斯……他是王儲。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L021",
+      "text": "「幾份地方送來的報告，宮廷事務官希望在午前知道妳是否願意閱覽。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L022",
+      "text": "「找事務官……本來就是他們的工作。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L023",
+      "text": "「幾位騎士團代表今天抵達王宮。內廷提醒妳，正式場合結束後可以安排問候。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L024",
+      "text": "「……請他們喝茶。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L025",
+      "text": "「下午的王室接見名單需要確認，晚上還有可能追加的聚會安排。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L026",
+      "text": "「……把晚上的我也一起請假。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L028",
+      "text": "「還有，學院那邊的觀測副本已經送來。我打算午前先整理，妳醒了再看看。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L030",
+      "text": "「這個……可以留下。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L032",
+      "text": "「所以妳其實有在聽。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L033",
+      "text": "「只聽值得起床的部分。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L034",
+      "text": "「我還沒說完。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01",
+      "segmentId": "L035",
+      "text": "「……今天到底有多少事？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L002",
+      "text": "「另外，今天早上有正式早朝。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L004",
+      "text": "「……嗯。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L006",
+      "text": "「早朝！？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L008",
+      "text": "「你說正式早朝？不是哥哥的軍議？也不是幾個大臣自己開的會？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L009",
+      "text": "「是正式早朝。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L010",
+      "text": "「誰主持？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L011",
+      "text": "「陛下。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L013",
+      "text": "「……父王？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L014",
+      "text": "「內廷昨晚送來通知，陛下親自看過今天的議程。今早也再次確認，會由陛下主持。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L015",
+      "text": "「太醫呢？太醫允許？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L016",
+      "text": "「通知上說，已經完成健康評估。不過我沒有看見太醫院的原始紀錄，不能替他們保證。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L018",
+      "text": "「那你為什麼不早說！」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L019",
+      "text": "「我正在照順序說。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L020",
+      "text": "「你前面說了一堆事！」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L021",
+      "text": "「妳每一項都有回答。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L022",
+      "text": "「我根本還沒醒！」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L024",
+      "text": "「現在醒了。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L026",
+      "text": "「衣服呢？正式禮服，快！」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L027",
+      "text": "「內廷已經備妥。妳還有時間梳洗。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L028",
+      "text": "「我要先看朝會安排，還有父王今天預計出席多久。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L029",
+      "text": "「放在桌上了。那是公開行程，不是醫療紀錄。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L031",
+      "text": "「芬利。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L032",
+      "text": "「嗯？」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L033",
+      "text": "「你早就知道，說早朝我一定會醒，是不是？」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L035",
+      "text": "「我只是發現，比起報告十五件事，這一件最有效。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L036",
+      "text": "「……你這個人真是越來越可怕了。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC01_COMMON",
+      "segmentId": "L037",
+      "text": "「我會把它當成對工作效率的肯定。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L004",
+      "text": "「我現在最擔心的不是下午。」她低聲答。",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L006",
+      "text": "「來得及。」",
+      "speaker": "AIVIS",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L007",
+      "text": "「我一聽見是父王主持，就沒敢再賴床。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L009",
+      "text": "「那倒是難得。」",
+      "speaker": "AIVIS",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L020",
+      "text": "「第三騎士團，莎莉亞。」",
+      "speaker": "COURT_HERALD",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L022",
+      "text": "「第三團的領地事務，已按上次王命完成彙整。」",
+      "speaker": "SHALIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L024",
+      "text": "「已分開。領地與軍中所負的責任，不宜混作一份帳。」",
+      "speaker": "SHALIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L028",
+      "text": "「塔瑪拉，第二騎士團統領。」",
+      "speaker": "COURT_HERALD",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L031",
+      "text": "「城門值勤已按輪換表調整。戰後入城人數增加，我們會繼續與各門官核對。」",
+      "speaker": "TAMARA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L032",
+      "text": "「有超出你們權限的事項，就依程序交還有權官署。」國王說。",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L033",
+      "text": "「遵命。」",
+      "speaker": "TAMARA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02_COMMON",
+      "segmentId": "L005",
+      "text": "「第六騎士團。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L001",
+      "text": "「第六騎士團，瓦肯家代理代表——艾琳達。」",
+      "speaker": "COURT_HERALD",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L004",
+      "text": "「艾琳達・瓦肯，奉家父格哈德之命，代表第六騎士團呈交本次報告。」",
+      "speaker": "ALINDA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L006",
+      "text": "「艾琳達……」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L009",
+      "text": "「家父仍有領地與道路相關的公務，無法及時離開。他託我呈報，也請我轉達問安。」",
+      "speaker": "ALINDA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L014",
+      "text": "「謝陛下。」",
+      "speaker": "ALINDA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L022",
+      "text": "「艾琳達。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L023",
+      "text": "「奧莉維亞殿下。」",
+      "speaker": "ALINDA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L024",
+      "text": "「好久不見。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L025",
+      "text": "「確實很久了。」",
+      "speaker": "ALINDA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L027",
+      "text": "「今天辛苦妳了。」奧莉維亞說。",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03",
+      "segmentId": "L028",
+      "text": "「這是我應做的。家父也會高興知道殿下平安回到王都。」",
+      "speaker": "ALINDA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03_COMMON",
+      "segmentId": "L003",
+      "text": "「殿下，失陪了。我還得把回報的程序走完。」",
+      "speaker": "ALINDA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC03_COMMON",
+      "segmentId": "L004",
+      "text": "「去吧。別為了陪我說話耽誤正事。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L006",
+      "text": "「我們可以按原定階段調整兵力，但不能把『部分地區不再交戰』誤當成『全部補給都能停下』。」",
+      "speaker": "AIVIS",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L017",
+      "text": "她小聲說：「原來勝利也這麼花錢。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L019",
+      "text": "「殿下？」",
+      "speaker": "COURT_SCRIBE",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L020",
+      "text": "「沒事。我只是終於知道，為什麼大家看起來都沒準備慶祝。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L022",
+      "text": "「我支持已經能安全復員的部隊依序返鄉。但必須先核對誰能離開、何時離開，以及誰接替仍在履行的守備。」",
+      "speaker": "AIVIS",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L023",
+      "text": "一位地方代表追問：「那我們何時能得到確切日期？」",
+      "speaker": "LOCAL_DELEGATE",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L024",
+      "text": "「當你們的承辦官署與軍務部門把交接條件核實之後。」",
+      "speaker": "AIVIS",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L025",
+      "text": "「這不是一句容易向領民交代的話。」",
+      "speaker": "LOCAL_DELEGATE",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04",
+      "segmentId": "L026",
+      "text": "「我知道。」艾維斯答，「所以才不能給一個做不到的日期。」",
+      "speaker": "AIVIS",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC04_COMMON",
+      "segmentId": "L007",
+      "text": "「好。現在來看看，哪些是今天可以決定的。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L003",
+      "text": "「已經完成查核、涉及現行王令延續的事項，按原權限辦理。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L005",
+      "text": "「這一份，軍務與地方的數字不同。沒有核對之前，不要拿它作為新的徵調依據。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L006",
+      "text": "一位官員正要補充，國王已先問：「誰負責核對？何時回報？」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L008",
+      "text": "「很好。記下來。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L015",
+      "text": "「官署已有權限的，交還官署。需要各部門合對的，先把來源與分歧寫清楚。等資料齊了，再送上來。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L017",
+      "text": "「你按既定軍務去準備。王都這邊，別讓官員以為任何事情都得等你從前線回來簽字。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L018",
+      "text": "「我會讓軍務交接清楚。」艾維斯答。",
+      "speaker": "AIVIS",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L026",
+      "text": "「今天辛苦您了。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L028",
+      "text": "「妳今天倒起得很早。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L029",
+      "text": "「我聽說您要主持早朝，哪裡還睡得著。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L030",
+      "text": "「昨日才跟妳說我想慢慢恢復，今天總不能一句話都不算。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L031",
+      "text": "「我只是沒想到會這麼快。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05",
+      "segmentId": "L033",
+      "text": "「快不代表能一直做。朝政要恢復，也得照體力和程序來。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_C",
+      "segmentId": "L003",
+      "text": "「妳一大早來看父王主持朝會，心裡想的竟然是午覺？」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_C",
+      "segmentId": "L005",
+      "text": "「那妳應該先謝謝他。」",
+      "speaker": "ELVIR",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_C",
+      "segmentId": "L006",
+      "text": "「……這件事我們可以再討論。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L004",
+      "text": "「所以，」她在心中對自己說，「我暫時留在王都，幫父王分擔一點點事情，應該就夠了吧？」",
+      "speaker": "OLIVIA",
+      "kind": "thought"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L006",
+      "text": "「怎麼樣？」他問。",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L007",
+      "text": "「父王真的主持完早朝了。而且比我想像中好得多。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L008",
+      "text": "「那是好消息。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L009",
+      "text": "「當然是。」奧莉維亞的步伐輕快起來，「也就是說，接下來大家應該不用老是問我要不要接什麼職務了。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L011",
+      "text": "「……我覺得妳最好先不要說得太早。」",
+      "speaker": "FINLEY",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L014",
+      "text": "「大公主殿下，關於您接下來留在王都期間，可以協助分擔的事務，內廷希望與您商議……」",
+      "speaker": "COURT_OFFICER",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC05_COMMON",
+      "segmentId": "L018",
+      "text": "「……我就知道。」",
+      "speaker": "OLIVIA",
+      "kind": "dialogue"
+    }
+  ]
+}

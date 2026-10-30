@@ -63,7 +63,11 @@ export function validateStory(story: Story) {
       else {
         if (scene.act !== `ACT${String(act.number).padStart(2, '0')}`)
           errors.push(`${scene.id}: planning act mismatch`);
-        if (scene.kind === 'choice' && act.decision === 'NONE')
+        if (
+          scene.kind === 'choice' &&
+          act.decision === 'NONE' &&
+          (scene.choiceMode !== 'DIALOGUE_FLAVOR' || scene.choices.some((c) => c.effects.length))
+        )
           errors.push(`${scene.id}: opening/result plan node forbids effective choices`);
       }
     }

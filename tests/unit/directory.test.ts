@@ -12,11 +12,11 @@ let story: Story;
 beforeAll(async () => {
   story = await loadContent();
 });
-it('groups 13 chapters and 61 acts with 33 authored sections, hiding engine demos and branch internals', () => {
+it('groups 13 chapters and 61 acts with 38 authored sections, hiding engine demos and branch internals', () => {
   const index = chapterDirectory(story);
   expect(index).toHaveLength(13);
   expect(index.flatMap((c) => c.acts)).toHaveLength(61);
-  expect(index.flatMap((c) => c.acts.flatMap((a) => a.sections))).toHaveLength(33);
+  expect(index.flatMap((c) => c.acts.flatMap((a) => a.sections))).toHaveLength(38);
   expect(index[1].title).toBe('王冠之前');
   expect(index[1].acts.map((a) => a.sections.length)).toEqual([5, 5, 5, 5, 5]);
   expect(index[1].acts[1].sections[2].sceneIds).toHaveLength(5);

@@ -1596,6 +1596,9 @@ input[type='range'] {
   top: auto;
   bottom: calc(4% + var(--dialogue-height, 200px) + 18px);
 }
+.game-frame:has(.chapter-complete--chapter.with-caption .primary) {
+  min-height: calc(var(--dialogue-height, 200px) + 490px);
+}
 .chapter-complete h3 {
   font-size: 32px;
   letter-spacing: 5px;

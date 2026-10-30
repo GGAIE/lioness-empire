@@ -229,3 +229,52 @@ test('production continues ACT IV into ACT V and shows a non-charging first-chap
   );
   await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
 });
+
+test('production enters EP02 with one upkeep charge and preserves the EP01 ending', async ({
+  page,
+}) => {
+  const story = await loadContent(),
+    state = initialState({ ...story, manifest: { ...story.manifest, start: 'EP01_ACT05_SC01' } });
+  state.currentSceneId = 'EP01_ACT05_SC05_COMMON';
+  state.currentSegmentIndex = story.scenes[state.currentSceneId].segments.length - 1;
+  state.campaign!.politicalPoints = 100;
+  state.campaign!.unrest = 80;
+  state.contentVersion = '0.7.1-ep01-act05-v0.4-speakers';
+  await page.goto('/');
+  await page.getByRole('button', { name: '設定', exact: true }).click();
+  await page.getByRole('slider', { name: '逐字間隔（0 為立即顯示）' }).fill('0');
+  await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
+  await page.getByRole('button', { name: '存讀檔', exact: true }).click();
+  await page.locator('input[type=file]').setInputFiles({
+    name: 'ep01-old-end.json',
+    mimeType: 'application/json',
+    buffer: Buffer.from(
+      JSON.stringify({
+        format: 'lioness-empire-save',
+        exportVersion: 1,
+        record: {
+          slot: 'entry',
+          title: 'Old EP01 ending',
+          savedAt: '2026-10-31',
+          thumbnail: null,
+          state,
+        },
+      })
+    ),
+  });
+  await page.getByRole('button', { name: '確認並載入', exact: true }).click();
+  await expect(page.getByRole('alertdialog')).toContainText('章末結算提醒');
+  await expect(page.getByRole('alertdialog').getByTestId('political-points')).toHaveText('100');
+  await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
+  await page.getByRole('button', { name: '進入 EP02 第一幕' }).click();
+  await expect(page.getByRole('alertdialog')).toContainText('100 − 40 = 60');
+  await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
+  await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP02_ACT01_SC01');
+  await expect(page.getByTestId('dialogue-text')).toHaveText('王宮的晨鐘響過第一遍。');
+  await expect(page.getByTestId('scene-cg')).toHaveAttribute(
+    'src',
+    /LE_EP02_ACT01_SC01_CG01_v0.9.png$/
+  );
+  await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
+  await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
+});

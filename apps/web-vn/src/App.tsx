@@ -50,6 +50,7 @@ import { createCampaign } from '../../../packages/narrative-core/campaign';
 import type { CampaignState } from '../../../packages/narrative-core/campaign-schema';
 import {
   chapterEndNotice,
+  chapterStartNotice,
   type SettlementNotice,
 } from '../../../packages/narrative-core/settlement';
 const Developer = import.meta.env.DEV ? lazy(() => import('./screens/Developer')) : null;
@@ -448,6 +449,10 @@ function Game({
         }
       }
       applyLoaded(next);
+      if (snapshot.campaign && next.campaign) {
+        const notice = chapterStartNotice(snapshot.campaign, next.campaign);
+        if (notice) setSettlement(notice);
+      }
       notify('');
       window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
     } catch {
@@ -595,7 +600,7 @@ function Game({
               <div className="demo-note">
                 序幕〈母獅登基〉· v0.6
                 <br />
-                <span>序幕已開放 ／ 第一章五幕已提供 · 原稿草稿版</span>
+                <span>序幕、第一章五幕與第二章第一幕已提供 · 原稿草稿版</span>
               </div>
             </div>
           ) : (
@@ -645,7 +650,7 @@ function Game({
               )}
               {scene.completion && last && writer.complete && (
                 <section
-                  className={`chapter-complete${segment.kind === 'caption' ? ' with-caption' : ''}`}
+                  className={`chapter-complete${segment.kind === 'caption' ? ' with-caption' : ''}${scene.completion.scope === 'CHAPTER' ? ' chapter-complete--chapter' : ''}`}
                   aria-label="章節完成"
                 >
                   <span>
@@ -665,7 +670,17 @@ function Game({
                       onClick={() => {
                         setAuto(false);
                         setSkip(false);
-                        setState((s) => continueChapter(story, s));
+                        try {
+                          const before = stateRef.current;
+                          const next = continueChapter(story, before);
+                          setState(next);
+                          if (before.campaign && next.campaign) {
+                            const notice = chapterStartNotice(before.campaign, next.campaign);
+                            if (notice) setSettlement(notice);
+                          }
+                        } catch (e) {
+                          notify(String(e));
+                        }
                       }}
                     >
                       {continueLabel} →
@@ -758,9 +773,13 @@ function Game({
           )}
         </section>
         <aside className="right-rail">
-          <span>01</span>
+          <span>{scene.chapter.startsWith('EP') ? scene.chapter.slice(2) : '00'}</span>
           <div />
-          <span>{scene.chapter === 'EP01' ? '一' : '序'}</span>
+          <span>
+            {['序', '一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二'][
+              Number(scene.chapter.replace('EP', ''))
+            ] ?? '序'}
+          </span>
         </aside>
       </div>
       <nav className="toolbar" aria-label="遊戲選單">
@@ -793,7 +812,7 @@ function Game({
         <span>
           {scene.status === 'DEMO_ONLY'
             ? 'DEMO_ONLY · 引擎試演'
-            : scene.chapter === 'EP01'
+            : scene.chapter !== 'PROLOGUE'
               ? `${scene.chapter} ${actLabel} v${scene.version.replace(/\.0$/, '')} · 草稿試演`
               : '序幕 v0.6 · 草稿試演'}
         </span>

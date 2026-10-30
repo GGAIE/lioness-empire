@@ -68,6 +68,8 @@ while (pending.length && seen.size < 10000) {
     s.clear,
     s.politicalRoute,
     s.tarotRoute,
+    s.campaign,
+    s.readChapters,
     // Flavor history is saved for replay UI, but cannot affect future story conditions.
     // Validation forbids returning to a flavor choice, so common nodes can be merged.
     s.decisionLog.filter(

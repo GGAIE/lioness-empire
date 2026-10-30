@@ -25,5 +25,13 @@
   "PALACE_CLERK": "內廷承辦人",
   "ELVIR": "艾爾維爾",
   "NORTH_WING_STEWARD": "北翼主管",
-  "ROYAL_PHYSICIAN": "王室醫師"
+  "ROYAL_PHYSICIAN": "王室醫師",
+  "COURT_HERALD": "號令官",
+  "MILITARY_LIAISON": "軍務聯絡官",
+  "COURT_SCRIBE": "書記",
+  "MILITARY_OFFICER": "軍政官",
+  "LOCAL_DELEGATE": "地方代表",
+  "LOCAL_CLERK": "地方承辦官",
+  "ROAD_OFFICER": "道路官",
+  "COURT_OFFICER": "宮廷承辦官"
 }

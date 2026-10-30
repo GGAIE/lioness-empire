@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 686,
-    "thoughts": 20,
-    "narration": 629,
+    "dialogue": 851,
+    "thoughts": 22,
+    "narration": 773,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -77,6 +77,18 @@
       "sceneId": "EP01_ACT05_SC01_COMMON",
       "segmentId": "L009",
       "text": "只是今天如果再有人告訴她「請稍候」，她就一定要問出，那個『稍候』究竟有沒有真正的終點。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L019",
+      "text": "有些是因戰爭改由新世代掌管；有些只是原領主未能到場，派出具備正式授權的代表。朝會名冊把二者分得清清楚楚，不能一概當成「新的領主」。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP02_ACT01_SC02",
+      "segmentId": "L030",
+      "text": "國王問的是王都治安與城防輪值，而不是「妳的封地」。第二團是王都直轄編制，統領承擔的是城防職務，而非因職銜自然獲得領主土地。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

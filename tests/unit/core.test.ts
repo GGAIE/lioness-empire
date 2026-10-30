@@ -48,13 +48,13 @@ describe('data contract and story graph', () => {
   });
   it('does not compile unavailable Canon chapters', () => {
     expect(story.manifest.chapters.filter((c) => c.status === 'NOT_YET_AVAILABLE')).toHaveLength(
-      11
+      10
     );
     expect(
       Object.values(story.scenes).every(
         (s) =>
           (s.status === 'DEMO_ONLY' && s.chapter === 'DEMO') ||
-          (s.status === 'DRAFT' && ['PROLOGUE', 'EP01'].includes(s.chapter))
+          (s.status === 'DRAFT' && ['PROLOGUE', 'EP01', 'EP02'].includes(s.chapter))
       )
     ).toBe(true);
   });
