@@ -4,3 +4,34 @@ test-results/
 playwright-report/
 apps/web-vn/public/content/
 apps/web-vn/public/assets/
+
+# Local temporary files and backups (keep authored sources and assets)
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local secrets; examples may be committed only with dummy values
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.npmrc
+/credentials.json
+/secrets.json
+
+# Player exports, not save-system source code or fixtures
+lioness-save-*.json
+/local-saves/
+/local-backups/
