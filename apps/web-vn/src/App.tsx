@@ -48,7 +48,10 @@ import { SaveSlots } from './screens/SaveSlots';
 import { ResourceHud } from './components/ResourceHud';
 import { createCampaign } from '../../../packages/narrative-core/campaign';
 import type { CampaignState } from '../../../packages/narrative-core/campaign-schema';
-import type { SettlementNotice } from '../../../packages/narrative-core/settlement';
+import {
+  chapterEndNotice,
+  type SettlementNotice,
+} from '../../../packages/narrative-core/settlement';
 const Developer = import.meta.env.DEV ? lazy(() => import('./screens/Developer')) : null;
 const Campaign = import.meta.env.DEV ? lazy(() => import('./screens/Campaign')) : null;
 type Panel =
@@ -62,6 +65,14 @@ type Panel =
   | 'restart'
   | 'campaign'
   | null;
+function playerEndNotice(story: Story, state: GameState): SettlementNotice {
+  const notice = chapterEndNotice(story.plan!, state.campaign!);
+  const chapter = story.manifest.chapters.find(
+    (c) => c.id === story.scenes[state.currentSceneId].chapter
+  );
+  if (chapter) notice.lines[0] = `本章：${chapter.id} ${chapter.title.replace(/ · ACT.*$/, '')}`;
+  return notice;
+}
 export default function App() {
   const [loaded, setLoaded] = useState<{
       story: Story;
@@ -193,6 +204,22 @@ function Game({
     state.decisionLog.includes(`${scene.id}:${c.id}`)
   );
   const writer = useTypewriter(started ? segment.text : '', settings.speed, key);
+  const settlementShown = useRef('');
+  useEffect(() => {
+    if (
+      !started ||
+      !last ||
+      !writer.complete ||
+      scene.completion?.scope !== 'CHAPTER' ||
+      scene.chapter === 'PROLOGUE' ||
+      !story.plan ||
+      !state.campaign ||
+      settlementShown.current === key
+    )
+      return;
+    settlementShown.current = key;
+    setSettlement(playerEndNotice(story, state));
+  }, [started, last, writer.complete, scene.completion, scene.chapter, key, story, state.campaign]);
   const hud = (
     <ResourceHud
       plan={story.plan}
@@ -568,7 +595,7 @@ function Game({
               <div className="demo-note">
                 序幕〈母獅登基〉· v0.6
                 <br />
-                <span>序幕已開放 ／ 第一章已提供四幕 · 原稿草稿版</span>
+                <span>序幕已開放 ／ 第一章五幕已提供 · 原稿草稿版</span>
               </div>
             </div>
           ) : (
@@ -649,8 +676,18 @@ function Game({
                     {state.campaign?.unrest ?? '待設定'} ·{' '}
                     {scene.completion.scope === 'ACT'
                       ? '本幕不變更數值；整章尚未結算'
-                      : '序幕不計分、不扣點'}
+                      : scene.chapter === 'PROLOGUE'
+                        ? '序幕不計分、不扣點'
+                        : '本章選項不變更數值；章末僅預告，不提前扣點'}
                   </small>
+                  {scene.completion.scope === 'CHAPTER' &&
+                    scene.chapter !== 'PROLOGUE' &&
+                    story.plan &&
+                    state.campaign && (
+                      <button onClick={() => setSettlement(playerEndNotice(story, state))}>
+                        查看章末結算提醒
+                      </button>
+                    )}
                 </section>
               )}
               <div

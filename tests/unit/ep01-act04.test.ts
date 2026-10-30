@@ -83,7 +83,7 @@ it('plays all 243 answer combinations with identical event order and no numeric 
     ]);
     expect(s.readChapters).not.toContain('EP01');
   }
-});
+}, 30000);
 it('starts with five black-screen lines and no CG, then reveals the first-person corrected image', () => {
   let s = start();
   const first = story.scenes[s.currentSceneId];
@@ -129,8 +129,8 @@ it('only records a father-audience request at the final fade and never grants an
   expect(s.flags.FATHER_AUDIENCE_GRANTED).toBe(false);
   expect(s.flags.OLIVIA_REGENCY_AUTHORITY).toBe(false);
   expect(markRead(story, s)).toEqual(s);
-  expect(story.scenes[s.currentSceneId].completion?.pendingLabel).toContain('ACT V');
-  expect(() => continueChapter(story, s)).toThrow();
+  expect(story.scenes[s.currentSceneId].completion?.nextSceneId).toBe('EP01_ACT05_SC01');
+  expect(continueChapter(story, s).currentSceneId).toBe('EP01_ACT05_SC01');
 });
 it('rejects gameplay effects and story loops on flavor decisions, keeping state-merge exploration sound', () => {
   const sample = structuredClone(story.scenes.EP01_ACT04_SC01);

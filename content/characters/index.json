@@ -22,5 +22,8 @@
   "ACADEMY_ADMIN": "行政承辦人",
   "PALACE_RECEPTION": "內廷接待官",
   "PALACE_STAFF": "內廷人員",
-  "PALACE_CLERK": "內廷承辦人"
+  "PALACE_CLERK": "內廷承辦人",
+  "ELVIR": "艾爾維爾",
+  "NORTH_WING_STEWARD": "北翼主管",
+  "ROYAL_PHYSICIAN": "王室醫師"
 }

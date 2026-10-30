@@ -32,9 +32,9 @@
     "ARCANA_08: DRAFT — Canon draft, no production award",
     "ARCANA_14: DRAFT — Canon draft, no production award"
   ],
-  "scenes": 72,
-  "exploredStates": 1901,
-  "endStates": 15,
+  "scenes": 97,
+  "exploredStates": 2840,
+  "endStates": 18,
   "explorationComplete": true,
   "canonEndings": 30,
   "approvedCanonEndings": 0,

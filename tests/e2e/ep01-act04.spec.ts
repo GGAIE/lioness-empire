@@ -134,7 +134,7 @@ test('ACT IV starts black, reveals twenty corrected CGs, reads five choices and 
     '第四幕完 · 王女的職責'
   );
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    'ACT V · 劇本尚未提供'
+    'ACT V〈暫時留下的人〉'
   );
   await expect
     .poll(async () => {

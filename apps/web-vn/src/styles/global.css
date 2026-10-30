@@ -1611,6 +1611,9 @@ input[type='range'] {
   margin-top: 14px;
   color: #b4a17b;
 }
+.chapter-complete small + button {
+  margin-top: 12px;
+}
 .caption-mode {
   background: transparent;
   border: 0;

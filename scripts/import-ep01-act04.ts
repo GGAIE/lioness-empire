@@ -21,9 +21,13 @@ chapter.scenes = [
   ...scenes,
   ...chapter.scenes.filter((s) => !['ACT01', 'ACT02', 'ACT03', 'ACT04'].includes(s.act)),
 ];
-chapter.version = '0.6.0';
-chapter.source =
-  '使用者提供ACT I–IV及原圖；第四幕v0.4搭配正確修正版CG v0.1。純對話選項無數值或路線效果，保留DRAFT。';
+const hasLaterActs = chapter.scenes.some(
+  (s) => !['ACT01', 'ACT02', 'ACT03', 'ACT04'].includes(s.act)
+);
+if (!hasLaterActs) chapter.version = '0.6.0';
+if (!hasLaterActs)
+  chapter.source =
+    '使用者提供ACT I–IV及原圖；第四幕v0.4搭配正確修正版CG v0.1。純對話選項無數值或路線效果，保留DRAFT。';
 ChapterFileSchema.parse(chapter);
 const assets = (await readJson('manifests/assets.json')) as ReturnType<typeof AssetSchema.parse>[];
 const images = [];
@@ -75,7 +79,7 @@ if (images.length !== 20 || new Set(images.map((i) => i.id)).size !== 20)
 const characters = (await readJson('characters/index.json')) as Record<string, string>;
 for (const [id, name] of Object.entries(roles)) if (!characters[id]) characters[id] = name;
 const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
-manifest.version = '0.6.0-ep01-act04-v0.4';
+if (!hasLaterActs) manifest.version = '0.6.0-ep01-act04-v0.4';
 for (const key of Object.keys(act04CompletionFlags))
   manifest.flags[key] ??= {
     initial: false,
@@ -83,7 +87,12 @@ for (const key of Object.keys(act04CompletionFlags))
   };
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP01')!,
-  { title: '王冠之前 · ACT I–IV', status: 'DRAFT_AVAILABLE' }
+  {
+    title: hasLaterActs
+      ? manifest.chapters.find((c) => c.id === 'EP01')!.title
+      : '王冠之前 · ACT I–IV',
+    status: 'DRAFT_AVAILABLE',
+  }
 );
 const write = (path: string, value: unknown) =>
   writeFile(resolve(root, path), JSON.stringify(value, null, 2) + '\n');
@@ -109,7 +118,7 @@ await write('docs/ep01-act04-import-report.json', {
     '選項的王女回答在所選分支重現一次，以便回顧與存讀；問題依原稿場景索引補問號作UI提示',
     '舞台備註、轉場、聲音提示不作台詞；未附音訊，不新增配樂；淡出更衣使用既有CG切換淡化',
     'SC04僅兄妹會面，芬利不在場。末尾漸暗不計CG；接見僅請求，許可false，攝政false',
-    '父女會面留ACT V待提供；不結算EP01全章。原稿與舊幕均保留DRAFT',
+    '幕末接ACT V〈暫時留下的人〉；不結算EP01全章。原稿與舊幕均保留DRAFT',
   ],
 });
 console.log(

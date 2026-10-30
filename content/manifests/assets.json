@@ -670,5 +670,165 @@
     "label": "EP01-ACT04-CG05-04 · 北翼的消息",
     "status": "APPROVED",
     "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT05-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG01_v0.4.png",
+    "label": "EP01-ACT05-CG01-01 · 等了半天",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG02_v0.4.png",
+    "label": "EP01-ACT05-CG01-02 · 等了半天",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG03_v0.4.png",
+    "label": "EP01-ACT05-CG01-03 · 等了半天",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG04_v0.4.png",
+    "label": "EP01-ACT05-CG01-04 · 等了半天",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG01_v0.4.png",
+    "label": "EP01-ACT05-CG02-01 · 大公主不好欺負",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG02_v0.4.png",
+    "label": "EP01-ACT05-CG02-02 · 大公主不好欺負",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG03_v0.4.png",
+    "label": "EP01-ACT05-CG02-03 · 大公主不好欺負",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG04_v0.4.png",
+    "label": "EP01-ACT05-CG02-04 · 大公主不好欺負",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG02-05",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG05_v0.4.png",
+    "label": "EP01-ACT05-CG02-05 · 大公主不好欺負",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG01_v0.4.png",
+    "label": "EP01-ACT05-CG03-01 · 父親與女兒",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG02_v0.4.png",
+    "label": "EP01-ACT05-CG03-02 · 父親與女兒",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG03_v0.4.png",
+    "label": "EP01-ACT05-CG03-03 · 父親與女兒",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG04_v0.4.png",
+    "label": "EP01-ACT05-CG03-04 · 父親與女兒",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG01_v0.4.png",
+    "label": "EP01-ACT05-CG04-01 · 國王還沒有退場",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG02_v0.4.png",
+    "label": "EP01-ACT05-CG04-02 · 國王還沒有退場",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG03_v0.4.png",
+    "label": "EP01-ACT05-CG04-03 · 國王還沒有退場",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG04_v0.4.png",
+    "label": "EP01-ACT05-CG04-04 · 國王還沒有退場",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC05_CG01_v0.4.png",
+    "label": "EP01-ACT05-CG05-01 · 今後該怎麼辦？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC05_CG02_v0.4.png",
+    "label": "EP01-ACT05-CG05-02 · 今後該怎麼辦？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
+  },
+  {
+    "id": "EP01-ACT05-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act05/LE_EP01_ACT05_SC05_CG03_v0.4.png",
+    "label": "EP01-ACT05-CG05-03 · 今後該怎麼辦？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP01_ACT05_20CG_v0.4.zip；依image_manifest.json校驗，保留原始PNG。"
   }
 ]

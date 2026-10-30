@@ -168,3 +168,64 @@ test('production continues ACT III into the ACT IV black opening and corrected f
   await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
   await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
 });
+
+test('production continues ACT IV into ACT V and shows a non-charging first-chapter settlement', async ({
+  page,
+}) => {
+  const story = await loadContent();
+  const state = initialState({
+    ...story,
+    manifest: { ...story.manifest, start: 'EP01_ACT04_SC01' },
+  });
+  state.currentSceneId = 'EP01_ACT04_SC05_COMMON';
+  state.currentSegmentIndex = story.scenes[state.currentSceneId].segments.length - 1;
+  state.decisionLog = [
+    'EP01_ACT02_SC03:B',
+    ...['02', '03', '04'].map((n) => `EP01_ACT03_SC${n}:A`),
+    ...['01', '02', '03', '04', '05'].map((n) => `EP01_ACT04_SC${n}:A`),
+  ];
+  await page.goto('/');
+  await page.getByRole('button', { name: '設定', exact: true }).click();
+  await page.getByRole('slider', { name: '逐字間隔（0 為立即顯示）' }).fill('0');
+  await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
+  async function importState() {
+    await page.getByRole('button', { name: '存讀檔', exact: true }).click();
+    await page.locator('input[type=file]').setInputFiles({
+      name: 'ep01-entry.json',
+      mimeType: 'application/json',
+      buffer: Buffer.from(
+        JSON.stringify({
+          format: 'lioness-empire-save',
+          exportVersion: 1,
+          record: {
+            slot: 'entry',
+            title: 'EP01 entry',
+            savedAt: '2026-10-30',
+            thumbnail: null,
+            state,
+          },
+        })
+      ),
+    });
+    await page.getByRole('button', { name: '確認並載入', exact: true }).click();
+  }
+  await importState();
+  await page.getByRole('button', { name: '進入 EP01 第五幕' }).click();
+  await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP01_ACT05_SC01');
+  await expect(page.getByTestId('dialogue-text')).toHaveText('宮廷的早晨比學院安靜得多。');
+  await expect(page.getByTestId('scene-cg')).toHaveAttribute('src', /ACT05_SC01_CG01_v0.4.png$/);
+  await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
+  state.currentSceneId = 'EP01_ACT05_SC05_COMMON';
+  state.currentSegmentIndex = story.scenes[state.currentSceneId].segments.length - 1;
+  state.campaign!.act = 5;
+  await importState();
+  await expect(page.getByRole('alertdialog')).toContainText('章末結算提醒');
+  await expect(page.getByRole('alertdialog')).toContainText('下一章 EP02 開局');
+  await expect(page.getByRole('alertdialog')).toContainText('此處僅預告');
+  await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
+  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第一章完 · 王冠之前');
+  await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
+    '50'
+  );
+  await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
+});

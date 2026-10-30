@@ -1,0 +1,209 @@
+{
+  "source": "content/sources/ep01/source-act05-v0.4.md",
+  "sourceSha256": "d4a4be4fd33ff286767855ae3ed427950d09020ffa260836e2f8a6600e2e82cc",
+  "status": "DRAFT",
+  "sourceScenes": 5,
+  "playbackNodes": 25,
+  "segments": 313,
+  "choicePoints": 5,
+  "options": 15,
+  "choiceEffects": "NONE",
+  "completionFlags": {
+    "FATHER_AUDIENCE_GRANTED": true,
+    "FATHER_AUDIENCE_COMPLETED": true,
+    "KING_INTENDS_RETURN_TO_GOVERNMENT": true,
+    "OLIVIA_TEMPORARY_CAPITAL_STAY": true,
+    "OLIVIA_ADMINISTRATIVE_ROLE_GRANTED": false,
+    "OLIVIA_REGENCY_AUTHORITY": false,
+    "ACADEMY_RESEARCH_CONTINUES": true
+  },
+  "images": [
+    {
+      "id": "EP01-ACT05-CG01-01",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG01_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC01_CG01_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2884162,
+      "sha256": "c7bf77d5c6714f2f06b66ab8670a129dc1722cc3f70cde45449e189e50553856"
+    },
+    {
+      "id": "EP01-ACT05-CG01-02",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG02_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC01_CG02_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2891797,
+      "sha256": "5fced6adff7ddaf89b16d3a71af4e510f77bbf081e9522f305c231ef7586f8ae"
+    },
+    {
+      "id": "EP01-ACT05-CG01-03",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG03_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC01_CG03_v0.4.png",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2900403,
+      "sha256": "1af01f964ae90caa52eaf41f7322b06b4770f06d0a5547cac48d5b72145c7c09"
+    },
+    {
+      "id": "EP01-ACT05-CG01-04",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC01_CG04_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC01_CG04_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2838196,
+      "sha256": "f261bcad31cbe8676d67ef0c1982ac383af7ac2262c3db2f925c54930d52ec48"
+    },
+    {
+      "id": "EP01-ACT05-CG02-01",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG01_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC02_CG01_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2772961,
+      "sha256": "22ba7d68843150bf5e43a430c2085d9c51eb068dcc35941ddaf1502fe528cec3"
+    },
+    {
+      "id": "EP01-ACT05-CG02-02",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG02_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC02_CG02_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2667226,
+      "sha256": "599e3080b15326342816cc1d8407e9da557516fca366f27d5adf66bc786d1c89"
+    },
+    {
+      "id": "EP01-ACT05-CG02-03",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG03_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC02_CG03_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2490036,
+      "sha256": "3d0220a080a425a6023eac280e2fe8d1e4222f2d9782e970cb724f48231f7225"
+    },
+    {
+      "id": "EP01-ACT05-CG02-04",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG04_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC02_CG04_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2633167,
+      "sha256": "f5d444bafb39cadfd1339fa5bb9bb910a7c6cef899fbe0dcce4c2853f7d3b3ba"
+    },
+    {
+      "id": "EP01-ACT05-CG02-05",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC02_CG05_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC02_CG05_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2669704,
+      "sha256": "18e53f8f51573b2c978c9c4dc3b217872e428ffd5e19405023bad8e57ec08efe"
+    },
+    {
+      "id": "EP01-ACT05-CG03-01",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG01_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC03_CG01_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2637297,
+      "sha256": "aa5a653c347830f8feeab0460ae9ece5f584012164833bdd07f7eeb45fb08d33"
+    },
+    {
+      "id": "EP01-ACT05-CG03-02",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG02_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC03_CG02_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2789824,
+      "sha256": "bb22757c39902b58f2fa86f96faea1502fa7ed30f46381736db048f754f191b6"
+    },
+    {
+      "id": "EP01-ACT05-CG03-03",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG03_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC03_CG03_v0.4.png",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2848635,
+      "sha256": "737b54aa92b5a12ad406624d6ac6bbfb308e9b4312514220ecd7bf5c9cb33e4e"
+    },
+    {
+      "id": "EP01-ACT05-CG03-04",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC03_CG04_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC03_CG04_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2826381,
+      "sha256": "3ae877e3be0bbda1f58a4b2551b9e9c2b66f3a15ef5ff2626cc207607b4e7f52"
+    },
+    {
+      "id": "EP01-ACT05-CG04-01",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG01_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC04_CG01_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2816127,
+      "sha256": "8c8285389cdeeb8defe69c849a9cee70f7597329f6ebf42468bb70ecb9920333"
+    },
+    {
+      "id": "EP01-ACT05-CG04-02",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG02_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC04_CG02_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2782611,
+      "sha256": "28b40f20f7f5a04608ae88362bd80fdd5fcd09dfec29077665830fda0d95fb57"
+    },
+    {
+      "id": "EP01-ACT05-CG04-03",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG03_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC04_CG03_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2773116,
+      "sha256": "28d5cf2d0ccaa8c3ecd7d58fd8c5b8b9629338e664210299b44c5ce86319c16e"
+    },
+    {
+      "id": "EP01-ACT05-CG04-04",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC04_CG04_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC04_CG04_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2874556,
+      "sha256": "981e7287ee3566c3a215d011864dd03f781bbb26d44dbb65d8ee5589ff9ed1a2"
+    },
+    {
+      "id": "EP01-ACT05-CG05-01",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC05_CG01_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC05_CG01_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2812676,
+      "sha256": "c2185fd0e542a486935a4ab660289a989049cbfe3bd04960bfdd977d74dd54ce"
+    },
+    {
+      "id": "EP01-ACT05-CG05-02",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC05_CG02_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC05_CG02_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2797730,
+      "sha256": "e4136208764554cda8e3c26e7a1ddc3d6064e71fa1c928c8c2db95bd7166bbed"
+    },
+    {
+      "id": "EP01-ACT05-CG05-03",
+      "path": "assets/cg/ep01/act05/LE_EP01_ACT05_SC05_CG03_v0.4.png",
+      "zipEntry": "LE_EP01_ACT05_SC05_CG03_v0.4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2702780,
+      "sha256": "2948e2db06e56dd39882584db85c8e2bf187b2704f3fa7a9e02fb215f26235fa"
+    }
+  ],
+  "notes": [
+    "CG數依場景為4/5/4/4/3，換圖依正文CG標記；SC04第三張於問題顯示時切換",
+    "保留正文引號與敘述式說話，不推測無署名引語的說話者；分支逐行播放，所選回答重現一次",
+    "芬利不進父王寢宮；探視經國王本人同意與醫師許可；不創作陰謀或病因",
+    "原稿EP01結束字幕作章末黑場；標記第一章已讀，數值不變，EP02尚未提供",
+    "所有事實於章末字幕讀完記錄；只有私人暫留，無行政職位或攝政權；不加音訊"
+  ]
+}

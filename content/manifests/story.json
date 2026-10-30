@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.6.0-ep01-act04-v0.4",
+  "version": "0.7.0-ep01-act05-v0.4",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "id": "EP01",
-      "title": "王冠之前 · ACT I–IV",
+      "title": "王冠之前 · ACT I–V",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep01/chapter.json",
       "entry": "EP01_ACT01_SC01"
@@ -192,6 +192,26 @@
     "FATHER_AUDIENCE_GRANTED": {
       "initial": false,
       "description": "ACT IV固定結果事實：FATHER_AUDIENCE_GRANTED；不作選項獎懲。"
+    },
+    "FATHER_AUDIENCE_COMPLETED": {
+      "initial": false,
+      "description": "ACT V章末事實：FATHER_AUDIENCE_COMPLETED；不作選項獎懲。"
+    },
+    "KING_INTENDS_RETURN_TO_GOVERNMENT": {
+      "initial": false,
+      "description": "ACT V章末事實：KING_INTENDS_RETURN_TO_GOVERNMENT；不作選項獎懲。"
+    },
+    "OLIVIA_TEMPORARY_CAPITAL_STAY": {
+      "initial": false,
+      "description": "ACT V章末事實：OLIVIA_TEMPORARY_CAPITAL_STAY；不作選項獎懲。"
+    },
+    "OLIVIA_ADMINISTRATIVE_ROLE_GRANTED": {
+      "initial": false,
+      "description": "ACT V章末事實：OLIVIA_ADMINISTRATIVE_ROLE_GRANTED；不作選項獎懲。"
+    },
+    "ACADEMY_RESEARCH_CONTINUES": {
+      "initial": false,
+      "description": "ACT V章末事實：ACADEMY_RESEARCH_CONTINUES；不作選項獎懲。"
     }
   },
   "migrations": {

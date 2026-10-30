@@ -220,7 +220,9 @@ export function parseEp01Act04(markdown: string): {
         title: '第四幕完 · 王女的職責',
         nextChapterId: 'EP01',
         scope: 'ACT',
-        pendingLabel: 'EP01 ACT V · 劇本尚未提供',
+        nextSceneId: 'EP01_ACT05_SC01',
+        nextLabel: 'EP01〈王冠之前〉· ACT V〈暫時留下的人〉',
+        continueLabel: '進入 EP01 第五幕',
         policy: 'NO_SCORING',
       };
     } else common.next = `EP01_ACT04_SC${String(index + 2).padStart(2, '0')}`;
