@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "EP01",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "status": "DRAFT",
-  "source": "使用者提供ACT I–III及原圖；保留DRAFT。第三幕純對話選項不影響數值、路線或後續順序。",
+  "source": "使用者提供ACT I–IV及原圖；第四幕v0.4搭配正確修正版CG v0.1。純對話選項無數值或路線效果，保留DRAFT。",
   "scenes": [
     {
       "id": "EP01_ACT01_SC01",
@@ -1336,7 +1336,6 @@
       "chapter": "EP01",
       "act": "ACT02",
       "sceneNumber": 1,
-      "planNodeId": "EP01_ACT02",
       "title": "剛回來的人",
       "pov": "OLIVIA",
       "cast": [
@@ -1347,300 +1346,6 @@
       "status": "DRAFT",
       "playback": "READER",
       "scoring": "NONE",
-      "source": "sources/ep01/source-act02-v0.2.md #SC-0201",
-      "version": "0.2.0",
-      "knowledge": {
-        "knows": [
-          "限於本幕正文、召回令與已選的返都工作優先方向"
-        ],
-        "withheld": [
-          "尚未交付的王都後續、攝政與芬利深層秘密"
-        ]
-      },
-      "segments": [
-        {
-          "id": "L001",
-          "text": "清晨的研究室，比平常更早亮起了燈。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG01-01"
-        },
-        {
-          "id": "L002",
-          "text": "桌面上的筆記、量測板、玻璃匣與封存晶體被整理到一半，整齊與凌亂同時佔據了房間的每一個角落。靠窗的位置多了一只半開的旅行箱，裡面放著還來不及分類的私人物品與幾冊帶有便條的研究筆記。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L003",
-          "text": "奧莉維亞站在桌邊，將一疊記錄分成兩半。一半留在原地，一半放進新的資料匣。她的動作已經比昨天平穩許多，卻仍帶著一種不習慣的停頓。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L004",
-          "text": "門外傳來不輕不重的腳步聲。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L005",
-          "text": "房門被推開，一個帶著外勤行囊與調查資料匣的人站在門口，先是看了看房內，接著又看了看門牌，像是在確認自己是不是走錯了地方。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG01-02"
-        },
-        {
-          "id": "L006",
-          "text": "「我離開幾天，研究室就被重新分配了？」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L007",
-          "text": "奧莉維亞抬頭，看見來人時，原本壓著的緊繃稍稍鬆了些。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L008",
-          "text": "「還沒有那麼慘。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L009",
-          "text": "她將手上的紙張拍齊，語氣裡難得有一點像是終於等到幫手的意味。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L010",
-          "text": "「只是這次發公文的人，級別比學院行政高一點。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L011",
-          "text": "芬利把背上的資料袋放下，走近幾步，看見桌上攤開的信函與旁邊尚未收好的物件。他臉上的疑惑沒有立刻變成慌張，而是本能地先判斷情況。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L012",
-          "text": "「王都來信？」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L013",
-          "text": "「不是問候。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L014",
-          "text": "奧莉維亞把那封已拆開的信遞了過去。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG01-03"
-        },
-        {
-          "id": "L015",
-          "text": "芬利接過信，低頭閱讀。研究室安靜了片刻，只剩窗外遠處晨鐘的餘音與紙頁輕微翻動的聲音。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L016",
-          "text": "他讀得很快，卻沒有因為內容短就立刻抬頭。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L017",
-          "text": "過了幾息，他才把信輕輕放回桌上。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L018",
-          "text": "「國王陛下的情況，比信裡寫的更糟嗎？」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L019",
-          "text": "「我不知道。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L020",
-          "text": "奧莉維亞回答得很平靜。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L021",
-          "text": "「如果內廷想讓我知道得更多，這封信就不會只有這幾行。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L022",
-          "text": "芬利點了點頭。他沒有急著替王室程序辯解，也沒有用過度溫和的話安慰她。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L023",
-          "text": "「那麼，至少有兩件事已經可以確定。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L024",
-          "text": "奧莉維亞抬眼看他。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L025",
-          "text": "「第一，妳得回去。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L026",
-          "text": "「這點我不需要你提醒。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L027",
-          "text": "「第二，這裡今天原本該做的事，不會因為妳要回去就自動消失。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L028",
-          "text": "奧莉維亞安靜了一瞬，接著像是終於聽見一句自己真正需要的話。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L029",
-          "text": "「很好。」她把另一疊還沒分完的記錄推到桌面中央。「既然你回來了，先幫我一起把這團災難拆開。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L030",
-          "text": "芬利看了看桌上的東西，又看了看她。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L031",
-          "text": "「妳是在拜託我，還是在命令我？」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L032",
-          "text": "「研究夥伴之間，這兩者有差別嗎？」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L033",
-          "text": "「有。前者表示我還能抱怨，後者表示我抱怨了也沒用。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L034",
-          "text": "奧莉維亞終於露出自昨天以來第一個真正像樣的笑意。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L035",
-          "text": "「那你今天可以兩種都用。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L036",
-          "text": "芬利把外地帶回來的資料袋打開，抽出捆好的記錄與測試圖板，坐到了桌邊。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG01-04"
-        },
-        {
-          "id": "L037",
-          "text": "沒有再多餘的開場，也沒有重新介紹彼此要做什麼。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L038",
-          "text": "他們很自然地把王室命令放在一邊，把研究資料攤開，像平常一樣進入工作。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L039",
-          "text": "只是這一次，所有整理與分類，都帶著離開的前提。",
-          "kind": "narration",
-          "visual": "SCENE"
-        }
-      ],
-      "choices": [],
-      "cg": "EP01-ACT02-CG01-01",
-      "presentation": {
-        "fit": "contain",
-        "focusX": 50,
-        "focusY": 50,
-        "zoom": 1,
-        "panX": 0,
-        "fadeMs": 700
-      },
       "directions": [
         {
           "beforeSegment": 0,
@@ -1663,26 +1368,9 @@
           "text": "EP01-ACT02-CG01-04｜依原稿插入位置配對正文"
         }
       ],
-      "next": "EP01_ACT02_SC02"
-    },
-    {
-      "id": "EP01_ACT02_SC02",
-      "chapter": "EP01",
-      "act": "ACT02",
-      "sceneNumber": 2,
-      "planNodeId": "EP01_ACT02",
-      "title": "不能帶走的研究室",
-      "pov": "OLIVIA",
-      "cast": [
-        "OLIVIA",
-        "FINLEY"
-      ],
-      "kind": "narrative",
-      "status": "DRAFT",
-      "playback": "READER",
-      "scoring": "NONE",
-      "source": "sources/ep01/source-act02-v0.2.md #SC-0202",
+      "source": "sources/ep01/source-act02-v0.2.md #SC-0201",
       "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
       "knowledge": {
         "knows": [
           "限於本幕正文、召回令與已選的返都工作優先方向"
@@ -1694,241 +1382,280 @@
       "segments": [
         {
           "id": "L001",
-          "text": "研究一旦被攤開，就不會允許情緒把所有問題暫時帶過。",
           "kind": "narration",
           "visual": "SCENE",
-          "cg": "EP01-ACT02-CG02-01"
+          "text": "清晨的研究室，比平常更早亮起了燈。",
+          "cg": "EP01-ACT02-CG01-01"
         },
         {
           "id": "L002",
-          "text": "桌面很快被分成了幾個區塊。外地觀測資料放在左側，學院內部測試記錄放在中央，等待歸檔的草稿與修正過的流程表則被推到右邊。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "桌面上的筆記、量測板、玻璃匣與封存晶體被整理到一半，整齊與凌亂同時佔據了房間的每一個角落。靠窗的位置多了一只半開的旅行箱，裡面放著還來不及分類的私人物品與幾冊帶有便條的研究筆記。"
         },
         {
           "id": "L003",
-          "text": "芬利把這次出差帶回來的資料一份份拆開。",
           "kind": "narration",
           "visual": "SCENE",
-          "cg": "EP01-ACT02-CG02-02"
+          "text": "奧莉維亞站在桌邊，將一疊記錄分成兩半。一半留在原地，一半放進新的資料匣。她的動作已經比昨天平穩許多，卻仍帶著一種不習慣的停頓。"
         },
         {
           "id": "L004",
-          "text": "「西側觀測站的結果和我們上次預測的偏差差不多，但天候干擾比預計更大。第二組通訊晶體在夜間測試時有明顯衰減，穩定時間比白天少了近一半。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "門外傳來不輕不重的腳步聲。"
         },
         {
           "id": "L005",
-          "text": "奧莉維亞低頭看著圖板與對照記錄。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "房門被推開，一個帶著外勤行囊與調查資料匣的人站在門口，先是看了看房內，接著又看了看門牌，像是在確認自己是不是走錯了地方。",
+          "cg": "EP01-ACT02-CG01-02"
         },
         {
           "id": "L006",
-          "text": "「所以問題不是只出在學院這邊的接收端。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「我離開幾天，研究室就被重新分配了？」"
         },
         {
           "id": "L007",
-          "text": "「對。」芬利指了指兩組不同的數據軌跡。「至少現在看來，外部環境與傳輸距離本身也在拉低穩定性。妳昨天做的那組校準修正有用，但還不夠。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "奧莉維亞抬頭，看見來人時，原本壓著的緊繃稍稍鬆了些。"
         },
         {
           "id": "L008",
-          "text": "奧莉維亞把一支筆夾回書頁之間。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還沒有那麼慘。」"
         },
         {
           "id": "L009",
-          "text": "「真可惜。我原本希望在你回來之後，我們可以先把這件事解決，再去煩下一個問題。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "她將手上的紙張拍齊，語氣裡難得有一點像是終於等到幫手的意味。"
         },
         {
           "id": "L010",
-          "text": "「現在妳得先去煩王都。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「只是這次發公文的人，級別比學院行政高一點。」"
         },
         {
           "id": "L011",
-          "text": "她抬眼看了他一眼。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利把背上的資料袋放下，走近幾步，看見桌上攤開的信函與旁邊尚未收好的物件。他臉上的疑惑沒有立刻變成慌張，而是本能地先判斷情況。"
         },
         {
           "id": "L012",
-          "text": "「你今天的同情心很有效率。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「王都來信？」"
         },
         {
           "id": "L013",
-          "text": "「我正在模仿妳平常工作的節奏。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「不是問候。」"
         },
         {
           "id": "L014",
-          "text": "短暫的來回之後，兩人又重新低頭看向資料。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞把那封已拆開的信遞了過去。",
+          "cg": "EP01-ACT02-CG01-03"
         },
         {
           "id": "L015",
-          "text": "很快，新的問題浮了出來：哪些工作可以留在學院，哪些卻必須有人帶去王都處理？",
           "kind": "narration",
           "visual": "SCENE",
-          "cg": "EP01-ACT02-CG02-03"
+          "text": "芬利接過信，低頭閱讀。研究室安靜了片刻，只剩窗外遠處晨鐘的餘音與紙頁輕微翻動的聲音。"
         },
         {
           "id": "L016",
-          "text": "大型裝置不可能整組搬走。學院主研究室本身的儀器條件，遠比臨時外帶的設備完整。留守的研究助理與其他成員，可以繼續進行例行測試與基礎比對。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "他讀得很快，卻沒有因為內容短就立刻抬頭。"
         },
         {
           "id": "L017",
-          "text": "但若要把研究推進到下一步，他們仍需要一個能在王都進行對照的人。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "過了幾息，他才把信輕輕放回桌上。"
         },
         {
           "id": "L018",
-          "text": "「我們原本就不是只在一個地方做實驗。」芬利把觀測站記錄往前推了推。「出差不是例外，是計畫的一部分。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「國王陛下的情況，比信裡寫的更糟嗎？」"
         },
         {
           "id": "L019",
-          "text": "奧莉維亞明白他的意思。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我不知道。」"
         },
         {
           "id": "L020",
-          "text": "「你的意思是，把王都當成新的觀測端。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "奧莉維亞回答得很平靜。"
         },
         {
           "id": "L021",
-          "text": "「至少是新的資料端與環境端。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「如果內廷想讓我知道得更多，這封信就不會只有這幾行。」"
         },
         {
           "id": "L022",
-          "text": "「王宮不是觀測站。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "芬利點了點頭。他沒有急著替王室程序辯解，也沒有用過度溫和的話安慰她。"
         },
         {
           "id": "L023",
-          "text": "「所以我用了比較保守的說法。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「那麼，至少有兩件事已經可以確定。」"
         },
         {
           "id": "L024",
-          "text": "她沉思片刻，看向那封還放在桌邊的召回令。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞抬眼看他。"
         },
         {
           "id": "L025",
-          "text": "「如果我回王都，而學院這邊繼續原本的測試，那麼最少也需要一個對現有進度足夠熟悉的人跟過去，才不會讓研究斷在中間。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「第一，妳得回去。」"
         },
         {
           "id": "L026",
-          "text": "芬利沒有立即接話，只是把手上的一份流程表攤平。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這點我不需要你提醒。」"
         },
         {
           "id": "L027",
-          "text": "「我可以接這一段。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
           "speaker": "FINLEY",
           "speakerLabel": "芬利",
-          "cg": "EP01-ACT02-CG02-04"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第二，這裡今天原本該做的事，不會因為妳要回去就自動消失。」"
         },
         {
           "id": "L028",
-          "text": "奧莉維亞看向他。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞安靜了一瞬，接著像是終於聽見一句自己真正需要的話。"
         },
         {
           "id": "L029",
-          "text": "「你是說……」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「很好。」她把另一疊還沒分完的記錄推到桌面中央。「既然你回來了，先幫我一起把這團災難拆開。」"
         },
         {
           "id": "L030",
-          "text": "「不是把研究室搬去王都，也不是把學院的工作丟著不管。」芬利的語氣很平實，像是在說明一項自然而然的安排。「而是由團隊中的一個核心成員先跟妳過去，建立新的工作節點。這樣學院的主體還留在這裡，妳那邊也不會完全變成斷線狀態。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "芬利看了看桌上的東西，又看了看她。"
         },
         {
           "id": "L031",
-          "text": "奧莉維亞沒有立刻回答。她先看向那些裝置，再看向堆疊的記錄和眼前的人。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳是在拜託我，還是在命令我？」"
         },
         {
           "id": "L032",
-          "text": "這不是衝動的提議。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「研究夥伴之間，這兩者有差別嗎？」"
         },
         {
           "id": "L033",
-          "text": "它只是把原本已經存在的跨地點研究，沿著新的現實條件往前推了一步。",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有。前者表示我還能抱怨，後者表示我抱怨了也沒用。」"
+        },
+        {
+          "id": "L034",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞終於露出自昨天以來第一個真正像樣的笑意。"
+        },
+        {
+          "id": "L035",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那你今天可以兩種都用。」"
+        },
+        {
+          "id": "L036",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利把外地帶回來的資料袋打開，抽出捆好的記錄與測試圖板，坐到了桌邊。",
+          "cg": "EP01-ACT02-CG01-04"
+        },
+        {
+          "id": "L037",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "沒有再多餘的開場，也沒有重新介紹彼此要做什麼。"
+        },
+        {
+          "id": "L038",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "他們很自然地把王室命令放在一邊，把研究資料攤開，像平常一樣進入工作。"
+        },
+        {
+          "id": "L039",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "只是這一次，所有整理與分類，都帶著離開的前提。"
         }
       ],
       "choices": [],
-      "cg": "EP01-ACT02-CG02-01",
+      "next": "EP01_ACT02_SC02",
+      "cg": "EP01-ACT02-CG01-01",
       "presentation": {
         "fit": "contain",
         "focusX": 50,
@@ -1936,7 +1663,23 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      },
+      }
+    },
+    {
+      "id": "EP01_ACT02_SC02",
+      "chapter": "EP01",
+      "act": "ACT02",
+      "sceneNumber": 2,
+      "title": "不能帶走的研究室",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
       "directions": [
         {
           "beforeSegment": 0,
@@ -1959,26 +1702,9 @@
           "text": "EP01-ACT02-CG02-04｜依原稿插入位置配對正文"
         }
       ],
-      "next": "EP01_ACT02_SC03"
-    },
-    {
-      "id": "EP01_ACT02_SC03",
-      "chapter": "EP01",
-      "act": "ACT02",
-      "sceneNumber": 3,
-      "planNodeId": "EP01_ACT02",
-      "title": "王都的研究工作",
-      "pov": "OLIVIA",
-      "cast": [
-        "OLIVIA",
-        "FINLEY"
-      ],
-      "kind": "choice",
-      "status": "DRAFT",
-      "playback": "READER",
-      "scoring": "NONE",
-      "source": "sources/ep01/source-act02-v0.2.md #SC-0203",
+      "source": "sources/ep01/source-act02-v0.2.md #SC-0202",
       "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
       "knowledge": {
         "knows": [
           "限於本幕正文、召回令與已選的返都工作優先方向"
@@ -1990,124 +1716,415 @@
       "segments": [
         {
           "id": "L001",
-          "text": "研究不可能在一個上午內就被重新安排完。",
           "kind": "narration",
           "visual": "SCENE",
+          "text": "研究一旦被攤開，就不會允許情緒把所有問題暫時帶過。",
+          "cg": "EP01-ACT02-CG02-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "桌面很快被分成了幾個區塊。外地觀測資料放在左側，學院內部測試記錄放在中央，等待歸檔的草稿與修正過的流程表則被推到右邊。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利把這次出差帶回來的資料一份份拆開。",
+          "cg": "EP01-ACT02-CG02-02"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「西側觀測站的結果和我們上次預測的偏差差不多，但天候干擾比預計更大。第二組通訊晶體在夜間測試時有明顯衰減，穩定時間比白天少了近一半。」"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞低頭看著圖板與對照記錄。"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以問題不是只出在學院這邊的接收端。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「對。」芬利指了指兩組不同的數據軌跡。「至少現在看來，外部環境與傳輸距離本身也在拉低穩定性。妳昨天做的那組校準修正有用，但還不夠。」"
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞把一支筆夾回書頁之間。"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「真可惜。我原本希望在你回來之後，我們可以先把這件事解決，再去煩下一個問題。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「現在妳得先去煩王都。」"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她抬眼看了他一眼。"
+        },
+        {
+          "id": "L012",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你今天的同情心很有效率。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我正在模仿妳平常工作的節奏。」"
+        },
+        {
+          "id": "L014",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "短暫的來回之後，兩人又重新低頭看向資料。"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "很快，新的問題浮了出來：哪些工作可以留在學院，哪些卻必須有人帶去王都處理？",
+          "cg": "EP01-ACT02-CG02-03"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "大型裝置不可能整組搬走。學院主研究室本身的儀器條件，遠比臨時外帶的設備完整。留守的研究助理與其他成員，可以繼續進行例行測試與基礎比對。"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但若要把研究推進到下一步，他們仍需要一個能在王都進行對照的人。"
+        },
+        {
+          "id": "L018",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們原本就不是只在一個地方做實驗。」芬利把觀測站記錄往前推了推。「出差不是例外，是計畫的一部分。」"
+        },
+        {
+          "id": "L019",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞明白他的意思。"
+        },
+        {
+          "id": "L020",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你的意思是，把王都當成新的觀測端。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少是新的資料端與環境端。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「王宮不是觀測站。」"
+        },
+        {
+          "id": "L023",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以我用了比較保守的說法。」"
+        },
+        {
+          "id": "L024",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她沉思片刻，看向那封還放在桌邊的召回令。"
+        },
+        {
+          "id": "L025",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果我回王都，而學院這邊繼續原本的測試，那麼最少也需要一個對現有進度足夠熟悉的人跟過去，才不會讓研究斷在中間。」"
+        },
+        {
+          "id": "L026",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利沒有立即接話，只是把手上的一份流程表攤平。"
+        },
+        {
+          "id": "L027",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我可以接這一段。」",
+          "cg": "EP01-ACT02-CG02-04"
+        },
+        {
+          "id": "L028",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞看向他。"
+        },
+        {
+          "id": "L029",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你是說……」"
+        },
+        {
+          "id": "L030",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不是把研究室搬去王都，也不是把學院的工作丟著不管。」芬利的語氣很平實，像是在說明一項自然而然的安排。「而是由團隊中的一個核心成員先跟妳過去，建立新的工作節點。這樣學院的主體還留在這裡，妳那邊也不會完全變成斷線狀態。」"
+        },
+        {
+          "id": "L031",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞沒有立刻回答。她先看向那些裝置，再看向堆疊的記錄和眼前的人。"
+        },
+        {
+          "id": "L032",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這不是衝動的提議。"
+        },
+        {
+          "id": "L033",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "它只是把原本已經存在的跨地點研究，沿著新的現實條件往前推了一步。"
+        }
+      ],
+      "choices": [],
+      "next": "EP01_ACT02_SC03",
+      "cg": "EP01-ACT02-CG02-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP01_ACT02_SC03",
+      "chapter": "EP01",
+      "act": "ACT02",
+      "sceneNumber": 3,
+      "title": "王都的研究工作",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT02-CG03-01｜依原稿插入位置配對正文"
+        },
+        {
+          "beforeSegment": 4,
+          "cue": "CG",
+          "text": "EP01-ACT02-CG03-02｜依原稿插入位置配對正文"
+        },
+        {
+          "beforeSegment": 14,
+          "cue": "CG",
+          "text": "EP01-ACT02-CG03-03｜依原稿插入位置配對正文"
+        }
+      ],
+      "source": "sources/ep01/source-act02-v0.2.md #SC-0203",
+      "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
+      "knowledge": {
+        "knows": [
+          "限於本幕正文、召回令與已選的返都工作優先方向"
+        ],
+        "withheld": [
+          "尚未交付的王都後續、攝政與芬利深層秘密"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "研究不可能在一個上午內就被重新安排完。",
           "cg": "EP01-ACT02-CG03-01"
         },
         {
           "id": "L002",
-          "text": "但在確定了大方向之後，剩下的問題便不再是「要不要做」，而是「先做什麼」。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "但在確定了大方向之後，剩下的問題便不再是「要不要做」，而是「先做什麼」。"
         },
         {
           "id": "L003",
-          "text": "奧莉維亞把桌上的資料重新分成三疊。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞把桌上的資料重新分成三疊。"
         },
         {
           "id": "L004",
-          "text": "最左邊是與父王病況、內廷命令與王室授權相關的資料。中間則是與艾維斯、東線軍務與後續調度可能相關的筆記。最右邊則是他們原有研究的延伸，包括學院現有通訊條件、王都環境可能的對照需求，以及芬利這次帶回來的觀測資料。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "最左邊是與父王病況、內廷命令與王室授權相關的資料。中間則是與艾維斯、東線軍務與後續調度可能相關的筆記。最右邊則是他們原有研究的延伸，包括學院現有通訊條件、王都環境可能的對照需求，以及芬利這次帶回來的觀測資料。"
         },
         {
           "id": "L005",
-          "text": "「如果妳回去之後，第一件事就被別人決定了，後面的安排會全部被拖著走。」芬利說。",
-          "kind": "dialogue",
-          "visual": "SCENE",
           "speaker": "FINLEY",
           "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果妳回去之後，第一件事就被別人決定了，後面的安排會全部被拖著走。」芬利說。",
           "cg": "EP01-ACT02-CG03-02"
         },
         {
           "id": "L006",
-          "text": "「所以你建議我先處理授權問題。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「所以你建議我先處理授權問題。」"
         },
         {
           "id": "L007",
-          "text": "「我建議妳先決定，妳想先知道哪一種真相。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「我建議妳先決定，妳想先知道哪一種真相。」"
         },
         {
           "id": "L008",
-          "text": "奧莉維亞微微挑眉。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞微微挑眉。"
         },
         {
           "id": "L009",
-          "text": "「這句話從你嘴裡說出來，比平常還像誘導。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「這句話從你嘴裡說出來，比平常還像誘導。」"
         },
         {
           "id": "L010",
-          "text": "「研究設計的一部分。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「研究設計的一部分。」"
         },
         {
           "id": "L011",
-          "text": "他把三疊資料往前推得更整齊一些。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "他把三疊資料往前推得更整齊一些。"
         },
         {
           "id": "L012",
-          "text": "「父王病重，表示妳需要知道回去之後妳到底能接觸什麼、又有多少事情是別人希望妳做卻還沒明講。東線軍務則關係到艾維斯為什麼必須離開，以及他離開之後王都會出現哪些缺口。至於我們的研究，則關係到學院現在手上的技術與資料，進入王都後到底能發揮多少作用。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「父王病重，表示妳需要知道回去之後妳到底能接觸什麼、又有多少事情是別人希望妳做卻還沒明講。東線軍務則關係到艾維斯為什麼必須離開，以及他離開之後王都會出現哪些缺口。至於我們的研究，則關係到學院現在手上的技術與資料，進入王都後到底能發揮多少作用。」"
         },
         {
           "id": "L013",
-          "text": "「你總是能把每件事都講得像三條一樣難走的路。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「你總是能把每件事都講得像三條一樣難走的路。」"
         },
         {
           "id": "L014",
-          "text": "「這不是我的錯。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「這不是我的錯。」"
         },
         {
           "id": "L015",
-          "text": "奧莉維亞看著眼前的三個方向，手指在桌面上輕敲了兩下。",
           "kind": "narration",
           "visual": "SCENE",
+          "text": "奧莉維亞看著眼前的三個方向，手指在桌面上輕敲了兩下。",
           "cg": "EP01-ACT02-CG03-03"
         },
         {
           "id": "L016",
-          "text": "她知道不論選哪一條，另外兩條都不會憑空消失。選擇只是決定她抵達王都後，第一個會推開哪一扇門。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "她知道不論選哪一條，另外兩條都不會憑空消失。選擇只是決定她抵達王都後，第一個會推開哪一扇門。"
         },
         {
           "id": "L017",
-          "text": "返都之後，奧莉維亞應優先確認什麼？",
+          "speakerLabel": "選擇",
           "kind": "narration",
-          "speakerLabel": "選擇"
+          "text": "返都之後，奧莉維亞應優先確認什麼？"
         }
       ],
       "choices": [
@@ -2156,31 +2173,13 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      },
-      "directions": [
-        {
-          "beforeSegment": 0,
-          "cue": "CG",
-          "text": "EP01-ACT02-CG03-01｜依原稿插入位置配對正文"
-        },
-        {
-          "beforeSegment": 4,
-          "cue": "CG",
-          "text": "EP01-ACT02-CG03-02｜依原稿插入位置配對正文"
-        },
-        {
-          "beforeSegment": 14,
-          "cue": "CG",
-          "text": "EP01-ACT02-CG03-03｜依原稿插入位置配對正文"
-        }
-      ]
+      }
     },
     {
       "id": "EP01_ACT02_SC03_A",
       "chapter": "EP01",
       "act": "ACT02",
       "sceneNumber": 3,
-      "planNodeId": "EP01_ACT02",
       "title": "王都的研究工作",
       "pov": "OLIVIA",
       "cast": [
@@ -2193,6 +2192,7 @@
       "scoring": "NONE",
       "source": "sources/ep01/source-act02-v0.2.md #SC-0203_A",
       "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
       "knowledge": {
         "knows": [
           "限於本幕正文、召回令與已選的返都工作優先方向"
@@ -2204,62 +2204,63 @@
       "segments": [
         {
           "id": "L001",
-          "text": "奧莉維亞把最左邊那疊資料抽了出來。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞把最左邊那疊資料抽了出來。"
         },
         {
           "id": "L002",
-          "text": "「我得先知道，父王到底還能親自決定多少事。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「我得先知道，父王到底還能親自決定多少事。」"
         },
         {
           "id": "L003",
-          "text": "她的聲音不高，卻很明確。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "她的聲音不高，卻很明確。"
         },
         {
           "id": "L004",
-          "text": "「如果我回去之後連命令從哪裡來都弄不清楚，那麼任何協助都只會變成替別人收拾結果。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「如果我回去之後連命令從哪裡來都弄不清楚，那麼任何協助都只會變成替別人收拾結果。」"
         },
         {
           "id": "L005",
-          "text": "芬利點點頭。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利點點頭。"
         },
         {
           "id": "L006",
-          "text": "「那麼我們到王都後，第一件事就是確認內廷、太醫院與正式授權鏈。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「那麼我們到王都後，第一件事就是確認內廷、太醫院與正式授權鏈。」"
         },
         {
           "id": "L007",
-          "text": "「還有誰在替父王發出那些他沒有親口說過的命令。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「還有誰在替父王發出那些他沒有親口說過的命令。」"
         },
         {
           "id": "L008",
-          "text": "芬利沒有接這句話，只在旁邊記下新的工作順序。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利沒有接這句話，只在旁邊記下新的工作順序。"
         }
       ],
       "choices": [],
+      "next": "EP01_ACT02_SC03_COMMON",
       "cg": "EP01-ACT02-CG03-03",
       "presentation": {
         "fit": "contain",
@@ -2268,15 +2269,13 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      },
-      "next": "EP01_ACT02_SC03_COMMON"
+      }
     },
     {
       "id": "EP01_ACT02_SC03_B",
       "chapter": "EP01",
       "act": "ACT02",
       "sceneNumber": 3,
-      "planNodeId": "EP01_ACT02",
       "title": "王都的研究工作",
       "pov": "OLIVIA",
       "cast": [
@@ -2289,6 +2288,7 @@
       "scoring": "NONE",
       "source": "sources/ep01/source-act02-v0.2.md #SC-0203_B",
       "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
       "knowledge": {
         "knows": [
           "限於本幕正文、召回令與已選的返都工作優先方向"
@@ -2300,64 +2300,65 @@
       "segments": [
         {
           "id": "L001",
-          "text": "奧莉維亞把中間那疊資料挪到了最上方。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞把中間那疊資料挪到了最上方。"
         },
         {
           "id": "L002",
-          "text": "「如果艾維斯必須在這個時候離開王都，代表東線的問題已經不是一份簡短公文能概括的程度。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「如果艾維斯必須在這個時候離開王都，代表東線的問題已經不是一份簡短公文能概括的程度。」"
         },
         {
           "id": "L003",
-          "text": "她的視線停在簡略的軍情筆記上。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "她的視線停在簡略的軍情筆記上。"
         },
         {
           "id": "L004",
-          "text": "「我要先知道，這個調動到底是在補洞，還是在阻止更大的裂口出現。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「我要先知道，這個調動到底是在補洞，還是在阻止更大的裂口出現。」"
         },
         {
           "id": "L005",
-          "text": "芬利思考片刻。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利思考片刻。"
         },
         {
           "id": "L006",
-          "text": "「那我們回去之後，就優先找得到軍需、傳令與前線通訊的紀錄。這條線會比較難，因為軍務資料未必比內廷更容易取得。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「那我們回去之後，就優先找得到軍需、傳令與前線通訊的紀錄。這條線會比較難，因為軍務資料未必比內廷更容易取得。」"
         },
         {
           "id": "L007",
-          "text": "「你只要替我把真正缺的那部分挖出來。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「你只要替我把真正缺的那部分挖出來。」"
         },
         {
           "id": "L008",
-          "text": "「這句話比研究合作危險得多。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「這句話比研究合作危險得多。」"
         }
       ],
       "choices": [],
+      "next": "EP01_ACT02_SC03_COMMON",
       "cg": "EP01-ACT02-CG03-03",
       "presentation": {
         "fit": "contain",
@@ -2366,15 +2367,13 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      },
-      "next": "EP01_ACT02_SC03_COMMON"
+      }
     },
     {
       "id": "EP01_ACT02_SC03_C",
       "chapter": "EP01",
       "act": "ACT02",
       "sceneNumber": 3,
-      "planNodeId": "EP01_ACT02",
       "title": "王都的研究工作",
       "pov": "OLIVIA",
       "cast": [
@@ -2387,6 +2386,7 @@
       "scoring": "NONE",
       "source": "sources/ep01/source-act02-v0.2.md #SC-0203_C",
       "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
       "knowledge": {
         "knows": [
           "限於本幕正文、召回令與已選的返都工作優先方向"
@@ -2398,62 +2398,63 @@
       "segments": [
         {
           "id": "L001",
-          "text": "奧莉維亞看向最右邊那疊資料，指尖按在一份通訊環境評估表上。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞看向最右邊那疊資料，指尖按在一份通訊環境評估表上。"
         },
         {
           "id": "L002",
-          "text": "「如果我回去之後什麼都要重新摸索，那麼前兩條線都會被拖慢。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「如果我回去之後什麼都要重新摸索，那麼前兩條線都會被拖慢。」"
         },
         {
           "id": "L003",
-          "text": "她抬眼看向芬利。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "她抬眼看向芬利。"
         },
         {
           "id": "L004",
-          "text": "「我要先知道，我們手上的工具在王都能不能用、能用到什麼程度。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「我要先知道，我們手上的工具在王都能不能用、能用到什麼程度。」"
         },
         {
           "id": "L005",
-          "text": "芬利幾乎是立刻理解了她的思路。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利幾乎是立刻理解了她的思路。"
         },
         {
           "id": "L006",
-          "text": "「先把技術條件建立起來，再反過來支援病況與軍務的情報整理。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「先把技術條件建立起來，再反過來支援病況與軍務的情報整理。」"
         },
         {
           "id": "L007",
-          "text": "「至少這樣我不會一回去就變成完全仰賴別人的人。」",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「至少這樣我不會一回去就變成完全仰賴別人的人。」"
         },
         {
           "id": "L008",
-          "text": "芬利低聲應了一句，將王都端的條件評估列為首要準備。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利低聲應了一句，將王都端的條件評估列為首要準備。"
         }
       ],
       "choices": [],
+      "next": "EP01_ACT02_SC03_COMMON",
       "cg": "EP01-ACT02-CG03-03",
       "presentation": {
         "fit": "contain",
@@ -2462,15 +2463,13 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      },
-      "next": "EP01_ACT02_SC03_COMMON"
+      }
     },
     {
       "id": "EP01_ACT02_SC03_COMMON",
       "chapter": "EP01",
       "act": "ACT02",
       "sceneNumber": 3,
-      "planNodeId": "EP01_ACT02",
       "title": "王都的研究工作",
       "pov": "OLIVIA",
       "cast": [
@@ -2481,8 +2480,16 @@
       "status": "DRAFT",
       "playback": "READER",
       "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT02-CG03-04｜選擇確立後的共同工作計畫"
+        }
+      ],
       "source": "sources/ep01/source-act02-v0.2.md #SC-0203_COMMON",
       "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
       "knowledge": {
         "knows": [
           "限於本幕正文、召回令與已選的返都工作優先方向"
@@ -2494,61 +2501,62 @@
       "segments": [
         {
           "id": "L001",
-          "text": "不論奧莉維亞選擇哪一條路，最終都會回到同一個現實：他們不是去王都觀光，而是去工作。",
           "kind": "narration",
           "visual": "SCENE",
+          "text": "不論奧莉維亞選擇哪一條路，最終都會回到同一個現實：他們不是去王都觀光，而是去工作。",
           "cg": "EP01-ACT02-CG03-04"
         },
         {
           "id": "L002",
-          "text": "芬利把被選中的那一疊資料移到中央，再把剩下兩疊按次序排好。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利把被選中的那一疊資料移到中央，再把剩下兩疊按次序排好。"
         },
         {
           "id": "L003",
-          "text": "「這樣就夠了。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「這樣就夠了。」"
         },
         {
           "id": "L004",
-          "text": "「只夠到王都之前。」奧莉維亞提醒。",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「只夠到王都之前。」奧莉維亞提醒。"
         },
         {
           "id": "L005",
-          "text": "「對。」芬利把最後一張記錄卡放進新資料匣裡。「但至少現在，我們知道第一步要往哪裡走。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「對。」芬利把最後一張記錄卡放進新資料匣裡。「但至少現在，我們知道第一步要往哪裡走。」"
         },
         {
           "id": "L006",
-          "text": "奧莉維亞看著那個被重新整理好的桌面，神情終於不像昨天那樣只是在被動承受命令。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞看著那個被重新整理好的桌面，神情終於不像昨天那樣只是在被動承受命令。"
         },
         {
           "id": "L007",
-          "text": "她仍不知道王都會變成什麼樣子。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "她仍不知道王都會變成什麼樣子。"
         },
         {
           "id": "L008",
-          "text": "但她至少開始替自己和芬利劃出了回去之後可以做的事。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "但她至少開始替自己和芬利劃出了回去之後可以做的事。"
         }
       ],
       "choices": [],
+      "next": "EP01_ACT02_SC04",
       "cg": "EP01-ACT02-CG03-04",
       "presentation": {
         "fit": "contain",
@@ -2557,22 +2565,13 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      },
-      "directions": [
-        {
-          "beforeSegment": 0,
-          "cue": "CG",
-          "text": "EP01-ACT02-CG03-04｜選擇確立後的共同工作計畫"
-        }
-      ],
-      "next": "EP01_ACT02_SC04"
+      }
     },
     {
       "id": "EP01_ACT02_SC04",
       "chapter": "EP01",
       "act": "ACT02",
       "sceneNumber": 4,
-      "planNodeId": "EP01_ACT02",
       "title": "學院與王室",
       "pov": "OLIVIA",
       "cast": [
@@ -2584,198 +2583,6 @@
       "status": "DRAFT",
       "playback": "READER",
       "scoring": "NONE",
-      "source": "sources/ep01/source-act02-v0.2.md #SC-0204",
-      "version": "0.2.0",
-      "knowledge": {
-        "knows": [
-          "限於本幕正文、召回令與已選的返都工作優先方向"
-        ],
-        "withheld": [
-          "尚未交付的王都後續、攝政與芬利深層秘密"
-        ]
-      },
-      "segments": [
-        {
-          "id": "L001",
-          "text": "午後的行政會談室比研究室安靜得多。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG04-01"
-        },
-        {
-          "id": "L002",
-          "text": "這裡沒有正在運作的裝置，也沒有實驗中途留下的光芒與雜音。只有窗邊規矩整齊的長桌，以及桌面上早已準備好的空白記錄板與封緘盒。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L003",
-          "text": "法伊德坐在長桌另一端，抬眼看著走進來的兩人。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L004",
-          "text": "「所以，」他把視線從奧莉維亞移到芬利身上，「你一回來，就把原本要交的出差報告，變成了一份外派申請？」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FAID",
-          "speakerLabel": "法伊德"
-        },
-        {
-          "id": "L005",
-          "text": "芬利沒有試圖辯解這句話裡的調侃。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L006",
-          "text": "「嚴格來說，是兩份文件同時存在。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L007",
-          "text": "法伊德無聲地嘆了口氣，像是對這種回答並不意外。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L008",
-          "text": "奧莉維亞把情況說明得很簡潔：她必須依召回令返都，而目前的研究如果完全留在學院，會失去一個足夠熟悉全體進度、又能在新環境建立對照的人。芬利是最適合的人選。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L009",
-          "text": "法伊德沒有立刻反對。他翻看了幾頁初步整理好的資料清單，問的也不是「為什麼要讓芬利去」，而是更實際的問題。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG04-02"
-        },
-        {
-          "id": "L010",
-          "text": "「外派期間，他代表誰的身分工作？」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FAID",
-          "speakerLabel": "法伊德"
-        },
-        {
-          "id": "L011",
-          "text": "「學院研究團隊成員。」芬利先開口。",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L012",
-          "text": "「而不是王室私屬人員。」奧莉維亞補上。",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L013",
-          "text": "法伊德又問：「帶去王都的資料有哪些？回報頻率如何？留在學院的人手由誰主責？」",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG04-03"
-        },
-        {
-          "id": "L014",
-          "text": "一個個問題讓這件事從構想變成真正的安排。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L015",
-          "text": "外派的範圍被界定下來：可攜式研究資料、必要的通訊測試記錄、觀測結果副本，以及由學院認可的聯絡任務。大型裝置與核心原始資料則留在學院，由留守團隊繼續維護。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L016",
-          "text": "芬利會定期回報，並保留學院身分；返都後，他主要負責研究延續、資料核對與王都端條件建立，不得擅自將學院資料轉作與本計畫無關的用途。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L017",
-          "text": "奧莉維亞則明確表示，不會以王女身分要求學院無限制供應人力與研究資源。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L018",
-          "text": "「我帶走的是合作，不是整個研究室。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L019",
-          "text": "法伊德看了她一會兒，終於把最後一份文件合上。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L020",
-          "text": "「很好。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FAID",
-          "speakerLabel": "法伊德"
-        },
-        {
-          "id": "L021",
-          "text": "他的語氣依然平穩。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L022",
-          "text": "「那就把合作寫清楚。這樣等你們到了王都，至少不會有人說學院把人和資料都憑空送進了內廷。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FAID",
-          "speakerLabel": "法伊德"
-        },
-        {
-          "id": "L023",
-          "text": "芬利接過那份核准文件時，沒有表現得太輕鬆。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP01-ACT02-CG04-04"
-        },
-        {
-          "id": "L024",
-          "text": "因為這不是一次單純的旅行許可。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L025",
-          "text": "從這一刻起，他與奧莉維亞的共同工作，正式從學院內部延伸到了王都。",
-          "kind": "narration",
-          "visual": "SCENE"
-        }
-      ],
-      "choices": [],
-      "cg": "EP01-ACT02-CG04-01",
-      "presentation": {
-        "fit": "contain",
-        "focusX": 50,
-        "focusY": 50,
-        "zoom": 1,
-        "panX": 0,
-        "fadeMs": 700
-      },
       "directions": [
         {
           "beforeSegment": 0,
@@ -2798,26 +2605,9 @@
           "text": "EP01-ACT02-CG04-04｜依原稿插入位置配對正文"
         }
       ],
-      "next": "EP01_ACT02_SC05"
-    },
-    {
-      "id": "EP01_ACT02_SC05",
-      "chapter": "EP01",
-      "act": "ACT02",
-      "sceneNumber": 5,
-      "planNodeId": "EP01_ACT02",
-      "title": "同行者",
-      "pov": "OLIVIA",
-      "cast": [
-        "OLIVIA",
-        "FINLEY"
-      ],
-      "kind": "end",
-      "status": "DRAFT",
-      "playback": "READER",
-      "scoring": "NONE",
-      "source": "sources/ep01/source-act02-v0.2.md #SC-0205",
+      "source": "sources/ep01/source-act02-v0.2.md #SC-0204",
       "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
       "knowledge": {
         "knows": [
           "限於本幕正文、召回令與已選的返都工作優先方向"
@@ -2829,217 +2619,178 @@
       "segments": [
         {
           "id": "L001",
-          "text": "傍晚時，研究室終於有了要暫時封存的模樣。",
           "kind": "narration",
           "visual": "SCENE",
-          "cg": "EP01-ACT02-CG05-01"
+          "text": "午後的行政會談室比研究室安靜得多。",
+          "cg": "EP01-ACT02-CG04-01"
         },
         {
           "id": "L002",
-          "text": "桌面被清出了一塊空間，留下來的資料貼好標記，帶走的部分則整齊地分裝進便於攜帶的資料匣。外勤用的小型工具與測試晶體被芬利一件件收進箱子裡，而奧莉維亞則將自己的筆記、必要物件與那封召回令放進同一個行囊。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "這裡沒有正在運作的裝置，也沒有實驗中途留下的光芒與雜音。只有窗邊規矩整齊的長桌，以及桌面上早已準備好的空白記錄板與封緘盒。"
         },
         {
           "id": "L003",
-          "text": "她看著桌面上仍然留著的一部分記錄，忽然低聲說了一句：「我們只是去王都，不是研究計畫宣布死亡。」",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "法伊德坐在長桌另一端，抬眼看著走進來的兩人。"
         },
         {
           "id": "L004",
-          "text": "「我原本就沒有打算替它寫訃聞。」芬利把一枚固定卡扣扣好，語氣平常得像在談明天的例行測試。",
+          "speaker": "FAID",
+          "speakerLabel": "法伊德",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「所以，」他把視線從奧莉維亞移到芬利身上，「你一回來，就把原本要交的出差報告，變成了一份外派申請？」"
         },
         {
           "id": "L005",
-          "text": "「很好。要是我回來時看見你替它立碑，我會很難處理。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "芬利沒有試圖辯解這句話裡的調侃。"
         },
         {
           "id": "L006",
-          "text": "「妳回來之前，我應該先煩惱王宮裡的文件有沒有比學院少。」",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「嚴格來說，是兩份文件同時存在。」"
         },
         {
           "id": "L007",
-          "text": "奧莉維亞抬起眼，像是終於等到一個可以提前警告他的題目。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "法伊德無聲地嘆了口氣，像是對這種回答並不意外。"
         },
         {
           "id": "L008",
-          "text": "「不會少。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "奧莉維亞把情況說明得很簡潔：她必須依召回令返都，而目前的研究如果完全留在學院，會失去一個足夠熟悉全體進度、又能在新環境建立對照的人。芬利是最適合的人選。"
         },
         {
           "id": "L009",
-          "text": "「那至少會比較整齊？」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "法伊德沒有立刻反對。他翻看了幾頁初步整理好的資料清單，問的也不是「為什麼要讓芬利去」，而是更實際的問題。",
+          "cg": "EP01-ACT02-CG04-02"
         },
         {
           "id": "L010",
-          "text": "「你對王宮的想像，是不是過於仁慈了？」",
+          "speaker": "FAID",
+          "speakerLabel": "法伊德",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "「外派期間，他代表誰的身分工作？」"
         },
         {
           "id": "L011",
-          "text": "芬利沒有回答，只是露出一個不算太明顯的笑。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「學院研究團隊成員。」芬利先開口。"
         },
         {
           "id": "L012",
-          "text": "從研究室離開時，兩人都停了一下。",
-          "kind": "narration",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
           "visual": "SCENE",
-          "cg": "EP01-ACT02-CG05-02"
+          "text": "「而不是王室私屬人員。」奧莉維亞補上。"
         },
         {
           "id": "L013",
-          "text": "那不是什麼莊重的告別，也沒有非得回望很久的必要。他們只是本能地看了一眼那些還留在原地的桌面、儀器、書架與窗邊光線，像是在替這段暫時中斷的日常做一個安靜的標記。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "法伊德又問：「帶去王都的資料有哪些？回報頻率如何？留在學院的人手由誰主責？」",
+          "cg": "EP01-ACT02-CG04-03"
         },
         {
           "id": "L014",
-          "text": "次日一早，學院大門外已備好返都馬車。",
           "kind": "narration",
           "visual": "SCENE",
-          "cg": "EP01-ACT02-CG05-03"
+          "text": "一個個問題讓這件事從構想變成真正的安排。"
         },
         {
           "id": "L015",
-          "text": "幾名研究助理與行政人員來送行，氣氛不像送別遠行的悲壯儀式，更像是替一場規模不小的外派任務做最後確認。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "外派的範圍被界定下來：可攜式研究資料、必要的通訊測試記錄、觀測結果副本，以及由學院認可的聯絡任務。大型裝置與核心原始資料則留在學院，由留守團隊繼續維護。"
         },
         {
           "id": "L016",
-          "text": "芬利再次檢查資料匣與工具箱，奧莉維亞則將召回令收進最容易取出的夾層。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利會定期回報，並保留學院身分；返都後，他主要負責研究延續、資料核對與王都端條件建立，不得擅自將學院資料轉作與本計畫無關的用途。"
         },
         {
           "id": "L017",
-          "text": "晨光落在學院高牆與門柱上，令這裡看起來和平得不像昨天才被一封王室命令打亂。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "奧莉維亞則明確表示，不會以王女身分要求學院無限制供應人力與研究資源。"
         },
         {
           "id": "L018",
-          "text": "奧莉維亞在登車前回頭望了望。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我帶走的是合作，不是整個研究室。」"
         },
         {
           "id": "L019",
-          "text": "她不是不知道自己還會回來。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "法伊德看了她一會兒，終於把最後一份文件合上。"
         },
         {
           "id": "L020",
-          "text": "但她也知道，下次再以同樣的心情走進這扇門，恐怕不會太容易了。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "speaker": "FAID",
+          "speakerLabel": "法伊德",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。」"
         },
         {
           "id": "L021",
-          "text": "芬利先一步上了車，把手中的資料匣放穩，抬頭看向還站在車邊的她。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "他的語氣依然平穩。"
         },
         {
           "id": "L022",
-          "text": "「如果妳再看下去，我們今天可能會在中午才抵達第一個驛站。」",
+          "speaker": "FAID",
+          "speakerLabel": "法伊德",
           "kind": "dialogue",
           "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
+          "text": "「那就把合作寫清楚。這樣等你們到了王都，至少不會有人說學院把人和資料都憑空送進了內廷。」"
         },
         {
           "id": "L023",
-          "text": "奧莉維亞收回目光，像是被提醒回到了行程本身。",
           "kind": "narration",
-          "visual": "SCENE"
+          "visual": "SCENE",
+          "text": "芬利接過那份核准文件時，沒有表現得太輕鬆。",
+          "cg": "EP01-ACT02-CG04-04"
         },
         {
           "id": "L024",
-          "text": "「你對行程的焦慮，總在不必要的時候特別積極。」",
-          "kind": "dialogue",
+          "kind": "narration",
           "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
+          "text": "因為這不是一次單純的旅行許可。"
         },
         {
           "id": "L025",
-          "text": "「而妳總在必要的時候拖延三息。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "FINLEY",
-          "speakerLabel": "芬利"
-        },
-        {
-          "id": "L026",
-          "text": "「所以我們合作得很好。」",
-          "kind": "dialogue",
-          "visual": "SCENE",
-          "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞"
-        },
-        {
-          "id": "L027",
-          "text": "她登上馬車，車門關上。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L028",
-          "text": "片刻後，車輪開始轉動。",
           "kind": "narration",
           "visual": "SCENE",
-          "cg": "EP01-ACT02-CG05-04"
-        },
-        {
-          "id": "L029",
-          "text": "學院的石階、拱門與熟悉的庭院慢慢後退，取而代之的是通往王都的道路。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L030",
-          "text": "從這一刻起，這趟返都不再只是王女被召回王宮。",
-          "kind": "narration",
-          "visual": "SCENE"
-        },
-        {
-          "id": "L031",
-          "text": "也是兩名研究者，帶著尚未結束的工作與尚未得到答案的問題，一同前往權力中心。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "text": "從這一刻起，他與奧莉維亞的共同工作，正式從學院內部延伸到了王都。"
         }
       ],
       "choices": [],
-      "cg": "EP01-ACT02-CG05-01",
+      "next": "EP01_ACT02_SC05",
+      "cg": "EP01-ACT02-CG04-01",
       "presentation": {
         "fit": "contain",
         "focusX": 50,
@@ -3047,6 +2798,31 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP01_ACT02_SC05",
+      "chapter": "EP01",
+      "act": "ACT02",
+      "sceneNumber": 5,
+      "title": "同行者",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "completion": {
+        "title": "第二幕完 · 離開學院",
+        "nextChapterId": "EP01",
+        "policy": "NO_SCORING",
+        "scope": "ACT",
+        "nextSceneId": "EP01_ACT03_SC01",
+        "nextLabel": "EP01〈王冠之前〉· ACT III〈重返王都〉",
+        "continueLabel": "進入 EP01 第三幕"
       },
       "directions": [
         {
@@ -3070,14 +2846,238 @@
           "text": "EP01-ACT02-CG05-04｜依原稿插入位置配對正文"
         }
       ],
-      "completion": {
-        "title": "第二幕完 · 離開學院",
-        "nextChapterId": "EP01",
-        "scope": "ACT",
-        "nextSceneId": "EP01_ACT03_SC01",
-        "nextLabel": "EP01〈王冠之前〉· ACT III〈重返王都〉",
-        "continueLabel": "進入 EP01 第三幕",
-        "policy": "NO_SCORING"
+      "source": "sources/ep01/source-act02-v0.2.md #SC-0205",
+      "version": "0.2.0",
+      "planNodeId": "EP01_ACT02",
+      "knowledge": {
+        "knows": [
+          "限於本幕正文、召回令與已選的返都工作優先方向"
+        ],
+        "withheld": [
+          "尚未交付的王都後續、攝政與芬利深層秘密"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "傍晚時，研究室終於有了要暫時封存的模樣。",
+          "cg": "EP01-ACT02-CG05-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "桌面被清出了一塊空間，留下來的資料貼好標記，帶走的部分則整齊地分裝進便於攜帶的資料匣。外勤用的小型工具與測試晶體被芬利一件件收進箱子裡，而奧莉維亞則將自己的筆記、必要物件與那封召回令放進同一個行囊。"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她看著桌面上仍然留著的一部分記錄，忽然低聲說了一句：「我們只是去王都，不是研究計畫宣布死亡。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我原本就沒有打算替它寫訃聞。」芬利把一枚固定卡扣扣好，語氣平常得像在談明天的例行測試。"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。要是我回來時看見你替它立碑，我會很難處理。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳回來之前，我應該先煩惱王宮裡的文件有沒有比學院少。」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞抬起眼，像是終於等到一個可以提前警告他的題目。"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不會少。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那至少會比較整齊？」"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你對王宮的想像，是不是過於仁慈了？」"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利沒有回答，只是露出一個不算太明顯的笑。"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "從研究室離開時，兩人都停了一下。",
+          "cg": "EP01-ACT02-CG05-02"
+        },
+        {
+          "id": "L013",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "那不是什麼莊重的告別，也沒有非得回望很久的必要。他們只是本能地看了一眼那些還留在原地的桌面、儀器、書架與窗邊光線，像是在替這段暫時中斷的日常做一個安靜的標記。"
+        },
+        {
+          "id": "L014",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "次日一早，學院大門外已備好返都馬車。",
+          "cg": "EP01-ACT02-CG05-03"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "幾名研究助理與行政人員來送行，氣氛不像送別遠行的悲壯儀式，更像是替一場規模不小的外派任務做最後確認。"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利再次檢查資料匣與工具箱，奧莉維亞則將召回令收進最容易取出的夾層。"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "晨光落在學院高牆與門柱上，令這裡看起來和平得不像昨天才被一封王室命令打亂。"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞在登車前回頭望了望。"
+        },
+        {
+          "id": "L019",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她不是不知道自己還會回來。"
+        },
+        {
+          "id": "L020",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "但她也知道，下次再以同樣的心情走進這扇門，恐怕不會太容易了。"
+        },
+        {
+          "id": "L021",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利先一步上了車，把手中的資料匣放穩，抬頭看向還站在車邊的她。"
+        },
+        {
+          "id": "L022",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果妳再看下去，我們今天可能會在中午才抵達第一個驛站。」"
+        },
+        {
+          "id": "L023",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞收回目光，像是被提醒回到了行程本身。"
+        },
+        {
+          "id": "L024",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你對行程的焦慮，總在不必要的時候特別積極。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「而妳總在必要的時候拖延三息。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以我們合作得很好。」"
+        },
+        {
+          "id": "L027",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "她登上馬車，車門關上。"
+        },
+        {
+          "id": "L028",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "片刻後，車輪開始轉動。",
+          "cg": "EP01-ACT02-CG05-04"
+        },
+        {
+          "id": "L029",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "學院的石階、拱門與熟悉的庭院慢慢後退，取而代之的是通往王都的道路。"
+        },
+        {
+          "id": "L030",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "從這一刻起，這趟返都不再只是王女被召回王宮。"
+        },
+        {
+          "id": "L031",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "也是兩名研究者，帶著尚未結束的工作與尚未得到答案的問題，一同前往權力中心。"
+        }
+      ],
+      "choices": [],
+      "cg": "EP01-ACT02-CG05-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
       }
     },
     {
@@ -3689,7 +3689,8 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      }
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
     },
     {
       "id": "EP01_ACT03_SC02_A",
@@ -4207,7 +4208,8 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      }
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
     },
     {
       "id": "EP01_ACT03_SC03_A",
@@ -4788,7 +4790,8 @@
         "zoom": 1,
         "panX": 0,
         "fadeMs": 700
-      }
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
     },
     {
       "id": "EP01_ACT03_SC04_A",
@@ -5498,7 +5501,2660 @@
         "title": "第三幕完 · 重返王都",
         "nextChapterId": "EP01",
         "scope": "ACT",
-        "pendingLabel": "EP01 ACT IV〈有限的責任〉（暫名）· 劇本尚未提供",
+        "nextSceneId": "EP01_ACT04_SC01",
+        "nextLabel": "EP01〈王冠之前〉· ACT IV〈王女的職責〉",
+        "continueLabel": "進入 EP01 第四幕",
+        "policy": "NO_SCORING"
+      }
+    },
+    {
+      "id": "EP01_ACT04_SC01",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 1,
+      "planNodeId": "EP01_ACT04",
+      "title": "大公主，別睡了",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC01",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「……大公主。」",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利（稍遠）"
+        },
+        {
+          "id": "L002",
+          "text": "「大公主，別睡了。」",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「……不要。」",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（含糊）"
+        },
+        {
+          "id": "L004",
+          "text": "「妳昨天自己說，今天要早點開始。」",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「這是哪一個沒有良心的人答應的……」",
+          "kind": "thought",
+          "visual": "BLACK",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（內心）"
+        },
+        {
+          "id": "L006",
+          "text": "奧莉維亞睜開眼。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG01-01"
+        },
+        {
+          "id": "L007",
+          "text": "「不是學院宿舍。啊……已經回王宮了。」",
+          "kind": "thought",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（內心）"
+        },
+        {
+          "id": "L008",
+          "text": "「我是依約來討論研究的。剛好碰上內廷來送今天的工作清單，就順手替妳帶到外間。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "「放著就好。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "「已經放好了。妳還是要起床。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L011",
+          "text": "奧莉維亞將棉被拉過頭頂。芬利站在床邊一段適當距離外，表情平靜。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG01-02"
+        },
+        {
+          "id": "L012",
+          "text": "「大公主，妳今天有工作。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L013",
+          "text": "被叫醒如何回話？",
+          "kind": "narration",
+          "visual": "SCENE",
+          "speakerLabel": "選擇"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「請告訴他們，大公主已經不幸病逝了。」",
+          "next": "EP01_ACT04_SC01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「再讓我睡五分鐘……就五分鐘。」",
+          "next": "EP01_ACT04_SC01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「你最好告訴我，今天的工作沒有昨天多。」",
+          "next": "EP01_ACT04_SC01_C",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "演出",
+          "text": "全黑。遠處有晨鳥與宮廷鐘聲，先不顯示任何角色。"
+        },
+        {
+          "beforeSegment": 1,
+          "cue": "演出",
+          "text": "停頓。"
+        },
+        {
+          "beforeSegment": 5,
+          "cue": "演出",
+          "text": "黑畫面逐漸轉亮，模糊焦點慢慢清晰。"
+        },
+        {
+          "beforeSegment": 5,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG01-01｜醒來第一眼"
+        },
+        {
+          "beforeSegment": 5,
+          "cue": "第一人稱構圖",
+          "text": "畫面是她躺在床上的第一人稱視角，從床帳和棉被邊緣看見站在內間門口、抱著資料匣的芬利。"
+        },
+        {
+          "beforeSegment": 10,
+          "cue": "演出",
+          "text": "演出備註：芬利經侍女通報、取得准許才進入內間門口，避免把他寫成無禮闖入寢室的貼身侍從。"
+        },
+        {
+          "beforeSegment": 10,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG01-02｜棉被裡的王女"
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP01_ACT04_SC01_A",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 1,
+      "planNodeId": "EP01_ACT04",
+      "title": "大公主，別睡了",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC01_A",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「請告訴他們，大公主已經不幸病逝了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「那內廷恐怕要先準備新的禮儀安排。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「你就不能先悲傷一下嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「我在考慮怎麼讓承辦人相信這不是妳的惡作劇。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC01_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC01_B",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 1,
+      "planNodeId": "EP01_ACT04",
+      "title": "大公主，別睡了",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC01_B",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「再讓我睡五分鐘……就五分鐘。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「妳上次的五分鐘最後變成半個時辰。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「你連這種事也有紀錄？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「不必記錄。那天是我在等。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC01_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC01_C",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 1,
+      "planNodeId": "EP01_ACT04",
+      "title": "大公主，別睡了",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC01_C",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「你最好告訴我，今天的工作沒有昨天多。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "芬利看了看資料匣：「如果只看紙張厚度，我不敢這樣說。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「我開始想念外地觀測站了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「那裡至少沒有宮廷早餐。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC01_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC01_COMMON",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 1,
+      "planNodeId": "EP01_ACT04",
+      "title": "大公主，別睡了",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC01_COMMON",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞終於把棉被拉開。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「芬利，你到底是我的研究夥伴，還是家裡派來折磨我的？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「研究夥伴。這點沒有變。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「那就幫我研究一下，怎麼合理拒絕起床。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「首先，別在前一天約好工作時間。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "奧莉維亞睡眼惺忪坐起，藍黑長髮有些凌亂，芬利一副見怪不怪的神情。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG01-03"
+        },
+        {
+          "id": "L007",
+          "text": "「……我開始討厭昨天的自己了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「這句話我也聽過。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "換好正式日常服的奧莉維亞走進臨時辦公室，看見桌上放著數量驚人的文件。芬利的研究匣放在一角，他不擅自翻看內廷公文。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG01-04"
+        },
+        {
+          "id": "L010",
+          "text": "「我在馬車上說，這次家裡可能又要把我當免費勞工。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「嗯。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "「我錯了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「錯在哪？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "「我不該說『可能』。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [
+        {
+          "beforeSegment": 5,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG01-03｜我開始討厭昨天的自己"
+        },
+        {
+          "beforeSegment": 8,
+          "cue": "演出",
+          "text": "淡出。奧莉維亞更衣、梳洗，無新 CG；晨鐘轉接辦公室環境音。"
+        },
+        {
+          "beforeSegment": 8,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG01-04｜免費勞工的第一天"
+        },
+        {
+          "beforeSegment": 14,
+          "cue": "演出",
+          "text": "內廷承辦人於門外通報，請求說明文件安排。切至 SC02。"
+        }
+      ],
+      "cg": "EP01-ACT04-CG01-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC02"
+    },
+    {
+      "id": "EP01_ACT04_SC02",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 2,
+      "planNodeId": "EP01_ACT04",
+      "title": "王女的工作桌",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC02",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "桌上分別放著接待行程、往來信函、內廷協調資料與轉呈清單。奧莉維亞翻開最上方文件，注意到這些東西看似同屬「請王女協助」，卻沒有清楚寫明要求她做的究竟是哪種工作。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG02-01"
+        },
+        {
+          "id": "L002",
+          "text": "「殿下，這些是最近希望請您協助的事項。王室接待安排、信件核對，另外還有部分官署送來的資料。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "內廷承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「『協助』是指哪種？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「殿下？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L005",
+          "text": "「核對、提供意見、代為轉呈，還是批准？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "承辦人依序解釋：王族接待的時間需要她確認；信函是請她核對措辭；其他案件則只是先提供資訊，應按程序送回相關機關。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG02-02"
+        },
+        {
+          "id": "L007",
+          "text": "「原來如此。那應該分開放，不然下一個接手的人還得再問一次。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "如何回應承辦人？",
+          "kind": "narration",
+          "visual": "SCENE",
+          "speakerLabel": "選擇"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「先把每份文件需要我做的事情寫清楚。」",
+          "next": "EP01_ACT04_SC02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「辛苦了，我們先把能協助的部分整理出來。」",
+          "next": "EP01_ACT04_SC02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「所以你們的『協助』，是打算讓我做多少事？」",
+          "next": "EP01_ACT04_SC02_C",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG02-01｜不只一種協助"
+        },
+        {
+          "beforeSegment": 5,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG02-02｜承辦人的說明"
+        }
+      ],
+      "cg": "EP01-ACT04-CG02-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP01_ACT04_SC02_A",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 2,
+      "planNodeId": "EP01_ACT04",
+      "title": "王女的工作桌",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC02_A",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「先把每份文件需要我做的事情寫清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「明白。我會請同僚在清單上增加用途與負責人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「這樣就不用憑封面猜裡面要做什麼。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG02-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC02_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC02_B",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 2,
+      "planNodeId": "EP01_ACT04",
+      "title": "王女的工作桌",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC02_B",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「辛苦了，我們先把能協助的部分整理出來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "承辦人鬆了口氣：「謝謝殿下。最近行程異動頻繁，確實造成不少重複作業。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「那就從別再重複開始。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG02-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC02_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC02_C",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 2,
+      "planNodeId": "EP01_ACT04",
+      "title": "王女的工作桌",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC02_C",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「所以你們的『協助』，是打算讓我做多少事？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "承辦人一時尷尬：「並沒有要殿下接管整個內廷的意思。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「很好，我還以為自己睡醒就被任命了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG02-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC02_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC02_COMMON",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 2,
+      "planNodeId": "EP01_ACT04",
+      "title": "王女的工作桌",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC02_COMMON",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞將資料分為「核對、建議、轉呈、需正式核定」四類，刻意把最後一類與自己的工作疊分開。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG02-03"
+        },
+        {
+          "id": "L002",
+          "text": "芬利在旁整理研究材料，聽見分類後抬頭。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L003",
+          "text": "「至少在學院，這四種通常不會寫在同一欄。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「你確定？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「……大部分時候。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「很高興我們的行政品質還有互相比較的空間。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "承辦人根據新分類整理文件；芬利只提供版本管理和資料來源標記的通用範例，未碰觸無權接觸的內廷文件。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG02-04"
+        },
+        {
+          "id": "L008",
+          "text": "「看過，不代表我有權批准。以後請把這件事寫得清楚一點。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「明白。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L010",
+          "text": "「知道誰改了什麼、下一個輪到誰處理，總是比較可靠。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L011",
+          "text": "「這句話倒挺適合刻在王宮每個辦公室門口。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG02-03｜不是一樣的文件"
+        },
+        {
+          "beforeSegment": 6,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG02-04｜工作開始有秩序"
+        },
+        {
+          "beforeSegment": 11,
+          "cue": "演出",
+          "text": "承辦人取出兩件待確認案件。切至 SC03。"
+        }
+      ],
+      "cg": "EP01-ACT04-CG02-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC03"
+    },
+    {
+      "id": "EP01_ACT04_SC03",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 3,
+      "planNodeId": "EP01_ACT04",
+      "title": "這不是我的權限",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC03",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "承辦人送來兩份待處理資料：王都官方通訊設施維修及部分追加預算，與東線軍需調度的候選方案。它們並非陰謀文件，只因王室行程變動，相關單位希望提前釐清窗口。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG03-01"
+        },
+        {
+          "id": "L002",
+          "text": "「前者已有工程評估，但追加支出尚須核定。後者涉及東線調度，希望能在王儲啟程前確認優先順序。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「為什麼先給我？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「因為您正在協助了解王室近期事務。相關單位希望先提供完整資料。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L005",
+          "text": "「了解沒問題，代替簽署就不行。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "芬利只審閱獲准供研究比對的通訊設備技術摘要，軍務文件仍交由承辦人掌管。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG03-02"
+        },
+        {
+          "id": "L007",
+          "text": "「設備需要維修，這可以從測試結果判斷。至於追加支出是否獲准，不是技術結論能解決的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「也就是說，我們能確認情況，但不能跳過預算程序。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「正確。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「那殿下是否能先表示原則上同意？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L011",
+          "text": "「我同意問題需要處理。不等於我已批准處理方法。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "如何處理待決案件？",
+          "kind": "narration",
+          "visual": "SCENE",
+          "speakerLabel": "選擇",
+          "cg": "EP01-ACT04-CG03-03"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「先確認每件事的合法核定人。」",
+          "next": "EP01_ACT04_SC03_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「把資料補完整，我拿去跟哥哥確認。」",
+          "next": "EP01_ACT04_SC03_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「我如果什麼都能簽，那你們還需要這麼多部門做什麼？」",
+          "next": "EP01_ACT04_SC03_C",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG03-01｜兩份待決案件"
+        },
+        {
+          "beforeSegment": 5,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG03-02｜芬利的技術核對"
+        },
+        {
+          "beforeSegment": 11,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG03-03｜王女的界線"
+        }
+      ],
+      "cg": "EP01-ACT04-CG03-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP01_ACT04_SC03_A",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 3,
+      "planNodeId": "EP01_ACT04",
+      "title": "這不是我的權限",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC03_A",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「先確認每件事的合法核定人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「通訊預算依主管機關程序；東線軍務中的一部分，可由王儲依現有授權確認。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「那就照授權順序送，不必先在我這裡打轉。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC03_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC03_B",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 3,
+      "planNodeId": "EP01_ACT04",
+      "title": "這不是我的權限",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC03_B",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「把資料補完整，我拿去跟哥哥確認。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「技術附件我能整理核實範圍；軍務摘要仍請承辦單位負責。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「正好。專業的事情讓專業的人說清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC03_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC03_C",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 3,
+      "planNodeId": "EP01_ACT04",
+      "title": "這不是我的權限",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC03_C",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我如果什麼都能簽，那你們還需要這麼多部門做什麼？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「殿下，我們並不是這個意思。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「多一個簽名也不會讓越權變成合法。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「對，所以我們還是別試。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC03_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC03_COMMON",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 3,
+      "planNodeId": "EP01_ACT04",
+      "title": "這不是我的權限",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC03_COMMON",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞將案件分開：通訊追加預算回歸主管機關；東線調度中屬艾維斯現有軍事職權者，整理摘要供他出發前確認；超出其授權的仍依程序轉呈。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG03-04"
+        },
+        {
+          "id": "L002",
+          "text": "「妳要現在去見王儲？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「趁他還在。等他到了東線，我可不打算派人追著行軍隊伍問誰該簽字。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「那成本確實很高。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「你留在這裡處理研究資料。我去找哥哥。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG03-04｜給哥哥的摘要"
+        },
+        {
+          "beforeSegment": 5,
+          "cue": "演出",
+          "text": "她獨自帶著摘要離開。切至 SC04。"
+        }
+      ],
+      "cg": "EP01-ACT04-CG03-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC04"
+    },
+    {
+      "id": "EP01_ACT04_SC04",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 4,
+      "planNodeId": "EP01_ACT04",
+      "title": "哥哥，這是你的工作",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC04",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "艾維斯正在檢視東線地圖與出發安排。內侍通報奧莉維亞求見，艾維斯讓她進門。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG04-01"
+        },
+        {
+          "id": "L002",
+          "text": "「妳才回來，就開始帶公文找我？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L003",
+          "text": "「我原本只是回來看父王。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「我知道。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L005",
+          "text": "「但我們家似乎很擅長改變我的計畫。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "艾維斯看向她手上的薄資料匣，笑了一下。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L007",
+          "text": "奧莉維亞將已整理好的案件摘要放在他桌上。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG04-02"
+        },
+        {
+          "id": "L008",
+          "text": "「能由各部門自己做的，我已經送回去了。這幾項涉及東線，得在你出發前說清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「妳連責任歸屬都列好了？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L010",
+          "text": "「總不能等你出門了，才開始猜誰要負責。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「妳希望我怎麼處理？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L012",
+          "text": "如何把工作交給艾維斯？",
+          "kind": "narration",
+          "visual": "SCENE",
+          "speakerLabel": "選擇"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「請你出發前確認各案權責。」",
+          "next": "EP01_ACT04_SC04_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「能處理的先處理，其他交還主管機關。」",
+          "next": "EP01_ACT04_SC04_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「哥哥，我只是王女，不是你的免費代班。」",
+          "next": "EP01_ACT04_SC04_C",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG04-01｜出發前的桌面"
+        },
+        {
+          "beforeSegment": 6,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG04-02｜這份還給你"
+        }
+      ],
+      "cg": "EP01-ACT04-CG04-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP01_ACT04_SC04_A",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 4,
+      "planNodeId": "EP01_ACT04",
+      "title": "哥哥，這是你的工作",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC04_A",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「請你出發前確認各案權責。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「可以。屬於我現有授權的，我會先確認；其餘交還主管機關。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L003",
+          "text": "「最好讓大家都知道。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG04-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC04_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC04_B",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 4,
+      "planNodeId": "EP01_ACT04",
+      "title": "哥哥，這是你的工作",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC04_B",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「能處理的先處理，其他交還主管機關。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「正合我意。妳把事情整理得很清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L003",
+          "text": "「讚美可以，別趁機再多塞一疊給我。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG04-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC04_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC04_C",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 4,
+      "planNodeId": "EP01_ACT04",
+      "title": "哥哥，這是你的工作",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC04_C",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「哥哥，我只是王女，不是你的免費代班。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "艾維斯笑了：「我們一家恐怕都沒拿過加班費。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L003",
+          "text": "「那更應該先把分工說清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG04-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC04_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC04_COMMON",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 4,
+      "planNodeId": "EP01_ACT04",
+      "title": "哥哥，這是你的工作",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "AIVIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC04_COMMON",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "艾維斯逐項確認：既有授權範圍內的東線軍務交由軍事體系執行；追加支出不能因他身為王儲便越權批准，須送至相應官署或合法授權程序。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG04-03"
+        },
+        {
+          "id": "L002",
+          "text": "「這項調度我可以確認優先順序。新增預算沒有核准前，不能當成已經有了這筆資源。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L003",
+          "text": "「所以『我看過，不代表我批准』這句話，至少不是我在挑毛病。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「當然不是。王室的名字不是拿來替文件補空白的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L005",
+          "text": "他吩咐幕僚按正確權責發送摘要，並提醒妹妹：整理問題和承擔正式決定是兩回事。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "「這句我記住了。以後有人想把你的工作往我這裡送，我會原封不動退回來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「前提是那真的是我的工作。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L008",
+          "text": "「當然。所以我才帶著分類表來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "奧莉維亞又抽出一張紙。艾維斯停下動作。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG04-04"
+        },
+        {
+          "id": "L010",
+          "text": "「還有？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L011",
+          "text": "「最後一份。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "「妳剛剛也這麼說。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L013",
+          "text": "「那是上一疊的最後一份。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L014",
+          "text": "艾維斯失笑。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L015",
+          "text": "「放心，這份只要確認承辦人，不需要你再簽一次。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L016",
+          "text": "「我現在知道妳為什麼不想被叫回來了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L017",
+          "text": "「那你下次會支持我的研究津貼吧？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L018",
+          "text": "「先去找有權核定津貼的人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "AIVIS",
+          "speakerLabel": "艾維斯"
+        },
+        {
+          "id": "L019",
+          "text": "「真是稱職的王儲。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG04-03｜權責歸位"
+        },
+        {
+          "beforeSegment": 8,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG04-04｜上一疊的最後一份"
+        },
+        {
+          "beforeSegment": 19,
+          "cue": "演出",
+          "text": "兩人簡短互道保重。艾維斯繼續出征前工作，並非已移交王儲職權。切至 SC05。"
+        }
+      ],
+      "cg": "EP01-ACT04-CG04-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC05"
+    },
+    {
+      "id": "EP01_ACT04_SC05",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 5,
+      "planNodeId": "EP01_ACT04",
+      "title": "北翼的消息",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "PALACE_CLERK"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC05",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "夕陽照進整理過的書房。各式文件已標註送呈方向；芬利仍在另一處整理學院研究資料。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG05-01"
+        },
+        {
+          "id": "L002",
+          "text": "「有結果了？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「我把不該由我簽的東西送回去了。你可以把這記成今天最大的研究成果。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「要寫進研究日誌？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「不准。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「那我就當作沒有發生。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "內廷承辦人報告，之後送達王女的文書將明確區分核對、協調與轉呈；真正的決定仍由有權者辦理。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG05-02"
+        },
+        {
+          "id": "L008",
+          "text": "「殿下，新的工作清單已按今日討論重新整理。日後各單位不會再將一般說明與正式核定混在一起。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L009",
+          "text": "「很好。這樣我不在桌前，工作也應該能正常往下走。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "「是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L011",
+          "text": "承辦人準備退下。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L012",
+          "text": "「等等。還有一件事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "奧莉維亞面向承辦人，語氣比討論公文時安靜。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG05-03"
+        },
+        {
+          "id": "L014",
+          "text": "「我剛回來時就問過，什麼時候可以見父王。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「陛下仍遵照醫囑休養，目前減少接見。內廷尚未取得新的安排。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L016",
+          "text": "「我知道他需要休息。我不是要求現在就進去。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "她停頓一瞬。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L018",
+          "text": "「我只是想知道，這件事有沒有好好傳達。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "如何詢問父王會面？",
+          "kind": "narration",
+          "visual": "SCENE",
+          "speakerLabel": "選擇"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「我只是想見見父親。」",
+          "next": "EP01_ACT04_SC05_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「請替我正式呈報晉見請求。」",
+          "next": "EP01_ACT04_SC05_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「如果現在不方便，至少請告訴我何時能再確認。」",
+          "next": "EP01_ACT04_SC05_C",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG05-01｜多出來的工作位置"
+        },
+        {
+          "beforeSegment": 6,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG05-02｜內廷的確認"
+        },
+        {
+          "beforeSegment": 12,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG05-03｜我想見父親"
+        }
+      ],
+      "cg": "EP01-ACT04-CG05-01",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP01_ACT04_SC05_A",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 5,
+      "planNodeId": "EP01_ACT04",
+      "title": "北翼的消息",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC05_A",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我只是想見見父親。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "承辦人語氣柔和：「明白，殿下。我會把這項私人請求如實呈報，不與一般政務接見混在一起。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「謝謝。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC05_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC05_B",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 5,
+      "planNodeId": "EP01_ACT04",
+      "title": "北翼的消息",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC05_B",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「請替我正式呈報晉見請求。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "承辦人行禮：「遵命。我會依內廷程序呈報，待陛下確認後答覆。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「辛苦你了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC05_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC05_C",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 5,
+      "planNodeId": "EP01_ACT04",
+      "title": "北翼的消息",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_CLERK"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC05_C",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「如果現在不方便，至少請告訴我何時能再確認。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「下一次醫療評估與陛下確認後，我會主動回報殿下。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "PALACE_CLERK",
+          "speakerLabel": "承辦人"
+        },
+        {
+          "id": "L003",
+          "text": "「那我等消息。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "cg": "EP01-ACT04-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "next": "EP01_ACT04_SC05_COMMON"
+    },
+    {
+      "id": "EP01_ACT04_SC05_COMMON",
+      "chapter": "EP01",
+      "act": "ACT04",
+      "sceneNumber": 5,
+      "planNodeId": "EP01_ACT04",
+      "title": "北翼的消息",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "version": "0.4.0",
+      "source": "sources/ep01/source-act04-v0.4.md #SC05_COMMON",
+      "knowledge": {
+        "knows": [
+          "限本幕已核對資料及現有授權；接見請求尚待內廷答覆"
+        ],
+        "withheld": [
+          "尚未取得接見許可或攝政權；正式父女會面留ACT V"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "承辦人鄭重承諾呈報後退下。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "奧莉維亞站在窗前，看向遠處北翼逐漸點亮的窗燈。芬利在稍後方停下手邊工作，沒有打擾她。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP01-ACT04-CG05-04"
+        },
+        {
+          "id": "L003",
+          "text": "「還在想陛下？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「嗯。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "她瞥了一眼整理完成的文件。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "「我今天把一堆事情送回該負責的人手裡了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「至少現在他們清楚該怎麼做。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「可是我最想知道的事，還是沒有答案。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「那就先等消息吧。至少他們知道妳在等。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "奧莉維亞輕輕點頭。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L011",
+          "text": "ACT IV〈王女的職責〉 完",
+          "kind": "caption",
+          "visual": "BLACK"
+        }
+      ],
+      "choices": [],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "製作註記",
+          "text": "**ACT IV 不在此取得接見許可，也不提前讓父王露面。**"
+        },
+        {
+          "beforeSegment": 1,
+          "cue": "CG",
+          "text": "EP01-ACT04-CG05-04｜北翼的燈"
+        },
+        {
+          "beforeSegment": 10,
+          "cue": "演出",
+          "text": "鏡頭停留於北翼燈火；漸暗。"
+        },
+        {
+          "beforeSegment": 10,
+          "cue": "幕末銜接",
+          "text": "**ACT IV 結束。ACT V 將由內廷回覆國王同意接見，正式進入父女見面。**"
+        }
+      ],
+      "cg": "EP01-ACT04-CG05-03",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "completionFlags": {
+        "OLIVIA_REGENCY_AUTHORITY": false,
+        "FINLEY_AT_CAPITAL_AS_ACADEMY_LIAISON": true,
+        "ROYAL_DOCUMENT_ROLES_CLARIFIED": true,
+        "AIVIS_EASTERN_DUTY_CONFIRMED": true,
+        "FATHER_AUDIENCE_REQUESTED": true,
+        "FATHER_AUDIENCE_GRANTED": false
+      },
+      "completion": {
+        "title": "第四幕完 · 王女的職責",
+        "nextChapterId": "EP01",
+        "scope": "ACT",
+        "pendingLabel": "EP01 ACT V · 劇本尚未提供",
         "policy": "NO_SCORING"
       }
     }

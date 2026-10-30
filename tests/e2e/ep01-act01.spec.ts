@@ -85,7 +85,7 @@ test('EP01 ACT I reads every paragraph, loads all eleven CGs, saves mid-scene an
   await page.getByRole('button', { name: '章節', exact: true }).click();
   await expect(
     page.getByRole('article').filter({ has: page.getByRole('heading', { name: /王冠之前/ }) })
-  ).toContainText('已提供 3 / 5 幕');
+  ).toContainText('已提供 4 / 5 幕');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   await page.getByRole('button', { name: '進入 EP01 第二幕' }).click();
   await expect(page.getByTestId('dialogue-text')).toHaveText('清晨的研究室，比平常更早亮起了燈。');

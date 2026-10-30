@@ -80,6 +80,7 @@ export const SceneSchema = z
     status: z.enum(['DEMO_ONLY', 'CANON', 'DRAFT']),
     playback: z.enum(['READER', 'CUTSCENE']).optional(),
     scoring: z.enum(['NONE', 'STORY_EFFECTS']).optional(),
+    choiceMode: z.enum(['STORY', 'DIALOGUE_FLAVOR']).optional(),
     completionFlags: z.record(z.string().regex(/^[A-Z][A-Z0-9_]*$/), Scalar).optional(),
     completion: z
       .object({
@@ -125,6 +126,10 @@ export const SceneSchema = z
   })
   .strict()
   .superRefine((s, c) => {
+    if (s.choiceMode && s.kind !== 'choice')
+      c.addIssue({ code: 'custom', message: 'Choice mode requires a choice scene' });
+    if (s.choiceMode === 'DIALOGUE_FLAVOR' && s.choices.some((choice) => choice.effects.length))
+      c.addIssue({ code: 'custom', message: 'Flavor choices must have no gameplay effects' });
     if (s.playback === 'CUTSCENE' && (s.kind === 'choice' || s.choices.length))
       c.addIssue({ code: 'custom', message: 'Cutscenes forbid player choices' });
     if (s.completion && s.kind !== 'end')

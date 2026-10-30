@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.5.0-ep01-act03-v0.3",
+  "version": "0.6.0-ep01-act04-v0.4",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "id": "EP01",
-      "title": "王冠之前 · ACT I–III",
+      "title": "王冠之前 · ACT I–IV",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep01/chapter.json",
       "entry": "EP01_ACT01_SC01"
@@ -180,6 +180,18 @@
     "OLIVIA_REGENCY_AUTHORITY": {
       "initial": false,
       "description": "ACT III幕末事實紀錄：OLIVIA_REGENCY_AUTHORITY；不代表數值獎勵或攝政授權。"
+    },
+    "ROYAL_DOCUMENT_ROLES_CLARIFIED": {
+      "initial": false,
+      "description": "ACT IV固定結果事實：ROYAL_DOCUMENT_ROLES_CLARIFIED；不作選項獎懲。"
+    },
+    "FATHER_AUDIENCE_REQUESTED": {
+      "initial": false,
+      "description": "ACT IV固定結果事實：FATHER_AUDIENCE_REQUESTED；不作選項獎懲。"
+    },
+    "FATHER_AUDIENCE_GRANTED": {
+      "initial": false,
+      "description": "ACT IV固定結果事實：FATHER_AUDIENCE_GRANTED；不作選項獎懲。"
     }
   },
   "migrations": {

@@ -61,7 +61,14 @@ while (pending.length && seen.size < 10000) {
     s.clear,
     s.politicalRoute,
     s.tarotRoute,
-    s.decisionLog,
+    // Flavor history is saved for replay UI, but cannot affect future story conditions.
+    // Validation forbids returning to a flavor choice, so common nodes can be merged.
+    s.decisionLog.filter(
+      (entry) =>
+        !Object.values(story.scenes).some(
+          (scene) => scene.choiceMode === 'DIALOGUE_FLAVOR' && entry.startsWith(`${scene.id}:`)
+        )
+    ),
   ]);
   if (seen.has(key)) continue;
   seen.add(key);

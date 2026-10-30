@@ -35,6 +35,22 @@ export function validateStory(story: Story) {
       errors.push(`${where}: invalid tarot route`);
   };
   for (const scene of Object.values(story.scenes)) {
+    if (scene.choiceMode === 'DIALOGUE_FLAVOR') {
+      const seen = new Set<string>();
+      const returns = (id: string): boolean => {
+        if (id === scene.id) return true;
+        if (seen.has(id) || !story.scenes[id]) return false;
+        seen.add(id);
+        const target = story.scenes[id];
+        return [
+          target.next,
+          target.completion?.nextSceneId,
+          ...target.choices.map((c) => c.next),
+        ].some((next) => !!next && returns(next));
+      };
+      if (scene.choices.some((c) => returns(c.next)))
+        errors.push(`${scene.id}: flavor choices must not be revisited by story flow`);
+    }
     for (const [key, value] of Object.entries(scene.completionFlags ?? {}))
       if (!story.manifest.flags[key] || typeof story.manifest.flags[key].initial !== typeof value)
         errors.push(`${scene.id}: invalid completion flag ${key}`);

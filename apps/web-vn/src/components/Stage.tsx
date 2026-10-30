@@ -47,8 +47,14 @@ export function Stage({
   const p = scene.presentation;
   const black = visibleSegments(story, state)[state.currentSegmentIndex]?.visual === 'BLACK';
   useEffect(() => {
-    if (active && loaded.current?.id === id && id) onLoaded(id);
-  }, [active, id, onLoaded]);
+    if (black && !id) {
+      loaded.current = null;
+      setOutgoing(null);
+    }
+  }, [black, id]);
+  useEffect(() => {
+    if (active && !black && loaded.current?.id === id && id) onLoaded(id);
+  }, [active, black, id, onLoaded]);
   return (
     <div
       className={`stage${black ? ' stage-black' : ''}`}
@@ -75,7 +81,7 @@ export function Stage({
               setOutgoing(loaded.current);
               loaded.current = { id: asset.id, src: asset.src };
             }
-            if (active) onLoaded(asset.id);
+            if (active && !black) onLoaded(asset.id);
           }}
           onError={() => {
             setFailed(id ?? '');
@@ -87,7 +93,7 @@ export function Stage({
             objectPosition: `${p?.focusX ?? 50}% ${p?.focusY ?? 50}%`,
           }}
         />
-      ) : (
+      ) : black ? null : (
         <div className="missing">
           {id ? '素材尚未就緒 · ' + id : '這一幕尚未配置 CG'}
           <small>你仍然可以繼續閱讀</small>

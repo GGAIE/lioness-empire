@@ -1,0 +1,209 @@
+{
+  "source": "content/sources/ep01/source-act04-v0.4.md",
+  "sourceSha256": "970494c147f6b1cf3ff090629aed1ed81820f73eb24f17da7c0ef3b900630132",
+  "status": "DRAFT",
+  "sourceScenes": 5,
+  "playbackNodes": 25,
+  "segments": 173,
+  "choicePoints": 5,
+  "options": 15,
+  "choiceEffects": "NONE",
+  "completionFlags": {
+    "OLIVIA_REGENCY_AUTHORITY": false,
+    "FINLEY_AT_CAPITAL_AS_ACADEMY_LIAISON": true,
+    "ROYAL_DOCUMENT_ROLES_CLARIFIED": true,
+    "AIVIS_EASTERN_DUTY_CONFIRMED": true,
+    "FATHER_AUDIENCE_REQUESTED": true,
+    "FATHER_AUDIENCE_GRANTED": false
+  },
+  "images": [
+    {
+      "id": "EP01-ACT04-CG01-01",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG01_v0.1.png",
+      "zipEntry": "SC01/LE_CG_EP01_ACT04_SC01_IMG01_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1979568,
+      "sha256": "ed6dbf72e3dca4e555d84d9882754a69845f01b2e0484ac2276d5fd72f9a57ad"
+    },
+    {
+      "id": "EP01-ACT04-CG01-02",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG02_v0.1.png",
+      "zipEntry": "SC01/LE_CG_EP01_ACT04_SC01_IMG02_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2229382,
+      "sha256": "774ca6311348e3c1d24fb36179293f76d25b3dd5e98ea083917b6dfd1b1a96c5"
+    },
+    {
+      "id": "EP01-ACT04-CG01-03",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG03_v0.1.png",
+      "zipEntry": "SC01/LE_CG_EP01_ACT04_SC01_IMG03_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2332902,
+      "sha256": "bb1e95de9947bb366ccf503ea5d9304935c180b122d2747cc37ee824f081148b"
+    },
+    {
+      "id": "EP01-ACT04-CG01-04",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG04_v0.1.png",
+      "zipEntry": "SC01/LE_CG_EP01_ACT04_SC01_IMG04_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2507273,
+      "sha256": "1796ea9d202836eae76aa16d077eae7c3c9e6a05b8b1f03d18d624b856c33dde"
+    },
+    {
+      "id": "EP01-ACT04-CG02-01",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG01_v0.1.png",
+      "zipEntry": "SC02/LE_CG_EP01_ACT04_SC02_IMG01_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2218814,
+      "sha256": "bed2559bb9df851ab8a5473f301a9540c79c82f743e4b0c88fcb324cfedcd2aa"
+    },
+    {
+      "id": "EP01-ACT04-CG02-02",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG02_v0.1.png",
+      "zipEntry": "SC02/LE_CG_EP01_ACT04_SC02_IMG02_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2205290,
+      "sha256": "9dc92b6944e4561d59e2057c313ca085e9693847e40deb9b10cf8b1007e55b20"
+    },
+    {
+      "id": "EP01-ACT04-CG02-03",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG03_v0.1.png",
+      "zipEntry": "SC02/LE_CG_EP01_ACT04_SC02_IMG03_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2319461,
+      "sha256": "8e1d5910db27c9efcc187c09b6898f2814810c02b6b6f673517c2e1481eea32e"
+    },
+    {
+      "id": "EP01-ACT04-CG02-04",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG04_v0.1.png",
+      "zipEntry": "SC02/LE_CG_EP01_ACT04_SC02_IMG04_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2216443,
+      "sha256": "4d38675ab27ccee0fbcfb6a4d81b51e7c9fe7a372b0b9b7a271bd12ce3d079ea"
+    },
+    {
+      "id": "EP01-ACT04-CG03-01",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG01_v0.1.png",
+      "zipEntry": "SC03/LE_CG_EP01_ACT04_SC03_IMG01_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2469752,
+      "sha256": "b41069a9a8eb84fee5ece40102ea5da79656a36c4a1629e1555eb6d8a32fb577"
+    },
+    {
+      "id": "EP01-ACT04-CG03-02",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG02_v0.1.png",
+      "zipEntry": "SC03/LE_CG_EP01_ACT04_SC03_IMG02_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2435833,
+      "sha256": "dceba4386825ccf330f3056bd6f3935a9ebf7648d8930c3496dd3f96f55479e8"
+    },
+    {
+      "id": "EP01-ACT04-CG03-03",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG03_v0.1.png",
+      "zipEntry": "SC03/LE_CG_EP01_ACT04_SC03_IMG03_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2224963,
+      "sha256": "6b16f273d289a382c2e258d9c3c468bc0fe2dbc5c8f24fbc2d5e0e8e65d85c1a"
+    },
+    {
+      "id": "EP01-ACT04-CG03-04",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG04_v0.1.png",
+      "zipEntry": "SC03/LE_CG_EP01_ACT04_SC03_IMG04_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2282491,
+      "sha256": "d021116a54540333f50d7e902075d2c1f982664905b05a5135d01eac6e5e3c64"
+    },
+    {
+      "id": "EP01-ACT04-CG04-01",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG01_v0.1.png",
+      "zipEntry": "SC04/LE_CG_EP01_ACT04_SC04_IMG01_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2446460,
+      "sha256": "e2cc884303b235f80b0ab66cac79c324303a2bf0cc893cafea676df88d877b5f"
+    },
+    {
+      "id": "EP01-ACT04-CG04-02",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG02_v0.1.png",
+      "zipEntry": "SC04/LE_CG_EP01_ACT04_SC04_IMG02_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2417319,
+      "sha256": "68cc00e0700d1363d84a74a462d6cc3b65cb5c85e9e8ac2cdc869f26e11c2b45"
+    },
+    {
+      "id": "EP01-ACT04-CG04-03",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG03_v0.1.png",
+      "zipEntry": "SC04/LE_CG_EP01_ACT04_SC04_IMG03_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2429308,
+      "sha256": "4eb18d55fc606b898f7e2eb8c669c986682689fba18fc92088ae3a6e884a3779"
+    },
+    {
+      "id": "EP01-ACT04-CG04-04",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG04_v0.1.png",
+      "zipEntry": "SC04/LE_CG_EP01_ACT04_SC04_IMG04_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2460352,
+      "sha256": "8f9bc99f5be8554dda1e2da290b8604ead94099fc59ed0019e67bd8b49f09898"
+    },
+    {
+      "id": "EP01-ACT04-CG05-01",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG01_v0.1.png",
+      "zipEntry": "SC05/LE_CG_EP01_ACT04_SC05_IMG01_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2289389,
+      "sha256": "2284913695730013f840ef1ce2db7d4c390ab741e0ae06b8ab1e5796e3da79c1"
+    },
+    {
+      "id": "EP01-ACT04-CG05-02",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG02_v0.1.png",
+      "zipEntry": "SC05/LE_CG_EP01_ACT04_SC05_IMG02_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2094639,
+      "sha256": "367bb3b8bd9750bae8a84a0f6332c7c3f49fc1a76d42696ad1e448a9994da173"
+    },
+    {
+      "id": "EP01-ACT04-CG05-03",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG03_v0.1.png",
+      "zipEntry": "SC05/LE_CG_EP01_ACT04_SC05_IMG03_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2193155,
+      "sha256": "c48d12fec5a279f2aee32c7e2c2a06ca4abf8a5e8e2812c5b58d06eed2d72969"
+    },
+    {
+      "id": "EP01-ACT04-CG05-04",
+      "path": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG04_v0.1.png",
+      "zipEntry": "SC05/LE_CG_EP01_ACT04_SC05_IMG04_v0.1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2173549,
+      "sha256": "24c371a0307f11ca57c80ef84f66209d10fdb2de2edb85a1d07a0a7f51a27731"
+    }
+  ],
+  "notes": [
+    "黑場開場保留正文「……大公主。」及下一句「大公主，別睡了。」；第一張圖前不顯示或解鎖CG",
+    "使用修正版v0.1原圖；正文v0.4。第一人稱醒來構圖備註保留在directions，不作玩家旁白",
+    "選項的王女回答在所選分支重現一次，以便回顧與存讀；問題依原稿場景索引補問號作UI提示",
+    "舞台備註、轉場、聲音提示不作台詞；未附音訊，不新增配樂；淡出更衣使用既有CG切換淡化",
+    "SC04僅兄妹會面，芬利不在場。末尾漸暗不計CG；接見僅請求，許可false，攝政false",
+    "父女會面留ACT V待提供；不結算EP01全章。原稿與舊幕均保留DRAFT"
+  ]
+}

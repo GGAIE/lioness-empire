@@ -18,9 +18,12 @@ chapter.scenes = [
   ...scenes,
   ...chapter.scenes.filter((s) => !['ACT01', 'ACT02', 'ACT03'].includes(s.act)),
 ];
-chapter.version = '0.5.0';
-chapter.source =
-  '使用者提供ACT I–III及原圖；保留DRAFT。第三幕純對話選項不影響數值、路線或後續順序。';
+const hasLaterActs = chapter.scenes.some((s) => !['ACT01', 'ACT02', 'ACT03'].includes(s.act));
+if (!hasLaterActs) {
+  chapter.version = '0.5.0';
+  chapter.source =
+    '使用者提供ACT I–III及原圖；保留DRAFT。第三幕純對話選項不影響數值、路線或後續順序。';
+}
 ChapterFileSchema.parse(chapter);
 const assets = (await readJson('manifests/assets.json')) as ReturnType<typeof AssetSchema.parse>[];
 const images = [];
@@ -57,7 +60,7 @@ if (images.length !== 20 || new Set(images.map((i) => i.id)).size !== 20)
 const characters = (await readJson('characters/index.json')) as Record<string, string>;
 for (const [id, name] of Object.entries(roles)) if (!characters[id]) characters[id] = name;
 const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
-manifest.version = '0.5.0-ep01-act03-v0.3';
+if (!hasLaterActs) manifest.version = '0.5.0-ep01-act03-v0.3';
 for (const key of Object.keys(act03CompletionFlags))
   manifest.flags[key] ??= {
     initial: false,
@@ -65,7 +68,12 @@ for (const key of Object.keys(act03CompletionFlags))
   };
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP01')!,
-  { title: '王冠之前 · ACT I–III', status: 'DRAFT_AVAILABLE' }
+  {
+    title: hasLaterActs
+      ? manifest.chapters.find((c) => c.id === 'EP01')!.title
+      : '王冠之前 · ACT I–III',
+    status: 'DRAFT_AVAILABLE',
+  }
 );
 const write = (path: string, value: unknown) =>
   writeFile(resolve(root, path), JSON.stringify(value, null, 2) + '\n');
@@ -91,7 +99,7 @@ await write('docs/ep01-act03-import-report.json', {
     '只記錄對話選擇供存讀及重讀；不新增政治、動盪、CLEAR、路線或後續事件效果',
     '正文幕尾六個事實旗標於最後字幕讀完時設定；王女沒有攝政授權',
     '原稿標示提示詞待生成，但本輪已另附二十張PNG，依使用者要求使用原圖',
-    '幕末接ACT IV〈有限的責任〉暫名，尚未交付；不結算整章；未提供新音訊',
+    '幕末接ACT IV〈王女的職責〉，保留既有選擇與數值；不結算整章；未提供新音訊',
   ],
 });
 console.log(

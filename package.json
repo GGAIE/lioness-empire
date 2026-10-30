@@ -20,7 +20,8 @@
     "content:import-prologue": "tsx scripts/import-prologue.ts",
     "content:import-ep01-act01": "tsx scripts/import-ep01-act01.ts",
     "content:import-ep01-act02": "tsx scripts/import-ep01-act02.ts",
-    "content:import-ep01-act03": "tsx scripts/import-ep01-act03.ts"
+    "content:import-ep01-act03": "tsx scripts/import-ep01-act03.ts",
+    "content:import-ep01-act04": "tsx scripts/import-ep01-act04.ts"
   },
   "dependencies": {
     "idb": "^8.0.0",

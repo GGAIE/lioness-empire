@@ -568,7 +568,7 @@ function Game({
               <div className="demo-note">
                 序幕〈母獅登基〉· v0.6
                 <br />
-                <span>序幕已開放 ／ 第一章已提供三幕 · 原稿草稿版</span>
+                <span>序幕已開放 ／ 第一章已提供四幕 · 原稿草稿版</span>
               </div>
             </div>
           ) : (
@@ -578,7 +578,7 @@ function Game({
                   <span>
                     {scene.status === 'DEMO_ONLY'
                       ? 'DEMO ONLY'
-                      : `${scene.chapter === 'PROLOGUE' ? '序幕' : `${scene.chapter} · ${actLabel}`} · ${scene.playback === 'CUTSCENE' ? '無選項過場' : scene.kind === 'choice' ? (scene.act === 'ACT03' ? '對話回應' : '工作優先順序') : '劇情進行中'}`}{' '}
+                      : `${scene.chapter === 'PROLOGUE' ? '序幕' : `${scene.chapter} · ${actLabel}`} · ${scene.playback === 'CUTSCENE' ? '無選項過場' : scene.kind === 'choice' ? (scene.choiceMode === 'DIALOGUE_FLAVOR' ? '對話回應' : '工作優先順序') : '劇情進行中'}`}{' '}
                     /{' '}
                     {scene.kind === 'result'
                       ? 'RESULT · NO CHOICE'

@@ -510,5 +510,165 @@
     "label": "EP01-ACT03-CG05-04 · 留在王都的人",
     "status": "APPROVED",
     "source": "使用者提供LE_EP01_ACT03_20CG_v0.3.zip；保留原始PNG，未改圖。"
+  },
+  {
+    "id": "EP01-ACT04-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG01_v0.1.png",
+    "label": "EP01-ACT04-CG01-01 · 大公主，別睡了",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG02_v0.1.png",
+    "label": "EP01-ACT04-CG01-02 · 大公主，別睡了",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG03_v0.1.png",
+    "label": "EP01-ACT04-CG01-03 · 大公主，別睡了",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC01_IMG04_v0.1.png",
+    "label": "EP01-ACT04-CG01-04 · 大公主，別睡了",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG01_v0.1.png",
+    "label": "EP01-ACT04-CG02-01 · 王女的工作桌",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG02_v0.1.png",
+    "label": "EP01-ACT04-CG02-02 · 王女的工作桌",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG03_v0.1.png",
+    "label": "EP01-ACT04-CG02-03 · 王女的工作桌",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC02_IMG04_v0.1.png",
+    "label": "EP01-ACT04-CG02-04 · 王女的工作桌",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG01_v0.1.png",
+    "label": "EP01-ACT04-CG03-01 · 這不是我的權限",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG02_v0.1.png",
+    "label": "EP01-ACT04-CG03-02 · 這不是我的權限",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG03_v0.1.png",
+    "label": "EP01-ACT04-CG03-03 · 這不是我的權限",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC03_IMG04_v0.1.png",
+    "label": "EP01-ACT04-CG03-04 · 這不是我的權限",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG01_v0.1.png",
+    "label": "EP01-ACT04-CG04-01 · 哥哥，這是你的工作",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG02_v0.1.png",
+    "label": "EP01-ACT04-CG04-02 · 哥哥，這是你的工作",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG03_v0.1.png",
+    "label": "EP01-ACT04-CG04-03 · 哥哥，這是你的工作",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC04_IMG04_v0.1.png",
+    "label": "EP01-ACT04-CG04-04 · 哥哥，這是你的工作",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG01_v0.1.png",
+    "label": "EP01-ACT04-CG05-01 · 北翼的消息",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG02_v0.1.png",
+    "label": "EP01-ACT04-CG05-02 · 北翼的消息",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG03_v0.1.png",
+    "label": "EP01-ACT04-CG05-03 · 北翼的消息",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
+  },
+  {
+    "id": "EP01-ACT04-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep01/act04/LE_CG_EP01_ACT04_SC05_IMG04_v0.1.png",
+    "label": "EP01-ACT04-CG05-04 · 北翼的消息",
+    "status": "APPROVED",
+    "source": "使用者提供《母獅帝國_EP01_ACT04_20張CG_正確修正版_v0.1.zip》，原PNG位元組保留，對照SCxx/IMGxx。"
   }
 ]

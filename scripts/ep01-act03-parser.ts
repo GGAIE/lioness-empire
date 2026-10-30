@@ -126,7 +126,9 @@ export function parseEp01Act03(markdown: string): {
           title: '第三幕完 · 重返王都',
           nextChapterId: 'EP01',
           scope: 'ACT',
-          pendingLabel: 'EP01 ACT IV〈有限的責任〉（暫名）· 劇本尚未提供',
+          nextSceneId: 'EP01_ACT04_SC01',
+          nextLabel: 'EP01〈王冠之前〉· ACT IV〈王女的職責〉',
+          continueLabel: '進入 EP01 第四幕',
           policy: 'NO_SCORING',
         };
       } else scene.next = 'EP01_ACT03_SC02';
@@ -141,6 +143,7 @@ export function parseEp01Act03(markdown: string): {
     if (options.length !== 3) throw Error(`Expected three choice labels ${num}`);
     const choice = make(num, heading[2], initial);
     choice.kind = 'choice';
+    choice.choiceMode = 'DIALOGUE_FLAVOR';
     choice.choices = options.map((option, i) => {
       if (option[1] !== branches[i][1] || option[1] !== ['A', 'B', 'C'][i])
         throw Error('Choice/branch source mismatch');

@@ -82,7 +82,7 @@ it.each(combinations.map((values) => [values.join(''), values] as const))(
       ...['02', '03', '04'].map((n, i) => `EP01_ACT03_SC${n}:${values[i]}`),
     ]);
     expect(s.readChapters).not.toContain('EP01');
-    expect(story.scenes[s.currentSceneId].completion?.pendingLabel).toContain('ACT IV');
+    expect(continueChapter(story, s).currentSceneId).toBe('EP01_ACT04_SC01');
     expect(markRead(story, s)).toEqual(s);
   }
 );
@@ -123,7 +123,7 @@ it('sets only the authored completion flags after reading the final subtitle and
   for (const [key, value] of Object.entries(act03CompletionFlags)) expect(s.flags[key]).toBe(value);
   expect(s.campaign?.politicalPoints).toBe(50);
   expect(s.campaign?.unrest).toBe(30);
-  expect(() => continueChapter(story, s)).toThrow();
+  expect(continueChapter(story, s).currentSceneId).toBe('EP01_ACT04_SC01');
 });
 it('restores a response and its shared CG without rerolling or changing prior choices', () => {
   let s = start();

@@ -160,6 +160,10 @@ test('ACT III reads twenty CGs and three dialogue decisions, persists their answ
     ...['02', '03', '04'].map((n) => `EP01_ACT03_SC${n}:A`),
   ]);
   expect(saved.readChapters).not.toContain('EP01');
+  await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
+  await page.getByRole('button', { name: '進入 EP01 第四幕' }).click();
+  await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP01_ACT04_SC01');
+  await expect(page.locator('.stage')).toHaveClass(/stage-black/);
   expect(errors).toEqual([]);
 });
 test('all six alternative dialogue responses use the same third CG and merge to the same fourth CG', async ({

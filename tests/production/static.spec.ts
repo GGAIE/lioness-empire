@@ -114,3 +114,57 @@ test('production continues an ACT II ending save into ACT III with its prior pri
   await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
   await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
 });
+
+test('production continues ACT III into the ACT IV black opening and corrected first-person CG', async ({
+  page,
+}) => {
+  const story = await loadContent();
+  const state = initialState({
+    ...story,
+    manifest: { ...story.manifest, start: 'EP01_ACT03_SC01' },
+  });
+  state.currentSceneId = 'EP01_ACT03_SC05';
+  state.currentSegmentIndex = story.scenes[state.currentSceneId].segments.length - 1;
+  state.flags.EP01_ACT02_PRIORITY = 'EASTERN_FRONT';
+  state.decisionLog = [
+    'EP01_ACT02_SC03:B',
+    'EP01_ACT03_SC02:A',
+    'EP01_ACT03_SC03:B',
+    'EP01_ACT03_SC04:C',
+  ];
+  await page.goto('/');
+  await page.getByRole('button', { name: '設定', exact: true }).click();
+  await page.getByRole('slider', { name: '逐字間隔（0 為立即顯示）' }).fill('0');
+  await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
+  await page.getByRole('button', { name: '存讀檔', exact: true }).click();
+  await page.locator('input[type=file]').setInputFiles({
+    name: 'act03-end.json',
+    mimeType: 'application/json',
+    buffer: Buffer.from(
+      JSON.stringify({
+        format: 'lioness-empire-save',
+        exportVersion: 1,
+        record: {
+          slot: 'entry',
+          title: 'ACT III end',
+          savedAt: '2026-10-30',
+          thumbnail: null,
+          state,
+        },
+      })
+    ),
+  });
+  await page.getByRole('button', { name: '確認並載入', exact: true }).click();
+  await page.getByRole('button', { name: '進入 EP01 第四幕' }).click();
+  await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP01_ACT04_SC01');
+  await expect(page.locator('.scene-heading')).toContainText('第四幕');
+  await expect(page.locator('.stage')).toHaveClass(/stage-black/);
+  await expect(page.getByTestId('scene-cg')).toHaveCount(0);
+  await expect(page.getByTestId('dialogue-text')).toHaveText('「……大公主。」');
+  for (let i = 0; i < 5; i++)
+    await page.getByRole('button', { name: '推進對話', exact: true }).click();
+  await expect(page.getByTestId('dialogue-text')).toHaveText('奧莉維亞睜開眼。');
+  await expect(page.getByTestId('scene-cg')).toHaveAttribute('src', /ACT04_SC01_IMG01_v0.1.png$/);
+  await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
+  await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
+});

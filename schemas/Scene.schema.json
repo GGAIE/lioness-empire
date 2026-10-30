@@ -60,6 +60,13 @@
         "STORY_EFFECTS"
       ]
     },
+    "choiceMode": {
+      "type": "string",
+      "enum": [
+        "STORY",
+        "DIALOGUE_FLAVOR"
+      ]
+    },
     "completionFlags": {
       "type": "object",
       "propertyNames": {
