@@ -5,6 +5,7 @@ import { loadContent, root, readJson } from './load-content';
 import { z } from 'zod';
 import { EndingRuleSchema } from '../packages/narrative-core/schema';
 import { validateStory } from '../packages/narrative-core/validate';
+import { auditSpeakers } from './speaker-annotations';
 import {
   advance,
   choose,
@@ -15,6 +16,12 @@ import {
 } from '../packages/narrative-core/engine';
 const story = await loadContent();
 const report = validateStory(story);
+const speakerAudit = auditSpeakers(story);
+report.errors.push(...speakerAudit.errors);
+await writeFile(
+  resolve(root, 'docs/speaker-audit-report.json'),
+  JSON.stringify(speakerAudit, null, 2) + '\n'
+);
 if (story.plan) {
   try {
     const bytes = await readFile(resolve(root, 'content', story.plan.source.file));

@@ -84,6 +84,10 @@ test('ACT V continues the prior act, reads twenty original CGs and five choices,
       await expect(page.getByTestId('dialogue-text')).toHaveText(segment.text);
       if (segment.kind === 'narration')
         await expect(page.locator('.dialogue-wrap .speaker-line')).toHaveCount(0);
+      if (segment.kind === 'dialogue' || segment.kind === 'thought')
+        await expect(page.locator('.dialogue-wrap .speaker-line > span')).toHaveText(
+          segment.speakerLabel ?? story.characters[segment.speaker!]
+        );
       if (segment.cg) {
         images++;
         const asset = story.assets.find((a) => a.id === segment.cg)!,

@@ -1,4 +1,5 @@
 import type { Scene } from '../packages/narrative-core/schema';
+import { annotateSpeakers } from './speaker-annotations';
 
 export const act05CompletionFlags = {
   FATHER_AUDIENCE_GRANTED: true,
@@ -197,5 +198,6 @@ export function parseEp01Act05(markdown: string): {
   });
   if (scenes.flatMap((s) => s.segments.filter((p) => p.cg)).length !== 20)
     throw Error('Expected twenty ACT V CG cues');
+  annotateSpeakers(scenes);
   return { scenes, roles };
 }

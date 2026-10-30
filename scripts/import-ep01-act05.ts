@@ -27,7 +27,7 @@ chapter.scenes = [
   ...scenes,
   ...chapter.scenes.filter((s) => !['ACT01', 'ACT02', 'ACT03', 'ACT04', 'ACT05'].includes(s.act)),
 ];
-chapter.version = '0.7.0';
+chapter.version = '0.7.1';
 chapter.source =
   '使用者提供EP01 ACT I–V及原圖；第五幕v0.4，第一章完。五組純對話選項無數值／路線效果；保留DRAFT。';
 ChapterFileSchema.parse(chapter);
@@ -77,7 +77,7 @@ if (images.length !== 20 || new Set(images.map((s) => s.id)).size !== 20)
 const characters = (await readJson('characters/index.json')) as Record<string, string>;
 for (const [id, name] of Object.entries(roles)) characters[id] ??= name;
 const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
-manifest.version = '0.7.0-ep01-act05-v0.4';
+manifest.version = '0.7.1-ep01-act05-v0.4-speakers';
 for (const key of Object.keys(act05CompletionFlags))
   manifest.flags[key] ??= { initial: false, description: `ACT V章末事實：${key}；不作選項獎懲。` };
 Object.assign(
@@ -104,7 +104,7 @@ await write('docs/ep01-act05-import-report.json', {
   images,
   notes: [
     'CG數依場景為4/5/4/4/3，換圖依正文CG標記；SC04第三張於問題顯示時切換',
-    '保留正文引號與敘述式說話，不推測無署名引語的說話者；分支逐行播放，所選回答重現一次',
+    '依speaker-annotations-v1.json逐句核對引語說話者；保留正文、引號、段落ID與動作敘述，分支逐行播放',
     '芬利不進父王寢宮；探視經國王本人同意與醫師許可；不創作陰謀或病因',
     '原稿EP01結束字幕作章末黑場；標記第一章已讀，數值不變，EP02尚未提供',
     '所有事實於章末字幕讀完記錄；只有私人暫留，無行政職位或攝政權；不加音訊',

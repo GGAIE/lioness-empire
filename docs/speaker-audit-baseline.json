@@ -1,0 +1,334 @@
+{
+  "chapterVersion": "0.7.0",
+  "unmodifiedSceneShapes": [
+    {
+      "sceneId": "EP01_ACT01_SC01",
+      "sha256": "e0f51fb6f7df4915fee0c56b5fe12fee4dfbd59c10f487cd586fa7c2782cc826"
+    },
+    {
+      "sceneId": "EP01_ACT01_SC02",
+      "sha256": "cfb6f3ff5ff82c11c26e7de81f2d61139a78503b391e43c8b8c832c0e368fd4d"
+    },
+    {
+      "sceneId": "EP01_ACT01_SC03",
+      "sha256": "72220a601ef8155d75f036d221815ba55ba6f2af176505c018489b8ef1b4dbf4"
+    },
+    {
+      "sceneId": "EP01_ACT01_SC04",
+      "sha256": "1adf197864910f9132607f2ff1daf3cfbf70899c07152f4a5ea7b3c8b65dc61c"
+    },
+    {
+      "sceneId": "EP01_ACT01_SC05",
+      "sha256": "ff8b0abf66751587984577d9d1e66b332c08bd6eba0e0fa7b2a0597e91093793"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC01",
+      "sha256": "41fec05ed4587be8a3b65a644bba3019d1d6de5980336a81a3bf06da1ecb06b5"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC02",
+      "sha256": "3b6fb45651408a289b6eadd77c8dba63d4f3aab3a99ae7bcd76834f9f266f40f"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03",
+      "sha256": "6da7ee5ea97cf470645d724adcb0650039d6e685089333a1120a7f70ca7717ca"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03_A",
+      "sha256": "cde08e8f6f423e599ebbde3f28de0d66bf0aac1580e7cfdfd9eed84432c8f681"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03_B",
+      "sha256": "ccd015a7ab765fe2097f140b669d317acc4043a8d9d596e8be6b4c9304662b8f"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03_C",
+      "sha256": "6f9b7ddd6e3716e3d23e484828da8af64e976623c2dc42dd3c698d7db344ecb7"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03_COMMON",
+      "sha256": "dcdb342a111c71bda3d7b465c3bc4c398e6b0280567247fbc16b5c7aecc53990"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC04",
+      "sha256": "d09eaadc0b58e42b29a750c8eb55d490f3c3c04603af646389b955bb7efa15f7"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC05",
+      "sha256": "7fa0db37210c6feacf67b73e41d1204b9714d8d51f58ade22962bad55995320b"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC01",
+      "sha256": "ce66ef9f701d14b4dce34fcd9e3b1b6f5de5a02b5978fc4febfc2bad583f8831"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC02",
+      "sha256": "c2d4bd2fda8a81d55cc731b58f0486f73d3999a5ecd5b61d1b4abdedd47f719c"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC02_A",
+      "sha256": "bf280e154b77e38453dfe60b91b2c602b2505e3e02a4d4e3739af4bd5c5b635d"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC02_B",
+      "sha256": "d5a411de7821b18860870b29e98764b030c8b4430d8b5d690976ba7ee4209744"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC02_C",
+      "sha256": "3acb25e3e2ed8bd2215d63b656163bb1eb2f6612dee86719df4a6d20c1394d3a"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC02_COMMON",
+      "sha256": "6a20f004c9ebe334d2e9e32ee23d4b9c569b6c6c2293bb81284fe3a993a2fe22"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC03",
+      "sha256": "403c0c501b475259e37949fe3cb603236cc13d416f03e3720321cd08a4b8a75b"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC03_A",
+      "sha256": "9f28f5c86d6d5de19b24dbb77c0d214e15506def3867abcbdcf0585924c62e94"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC03_B",
+      "sha256": "f7de20ec9705e5f75b4689ae20c70d8a7fcee34ae59a7ec0df03e9b3a14c88ec"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC03_C",
+      "sha256": "6533a02938e7a4b99ed745a9e0412cfd1340eb0fa52d6767576809edec27c44f"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC03_COMMON",
+      "sha256": "b39909abd51e43761f8efd8d0581abf62ef5407659efa9413068c4c67d06471f"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC04",
+      "sha256": "ba2264cf1918ecfbe923f035bc5b766170ac21795af3c9cfe8b761e8038807a5"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC04_A",
+      "sha256": "954495aa1035278b11b4955fd02e8bdf0e436fe81a6bdf45d4882aa10949c9d6"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC04_B",
+      "sha256": "860c099de1e4cf658d621d62290cf75bcc8a3e8dbfe8ac98cd41e697038a1958"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC04_C",
+      "sha256": "f551d182c4467fba82b36e38a683fdd1a4b9ea22b82a10b581c7b4fa950c1205"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC04_COMMON",
+      "sha256": "540b4c96008cd2d2a82fd994310d60ea2631420615f4f3a451feb70c74a03bd7"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC05",
+      "sha256": "ab8f9955274a03a1759fe4ad0424139f3946215bff70ee1a1eb48051db797185"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC01",
+      "sha256": "79ed2b9bd23fc7c000bf9978643458b7e14be201e576031c93717a8d0c89b515"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC01_A",
+      "sha256": "ecd30c5ec7a7fecb493306ac9afc239c40789b72adfd94506aafb74a73fe2c3e"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC01_B",
+      "sha256": "81dc7a47ada34b9d167ae540ee8fcc75427792f57d4117d06a75968c2194fd8a"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC01_C",
+      "sha256": "f037c3fed2daf6bb14c7a3b989bf0f00374922c4787550b198b5b660b05beddd"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC01_COMMON",
+      "sha256": "a2161c0b9d2f381808f3796d195fd283a2c5f1911ba3cb40220d19f6d6ac46ca"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC02",
+      "sha256": "a01af72e5b10e8993fca8e50420b25f8ba323c7cd87d64b9e71856d4e941e505"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC02_A",
+      "sha256": "2325a0394009383e223cba403e8f022d0238d422fad3dcdd77ee7662d9e72f15"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC02_B",
+      "sha256": "475ec8663352670b1d56bc4efe3724fb97eba48e2d0cb4803a35ecb8be039b86"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC02_C",
+      "sha256": "63369b49efca792312e40db43407a102ceaee4c2ddcc68183d649b5fb37a4511"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC02_COMMON",
+      "sha256": "c14a8c7df8d4ec59c6522f851973866e4d13762ab2b2bb44b6f0aa6a455736e1"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC03",
+      "sha256": "039edbe0370b144fecd9a21c4df110ad7a812d192ab5b74e898d492a081c9caf"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC03_A",
+      "sha256": "fea8812e453b5b3c66175ffff917f1a1079a6b79a9b2383c7077a1869f389096"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC03_B",
+      "sha256": "98ad3db4a16cbf988fd9d98871073d594072e749ac9f09b01ab60daee1fcd332"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC03_C",
+      "sha256": "249c3b5881b0ab48123f9e413c935e3f4a2fd31fdf7e8adb28e597888204da63"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC03_COMMON",
+      "sha256": "e7e7b7afd41848f05e7ec95482d5947e2953602aeb9951fb095da8bc32a9bb31"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC04",
+      "sha256": "0fb2b813053596c8775cce4d69847feac8db9c7a0ba0c6ba9ab02c246d0ee840"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC04_A",
+      "sha256": "d7421c3c6f38981b0959bf9f4e5f60eab1640d7e3fd11465f9caecccd3d635dd"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC04_B",
+      "sha256": "eb310dc0d93312717e35e0bc3fca0a552d6d26fd3524660a0dbb4b9d922bfd65"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC04_C",
+      "sha256": "435ae0d261eb36ce569975183b43ab0595c20e0cd4360feb5da9e3e130cdb499"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC04_COMMON",
+      "sha256": "8525b63368fc859c1073e4bc2723166520e90f3717a0a6505f37183a8cf2c838"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC05",
+      "sha256": "302636d040e4daaabcca8ce5bd2961a47eca4f16f77cde7baf852475acb6c4d0"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC05_A",
+      "sha256": "35021ae082b05c362116ca4ce6d0d239b7d28610ccc2bd83c1cd8ae1ddb684e9"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC05_B",
+      "sha256": "3e2408dedf507a273eafc814038299dd5c9a61fa5f47642d62ad147ac5b61f2f"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC05_C",
+      "sha256": "57962d6ef28563931f478f34c8a9aa09b033a6670099ec5b2ab44b028009a538"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC05_COMMON",
+      "sha256": "bd8d52280462730c74068343f1a412c064588244f48fc6573f535a2dab7a1337"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC01",
+      "sha256": "34ccbfb66640e754dc6e58ab63ca1f96e9689f084fca6396be3e4604767281f5"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC01_A",
+      "sha256": "899630222c7988310174a6dcbbee5e2342e632880e44376e7104c35390c2019b"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC01_B",
+      "sha256": "39224385e23bc92bdbd23d330227055281dfd0347f3b519a8b715c3bcc7c01fc"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC01_C",
+      "sha256": "66720810dba8d0d6d7cec72f4987b2b3082410c37a31e1fd145032ba3a9b1ed2"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC01_COMMON",
+      "sha256": "e80537f1c2672cd63cd36578ba7e588fbaee5ad7db9862029bfebc2c88506e6a"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC02",
+      "sha256": "5ca9c6b8611a2a3ab3b4071693ca50be42436bda11c31d59ad5065e077be3e88"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC02_A",
+      "sha256": "39deb17f2c1bdf19683fd5eade962bf008f10aa4506b5964b6c1da8ad2ad3e59"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC02_B",
+      "sha256": "5e5da963994f0acfac8d21ab0f7fc2f89c28cb45ac866b85c0c75817687bd59d"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC02_C",
+      "sha256": "db17ecc19af85bff806c0a3c5a14c3b13ec38dfbe808519ee931db0657c52f6a"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC02_COMMON",
+      "sha256": "ca958ebbf9c2df193e4324281eeb0dc1efb9014689cc1c73e430a024b1bef55b"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC03",
+      "sha256": "bc3b5c661a04df2eca19f6e7a081e5d2f46d7ab001f34be42543cd46489ace24"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC03_A",
+      "sha256": "08751f206aadcd1edb5d5a42fa3a2c8c3a4cdc825915ab0f6bbb76f89e931be6"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC03_B",
+      "sha256": "d692d542198ff9230b1c7b7a99fa1de4c7606674dda80e5e7882ba605813e28c"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC03_C",
+      "sha256": "55a2cd5eef977e1fd747363ae32dcb33d28af15483dd144ab2e562c4b40c25d9"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC03_COMMON",
+      "sha256": "fc41db7ebf9f5482e6d50b0ef26c3c30858fbcc09c97e9d90624dfa8012d744f"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC04",
+      "sha256": "d37813e56c16f189a43f17279f4cf1a8ad4f5502856abfab57f15ece0eb6fc3a"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC04_A",
+      "sha256": "9b286d8186c6a156b2ac41443366163a4d6ae7385c5d55b2c7e9004538540401"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC04_B",
+      "sha256": "1bdfe2b4e13b4a4777a2dacbcd2d101d2cc5d3682f9bd87c1d2912cbbf288056"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC04_C",
+      "sha256": "024c67f5c46c1543bdab50d4bdc1009333ac3b3e600cac2a87adc555c43a6224"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC04_COMMON",
+      "sha256": "20bc395f127b5d1a778540fe0626d03037ac65d26b8fb0b039c4215edd39ac63"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC05",
+      "sha256": "54738bcc50e53f170e5243fd798f346cbcf7b8c7f8c09a16479e7dc32509ef6b"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC05_A",
+      "sha256": "8103be3db59a4f940b04e580c5f9fdaf27db6cbb82993ec19eed3da264de4cbe"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC05_B",
+      "sha256": "9e4b8c63b51671eaf27b84901a6917ab0822c996217336f3b2dfee1a84e961c1"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC05_C",
+      "sha256": "22dbde79b56f799dedf474d8584bd2fd43e7231d5e319d5eb28d1da0676ef477"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC05_COMMON",
+      "sha256": "8a2e63dfd6285d38556a8fb15a384f54e5d6fd5e20f603a55d94316270ae4fa1"
+    }
+  ],
+  "fixedSegments": 137,
+  "byAct": {
+    "ACT02": 2,
+    "ACT05": 135
+  }
+}

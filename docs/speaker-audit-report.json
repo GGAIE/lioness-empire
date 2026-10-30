@@ -1,0 +1,83 @@
+{
+  "errors": [],
+  "counts": {
+    "dialogue": 686,
+    "thoughts": 20,
+    "narration": 629,
+    "fixed": 137
+  },
+  "retainedQuotes": [
+    {
+      "sceneId": "PRO-SC05",
+      "segmentId": "L018",
+      "text": "也沒有任何人能以「只是暫時安排」的名義，將今天正在發生的事輕輕帶過。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP01_ACT01_SC04",
+      "segmentId": "L007",
+      "text": "奧莉維亞首先重新讀了「國王陛下健康狀況」幾個字。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP01_ACT01_SC04",
+      "segmentId": "L027",
+      "text": "「返都後相關職責，另行通知。」",
+      "reason": "LETTER_QUOTATION：重讀召回公函的摘句，原稿未表示出聲朗讀。"
+    },
+    {
+      "sceneId": "EP01_ACT01_SC05",
+      "segmentId": "L026",
+      "text": "她想起早上那四份填錯的申請單，想起仍然不穩定的通訊裝置，也想起剛剛那句沒辦法回答的「什麼時候回來」。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC03",
+      "segmentId": "L002",
+      "text": "但在確定了大方向之後，剩下的問題便不再是「要不要做」，而是「先做什麼」。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP01_ACT02_SC04",
+      "segmentId": "L009",
+      "text": "法伊德沒有立刻反對。他翻看了幾頁初步整理好的資料清單，問的也不是「為什麼要讓芬利去」，而是更實際的問題。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC02",
+      "segmentId": "L011",
+      "text": "「奧莉維亞應如何回答？」",
+      "reason": "CHOICE_PROMPT"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC03",
+      "segmentId": "L013",
+      "text": "「奧莉維亞如何回應芬利？」",
+      "reason": "CHOICE_PROMPT"
+    },
+    {
+      "sceneId": "EP01_ACT03_SC04",
+      "segmentId": "L019",
+      "text": "「奧莉維亞如何回應哥哥？」",
+      "reason": "CHOICE_PROMPT"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC02",
+      "segmentId": "L001",
+      "text": "桌上分別放著接待行程、往來信函、內廷協調資料與轉呈清單。奧莉維亞翻開最上方文件，注意到這些東西看似同屬「請王女協助」，卻沒有清楚寫明要求她做的究竟是哪種工作。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP01_ACT04_SC02_COMMON",
+      "segmentId": "L001",
+      "text": "奧莉維亞將資料分為「核對、建議、轉呈、需正式核定」四類，刻意把最後一類與自己的工作疊分開。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP01_ACT05_SC01_COMMON",
+      "segmentId": "L009",
+      "text": "只是今天如果再有人告訴她「請稍候」，她就一定要問出，那個『稍候』究竟有沒有真正的終點。",
+      "reason": "NARRATIVE_REFERENCE"
+    }
+  ]
+}

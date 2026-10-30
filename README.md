@@ -46,6 +46,7 @@ npm run preview
 
 ## 文件
 
+- `docs/SPEAKER_HEADER_AUDIT.md`：全稿頭標檢查、137段逐句補正及舊回顧相容。
 - `docs/PROJECT_STATUS_M0.md`：現有來源、權限與衝突。
 - `docs/CONTENT_AUTHORING_GUIDE.md`：新增章節／場景、替換 CG、選項、結局、版本與存檔相容。
 - `docs/ACCEPTANCE.md`：完成清單、驗收結果及未完成事項。

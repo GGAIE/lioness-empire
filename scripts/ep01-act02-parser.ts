@@ -1,4 +1,5 @@
 import type { Scene } from '../packages/narrative-core/schema';
+import { annotateSpeakers } from './speaker-annotations';
 
 export const ACT02_PRIORITY = 'EP01_ACT02_PRIORITY';
 export const act02Options = [
@@ -177,5 +178,6 @@ export function parseEp01Act02(markdown: string): { scenes: Scene[]; roles: type
     common.next = 'EP01_ACT02_SC04';
     scenes.push(common);
   });
+  annotateSpeakers(scenes);
   return { scenes, roles };
 }

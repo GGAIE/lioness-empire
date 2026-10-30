@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "EP01",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "status": "DRAFT",
   "source": "使用者提供EP01 ACT I–V及原圖；第五幕v0.4，第一章完。五組純對話選項無數值／路線效果；保留DRAFT。",
   "scenes": [
@@ -2703,7 +2703,9 @@
         },
         {
           "id": "L013",
-          "kind": "narration",
+          "speaker": "FAID",
+          "speakerLabel": "法伊德",
+          "kind": "dialogue",
           "visual": "SCENE",
           "text": "法伊德又問：「帶去王都的資料有哪些？回報頻率如何？留在學院的人手由誰主責？」",
           "cg": "EP01-ACT02-CG04-03"
@@ -2873,7 +2875,9 @@
         },
         {
           "id": "L003",
-          "kind": "narration",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
           "visual": "SCENE",
           "text": "她看著桌面上仍然留著的一部分記錄，忽然低聲說了一句：「我們只是去王都，不是研究計畫宣布死亡。」"
         },
@@ -8210,8 +8214,10 @@
         {
           "id": "L004",
           "text": "「北翼還沒消息？」她問。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L005",
@@ -8224,8 +8230,10 @@
         {
           "id": "L006",
           "text": "「好。」奧莉維亞點頭，「請告訴他們，時間短一點也沒關係。我只想看看父王。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L007",
@@ -8273,20 +8281,26 @@
         {
           "id": "L014",
           "text": "「芬利。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L015",
           "text": "「嗯？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L016",
           "text": "「我們是不是已經等了半天？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L017",
@@ -8299,14 +8313,18 @@
         {
           "id": "L018",
           "text": "「你還真的算了？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L019",
           "text": "「妳問我是不是半天，我總不能只靠感覺回答。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L020",
@@ -8318,8 +8336,10 @@
         {
           "id": "L021",
           "text": "「我一直想不通。我們家怎麼每次都能把一件這麼簡單的事情搞得那麼久？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L022",
@@ -8332,14 +8352,18 @@
         {
           "id": "L023",
           "text": "「我知道。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L024",
           "text": "「那確實不是一般接見。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L025",
@@ -8350,8 +8374,10 @@
         {
           "id": "L026",
           "text": "「我想見的是我的父親。我又不是要去向他討軍費，更不是要他立刻起床主持御前會議。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L027",
@@ -8362,20 +8388,26 @@
         {
           "id": "L028",
           "text": "「這個差別，妳已經向內廷說明過了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L029",
           "text": "「不只一次。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L030",
           "text": "「那麼妳現在比較想抱怨，還是想做點什麼？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L031",
@@ -8690,20 +8722,26 @@
         {
           "id": "L003",
           "text": "「嗯。我想知道自己到底在等什麼。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L004",
           "text": "「要我一起去嗎？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L005",
           "text": "「不用。」她把召回時帶回來的那封公文收進資料夾，想了想又放下，「這不是研究室的問題。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L006",
@@ -8806,20 +8844,26 @@
         {
           "id": "L004",
           "text": "一位內廷主管上前行禮：「大公主殿下。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "NORTH_WING_STEWARD",
+          "speakerLabel": "北翼主管"
         },
         {
           "id": "L005",
           "text": "「我來探望父王。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L006",
           "text": "「殿下，陛下目前仍需休養，恐怕暫時不便接見。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "NORTH_WING_STEWARD",
+          "speakerLabel": "北翼主管"
         },
         {
           "id": "L007",
@@ -8830,8 +8874,10 @@
         {
           "id": "L008",
           "text": "她只是問：「這是父王親口說的，還是醫師認為他現在不能見客？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L009",
@@ -8844,8 +8890,10 @@
         {
           "id": "L010",
           "text": "「我問的不是安排的名稱。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L011",
@@ -8856,8 +8904,10 @@
         {
           "id": "L012",
           "text": "「我想知道，是誰作的決定。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L013",
@@ -8875,8 +8925,10 @@
         {
           "id": "L015",
           "text": "「我同意。」她說。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L016",
@@ -8887,8 +8939,10 @@
         {
           "id": "L017",
           "text": "「但這個解釋只能說明你們不能擅自讓我進去。」奧莉維亞接著說，「不能說明為什麼從昨天到現在，沒有人能告訴我，請求到底送到哪裡。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L018",
@@ -8899,8 +8953,10 @@
         {
           "id": "L019",
           "text": "「如果父王不願見我，我會尊重；如果醫師說不行，我也可以等。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L020",
@@ -8911,8 +8967,10 @@
         {
           "id": "L021",
           "text": "「可如果兩者都不是，誰有權讓這件事一直拖下去？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L022",
@@ -8926,8 +8984,10 @@
         {
           "id": "L023",
           "text": "「那就確認。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L024",
@@ -8938,14 +8998,18 @@
         {
           "id": "L025",
           "text": "「你們可以告訴我，醫師不允許；可以告訴我，父王要休息；甚至可以告訴我，他今天不想見任何人。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L026",
           "text": "「但不能一整天都只告訴我，『還在確認』。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L027",
@@ -8956,8 +9020,10 @@
         {
           "id": "L028",
           "text": "「我今天不是來要求你們破例。我是來確認，究竟是誰在替國王作主。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L029",
@@ -9265,9 +9331,11 @@
         {
           "id": "L001",
           "text": "「我沒有要求你們現在開門。」奧莉維亞補充，「但我希望現在就由負責的人，去確認父王本人的意願，以及醫師對短暫探視的意見。」",
-          "kind": "narration",
+          "kind": "dialogue",
           "visual": "SCENE",
-          "cg": "EP01-ACT05-CG02-04"
+          "cg": "EP01-ACT05-CG02-04",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L002",
@@ -9304,8 +9372,10 @@
         {
           "id": "L007",
           "text": "「陛下已經知道殿下在等，並且同意接見。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "NORTH_WING_STEWARD",
+          "speakerLabel": "北翼主管"
         },
         {
           "id": "L008",
@@ -9316,8 +9386,10 @@
         {
           "id": "L009",
           "text": "「謝謝。辛苦了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L010",
@@ -9423,8 +9495,10 @@
         {
           "id": "L003",
           "text": "「回來了？」他問。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L004",
@@ -9435,14 +9509,18 @@
         {
           "id": "L005",
           "text": "「父王。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L006",
           "text": "「站在那裡做什麼？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L007",
@@ -9459,32 +9537,42 @@
         {
           "id": "L009",
           "text": "「聽說妳讓北翼的人緊張得很。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L010",
           "text": "「我沒有吵架。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L011",
           "text": "「是嗎？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L012",
           "text": "「我只是請他們把程序說清楚。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L013",
           "text": "國王輕輕笑了：「那恐怕比吵架還麻煩。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L014",
@@ -9502,26 +9590,34 @@
         {
           "id": "L016",
           "text": "「您瘦了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L017",
           "text": "「人上了年紀，總會這樣。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L018",
           "text": "「您上次就這麼說。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L019",
           "text": "「因為這句話每次都適用。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L020",
@@ -9532,8 +9628,10 @@
         {
           "id": "L021",
           "text": "「您真的把我嚇壞了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L022",
@@ -9544,26 +9642,34 @@
         {
           "id": "L023",
           "text": "「抱歉。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L024",
           "text": "「我從學院收到的就是一封公文。」她說，「上面沒有您的消息，沒有誰能告訴我具體情況。連回來之後，我也得一直等。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L025",
           "text": "「我知道妳不喜歡這樣。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L026",
           "text": "「不只是喜不喜歡。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L027",
@@ -9574,8 +9680,10 @@
         {
           "id": "L028",
           "text": "「我是您的女兒。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L029",
@@ -9586,8 +9694,10 @@
         {
           "id": "L030",
           "text": "「我知道。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L031",
@@ -9599,8 +9709,10 @@
         {
           "id": "L032",
           "text": "「學院那邊，最近還順利嗎？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L033",
@@ -9613,8 +9725,10 @@
         {
           "id": "L034",
           "text": "「那不是妳平常最喜歡說的事情？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L035",
@@ -9994,8 +10108,10 @@
         {
           "id": "L002",
           "text": "「您還在工作？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L003",
@@ -10006,20 +10122,26 @@
         {
           "id": "L004",
           "text": "「不是完全沒有。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L005",
           "text": "「醫師不是要您減少勞累？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L006",
           "text": "「所以我才坐在這裡，而不是朝會廳。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L007",
@@ -10030,8 +10152,10 @@
         {
           "id": "L008",
           "text": "「這兩件事並不互相排斥。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L009",
@@ -10042,8 +10166,10 @@
         {
           "id": "L010",
           "text": "「這句話很像妳。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L011",
@@ -10054,14 +10180,18 @@
         {
           "id": "L012",
           "text": "「您現在到底能處理多少事情？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L013",
           "text": "「比以前少得多。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L014",
@@ -10072,8 +10202,10 @@
         {
           "id": "L015",
           "text": "「這件事我不打算再逞強。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L016",
@@ -10091,20 +10223,26 @@
         {
           "id": "L018",
           "text": "「王都還在運作。各官署也都有自己應該做的事。艾維斯在東線，需要我放心讓他去處理那邊的責任。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L019",
           "text": "「那您呢？」奧莉維亞問。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L020",
           "text": "「我現在要做的是把身體養好。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L021",
@@ -10115,20 +10253,26 @@
         {
           "id": "L022",
           "text": "「等情況改善，我會想辦法慢慢回到朝政裡。先從能負擔的工作開始，聽取報告、處理必要事項，再看醫師允不允許我恢復更多。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L023",
           "text": "「您真的打算回去？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L024",
           "text": "「當然。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L025",
@@ -10139,8 +10283,10 @@
         {
           "id": "L026",
           "text": "「我還是國王。只要我還有能力，就沒有理由讓所有人永遠替我做決定。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L027",
@@ -10448,8 +10594,10 @@
         {
           "id": "L002",
           "text": "「今天先到這裡吧。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L003",
@@ -10462,20 +10610,26 @@
         {
           "id": "L004",
           "text": "「所以我更不想把您累壞。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L005",
           "text": "「說得好像我已經這麼不中用了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L006",
           "text": "「您剛才才說會聽醫師的。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L007",
@@ -10486,20 +10640,26 @@
         {
           "id": "L008",
           "text": "「奧莉維亞。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L009",
           "text": "「嗯？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L010",
           "text": "「這次回來，妳可以先在王都多住一段時間嗎？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L011",
@@ -10510,26 +10670,34 @@
         {
           "id": "L012",
           "text": "「我就知道。父王，您把我從學院叫回來，果然不只是為了讓我探病。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L013",
           "text": "「我確實想見妳。」艾爾維爾笑了一下，「但我也希望妳能在身邊待些日子。艾維斯去了東線，我還需要休養；至少有家人在王都，總是好一些。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L014",
           "text": "「王宮不是沒有人辦事。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L015",
           "text": "「當然不是。」國王答得乾脆，「官署照常辦事，該由誰決定的，仍由誰決定。我不是要妳現在接下一個職位，更不是要把我的權力交給妳。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L016",
@@ -10540,14 +10708,18 @@
         {
           "id": "L017",
           "text": "「所以，我現在只需要先留下？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L018",
           "text": "「先留下。其他事情，等妳安頓好，再按正式程序談清楚。妳不必今天給任何人一張空白的承諾。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L019",
@@ -10558,26 +10730,34 @@
         {
           "id": "L020",
           "text": "「您知道我昨天把一些工作退回哥哥那裡嗎？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L021",
           "text": "「知道。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L022",
           "text": "「您不覺得我在推事？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L023",
           "text": "「如果妳連什麼不該由自己決定都分不清楚，我才會擔心。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L024",
@@ -10588,20 +10768,26 @@
         {
           "id": "L025",
           "text": "「好。我先留在王都，至少等您身體好一些。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L026",
           "text": "「那就好。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L027",
           "text": "「不過，」她仍忍不住補上一句，「我們家的『住一段時間』，通常最後都會變成很多工作。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L028",
@@ -10612,8 +10798,10 @@
         {
           "id": "L029",
           "text": "「看來妳還是很了解這個家。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L030",
@@ -10624,20 +10812,26 @@
         {
           "id": "L031",
           "text": "「那您好好休息。我改天再來看您。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L032",
           "text": "「這次我會讓北翼的人早些給妳答覆。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELVIR",
+          "speakerLabel": "艾爾維爾"
         },
         {
           "id": "L033",
           "text": "「最好是。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L034",
@@ -10725,26 +10919,34 @@
         {
           "id": "L005",
           "text": "「回來了？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L006",
           "text": "「嗯。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L007",
           "text": "「見到陛下了？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L008",
           "text": "「見到了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L009",
@@ -10755,8 +10957,10 @@
         {
           "id": "L010",
           "text": "「至少他還有精神跟我開玩笑。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L011",
@@ -10767,26 +10971,34 @@
         {
           "id": "L012",
           "text": "「那是好事。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L013",
           "text": "「他還說，等身體好一點，就會想辦法重新處理朝政。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L014",
           "text": "「聽起來他自己仍有打算。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L015",
           "text": "「有。比我想像中還明確。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L016",
@@ -10797,20 +11009,26 @@
         {
           "id": "L017",
           "text": "「而且父王希望我先留在王都一段時間。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L018",
           "text": "「妳答應了？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L019",
           "text": "「答應了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L020",
@@ -10821,8 +11039,10 @@
         {
           "id": "L021",
           "text": "「那我們的研究呢？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L022",
@@ -10833,8 +11053,10 @@
         {
           "id": "L023",
           "text": "「正好。這就是我想找你談的事。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L024",
@@ -10846,32 +11068,42 @@
         {
           "id": "L025",
           "text": "「學院那邊不會因為我們暫時不回去就停擺。」他說，「留守的人會繼續測試。我的外派身分也還有效，我可以整理結果、回報進度，必要時再安排兩地核對。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L026",
           "text": "「我知道。」奧莉維亞說，「只是不能保證我還能像之前那樣，一整天都泡在研究室裡。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L027",
           "text": "「本來就不需要妳一個人做完全部。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L028",
           "text": "「這話從你嘴裡說出來，真有說服力。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L029",
           "text": "「我本來就是團隊的一員。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L030",
@@ -10888,32 +11120,42 @@
         {
           "id": "L032",
           "text": "「那王宮呢？」芬利問。",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L033",
           "text": "「父王只是希望我先留下來。」奧莉維亞答道，「他沒有正式交代我以後要做什麼，也沒有打算讓我代替哥哥或官署。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L034",
           "text": "「這樣反倒好。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L035",
           "text": "「哪裡好？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L036",
           "text": "「妳至少不用現在就替所有未知的工作預留時間。真有新的任務，也該先說清楚內容和權責。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L037",
@@ -10924,8 +11166,10 @@
         {
           "id": "L038",
           "text": "「這一點，我同意得不能再同意。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L039",
@@ -10936,14 +11180,18 @@
         {
           "id": "L040",
           "text": "「只是妳在學院也常說『我就看一下』，最後把別人的項目一起接下來。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L041",
           "text": "「……你不能挑一些我比較有面子的往事來回憶嗎？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L042",
@@ -11265,20 +11513,26 @@
         {
           "id": "L005",
           "text": "「那就先這樣。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L006",
           "text": "「嗯。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L007",
           "text": "「今天還有什麼要做的嗎？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L008",
@@ -11289,8 +11543,10 @@
         {
           "id": "L009",
           "text": "「沒有。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L010",
@@ -11301,20 +11557,26 @@
         {
           "id": "L011",
           "text": "「妳確定？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L012",
           "text": "「非常確定。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L013",
           "text": "「那我就不打擾妳了。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L014",
@@ -11325,14 +11587,18 @@
         {
           "id": "L015",
           "text": "「芬利。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L016",
           "text": "「嗯？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L017",
@@ -11343,8 +11609,10 @@
         {
           "id": "L018",
           "text": "「明天早上……」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L019",
@@ -11355,8 +11623,10 @@
         {
           "id": "L020",
           "text": "「不要再用『大公主，別睡了』叫醒我。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L021",
@@ -11367,8 +11637,10 @@
         {
           "id": "L022",
           "text": "「那如果妳又睡過頭呢？」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
         },
         {
           "id": "L023",
@@ -11379,8 +11651,10 @@
         {
           "id": "L024",
           "text": "「……至少換個比較好聽的說法。」",
-          "kind": "narration",
-          "visual": "SCENE"
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
         },
         {
           "id": "L025",

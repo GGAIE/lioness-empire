@@ -177,6 +177,20 @@ export function restoreSave(input: unknown, story: Story): { state: GameState; n
     state.currentSegmentIndex = Math.max(0, max);
     notices.push('段落已縮短，位置移至本場景最後一段。');
   }
+  let refreshedSpeakers = 0;
+  state.history = state.history.map((entry) => {
+    const segment = story.scenes[entry.sceneId]?.segments.find((s) => s.id === entry.segmentId);
+    if (
+      !segment ||
+      segment.text !== entry.text ||
+      (segment.speaker === entry.speaker && segment.speakerLabel === entry.speakerLabel)
+    )
+      return entry;
+    refreshedSpeakers++;
+    return { ...entry, speaker: segment.speaker, speakerLabel: segment.speakerLabel };
+  });
+  if (refreshedSpeakers)
+    notices.push(`已更新 ${refreshedSpeakers} 段回顧的說話者標記，正文與閱讀位置不變。`);
   return { state, notices };
 }
 export function parseImport(text: string, story: Story) {
