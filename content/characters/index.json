@@ -33,5 +33,7 @@
   "LOCAL_DELEGATE": "地方代表",
   "LOCAL_CLERK": "地方承辦官",
   "ROAD_OFFICER": "道路官",
-  "COURT_OFFICER": "宮廷承辦官"
+  "COURT_OFFICER": "宮廷承辦官",
+  "ARCHIVE_OFFICER": "檔案官",
+  "ACADEMY_RESEARCHER": "學院研究人員"
 }

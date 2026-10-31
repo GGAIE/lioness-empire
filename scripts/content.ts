@@ -59,7 +59,8 @@ const pending = story.manifest.chapters
     .map((c) => initialState({ ...story, manifest: { ...story.manifest, start: c.entry! } })),
   seen = new Set<string>();
 let ends = 0;
-while (pending.length && seen.size < 10000) {
+// Authored EP02 ACT02 expands the full reachable graph beyond 10,000 states.
+while (pending.length && seen.size < 20000) {
   const s = pending.pop()!;
   const key = JSON.stringify([
     s.currentSceneId,

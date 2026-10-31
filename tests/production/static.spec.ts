@@ -230,6 +230,53 @@ test('production continues ACT IV into ACT V and shows a non-charging first-chap
   await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
 });
 
+test('production continues an older ACT01 ending into ACT02 SCRIPT without another upkeep', async ({
+  page,
+}) => {
+  const story = await loadContent(),
+    state = initialState({ ...story, manifest: { ...story.manifest, start: 'EP02_ACT01_SC01' } });
+  state.currentSceneId = 'EP02_ACT01_SC05_COMMON';
+  state.currentSegmentIndex = story.scenes[state.currentSceneId].segments.length - 1;
+  state.contentVersion = '0.8.0-ep02-act01-v0.9';
+  state.readChapters = ['EP01'];
+  state.campaign!.upkeep = [{ chapter: 'EP02', unrest: 30, cost: 0 }];
+  await page.goto('/');
+  await page.getByRole('button', { name: '設定', exact: true }).click();
+  await page.getByRole('slider', { name: '逐字間隔（0 為立即顯示）' }).fill('0');
+  await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
+  await page.getByRole('button', { name: '存讀檔', exact: true }).click();
+  await page.locator('input[type=file]').setInputFiles({
+    name: 'old-act01-end.json',
+    mimeType: 'application/json',
+    buffer: Buffer.from(
+      JSON.stringify({
+        format: 'lioness-empire-save',
+        exportVersion: 1,
+        record: {
+          slot: 'entry',
+          title: 'Old ACT01 ending',
+          savedAt: '2026-10-31',
+          thumbnail: null,
+          state,
+        },
+      })
+    ),
+  });
+  await page.getByRole('button', { name: '確認並載入', exact: true }).click();
+  await page.getByRole('button', { name: '進入 EP02 第二幕' }).click();
+  await expect(page.getByRole('alertdialog')).toHaveCount(0);
+  await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP02_ACT02_SC01');
+  await expect(page.getByTestId('dialogue-text')).toHaveText('「……我就知道。」');
+  await expect(page.getByTestId('scene-cg')).toHaveAttribute(
+    'src',
+    /LE_EP02_ACT02_SC01_CG01_script-v1.1.png$/
+  );
+  await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
+  await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
+    '50'
+  );
+  await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
+});
 test('production enters EP02 with one upkeep charge and preserves the EP01 ending', async ({
   page,
 }) => {

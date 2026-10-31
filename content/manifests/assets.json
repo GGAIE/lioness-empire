@@ -990,5 +990,165 @@
     "label": "EP02-ACT01-CG05-04 · 王座上的裁決",
     "status": "APPROVED",
     "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
+  },
+  {
+    "id": "EP02-ACT02-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC01_CG01_script-v1.1.png",
+    "label": "EP02-ACT02-CG01-01 · 父王不是已經回來了嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC01_CG02_script-v1.1.png",
+    "label": "EP02-ACT02-CG01-02 · 父王不是已經回來了嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC01_CG03_script-v1.1.png",
+    "label": "EP02-ACT02-CG01-03 · 父王不是已經回來了嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC01_CG04_script-v1.1.png",
+    "label": "EP02-ACT02-CG01-04 · 父王不是已經回來了嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC02_CG01_script-v1.1.png",
+    "label": "EP02-ACT02-CG02-01 · 這不是有官署嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC02_CG02_script-v1.1.png",
+    "label": "EP02-ACT02-CG02-02 · 這不是有官署嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC02_CG03_script-v1.1.png",
+    "label": "EP02-ACT02-CG02-03 · 這不是有官署嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC02_CG04_script-v1.1.png",
+    "label": "EP02-ACT02-CG02-04 · 這不是有官署嗎？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC03_CG01_script-v1.1.png",
+    "label": "EP02-ACT02-CG03-01 · 閱覽印",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC03_CG02_script-v1.1.png",
+    "label": "EP02-ACT02-CG03-02 · 閱覽印",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC03_CG03_script-v1.1.png",
+    "label": "EP02-ACT02-CG03-03 · 閱覽印",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC03_CG04_script-v1.1.png",
+    "label": "EP02-ACT02-CG03-04 · 閱覽印",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC04_CG01_script-v1.1-r2.png",
+    "label": "EP02-ACT02-CG04-01 · 這不是那個爛塔嗎！？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC04_CG02_script-v1.1.png",
+    "label": "EP02-ACT02-CG04-02 · 這不是那個爛塔嗎！？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC04_CG03_script-v1.2.png",
+    "label": "EP02-ACT02-CG04-03 · 這不是那個爛塔嗎！？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC04_CG04_script-v1.1-r2.png",
+    "label": "EP02-ACT02-CG04-04 · 這不是那個爛塔嗎！？",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC05_CG01_script-v1.1.png",
+    "label": "EP02-ACT02-CG05-01 · 妳剛去魔法學院的時候，可不是這麼說的",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC05_CG02_script-v1.1.png",
+    "label": "EP02-ACT02-CG05-02 · 妳剛去魔法學院的時候，可不是這麼說的",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC05_CG03_script-v1.1.png",
+    "label": "EP02-ACT02-CG05-03 · 妳剛去魔法學院的時候，可不是這麼說的",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT02-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC05_CG04_script-v1.1.png",
+    "label": "EP02-ACT02-CG05-04 · 妳剛去魔法學院的時候，可不是這麼說的",
+    "status": "APPROVED",
+    "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
   }
 ]

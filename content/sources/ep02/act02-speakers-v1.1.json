@@ -1,0 +1,1165 @@
+{
+  "description": "只依使用者完整正文v1.1逐句核對；不沿用大綱或撤下擴寫稿，不機械輪流分配；全文不符即停匯入。",
+  "annotations": [
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L001",
+      "text": "「……我就知道。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L003",
+      "text": "「殿下，內廷的意思只是先談清楚，您在王都期間，哪些事項方便協助，哪些仍應由原有官署辦理。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L006",
+      "text": "「不要看我。」他說，「這兩份是學院的。我沒有替王宮送第三份。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L007",
+      "text": "「那就奇怪了。我剛剛才以為今天已經沒有第三份。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L009",
+      "text": "「你們連房間都準備好了？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L010",
+      "text": "「為免殿下在走廊久候。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L013",
+      "text": "「好吧。」奧莉維亞轉向官員，「我們先說清楚，我答應的是談談，不是答應接下任何職務。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L014",
+      "text": "「當然，殿下。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L018",
+      "text": "「考慮到陛下仍需調養，王儲殿下又須持續處理東線軍務，內廷曾整理數種可能的王室協助方式。這一疊是需要正式授權才有可能施行的方案。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L019",
+      "text": "「『曾整理』？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L020",
+      "text": "「只是預備資料，並非已經作出的決定。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L023",
+      "text": "「這份先不談。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L024",
+      "text": "「殿下？」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L025",
+      "text": "「父王今天坐在王座上，逐件聽取報告、問清責任，又親自作了裁決。我剛剛就在旁邊。你應該也看見了。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L026",
+      "text": "「是的。陛下今日精神確實好轉，這是王國之幸。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L027",
+      "text": "「既然如此，為什麼我們在談一份可能把他的權限挪給我的文件？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01",
+      "segmentId": "L030",
+      "text": "「很好。這句請記在最前面。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L002",
+      "text": "「那麼，這份正式代理的預備方案，暫不列入殿下現階段的安排。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L003",
+      "text": "「非常好。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L004",
+      "text": "「另外還有一份，不涉及代理王權。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L006",
+      "text": "「……我剛才是不是高興得太早？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L007",
+      "text": "「這一份確實只有幾頁。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L010",
+      "text": "「這不是一樣的東西？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L011",
+      "text": "「不一樣，殿下。前者需要王權授予；這份只是希望知道，若各官署依職權辦理案件，是否能有一個不需每次都打擾陛下的王室聯絡窗口。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L012",
+      "text": "「你說得越客氣，我越覺得裡面有很多事情。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L014",
+      "text": "「那就一項一項談。殿下可以把不適合的部分劃掉。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC01_COMMON",
+      "segmentId": "L016",
+      "text": "「給我筆。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L002",
+      "text": "「地方道路的修補進度。」她念出第一項，「這是地方官署與工務承辦人的工作吧？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L003",
+      "text": "「是。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L004",
+      "text": "「復員人員的歸鄉登記？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L005",
+      "text": "「由既定部門辦理。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L006",
+      "text": "「軍方運輸的優先序？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L007",
+      "text": "「軍方與相關承辦機構共同處理，涉及命令時仍循正式程序。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L009",
+      "text": "「那這三項放到我面前的理由是什麼？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L010",
+      "text": "「不是請殿下裁決。只是有些回報會提及王室，有些地方希望確認請求是否已送達。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L011",
+      "text": "「所以，他們想知道信有沒有寄到。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L012",
+      "text": "「若用最簡單的說法，是。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L013",
+      "text": "「王宮沒有收發室？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L014",
+      "text": "「有。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L015",
+      "text": "「那為什麼要找我？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L017",
+      "text": "「因為若有些資料確實需要王室成員先行了解，等到陛下要問時，至少不必再從頭查一遍。但殿下說得對，不需要王室介入的部分，就不應移過來。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L018",
+      "text": "「很好。下一項。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L022",
+      "text": "「這個跨署聯絡，我可以知道它卡在哪裡。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L023",
+      "text": "「是。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L024",
+      "text": "「可是要誰讓步，不是我說了算。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L025",
+      "text": "「是。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L026",
+      "text": "「這份地方請願，我可以看到摘要。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L027",
+      "text": "「是。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L028",
+      "text": "「但如果請願人要求減免或額外撥款，我不能因為看過就答應。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L029",
+      "text": "「是。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L030",
+      "text": "「那這份表格裡，為什麼『知悉』和『准予』放得這麼近？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L032",
+      "text": "「……排版上的確不夠清楚。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02",
+      "segmentId": "L033",
+      "text": "「請把它們分開。越遠越好。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L002",
+      "text": "「殿下願意協助閱覽、必要聯絡與確認流轉；原有承辦責任、預算、軍令及正式裁決權不變。這樣記錄是否準確？」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L004",
+      "text": "「準確。尤其最後一段。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L005",
+      "text": "「那我請內廷依現有規則安排資料閱覽。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L006",
+      "text": "「等等。為什麼又多出一個安排？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L007",
+      "text": "「殿下若要看未公開的行政附件，必須先核對閱覽用途。即使只是協助，也不能拿身份代替手續。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L009",
+      "text": "「這點我同意。學院要借一份重要研究記錄，手續也不比這裡少。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L010",
+      "text": "「所以，午後請移步檔案室。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L011",
+      "text": "「好。只做這件事。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L014",
+      "text": "「你看。」她對官員說，「我們談了這麼久，最後真正交給我的工作反而變少了。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L015",
+      "text": "「是的，殿下。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L017",
+      "text": "「不過，往後各單位也會比較清楚，什麼事情可以來請教您。」",
+      "speaker": "COURT_OFFICER",
+      "speakerLabel": "宮廷承辦官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC02_COMMON",
+      "segmentId": "L019",
+      "text": "「……這句聽起來不像好消息。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L004",
+      "text": "「殿下今日可以查看的是已列明用途的摘要與相關附件。封存軍令、私人申訴及不在核准範圍內的資料，仍不能調閱。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L005",
+      "text": "「我只想知道我答應幫忙的那些事進行到哪裡。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L006",
+      "text": "「那麼，這份範圍已經足夠。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L008",
+      "text": "「在這裡，至少沒有人說『妳先拿回去看看，其他的以後再說』。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L010",
+      "text": "「我們通常會先說明可以拿走什麼，殿下。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L011",
+      "text": "「非常值得推廣。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L015",
+      "text": "「所以拿著這個，我能做什麼？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L016",
+      "text": "「看清單上寫明的資料，留下必要的查閱紀錄。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L017",
+      "text": "「不能批錢？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L018",
+      "text": "「不能。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L019",
+      "text": "「不能叫騎士團替我做事？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L020",
+      "text": "「當然不能。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L021",
+      "text": "「不能把我不喜歡的申請直接退掉？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L022",
+      "text": "「也不能。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L029",
+      "text": "「這份不用送到我這裡。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L030",
+      "text": "「明白。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03",
+      "segmentId": "L031",
+      "text": "「這份也一樣。既然有截止日期，就等他們的回覆。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L002",
+      "text": "「殿下，另有一批需要與學院公開研究資料對照的修繕附件，並非緊急件。若您願意，已核准閱覽的部分可以留在外側工作桌。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L003",
+      "text": "「學院？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L004",
+      "text": "「皇家魔法學院提出的舊設施修繕資料。內廷只是轉存其中涉及王室經費紀錄的附件，工程仍循原承辦機關的程序。」",
+      "speaker": "ARCHIVE_OFFICER",
+      "speakerLabel": "檔案官",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L005",
+      "text": "「那就留著吧。芬利等一下正好會帶研究資料過來。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L008",
+      "text": "「這裡是內廷的閱覽區。」奧莉維亞提醒他，「你不能把我的印拿去用。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L009",
+      "text": "「我也沒有要用。」芬利把自己的資料匣放下，「這邊是學院可供核對的研究副本。你的內廷文件，我只看准許共同對照的部分。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L011",
+      "text": "「很好。今天終於有人沒有想把更多工作交給我。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L013",
+      "text": "「為什麼？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC03_COMMON",
+      "segmentId": "L014",
+      "text": "「我還沒打開下一份。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L003",
+      "text": "「這件交學院。」奧莉維亞說。",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L004",
+      "text": "「本來就在學院。」芬利回答。",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L005",
+      "text": "「這件送工務。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L006",
+      "text": "「已經有工務承辦欄。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L007",
+      "text": "「那就很好。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L010",
+      "text": "「這個……」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L020",
+      "text": "「等等，真的是那座？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L022",
+      "text": "「我以為我離開學院以後，至少有人會把它修到能看。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L023",
+      "text": "「看起來沒有。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L024",
+      "text": "「他們當年說『等戰時物資緊張的情況緩和就會處理』。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L025",
+      "text": "「那確實是當年的說法。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L026",
+      "text": "「然後呢？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L028",
+      "text": "「然後我們現在還在看它。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L030",
+      "text": "「太好了。這座塔居然比我還會賴在原地不動。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L038",
+      "text": "「好了，學院的塔，學院的工程。就請學院——」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L040",
+      "text": "「等一下。這個用途欄怎麼改了？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L042",
+      "text": "「最近提交的用途說明，和原來的修繕主張不完全相同。至於是什麼時候改的，要往前核對。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L043",
+      "text": "「所以他們不只沒修好，連要修成什麼都還在變？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L044",
+      "text": "「可能。不能只看一頁就下結論。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L045",
+      "text": "「我知道。」奧莉維亞已經開始翻找，「所以前一版在哪裡？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L047",
+      "text": "「妳剛剛不是說交回學院就好？」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L048",
+      "text": "「交回去之前，至少要知道我交回去的是什麼。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L049",
+      "text": "「非常有學術精神。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L050",
+      "text": "「你現在是在笑我嗎？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04",
+      "segmentId": "L051",
+      "text": "「沒有。我在找前一版。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04_COMMON",
+      "segmentId": "L003",
+      "text": "「我先說好，我沒有要接管塔樓重建。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04_COMMON",
+      "segmentId": "L005",
+      "text": "「我只是確認一下它究竟為什麼還沒修。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04_COMMON",
+      "segmentId": "L006",
+      "text": "「嗯。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04_COMMON",
+      "segmentId": "L007",
+      "text": "「因為這實在太離譜了。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04_COMMON",
+      "segmentId": "L008",
+      "text": "「嗯。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC04_COMMON",
+      "segmentId": "L009",
+      "text": "「你可不可以不要每句都只回一個字？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L004",
+      "text": "「這裡未必互相矛盾。當年的說法針對恢復原有研究功能，後來的文件則多了一項戰後使用需求。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L005",
+      "text": "「所以它不是沒人想用，而是每個人都想把自己的需求塞進去。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L006",
+      "text": "「至少目前看得到不同提案。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L008",
+      "text": "「我就知道。好不容易離開學院的評議會，回來卻還在看這種東西。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L009",
+      "text": "「妳也可以不看。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L010",
+      "text": "「我知道。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L011",
+      "text": "「那妳為什麼還在看？」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L012",
+      "text": "「因為這是那座爛塔。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L016",
+      "text": "「妳剛去魔法學院的時候，可不是這麼說的。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L018",
+      "text": "「……什麼？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L030",
+      "text": "「一開始？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L031",
+      "text": "「後來妳連沒有打算借用的設施，也去查它們的審議程序。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L044",
+      "text": "「……我說過那種話？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L046",
+      "text": "「你竟然記得。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L047",
+      "text": "「那天本來是要整理研究紀錄。妳講完之後，我們又花了半個晚上談學院怎麼決定預算。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L048",
+      "text": "「聽起來真像我會做的事。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05",
+      "segmentId": "L049",
+      "text": "「本來就是妳做的。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05_COMMON",
+      "segmentId": "L003",
+      "text": "「說回正事，這份觀測結果妳要不要看？」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05_COMMON",
+      "segmentId": "L005",
+      "text": "「當然要看。你下午就說這份有意思。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05_COMMON",
+      "segmentId": "L006",
+      "text": "「我本來就是來談這個的。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05_COMMON",
+      "segmentId": "L007",
+      "text": "「結果又被那座塔耽擱了。」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05_COMMON",
+      "segmentId": "L008",
+      "text": "「這點倒是真的。」",
+      "speaker": "FINLEY",
+      "speakerLabel": "芬利",
+      "kind": "dialogue"
+    },
+    {
+      "sceneId": "EP02_ACT02_SC05_COMMON",
+      "segmentId": "L022",
+      "text": "「……如果是我，會先從哪裡開始呢？」",
+      "speaker": "OLIVIA",
+      "speakerLabel": "奧莉維亞",
+      "kind": "dialogue"
+    }
+  ]
+}

@@ -105,7 +105,7 @@ it('plays all 243 combinations with the same chronology, CGs, resources, facts a
     ]);
     expect(s.readChapters).toContain('EP01');
     expect(s.readChapters).not.toContain('EP02');
-    expect(() => continueChapter(story, s)).toThrow();
+    expect(continueChapter(story, s).currentSceneId).toBe('EP02_ACT02_SC01');
   }
 }, 60000);
 it('charges once on new chapter entry, not at EP01 completion or when replaying through the directory', () => {

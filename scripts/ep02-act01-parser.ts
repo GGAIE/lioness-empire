@@ -222,7 +222,9 @@ export function parseEp02Act01(markdown: string): {
         title: '第一幕完 · 重新升起的王旗',
         nextChapterId: 'EP02',
         scope: 'ACT',
-        pendingLabel: 'EP02 ACT II〈王冠之外的責任〉· 劇本尚未提供',
+        nextSceneId: 'EP02_ACT02_SC01',
+        nextLabel: 'EP02〈留下來的人〉· ACT II〈王冠之外的責任〉',
+        continueLabel: '進入 EP02 第二幕',
         policy: 'NO_SCORING',
       };
     } else common.next = `EP02_ACT01_SC${String(i + 2).padStart(2, '0')}`;

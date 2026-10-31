@@ -16,20 +16,24 @@ ep01.scenes = [
   ).scenes,
 ];
 let later: typeof scenes = [];
+let existingVersion = '0.9.0',
+  existingSource = '';
 try {
-  later = ChapterFileSchema.parse(await readJson('episodes/ep02/chapter.json')).scenes.filter(
-    (s) => s.act !== 'ACT01'
-  );
+  const existing = ChapterFileSchema.parse(await readJson('episodes/ep02/chapter.json'));
+  existingVersion = existing.version;
+  existingSource = existing.source;
+  later = existing.scenes.filter((s) => s.act !== 'ACT01');
 } catch (e) {
   if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e;
 }
 const chapter = ChapterFileSchema.parse({
   schemaVersion: 1,
   id: 'EP02',
-  version: '0.9.0',
+  version: later.length ? existingVersion : '0.9.0',
   status: 'DRAFT',
-  source:
-    '使用者提供EP02 ACT I v0.9新稿與20張CG；工作章名、DRAFT及SOURCE_REQUIRED保留，不覆蓋未提供的舊六幕正文。',
+  source: later.length
+    ? existingSource
+    : '使用者提供EP02 ACT I v0.9新稿與20張CG；工作章名、DRAFT及SOURCE_REQUIRED保留，不覆蓋未提供的舊六幕正文。',
   scenes: [...scenes, ...later],
 });
 const supplied = (await readJson('sources/ep02/image-manifest-v0.9.json')) as {
@@ -87,7 +91,7 @@ for (const scene of scenes)
 if (images.length !== 20 || new Set(images.map((i) => i.id)).size !== 20)
   throw Error('Expected twenty EP02 CG cues');
 const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
-manifest.version = '0.8.0-ep02-act01-v0.9';
+if (!later.length) manifest.version = '0.8.0-ep02-act01-v0.9';
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP02')!,
   {
@@ -125,7 +129,7 @@ await write('docs/ep02-act01-import-report.json', {
     '五組選項只記錄回應，不建立永久資訊旗標、不改政治／動盪／CLEAR或路線',
     '角色名依本稿顯示莎莉亞、塔瑪拉，保留姓名與親屬衝突的SOURCE_REQUIRED，不改Canon',
     '父王自主主持朝政；艾維斯軍事與法統不改；艾琳達代理格哈德而非繼承，尚無支線解鎖',
-    '章末停ACT II待提供；不編造正式職位、攝政或後續出城；未附音訊',
+    '幕末可接完整劇本版ACT II〈王冠之外的責任〉；不編造正式職位、攝政或後續出城；未附音訊',
   ],
 });
 console.log(

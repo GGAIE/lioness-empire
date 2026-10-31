@@ -600,7 +600,7 @@ function Game({
               <div className="demo-note">
                 序幕〈母獅登基〉· v0.6
                 <br />
-                <span>序幕、第一章五幕與第二章第一幕已提供 · 原稿草稿版</span>
+                <span>序幕、第一章五幕與第二章兩幕已提供 · 原稿草稿版</span>
               </div>
             </div>
           ) : (

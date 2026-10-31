@@ -228,7 +228,7 @@ test('chapter entry charges once, directory replay preserves the receipt, and in
   const ep02 = page
     .locator('.directory-chapter')
     .filter({ has: page.getByRole('heading', { name: '留下來的人', exact: true }) });
-  await expect(ep02).toContainText('已提供 1 / 5 幕');
+  await expect(ep02).toContainText('已提供 2 / 5 幕');
   await ep02.getByRole('button', { name: /晨鐘再響/ }).click();
   await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP02_ACT01_SC01');
   await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
