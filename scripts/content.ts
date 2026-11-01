@@ -59,8 +59,13 @@ const pending = story.manifest.chapters
     .map((c) => initialState({ ...story, manifest: { ...story.manifest, start: c.entry! } })),
   seen = new Set<string>();
 let ends = 0;
-// Authored EP02 ACT02 expands the full reachable graph beyond 10,000 states.
-while (pending.length && seen.size < 20000) {
+const flavorDecisions = new Set(
+  Object.values(story.scenes)
+    .filter((s) => s.choiceMode === 'DIALOGUE_FLAVOR')
+    .map((s) => s.id)
+);
+// EP03 adds five complete acts; keep a bounded, exhaustive content graph check.
+while (pending.length && seen.size < 60000) {
   const s = pending.pop()!;
   const key = JSON.stringify([
     s.currentSceneId,
@@ -73,12 +78,7 @@ while (pending.length && seen.size < 20000) {
     s.readChapters,
     // Flavor history is saved for replay UI, but cannot affect future story conditions.
     // Validation forbids returning to a flavor choice, so common nodes can be merged.
-    s.decisionLog.filter(
-      (entry) =>
-        !Object.values(story.scenes).some(
-          (scene) => scene.choiceMode === 'DIALOGUE_FLAVOR' && entry.startsWith(`${scene.id}:`)
-        )
-    ),
+    s.decisionLog.filter((entry) => !flavorDecisions.has(entry.slice(0, entry.lastIndexOf(':')))),
   ]);
   if (seen.has(key)) continue;
   seen.add(key);

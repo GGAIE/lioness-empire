@@ -49,7 +49,7 @@ it('uses the complete new screenplay: 25 nodes, 364 paragraphs, five zero-effect
   const cues = parsed.scenes.flatMap((s) => s.segments).flatMap((p) => (p.cg ? [p.cg] : []));
   expect(cues).toHaveLength(23);
   expect(new Set(cues).size).toBe(20);
-  expect(chapterDirectory(story)[2].acts.map((a) => a.sections.length)).toEqual([5, 5, 0, 0, 0]);
+  expect(chapterDirectory(story)[2].acts.map((a) => a.sections.length)).toEqual([5, 5, 5, 5, 5]);
 });
 it('plays all 243 combinations without a second upkeep, changed flags, scoring, routes or chapter completion', () => {
   for (let code = 0; code < 243; code++) {
@@ -96,7 +96,7 @@ it('plays all 243 combinations without a second upkeep, changed flags, scoring, 
     expect(story.scenes[state.currentSceneId].segments[state.currentSegmentIndex].visual).toBe(
       'BLACK'
     );
-    expect(() => continueChapter(story, state)).toThrow();
+    expect(continueChapter(story, state).currentSceneId).toBe('EP02_ACT03_SC01');
     expect(original).toEqual(before);
   }
 }, 90000);

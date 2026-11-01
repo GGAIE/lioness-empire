@@ -992,6 +992,54 @@
     "source": "使用者提供LE_EP02_ACT01_20CG_v0.9.zip，依附帶manifest逐張校驗，SC04 CG02使用r2。原始PNG未修改。"
   },
   {
+    "id": "BGM_LEDGER",
+    "type": "bgm",
+    "src": "assets/audio/bgm/ledger-of-the-lioness.mp3",
+    "label": "Ledger of the Lioness",
+    "status": "APPROVED",
+    "source": "使用者提供原始MP3；SHA-256見content/music/library.json。保留原檔，僅播放時平衡音量。"
+  },
+  {
+    "id": "BGM_SIGIL",
+    "type": "bgm",
+    "src": "assets/audio/bgm/lioness-sigil.mp3",
+    "label": "Lioness Sigil",
+    "status": "APPROVED",
+    "source": "使用者提供原始MP3；SHA-256見content/music/library.json。保留原檔，僅播放時平衡音量。"
+  },
+  {
+    "id": "BGM_UNCLAIMED",
+    "type": "bgm",
+    "src": "assets/audio/bgm/unclaimed-lioness.mp3",
+    "label": "Unclaimed Lioness",
+    "status": "APPROVED",
+    "source": "使用者提供原始MP3；SHA-256見content/music/library.json。保留原檔，僅播放時平衡音量。"
+  },
+  {
+    "id": "BGM_DANCE",
+    "type": "bgm",
+    "src": "assets/audio/bgm/the-lioness-dance.mp3",
+    "label": "The Lioness's Dance",
+    "status": "APPROVED",
+    "source": "使用者提供原始MP3；SHA-256見content/music/library.json。保留原檔，僅播放時平衡音量。"
+  },
+  {
+    "id": "BGM_MOTIF",
+    "type": "bgm",
+    "src": "assets/audio/bgm/the-lioness-motif.mp3",
+    "label": "The Lioness's Motif",
+    "status": "APPROVED",
+    "source": "使用者提供原始MP3；SHA-256見content/music/library.json。保留原檔，僅播放時平衡音量。"
+  },
+  {
+    "id": "BGM_REPORT",
+    "type": "bgm",
+    "src": "assets/audio/bgm/wet-lioness-report.mp3",
+    "label": "Wet Lioness Report",
+    "status": "APPROVED",
+    "source": "使用者提供原始MP3；SHA-256見content/music/library.json。保留原檔，僅播放時平衡音量。"
+  },
+  {
     "id": "EP02-ACT02-CG01-01",
     "type": "cg",
     "src": "assets/cg/ep02/act02/LE_EP02_ACT02_SC01_CG01_script-v1.1.png",
@@ -1150,5 +1198,1669 @@
     "label": "EP02-ACT02-CG05-04 · 妳剛去魔法學院的時候，可不是這麼說的",
     "status": "APPROVED",
     "source": "使用者提供LE_EP02_ACT02_20CG_SCRIPT_v1.2.zip；完整劇本版原PNG，非先前大綱圖包。廢塔v1.2取代劇本文內原圖回收註記。"
+  },
+  {
+    "id": "EP02-ACT03-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC01_CG01_v0.1.png",
+    "label": "EP02-ACT03-CG01-01 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC01_CG02_v0.1.png",
+    "label": "EP02-ACT03-CG01-02 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC01_CG03_v0.1.png",
+    "label": "EP02-ACT03-CG01-03 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC01_CG04_v0.1.png",
+    "label": "EP02-ACT03-CG01-04 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC02_CG01_v0.1.png",
+    "label": "EP02-ACT03-CG02-01 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC02_CG02_v0.1.png",
+    "label": "EP02-ACT03-CG02-02 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC02_CG03_v0.1.png",
+    "label": "EP02-ACT03-CG02-03 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC02_CG04_v0.1.png",
+    "label": "EP02-ACT03-CG02-04 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG02-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC02_CG05_v0.1.png",
+    "label": "EP02-ACT03-CG02-05 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC03_CG01_v0.1.png",
+    "label": "EP02-ACT03-CG03-01 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC03_CG02_v0.1.png",
+    "label": "EP02-ACT03-CG03-02 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC03_CG03_v0.1.png",
+    "label": "EP02-ACT03-CG03-03 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC03_CG04_v0.1.png",
+    "label": "EP02-ACT03-CG03-04 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC04_CG01_v0.1.png",
+    "label": "EP02-ACT03-CG04-01 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC04_CG02_v0.1.png",
+    "label": "EP02-ACT03-CG04-02 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC04_CG03_v0.1.png",
+    "label": "EP02-ACT03-CG04-03 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC04_CG04_v0.1.png",
+    "label": "EP02-ACT03-CG04-04 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG04-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC04_CG05_v0.1.png",
+    "label": "EP02-ACT03-CG04-05 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC05_CG01_v0.1.png",
+    "label": "EP02-ACT03-CG05-01 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC05_CG02_v0.1.png",
+    "label": "EP02-ACT03-CG05-02 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC05_CG03_v0.1.png",
+    "label": "EP02-ACT03-CG05-03 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC05_CG04_v0.1.png",
+    "label": "EP02-ACT03-CG05-04 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT03-CG05-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act03/EP02_ACT03_SC05_CG05_v0.1.png",
+    "label": "EP02-ACT03-CG05-05 · 久別重逢",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC01_CG01.png",
+    "label": "EP02-ACT04-CG01-01 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC01_CG02.png",
+    "label": "EP02-ACT04-CG01-02 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC01_CG03.png",
+    "label": "EP02-ACT04-CG01-03 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC01_CG04.png",
+    "label": "EP02-ACT04-CG01-04 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG01-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC01_CG05.png",
+    "label": "EP02-ACT04-CG01-05 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC02_CG01.png",
+    "label": "EP02-ACT04-CG02-01 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC02_CG02.png",
+    "label": "EP02-ACT04-CG02-02 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC02_CG03.png",
+    "label": "EP02-ACT04-CG02-03 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC02_CG04.png",
+    "label": "EP02-ACT04-CG02-04 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG02-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC02_CG05.png",
+    "label": "EP02-ACT04-CG02-05 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC03_CG01.png",
+    "label": "EP02-ACT04-CG03-01 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC03_CG02.png",
+    "label": "EP02-ACT04-CG03-02 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC03_CG03.png",
+    "label": "EP02-ACT04-CG03-03 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC03_CG04.png",
+    "label": "EP02-ACT04-CG03-04 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG03-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC03_CG05.png",
+    "label": "EP02-ACT04-CG03-05 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC04_CG01.png",
+    "label": "EP02-ACT04-CG04-01 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC04_CG02.png",
+    "label": "EP02-ACT04-CG04-02 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC04_CG03.png",
+    "label": "EP02-ACT04-CG04-03 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC04_CG04.png",
+    "label": "EP02-ACT04-CG04-04 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG04-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC04_CG05.png",
+    "label": "EP02-ACT04-CG04-05 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC05_CG01.png",
+    "label": "EP02-ACT04-CG05-01 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC05_CG02.png",
+    "label": "EP02-ACT04-CG05-02 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC05_CG03.png",
+    "label": "EP02-ACT04-CG05-03 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC05_CG04.png",
+    "label": "EP02-ACT04-CG05-04 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT04-CG05-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act04/EP02_ACT04_SC05_CG05.png",
+    "label": "EP02-ACT04-CG05-05 · 公主的客人們",
+    "status": "APPROVED",
+    "source": "使用者1031更新.zip原PNG；逐檔SHA及CRC／尺寸見sources/ep02/update-1031/asset-audit.json。"
+  },
+  {
+    "id": "EP02-ACT05-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC01_CG01_v0.1.png",
+    "label": "EP02-ACT05-CG01-01 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC01_CG02_v0.1.png",
+    "label": "EP02-ACT05-CG01-02 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC01_CG03_v0.1.png",
+    "label": "EP02-ACT05-CG01-03 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC01_CG04_v0.1.png",
+    "label": "EP02-ACT05-CG01-04 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG01-05",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC01_CG05_v0.1.png",
+    "label": "EP02-ACT05-CG01-05 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG02-06",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC02_CG06_v0.1.png",
+    "label": "EP02-ACT05-CG02-06 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG02-07",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC02_CG07_v0.1.png",
+    "label": "EP02-ACT05-CG02-07 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG02-08",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC02_CG08_v0.1.png",
+    "label": "EP02-ACT05-CG02-08 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG02-09",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC02_CG09_v0.1.png",
+    "label": "EP02-ACT05-CG02-09 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG02-10",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC02_CG10_v0.1.png",
+    "label": "EP02-ACT05-CG02-10 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG03-11",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC03_CG11_v0.1.png",
+    "label": "EP02-ACT05-CG03-11 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG03-12",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC03_CG12_v0.1.png",
+    "label": "EP02-ACT05-CG03-12 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG03-13",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC03_CG13_v0.1.png",
+    "label": "EP02-ACT05-CG03-13 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG03-14",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC03_CG14_v0.1.png",
+    "label": "EP02-ACT05-CG03-14 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG03-15",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC03_CG15_v0.1.png",
+    "label": "EP02-ACT05-CG03-15 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG04-16",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC04_CG16_v0.1.png",
+    "label": "EP02-ACT05-CG04-16 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG04-17",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC04_CG17_v0.1.png",
+    "label": "EP02-ACT05-CG04-17 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG04-18",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC04_CG18_v0.1.png",
+    "label": "EP02-ACT05-CG04-18 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG04-19",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC04_CG19_v0.1.png",
+    "label": "EP02-ACT05-CG04-19 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG04-20",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC04_CG20_v0.1.png",
+    "label": "EP02-ACT05-CG04-20 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG05-21",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC05_CG21_v0.1.png",
+    "label": "EP02-ACT05-CG05-21 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG05-22",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC05_CG22_v0.1.png",
+    "label": "EP02-ACT05-CG05-22 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG05-23",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC05_CG23_v0.1.png",
+    "label": "EP02-ACT05-CG05-23 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG05-24",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC05_CG24_v0.1.png",
+    "label": "EP02-ACT05-CG05-24 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP02-ACT05-CG05-25",
+    "type": "cg",
+    "src": "assets/cg/ep02/act05/complete-v0.2/EP02_ACT05_SC05_CG25_v0.1.png",
+    "label": "EP02-ACT05-CG05-25 · 王冠之外的道路",
+    "status": "APPROVED",
+    "source": "使用者EP02 ACT05 25張CG正確完整版v0.2原PNG；CG14為修正版，SHA與尺寸符合附包CG_Index.csv；現行v1.1正文不變。"
+  },
+  {
+    "id": "EP03-ACT01-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG01-01.png",
+    "label": "EP03-ACT01-CG01-01 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG01-02.png",
+    "label": "EP03-ACT01-CG01-02 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG01-03.png",
+    "label": "EP03-ACT01-CG01-03 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG01-04.png",
+    "label": "EP03-ACT01-CG01-04 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG01-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG01-05.png",
+    "label": "EP03-ACT01-CG01-05 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG01-06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG01-06.png",
+    "label": "EP03-ACT01-CG01-06 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG02-01.png",
+    "label": "EP03-ACT01-CG02-01 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG02-02.png",
+    "label": "EP03-ACT01-CG02-02 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG02-03.png",
+    "label": "EP03-ACT01-CG02-03 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG02-04.png",
+    "label": "EP03-ACT01-CG02-04 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG02-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG02-05.png",
+    "label": "EP03-ACT01-CG02-05 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG02-06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG02-06.png",
+    "label": "EP03-ACT01-CG02-06 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG03-01.png",
+    "label": "EP03-ACT01-CG03-01 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG03-02.png",
+    "label": "EP03-ACT01-CG03-02 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG03-03.png",
+    "label": "EP03-ACT01-CG03-03 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG03-04.png",
+    "label": "EP03-ACT01-CG03-04 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG04-01.png",
+    "label": "EP03-ACT01-CG04-01 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG04-02.png",
+    "label": "EP03-ACT01-CG04-02 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG04-03.png",
+    "label": "EP03-ACT01-CG04-03 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG04-04.png",
+    "label": "EP03-ACT01-CG04-04 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG04-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG04-05.png",
+    "label": "EP03-ACT01-CG04-05 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG04-06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG04-06.png",
+    "label": "EP03-ACT01-CG04-06 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG05-01.png",
+    "label": "EP03-ACT01-CG05-01 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG05-02.png",
+    "label": "EP03-ACT01-CG05-02 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG05-03.png",
+    "label": "EP03-ACT01-CG05-03 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG05-04.png",
+    "label": "EP03-ACT01-CG05-04 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT01-CG05-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act01/EP03-ACT01-CG05-05.png",
+    "label": "EP03-ACT01-CG05-05 · 平靜之下",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG01-01.png",
+    "label": "EP03-ACT02-CG01-01 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG01-02.png",
+    "label": "EP03-ACT02-CG01-02 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG01-03.png",
+    "label": "EP03-ACT02-CG01-03 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG01-04.png",
+    "label": "EP03-ACT02-CG01-04 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG01-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG01-05.png",
+    "label": "EP03-ACT02-CG01-05 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG02-01.png",
+    "label": "EP03-ACT02-CG02-01 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG02-02.png",
+    "label": "EP03-ACT02-CG02-02 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG02-03.png",
+    "label": "EP03-ACT02-CG02-03 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG02-04.png",
+    "label": "EP03-ACT02-CG02-04 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG02-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG02-05.png",
+    "label": "EP03-ACT02-CG02-05 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG03-01.png",
+    "label": "EP03-ACT02-CG03-01 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG03-02.png",
+    "label": "EP03-ACT02-CG03-02 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG03-03.png",
+    "label": "EP03-ACT02-CG03-03 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG03-04.png",
+    "label": "EP03-ACT02-CG03-04 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG03-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG03-05.png",
+    "label": "EP03-ACT02-CG03-05 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG03-06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG03-06.png",
+    "label": "EP03-ACT02-CG03-06 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG04-01.png",
+    "label": "EP03-ACT02-CG04-01 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG04-02.png",
+    "label": "EP03-ACT02-CG04-02 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG04-03.png",
+    "label": "EP03-ACT02-CG04-03 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG04-04.png",
+    "label": "EP03-ACT02-CG04-04 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG04-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG04-05.png",
+    "label": "EP03-ACT02-CG04-05 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG05-01.png",
+    "label": "EP03-ACT02-CG05-01 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG05-02.png",
+    "label": "EP03-ACT02-CG05-02 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG05-03.png",
+    "label": "EP03-ACT02-CG05-03 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG05-04.png",
+    "label": "EP03-ACT02-CG05-04 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG05-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG05-05.png",
+    "label": "EP03-ACT02-CG05-05 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT02-CG05-06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act02/fixed-v1.0/EP03-ACT02-CG05-06.png",
+    "label": "EP03-ACT02-CG05-06 · 交接之日",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG01-01.png",
+    "label": "EP03-ACT03-CG01-01 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG01-02.png",
+    "label": "EP03-ACT03-CG01-02 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG01-03.png",
+    "label": "EP03-ACT03-CG01-03 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG01-04.png",
+    "label": "EP03-ACT03-CG01-04 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG01-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG01-05.png",
+    "label": "EP03-ACT03-CG01-05 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG02-01.png",
+    "label": "EP03-ACT03-CG02-01 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG02-02.png",
+    "label": "EP03-ACT03-CG02-02 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG02-03.png",
+    "label": "EP03-ACT03-CG02-03 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG02-04.png",
+    "label": "EP03-ACT03-CG02-04 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG02-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG02-05.png",
+    "label": "EP03-ACT03-CG02-05 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG03-01.png",
+    "label": "EP03-ACT03-CG03-01 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG03-02.png",
+    "label": "EP03-ACT03-CG03-02 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG03-03.png",
+    "label": "EP03-ACT03-CG03-03 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG03-04.png",
+    "label": "EP03-ACT03-CG03-04 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG03-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG03-05.png",
+    "label": "EP03-ACT03-CG03-05 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG04-01.png",
+    "label": "EP03-ACT03-CG04-01 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG04-02.png",
+    "label": "EP03-ACT03-CG04-02 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG04-03.png",
+    "label": "EP03-ACT03-CG04-03 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG04-04.png",
+    "label": "EP03-ACT03-CG04-04 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG04-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG04-05.png",
+    "label": "EP03-ACT03-CG04-05 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG04-06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG04-06.png",
+    "label": "EP03-ACT03-CG04-06 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG05-01.png",
+    "label": "EP03-ACT03-CG05-01 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG05-02.png",
+    "label": "EP03-ACT03-CG05-02 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG05-03.png",
+    "label": "EP03-ACT03-CG05-03 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG05-04.png",
+    "label": "EP03-ACT03-CG05-04 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT03-CG05-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act03/EP03-ACT03-CG05-05.png",
+    "label": "EP03-ACT03-CG05-05 · 獅王的印戒",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG01.png",
+    "label": "EP03-ACT04-CG01 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG02.png",
+    "label": "EP03-ACT04-CG02 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG03.png",
+    "label": "EP03-ACT04-CG03 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG04.png",
+    "label": "EP03-ACT04-CG04 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG05.png",
+    "label": "EP03-ACT04-CG05 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG06.png",
+    "label": "EP03-ACT04-CG06 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG07.png",
+    "label": "EP03-ACT04-CG07 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG08.png",
+    "label": "EP03-ACT04-CG08 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG09.png",
+    "label": "EP03-ACT04-CG09 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG10.png",
+    "label": "EP03-ACT04-CG10 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG11.png",
+    "label": "EP03-ACT04-CG11 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG12.png",
+    "label": "EP03-ACT04-CG12 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG13.png",
+    "label": "EP03-ACT04-CG13 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG14.png",
+    "label": "EP03-ACT04-CG14 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG15.png",
+    "label": "EP03-ACT04-CG15 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG16.png",
+    "label": "EP03-ACT04-CG16 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG17.png",
+    "label": "EP03-ACT04-CG17 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG18.png",
+    "label": "EP03-ACT04-CG18 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG19.png",
+    "label": "EP03-ACT04-CG19 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT04-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep03/act04/EP03-ACT04-CG20.png",
+    "label": "EP03-ACT04-CG20 · 消失的議會",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH02_A",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH02_A.png",
+    "label": "EP03-ACT05-ALT_CH02_A · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH02_B",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH02_B.png",
+    "label": "EP03-ACT05-ALT_CH02_B · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH02_C",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH02_C.png",
+    "label": "EP03-ACT05-ALT_CH02_C · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH03_A",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH03_A.png",
+    "label": "EP03-ACT05-ALT_CH03_A · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH03_B",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH03_B.png",
+    "label": "EP03-ACT05-ALT_CH03_B · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH03_C",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH03_C.png",
+    "label": "EP03-ACT05-ALT_CH03_C · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH04_A",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH04_A.png",
+    "label": "EP03-ACT05-ALT_CH04_A · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH04_B",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH04_B.png",
+    "label": "EP03-ACT05-ALT_CH04_B · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-ALT_CH04_C",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH04_C.png",
+    "label": "EP03-ACT05-ALT_CH04_C · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG01-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG01-01.png",
+    "label": "EP03-ACT05-CG01-01 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG01-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG01-02.png",
+    "label": "EP03-ACT05-CG01-02 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG01-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG01-03.png",
+    "label": "EP03-ACT05-CG01-03 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG01-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG01-04.png",
+    "label": "EP03-ACT05-CG01-04 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG01-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG01-05.png",
+    "label": "EP03-ACT05-CG01-05 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG02-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG02-01.png",
+    "label": "EP03-ACT05-CG02-01 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG02-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG02-02.png",
+    "label": "EP03-ACT05-CG02-02 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG02-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG02-03.png",
+    "label": "EP03-ACT05-CG02-03 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG02-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG02-04.png",
+    "label": "EP03-ACT05-CG02-04 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG02-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG02-05.png",
+    "label": "EP03-ACT05-CG02-05 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG03-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG03-01.png",
+    "label": "EP03-ACT05-CG03-01 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG03-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG03-02.png",
+    "label": "EP03-ACT05-CG03-02 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG03-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG03-03.png",
+    "label": "EP03-ACT05-CG03-03 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG03-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG03-04.png",
+    "label": "EP03-ACT05-CG03-04 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG03-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG03-05.png",
+    "label": "EP03-ACT05-CG03-05 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG04-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG04-01.png",
+    "label": "EP03-ACT05-CG04-01 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG04-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG04-02.png",
+    "label": "EP03-ACT05-CG04-02 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG04-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG04-03.png",
+    "label": "EP03-ACT05-CG04-03 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG04-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG04-04.png",
+    "label": "EP03-ACT05-CG04-04 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG04-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG04-05.png",
+    "label": "EP03-ACT05-CG04-05 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG04-06",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG04-06.png",
+    "label": "EP03-ACT05-CG04-06 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG05-01",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG05-01.png",
+    "label": "EP03-ACT05-CG05-01 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG05-02",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG05-02.png",
+    "label": "EP03-ACT05-CG05-02 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG05-03",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG05-03.png",
+    "label": "EP03-ACT05-CG05-03 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG05-04",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG05-04.png",
+    "label": "EP03-ACT05-CG05-04 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
+  },
+  {
+    "id": "EP03-ACT05-CG05-05",
+    "type": "cg",
+    "src": "assets/cg/ep03/act05/EP03-ACT05-CG05-05.png",
+    "label": "EP03-ACT05-CG05-05 · 東北塔的議員們",
+    "status": "APPROVED",
+    "source": "使用者EP03指定圖片原PNG，未重製；原ZIP/條目/SHA256與尺寸見sources/ep03/asset-audit.json；APPROVED表示圖片可用，正文維持DRAFT。"
   }
 ]

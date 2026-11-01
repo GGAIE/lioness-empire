@@ -1,0 +1,17 @@
+魔法守衛風格指定（依附圖）
+
+關鍵要求：
+1. 不是厚重的人形鎧甲守衛，也不是恐怖魔像。
+2. 必須是「人偶／自動人偶」風格的小型守衛。
+3. 外觀：白瓷、象牙白或米白色外殼，表面有細緻金色紋飾與邊框。
+4. 結構：圓潤可愛比例，頭部或臉部可有藍色發光圓形面板，胸口也可有藍色魔力核心。
+5. 氣質：可愛、秩序、禮儀感、王室魔法工藝，不要做成軍武機械風。
+6. 配色：白／金為主，藍色魔光為點綴。
+7. 場景用途：東北塔門禁、引導訪客、守護私人區域、未來可搭配魔法鑰戒辨識來訪者。
+
+可用描述詞：
+- ornate porcelain automaton guardian
+- doll-like magical sentinel
+- ivory enamel body with gold filigree
+- glowing blue arcane core
+- cute rounded royal magical construct

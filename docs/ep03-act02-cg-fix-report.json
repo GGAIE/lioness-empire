@@ -1,0 +1,52 @@
+{
+  "replacementSources": [
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\LE_EP03_ACT02_CG_01-09_fixed.zip",
+      "act": 2,
+      "sha256": "cdce0cd73a26372dd074d0db8f7bd8d157ba599c0e149b520ec8c932bcb6dbe4",
+      "bytes": 22469621,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\LE_EP03_ACT02_CG_10-18_fixed.zip",
+      "act": 2,
+      "sha256": "5d9ab9ce5ca164559801fda3debd4a265700f1a662e9578b8a19d919fba3b85b",
+      "bytes": 21835208,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\LE_EP03_ACT02_CG_19-27_fixed.zip",
+      "act": 2,
+      "sha256": "2814a4c128a0205014706f28b9ace1504342a7a27c6962aec2b38e0237ff8c15",
+      "bytes": 22541570,
+      "truncated": false
+    }
+  ],
+  "restoredIds": [
+    "EP03-ACT02-CG01-02",
+    "EP03-ACT02-CG01-03",
+    "EP03-ACT02-CG02-05",
+    "EP03-ACT02-CG03-03",
+    "EP03-ACT02-CG03-06",
+    "EP03-ACT02-CG05-01",
+    "EP03-ACT02-CG05-02"
+  ],
+  "changedExistingIds": [],
+  "sceneHashBefore": "f43e955a32c5d518ce2a79e412c4db0d79a936034c3065e8c160c71f0f6724e7",
+  "available": 27,
+  "missing": [],
+  "sceneHashAfter": "f43e955a32c5d518ce2a79e412c4db0d79a936034c3065e8c160c71f0f6724e7",
+  "sceneDataUnchanged": true,
+  "verification": {
+    "unitTests": 7,
+    "browserTests": 3,
+    "productionTests": 13,
+    "platforms": [
+      "Desktop Chromium",
+      "Pixel 7 Chromium",
+      "iPhone 13 WebKit"
+    ],
+    "imageCopies": "27 per project/public/dist; SHA256 matches each supplied PNG",
+    "fullChapterRerun": false
+  }
+}

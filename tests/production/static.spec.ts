@@ -1,4 +1,6 @@
 import { test, expect } from '@playwright/test';
+import { createHash } from 'node:crypto';
+import { musicTracks } from '../../apps/web-vn/src/engine/music';
 import { openActFromDirectory } from '../helpers/directory';
 import { readdir, readFile } from 'node:fs/promises';
 import { loadContent } from '../../scripts/load-content';
@@ -276,6 +278,33 @@ test('production continues an older ACT01 ending into ACT02 SCRIPT without anoth
     '50'
   );
   await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
+});
+test('production serves all original MP3s and offers real playback through the player music menu', async ({
+  page,
+}) => {
+  await page.goto('/');
+  const media = page.getByTestId('background-music');
+  await expect(media).toHaveJSProperty('paused', true);
+  await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
+  for (const t of musicTracks) {
+    const response = await page.request.get('/' + t.src);
+    expect(response.ok()).toBe(true);
+    expect(
+      createHash('sha256')
+        .update(await response.body())
+        .digest('hex')
+    ).toBe(t.sha256);
+  }
+  await page.getByRole('button', { name: '背景音樂', exact: true }).click();
+  await page.getByLabel('選擇背景音樂').selectOption('BGM_MOTIF');
+  await expect(page.getByRole('status', { name: '背景音樂播放狀態', exact: true })).toHaveText(
+    '播放中'
+  );
+  await expect
+    .poll(() => media.evaluate((a: HTMLAudioElement) => a.currentTime))
+    .toBeGreaterThan(0);
+  await page.getByRole('button', { name: '停止背景音樂', exact: true }).click();
+  await expect(media).toHaveJSProperty('paused', true);
 });
 test('production enters EP02 with one upkeep charge and preserves the EP01 ending', async ({
   page,

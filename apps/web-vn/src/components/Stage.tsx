@@ -70,7 +70,7 @@ export function Stage({
       {outgoing && outgoing.id !== id && (
         <img className="outgoing-cg" src={assetUrl(outgoing.src)} alt="" aria-hidden="true" />
       )}
-      {asset && failed !== id ? (
+      {asset && (asset.status === 'APPROVED' || scene.status === 'DEMO_ONLY') && failed !== id ? (
         <img
           key={id}
           data-testid="scene-cg"
@@ -95,7 +95,11 @@ export function Stage({
         />
       ) : black ? null : (
         <div className="missing">
-          {id ? '素材尚未就緒 · ' + id : '這一幕尚未配置 CG'}
+          {asset?.status === 'PLACEHOLDER'
+            ? '此張插圖待補'
+            : id
+              ? '素材尚未就緒 · ' + id
+              : '這一幕尚未配置 CG'}
           <small>你仍然可以繼續閱讀</small>
         </div>
       )}

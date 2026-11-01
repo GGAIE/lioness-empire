@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.9.0-ep02-act02-script-v1.1-art-v1.2",
+  "version": "0.11.1-ep03-act02-cg-fixed",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -34,7 +34,9 @@
     {
       "id": "EP03",
       "title": "責任先於權力",
-      "status": "NOT_YET_AVAILABLE"
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep03/chapter.json",
+      "entry": "EP03_ACT01_SC01"
     },
     {
       "id": "EP04",
@@ -214,6 +216,10 @@
     "ACADEMY_RESEARCH_CONTINUES": {
       "initial": false,
       "description": "ACT V章末事實：ACADEMY_RESEARCH_CONTINUES；不作選項獎懲。"
+    },
+    "AIVIS_DEPARTED_EASTERN_FRONT": {
+      "initial": false,
+      "description": "僅EP02 ACT V SC03實際讀完城門送行後記錄王儲正式出城；不代表政治數值、攝政、失能或路線授權。"
     }
   },
   "migrations": {

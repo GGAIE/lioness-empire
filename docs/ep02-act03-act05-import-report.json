@@ -1,0 +1,106 @@
+{
+  "sources": [
+    {
+      "act": 3,
+      "title": "久別重逢",
+      "path": "content/sources/ep02/update-1031/act03-source.md",
+      "sha256": "4cd413e559ca4a3b04874b8d1a73eb9ce96ad954a2e11733db1d1d436ca8c07c",
+      "scenes": 5,
+      "nodes": 24,
+      "segments": 214,
+      "choices": [
+        {
+          "id": "EP02_ACT03_SC01",
+          "options": 2
+        },
+        {
+          "id": "EP02_ACT03_SC02",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT03_SC03",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT03_SC04",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT03_SC05",
+          "options": 3
+        }
+      ],
+      "cgAnchors": 23
+    },
+    {
+      "act": 4,
+      "title": "公主的客人們",
+      "path": "content/sources/ep02/update-1031/act04-source.md",
+      "sha256": "7858b67ccda06510bd2077e0ffd557be81a28231248db210321e7e3c7212d9e2",
+      "scenes": 5,
+      "nodes": 25,
+      "segments": 401,
+      "choices": [
+        {
+          "id": "EP02_ACT04_SC01",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT04_SC02",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT04_SC03",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT04_SC04",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT04_SC05",
+          "options": 3
+        }
+      ],
+      "cgAnchors": 25
+    },
+    {
+      "act": 5,
+      "title": "王冠之外的道路",
+      "path": "content/sources/ep02/update-1031/act05-source.md",
+      "sha256": "5331fdc8513a335af67d99fa90cac2eecdffafd6cb6d4e6d7fcfc34f6573f400",
+      "scenes": 5,
+      "nodes": 25,
+      "segments": 332,
+      "choices": [
+        {
+          "id": "EP02_ACT05_SC01",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT05_SC02",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT05_SC03",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT05_SC04",
+          "options": 3
+        },
+        {
+          "id": "EP02_ACT05_SC05",
+          "options": 3
+        }
+      ],
+      "cgAnchors": 25
+    }
+  ],
+  "availablePngs": 73,
+  "missingImages": [],
+  "scoring": "NONE",
+  "newFactFlag": "AIVIS_DEPARTED_EASTERN_FRONT only after ACT05 SC03",
+  "candidateFlags": "Not added; source memory candidates remain proposals and reading history records their text.",
+  "chapterCompletion": "ACT05 SC05; continues into supplied EP03; P2 proposal remains unresolved."
+}

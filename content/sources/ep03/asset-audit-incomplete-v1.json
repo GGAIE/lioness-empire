@@ -1,0 +1,1366 @@
+{
+  "sources": [
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B_EP03_ACT01_%E5%AE%8C%E6%95%B4%E5%8A%87%E6%83%85%E8%88%8727%E5%BC%B5CG%E6%8F%90%E7%A4%BA%E8%A9%9E_v1.0.zip",
+      "sha256": "e18627e45134f1273fa534d75dc602592a2163cd143c51db07c9218e4651f0a8",
+      "bytes": 18719,
+      "act": 1,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B_EP03_ACT02_%E5%AE%8C%E6%95%B4%E5%8A%87%E6%9C%AC%E8%88%8727%E5%BC%B5CG%E6%8F%90%E7%A4%BA%E8%A9%9E_v1.0_%E6%9C%80%E7%B5%82%E8%A3%BD%E4%BD%9C%E5%8C%85.zip",
+      "sha256": "a9d956d5a8e185dbd4c1198820eefc92de5715cef12cf1894651c5290bab63a4",
+      "bytes": 583043,
+      "act": 2,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B_EP03_ACT03_%E5%AE%8C%E6%95%B4%E5%8A%87%E6%83%85%E8%88%8726%E5%BC%B5CG%E6%8F%90%E7%A4%BA%E8%A9%9E_v1.0_%E8%A3%BD%E4%BD%9C%E5%8C%85.zip",
+      "sha256": "ee6ba29aac26eed4d9660d365d31943e1fac4f3606e3dacfe8c6ceac6ea4c839",
+      "bytes": 569279,
+      "act": 3,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B_EP03_ACT04_%E5%AE%8C%E6%95%B4%E5%8A%87%E6%83%85_%E9%81%B8%E9%A0%85_CG%E6%8F%90%E7%A4%BA%E8%A9%9E_%E8%A3%BD%E4%BD%9C%E5%8C%85_v1.0.zip",
+      "sha256": "e81c1a2b1997824a89ea06cd6a9e469234b0f0706e65c45f8e0c71d30026466d",
+      "bytes": 572001,
+      "act": 4,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B_EP03_ACT05_%E5%AE%8C%E6%95%B4%E5%8A%87%E6%83%85_CG%E6%8F%90%E7%A4%BA%E8%A9%9E_%E9%AD%94%E6%B3%95%E5%AE%88%E8%A1%9B%E5%8F%83%E8%80%83_v1.0.zip",
+      "sha256": "154fc8ffa49d57765551543c16f60de1604b545380a4b8575dd61260b3bbd6bf",
+      "bytes": 576981,
+      "act": 5,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\EP03_ACT04_All_20_CG.zip",
+      "sha256": "86c01f3873a398ce0eb76b3f8a734e3516ebe6e8bd2aba520634262c36692635",
+      "bytes": 49119474,
+      "act": 4,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\母獅帝國_EP03_ACT01_27張CG_配色延續版_v0.1.zip",
+      "sha256": "6efad406f1425293f5dac0caff5ee4770c8ea054a92d3891192a0387a1e89b89",
+      "bytes": 67118322,
+      "act": 1,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\母獅帝國_EP03_ACT02_27張CG_完成修正版_v1.0.zip",
+      "sha256": "74c2ef8733738689c5b029258e5611bfa35efbb63f1fed76d45091bd7e32359c",
+      "bytes": 48877825,
+      "act": 2,
+      "truncated": true
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\母獅帝國_EP03_ACT03_26張CG_正確修正版_v1.0.zip",
+      "sha256": "e7d3e59bf14710497293499785a841c6c1c110e578bfc98705d27ff1117a6fcc",
+      "bytes": 63057282,
+      "act": 3,
+      "truncated": false
+    },
+    {
+      "archive": "C:\\Users\\45P\\Downloads\\ep03\\母獅帝國_EP03_ACT05_35張CG_正確修正版_v1.0.zip",
+      "sha256": "0d7c08bde3422fb6252805b17fa68134517208f16e5195b439362857558ee425",
+      "bytes": 84818851,
+      "act": 5,
+      "truncated": false
+    }
+  ],
+  "images": [
+    {
+      "id": "EP03-ACT01-CG01-01",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG01-01.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC01_IMG01_v0.1.png",
+      "sha256": "71a5b8752a9bf021a316a673e5ad0a250836b7d9fcbea418b460e316735c3379",
+      "bytes": 2429045,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG01-02",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG01-02.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC01_IMG02_v0.1.png",
+      "sha256": "270ea0ce622d74ac637434960bec7161171afbed562d3faa3e395bd5232bd9b6",
+      "bytes": 2435848,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG01-03",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG01-03.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC01_IMG03_v0.1.png",
+      "sha256": "7f78bcea2ac76e14515442ca06724ef476d8ba6bcf8783143d9727279ff3bae0",
+      "bytes": 2287865,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG01-04",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG01-04.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC01_IMG04_v0.1.png",
+      "sha256": "fd97f5b8fb42ba43f158057753b45f1aeffa77c2e6f382f60250646f69b3f82f",
+      "bytes": 2376387,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG01-05",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG01-05.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC01_IMG05_v0.1.png",
+      "sha256": "acd042eebf5e7768b242fce2f1d84d5d1ec1e828be7f11aee1a9895243bb63f4",
+      "bytes": 2083766,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG01-06",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG01-06.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC01_IMG06_v0.1.png",
+      "sha256": "358241d33d46dbbd0e039c60a114742ebb334d7c0531e3e5b4f8cb854880a563",
+      "bytes": 2387668,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG02-01",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG02-01.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC02_IMG01_v0.1.png",
+      "sha256": "eb246598cee7a5c03686509b158302576671b784779880f53225df45286cd29c",
+      "bytes": 2324674,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG02-02",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG02-02.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC02_IMG02_v0.1.png",
+      "sha256": "769d7cdb2d52c14a893c876f9e2119ceb5642885e99bbcfa6c9f7f4dafdbc156",
+      "bytes": 2330252,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG02-03",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG02-03.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC02_IMG03_v0.1.png",
+      "sha256": "18f7554220abf98a9fa7984628cfea462685c21dd8c81dc5c23d4f4087045034",
+      "bytes": 2673199,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG02-04",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG02-04.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC02_IMG04_v0.1.png",
+      "sha256": "edf8307a616170110fad8c7d6d24384da24fc145ace98eaadcc66340be653140",
+      "bytes": 2299288,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG02-05",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG02-05.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC02_IMG05_v0.1.png",
+      "sha256": "6919d3238adaec27e6d8113bdaec4dc56725a66703b8326266c885a1224429bf",
+      "bytes": 3017601,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG02-06",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG02-06.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC02_IMG06_v0.1.png",
+      "sha256": "b27c98915a156dfb9f8ecb1e94b0d623d29e8ffe3e52d94d201bb29344f0b0c1",
+      "bytes": 2428722,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG03-01",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG03-01.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC03_IMG01_v0.1.png",
+      "sha256": "0464c26e5b0c6f60080483ca4f1371934780dd2efb8b0751192c724b1dcb5432",
+      "bytes": 3170927,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG03-02",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG03-02.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC03_IMG02_v0.1.png",
+      "sha256": "a4693fd52f72cb375befef47698c12d38523b9ab1e6c1f17c38501ea1640f5b8",
+      "bytes": 2729943,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG03-03",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG03-03.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC03_IMG03_v0.1.png",
+      "sha256": "12b83fcfd15c7abb37bf4c405580c10844c06a2ede35887e78a04a8798647bd8",
+      "bytes": 2737569,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG03-04",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG03-04.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC03_IMG04_v0.1.png",
+      "sha256": "4877da820ddf6e32814de97da08062204935e1b11b92afb3bf2238f910a30df4",
+      "bytes": 2762215,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG04-01",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG04-01.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC04_IMG01_v0.1.png",
+      "sha256": "97e330171b0a8538916d2dbb5d63a59a53261b887a4b282628a6d1dd029cd46a",
+      "bytes": 2302613,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG04-02",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG04-02.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC04_IMG02_v0.1.png",
+      "sha256": "ca3c7b65271d01dbeba32ddbbcbbed135b343a4a6125a4a74bd33e9d921598e9",
+      "bytes": 2494504,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG04-03",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG04-03.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC04_IMG03_v0.1.png",
+      "sha256": "d382664789097a505d181d47f301dcafcdd4e38f6e166dd539cc061a4f10b5bd",
+      "bytes": 2354111,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG04-04",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG04-04.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC04_IMG04_v0.1.png",
+      "sha256": "1c99e31ea8d430083f5397022444b24229fe1293eee41a15bc4c9a868c6c7586",
+      "bytes": 2415936,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG04-05",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG04-05.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC04_IMG05_v0.1.png",
+      "sha256": "b9d1cc4e73d13678a150dcddc178d529ab692b89e06b5234a0cc84a5c9ea0a33",
+      "bytes": 2547594,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG04-06",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG04-06.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC04_IMG06_v0.1.png",
+      "sha256": "95dbabbc81fa33e52d43a957d2101f64df6a5dc2535009f84d79ddb4361af47b",
+      "bytes": 2473129,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG05-01",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG05-01.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC05_IMG01_v0.1.png",
+      "sha256": "648d6cb5d728cf402dadac3dceead79a64c95ea94ed8324c4ddbf799bcb23add",
+      "bytes": 2707020,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG05-02",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG05-02.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC05_IMG02_v0.1.png",
+      "sha256": "97df86f65a91459cc971e09dd89b5b96afb85baaf64d84b788667bbc2dd6e77c",
+      "bytes": 2397759,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG05-03",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG05-03.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC05_IMG03_v0.1.png",
+      "sha256": "64e931146e32500caad15aa3e6dabd704fb9c26b222db295fe7b7e7c577f5739",
+      "bytes": 2348763,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG05-04",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG05-04.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC05_IMG04_v0.1.png",
+      "sha256": "8ab94aabb838ac032f88ffecb2c767040a304ad41a75398aae209c4ac51669a3",
+      "bytes": 2452760,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT01-CG05-05",
+      "act": 1,
+      "path": "assets/cg/ep03/act01/EP03-ACT01-CG05-05.png",
+      "entry": "CG/LE_CG_EP03_ACT01_SC05_IMG05_v0.1.png",
+      "sha256": "44ac589c9830488f568deb98efcf2cf007b309a12298376f9d4beed51497b119",
+      "bytes": 2413985,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG01-01",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG01-01.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC01_CG01_v1.0.png",
+      "sha256": "04c0efc2cfee29731ac66263df93edad741d9dc433d86998f06c8e0d98cf720b",
+      "bytes": 2378273,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG01-04",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG01-04.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC01_CG04_v1.0.png",
+      "sha256": "0136ce45fffd16ba10863988fb11995414a86388a2930d25f2e8bfa23e33ec48",
+      "bytes": 2285245,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG01-05",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG01-05.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC01_CG05_v1.0.png",
+      "sha256": "9e51a07b78d24b9c6bd2c6733e21ea6c88e52230d6fb8ad215535cb9c9a9b910",
+      "bytes": 2418721,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG02-01",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG02-01.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC02_CG01_v1.0.png",
+      "sha256": "97dd554ac91012cd9b5feb707329222e8d5d504e907c53891f3aba3b15dd6833",
+      "bytes": 3280884,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG02-02",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG02-02.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC02_CG02_v1.0.png",
+      "sha256": "e3b8836a07a5009d7e4475b483cdd7a5ef62877f08c54a752b1389f72d6359a3",
+      "bytes": 2358636,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG02-03",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG02-03.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC02_CG03_v1.0.png",
+      "sha256": "2583aa673c81544ecd6d9eb67167fdf6e10827fe57ae8ac779733ebe61125fb0",
+      "bytes": 2557701,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG02-04",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG02-04.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC02_CG04_v1.0.png",
+      "sha256": "99538ea47db345c7744f6a8ba1844d0fa14eac4c718b6a2383accb3dbd33d325",
+      "bytes": 2431888,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG03-01",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG03-01.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC03_CG01_v1.0.png",
+      "sha256": "dc21a6b76dcf2f3b131b157eed4c67c6278470ecc83ea4d41fb83b2d57aa55c8",
+      "bytes": 2555048,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG03-02",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG03-02.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC03_CG02_v1.0.png",
+      "sha256": "7db7cdeb002e912de81f1682b3cc29b364da9da72820a6bf31f1b2d14f002ef3",
+      "bytes": 2282966,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG03-04",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG03-04.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC03_CG04_v1.0.png",
+      "sha256": "d88c046d4b1c1fb8e1a84d96f8c000ae87bb95a6861e3ca2acf0cc8ced46f234",
+      "bytes": 2417252,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG03-05",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG03-05.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC03_CG05_v1.0.png",
+      "sha256": "25c4340e43f71630374f4aeba0d43ae37b4f7fe51728d2907befb7206abf4a22",
+      "bytes": 2613714,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG04-01",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG04-01.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC04_CG01_v1.0.png",
+      "sha256": "fd3bfca5d46d55f2a18faee9abdb41bd9ae68ae5f12a68a2f801d365ab6fb5de",
+      "bytes": 2469131,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG04-02",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG04-02.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC04_CG02_v1.0.png",
+      "sha256": "9a2159ce13ec83f394605a82d9ea1569e687d107db9ff22d9d3d2fa8df6d22be",
+      "bytes": 2497927,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG04-03",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG04-03.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC04_CG03_v1.0.png",
+      "sha256": "73151dc1cb026c9a2a2280d310d8e5472df5051903d5db890be009ffdd323da8",
+      "bytes": 2514375,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG04-04",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG04-04.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC04_CG04_v1.0.png",
+      "sha256": "b6b081d75a50395019a6f46c1324997bad27cd579beb774cf1458681be2b4bb5",
+      "bytes": 2324329,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG04-05",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG04-05.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC04_CG05_v1.0.png",
+      "sha256": "72957ac1a8f7fda0e4d37c0f233886fba185a6d1e83266bb8ecb2d43497f36af",
+      "bytes": 2424262,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG05-03",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG05-03.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC05_CG03_v1.0.png",
+      "sha256": "3ef75ed391f73553a2c92d45ef2d5ca7e130e0c0f852811a29c944903297123d",
+      "bytes": 2383274,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG05-04",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG05-04.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC05_CG04_v1.0.png",
+      "sha256": "747604f533870c8233d88f9d6f6d18ae210a498deec86b1354b06734789e3613",
+      "bytes": 2524193,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG05-05",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG05-05.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC05_CG05_v1.0.png",
+      "sha256": "a613d522dbbd3b3ab31dd2c6fad0393b0446319fd41965ed01e9cb83e430a792",
+      "bytes": 2555383,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT02-CG05-06",
+      "act": 2,
+      "path": "assets/cg/ep03/act02/EP03-ACT02-CG05-06.png",
+      "entry": "EP03_ACT02_27CG/CG/EP03_ACT02_SC05_CG06_v1.0.png",
+      "sha256": "db76d9d7776b97978034e297ee19dd9f67db5513364150c01e70b73f780d3acc",
+      "bytes": 2520162,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG01-01",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG01-01.png",
+      "entry": "LE_CG_EP03_ACT03_SC01_01.png",
+      "sha256": "1e463e3f6f1a4630b1f29028178508b1abd9c4213028cd4cbde9913fdc31a33b",
+      "bytes": 2293354,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG01-02",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG01-02.png",
+      "entry": "LE_CG_EP03_ACT03_SC01_02.png",
+      "sha256": "afba8935c1180e9af24d006a7dbe360dcdf2e55ab1f66aec2a2dc6198e57183b",
+      "bytes": 2696750,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG01-03",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG01-03.png",
+      "entry": "LE_CG_EP03_ACT03_SC01_03.png",
+      "sha256": "5f029fbee77308e7c2d47e4e7d47e025b9c1d533845e6338c9ff46bfa1e1def0",
+      "bytes": 2618790,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG01-04",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG01-04.png",
+      "entry": "LE_CG_EP03_ACT03_SC01_04.png",
+      "sha256": "3882a954c18f8ff75b50c1aefdae4f3600a5fba6f5ebcf1536199d30c980c382",
+      "bytes": 2353598,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG01-05",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG01-05.png",
+      "entry": "LE_CG_EP03_ACT03_SC01_05.png",
+      "sha256": "632145f3a82eea3748584f4f788095d13efa462230ad758d28a75db30555f341",
+      "bytes": 2577262,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG02-01",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG02-01.png",
+      "entry": "LE_CG_EP03_ACT03_SC02_01.png",
+      "sha256": "898e28c6c56cbdfb91e5cdf475fb1bd4874cef756d999b0faa0fb6afb9deda83",
+      "bytes": 2701060,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG02-02",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG02-02.png",
+      "entry": "LE_CG_EP03_ACT03_SC02_02.png",
+      "sha256": "4866bd01adcf0d4464f91f2fd1e3eebfebc7be117b481a099ee02d24b50fde80",
+      "bytes": 2235285,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG02-03",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG02-03.png",
+      "entry": "LE_CG_EP03_ACT03_SC02_03.png",
+      "sha256": "f0ea0d0f6b542b40dbd664f0865af90635c102ca425f060d4e8fef0d939ca0b0",
+      "bytes": 2317977,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG02-04",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG02-04.png",
+      "entry": "LE_CG_EP03_ACT03_SC02_04.png",
+      "sha256": "5d364c02b5c8e06a089b16ca00e98487723b76330351d343f24c810d57d0bd01",
+      "bytes": 2373091,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG02-05",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG02-05.png",
+      "entry": "LE_CG_EP03_ACT03_SC02_05.png",
+      "sha256": "1ae05bd944bf2e451a3b23c8a6034667883120d349282010e4beb782524b4fd3",
+      "bytes": 2460372,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG03-01",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG03-01.png",
+      "entry": "LE_CG_EP03_ACT03_SC03_01.png",
+      "sha256": "54aea52d15bf2e40a5664cc2f47befb019dedc36e339f0721e141222d95c6a9e",
+      "bytes": 2515903,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG03-02",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG03-02.png",
+      "entry": "LE_CG_EP03_ACT03_SC03_02.png",
+      "sha256": "b8577dcf034af6d2577e044e75e2373c07a544328c92fa57fad6408cdeb7ce9c",
+      "bytes": 2512162,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG03-03",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG03-03.png",
+      "entry": "LE_CG_EP03_ACT03_SC03_03.png",
+      "sha256": "bab8fc7353c9ecbe743a6badbf8e9f5572f208ced3e146b471bbe5ee60ce44a5",
+      "bytes": 2477006,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG03-04",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG03-04.png",
+      "entry": "LE_CG_EP03_ACT03_SC03_04.png",
+      "sha256": "f00409d8c42ccc2a244da0440cde727df6d42502de1e78a35bf97b99482fe7e3",
+      "bytes": 2486834,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG03-05",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG03-05.png",
+      "entry": "LE_CG_EP03_ACT03_SC03_05.png",
+      "sha256": "31c021805cbc8ff05f27c615a057c1c0009e4ad88fae63b6ba481bab16704068",
+      "bytes": 2373581,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG04-01",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG04-01.png",
+      "entry": "LE_CG_EP03_ACT03_SC04_01.png",
+      "sha256": "c2e7e704808a54ccc1ca637ffb9dbd04d17ad85f6b384d7fa1456c31a0c8c645",
+      "bytes": 2420321,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG04-02",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG04-02.png",
+      "entry": "LE_CG_EP03_ACT03_SC04_02.png",
+      "sha256": "c38181f3ccde75da01f1cba6a374e2b2e94a3f248f1fdeafc952f4ee610be20a",
+      "bytes": 2383774,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG04-03",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG04-03.png",
+      "entry": "LE_CG_EP03_ACT03_SC04_03.png",
+      "sha256": "5f2eb94e76c7086932e4b0a318096593aa5af8935a17ac1ece25625bcae5c1d8",
+      "bytes": 2308201,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG04-04",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG04-04.png",
+      "entry": "LE_CG_EP03_ACT03_SC04_04.png",
+      "sha256": "483bd41ac9ecf62357a6457f07921cc9d05e26043589348b36e052737a7de299",
+      "bytes": 2299836,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG04-05",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG04-05.png",
+      "entry": "LE_CG_EP03_ACT03_SC04_05.png",
+      "sha256": "ef98a70f0bd22cbff284f9f941baf028de5fc759db5f0fae20807404a649f4e1",
+      "bytes": 2590654,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG04-06",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG04-06.png",
+      "entry": "LE_CG_EP03_ACT03_SC04_06.png",
+      "sha256": "33167f4a9fd3cf6f73b96bac36897f399340b79bb48d24ea1d1edcf6be56c976",
+      "bytes": 2411268,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG05-01",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG05-01.png",
+      "entry": "LE_CG_EP03_ACT03_SC05_01.png",
+      "sha256": "cfff3247ef8044e0f5e0b8c44b268245c4ef6c3f4a42f13a3348dc39224c0b6c",
+      "bytes": 2287128,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG05-02",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG05-02.png",
+      "entry": "LE_CG_EP03_ACT03_SC05_02.png",
+      "sha256": "7619f7ea6ec85b917b558ac53b09c396cbd8b0209c08fcf975dfc3c9359e924e",
+      "bytes": 2335466,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG05-03",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG05-03.png",
+      "entry": "LE_CG_EP03_ACT03_SC05_03.png",
+      "sha256": "0b6530ffaed3dd12142ef89155dc08b80453837fc933baec0126ebde67ea6410",
+      "bytes": 2487507,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG05-04",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG05-04.png",
+      "entry": "LE_CG_EP03_ACT03_SC05_04.png",
+      "sha256": "8d35539d00e77f262b57b9790f3d3a3177b5f82bf29b3629085143438316654d",
+      "bytes": 2342514,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT03-CG05-05",
+      "act": 3,
+      "path": "assets/cg/ep03/act03/EP03-ACT03-CG05-05.png",
+      "entry": "LE_CG_EP03_ACT03_SC05_05.png",
+      "sha256": "81d539e6f6158e759f0e1c500c35e705133ac5e7f17e5b38b8b77c43bf18a938",
+      "bytes": 2194134,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG01",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG01.png",
+      "entry": "EP03_ACT04_CG01.png",
+      "sha256": "4d6f7684946f6d619885b909f3a55245f0b4b0f7f299e7dfd1bf56a50e31cf5c",
+      "bytes": 2345593,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG02",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG02.png",
+      "entry": "EP03_ACT04_CG02.png",
+      "sha256": "a46c6251576d8792059a4f10626feb43cdec7ff51aae326c9dac505a18242338",
+      "bytes": 2237952,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG03",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG03.png",
+      "entry": "EP03_ACT04_CG03.png",
+      "sha256": "0cee38a4c753f3b2037e8885e6f94e22073a1c116592df4c07b696801b9fb288",
+      "bytes": 2533910,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG04",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG04.png",
+      "entry": "EP03_ACT04_CG04.png",
+      "sha256": "98076d846cdd9f9f7002e71140619f881df1d1aae4cc12389a4d8b570dbf32b3",
+      "bytes": 2549149,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG05",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG05.png",
+      "entry": "EP03_ACT04_CG05.png",
+      "sha256": "1640c6707e849d4107b77d4d01cea23c9841bfb74956d6e50cbcefe332a587c2",
+      "bytes": 2300471,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG06",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG06.png",
+      "entry": "EP03_ACT04_CG06.png",
+      "sha256": "039d931bc33c02e8734155733e41bfa5dd9ac41110beb7fcd8ffd4c8eac84b1c",
+      "bytes": 2499604,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG07",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG07.png",
+      "entry": "EP03_ACT04_CG07.png",
+      "sha256": "5e41a1a057e7c5923dec248c88fdf7fcf2b2795e47a99bddeca1f616ab7af9d7",
+      "bytes": 2548382,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG08",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG08.png",
+      "entry": "EP03_ACT04_CG08.png",
+      "sha256": "45c6669bd97e0b262898eacc7aa56ed391a80d279a9a137fab31ae930fab5c94",
+      "bytes": 2432427,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG09",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG09.png",
+      "entry": "EP03_ACT04_CG09.png",
+      "sha256": "e58dc3325a5ab3cdabd34d2487b290d6457f6b71acc521b8aa81c02981bfea4c",
+      "bytes": 2538481,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG10",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG10.png",
+      "entry": "EP03_ACT04_CG10.png",
+      "sha256": "d1263f42e0a8e1d11c253897a547b267ae70accad0965bbad235971831f2fea7",
+      "bytes": 2920290,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG11",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG11.png",
+      "entry": "EP03_ACT04_CG11.png",
+      "sha256": "14ad7e744faa9e0a353b1eb8a5f638a39f1779121a854e4b90a9b88809bf6bed",
+      "bytes": 2113962,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG12",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG12.png",
+      "entry": "EP03_ACT04_CG12.png",
+      "sha256": "a8f5069f34be546f266cb739d5d112ad52ab184f80093f1d76a91281862d3ad2",
+      "bytes": 2378940,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG13",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG13.png",
+      "entry": "EP03_ACT04_CG13.png",
+      "sha256": "94394a78220d6fd6ae18d483e70922b8140acdf33bbae46ab4f16158f70d37de",
+      "bytes": 2417609,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG14",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG14.png",
+      "entry": "EP03_ACT04_CG14.png",
+      "sha256": "8d0c710dadf2d03f473aa0c5a88ed40d7dd60bc73c00cc3463514dd4ca48fa24",
+      "bytes": 2689380,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG15",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG15.png",
+      "entry": "EP03_ACT04_CG15.png",
+      "sha256": "99f4a9f77eedc8619571b59c212a3c8f1c97f959aed75e7d3834908a85038f4e",
+      "bytes": 2338964,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG16",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG16.png",
+      "entry": "EP03_ACT04_CG16.png",
+      "sha256": "909a7a51f5918bfdb9d89f06983432cfb91431dc1299f9c70d17478a184f5602",
+      "bytes": 2503512,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG17",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG17.png",
+      "entry": "EP03_ACT04_CG17.png",
+      "sha256": "1ce7c2e11e1306b7a196077524a8e6077151b43db94eb3e51d78118d8debe460",
+      "bytes": 2555499,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG18",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG18.png",
+      "entry": "EP03_ACT04_CG18.png",
+      "sha256": "add2c6644f654dbca3f859c00f6718b53b530677b9bf0798f9252c3fbb7054ca",
+      "bytes": 2705983,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG19",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG19.png",
+      "entry": "EP03_ACT04_CG19.png",
+      "sha256": "e1b8e03e7c6881d6bf553b8057f86aa9657ec5abf436dfbd93cbaa50fb8a64c2",
+      "bytes": 2760976,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT04-CG20",
+      "act": 4,
+      "path": "assets/cg/ep03/act04/EP03-ACT04-CG20.png",
+      "entry": "EP03_ACT04_CG20.png",
+      "sha256": "c69be65837a29dd598e3966893e0b565f884e2ea42a0462d6733f5d82d65e38f",
+      "bytes": 2733559,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH02_A",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH02_A.png",
+      "entry": "選項差分/ALT_CH02_A_極短質問.png",
+      "sha256": "833eb1c49a458d38793cfad7593c9add7527ad7d0dec728e9fceba6495c1b2bc",
+      "bytes": 2388031,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH02_B",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH02_B.png",
+      "entry": "選項差分/ALT_CH02_B_冷淡反問.png",
+      "sha256": "ce6e31add2aca5b0cb12eb221c6ec72045fe1dd3b6a1ebbb86ea0698792067f3",
+      "bytes": 2375716,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH02_C",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH02_C.png",
+      "entry": "選項差分/ALT_CH02_C_虛空特異點.png",
+      "sha256": "0f743315229b0c98a184c4d23942dc772d6532a6ff3237766d13c64e821a2c2a",
+      "bytes": 2309828,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH03_A",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH03_A.png",
+      "entry": "選項差分/ALT_CH03_A_假意稱讚.png",
+      "sha256": "ccfe2a31998e05eb5e6b8e55afb341646ecf6d40d35a815574a3f0106137cae2",
+      "bytes": 2436318,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH03_B",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH03_B.png",
+      "entry": "選項差分/ALT_CH03_B_戲謔提案.png",
+      "sha256": "9cd98ee291b41204c577aed01f3accc5a77ecebf61d33a22f7fe9bc1be359fcc",
+      "bytes": 2362758,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH03_C",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH03_C.png",
+      "entry": "選項差分/ALT_CH03_C_正面開罵.png",
+      "sha256": "93f067295cb5c36bcfb2badc47cf1e43f64a61c915aa02b8da3b27438d77ebec",
+      "bytes": 2483296,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH04_A",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH04_A.png",
+      "entry": "選項差分/ALT_CH04_A_名冊歷久彌新.png",
+      "sha256": "543ed1ad72347c07615f93b366a85120f57f408a28cf1f1897c4d93545354b07",
+      "bytes": 2307102,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH04_B",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH04_B.png",
+      "entry": "選項差分/ALT_CH04_B_責任推卸.png",
+      "sha256": "d094983b0b7ae2dd35571bcaba1abb50155bebec4bc617f99d0dc9f7b5ff0c5f",
+      "bytes": 2515019,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-ALT_CH04_C",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-ALT_CH04_C.png",
+      "entry": "選項差分/ALT_CH04_C_完美的空議會.png",
+      "sha256": "4f8069e4d327abcba5473d14bb86435658a4ce4a7b9ab2fac2eb7966c7c17f2d",
+      "bytes": 2278286,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG01-01",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG01-01.png",
+      "entry": "主線CG/SC01/EP03_ACT05_SC01_CG01_清晨的東北塔.png",
+      "sha256": "2649c6926ddb42c2df2ae9e4877ff54d10ec9e85c4d98f9f8ccba2c134b667c6",
+      "bytes": 2552959,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG01-02",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG01-02.png",
+      "entry": "主線CG/SC01/EP03_ACT05_SC01_CG02_守衛開始施工.png",
+      "sha256": "436c24038d7867a512825fa072dd64bdf0f6de4d9411b22e12a86aabf27800cc",
+      "bytes": 2618974,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG01-03",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG01-03.png",
+      "entry": "主線CG/SC01/EP03_ACT05_SC01_CG03_有的，大公主，有的.png",
+      "sha256": "270adff3981b286fc12bf8f3c0d62fb62ac33dea60a5473ef91fbffead3fac24",
+      "bytes": 2617707,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG01-04",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG01-04.png",
+      "entry": "主線CG/SC01/EP03_ACT05_SC01_CG04_環形議事桌竣工.png",
+      "sha256": "a15d716625df1d980e545839b7c728f7982ae55b7dacb57eec86901167f85bb6",
+      "bytes": 2709912,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG01-05",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG01-05.png",
+      "entry": "主線CG/SC01/EP03_ACT05_SC01_CG05_鑰戒與守衛.png",
+      "sha256": "cea9dfde9e33234f7e7411bcfdc23ebb7592d5b7c099caacc1b51dbfb27b904c",
+      "bytes": 2503851,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG02-01",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG02-01.png",
+      "entry": "主線CG/SC02/EP03_ACT05_SC02_CG01_塔馬拉先到.png",
+      "sha256": "92c96fad2f258612fe387f5b85cb01b4f13b65dc9faa444ba99a7162ffb46060",
+      "bytes": 2323026,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG02-02",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG02-02.png",
+      "entry": "主線CG/SC02/EP03_ACT05_SC02_CG02_法伊德造訪.png",
+      "sha256": "2d47ef291bd3f26a38557020241a9d480437837e5bbbe52ec78b9fa728bb9cf4",
+      "bytes": 2605699,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG02-03",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG02-03.png",
+      "entry": "主線CG/SC02/EP03_ACT05_SC02_CG03_魔法守衛大師.png",
+      "sha256": "b4a53eba34ef7e2b59fa0a1db9548a9af12304deface9dd45783378edbe0b801",
+      "bytes": 2552356,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG02-04",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG02-04.png",
+      "entry": "主線CG/SC02/EP03_ACT05_SC02_CG04_熟人領取鑰戒.png",
+      "sha256": "d051549dea06eb2f01fc8d1515b35a7b615f2f46c437a60adfb18c112ad26ce1",
+      "bytes": 2463125,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG02-05",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG02-05.png",
+      "entry": "主線CG/SC02/EP03_ACT05_SC02_CG05_準備迎接後續訪客.png",
+      "sha256": "f560a543f78e7ef157c09f143a8bc840adc8323dd25e3654f5a6541a08200753",
+      "bytes": 2618306,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG03-01",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG03-01.png",
+      "entry": "主線CG/SC03/EP03_ACT05_SC03_CG01_米椰爾抵達.png",
+      "sha256": "499fcd8e7d5287a4ac53f9fc8bda391cba037a3d6efadc5a8982488310b55d7e",
+      "bytes": 2424428,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG03-02",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG03-02.png",
+      "entry": "主線CG/SC03/EP03_ACT05_SC03_CG02_艾拉抵達.png",
+      "sha256": "8c90d0a33e460dac3b1cbe1069c0825d183999e67866d4d6470ca17bdf151f5a",
+      "bytes": 2464884,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG03-03",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG03-03.png",
+      "entry": "主線CG/SC03/EP03_ACT05_SC03_CG03_卡拉與守衛.png",
+      "sha256": "b153c08f165001f81e86cbe0c2e25ebfd50294069214f8299a0c57a29c71ff62",
+      "bytes": 2679623,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG03-04",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG03-04.png",
+      "entry": "主線CG/SC03/EP03_ACT05_SC03_CG04_五名議員同席.png",
+      "sha256": "fdef08de32ebc882ad42569d7ad2fc83f4031463b5eb19b8f2172689592fbea4",
+      "bytes": 2516200,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG03-05",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG03-05.png",
+      "entry": "主線CG/SC03/EP03_ACT05_SC03_CG05_諮詢開始.png",
+      "sha256": "6f02536206fd1d758699b1f251e865a11c2ff29f38ebaadd55fa86d7a1aedf8a",
+      "bytes": 2936525,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG04-01",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG04-01.png",
+      "entry": "主線CG/SC04/EP03_ACT05_SC04_CG01_什麼都批准.png",
+      "sha256": "ec023cfd63ca596c4d4539a49c07f7079b84482bf349cd28fc58fe86414d19bc",
+      "bytes": 2334730,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG04-02",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG04-02.png",
+      "entry": "主線CG/SC04/EP03_ACT05_SC04_CG02_好？.png",
+      "sha256": "94ccfb4056a943e3a9ded3a32ddd658ebcdbd4358b04f3034b483129b81dd631",
+      "bytes": 2255936,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG04-03",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG04-03.png",
+      "entry": "主線CG/SC04/EP03_ACT05_SC04_CG03_辦公室的卷宗.png",
+      "sha256": "686139b4bdafa98e5ee46b49ef450fefdc7f7535d7b054b33082addfc59644f7",
+      "bytes": 2541647,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG04-04",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG04-04.png",
+      "entry": "主線CG/SC04/EP03_ACT05_SC04_CG04_空白議席.png",
+      "sha256": "5dcf67f748c2b6390de35c098e9e59959136e374c5cff9fa0dc01a465d6ee47c",
+      "bytes": 2307750,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG04-05",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG04-05.png",
+      "entry": "主線CG/SC04/EP03_ACT05_SC04_CG05_學院的方法.png",
+      "sha256": "69074a0a26097ec3bfcec87d995a54de99741b6d738ee0721a7414c0a80cb1b1",
+      "bytes": 2312292,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG04-06",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG04-06.png",
+      "entry": "主線CG/SC04/EP03_ACT05_SC04_CG06_開始改變方法.png",
+      "sha256": "9096e06584a8f148e1a6760eb9677a6001a3b75214a763c9222a6db836159ae1",
+      "bytes": 2925274,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG05-01",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG05-01.png",
+      "entry": "主線CG/SC05/EP03_ACT05_SC05_CG01_你提出你的方案.png",
+      "sha256": "73d1721d23ca0a394b4f68ebaa3de9888af90c273c2bd3c5983384d00ae63797",
+      "bytes": 2289380,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG05-02",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG05-02.png",
+      "entry": "主線CG/SC05/EP03_ACT05_SC05_CG02_五方交叉查核.png",
+      "sha256": "4b2f507ea835efaad6a911bc473e63ac39742baa6b6dfa14ae11eec6baa2fa4d",
+      "bytes": 2854622,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG05-03",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG05-03.png",
+      "entry": "主線CG/SC05/EP03_ACT05_SC05_CG03_權限界線.png",
+      "sha256": "127b82b3572f6aa89a9103616a080792b27e3577aefe63be3c4f86d291bf8963",
+      "bytes": 2318529,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG05-04",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG05-04.png",
+      "entry": "主線CG/SC05/EP03_ACT05_SC05_CG04_議員帶著工作離席.png",
+      "sha256": "0881f0a3f45e8d2e743768ab9efdd433f287afc358ea1d1fbe0bf37db346a65c",
+      "bytes": 2975807,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP03-ACT05-CG05-05",
+      "act": 5,
+      "path": "assets/cg/ep03/act05/EP03-ACT05-CG05-05.png",
+      "entry": "主線CG/SC05/EP03_ACT05_SC05_CG05_第六感的收尾.png",
+      "sha256": "ae7360bde8a7fd000e5d71b554fb2e2261bcab7d6ed4d6ef892bb77cadc83b0e",
+      "bytes": 2098928,
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "missing": [
+    "EP03-ACT02-CG01-02",
+    "EP03-ACT02-CG01-03",
+    "EP03-ACT02-CG02-05",
+    "EP03-ACT02-CG03-03",
+    "EP03-ACT02-CG03-06",
+    "EP03-ACT02-CG05-01",
+    "EP03-ACT02-CG05-02"
+  ],
+  "expected": 135
+}

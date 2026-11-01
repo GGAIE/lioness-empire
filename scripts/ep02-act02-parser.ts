@@ -222,7 +222,9 @@ export function parseEp02Act02(markdown: string): {
         scope: 'ACT',
         nextChapterId: 'EP02',
         policy: 'NO_SCORING',
-        pendingLabel: 'EP02 ACT III · 劇本尚未提供',
+        nextSceneId: 'EP02_ACT03_SC01',
+        nextLabel: 'ACT III〈久別重逢〉',
+        continueLabel: '進入 EP02 第三幕',
       };
     } else common.next = `EP02_ACT02_SC${String(i + 2).padStart(2, '0')}`;
     scenes.push(common);

@@ -14,10 +14,18 @@ export const SettingsSchema = z
     bgm: z.number().min(0).max(1),
     sfx: z.number().min(0).max(1),
     autoDelay: z.number().min(500).max(10000),
+    musicTrack: z.string().max(100).default('story'),
   })
   .strict();
 export type Settings = z.infer<typeof SettingsSchema>;
-export const defaults: Settings = { speed: 28, fontSize: 22, bgm: 0.3, sfx: 0.4, autoDelay: 1800 };
+export const defaults: Settings = {
+  speed: 28,
+  fontSize: 22,
+  bgm: 0.3,
+  sfx: 0.4,
+  autoDelay: 1800,
+  musicTrack: 'story',
+};
 export const MetaSchema = z
   .object({
     read: z.array(z.string()),

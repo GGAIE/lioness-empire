@@ -1,0 +1,16 @@
+{
+  "archive": "母獅帝國_EP02_ACT05_25張CG_正確完整版_v0.2.zip",
+  "sha256": "c9c38a97a7f53f640929889fec851dfe6214e13a8305ec1e58f50c426eeb2ebb",
+  "bytes": 60397103,
+  "completeImages": 25,
+  "changedExistingIds": [],
+  "restoredIds": [
+    "EP02-ACT05-CG04-20",
+    "EP02-ACT05-CG05-21",
+    "EP02-ACT05-CG05-22",
+    "EP02-ACT05-CG05-23",
+    "EP02-ACT05-CG05-24",
+    "EP02-ACT05-CG05-25"
+  ],
+  "scriptPolicy": "Keep active ACT05 full script v1.1; bundled v1.0 script and v1.2 synopsis are artwork references only."
+}

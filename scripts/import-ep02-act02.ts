@@ -9,6 +9,7 @@ const sourcePath = 'content/sources/ep02/source-act02-v1.1.md',
   source = await readFile(resolve(root, sourcePath));
 const { scenes, roles } = parseEp02Act02(source.toString('utf8')),
   pack = ChapterFileSchema.parse(await readJson('episodes/ep02/chapter.json'));
+const hasLaterActs = pack.scenes.some((s) => !['ACT01', 'ACT02'].includes(s.act));
 pack.scenes = [
   ...parseEp02Act01(
     await readFile(resolve(root, 'content/sources/ep02/source-act01-v0.9.md'), 'utf8')
@@ -16,9 +17,11 @@ pack.scenes = [
   ...scenes,
   ...pack.scenes.filter((s) => !['ACT01', 'ACT02'].includes(s.act)),
 ];
-pack.version = '1.1.0';
-pack.source =
-  '使用者提供ACT I v0.9、ACT II完整劇本v1.1及SCRIPT圖包v1.2；只用新版本，不沿用大綱圖片或撤回擴寫稿。保留DRAFT及SOURCE_REQUIRED。';
+if (!hasLaterActs) {
+  pack.version = '1.1.0';
+  pack.source =
+    '使用者提供ACT I v0.9、ACT II完整劇本v1.1及SCRIPT圖包v1.2；只用新版本，不沿用大綱圖片或撤回擴寫稿。保留DRAFT及SOURCE_REQUIRED。';
+}
 ChapterFileSchema.parse(pack);
 const supplied = (await readJson('sources/ep02/act02-image-manifest-script-v1.2.json')) as {
   File: string;
@@ -72,7 +75,7 @@ for (const entry of supplied) {
 }
 if (new Set(images.map((r) => r.id)).size !== 20) throw Error('Duplicate new-script CG id');
 const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
-manifest.version = '0.9.0-ep02-act02-script-v1.1-art-v1.2';
+if (!hasLaterActs) manifest.version = '0.9.0-ep02-act02-script-v1.1-art-v1.2';
 const characters = (await readJson('characters/index.json')) as Record<string, string>;
 for (const [id, name] of Object.entries(roles)) characters[id] ??= name;
 const write = (path: string, value: unknown) =>

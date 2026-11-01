@@ -165,3 +165,7 @@ JSON Schema 位於 `schemas/`，可供外部編輯工具及未來 Unity 讀取�
 政治點數與動盪變化必須由固定劇情選項資料決定。玩家只提交決策 ID 與選項 ID；引擎從 CampaignPlan.decisions 讀取作者預先設定的 cost、resourceGain、unrestDelta。相同狀態／選項的效果相同，不接受玩家輸入數值、不隨機計分、不由執行時 AI 改寫。
 
 範本：docs/templates/story-decision.json。缺值保留 null 與 PENDING；三項固定效果都填妥並經核准才標 APPROVED。章初級距由前一章選項造成的動盪自動結算。作者工具的初始狀態試算僅供工程驗證，已收納於進階開發測試，不能當成玩家操作。
+
+## 場景末事實與缺圖
+
+completionFlags用於非choice場景，只有末段讀完才套用已宣告、型別相符的事實；不應用來把選項提前當成結果。整幕／章完成仍使用kind=end與completion.scope，不得以中間場景冒充整章結算。DRAFT的PLACEHOLDER插圖不渲染示範畫面亦不收藏，讀者會看到「此張插圖待補」，DEMO展示行為保留。

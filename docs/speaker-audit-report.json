@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 1084,
-    "thoughts": 22,
-    "narration": 903,
+    "dialogue": 2903,
+    "thoughts": 30,
+    "narration": 1452,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -89,6 +89,12 @@
       "sceneId": "EP02_ACT01_SC02",
       "segmentId": "L030",
       "text": "國王問的是王都治安與城防輪值，而不是「妳的封地」。第二團是王都直轄編制，統領承擔的是城防職務，而非因職銜自然獲得領主土地。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP03_ACT01_SC03_B",
+      "segmentId": "L001",
+      "text": "奧莉維亞在手邊紙張的空白處，簡短記下「議會現址待問」的提醒。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

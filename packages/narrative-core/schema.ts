@@ -134,8 +134,8 @@ export const SceneSchema = z
       c.addIssue({ code: 'custom', message: 'Cutscenes forbid player choices' });
     if (s.completion && s.kind !== 'end')
       c.addIssue({ code: 'custom', message: 'Chapter completion requires end scene' });
-    if (s.completionFlags && s.kind !== 'end')
-      c.addIssue({ code: 'custom', message: 'Completion flags require an end scene' });
+    if (s.completionFlags && s.kind === 'choice')
+      c.addIssue({ code: 'custom', message: 'Completion flags cannot precede a player choice' });
     if (s.kind === 'choice' && (s.pov !== 'OLIVIA' || s.chapter === 'EP12' || !s.choices.length))
       c.addIssue({
         code: 'custom',

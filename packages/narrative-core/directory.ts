@@ -63,13 +63,17 @@ export function chapterDirectory(story: Story, readKeys: string[] = []): Directo
             const branchIds = new Set(group.flatMap((s) => s.choices.map((c) => c.next)));
             const complete = (s: Scene) => s.segments.every((p) => read.has(`${s.id}:${p.id}`));
             const ordinary = group.filter((s) => !branchIds.has(s.id));
-            const branches = group.filter((s) => branchIds.has(s.id));
+            const decisions = group.filter((s) => s.kind === 'choice');
             return {
               id: entry.id,
               number,
               title: entry.title,
               sceneIds: group.map((s) => s.id),
-              read: ordinary.every(complete) && (!branches.length || branches.some(complete)),
+              read:
+                ordinary.every(complete) &&
+                decisions.every((s) =>
+                  s.choices.some((c) => complete(group.find((b) => b.id === c.next)!))
+                ),
             };
           }),
         };

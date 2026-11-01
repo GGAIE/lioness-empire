@@ -46,6 +46,7 @@ import {
 } from '../../../packages/narrative-core/directory';
 import { SaveSlots } from './screens/SaveSlots';
 import { ResourceHud } from './components/ResourceHud';
+import { Music } from './screens/Music';
 import { createCampaign } from '../../../packages/narrative-core/campaign';
 import type { CampaignState } from '../../../packages/narrative-core/campaign-schema';
 import {
@@ -62,6 +63,7 @@ type Panel =
   | 'endings'
   | 'chapters'
   | 'settings'
+  | 'music'
   | 'developer'
   | 'restart'
   | 'campaign'
@@ -239,6 +241,7 @@ function Game({
     key,
     settings.bgm,
     settings.sfx,
+    settings.musicTrack,
     notify
   );
   const refreshSaves = useCallback(async () => {
@@ -498,6 +501,7 @@ function Game({
     endings: '命運圖鑑',
     chapters: '章節目錄',
     settings: '閱讀設定',
+    music: '背景音樂',
     developer: '開發者工具',
     restart: '重新開始',
     campaign: '第一部劇情架構',
@@ -508,10 +512,20 @@ function Game({
     ['gallery', '鑑賞'],
     ['endings', '結局'],
     ['chapters', '章節'],
+    ['music', '背景音樂'],
     ['settings', '設定'],
   ] as const;
   return (
     <main className="shell">
+      <audio
+        ref={audio.musicRef}
+        data-testid="background-music"
+        loop
+        preload="none"
+        onPause={audio.mediaPaused}
+        onTimeUpdate={audio.mediaTimeUpdated}
+        onError={audio.mediaError}
+      />
       <header className="masthead">
         <a
           className="brand"
@@ -600,7 +614,7 @@ function Game({
               <div className="demo-note">
                 序幕〈母獅登基〉· v0.6
                 <br />
-                <span>序幕、第一章五幕與第二章兩幕已提供 · 原稿草稿版</span>
+                <span>序幕、第一章五幕與第二章五幕已提供 · 原稿草稿版</span>
               </div>
             </div>
           ) : (
@@ -893,6 +907,23 @@ function Game({
           )}
           {(panel === 'gallery' || panel === 'endings') && (
             <Library story={story} meta={meta} mode={panel} />
+          )}
+          {panel === 'music' && (
+            <Music
+              selected={settings.musicTrack}
+              volume={settings.bgm}
+              onSelect={(id) => {
+                audio.select(id);
+                setSettings((s) => ({ ...s, musicTrack: id }));
+              }}
+              onVolume={(bgm) => setSettings((s) => ({ ...s, bgm }))}
+              audio={audio}
+              storyTitle={
+                started
+                  ? story.assets.find((a) => a.type === 'bgm' && a.id === scene.bgm)?.label
+                  : undefined
+              }
+            />
           )}
           {panel === 'settings' && (
             <div className="settings">

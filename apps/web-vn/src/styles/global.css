@@ -1664,3 +1664,64 @@ input[type='range'] {
     min-height: 90px;
   }
 }
+
+/* The soundtrack menu is available on the title screen and while reading. */
+.music-player {
+  display: grid;
+  gap: 24px;
+  max-width: 680px;
+  margin: auto;
+}
+.music-player > p {
+  color: var(--muted);
+}
+.music-select,
+.music-volume {
+  display: grid;
+  gap: 12px;
+}
+.music-select select {
+  width: 100%;
+  min-width: 0;
+  font: inherit;
+  color: inherit;
+  background: #17212c;
+  padding: 14px 12px;
+  border: 1px solid var(--line);
+}
+.music-now {
+  padding: 24px;
+  border: 1px solid var(--line);
+  background: #17212c80;
+  overflow-wrap: anywhere;
+}
+.music-now > span {
+  font-size: 12px;
+  color: var(--muted);
+}
+.music-now h3 {
+  margin: 12px 0;
+  font-size: 26px;
+  color: var(--gold);
+}
+.music-now p {
+  margin-bottom: 8px;
+}
+.music-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.music-actions button {
+  flex: 1 1 150px;
+}
+.music-volume output {
+  color: var(--gold);
+}
+.music-volume input {
+  width: 100%;
+  accent-color: var(--gold);
+}
+.music-note {
+  font-size: 12px;
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "EP02_ACT03_SC01_CG01",
+    "title": "軍議開始",
+    "file": "SC01/EP02_ACT03_SC01_CG01_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "e82f31398ebb31e6f2cc0780fe3e51e314d9868c12c3b785b138005e8ff39433"
+  },
+  {
+    "id": "EP02_ACT03_SC01_CG02",
+    "title": "城防與道路",
+    "file": "SC01/EP02_ACT03_SC01_CG02_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "94b0a7e4f3c58099f4bebd8d4f041080aead20f0e4b181a778a6371775b11c42"
+  },
+  {
+    "id": "EP02_ACT03_SC01_CG03",
+    "title": "軍議散場",
+    "file": "SC01/EP02_ACT03_SC01_CG03_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "898cce250b37bfe30aae0949d01b37c0d846dc0e12154ad6452cc24c28c6a2d4"
+  },
+  {
+    "id": "EP02_ACT03_SC01_CG04",
+    "title": "露台的家族近況",
+    "file": "SC01/EP02_ACT03_SC01_CG04_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "6dd9abf13cb3370d9f355230183c54c729811a0eee28a64d1c411c39f49830d4"
+  },
+  {
+    "id": "EP02_ACT03_SC02_CG01",
+    "title": "新領主的禮節",
+    "file": "SC02/EP02_ACT03_SC02_CG01_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "8d9e9b48b1c7be8a9203ba343005c1f1fe967c6190049bfa182ccd3b65f128d6"
+  },
+  {
+    "id": "EP02_ACT03_SC02_CG02",
+    "title": "停不下來的公文",
+    "file": "SC02/EP02_ACT03_SC02_CG02_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "95a790a574c8921607c7442ec4071810173b94ac740bde587789bf964cabadee"
+  },
+  {
+    "id": "EP02_ACT03_SC02_CG03",
+    "title": "不屬於她的椅子",
+    "file": "SC02/EP02_ACT03_SC02_CG03_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "695f4b376f74ad91d868ed5855fa9ea5c20dd86080cde46b1004c6c40cf65146"
+  },
+  {
+    "id": "EP02_ACT03_SC02_CG04",
+    "title": "真正的獨立女性",
+    "file": "SC02/EP02_ACT03_SC02_CG04_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "87950159e67e203ed1ca5b114121398b5a75a857f3731e415f2cae0ca4b0728a"
+  },
+  {
+    "id": "EP02_ACT03_SC02_CG05",
+    "title": "笑完以後",
+    "file": "SC02/EP02_ACT03_SC02_CG05_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "68d8604fa4f09927ed9351d2fa1b1844a27a66495a57b19916b449105e9affaf"
+  },
+  {
+    "id": "EP02_ACT03_SC03_CG01",
+    "title": "瓦肯家的代表",
+    "file": "SC03/EP02_ACT03_SC03_CG01_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "b3b5f15b61e627a21372fcccd326cc3e6ddb42a24198caeeb3916896dc520dba"
+  },
+  {
+    "id": "EP02_ACT03_SC03_CG02",
+    "title": "六年前的夏天",
+    "file": "SC03/EP02_ACT03_SC03_CG02_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "77601cdace2172322c101092647c9d130e0d967802c46dc68227609ae4b856cc"
+  },
+  {
+    "id": "EP02_ACT03_SC03_CG03",
+    "title": "忙碌的格哈德",
+    "file": "SC03/EP02_ACT03_SC03_CG03_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "f23fc2bf3ab598b8df1a0ee2e78dc0072998e532c01404cb0cfb7f2620b433ab"
+  },
+  {
+    "id": "EP02_ACT03_SC03_CG04",
+    "title": "仍然記得那個夏天",
+    "file": "SC03/EP02_ACT03_SC03_CG04_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "8d41efd3ed239901d7ae8d1a0599424ef5ec6c00e2795a2df2221f5d4099fae0"
+  },
+  {
+    "id": "EP02_ACT03_SC04_CG01",
+    "title": "難得的下午茶",
+    "file": "SC04/EP02_ACT03_SC04_CG01_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "9c50ae9ee969924bd407fc54a1a570c4e76e6ca88057ea7bddf97867362f9611"
+  },
+  {
+    "id": "EP02_ACT03_SC04_CG02",
+    "title": "誰最忙",
+    "file": "SC04/EP02_ACT03_SC04_CG02_v0.1.png",
+    "size": [
+      1672,
+      940
+    ],
+    "sha256": "275822cd21955c3bbc11d02e634201a922b8a9d11909323c763a28723fe0852f"
+  },
+  {
+    "id": "EP02_ACT03_SC04_CG03",
+    "title": "獨立女性的學問",
+    "file": "SC04/EP02_ACT03_SC04_CG03_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "25f6726e197204994e41bedae506e6192391f12421afb92e52bfc926f5291fa4"
+  },
+  {
+    "id": "EP02_ACT03_SC04_CG04",
+    "title": "最悠閒的公主",
+    "file": "SC04/EP02_ACT03_SC04_CG04_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "bacd1b8b9ee378ef7f518df8eccaf6e2f68cdea5a6b98d991781fcfe03a50ae8"
+  },
+  {
+    "id": "EP02_ACT03_SC04_CG05",
+    "title": "下次再會",
+    "file": "SC04/EP02_ACT03_SC04_CG05_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "d5f574390adaf9d8e36b9e19965d1d7fa5f1a1ebd83c1a34650ace437068c85c"
+  },
+  {
+    "id": "EP02_ACT03_SC05_CG01",
+    "title": "晚宴開席",
+    "file": "SC05/EP02_ACT03_SC05_CG01_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "62bcc024aec64ff4a9f617cf19c96cb426bef8bd25533b1a4f3fd532857ca034"
+  },
+  {
+    "id": "EP02_ACT03_SC05_CG02",
+    "title": "艾維斯作為父親",
+    "file": "SC05/EP02_ACT03_SC05_CG02_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "4e9ac58de6e516e62563ecee03c1ca788e506528c60617d7290cd548e0de9d1b"
+  },
+  {
+    "id": "EP02_ACT03_SC05_CG03",
+    "title": "姑姑與王儲一家",
+    "file": "SC05/EP02_ACT03_SC05_CG03_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "df43a2ce7cba8d946cb809d02a650928709d127ef745e1bfb9f1fa02c465de60"
+  },
+  {
+    "id": "EP02_ACT03_SC05_CG04",
+    "title": "兄妹的默契",
+    "file": "SC05/EP02_ACT03_SC05_CG04_v0.1.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "b1f652a95c579a417e25d2ff13b2ad739a5453c7a7b2d81dc55114479679894f"
+  },
+  {
+    "id": "EP02_ACT03_SC05_CG05",
+    "title": "晚宴散場",
+    "file": "SC05/EP02_ACT03_SC05_CG05_v0.1.png",
+    "size": [
+      1672,
+      940
+    ],
+    "sha256": "14111aee58df3a52abbabbae68939aa4acc90e6dd222ff5fb932ac3b3717c79b"
+  }
+]
