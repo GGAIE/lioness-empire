@@ -16706,7 +16706,9 @@
         "nextChapterId": "EP04",
         "policy": "NO_SCORING",
         "scope": "CHAPTER",
-        "pendingLabel": "EP04〈不得已攝政〉· 劇本尚未提供"
+        "nextSceneId": "EP04_ACT01_SC01",
+        "nextLabel": "EP04〈不得已攝政〉",
+        "continueLabel": "進入 EP04 第四章"
       },
       "directions": [
         {

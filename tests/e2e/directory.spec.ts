@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { openActFromDirectory } from '../helpers/directory';
 
 test('chapter and act summaries collapse, pending acts are readable as placeholders, and sections retain the CG reader', async ({
@@ -12,7 +12,7 @@ test('chapter and act summaries collapse, pending acts are readable as placehold
   await page.getByRole('button', { name: '展開全部', exact: true }).click();
   await expect(page.locator('.directory-chapter > details[open]')).toHaveCount(13);
   await expect(page.locator('.directory-act[open]')).toHaveCount(61);
-  await expect(page.locator('.directory-sections li')).toHaveCount(83);
+  await expect(page.locator('.directory-sections li')).toHaveCount(109);
   const chapter = page
     .locator('.directory-chapter')
     .filter({ has: page.getByRole('heading', { name: '王冠之前', exact: true }) });

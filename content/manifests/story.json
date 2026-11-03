@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.11.1-ep03-act02-cg-fixed",
+  "version": "0.12.2-ep04-act03-act05-complete",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -41,7 +41,9 @@
     {
       "id": "EP04",
       "title": "不得已攝政",
-      "status": "NOT_YET_AVAILABLE"
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep04/chapter.json",
+      "entry": "EP04_ACT01_SC01"
     },
     {
       "id": "EP05",
@@ -220,6 +222,10 @@
     "AIVIS_DEPARTED_EASTERN_FRONT": {
       "initial": false,
       "description": "僅EP02 ACT V SC03實際讀完城門送行後記錄王儲正式出城；不代表政治數值、攝政、失能或路線授權。"
+    },
+    "FINLEY_RESEARCH_F1_STATE": {
+      "initial": "NOT_STARTED",
+      "description": "芬利研究支線：NOT_STARTED／ACTIVE／DECLINED／MATERIAL_OBTAINED／CLEARED。ACT02啟動-10；ACT03合法調閱承接；ACT04答謝讀完一次+20；不增加CLEAR。"
     }
   },
   "migrations": {

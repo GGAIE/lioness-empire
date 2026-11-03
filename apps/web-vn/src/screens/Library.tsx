@@ -13,14 +13,7 @@ export function Library({
   if (mode === 'endings')
     return (
       <>
-        <p className="muted">二十二個正位、八個逆位，記錄不同歷史的終點。測試結局獨立收藏。</p>
-        {meta.endings.includes('DEMO_COMPLETE') && (
-          <article className="ending">
-            <span>DEMO ONLY</span>
-            <h3>測試的終點</h3>
-            <p>分支流程測試完成</p>
-          </article>
-        )}
+        <p className="muted">二十二個正位、八個逆位，記錄你走過的不同歷史。</p>
         <div className="ending-grid">
           {[...story.endings]
             .sort((a, b) =>
@@ -43,7 +36,7 @@ export function Library({
                       ? '已記錄的歷史'
                       : r.status === 'APPROVED'
                         ? '等待你的選擇'
-                        : '尚待正式開放'}
+                        : '尚未解鎖'}
                   </small>
                 </article>
               );
@@ -54,12 +47,19 @@ export function Library({
   return (
     <>
       <p className="muted">
-        成功顯示過的 CG 會加入收藏；收藏與個別存檔分開保存。序幕 8 張、EP01 第一幕 11 張、第二幕 20
-        張，皆使用提供的原圖，另保留引擎測試素材。
+        閱讀中欣賞過的插圖會收錄於此。收藏會隨你的旅程累積，並保留在不同存檔之間。
       </p>
       <div className="gallery-grid">
         {story.assets
-          .filter((a) => a.type === 'cg')
+          .filter(
+            (a) =>
+              a.type === 'cg' &&
+              Object.values(story.scenes).some(
+                (s) =>
+                  s.status !== 'DEMO_ONLY' &&
+                  (s.cg === a.id || s.segments.some((p) => p.cg === a.id))
+              )
+          )
           .map((a) => (
             <article key={a.id}>
               {meta.cg.includes(a.id) ? (

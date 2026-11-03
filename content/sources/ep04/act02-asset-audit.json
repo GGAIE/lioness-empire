@@ -1,0 +1,282 @@
+{
+  "sourceSha256": "024ed875d00520e69f5d8c8eac729d93ba5211e871c092335995892bd3b212fd",
+  "archive": "C:\\Users\\45P\\Documents\\ChatGPT\\母獅帝國官方美術專案\\output\\LE_EP04_ACT02_25CG_final_v0.3.zip",
+  "archiveSha256": "f4e112f6d43407d41fa8d31580f6e8ec796d91cf245fced00efda9c3408d89cf",
+  "images": [
+    {
+      "id": "EP04-ACT02-CG01-01",
+      "number": 1,
+      "title": "燭光下的雙人研究",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png",
+      "sha256": "2d9dcb49e29c2ac8f093041d3bfb489b2d85aced8879d575bad6b34d57ba3bb6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2378967
+    },
+    {
+      "id": "EP04-ACT02-CG01-02",
+      "number": 2,
+      "title": "學院研究筆記特寫",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC01_IMG02_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC01_IMG02_v0.3.png",
+      "sha256": "b668cf81798910ea23c907847547d6d265c0185ba34f20630a5d7b6ce7022b29",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2840240
+    },
+    {
+      "id": "EP04-ACT02-CG01-03",
+      "number": 3,
+      "title": "薩克迪教科書式滅亡想像圖",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC01_IMG03_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC01_IMG03_v0.3.png",
+      "sha256": "92acbfc22c5f1853052682abe3d7e0589096b4debc04d354489edacc46c6f0ea",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3155090
+    },
+    {
+      "id": "EP04-ACT02-CG01-04",
+      "number": 4,
+      "title": "研究進入下一章",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC01_IMG04_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC01_IMG04_v0.3.png",
+      "sha256": "75ccbe93c6512d9425733f555f4a1fe2577c03f82379ad753acbd00c74661063",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2909197
+    },
+    {
+      "id": "EP04-ACT02-CG02-01",
+      "number": 5,
+      "title": "薩克迪早期繁榮與官署運作",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC02_IMG01_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC02_IMG01_v0.3.png",
+      "sha256": "04b6db684b32d98b985cccc80e6274e4a3ae2f1ca5e32665ba7311e329dee454",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2959917
+    },
+    {
+      "id": "EP04-ACT02-CG02-02",
+      "number": 6,
+      "title": "戰時新增調度機構",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC02_IMG02_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC02_IMG02_v0.3.png",
+      "sha256": "59380bc3d88f8953a59d6ba01e7871ac6282ca20e461df609646678af905fd67",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2772991
+    },
+    {
+      "id": "EP04-ACT02-CG02-03",
+      "number": 7,
+      "title": "監督機構再度增殖",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC02_IMG03_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC02_IMG03_v0.3.png",
+      "sha256": "5cf314b093d9695152ead1af546efa70077ed9349d921dcdbae7e4f60c0bd56f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2809806
+    },
+    {
+      "id": "EP04-ACT02-CG02-04",
+      "number": 8,
+      "title": "層層機構示意構圖",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC02_IMG04_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC02_IMG04_v0.3.png",
+      "sha256": "85cf1619622dd3599f46bbdeff192f375f3c836fdb19119634b00fdbb6509f08",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2840047
+    },
+    {
+      "id": "EP04-ACT02-CG03-01",
+      "number": 9,
+      "title": "等待核准的魔導物資",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC03_IMG01_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC03_IMG01_v0.3.png",
+      "sha256": "f0cb635cccaad127fdc0f167bd6a8d8d45ba38b72bdc2961ea008c7342f2cac9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2907038
+    },
+    {
+      "id": "EP04-ACT02-CG03-02",
+      "number": 10,
+      "title": "每個人都在履行職責",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC03_IMG02_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC03_IMG02_v0.3.png",
+      "sha256": "f87e8c5f0a8a417de6ca7b6b83fa2e6df99db60fa7c162243565f58abdb4f32d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3043769
+    },
+    {
+      "id": "EP04-ACT02-CG03-03",
+      "number": 11,
+      "title": "前線等待中的防線",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC03_IMG03_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC03_IMG03_v0.3.png",
+      "sha256": "4ec71ef3d47baf3678428207fd595caab3365ddae2a0b9606c53c3ccaf2f526e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2794349
+    },
+    {
+      "id": "EP04-ACT02-CG03-04",
+      "number": 12,
+      "title": "沉默停滯的車隊",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC03_IMG04_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC03_IMG04_v0.3.png",
+      "sha256": "9f5b927e13bcce57b14b522f6954388f406a48c1fd190a6ad8e69c76a2e9b974",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2958974
+    },
+    {
+      "id": "EP04-ACT02-CG04-01",
+      "number": 13,
+      "title": "回到當下的攝政書房",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC04_IMG01_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC04_IMG01_v0.3.png",
+      "sha256": "83cddf1e82ea7c9b92efd2a144fe87691ec8379b13539bae6adf196ee5e4db40",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2425025
+    },
+    {
+      "id": "EP04-ACT02-CG04-02",
+      "number": 14,
+      "title": "三名官員的回想鏡頭",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC04_IMG02_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC04_IMG02_v0.3.png",
+      "sha256": "1ada85fca4aff425ca81e3de3b51957a343b16bb48c5f8d402df31c9f0d3dbf3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2460441
+    },
+    {
+      "id": "EP04-ACT02-CG04-03",
+      "number": 15,
+      "title": "插曲開始：侍從來報茶點",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC04_IMG03_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC04_IMG03_v0.3.png",
+      "sha256": "a9ee70aef1c0a275586b498eabd9e86313602ecef7a19ec5f8e14089c4027c69",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2479188
+    },
+    {
+      "id": "EP04-ACT02-CG04-04",
+      "number": 16,
+      "title": "茶杯與研究筆記並置",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC04_IMG04_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC04_IMG04_v0.3.png",
+      "sha256": "250ec5167a4a499fc37cff63a2d6f6be90980d8776387a5b069e3ece538eca44",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2576117
+    },
+    {
+      "id": "EP04-ACT02-CG04-05",
+      "number": 17,
+      "title": "奧莉維亞重新審視官員資料",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC04_IMG05_v0.4.png",
+      "entry": "LE_CG_EP04_ACT02_SC04_IMG05_v0.4.png",
+      "sha256": "9221a6c6610b10ac7cfc96aeb58ad69bce4078ea8e270bf0eb86643ce1f82ab3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2434618
+    },
+    {
+      "id": "EP04-ACT02-CG05-01",
+      "number": 18,
+      "title": "薩克迪衰敗中的帝都遠景",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC05_IMG01_v0.4.png",
+      "entry": "LE_CG_EP04_ACT02_SC05_IMG01_v0.4.png",
+      "sha256": "2bad93efdd8c6dbd38641e8894052adce63daf50e4bcbdbd07b6af99ecd38781",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2711323
+    },
+    {
+      "id": "EP04-ACT02-CG05-02",
+      "number": 19,
+      "title": "國家仍有力量卻無法運作",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC05_IMG02_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC05_IMG02_v0.3.png",
+      "sha256": "267f3ad7d2dcfecf834382ecdd3c29810f56630e6de8f17013285c34a1cddf74",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3000056
+    },
+    {
+      "id": "EP04-ACT02-CG05-03",
+      "number": 20,
+      "title": "研究筆記最後的空白頁",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC05_IMG03_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC05_IMG03_v0.3.png",
+      "sha256": "956a1b2f0f8a88747cf0eab497608b3c399dd0bab5ba9445dd4ce8d4ea342d4c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2490017
+    },
+    {
+      "id": "EP04-ACT02-CG05-04",
+      "number": 21,
+      "title": "薩克迪最終成為廢墟",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC05_IMG04_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC05_IMG04_v0.3.png",
+      "sha256": "20ff03850384b383b085068834ef3b96f37fa8bca6f983dcf31709c7d07743fc",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3065702
+    },
+    {
+      "id": "EP04-ACT02-CG06-01",
+      "number": 22,
+      "title": "芬利翻到研究末頁",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC06_IMG01_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC06_IMG01_v0.3.png",
+      "sha256": "21da0c2af56c8efb88144266547552cf6022a286b930889789c0df0d4ccf0dfc",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2466542
+    },
+    {
+      "id": "EP04-ACT02-CG06-02",
+      "number": 23,
+      "title": "芬利坦承未完成研究",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC06_IMG02_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC06_IMG02_v0.3.png",
+      "sha256": "23d944923493df767974e65b6e9da18873e41fb2492ac292c525ffc5ab6505aa",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2369860
+    },
+    {
+      "id": "EP04-ACT02-CG06-03",
+      "number": 24,
+      "title": "奧莉維亞想起塔瑪拉",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC06_IMG03_v0.4.png",
+      "entry": "LE_CG_EP04_ACT02_SC06_IMG03_v0.4.png",
+      "sha256": "eefef710255adf74b23c19c23ec5ddfca6174a0446f075afc5a4bc4c7e53651c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2323695
+    },
+    {
+      "id": "EP04-ACT02-CG06-04",
+      "number": 25,
+      "title": "兩疊文獻與攝政印信",
+      "path": "assets/cg/ep04/act02/final-v0.3/LE_CG_EP04_ACT02_SC06_IMG04_v0.3.png",
+      "entry": "LE_CG_EP04_ACT02_SC06_IMG04_v0.3.png",
+      "sha256": "fab0449abd35ee95378b8e279a31de108558e611123f96531de3706bd03e97ba",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2809860
+    }
+  ]
+}

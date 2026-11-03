@@ -36,6 +36,15 @@ it('imports the exact five screenplays, including all dialogue, thought, letter 
       choices =
         act === 4 ? await readFile(root + '/content/sources/ep03/act04/06.md', 'utf8') : undefined,
       parsed = parseEp03Act(source, act, choices);
+    if (act === 5) {
+      const end = parsed.scenes.find((s) => s.completion?.scope === 'CHAPTER')!;
+      delete end.completion!.pendingLabel;
+      Object.assign(end.completion!, {
+        nextSceneId: 'EP04_ACT01_SC01',
+        nextLabel: 'EP04〈不得已攝政〉',
+        continueLabel: '進入 EP04 第四章',
+      });
+    }
     expect(parsed.scenes.map((s) => story.scenes[s.id])).toEqual(parsed.scenes);
     expect(parsed.scenes.length).toBe(act === 3 ? 5 : 25);
     expect(parsed.scenes.filter((s) => s.kind === 'choice').length).toBe(act === 3 ? 0 : 5);
@@ -215,7 +224,7 @@ for (const answer of 'ABC')
         scope: 'CHAPTER',
         nextChapterId: 'EP04',
       });
-      expect(story.scenes[state.currentSceneId].completion?.nextSceneId).toBeUndefined();
+      expect(story.scenes[state.currentSceneId].completion?.nextSceneId).toBe('EP04_ACT01_SC01');
       expect(restoreSave(state, story).state).toEqual(state);
     },
     60000

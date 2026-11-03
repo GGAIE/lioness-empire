@@ -1,0 +1,151 @@
+{
+  "act": 4,
+  "sourceSha256": "f5ad7296441dc8c83652bd6c238fbdfa04db8d53c3ae5274a486ad60664abab6",
+  "archive": "C:\\Users\\45P\\Downloads\\04\\母獅帝國_EP04_ACT04_13張CG_正確圖片包_v1.1.zip",
+  "archiveSha256": "10d6d145cdd3e7630e535f97ee5ee6ce4c1e7a57df42574a466f2830f2e51ede",
+  "images": [
+    {
+      "id": "EP04-ACT04-CG01",
+      "number": 1,
+      "title": "SC01｜五人議會名冊",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG01_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG01_v1.1.png",
+      "sha256": "0372ad8743ed5addc6a16735003fd1d72209a72dc8011cd05588b6325bd0bada",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2535058
+    },
+    {
+      "id": "EP04-ACT04-CG02",
+      "number": 2,
+      "title": "SC01｜三處落點",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG02_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG02_v1.1.png",
+      "sha256": "e3c9302702ff3ba52f5cd0007be41264f016c81353aa96a5fba5bcb090317174",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3550461
+    },
+    {
+      "id": "EP04-ACT04-CG03",
+      "number": 3,
+      "title": "SC02｜商人身份詢問流程",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG03_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG03_v1.1.png",
+      "sha256": "6d627e2829192835aa1c7d9acb64d0c45711c052e00a5a91a414fb7448f4c11e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2926521
+    },
+    {
+      "id": "EP04-ACT04-CG04",
+      "number": 4,
+      "title": "SC02｜商會大桌",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG04_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG04_v1.1.png",
+      "sha256": "b1466c5ef4a7f099833bdb0693827f855730052d618688cc6885934b476059a0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2881381
+    },
+    {
+      "id": "EP04-ACT04-CG05",
+      "number": 5,
+      "title": "SC03｜莎莉雅領地交流處",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG05_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG05_v1.1.png",
+      "sha256": "c7f726947789c53096f6b1e8ef0337e5f4d5a01a4d3be2e385ff96d5203cb0a6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3052325
+    },
+    {
+      "id": "EP04-ACT04-CG06",
+      "number": 6,
+      "title": "SC03｜無爵位地方調解者",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG06_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG06_v1.1.png",
+      "sha256": "5fdb8edd4e3d0257aca4fc133ea99a6e0aea1eb56b5885ab90b0b6d157bb6eed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2875391
+    },
+    {
+      "id": "EP04-ACT04-CG07",
+      "number": 7,
+      "title": "SC04｜莎莉雅陪同出行",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG07_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG07_v1.1.png",
+      "sha256": "24c750802b7064a9e65eccd3c2a87f563854c7424c291bc8a52e6efb9413caad",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3390651
+    },
+    {
+      "id": "EP04-ACT04-CG08",
+      "number": 8,
+      "title": "SC04｜衛星城行會與士紳",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG08_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG08_v1.1.png",
+      "sha256": "0e6186a3f6295458140357cfb8f5a4d8ef53053fda5b6899921cf28f4b75d89d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3028584
+    },
+    {
+      "id": "EP04-ACT04-CG09",
+      "number": 9,
+      "title": "SC05｜芬利完成魔法史研究",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG09_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG09_v1.1.png",
+      "sha256": "2481224b7c03b2be78f0bc2b79dfeec3521c9b0b88ced2a699288628bc7925b3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2640546
+    },
+    {
+      "id": "EP04-ACT04-CG10",
+      "number": 10,
+      "title": "SC05｜魔法守衛啟動",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG10_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG10_v1.1.png",
+      "sha256": "a6ad0ef22b7d523733b92bec2133d3ee2f85b836f3d135ee24ef55ec5b087aa4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2760945
+    },
+    {
+      "id": "EP04-ACT04-CG11",
+      "number": 11,
+      "title": "SC05｜塔馬拉驗收守衛",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG11_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG11_v1.1.png",
+      "sha256": "358bc18308dce960afb713d649c1c7a4f7e6189c3f07e3c4656fc2bf94628eb2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2599383
+    },
+    {
+      "id": "EP04-ACT04-CG12",
+      "number": 12,
+      "title": "SC06｜只記撒餌處的調查簿",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG12_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG12_v1.1.png",
+      "sha256": "ccb80d07b9b2132b3a8ef85d39bb9077a4c7ef0cb401301a97e148579d9777e7",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2536079
+    },
+    {
+      "id": "EP04-ACT04-CG13",
+      "number": 13,
+      "title": "SC06｜五張舊椅與空議廳",
+      "path": "assets/cg/ep04/act04/complete-v1.1/LE_EP04_ACT04_CG13_v1.1.png",
+      "entry": "LE_EP04_ACT04_CG13_v1.1.png",
+      "sha256": "36f51dfe14825d923a829197309a4a2af438b46e63404a1c174b2592dc50a184",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2420950
+    }
+  ]
+}

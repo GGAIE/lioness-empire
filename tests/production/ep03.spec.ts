@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { createHash } from 'node:crypto';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState } from '../../packages/narrative-core/engine';
 import audit from '../../content/sources/ep03/asset-audit.json' with { type: 'json' };
 
@@ -9,7 +9,7 @@ test('production ships all 135 byte-identical EP03 PNGs and exposes all five act
 }) => {
   test.setTimeout(120000);
   const manifest = await (await request.get('/content/manifests/story.json')).json();
-  expect(manifest.version).toBe('0.11.1-ep03-act02-cg-fixed');
+  expect(manifest.version).toBe((await loadContent()).manifest.version);
   const chapter = manifest.chapters.find((c: { id: string }) => c.id === 'EP03');
   expect(chapter.entry).toBe('EP03_ACT01_SC01');
   const body = await (await request.get('/content/' + chapter.file)).json();

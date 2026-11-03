@@ -1,11 +1,12 @@
+import { restoreScene } from '../helpers/restore-scene';
 import { test, expect, type Page } from '@playwright/test';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 async function start(page: Page) {
   await page.goto('/');
   await page.getByRole('button', { name: '設定', exact: true }).click();
   await page.getByRole('slider', { name: '逐字間隔（0 為立即顯示）' }).fill('0');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
-  await page.getByRole('button', { name: '開始序幕' }).click();
+  await page.getByRole('button', { name: '開始遊戲' }).click();
 }
 test('plays source CG scenes, saves/restores correctly, ends at flashback, and never shows a choice or charge', async ({
   page,
@@ -24,8 +25,7 @@ test('plays source CG scenes, saves/restores correctly, ends at flashback, and n
   for (let i = 1; i <= 8; i++) {
     const id = `PRO-SC${String(i).padStart(2, '0')}`;
     if (i > 1) {
-      await page.getByRole('button', { name: '開發', exact: true }).click();
-      await page.getByLabel('開發場景跳轉').selectOption(id);
+      await restoreScene(page, id);
     }
     await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', id);
     await expect(page.getByTestId('scene-cg')).toHaveAttribute(

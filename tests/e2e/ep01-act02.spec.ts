@@ -1,7 +1,8 @@
+import { restoreScene } from '../helpers/restore-scene';
 import { test, expect, type Page } from '@playwright/test';
 import { openActFromDirectory } from '../helpers/directory';
 import { readFile } from 'node:fs/promises';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { act02Options } from '../../scripts/ep01-act02-parser';
 async function start(page: Page) {
   await page.goto('/');
@@ -111,8 +112,7 @@ test('the other two source options show only their selected response before merg
   const story = await loadContent();
   for (const option of act02Options.slice(1)) {
     await start(page);
-    await page.getByRole('button', { name: '開發', exact: true }).click();
-    await page.getByLabel('開發場景跳轉').selectOption('EP01_ACT02_SC03');
+    await restoreScene(page, 'EP01_ACT02_SC03');
     const choice = story.scenes.EP01_ACT02_SC03;
     for (let i = 0; i < choice.segments.length - 1; i++)
       await page.getByRole('button', { name: '推進對話', exact: true }).click();

@@ -9,6 +9,7 @@ export function ChapterDirectory({
   state,
   started,
   busy,
+  unlocked,
   onRead,
 }: {
   story: Story;
@@ -16,11 +17,12 @@ export function ChapterDirectory({
   state: GameState;
   started: boolean;
   busy: boolean;
+  unlocked: boolean;
   onRead: (id: string, current: boolean) => void;
 }) {
   const current = started ? story.scenes[state.currentSceneId] : undefined;
-  const chapters = chapterDirectory(story, [...meta.read, ...state.readSegments]);
-  const available = navigableScenes(story, state);
+  const chapters = chapterDirectory(story, [...meta.read, ...state.readSegments], state);
+  const available = navigableScenes(story, state, unlocked);
   const [expanded, setExpanded] = useState(
     () => new Set(current ? [current.chapter, `${current.chapter}:${current.act}`] : [])
   );
@@ -69,7 +71,7 @@ export function ChapterDirectory({
                   <p>
                     {sections.length
                       ? `已提供 ${authored} / ${chapter.acts.length} 幕 · 已讀 ${count} / ${sections.length} 節${authored < chapter.acts.length ? ' · 後續待續' : ''}`
-                      : '劇本尚未提供'}
+                      : '尚未開放'}
                   </p>
                 </div>
                 {current?.chapter === chapter.id && (
@@ -100,7 +102,7 @@ export function ChapterDirectory({
                           <p>
                             {act.sections.length
                               ? `${act.sections.length} 節 · 已讀 ${act.sections.filter((s) => s.read).length} 節`
-                              : '劇本尚未提供'}
+                              : '尚未開放'}
                           </p>
                         </div>
                         <span className="directory-chevron" aria-hidden="true">
@@ -144,9 +146,7 @@ export function ChapterDirectory({
                           })}
                         </ol>
                       ) : (
-                        <p className="directory-pending">
-                          本幕仍在規劃中，待劇本與圖片提供後開放。
-                        </p>
+                        <p className="directory-pending">後續故事，敬請期待。</p>
                       )}
                     </details>
                   );

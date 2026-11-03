@@ -1,5 +1,6 @@
+import { restoreScene } from '../helpers/restore-scene';
 import { test, expect } from '@playwright/test';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState } from '../../packages/narrative-core/engine';
 test('speaker corrections appear in the reader and old history while quotations and narration stay unlabelled', async ({
   page,
@@ -54,8 +55,7 @@ test('speaker corrections appear in the reader and old history while quotations 
   await expect(old.locator('span')).toHaveText('奧莉維亞');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   async function jump(id: string, index: number) {
-    await page.getByRole('button', { name: '開發', exact: true }).click();
-    await page.getByLabel('開發場景跳轉').selectOption(id);
+    await restoreScene(page, id);
     for (let i = 0; i < index; i++)
       await page.getByRole('button', { name: '推進對話', exact: true }).click();
     await expect(page.getByTestId('dialogue-text')).toHaveText(

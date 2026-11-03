@@ -1,0 +1,1206 @@
+{
+  "sourceSha256": "024ed875d00520e69f5d8c8eac729d93ba5211e871c092335995892bd3b212fd",
+  "sections": 6,
+  "nodes": 29,
+  "segments": 199,
+  "choices": 6,
+  "answers": 17,
+  "images": 25,
+  "f1": {
+    "flag": "FINLEY_RESEARCH_F1_STATE",
+    "help": "ACTIVE; political points -10 once",
+    "decline": "DECLINED; 0",
+    "future": "ACT03/ACT04 connected; guarded completion +20 once"
+  },
+  "pending": "ACT03〈各自的難題〉connected; ACT scope, not chapter completion",
+  "uses": [
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L001",
+      "line": 50,
+      "text": "攝政書房的燭火靜靜燃燒著。桌上攤開兩疊資料。一疊是安度因剛被裁撤的舊行政機構沿革；另一疊則是五年前留下的學院研究筆記，封面角落已經磨舊。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L002",
+      "line": 52,
+      "text": "奧莉維亞將那本筆記推向芬利。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L003",
+      "line": 54,
+      "text": "**奧莉維亞：**「你還記得我們以前在學院研究過的薩克迪嗎？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L004",
+      "line": 56,
+      "text": "芬利看了筆記一眼，像是某段許久未翻動的記憶忽然被喚醒。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L005",
+      "line": 58,
+      "text": "**芬利：**「魔導帝國薩克迪？當然記得。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L006",
+      "line": 60,
+      "text": "**奧莉維亞：**「我今天忽然想起來。歷史課本總說，薩克迪是被外敵打垮的。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L007",
+      "line": 62,
+      "text": "芬利拉開椅子坐下，翻開筆記第一頁。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L008",
+      "line": 64,
+      "text": "**芬利：**「這也是大多數人願意記住的版本。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L009",
+      "line": 68,
+      "text": "紙頁之間夾著舊日的抄錄紙條與地圖。年輕時的筆跡，有些鋒利，有些倉促。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L010",
+      "line": 70,
+      "text": "**奧莉維亞：**「因為簡單。帝國強盛、外敵入侵、防線崩潰、首都陷落。故事到這裡就結束了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L011",
+      "line": 72,
+      "text": "**芬利：**「而且很有戲劇性。人們總喜歡把一個帝國的死亡，歸結給一場足夠壯觀的戰爭。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L012",
+      "line": 74,
+      "text": "**奧莉維亞：**「就像只要找到最後一根斷掉的樑柱，就假裝整棟房子不是早就空心了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L013",
+      "line": 76,
+      "text": "芬利抬頭看她。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L014",
+      "line": 78,
+      "text": "**芬利：**「妳還真是一點都沒變。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L015",
+      "line": 80,
+      "text": "**奧莉維亞：**「哪一點？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L016",
+      "line": 82,
+      "text": "**芬利：**「還是喜歡在第一頁就把教科書推翻。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L017",
+      "line": 86,
+      "text": "畫面彷彿被兩人的記憶拉向遙遠過去。高牆、魔導尖塔、覆蓋帝都的巨型結界。遠方黑潮般的敵軍壓向城下，天空中的魔法光流彼此撞擊。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L018",
+      "line": 88,
+      "text": "這是後世最熟悉的薩克迪：一個在戰火中被擊倒的帝國。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L019",
+      "line": 90,
+      "text": "**芬利：**「如果只看這些圖像，誰都會相信薩克迪是亡於外部威脅。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L020",
+      "line": 92,
+      "text": "**奧莉維亞：**「但我們當年越查越覺得，不對勁。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01",
+      "segmentId": "L021",
+      "line": 94,
+      "text": "**芬利：**「因為有些紀錄，比戰爭更早。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_A",
+      "segmentId": "L001",
+      "line": 98,
+      "text": "奧莉維亞：「外敵或許真的很強，但那不是全部。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_A",
+      "segmentId": "L002",
+      "line": 98,
+      "text": "芬利：「最麻煩的往往都不是『假的』，而是『只說了一半真的』。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_B",
+      "segmentId": "L001",
+      "line": 99,
+      "text": "奧莉維亞：「歷史書最擅長把複雜的事講成一句話。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_B",
+      "segmentId": "L002",
+      "line": 99,
+      "text": "芬利：「畢竟一句話比較容易被背下來。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_C",
+      "segmentId": "L001",
+      "line": 100,
+      "text": "奧莉維亞：「被記住的，往往只是最方便記住的結果。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_C",
+      "segmentId": "L002",
+      "line": 100,
+      "text": "芬利闔起筆記又翻開：「所以研究者才得負責去找那些不方便的部分。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_COMMON",
+      "segmentId": "L001",
+      "line": 104,
+      "text": "奧莉維亞把椅背稍稍往後靠。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_COMMON",
+      "segmentId": "L002",
+      "line": 106,
+      "text": "**奧莉維亞：**「那就從最簡單的地方開始。若薩克迪不是單純亡於外敵，那它是先從哪裡壞掉的？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_COMMON",
+      "segmentId": "L003",
+      "line": 108,
+      "text": "芬利將手指放在筆記中的一條標註線上。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_COMMON",
+      "segmentId": "L004",
+      "line": 110,
+      "text": "**芬利：**「從『例外』開始。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC01_COMMON",
+      "segmentId": "L005",
+      "line": 114,
+      "text": "燭光落在幾個被圈起來的舊註記上。文字僅供劇本敘述，CG 不繪製可讀字樣。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L001",
+      "line": 124,
+      "text": "芬利翻到下一頁。畫面中的薩克迪，不再是末日中的帝都，而是仍然井然運作的黃金時代。整齊的官署、繁忙的魔導工坊、往來不絕的運輸隊。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L002",
+      "line": 126,
+      "text": "**芬利：**「薩克迪最早並不臃腫。相反地，它的行政體系曾經非常有效率。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L003",
+      "line": 128,
+      "text": "**奧莉維亞：**「所以問題不是『有官署』，而是『官署怎麼變成後來那個樣子』。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L004",
+      "line": 130,
+      "text": "**芬利：**「沒錯。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L005",
+      "line": 134,
+      "text": "筆記中的下一段記錄，是一場邊境危機。前線壓力驟增，舊有制度來不及應變。於是帝國設立了新的戰時調度機關，負責直接統合魔導工坊、物資與運輸。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L006",
+      "line": 136,
+      "text": "**芬利：**「第一個新增機構，是為了救火。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L007",
+      "line": 138,
+      "text": "**奧莉維亞：**「而且很可能真的救到了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L008",
+      "line": 140,
+      "text": "**芬利：**「是啊。也正因為它曾經有效，所以沒有人願意撤掉。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L009",
+      "line": 142,
+      "text": "**奧莉維亞：**「因為一旦撤掉，下次有危機時，誰也不想背責任。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L010",
+      "line": 146,
+      "text": "新的調度機關建立後，又出現另一個問題：誰來監督這個臨時獲得大量權限的新機構？於是新的監督單位誕生。監督單位本身又需要審核、記錄與安全確認。一層，接一層。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L011",
+      "line": 148,
+      "text": "**奧莉維亞：**「最開始只是例外處理。後來成了常設機構。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L012",
+      "line": 150,
+      "text": "**芬利：**「常設機構久了，又會長出自己的例外。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L013",
+      "line": 152,
+      "text": "奧莉維亞忍不住笑了一下，但很快又收斂。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L014",
+      "line": 154,
+      "text": "**奧莉維亞：**「真難看。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02",
+      "segmentId": "L015",
+      "line": 156,
+      "text": "**芬利：**「而且很真實。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_A",
+      "segmentId": "L001",
+      "line": 160,
+      "text": "奧莉維亞：「當時的統治者，可能根本沒有其他選擇。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_A",
+      "segmentId": "L002",
+      "line": 160,
+      "text": "芬利：「我也傾向這麼看。至少一開始是如此。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_B",
+      "segmentId": "L001",
+      "line": 161,
+      "text": "奧莉維亞：「真正的問題不是設立，而是沒有人規定何時撤除。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_B",
+      "segmentId": "L002",
+      "line": 161,
+      "text": "芬利：「五年前妳就在筆記邊上寫過同一句話。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_C",
+      "segmentId": "L001",
+      "line": 162,
+      "text": "奧莉維亞：「也許從那時起，就有人學會利用危機擴張權力。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_C",
+      "segmentId": "L002",
+      "line": 162,
+      "text": "芬利：「有可能，但我們還沒有足夠證據，不能把所有制度都解釋成惡意。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_COMMON",
+      "segmentId": "L001",
+      "line": 166,
+      "text": "奧莉維亞伸手把筆記壓平。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_COMMON",
+      "segmentId": "L002",
+      "line": 168,
+      "text": "**奧莉維亞：**「所以薩克迪的可怕之處，不是它做錯了一件大事。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_COMMON",
+      "segmentId": "L003",
+      "line": 170,
+      "text": "**芬利：**「而是它一次又一次地做了『當時看起來合理』的小事。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_COMMON",
+      "segmentId": "L004",
+      "line": 172,
+      "text": "**奧莉維亞：**「直到這些小事彼此疊在一起，變成沒有任何人能拆掉的東西。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC02_COMMON",
+      "segmentId": "L005",
+      "line": 176,
+      "text": "帝國的行政結構像疊高的塔，一層層架在原本的地基之上，愈來愈高，也愈來愈沉。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L001",
+      "line": 186,
+      "text": "芬利把研究筆記翻到一張被反覆標註的運輸紀錄。畫面浮現出薩克迪中後期的運輸關卡。裝載魔導核心的車隊停在高門下，車夫、軍務官、工坊代表與審查人員都站在原地，誰也沒有離開，誰也沒有放行。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L002",
+      "line": 188,
+      "text": "**芬利：**「這是我們當年最在意的一段。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L003",
+      "line": 190,
+      "text": "**奧莉維亞：**「最後一批魔導核心？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L004",
+      "line": 192,
+      "text": "**芬利：**「對。工坊完成製造，軍方提出請求，運輸也準備好了。問題是，每個機構都還有自己的核准程序。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L005",
+      "line": 196,
+      "text": "畫面拉近。有人檢查安全風險，有人核對帳冊，有人確認用途，有人等待上級覆核。每個人的表情都嚴肅而認真。沒有偷懶，沒有醉酒，也沒有明顯的貪污嘴臉。只有等待。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L006",
+      "line": 198,
+      "text": "**奧莉維亞：**「最糟糕的地方在於，這裡看起來不像陰謀。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L007",
+      "line": 200,
+      "text": "**芬利：**「因為多半不是。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L008",
+      "line": 202,
+      "text": "**奧莉維亞：**「每個人都在做自己的工作。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L009",
+      "line": 204,
+      "text": "**芬利：**「是啊。可整個國家卻沒把該做的事做完。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L010",
+      "line": 208,
+      "text": "遠在前線，法陣逐漸黯淡。守軍仰望著不再穩定的結界，仍然等待那批理應抵達的魔導核心。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L011",
+      "line": 210,
+      "text": "**芬利：**「如果一個帝國能造出足以改變戰局的東西，卻無法讓它抵達需要的地方——」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L012",
+      "line": 212,
+      "text": "**奧莉維亞：**「——那麼輸掉戰爭的，未必是軍隊。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03",
+      "segmentId": "L013",
+      "line": 214,
+      "text": "芬利看著她，像是某段五年前的對話重新接上。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_A",
+      "segmentId": "L001",
+      "line": 218,
+      "text": "奧莉維亞：「最該負責的是決定程序的人。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_A",
+      "segmentId": "L002",
+      "line": 218,
+      "text": "芬利：「這是一種答案。但那個『決定的人』往往不只一個。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_B",
+      "segmentId": "L001",
+      "line": 219,
+      "text": "奧莉維亞：「照程序做事的人，也不能永遠說自己沒有責任。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_B",
+      "segmentId": "L002",
+      "line": 219,
+      "text": "芬利：「而這正是最難判定的部分。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_C",
+      "segmentId": "L001",
+      "line": 220,
+      "text": "奧莉維亞：「也許真正的問題是，這件事根本不能只怪某個人。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_C",
+      "segmentId": "L002",
+      "line": 220,
+      "text": "芬利輕聲道：「當年妳也是這麼想，才會繼續往下查。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_COMMON",
+      "segmentId": "L001",
+      "line": 224,
+      "text": "**奧莉維亞：**「一個國家真正危險的時候，也許不是有人公開叛國的時候。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_COMMON",
+      "segmentId": "L002",
+      "line": 226,
+      "text": "**芬利：**「而是每個人都依法辦事，國家卻還是什麼都辦不成的時候。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_COMMON",
+      "segmentId": "L003",
+      "line": 228,
+      "text": "奧莉維亞沒有立刻接話，只看著車隊停在門前的想像圖。那是一幅沒有尖叫、沒有屍體、沒有烈火的崩潰畫面。卻比戰場更令人不安。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC03_COMMON",
+      "segmentId": "L004",
+      "line": 232,
+      "text": "靜止的車輪、未啟動的魔導封箱、站在各自位置的人們。整個帝國像是卡在一個無法前進的瞬間。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L001",
+      "line": 243,
+      "text": "歷史的影像退去，燭光重新落在書房裡。奧莉維亞抬手按了按眉心。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L002",
+      "line": 245,
+      "text": "**奧莉維亞：**「說起來，今天倒有幾個人特別高興。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L003",
+      "line": 247,
+      "text": "**芬利：**「攝政典禮上的那幾位？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L004",
+      "line": 249,
+      "text": "**奧莉維亞：**「路德維克、馬提厄、赫爾曼。前陣子王宮才精簡了一批冗餘機構，他們今天卻笑得比誰都熱情。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L005",
+      "line": 251,
+      "text": "**芬利：**「妳懷疑他們？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L006",
+      "line": 253,
+      "text": "**奧莉維亞：**「懷疑還談不上。我只是覺得，他們未免太早知道該向誰示好了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L007",
+      "line": 257,
+      "text": "畫面閃回至白日的祝賀廳。路德維克溫和地說，自己願意全力配合文書協調；馬提厄自然地談起商務與運輸流程可以由他親自協調；赫爾曼則非常在意往後人事與請示路徑。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L008",
+      "line": 259,
+      "text": "**芬利：**「也許他們確實只是高興自己終於知道，之後該向誰報告。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L009",
+      "line": 261,
+      "text": "**奧莉維亞：**「我不否認。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L010",
+      "line": 263,
+      "text": "**芬利：**「又或者，他們高興的是，權力重新分配的時候，自己還能站在離桌面最近的位置。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L011",
+      "line": 265,
+      "text": "奧莉維亞看向桌邊那幾份今天才送來的履歷與交接摘要。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L012",
+      "line": 267,
+      "text": "**奧莉維亞：**「薩克迪晚期，也有這種人嗎？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L013",
+      "line": 269,
+      "text": "**芬利：**「我懷疑一直都有。只不過，有些人想要的是利益，有些人想要的是穩定，還有人只是想讓工作繼續做下去。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L014",
+      "line": 271,
+      "text": "**奧莉維亞：**「聽起來，沒有哪一種特別邪惡。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L015",
+      "line": 273,
+      "text": "**芬利：**「真正可怕的制度，往往不用靠邪惡維持。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L016",
+      "line": 277,
+      "text": "門外傳來敲門聲。一名侍從推門入內，手中沒有茶盤，只有一份臨時文書。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L017",
+      "line": 279,
+      "text": "**侍從：**「殿下，您先前吩咐的熱茶，可能還需要一點時間。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L018",
+      "line": 281,
+      "text": "奧莉維亞看向空杯。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L019",
+      "line": 283,
+      "text": "**奧莉維亞：**「一壺茶也需要時間？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L020",
+      "line": 285,
+      "text": "侍從有些尷尬地低下頭。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L021",
+      "line": 287,
+      "text": "**侍從：**「今日攝政書房正式啟用，原本茶點與值夜勤務的交接，目前由不同單位暫時共同處理。內廷與攝政辦公室對夜間核准程序的理解……略有不同。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L022",
+      "line": 289,
+      "text": "芬利慢慢把手中的羽毛筆放下。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L023",
+      "line": 291,
+      "text": "**奧莉維亞：**「所以我的茶，現在卡在哪一關？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L024",
+      "line": 293,
+      "text": "**侍從：**「還在確認究竟該由哪一邊核准。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L025",
+      "line": 295,
+      "text": "短暫的沉默後，芬利偏過頭，明顯在忍笑。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L026",
+      "line": 297,
+      "text": "**奧莉維亞：**「你如果笑出來，我就讓你去填那份申請。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04",
+      "segmentId": "L027",
+      "line": 299,
+      "text": "**芬利：**「我沒有笑。我只是突然覺得，薩克迪的研究很有現實意義。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_A",
+      "segmentId": "L001",
+      "line": 303,
+      "text": "奧莉維亞：「不用了，我自己泡。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_A",
+      "segmentId": "L002",
+      "line": 303,
+      "text": "侍從愣了一下：「殿下，這恐怕——」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_A",
+      "segmentId": "L003",
+      "line": 303,
+      "text": "奧莉維亞：「放心，我只是想先喝到茶。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_B",
+      "segmentId": "L001",
+      "line": 304,
+      "text": "奧莉維亞：「那就照程序來吧。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_B",
+      "segmentId": "L002",
+      "line": 304,
+      "text": "芬利抬眉：「真有耐心。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_B",
+      "segmentId": "L003",
+      "line": 304,
+      "text": "奧莉維亞：「我想看看這壺茶多久才會抵達。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_C",
+      "segmentId": "L001",
+      "line": 305,
+      "text": "奧莉維亞：「芬利，你不是會魔法嗎？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_C",
+      "segmentId": "L002",
+      "line": 305,
+      "text": "芬利：「會。但我不確定用魔法泡茶，算不算繞過程序。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_C",
+      "segmentId": "L003",
+      "line": 305,
+      "text": "奧莉維亞：「那就更值得試了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L001",
+      "line": 309,
+      "text": "侍從退下後，書房重新安靜下來。芬利看著門口。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L002",
+      "line": 311,
+      "text": "**芬利：**「不過，那個侍從其實沒做錯什麼。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L003",
+      "line": 313,
+      "text": "**奧莉維亞：**「我知道。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L004",
+      "line": 315,
+      "text": "**芬利：**「內廷想確認職責範圍，攝政辦公室也想確認新的交接程序。誰都不是故意在拖延一壺茶。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L005",
+      "line": 317,
+      "text": "**奧莉維亞：**「可結果就是，茶送不進來。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L006",
+      "line": 319,
+      "text": "**芬利：**「薩克迪很多事情，大概也是這樣開始的。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L007",
+      "line": 323,
+      "text": "空茶杯放在一旁，旁邊則是薩克迪晚期的行政紀錄。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L008",
+      "line": 325,
+      "text": "**奧莉維亞：**「所以我不該只問，這些官員今天是不是對我太熱情。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L009",
+      "line": 327,
+      "text": "**芬利：**「還得問，他們以前負責什麼，現在又接手什麼。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L010",
+      "line": 329,
+      "text": "**奧莉維亞：**「以及那些制度最初是為了解決什麼問題。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L011",
+      "line": 333,
+      "text": "她將三名官員的資料放在薩克迪的筆記旁邊。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L012",
+      "line": 335,
+      "text": "**奧莉維亞：**「沒有誰因為笑得太好看，就可以免於被查清楚自己做過什麼。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L013",
+      "line": 337,
+      "text": "芬利笑了一下。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC04_COMMON",
+      "segmentId": "L014",
+      "line": 339,
+      "text": "**芬利：**「這句話我倒想抄進筆記裡。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L001",
+      "line": 349,
+      "text": "奧莉維亞將目光重新移回薩克迪的最後幾頁研究摘要。曾經輝煌的帝都如今出現在想像中：塔樓殘缺、街道冷清、巨大的魔導裝置仍立在原處，卻像是失去用途的骨架。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L002",
+      "line": 351,
+      "text": "**奧莉維亞：**「如果我們的推論沒錯，那薩克迪真正的衰亡，在外敵攻進來以前就開始了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L003",
+      "line": 353,
+      "text": "**芬利：**「而且不是一夜之間開始的。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L004",
+      "line": 355,
+      "text": "**奧莉維亞：**「是被自己慢慢耗乾。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L005",
+      "line": 359,
+      "text": "畫面中仍能看見倉庫、工坊、軍械、法陣與官署。它們不是不存在，而是不再有效地彼此連接。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L006",
+      "line": 361,
+      "text": "**奧莉維亞：**「有軍隊，卻調不動軍隊。有糧食，卻送不到飢餓的人手裡。有魔法，卻沒有能力讓魔法發揮作用。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L007",
+      "line": 363,
+      "text": "**芬利：**「所以妳當年才會寫下那句話。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L008",
+      "line": 365,
+      "text": "奧莉維亞看向自己的舊筆跡。那句話寫得很重，幾乎劃破紙背。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L009",
+      "line": 367,
+      "text": "> 「薩克迪也許不是亡於被擊敗，而是亡於先失去成為國家的能力。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L010",
+      "line": 369,
+      "text": "**芬利：**「那時候我還覺得妳太早下結論。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L011",
+      "line": 371,
+      "text": "**奧莉維亞：**「現在呢？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05",
+      "segmentId": "L012",
+      "line": 373,
+      "text": "芬利沒有立刻回答。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_A",
+      "segmentId": "L001",
+      "line": 377,
+      "text": "奧莉維亞：「我開始懷疑，外敵只是最後一擊。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_A",
+      "segmentId": "L002",
+      "line": 377,
+      "text": "芬利：「這也是我現在最傾向的看法。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_B",
+      "segmentId": "L001",
+      "line": 378,
+      "text": "奧莉維亞：「也許帝都陷落時，帝國其實早就死了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_B",
+      "segmentId": "L002",
+      "line": 378,
+      "text": "芬利：「這個說法很殘忍，但未必不對。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_C",
+      "segmentId": "L001",
+      "line": 379,
+      "text": "奧莉維亞：「我更在意的是，他們為什麼沒有及時停下來。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_C",
+      "segmentId": "L002",
+      "line": 379,
+      "text": "芬利：「因為一個能不停長出官署的國家，往往也很難自己承認該停止什麼。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L001",
+      "line": 383,
+      "text": "芬利重新翻回最後幾頁筆記。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L002",
+      "line": 385,
+      "text": "**芬利：**「可惜的是，這些還只是推論。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L003",
+      "line": 387,
+      "text": "**奧莉維亞：**「因為我們當年沒拿到最後那部分資料。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L004",
+      "line": 389,
+      "text": "芬利點點頭。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L005",
+      "line": 391,
+      "text": "**芬利：**「後世史學把薩克迪的滅亡講成外敵攻破帝都，是因為那是最容易被看見的結局。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L006",
+      "line": 393,
+      "text": "**奧莉維亞：**「而我們想知道的，是它在那之前，究竟已經壞到什麼程度。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L007",
+      "line": 397,
+      "text": "筆記接近末尾處，留下大片空白與幾條未完成的註記。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC05_COMMON",
+      "segmentId": "L008",
+      "line": 401,
+      "text": "遠景中的薩克迪只剩沉默的廢墟。不是一場戲劇性的爆炸，而是一個文明最終再也無法維持自己的痕跡。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L001",
+      "line": 411,
+      "text": "芬利把研究筆記翻到最後一頁。紙張上記著當年的索引與調閱申請紀錄。幾處邊角標示了未獲權限、保管單位不明與待查項目。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L002",
+      "line": 413,
+      "text": "**芬利：**「當年真正卡住我們的，是這一部分。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L003",
+      "line": 415,
+      "text": "**奧莉維亞：**「那些沒有調到的資料。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L004",
+      "line": 417,
+      "text": "**芬利：**「嗯。那時候我們只是學院裡的研究者，很多東西並不在我們能接觸的範圍內。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L005",
+      "line": 419,
+      "text": "**奧莉維亞：**「現在你還想把這件事做完？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L006",
+      "line": 421,
+      "text": "芬利露出一點不太像請求、比較像承認的神情。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L007",
+      "line": 423,
+      "text": "**芬利：**「想。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L008",
+      "line": 427,
+      "text": "**芬利：**「不是因為它一定能幫上現在的妳。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L009",
+      "line": 429,
+      "text": "**芬利：**「只是我始終覺得，一個帝國究竟是被外敵擊倒，還是先被自己耗盡，這件事值得有個更完整的答案。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L010",
+      "line": 431,
+      "text": "奧莉維亞看著那本筆記，像在看見五年前的自己。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L011",
+      "line": 433,
+      "text": "**奧莉維亞：**「你到現在還放不下啊。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L012",
+      "line": 435,
+      "text": "**芬利：**「妳不也一樣？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L013",
+      "line": 437,
+      "text": "奧莉維亞沒有否認。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L014",
+      "line": 441,
+      "text": "她忽然想起某件事。不是完整答案，只是一個模糊但真實的記憶：塔瑪拉那邊，似乎知道某些舊資料的保管或合法調閱路徑。她並不確定細節。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L015",
+      "line": 443,
+      "text": "但她知道，只要她現在開口，這件事就會從私人研究，變成需要動用攝政資源協調的請求。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L016",
+      "line": 445,
+      "text": "芬利把筆記慢慢收回，並沒有逼她回答。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L017",
+      "line": 447,
+      "text": "**芬利：**「妳現在剛接手攝政，我知道妳有更重要的事。這件事不用現在決定也可以。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06",
+      "segmentId": "L018",
+      "line": 449,
+      "text": "奧莉維亞看著他收起筆記的動作，沉默片刻。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L001",
+      "line": 455,
+      "text": "**奧莉維亞：**「我知道塔瑪拉那邊好像有。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L002",
+      "line": 457,
+      "text": "芬利停下動作，抬起頭。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L003",
+      "line": 459,
+      "text": "**奧莉維亞：**「我不保證一定拿得到，也不保證她會願意浪費時間幫我們翻這件事。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L004",
+      "line": 461,
+      "text": "**奧莉維亞：**「但如果是合法途徑，也許能查一查。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L005",
+      "line": 463,
+      "text": "芬利望著她，神情比高興更接近怔住。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L006",
+      "line": 465,
+      "text": "**芬利：**「……我明白了。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L007",
+      "line": 467,
+      "text": "**奧莉維亞：**「別太早高興。我只是說，也許。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_1",
+      "segmentId": "L008",
+      "line": 469,
+      "text": "芬利笑了，很輕，但很明顯。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_2",
+      "segmentId": "L001",
+      "line": 475,
+      "text": "奧莉維亞垂下眼，像是沒有想起任何值得一提的線索。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_2",
+      "segmentId": "L002",
+      "line": 477,
+      "text": "**奧莉維亞：**「五年前沒查到的東西，現在多半也不會突然自己跑出來。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_2",
+      "segmentId": "L003",
+      "line": 479,
+      "text": "芬利沉默了一下，隨後將筆記收好。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_2",
+      "segmentId": "L004",
+      "line": 481,
+      "text": "**芬利：**「也是。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_2",
+      "segmentId": "L005",
+      "line": 483,
+      "text": "**奧莉維亞：**「先把眼前該查的事情查清楚吧。薩克迪還躺在歷史裡，安度因可沒有。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_2",
+      "segmentId": "L006",
+      "line": 485,
+      "text": "芬利看著她，沒有露出失望過頭的神情，只點了點頭。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_2",
+      "segmentId": "L007",
+      "line": 487,
+      "text": "**芬利：**「我明白。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L001",
+      "line": 493,
+      "text": "無論她是否開口，這場夜談都已經留下同樣的結果。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L002",
+      "line": 495,
+      "text": "奧莉維亞重新把安度因的舊官署沿革與薩克迪筆記並排放好。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L003",
+      "line": 497,
+      "text": "**奧莉維亞：**「以前我們研究的是一個帝國為什麼滅亡。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L004",
+      "line": 499,
+      "text": "**芬利：**「現在呢？」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L005",
+      "line": 501,
+      "text": "奧莉維亞看著桌上的兩疊文件。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L006",
+      "line": 503,
+      "text": "**奧莉維亞：**「現在我想知道，一個還沒滅亡的王國，是怎麼把自己弄成這樣的。」"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L007",
+      "line": 505,
+      "text": "燭火安靜搖晃。遠處傳來王宮深夜換值的微弱聲音。畫面慢慢拉遠。"
+    },
+    {
+      "sceneId": "EP04_ACT02_SC06_COMMON",
+      "segmentId": "L008",
+      "line": 509,
+      "text": "古代帝國的研究筆記，與當代王國的行政紀錄，隔著一枚攝政印信並排躺在桌上。"
+    }
+  ]
+}

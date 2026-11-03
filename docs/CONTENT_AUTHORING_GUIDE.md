@@ -1,5 +1,9 @@
 # 正式劇情匯入與更新手冊
 
+## EP04 後三幕與條件場景
+
+執行 `npm run content:import-ep04-later-acts`。`availableWhen` 控制整場與目錄可見性，`conditionalNext` 控制自動接續，`completionEffects` 於實際讀完末段後依旗標執行。一次性獎勵須同步推進守門狀態；F1 已完成者回讀第三幕不得倒退狀態。CG、說話者與閱讀版編輯皆用精確來源文字核對。先完成建置，再跑瀏覽器測試，避免讀到正在複製的公開資料。
+
 本工程執行時只載入外部 JSON，無 AI 生成、改寫 Canon 的流程。故事原稿與核准作業在工程外進行；正式 JSON 是執行資料。
 
 ## 1. 編輯入口與常用指令
@@ -169,3 +173,7 @@ JSON Schema 位於 `schemas/`，可供外部編輯工具及未來 Unity 讀取�
 ## 場景末事實與缺圖
 
 completionFlags用於非choice場景，只有末段讀完才套用已宣告、型別相符的事實；不應用來把選項提前當成結果。整幕／章完成仍使用kind=end與completion.scope，不得以中間場景冒充整章結算。DRAFT的PLACEHOLDER插圖不渲染示範畫面亦不收藏，讀者會看到「此張插圖待補」，DEMO展示行為保留。
+
+## 玩家閱讀版文字潤飾
+
+明確的出戲文字編輯保存在 `content/reader/immersive-text-v1.json`，記錄原文與精確場景／段落或選項 ID。發佈時自動套用，原始匯入資料保留；新來源若改動該段原文，須重新檢查對照。正文與選項另檢查 ACT／EP／SC／CG 編號、章幕指涉及鏡頭指令；此檢查不掃描合法的場景識別碼與製作註記。驗證與詳細紀錄見 `IMMERSIVE_TEXT_REVIEW.md`。

@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState, currentCg } from '../../packages/narrative-core/engine';
 import type { GameState, Story } from '../../packages/narrative-core/schema';
 import audit from '../../content/sources/ep03/asset-audit.json' with { type: 'json' };
@@ -158,7 +158,7 @@ test('reads every A-route paragraph in all five acts, all main CGs, music and fi
     '第三章完 · 東北塔的議員們'
   );
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP04');
-  await expect(page.getByRole('button', { name: /進入 EP04/ })).toHaveCount(0);
+  await expect(page.getByRole('button', { name: /進入 EP04/ })).toBeVisible();
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({
     path: `docs/screenshots/${info.project.name}-ep03-complete.png`,

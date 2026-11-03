@@ -5,6 +5,7 @@ import {
   type Effect,
   type Story,
   type EndingRule,
+  type Scene,
 } from './schema';
 import { createCampaign, enterChapter } from './campaign';
 export const clone = <T>(value: T): T => structuredClone(value);
@@ -86,6 +87,13 @@ export function applyEffects(state: GameState, effects: Effect[]): GameState {
     }
     if (e.type === 'clear') n.clear[e.key] += e.delta;
     if (e.type === 'score') n.politicalScore += e.delta;
+    if (e.type === 'points') {
+      if (!n.campaign || n.campaign.politicalPoints === null)
+        throw Error('目前無法確認政治點數，請載入有效的玩家進度。');
+      if (n.campaign.politicalPoints + e.delta < 0)
+        throw Error(`政治點數不足，需要 ${-e.delta} 點。`);
+      n.campaign.politicalPoints += e.delta;
+    }
     if (e.type === 'political') {
       if ((n.politicalRoute !== 'NONE' && n.politicalRoute !== e.value) || n.tarotRoute !== 'NONE')
         throw Error('Political route is locked');
@@ -98,6 +106,19 @@ export function applyEffects(state: GameState, effects: Effect[]): GameState {
     }
   }
   return StateSchema.parse(n);
+}
+export function choiceUnavailableReason(
+  state: GameState,
+  choice: Scene['choices'][number]
+): string | undefined {
+  let points = state.campaign?.politicalPoints;
+  for (const effect of choice.effects) {
+    if (effect.type !== 'points') continue;
+    if (points === undefined || points === null) return '目前無法確認政治點數';
+    points += effect.delta;
+    if (points < 0) return `政治點數不足，需要 ${-effect.delta} 點`;
+  }
+  return undefined;
 }
 export function visibleSegments(story: Story, state: GameState) {
   return story.scenes[state.currentSceneId].segments.filter(
@@ -112,9 +133,15 @@ export function visibleChoices(story: Story, state: GameState) {
 export function segmentKey(story: Story, state: GameState) {
   return `${state.currentSceneId}:${visibleSegments(story, state)[state.currentSegmentIndex]?.id}`;
 }
+export function nextSceneId(story: Story, state: GameState): string | undefined {
+  const scene = story.scenes[state.currentSceneId];
+  return scene.conditionalNext && evaluate(state, scene.conditionalNext.when)
+    ? scene.conditionalNext.next
+    : scene.next;
+}
 export function markRead(story: Story, state: GameState): GameState {
-  const n = clone(state),
-    segment = visibleSegments(story, n)[n.currentSegmentIndex],
+  let n = clone(state);
+  const segment = visibleSegments(story, n)[n.currentSegmentIndex],
     key = segmentKey(story, n);
   if (!segment) return n;
   if (!n.readSegments.includes(key)) n.readSegments.push(key);
@@ -127,6 +154,8 @@ export function markRead(story: Story, state: GameState): GameState {
       text: segment.text,
     });
   if (n.currentSegmentIndex === visibleSegments(story, n).length - 1) {
+    const completion = story.scenes[n.currentSceneId].completionEffects;
+    if (completion && evaluate(n, completion.when)) n = applyEffects(n, completion.effects);
     for (const [key, value] of Object.entries(
       story.scenes[n.currentSceneId].completionFlags ?? {}
     )) {
@@ -148,8 +177,8 @@ export function advance(story: Story, state: GameState): GameState {
   const scene = story.scenes[state.currentSceneId];
   let n = markRead(story, state);
   if (n.currentSegmentIndex < visibleSegments(story, n).length - 1) n.currentSegmentIndex++;
-  else if (scene.next) {
-    n.currentSceneId = scene.next;
+  else if (nextSceneId(story, n)) {
+    n.currentSceneId = nextSceneId(story, n)!;
     n.currentSegmentIndex = 0;
   }
   return n;
@@ -171,7 +200,7 @@ export function choose(story: Story, state: GameState, id: string): GameState {
   n.currentSegmentIndex = 0;
   return n;
 }
-export function continueChapter(story: Story, state: GameState): GameState {
+export function continueChapter(story: Story, state: GameState, unlocked = false): GameState {
   const scene = story.scenes[state.currentSceneId];
   const target = scene.completion?.nextSceneId;
   if (
@@ -184,7 +213,7 @@ export function continueChapter(story: Story, state: GameState): GameState {
   )
     throw Error('尚未到達可銜接的章節結尾');
   let n = markRead(story, state);
-  n = enterPlayerChapter(story, n, story.scenes[target].chapter);
+  if (!unlocked) n = enterPlayerChapter(story, n, story.scenes[target].chapter);
   n.currentSceneId = target;
   n.currentSegmentIndex = 0;
   if (n.campaign?.mode === 'PLAYER') {

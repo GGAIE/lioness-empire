@@ -4,6 +4,7 @@ import {
   currentCg,
   visibleChoices,
   visibleSegments,
+  nextSceneId,
 } from '../../../../packages/narrative-core/engine';
 import { assetUrl } from '../engine/load';
 export function Stage({
@@ -29,9 +30,10 @@ export function Stage({
     return () => clearTimeout(t);
   }, [outgoing, scene.presentation?.fadeMs]);
   useEffect(() => {
-    const next = [scene.next, ...visibleChoices(story, state).map((c) => c.next)].filter(
-      Boolean
-    ) as string[];
+    const next = [
+      nextSceneId(story, state),
+      ...visibleChoices(story, state).map((c) => c.next),
+    ].filter(Boolean) as string[];
     const nextSegmentCg = visibleSegments(story, state)
       .slice(state.currentSegmentIndex + 1)
       .find((segment) => segment.cg)?.cg;

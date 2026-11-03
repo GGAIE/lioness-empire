@@ -1,10 +1,10 @@
-import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
-import { z } from 'zod';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { GameState, Story } from '../../../packages/narrative-core/schema';
 import {
   advance,
   continueChapter,
   choose,
+  choiceUnavailableReason,
   currentCg,
   initialState,
   markRead,
@@ -13,7 +13,6 @@ import {
   visibleChoices,
   visibleSegments,
 } from '../../../packages/narrative-core/engine';
-import { EndingRuleSchema } from '../../../packages/narrative-core/schema';
 import { loadStory, assetUrl } from './engine/load';
 import {
   defaults,
@@ -39,23 +38,21 @@ import { Stage } from './components/Stage';
 import { Modal } from './components/Modal';
 import { Library } from './screens/Library';
 import { ChapterDirectory } from './screens/ChapterDirectory';
+import { SecretAccess } from './screens/SecretAccess';
 import {
   actName,
   continueCommittedChoice,
   openDirectorySection,
+  matchesStoryPassword,
 } from '../../../packages/narrative-core/directory';
 import { SaveSlots } from './screens/SaveSlots';
 import { ResourceHud } from './components/ResourceHud';
 import { Music } from './screens/Music';
-import { createCampaign } from '../../../packages/narrative-core/campaign';
-import type { CampaignState } from '../../../packages/narrative-core/campaign-schema';
 import {
   chapterEndNotice,
   chapterStartNotice,
   type SettlementNotice,
 } from '../../../packages/narrative-core/settlement';
-const Developer = import.meta.env.DEV ? lazy(() => import('./screens/Developer')) : null;
-const Campaign = import.meta.env.DEV ? lazy(() => import('./screens/Campaign')) : null;
 type Panel =
   | 'saves'
   | 'history'
@@ -64,11 +61,17 @@ type Panel =
   | 'chapters'
   | 'settings'
   | 'music'
-  | 'developer'
   | 'restart'
-  | 'campaign'
+  | 'access'
   | null;
-function playerEndNotice(story: Story, state: GameState): SettlementNotice {
+function playerEndNotice(story: Story, state: GameState, unlocked = false): SettlementNotice {
+  if (unlocked)
+    return {
+      phase: 'CHAPTER_END',
+      title: '章末閱讀提醒',
+      severity: 'INFO',
+      lines: ['自由閱讀已開啟，可接續已提供的章節，切換章節不扣點。'],
+    };
   const notice = chapterEndNotice(story.plan!, state.campaign!);
   const chapter = story.manifest.chapters.find(
     (c) => c.id === story.scenes[state.currentSceneId].chapter
@@ -81,7 +84,6 @@ export default function App() {
       story: Story;
       meta: Meta;
       settings: Settings;
-      demoRules: z.infer<typeof EndingRuleSchema>[];
     } | null>(null),
     [error, setError] = useState('');
   useEffect(() => {
@@ -97,10 +99,7 @@ export default function App() {
       } catch {
         if (active) setError('瀏覽器儲存暫不可用或設定損壞。仍可開始閱讀，存檔時會顯示結果。');
       }
-      const r = await fetch(assetUrl('content/endings/demo.json'));
-      if (!r.ok) throw Error('示範規則載入失敗');
-      const demoRules = z.array(EndingRuleSchema).parse(await r.json());
-      if (active) setLoaded({ story, meta, settings, demoRules });
+      if (active) setLoaded({ story, meta, settings });
     })().catch((e) => {
       if (active) setError(String(e));
     });
@@ -123,18 +122,13 @@ function Game({
   story,
   meta: initialMeta,
   settings: initialSettings,
-  demoRules,
   startupMessage,
 }: {
   story: Story;
   meta: Meta;
   settings: Settings;
-  demoRules: z.infer<typeof EndingRuleSchema>[];
   startupMessage: string;
 }) {
-  const [campaignState, setCampaignState] = useState<CampaignState | null>(() =>
-    story.plan ? createCampaign(story.plan) : null
-  );
   const [settlement, setSettlement] = useState<SettlementNotice | null>(null);
   const [directoryBusy, setDirectoryBusy] = useState(false);
   const [state, setState] = useState(() => initialState(story)),
@@ -221,16 +215,23 @@ function Game({
     )
       return;
     settlementShown.current = key;
-    setSettlement(playerEndNotice(story, state));
-  }, [started, last, writer.complete, scene.completion, scene.chapter, key, story, state.campaign]);
+    setSettlement(playerEndNotice(story, state, settings.storyUnlocked));
+  }, [
+    started,
+    last,
+    writer.complete,
+    scene.completion,
+    scene.chapter,
+    key,
+    story,
+    state.campaign,
+    settings.storyUnlocked,
+  ]);
   const hud = (
     <ResourceHud
       plan={story.plan}
-      state={
-        started && scene.status !== 'DEMO_ONLY' && panel !== 'campaign'
-          ? (state.campaign ?? null)
-          : campaignState
-      }
+      unlocked={settings.storyUnlocked}
+      state={state.campaign ?? null}
     />
   );
   const notify = useCallback((m: string) => setMessage(m), []);
@@ -273,12 +274,16 @@ function Game({
     if (!started || !writer.complete) return;
     const current = stateRef.current,
       marked = markRead(story, current);
-    if (!current.readSegments.includes(segmentKey(story, current))) setState(marked);
+    if (
+      !current.readSegments.includes(segmentKey(story, current)) ||
+      JSON.stringify(current.flags) !== JSON.stringify(marked.flags) ||
+      current.campaign?.politicalPoints !== marked.campaign?.politicalPoints ||
+      current.readChapters.length !== marked.readChapters.length
+    )
+      setState(marked);
     setMeta((m) => {
       const ending =
-        scene.kind === 'end' && !scene.completion
-          ? resolveEnding(marked, scene.status === 'DEMO_ONLY' ? demoRules : story.endings)
-          : null;
+        scene.kind === 'end' && !scene.completion ? resolveEnding(marked, story.endings) : null;
       const result = mergeMeta(
         m,
         marked,
@@ -289,7 +294,7 @@ function Game({
       );
       return JSON.stringify(m) === JSON.stringify(result) ? m : result;
     });
-  }, [started, writer.complete, key, scene.kind, story, demoRules]);
+  }, [started, writer.complete, key, scene.kind, story]);
   async function thumbnail(snapshot: GameState): Promise<string | null> {
     const id = currentCg(story, snapshot),
       a = story.assets.find((a) => a.id === id);
@@ -416,6 +421,8 @@ function Game({
   function requestLoad(r: SaveRecord) {
     try {
       const restored = restoreSave(r.state, story);
+      if (story.scenes[restored.state.currentSceneId]?.status === 'DEMO_ONLY')
+        throw Error('此舊版內容已停止開放。原存檔仍可匯出備份。');
       if (restored.notices.length) setPending({ ...restored, original: r });
       else applyLoaded(restored.state);
     } catch (e) {
@@ -432,7 +439,12 @@ function Game({
     setDirectoryBusy(true);
     try {
       const snapshot = stateRef.current;
-      const next = openDirectorySection(story, started ? snapshot : initialState(story), id);
+      const next = openDirectorySection(
+        story,
+        started ? snapshot : initialState(story),
+        id,
+        settings.storyUnlocked
+      );
       if (started) {
         loadGeneration.current++;
         if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
@@ -477,6 +489,8 @@ function Game({
     try {
       if (file.size > 5_000_000) throw Error('檔案超過 5 MB');
       const imported = parseImport(await file.text(), story);
+      if (story.scenes[imported.state.currentSceneId]?.status === 'DEMO_ONLY')
+        throw Error('此舊版內容已停止開放。原始存檔不會變更。');
       setPending({
         state: imported.state,
         original: imported.record,
@@ -494,6 +508,49 @@ function Game({
     setSkip(false);
     setPanel(p);
   };
+  async function startNewGame() {
+    if (directoryBusy) return;
+    setDirectoryBusy(true);
+    try {
+      const previous = records.find((r) => r.slot === 'auto');
+      if (previous) await backupSave(previous);
+      await refreshSaves();
+      applyLoaded(initialState(story));
+      notify('');
+    } catch {
+      notify('未能備份目前進度，尚未開始新的遊戲。');
+    } finally {
+      setDirectoryBusy(false);
+    }
+  }
+  async function returnToTitle() {
+    if (directoryBusy) return;
+    setDirectoryBusy(true);
+    setAuto(false);
+    setSkip(false);
+    try {
+      loadGeneration.current++;
+      if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
+      const snapshot = stateRef.current;
+      await saveGame({
+        slot: 'auto',
+        savedAt: new Date().toISOString(),
+        title: story.scenes[snapshot.currentSceneId].title,
+        thumbnail: await thumbnail(snapshot),
+        state: snapshot,
+      });
+      await refreshSaves();
+      setPanel(null);
+      setStarted(false);
+      setSettlement(null);
+      notify('');
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    } catch {
+      notify('進度未能保存，請稍後再返回標題。');
+    } finally {
+      setDirectoryBusy(false);
+    }
+  }
   const labels: Record<Exclude<Panel, null>, string> = {
     saves: '存讀進度',
     history: '對話回顧',
@@ -502,9 +559,8 @@ function Game({
     chapters: '章節目錄',
     settings: '閱讀設定',
     music: '背景音樂',
-    developer: '開發者工具',
     restart: '重新開始',
-    campaign: '第一部劇情架構',
+    access: '其他選項',
   };
   const controls = [
     ['saves', '存讀檔'],
@@ -516,7 +572,7 @@ function Game({
     ['settings', '設定'],
   ] as const;
   return (
-    <main className="shell">
+    <main className={`shell${started ? '' : ' shell--title'}`}>
       <audio
         ref={audio.musicRef}
         data-testid="background-music"
@@ -532,7 +588,7 @@ function Game({
           href="#"
           onClick={(e) => {
             e.preventDefault();
-            if (started) open('restart');
+            if (started) void returnToTitle();
           }}
         >
           <span className="brand-mark">♜</span>
@@ -541,7 +597,7 @@ function Game({
           </span>
         </a>
         <div className="edition">
-          <i /> HTML5 VISUAL NOVEL <span>第一階段 · 0.1</span>
+          <i /> A POLITICAL FANTASY
         </div>
         <button className="sound" onClick={audio.toggle}>
           {audio.enabled ? '關閉聲音' : '開啟聲音'}
@@ -568,54 +624,36 @@ function Game({
               <h1>母獅帝國</h1>
               <p className="latin-title">LIONESS EMPIRE</p>
               <p className="title-copy">王冠之下，歷史尚未寫定。</p>
-              <div className="title-actions">
-                {Campaign && story.plan && (
-                  <button className="outline-entry" onClick={() => open('campaign')}>
-                    瀏覽劇情架構 <span>↗</span>
-                  </button>
-                )}
+              <nav className="title-actions" aria-label="主選單">
                 <button
-                  className="primary"
-                  onClick={() => {
-                    setCampaignState(story.plan ? createCampaign(story.plan) : null);
-                    setStarted(true);
-                  }}
-                >
-                  開始序幕 <span>→</span>
-                </button>
-                <button aria-label="章節目錄" onClick={() => open('chapters')}>
-                  章節目錄 <span>→</span>
-                </button>
-                {Developer && (
-                  <button
-                    onClick={() => {
-                      const entry = story.manifest.chapters.find(
-                        (c) => c.status === 'DEMO_ONLY'
-                      )?.entry;
-                      if (entry) {
-                        applyLoaded({ ...initialState(story), currentSceneId: entry });
-                        setAuto(false);
-                      }
-                    }}
-                  >
-                    引擎試演
-                  </button>
-                )}
-                <button
-                  disabled={!records.find((r) => r.slot === 'auto')}
+                  className={records.some((r) => r.slot === 'auto') ? 'primary' : undefined}
+                  disabled={!records.some((r) => r.slot === 'auto') || directoryBusy}
                   onClick={() => {
                     const r = records.find((r) => r.slot === 'auto');
                     if (r) requestLoad(r);
                   }}
                 >
-                  繼續閱讀
+                  繼續遊戲
                 </button>
-              </div>
-              <div className="demo-note">
-                序幕〈母獅登基〉· v0.6
-                <br />
-                <span>序幕、第一章五幕與第二章五幕已提供 · 原稿草稿版</span>
-              </div>
+                <button
+                  className={records.some((r) => r.slot === 'auto') ? undefined : 'primary'}
+                  disabled={directoryBusy}
+                  onClick={() => {
+                    if (records.some((r) => r.slot === 'auto')) open('restart');
+                    else void startNewGame();
+                  }}
+                >
+                  開始遊戲
+                </button>
+                <button onClick={() => open('saves')}>存讀檔</button>
+                <button aria-label="章節目錄" onClick={() => open('chapters')}>
+                  章節目錄
+                </button>
+                <button onClick={() => open('gallery')}>鑑賞</button>
+                <button onClick={() => open('endings')}>結局</button>
+                <button onClick={() => open('music')}>背景音樂</button>
+                <button onClick={() => open('settings')}>設定</button>
+              </nav>
             </div>
           ) : (
             <>
@@ -624,7 +662,7 @@ function Game({
                   <span>
                     {scene.status === 'DEMO_ONLY'
                       ? 'DEMO ONLY'
-                      : `${scene.chapter === 'PROLOGUE' ? '序幕' : `${scene.chapter} · ${actLabel}`} · ${scene.playback === 'CUTSCENE' ? '無選項過場' : scene.kind === 'choice' ? (scene.choiceMode === 'DIALOGUE_FLAVOR' ? '對話回應' : '工作優先順序') : '劇情進行中'}`}{' '}
+                      : `${scene.chapter === 'PROLOGUE' ? '序幕' : `${scene.chapter} · ${actLabel}`} · ${scene.playback === 'CUTSCENE' ? '無選項過場' : scene.kind === 'choice' ? (scene.choiceMode === 'DIALOGUE_FLAVOR' ? '對話回應' : '劇情抉擇') : '劇情進行中'}`}{' '}
                     /{' '}
                     {scene.kind === 'result'
                       ? 'RESULT · NO CHOICE'
@@ -653,9 +691,16 @@ function Game({
                     </>
                   ) : (
                     visibleChoices(story, state).map((c, i) => (
-                      <button key={c.id} onClick={() => select(c.id)}>
+                      <button
+                        key={c.id}
+                        disabled={!!choiceUnavailableReason(state, c)}
+                        onClick={() => select(c.id)}
+                      >
                         <span>{String(i + 1).padStart(2, '0')}</span>
                         {c.text}
+                        {choiceUnavailableReason(state, c) && (
+                          <small>{choiceUnavailableReason(state, c)}</small>
+                        )}
                         <b>↗</b>
                       </button>
                     ))
@@ -675,8 +720,8 @@ function Game({
                   <p>
                     {scene.completion.nextSceneId
                       ? (scene.completion.nextLabel ?? 'EP01〈王冠之前〉· ACT I〈平靜被打破〉')
-                      : (scene.completion.pendingLabel ??
-                        `${scene.completion.nextChapterId} · 劇本尚未提供`)}
+                      : (scene.completion.pendingLabel?.replace('劇本尚未提供', '敬請期待') ??
+                        `${scene.completion.nextChapterId} · 敬請期待`)}
                   </p>
                   {scene.completion.nextSceneId && (
                     <button
@@ -686,7 +731,7 @@ function Game({
                         setSkip(false);
                         try {
                           const before = stateRef.current;
-                          const next = continueChapter(story, before);
+                          const next = continueChapter(story, before, settings.storyUnlocked);
                           setState(next);
                           if (before.campaign && next.campaign) {
                             const notice = chapterStartNotice(before.campaign, next.campaign);
@@ -703,17 +748,23 @@ function Game({
                   <small>
                     政治點數 {state.campaign?.politicalPoints ?? '待設定'} · 動盪{' '}
                     {state.campaign?.unrest ?? '待設定'} ·{' '}
-                    {scene.completion.scope === 'ACT'
-                      ? '本幕不變更數值；整章尚未結算'
-                      : scene.chapter === 'PROLOGUE'
-                        ? '序幕不計分、不扣點'
-                        : '本章選項不變更數值；章末僅預告，不提前扣點'}
+                    {settings.storyUnlocked
+                      ? '自由閱讀已開啟；切換章節不扣點'
+                      : scene.completion.scope === 'ACT'
+                        ? '數值依已選劇情更新；整章尚未結算'
+                        : scene.chapter === 'PROLOGUE'
+                          ? '序幕不計分、不扣點'
+                          : '數值依劇情選擇更新；章末僅預告，不提前扣章初費'}
                   </small>
                   {scene.completion.scope === 'CHAPTER' &&
                     scene.chapter !== 'PROLOGUE' &&
                     story.plan &&
                     state.campaign && (
-                      <button onClick={() => setSettlement(playerEndNotice(story, state))}>
+                      <button
+                        onClick={() =>
+                          setSettlement(playerEndNotice(story, state, settings.storyUnlocked))
+                        }
+                      >
                         查看章末結算提醒
                       </button>
                     )}
@@ -752,8 +803,9 @@ function Game({
                       ? scene.completion
                         ? scene.completion.nextSceneId
                           ? `可${continueLabel}`
-                          : (scene.completion.pendingLabel ?? '待續')
-                        : 'DEMO_ONLY · 測試完成'
+                          : (scene.completion.pendingLabel?.replace('劇本尚未提供', '敬請期待') ??
+                            '待續')
+                        : '故事告一段落'
                       : !writer.complete
                         ? '點擊顯示全文'
                         : scene.kind === 'choice' && last
@@ -796,40 +848,39 @@ function Game({
           </span>
         </aside>
       </div>
-      <nav className="toolbar" aria-label="遊戲選單">
-        <span className="session-label">{started ? 'READING SESSION' : 'YOUR STORY AWAITS'}</span>
-        <div>
-          {Campaign && story.plan && <button onClick={() => open('campaign')}>劇情架構</button>}
-          {controls.map(([p, label]) => (
-            <button key={p} onClick={() => open(p)}>
-              {label}
+      {started && (
+        <nav className="toolbar" aria-label="遊戲選單">
+          <span className="session-label">{started ? 'READING SESSION' : 'YOUR STORY AWAITS'}</span>
+          <div>
+            {controls.map(([p, label]) => (
+              <button key={p} onClick={() => open(p)}>
+                {label}
+              </button>
+            ))}
+            <button disabled={directoryBusy} onClick={() => void returnToTitle()}>
+              返回標題
             </button>
-          ))}
-          {Developer && <button onClick={() => open('developer')}>開發</button>}
-          <button
-            onClick={() => {
-              const action = document.fullscreenElement
-                ? document.exitFullscreen()
-                : document.documentElement.requestFullscreen?.();
-              if (!action) notify('此瀏覽器不支援網頁全螢幕，可使用加入主畫面模式。');
-              else void action.catch(() => notify('瀏覽器未允許全螢幕。'));
-            }}
-          >
-            全螢幕
-          </button>
-        </div>
-      </nav>
+            <button
+              onClick={() => {
+                const action = document.fullscreenElement
+                  ? document.exitFullscreen()
+                  : document.documentElement.requestFullscreen?.();
+                if (!action) notify('此瀏覽器不支援網頁全螢幕，可使用加入主畫面模式。');
+                else void action.catch(() => notify('瀏覽器未允許全螢幕。'));
+              }}
+            >
+              全螢幕
+            </button>
+          </div>
+        </nav>
+      )}
       <footer className="page-footer">
         <span>
-          序章 + EP01—EP12 <i>／</i> 內容持續建構中
+          LIONESS EMPIRE <i>／</i> 王冠之下，歷史尚未寫定。
         </span>
-        <span>
-          {scene.status === 'DEMO_ONLY'
-            ? 'DEMO_ONLY · 引擎試演'
-            : scene.chapter !== 'PROLOGUE'
-              ? `${scene.chapter} ${actLabel} v${scene.version.replace(/\.0$/, '')} · 草稿試演`
-              : '序幕 v0.6 · 草稿試演'}
-        </span>
+        <button className="secret-trigger" aria-label="其他選項" onClick={() => open('access')}>
+          ✧
+        </button>
       </footer>
       {message && !panel && !pending && (
         <div className="toast" role="status">
@@ -848,16 +899,6 @@ function Game({
             setPending(null);
           }}
         >
-          {panel === 'campaign' && Campaign && story.plan && (
-            <Suspense fallback={<p>載入章節規劃……</p>}>
-              <Campaign
-                plan={story.plan}
-                state={campaignState!}
-                onStateChange={setCampaignState}
-                onSettlement={setSettlement}
-              />
-            </Suspense>
-          )}
           {message && !pending && (
             <p className="panel-message" role="status">
               {message}
@@ -868,7 +909,7 @@ function Game({
               records={records}
               onSave={async (id) => {
                 if (!started) {
-                  notify('請先開始試演。');
+                  notify('請先開始遊戲。');
                   return;
                 }
                 await store(id, stateRef.current);
@@ -887,7 +928,7 @@ function Game({
                       <span>{h.speakerLabel ?? story.characters[h.speaker]}</span>
                     )}
                     <p>{h.text}</p>
-                    <small>{h.sceneId}</small>
+                    <small>{story.scenes[h.sceneId]?.title ?? '往事'}</small>
                   </article>
                 ))
               ) : (
@@ -902,7 +943,19 @@ function Game({
               state={state}
               started={started}
               busy={directoryBusy}
+              unlocked={settings.storyUnlocked}
               onRead={(id, current) => void readSection(id, current)}
+            />
+          )}
+          {panel === 'access' && (
+            <SecretAccess
+              unlocked={settings.storyUnlocked}
+              onUnlock={(password) => {
+                if (!matchesStoryPassword(password)) return false;
+                setSettings((s) => ({ ...s, storyUnlocked: true }));
+                return true;
+              }}
+              onLock={() => setSettings((s) => ({ ...s, storyUnlocked: false }))}
             />
           )}
           {(panel === 'gallery' || panel === 'endings') && (
@@ -959,35 +1012,15 @@ function Game({
           )}
           {panel === 'restart' && (
             <>
-              <p>重新開始試演？手動存檔與收藏會保留，自動存檔將隨新進度更新。</p>
+              <p>開始新的遊戲？目前的自動存檔會先備份，手動存檔與收藏會保留。</p>
               <button
                 className="primary"
-                onClick={() => {
-                  applyLoaded(initialState(story));
-                  setCampaignState(story.plan ? createCampaign(story.plan) : null);
-                  notify('已開始新的試演。');
-                }}
+                disabled={directoryBusy}
+                onClick={() => void startNewGame()}
               >
-                重新開始
+                確認開始
               </button>
             </>
-          )}
-          {panel === 'developer' && Developer && (
-            <Suspense fallback={<p>載入工具……</p>}>
-              <Developer
-                story={story}
-                state={state}
-                jump={(id) => {
-                  if (story.scenes[id]) {
-                    setState((s) => ({ ...s, currentSceneId: id, currentSegmentIndex: 0 }));
-                    setNonce((n) => n + 1);
-                    setStarted(true);
-                    setPanel(null);
-                    notify('開發跳轉完成；既有選擇效果不會重複執行。');
-                  }
-                }}
-              />
-            </Suspense>
           )}
         </Modal>
       )}

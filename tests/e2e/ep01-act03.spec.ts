@@ -1,6 +1,7 @@
+import { restoreScene } from '../helpers/restore-scene';
 import { test, expect, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState } from '../../packages/narrative-core/engine';
 import type { Story } from '../../packages/narrative-core/schema';
 import { act03CompletionFlags } from '../../scripts/ep01-act03-parser';
@@ -176,8 +177,7 @@ test('all six alternative dialogue responses use the same third CG and merge to 
     for (const num of ['02', '03', '04']) {
       const id = `EP01_ACT03_SC${num}`,
         scene = story.scenes[id];
-      await page.getByRole('button', { name: '開發', exact: true }).click();
-      await page.getByLabel('開發場景跳轉').selectOption(id);
+      await restoreScene(page, id);
       for (let i = 0; i < scene.segments.length - 1; i++)
         await page.getByRole('button', { name: '推進對話', exact: true }).click();
       const choice = scene.choices.find((c) => c.id === option)!;

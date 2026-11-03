@@ -1,0 +1,1029 @@
+{
+  "sourceSha256": "7a43a47bfc819f0a4629d7bb15583e25ceab2c57a89c6299b0ef6350adfccf9d",
+  "scenes": 5,
+  "nodes": 25,
+  "segments": 146,
+  "choices": 5,
+  "answers": 15,
+  "images": 25,
+  "scoring": "NONE; no new political, unrest, CLEAR, route or history flag effects",
+  "regency": "Formal delegated regency is narrated in SC02; existing historical flags are not repurposed.",
+  "pending": "ACT02 connected; ACT01 ending remains ACT scope, not chapter completion.",
+  "uses": [
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L001",
+      "line": 48,
+      "text": "王宮的鐘聲比平日早了一些。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L002",
+      "line": 51,
+      "text": "從東翼通往覲見大廳的長廊，已經站滿等待入場的貴族、官員與王室侍從。每個人的衣領都整理得一絲不苟。甚至連平日難得在王宮露面的幾位高級文官，今日也早早站在隊伍前方。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L003",
+      "line": 57,
+      "text": "奧莉維亞沿著長廊緩步前行。她曾經無數次經過這裡。作為王女時，所有人都會向她行禮。但今天不同。他們行禮之後，還會多看她一眼，彷彿正在重新估量她所代表的政治分量。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L004",
+      "line": 60,
+      "text": "塔馬拉站在大廳入口，確認最後一批儀仗人員的位置。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L005",
+      "line": 63,
+      "text": "塔馬拉：「殿下，王室席位已經安排妥當。第一騎士團負責儀式內側警戒，第二騎士團負責廳外通道。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L006",
+      "line": 69,
+      "text": "奧莉維亞：「父王呢？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L007",
+      "line": 72,
+      "text": "塔馬拉：「依照今早的醫療評估，陛下不宜長時間出席。正式授權文書已完成本人確認，稍後將在大廳宣讀。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L008",
+      "line": 75,
+      "text": "奧莉維亞：「所以今天只是宣告？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L009",
+      "line": 78,
+      "text": "塔馬拉：「不完全是。對各官署來說，今天才是他們能夠正式依照新授權辦事的開始。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L010",
+      "line": 81,
+      "text": "昨日以前，她仍需要以王女的身分協調、請託，或者等待各機構願意配合。今日之後，她可以在明確的攝政權限內，以王國的名義發出命令。差別或許只在一張文書，但對許多人而言，這張文書比任何私人交情都重要。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L011",
+      "line": 84,
+      "text": "塔馬拉確認周圍無人靠得太近，忽然露出笑容。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01",
+      "segmentId": "L012",
+      "line": 87,
+      "text": "塔馬拉：「所以，今天終於輪到妳坐在那個位置了。感覺怎麼樣？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_A",
+      "segmentId": "L001",
+      "line": 93,
+      "text": "「說不緊張是騙人的。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_A",
+      "segmentId": "L002",
+      "line": 95,
+      "text": "塔馬拉：「難得聽妳說這種話。放心，今天我會盯著。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_A",
+      "segmentId": "L003",
+      "line": 96,
+      "text": "她輕拍腰間劍柄。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_B",
+      "segmentId": "L001",
+      "line": 99,
+      "text": "「只是換了一張辦公桌而已。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_B",
+      "segmentId": "L002",
+      "line": 101,
+      "text": "塔馬拉：「希望妳看見送來的公文數量之後，還能這麼說。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_B",
+      "segmentId": "L003",
+      "line": 102,
+      "text": "奧莉維亞忍不住笑了一下。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_C",
+      "segmentId": "L001",
+      "line": 105,
+      "text": "「我比較想知道午餐還能不能準時吃。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_C",
+      "segmentId": "L002",
+      "line": 107,
+      "text": "塔馬拉：「如果妳現在就開始擔心這件事，那恐怕有點晚了。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_C",
+      "segmentId": "L003",
+      "line": 108,
+      "text": "兩人相視一笑。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_COMMON",
+      "segmentId": "L001",
+      "line": 114,
+      "text": "遠處傳來禮官準備就緒的通報。奧莉維亞最後整理了一下衣袖，走進覲見大廳。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_COMMON",
+      "segmentId": "L002",
+      "line": 116,
+      "text": "王座仍然空著。王座側方，擺放著代表暫時攝政的次席。那張椅子沒有王冠，也沒有繼承王位的象徵。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC01_COMMON",
+      "segmentId": "L003",
+      "line": 118,
+      "text": "奧莉維亞／心聲：「至少今天，我還不需要坐在父王的位置上。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L001",
+      "line": 134,
+      "text": "禮官的長杖敲擊石面。三聲。整座大廳逐漸安靜。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L002",
+      "line": 137,
+      "text": "聖光會的見證者站在側席，王室文書官則走到中央，展開已封緘的攝政文書。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L003",
+      "line": 143,
+      "text": "王室文書官：「奉安度因國王艾爾維爾・奧古斯特・德安杜旺斯陛下之命。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L004",
+      "line": 146,
+      "text": "所有人低下頭。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L005",
+      "line": 149,
+      "text": "王室文書官：「因陛下仍需靜養，王儲艾維斯殿下現正承擔東線軍務，王國中樞之日常行政、物資協調與緊急民政事務，不宜因此延宕。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L006",
+      "line": 155,
+      "text": "王室文書官：「經國王本人裁定，授權王女奧莉維亞・艾蕾諾爾・德安杜旺斯，於正式授權文書指定之期限內，代理處置王國中央行政事務。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L007",
+      "line": 158,
+      "text": "王室文書官：「本項授權不改變國王陛下之最高法定權力，不改變王儲艾維斯殿下及其合法後裔之繼承地位。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L008",
+      "line": 161,
+      "text": "王室文書官：「王國現有司法、軍事與各官署法定職責，除授權文書明定之協調及裁決事項外，仍依原有制度執行。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L009",
+      "line": 164,
+      "text": "文書官再依正式程序宣讀攝政期限、權限邊界、須回報的事項，以及授權屆滿或依法終止時的交接程序。【SOURCE_REQUIRED：原核准條款尚未取得，正式版必須替換本佔位敘述。】",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L010",
+      "line": 167,
+      "text": "文書官將卷軸交由禮官確認。奧莉維亞走向中央。她沒有走向王座，而是停在王座前方的宣誓位置。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L011",
+      "line": 170,
+      "text": "禮官：「奧莉維亞殿下，是否願意承擔此項職責？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L012",
+      "line": 173,
+      "text": "奧莉維亞：「我願意。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L013",
+      "line": 176,
+      "text": "奧莉維亞：「我將依父王授權，處理王國當前之行政責任，維持現有法統，尊重王儲的合法地位。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L014",
+      "line": 179,
+      "text": "奧莉維亞：「我所行使的權力，只屬於王國所託付的職責。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L015",
+      "line": 182,
+      "text": "奧莉維亞：「若有不能自行決斷之事，應依法律與王命呈報；若有執行不當之處，也應留下可供追究的紀錄。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L016",
+      "line": 185,
+      "text": "聖光會見證者：「願這份承諾被人記住，也願承諾者接受見證。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L017",
+      "line": 188,
+      "text": "王室文書官將攝政印信交到奧莉維亞面前。她伸手接過。印信比她想像中沉。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L018",
+      "line": 191,
+      "text": "禮官：「安度因王國暫時攝政授權，自此正式生效。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02",
+      "segmentId": "L019",
+      "line": 194,
+      "text": "鐘聲再次響起。大廳裡響起整齊的掌聲。奧莉維亞微微低頭。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_A",
+      "segmentId": "L001",
+      "line": 200,
+      "text": "「願我不負父王的信任。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_A",
+      "segmentId": "L002",
+      "line": 202,
+      "text": "王室文書官恭敬低頭，儀式以莊重的氣氛繼續。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_B",
+      "segmentId": "L001",
+      "line": 205,
+      "text": "「感謝諸位今日的見證。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_B",
+      "segmentId": "L002",
+      "line": 207,
+      "text": "席間幾位官員微微欠身，給予禮節性的回應。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_C",
+      "segmentId": "L001",
+      "line": 210,
+      "text": "「接下來，還請各位多多指教。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_C",
+      "segmentId": "L002",
+      "line": 212,
+      "text": "幾名年長官員露出欣慰的笑容，掌聲稍稍熱烈了一些。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_COMMON",
+      "segmentId": "L001",
+      "line": 218,
+      "text": "奧莉維亞抬起頭。大廳裡仍有許多人望著她。有些人顯然鬆了一口氣；有人低聲交談；還有人在禮官宣布儀式結束之前，便朝她的方向挪動腳步。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC02_COMMON",
+      "segmentId": "L002",
+      "line": 220,
+      "text": "奧莉維亞／心聲：「原來如此。從現在開始，所有人都知道該把公文送給誰了。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L001",
+      "line": 236,
+      "text": "正式儀式結束後，王宮按照慣例安排簡短的祝賀。然而奧莉維亞很快發現，今日的祝賀似乎特別熱烈。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L002",
+      "line": 239,
+      "text": "主管王宮文書協調的一名高級官員率先走來。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L003",
+      "line": 245,
+      "text": "路德維克：「殿下，首先容我向您致上最誠摯的祝賀。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L004",
+      "line": 248,
+      "text": "路德維克：「上一次王宮進行如此有效率的行政整理，恐怕已經是許多年前的事情了。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L005",
+      "line": 251,
+      "text": "奧莉維亞：「大人過獎了。只是把一些不必要的程序簡化。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L006",
+      "line": 257,
+      "text": "路德維克：「這才是難能可貴之處。許多事情我們早就知道有改善的必要，只是始終沒有適當的機會。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L007",
+      "line": 260,
+      "text": "奧莉維亞：「那麼，往後還需要仰賴各位的經驗。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L008",
+      "line": 263,
+      "text": "路德維克：「自然，自然。倘若殿下需要熟悉舊有程序的人手，我這裡倒是有幾位很可靠的人選。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L009",
+      "line": 266,
+      "text": "奧莉維亞：「我會記住大人的推薦。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L010",
+      "line": 269,
+      "text": "路德維克滿意地退下。接著上前的是一位與王都貨運、倉儲及商業許可協調有關的高級官員。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L011",
+      "line": 272,
+      "text": "馬提厄：「恭喜殿下。說起來，前些日子的行政改革，商人們可是相當關注。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L012",
+      "line": 275,
+      "text": "奧莉維亞：「他們有什麼意見？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L013",
+      "line": 278,
+      "text": "馬提厄：「倒不是反對。只是商務往來最怕程序忽然改變。倘若殿下有需要，我很樂意替您向幾個主要商會解釋新的安排。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L014",
+      "line": 281,
+      "text": "奧莉維亞：「原來大人與商會也很熟悉？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L015",
+      "line": 284,
+      "text": "馬提厄：「工作需要而已。畢竟一張許可，有時候會牽涉到好幾個地方。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L016",
+      "line": 287,
+      "text": "奧莉維亞：「那麼，往後還請大人協助。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L017",
+      "line": 290,
+      "text": "馬提厄：「這是我的榮幸。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L018",
+      "line": 293,
+      "text": "第三位上前的是一名年紀較長的高級宮廷官員。他先行一個十分標準的禮。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L019",
+      "line": 296,
+      "text": "赫爾曼：「殿下，恕我冒昧詢問一件實務問題。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L020",
+      "line": 299,
+      "text": "奧莉維亞：「請說。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L021",
+      "line": 302,
+      "text": "赫爾曼：「往後各官署如有需要王室決斷的事項，究竟應該直接向殿下呈報，還是仍循原本的宮廷程序？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L022",
+      "line": 305,
+      "text": "奧莉維亞：「授權範圍內的事項，可以依正式程序交由攝政辦公體系處理。其他事項，仍照原本的法律與權限辦理。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L023",
+      "line": 308,
+      "text": "赫爾曼：「明白了。有個可以明確請示的地方，總比大家各自猜測來得好。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03",
+      "segmentId": "L024",
+      "line": 311,
+      "text": "奧莉維亞看著他的表情。那不是畏懼，也不像單純的討好，更像一個多年身處官僚體系的人，正在確認接下來如何維持自己的工作。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_A",
+      "segmentId": "L001",
+      "line": 317,
+      "text": "「承蒙各位厚愛。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_A",
+      "segmentId": "L002",
+      "line": 319,
+      "text": "路德維克：「殿下太謙虛了。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_A",
+      "segmentId": "L003",
+      "line": 320,
+      "text": "幾名官員跟著露出贊同的笑容。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_B",
+      "segmentId": "L001",
+      "line": 323,
+      "text": "「希望往後也能得到各位協助。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_B",
+      "segmentId": "L002",
+      "line": 325,
+      "text": "馬提厄：「那是自然。我等必定盡力。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_B",
+      "segmentId": "L003",
+      "line": 326,
+      "text": "其他官員也紛紛附和。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_C",
+      "segmentId": "L001",
+      "line": 329,
+      "text": "「原來諸位這麼支持行政改革。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_C",
+      "segmentId": "L002",
+      "line": 331,
+      "text": "路德維克短暫停頓，隨即笑道：「有效率的改革，誰會反對呢？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_C",
+      "segmentId": "L003",
+      "line": 332,
+      "text": "奧莉維亞微笑點頭，沒有再追問。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC03_COMMON",
+      "segmentId": "L001",
+      "line": 338,
+      "text": "祝賀持續進行。奧莉維亞覺得自己今天聽見的稱讚，恐怕比過去幾個月加起來還多。她甚至開始懷疑，王宮是不是為了攝政儀式，特別準備了一份適用於所有場合的讚美詞彙。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L001",
+      "line": 354,
+      "text": "祝賀持續了一段時間。奧莉維亞已經記不清，自己究竟聽見了多少次「王國幸甚」。她端起茶杯，終於得到片刻安靜。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L002",
+      "line": 357,
+      "text": "塔馬拉走到一旁。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L003",
+      "line": 363,
+      "text": "塔馬拉：「看來今天大家都很高興。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L004",
+      "line": 366,
+      "text": "奧莉維亞：「是啊。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L005",
+      "line": 369,
+      "text": "塔馬拉：「妳不高興？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L006",
+      "line": 375,
+      "text": "奧莉維亞：「高興。只是有點意外。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L007",
+      "line": 378,
+      "text": "塔馬拉：「意外什麼？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L008",
+      "line": 381,
+      "text": "奧莉維亞：「前幾天整頓行政機構的時候，我還以為會有很多人不滿。結果今天卻有那麼多人來祝賀。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L009",
+      "line": 384,
+      "text": "塔馬拉看向遠處的人群。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_A",
+      "segmentId": "L001",
+      "line": 390,
+      "text": "「看來大家真的很高興。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_A",
+      "segmentId": "L002",
+      "line": 392,
+      "text": "塔馬拉：「至少今天他們看起來是這樣。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_A",
+      "segmentId": "L003",
+      "line": 393,
+      "text": "奧莉維亞輕輕點頭。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_B",
+      "segmentId": "L001",
+      "line": 396,
+      "text": "「我以前有這麼受歡迎嗎？」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_B",
+      "segmentId": "L002",
+      "line": 398,
+      "text": "塔馬拉：「以前也有人歡迎妳，只是沒這麼多人排隊。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_B",
+      "segmentId": "L003",
+      "line": 399,
+      "text": "奧莉維亞忍不住笑了。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_C",
+      "segmentId": "L001",
+      "line": 402,
+      "text": "「這裡面有多少是真心話？」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_C",
+      "segmentId": "L002",
+      "line": 404,
+      "text": "塔馬拉：「妳要是知道怎麼分辨，記得教我。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_C",
+      "segmentId": "L003",
+      "line": 405,
+      "text": "奧莉維亞望著手中的茶杯，沒有立即回答。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L001",
+      "line": 411,
+      "text": "塔馬拉：「可能有人真的認為改革有必要。也可能有人只是覺得，現在最好跟妳說幾句好話。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L002",
+      "line": 413,
+      "text": "奧莉維亞：「還有呢？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L003",
+      "line": 415,
+      "text": "塔馬拉：「還有些人只是想知道，以後辦事該找誰。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L004",
+      "line": 417,
+      "text": "奧莉維亞：「倒也合理。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L005",
+      "line": 419,
+      "text": "她重新看向大廳。路德維克正與幾名官員交談；馬提厄和一位商會代表交換著禮貌的笑容；赫爾曼則拿著剛收到的職務安排資料，認真向文書官確認細節。沒有任何人看起來特別可疑，至少現在沒有。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L006",
+      "line": 421,
+      "text": "奧莉維亞／心聲：「一個懂舊程序的人。一個熟悉商會的人。還有一個知道每項職務應該向誰報告的人。如果我想讓王國繼續運作，似乎還真的少不了他們。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L007",
+      "line": 423,
+      "text": "塔馬拉：「妳在看什麼？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L008",
+      "line": 425,
+      "text": "奧莉維亞：「沒什麼。只是在想，我們前幾天究竟裁掉了多少辦公室。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L009",
+      "line": 427,
+      "text": "塔馬拉：「這件事妳應該比我清楚。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L010",
+      "line": 429,
+      "text": "奧莉維亞：「嗯。但辦公室裡的人，總不會跟著辦公室一起消失吧？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L011",
+      "line": 431,
+      "text": "塔馬拉：「當然不會。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04_COMMON",
+      "segmentId": "L012",
+      "line": 433,
+      "text": "奧莉維亞沒有再說話。這不是一次發現陰謀的瞬間，只是一個非常普通的疑問。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L001",
+      "line": 449,
+      "text": "夜幕落下。新安排的攝政書房裡，已經送來第一批等待確認的行政資料。桌面上整整齊齊擺著文書、地方通報，以及尚未完成交接的職務清單。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L002",
+      "line": 452,
+      "text": "奧莉維亞坐在桌前。攝政印信放在她的右手邊。白天的鐘聲彷彿仍在耳際。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L003",
+      "line": 458,
+      "text": "她拿起一份舊行政機構的沿革摘要。上頭記錄著某項職務設立的原因，以及幾次逐步增列的審核程序。她翻過兩頁，又翻回第一頁。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L004",
+      "line": 461,
+      "text": "那項職務最初似乎是為了應付某次緊急需求。然而多年之後，它仍然被保留下來，而且職權還曾經擴大。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L005",
+      "line": 464,
+      "text": "奧莉維亞／心聲：「原本只是臨時的工作。後來變成一個職務。再後來，又需要另外的人監督這個職務。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L006",
+      "line": 470,
+      "text": "她停下翻頁的手。EP03 的行政改革讓她看見哪些機構已經失去存在必要，但她當時關心的是如何讓它們停止造成負擔。對於另一個問題，她似乎從未認真追究過。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L007",
+      "line": 473,
+      "text": "它們究竟是怎麼變成現在這樣的？",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L008",
+      "line": 476,
+      "text": "有人敲門。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L009",
+      "line": 479,
+      "text": "芬利：「殿下，現在方便嗎？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L010",
+      "line": 482,
+      "text": "奧莉維亞：「進來吧。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L011",
+      "line": 485,
+      "text": "芬利推門而入，手裡帶著幾份整理過的資料。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L012",
+      "line": 488,
+      "text": "芬利：「我聽說今天的儀式非常順利。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L013",
+      "line": 491,
+      "text": "奧莉維亞：「順利得有點不像話。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L014",
+      "line": 494,
+      "text": "芬利：「這不像是壞事。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L015",
+      "line": 497,
+      "text": "奧莉維亞：「也許吧。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05",
+      "segmentId": "L016",
+      "line": 500,
+      "text": "她把桌上的行政沿革摘要推向芬利。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_A",
+      "segmentId": "L001",
+      "line": 506,
+      "text": "「有沒有興趣陪我聊聊以前的研究？」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_A",
+      "segmentId": "L002",
+      "line": 508,
+      "text": "芬利：「妳指的是學院時期那些研究？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_A",
+      "segmentId": "L003",
+      "line": 509,
+      "text": "奧莉維亞點頭。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_B",
+      "segmentId": "L001",
+      "line": 512,
+      "text": "「我忽然想起一個我們以前討論過的帝國。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_B",
+      "segmentId": "L002",
+      "line": 514,
+      "text": "芬利：「妳這種開場，通常代表今晚不會太早結束。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_B",
+      "segmentId": "L003",
+      "line": 515,
+      "text": "奧莉維亞：「你倒是很了解我。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_C",
+      "segmentId": "L001",
+      "line": 518,
+      "text": "「先喝杯茶吧，我有件事想問你。」",
+      "origin": "OPTION"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_C",
+      "segmentId": "L002",
+      "line": 520,
+      "text": "芬利：「茶可以。不過妳看起來已經準備好問題了。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_C",
+      "segmentId": "L003",
+      "line": 521,
+      "text": "奧莉維亞：「只是剛好想起一件事。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_COMMON",
+      "segmentId": "L001",
+      "line": 527,
+      "text": "奧莉維亞：「你還記得我們以前在學院研究過的薩克敵嗎？」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_COMMON",
+      "segmentId": "L002",
+      "line": 529,
+      "text": "芬利先是看了一眼文件，隨後露出若有所思的表情。",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_COMMON",
+      "segmentId": "L003",
+      "line": 531,
+      "text": "芬利：「魔導帝國薩克敵？當然記得。」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_COMMON",
+      "segmentId": "L004",
+      "line": 533,
+      "text": "奧莉維亞：「我今天忽然想到，那個帝國最後的問題……」",
+      "origin": "BODY"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC05_COMMON",
+      "segmentId": "L005",
+      "line": 535,
+      "text": "她沒有把話說完。芬利也沒有立刻接下去。燈火輕輕搖晃。鏡頭停留在桌面上兩份相隔久遠的研究材料。一份來自已經滅亡的古代帝國；另一份來自仍然繁榮的安度因王國。",
+      "origin": "BODY"
+    }
+  ]
+}

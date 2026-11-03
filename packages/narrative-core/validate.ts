@@ -35,6 +35,23 @@ export function validateStory(story: Story) {
       errors.push(`${where}: invalid tarot route`);
   };
   for (const scene of Object.values(story.scenes)) {
+    if (scene.availableWhen) check(scene.availableWhen, scene.id);
+    if (scene.conditionalNext) {
+      check(scene.conditionalNext.when, scene.id);
+      if (!story.scenes[scene.conditionalNext.next])
+        errors.push(`${scene.id}: missing conditional next`);
+    }
+    if (scene.completionEffects) {
+      check(scene.completionEffects.when, scene.id);
+      for (const e of scene.completionEffects.effects) {
+        if (
+          e.type === 'flag' &&
+          (!story.manifest.flags[e.key] ||
+            typeof story.manifest.flags[e.key].initial !== typeof e.value)
+        )
+          errors.push(`${scene.id}: invalid completion effect flag ${e.key}`);
+      }
+    }
     if (scene.choiceMode === 'DIALOGUE_FLAVOR') {
       const seen = new Set<string>();
       const returns = (id: string): boolean => {
@@ -121,9 +138,11 @@ export function validateStory(story: Story) {
       errors.push(`${scene.id}: requires unconditional fallback choice`);
     if (scene.status === 'DEMO_ONLY' && scene.chapter !== 'DEMO')
       errors.push(`${scene.id}: demo may not be assigned to a Canon chapter`);
-    for (const target of [scene.next, ...scene.choices.map((c) => c.next)].filter(
-      Boolean
-    ) as string[])
+    for (const target of [
+      scene.next,
+      scene.conditionalNext?.next,
+      ...scene.choices.map((c) => c.next),
+    ].filter(Boolean) as string[])
       if (
         story.scenes[target] &&
         (story.scenes[target].status === 'DEMO_ONLY') !== (scene.status === 'DEMO_ONLY')
@@ -162,6 +181,7 @@ export function validateStory(story: Story) {
     reached.add(id);
     const s = story.scenes[id];
     if (s.next) visit(s.next);
+    if (s.conditionalNext) visit(s.conditionalNext.next);
     if (s.completion?.nextSceneId) visit(s.completion.nextSceneId);
     s.choices.forEach((c) => visit(c.next));
   };
@@ -182,7 +202,9 @@ export function validateStory(story: Story) {
     for (const s of Object.values(story.scenes)) {
       if (
         !canEnd.has(s.id) &&
-        [s.next, ...s.choices.map((c) => c.next)].some((t) => t && canEnd.has(t))
+        [s.next, s.conditionalNext?.next, ...s.choices.map((c) => c.next)].some(
+          (t) => t && canEnd.has(t)
+        )
       ) {
         canEnd.add(s.id);
         changed = true;

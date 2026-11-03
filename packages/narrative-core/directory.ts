@@ -1,5 +1,13 @@
 import type { GameState, Scene, Story } from './schema';
-import { clone, initialState, markRead, visibleSegments, enterPlayerChapter } from './engine';
+import {
+  clone,
+  initialState,
+  markRead,
+  visibleSegments,
+  enterPlayerChapter,
+  evaluate,
+  nextSceneId,
+} from './engine';
 
 export const actName = (number: number) =>
   ['第一幕', '第二幕', '第三幕', '第四幕', '第五幕'][number - 1] ?? `第${number}幕`;
@@ -23,13 +31,20 @@ export interface DirectoryChapter {
   title: string;
   acts: DirectoryAct[];
 }
-export function chapterDirectory(story: Story, readKeys: string[] = []): DirectoryChapter[] {
+export function chapterDirectory(
+  story: Story,
+  readKeys: string[] = [],
+  state?: GameState
+): DirectoryChapter[] {
   const read = new Set(readKeys);
   return story.manifest.chapters
     .filter((ch) => ch.status !== 'DEMO_ONLY')
     .map((ch, i) => {
       const plan = story.plan?.chapters.find((p) => p.id === ch.id);
-      const scenes = Object.values(story.scenes).filter((s) => s.chapter === ch.id);
+      const scenes = Object.values(story.scenes).filter(
+        (s) =>
+          s.chapter === ch.id && (!state || !s.availableWhen || evaluate(state, s.availableWhen))
+      );
       const actIds = [
         ...new Set([
           ...(plan?.acts.map((a) => `ACT${String(a.number).padStart(2, '0')}`) ?? []),
@@ -61,7 +76,11 @@ export function chapterDirectory(story: Story, readKeys: string[] = []): Directo
           sections: [...groups.entries()].map(([number, group]) => {
             const entry = group[0];
             const branchIds = new Set(group.flatMap((s) => s.choices.map((c) => c.next)));
-            const complete = (s: Scene) => s.segments.every((p) => read.has(`${s.id}:${p.id}`));
+            const complete = (s: Scene) =>
+              (state
+                ? visibleSegments(story, { ...state, currentSceneId: s.id })
+                : s.segments
+              ).every((p) => read.has(`${s.id}:${p.id}`));
             const ordinary = group.filter((s) => !branchIds.has(s.id));
             const decisions = group.filter((s) => s.kind === 'choice');
             return {
@@ -88,17 +107,31 @@ export function chapterDirectory(story: Story, readKeys: string[] = []): Directo
 }
 // Unread prose can be opened directly, but an unresolved decision is a gate.
 // Only the committed branch is traversed; other branch responses stay out of the menu.
-export function navigableScenes(story: Story, state: GameState): Set<string> {
+export const matchesStoryPassword = (password: string) => password.trim() === 'best';
+export function navigableScenes(story: Story, state: GameState, unlocked = false): Set<string> {
+  if (unlocked)
+    return new Set(
+      chapterDirectory(story, [], state).flatMap((c) =>
+        c.acts.flatMap((a) => a.sections.map((s) => s.id))
+      )
+    );
   const reached = new Set<string>();
   const visit = (id: string) => {
     const scene = story.scenes[id];
-    if (!scene || scene.status === 'DEMO_ONLY' || reached.has(id)) return;
+    if (
+      !scene ||
+      scene.status === 'DEMO_ONLY' ||
+      reached.has(id) ||
+      (scene.availableWhen && !evaluate(state, scene.availableWhen))
+    )
+      return;
     reached.add(id);
     if (scene.kind === 'choice') {
       const chosen = scene.choices.find((c) => state.decisionLog.includes(`${id}:${c.id}`));
       if (chosen) visit(chosen.next);
     } else {
-      if (scene.next) visit(scene.next);
+      const next = nextSceneId(story, { ...state, currentSceneId: scene.id });
+      if (next) visit(next);
       if (
         scene.completion?.nextSceneId &&
         (story.scenes[scene.completion.nextSceneId]?.chapter === scene.chapter ||
@@ -124,11 +157,16 @@ export function navigableScenes(story: Story, state: GameState): Set<string> {
     });
   return reached;
 }
-export function openDirectorySection(story: Story, state: GameState, id: string): GameState {
-  if (!navigableScenes(story, state).has(id)) throw Error('請先完成前一小節的選擇。');
+export function openDirectorySection(
+  story: Story,
+  state: GameState,
+  id: string,
+  unlocked = false
+): GameState {
+  if (!navigableScenes(story, state, unlocked).has(id)) throw Error('請先完成前一小節的選擇。');
   let n =
     story.scenes[state.currentSceneId].status === 'DEMO_ONLY' ? initialState(story) : clone(state);
-  n = enterPlayerChapter(story, n, story.scenes[id].chapter);
+  if (!unlocked) n = enterPlayerChapter(story, n, story.scenes[id].chapter);
   n.currentSceneId = id;
   n.currentSegmentIndex = 0;
   if (n.campaign) {

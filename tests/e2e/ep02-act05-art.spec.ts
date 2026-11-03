@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState, markRead } from '../../packages/narrative-core/engine';
 test('the complete ACT05 pack displays all 25 original images and restores collection at old missing CGs', async ({
   page,

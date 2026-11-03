@@ -67,9 +67,11 @@ const chapter = ChapterFileSchema.parse({
     : '使用者提供 EP03 ACT01–05 完整劇本製作包及指定新版原始CG；ACT02圖片包截斷，20張完整PNG通過CRC，7張待補。未以製作註記冒充正文；Canon與數值不擅自升級。',
   scenes,
 });
-const assets = (
-  (await readJson('manifests/assets.json')) as ReturnType<typeof AssetSchema.parse>[]
-).filter((a) => !a.id.startsWith('EP03-'));
+const originalAssets = (await readJson('manifests/assets.json')) as ReturnType<
+  typeof AssetSchema.parse
+>[];
+const assetOrder = new Map(originalAssets.map((asset, index) => [asset.id, index]));
+const assets = originalAssets.filter((a) => !a.id.startsWith('EP03-'));
 for (const image of audit.images) {
   const b = await readFile(resolve(root, image.path));
   if (
@@ -106,7 +108,16 @@ const used = new Set(scenes.flatMap((s) => [s.cg, ...s.segments.map((p) => p.cg)
 if (audit.images.some((a) => !used.has(a.id)) || used.size !== audit.expected)
   throw Error('Missing or unused storyboard CG');
 const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
-manifest.version = completeAct02 ? '0.11.1-ep03-act02-cg-fixed' : '0.11.0-ep03-act01-act05';
+const fourthChapter = manifest.chapters.find((c) => c.id === 'EP04');
+if (fourthChapter?.entry) {
+  const closing = chapter.scenes.find((s) => s.completion?.scope === 'CHAPTER')!;
+  delete closing.completion!.pendingLabel;
+  Object.assign(closing.completion!, {
+    nextSceneId: fourthChapter.entry,
+    nextLabel: `EP04〈${fourthChapter.title}〉`,
+    continueLabel: '進入 EP04 第四章',
+  });
+} else manifest.version = completeAct02 ? '0.11.1-ep03-act02-cg-fixed' : '0.11.0-ep03-act01-act05';
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP03')!,
   {
@@ -128,7 +139,14 @@ await mkdir(resolve(root, 'content/episodes/ep03'), { recursive: true });
 await write('content/episodes/ep03/chapter.json', chapter);
 await write('content/episodes/ep02/chapter.json', previous);
 await write('content/manifests/story.json', manifest);
-await write('content/manifests/assets.json', assets);
+await write(
+  'content/manifests/assets.json',
+  assets.sort(
+    (a, b) =>
+      (assetOrder.get(a.id) ?? Number.MAX_SAFE_INTEGER) -
+      (assetOrder.get(b.id) ?? Number.MAX_SAFE_INTEGER)
+  )
+);
 await write('content/characters/index.json', characters);
 await write('docs/ep03-import-report.json', {
   sources,

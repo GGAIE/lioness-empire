@@ -1,6 +1,7 @@
+import { restoreScene } from '../helpers/restore-scene';
 import { test, expect, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState } from '../../packages/narrative-core/engine';
 import type { Story } from '../../packages/narrative-core/schema';
 async function start(page: Page, story: Story, points = 50, unrest = 30) {
@@ -186,8 +187,7 @@ test('ten alternative responses keep their CG and merge without permanent inform
     for (const num of ['01', '02', '03', '04', '05']) {
       const id = `EP02_ACT01_SC${num}`,
         scene = story.scenes[id];
-      await page.getByRole('button', { name: '開發', exact: true }).click();
-      await page.getByLabel('開發場景跳轉').selectOption(id);
+      await restoreScene(page, id);
       for (let i = 0; i < scene.segments.length - 1; i++)
         await page.getByRole('button', { name: '推進對話', exact: true }).click();
       const choice = scene.choices.find((c) => c.id === answer)!;

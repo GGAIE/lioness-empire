@@ -6,6 +6,7 @@ import { z } from 'zod';
 import { EndingRuleSchema } from '../packages/narrative-core/schema';
 import { validateStory } from '../packages/narrative-core/validate';
 import { auditSpeakers } from './speaker-annotations';
+import { prepareReaderStory } from '../packages/narrative-core/reader-text';
 import {
   advance,
   choose,
@@ -17,6 +18,15 @@ import {
 const story = await loadContent();
 const report = validateStory(story);
 const speakerAudit = auditSpeakers(story);
+const readerStory = prepareReaderStory(story);
+const outOfStory =
+  /\bACT\b|ACT\s*\d|\bEP\d|\bSC\d|\bCG\b|上一章|下一章|本章|上一幕|下一幕|本幕|畫面轉到|分支合流|SOURCE_REQUIRED|PROPOSAL|鏡頭|畫面漸暗/iu;
+for (const scene of Object.values(readerStory.scenes)) {
+  if (scene.status === 'DEMO_ONLY') continue;
+  for (const item of [...scene.segments, ...scene.choices])
+    if (outOfStory.test(item.text))
+      report.errors.push(`Out-of-story reader text ${scene.id}/${item.id}`);
+}
 report.errors.push(...speakerAudit.errors);
 await writeFile(
   resolve(root, 'docs/speaker-audit-report.json'),
@@ -149,4 +159,17 @@ else {
   await cp(resolve(root, 'assets'), resolve(root, 'apps/web-vn/public/assets'), {
     recursive: true,
   });
+  // Publish the reviewed reading edition; raw screenplay imports remain intact.
+  for (const chapter of readerStory.manifest.chapters.filter((c) => c.file)) {
+    const pack = (await readJson(chapter.file!)) as { scenes: unknown[] };
+    pack.scenes = Object.values(readerStory.scenes).filter((s) => s.chapter === chapter.id);
+    await writeFile(
+      resolve(root, 'apps/web-vn/public/content', chapter.file!),
+      JSON.stringify(pack, null, 2) + '\n'
+    );
+  }
+  await writeFile(
+    resolve(root, 'apps/web-vn/public/content/manifests/story.json'),
+    JSON.stringify(readerStory.manifest, null, 2) + '\n'
+  );
 }

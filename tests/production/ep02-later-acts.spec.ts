@@ -1,5 +1,5 @@
 import { test, expect, type Page } from '@playwright/test';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState } from '../../packages/narrative-core/engine';
 import type { GameState } from '../../packages/narrative-core/schema';
 async function importState(page: Page, state: GameState) {

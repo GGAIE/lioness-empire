@@ -123,7 +123,7 @@ test('pinned resource display follows live state and chapter settlement warns wi
   await page.getByRole('button', { name: '瀏覽劇情架構' }).click();
   await expect(page.getByRole('dialog').getByTestId('political-points')).toHaveText('60');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
-  await page.getByRole('button', { name: '開始序幕' }).click();
+  await page.getByRole('button', { name: '開始遊戲' }).click();
   await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
     '50'
   );

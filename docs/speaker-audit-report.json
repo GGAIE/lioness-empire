@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 2903,
-    "thoughts": 30,
-    "narration": 1452,
+    "dialogue": 3497,
+    "thoughts": 38,
+    "narration": 1791,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -95,6 +95,18 @@
       "sceneId": "EP03_ACT01_SC03_B",
       "segmentId": "L001",
       "text": "奧莉維亞在手邊紙張的空白處，簡短記下「議會現址待問」的提醒。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP04_ACT01_SC04",
+      "segmentId": "L001",
+      "text": "祝賀持續了一段時間。奧莉維亞已經記不清，自己究竟聽見了多少次「王國幸甚」。她端起茶杯，終於得到片刻安靜。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP04_ACT04_SC01",
+      "segmentId": "L016",
+      "text": "她的指尖依次停在王都的商業區、莎莉雅領地，以及王都外較遠的一座衛星城。紙上沒有寫出「候選議員」，只有三個圈記與一行短短的安排：拜訪、聆聽、留意回音。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

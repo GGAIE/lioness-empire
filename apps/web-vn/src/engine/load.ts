@@ -8,6 +8,7 @@ import {
   type Story,
 } from '../../../../packages/narrative-core/schema';
 import { validateStory } from '../../../../packages/narrative-core/validate';
+import { prepareReaderStory } from '../../../../packages/narrative-core/reader-text';
 export const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 const json = async (path: string) => {
   const r = await fetch(assetUrl('content/' + path), { cache: 'no-cache' });
@@ -43,5 +44,5 @@ export async function loadStory(): Promise<Story> {
   };
   const checked = validateStory(story);
   if (checked.errors.length) throw Error(checked.errors.join('\n'));
-  return story;
+  return prepareReaderStory(story);
 }

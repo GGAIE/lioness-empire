@@ -1,0 +1,283 @@
+{
+  "act": 5,
+  "sourceSha256": "23bbbd965e5174ddf5f90621ba72b7a1e9bc408217a2c688ec0737e296e9a7d2",
+  "archive": "C:\\Users\\45P\\Downloads\\04\\母獅帝國_EP04_ACT05_25張CG_正確圖片包_v1.0.zip",
+  "archiveSha256": "aa21e1d0a6117b062417bac38bc050910a4fd7f05b017faf5f1a3ad7096284be",
+  "images": [
+    {
+      "id": "EP04-ACT05-CG01",
+      "number": 1,
+      "title": "雨後的攝政書房",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG01_v1.0.png",
+      "entry": "CG01_雨後的攝政書房.png",
+      "sha256": "0d47c1f9493ff0ad24c227cc81056851516cdf1765d905839604cf92697ba09c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2845975
+    },
+    {
+      "id": "EP04-ACT05-CG02",
+      "number": 2,
+      "title": "破碎的議席名冊",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG02_v1.0.png",
+      "entry": "CG02_破碎的議席名冊.png",
+      "sha256": "c18656c3a48fd3c6542130fbad36eb9c22cff0f1570e19e96943d08504cbfad6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2859178
+    },
+    {
+      "id": "EP04-ACT05-CG03",
+      "number": 3,
+      "title": "學院歲月的議席回憶",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG03_v1.0.png",
+      "entry": "CG03_學院歲月的議席回憶.png",
+      "sha256": "40d6b14e5c504180dfd03e1d0deaa10f079da0fdb51c0f38dfe32290ce5b0e58",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2514319
+    },
+    {
+      "id": "EP04-ACT05-CG04",
+      "number": 4,
+      "title": "朋友間的一點笑意",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG04_v1.0.png",
+      "entry": "CG04_朋友間的一點笑意.png",
+      "sha256": "4ecc7539e7c9a4a2f8ffe8da660aa3ec9634ddabd8b891ae5196913e593af9d6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2545087
+    },
+    {
+      "id": "EP04-ACT05-CG05",
+      "number": 5,
+      "title": "空著的席位",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG05_v1.0.png",
+      "entry": "CG05_空著的席位.png",
+      "sha256": "73efb94ac907421cf055bcf9168f85f891149423bd7630b086ba78f1e60171de",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2744111
+    },
+    {
+      "id": "EP04-ACT05-CG06",
+      "number": 6,
+      "title": "四色書籤與舉薦管道",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG06_v1.0.png",
+      "entry": "CG06_四色書籤與舉薦管道.png",
+      "sha256": "7c437aaeac7a99ac8021f7cfb63395acd84677f1b023e2de56b69034f1263ba7",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2898935
+    },
+    {
+      "id": "EP04-ACT05-CG07",
+      "number": 7,
+      "title": "讓我們站穩腳步",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG07_v1.0.png",
+      "entry": "CG07_讓我們站穩腳步.png",
+      "sha256": "dca6ef67afbd78b8479c834478db40ecf3ddefb3f08622cfa5aded114de7d304",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2399458
+    },
+    {
+      "id": "EP04-ACT05-CG08",
+      "number": 8,
+      "title": "尚未收起的網",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG08_v1.0.png",
+      "entry": "CG08_尚未收起的網.png",
+      "sha256": "828ec6389901766f5934657aa9d2446a1a306dffc660e764217974330f467b82",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2903269
+    },
+    {
+      "id": "EP04-ACT05-CG09",
+      "number": 9,
+      "title": "雙人政治商議",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG09_v1.0.png",
+      "entry": "CG09_雙人政治商議.png",
+      "sha256": "e9821fdfb20b4ab266fff2573348dba3c913094632100f3804c1dc6102b13e3a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2688230
+    },
+    {
+      "id": "EP04-ACT05-CG10",
+      "number": 10,
+      "title": "尚未回答的高官名冊",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG10_v1.0.png",
+      "entry": "CG10_尚未回答的高官名冊.png",
+      "sha256": "031a5a54db24ed8ea1e642c76ea2c5800597f103f7ef235edc082f7efc44147d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2670707
+    },
+    {
+      "id": "EP04-ACT05-CG11",
+      "number": 11,
+      "title": "整併後的文書承辦處",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG11_v1.0.png",
+      "entry": "CG11_整併後的文書承辦處.png",
+      "sha256": "447f48526a4f434a3ea154d60991d65d2521100c0e0feaf76ba22390b776afa6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2604399
+    },
+    {
+      "id": "EP04-ACT05-CG12",
+      "number": 12,
+      "title": "打聽出一個名字",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG12_v1.0.png",
+      "entry": "CG12_打聽出一個名字.png",
+      "sha256": "754bd6292467e08e1cf88fd17c95475495d0e7cd5e2d3433559ea9d9df223f9a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2576272
+    },
+    {
+      "id": "EP04-ACT05-CG13",
+      "number": 13,
+      "title": "皇家圖書館長廊",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG13_v1.0.png",
+      "entry": "CG13_皇家圖書館長廊.png",
+      "sha256": "1114e7d33233426e03b1b8410df529db4b928f82fdb0d82a19400e74a2a19055",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3098284
+    },
+    {
+      "id": "EP04-ACT05-CG14",
+      "number": 14,
+      "title": "圖書館側翼的辦公門",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG14_v1.0.png",
+      "entry": "CG14_圖書館側翼的辦公門.png",
+      "sha256": "09c747664f7b4ca3ab4a947343bec272e2906f4a93e57cf8e54f488906703b12",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2421900
+    },
+    {
+      "id": "EP04-ACT05-CG15",
+      "number": 15,
+      "title": "初見剛姆",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG15_v1.0.png",
+      "entry": "CG15_初見剛姆.png",
+      "sha256": "ad656b78fa89246a61320b7a78bad91f4a56ff2d3c18697e320ff831bcc5d00f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2751166
+    },
+    {
+      "id": "EP04-ACT05-CG16",
+      "number": 16,
+      "title": "從幾名書記到幾層主管",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG16_v1.0.png",
+      "entry": "CG16_從幾名書記到幾層主管.png",
+      "sha256": "3d0fd4af436b02f3c0e7cf88e871eb9ddb10441610da44ca345c0dcaab58316d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2933320
+    },
+    {
+      "id": "EP04-ACT05-CG17",
+      "number": 17,
+      "title": "又多出一個監督單位",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG17_v1.0.png",
+      "entry": "CG17_又多出一個監督單位.png",
+      "sha256": "9429a8501c0903b33aad7a43d6ca3d1034443cbe730f98e87181653f3ee03eee",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2671811
+    },
+    {
+      "id": "EP04-ACT05-CG18",
+      "number": 18,
+      "title": "老書記官的吐槽",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG18_v1.0.png",
+      "entry": "CG18_老書記官的吐槽.png",
+      "sha256": "6627760647f7774f6d6e21f398ce3a1bd5690ada184ad5ad3aaf0f60ffea1e99",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2461607
+    },
+    {
+      "id": "EP04-ACT05-CG19",
+      "number": 19,
+      "title": "想起忙於軍政的兄長",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG19_v1.0.png",
+      "entry": "CG19_想起忙於軍政的兄長.png",
+      "sha256": "399d011ed5bb1b0382a3ca443b01604e1a2ef5161b1dbe082354c26b5f99c827",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2480597
+    },
+    {
+      "id": "EP04-ACT05-CG20",
+      "number": 20,
+      "title": "夜裡的交叉查證",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG20_v1.0.png",
+      "entry": "CG20_夜裡的交叉查證.png",
+      "sha256": "12e3ae141434b9fd358eb1962101e60b738ad4ad4a9f70e21d716ff516218d83",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2451774
+    },
+    {
+      "id": "EP04-ACT05-CG21",
+      "number": 21,
+      "title": "被整理出的舊人事",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG21_v1.0.png",
+      "entry": "CG21_被整理出的舊人事.png",
+      "sha256": "ccb44c2bf090ae530d4955125576417c0b84c63fc4b6ffbc7a1a4566b947fed4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2769664
+    },
+    {
+      "id": "EP04-ACT05-CG22",
+      "number": 22,
+      "title": "重複出現的名字",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG22_v1.0.png",
+      "entry": "CG22_重複出現的名字.png",
+      "sha256": "7626d5690d5893a43408585519876553ed28baf6d2ce9ae6febe1eff4874d72a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2515057
+    },
+    {
+      "id": "EP04-ACT05-CG23",
+      "number": 23,
+      "title": "涉及的人可能講一整天",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG23_v1.0.png",
+      "entry": "CG23_涉及的人可能講一整天.png",
+      "sha256": "e2becf7b2915e2ca325d00a2c24448a5a150001a259b870943d989573cb5b807",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2842832
+    },
+    {
+      "id": "EP04-ACT05-CG24",
+      "number": 24,
+      "title": "政治資料的四種去向",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG24_v1.0.png",
+      "entry": "CG24_政治資料的四種去向.png",
+      "sha256": "89f3d48181d211fcb1b9ba2efe36f7c797e6082d32143c1c91506c8c7239f7f0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2902034
+    },
+    {
+      "id": "EP04-ACT05-CG25",
+      "number": 25,
+      "title": "重新點亮的攝政書房",
+      "path": "assets/cg/ep04/act05/complete-v1.0/LE_EP04_ACT05_CG25_v1.0.png",
+      "entry": "CG25_重新點亮的攝政書房.png",
+      "sha256": "772a87c3784f9fb3f985098313b45cb57048b9a19a3ed0576feb84d8375ec99a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2628636
+    }
+  ]
+}

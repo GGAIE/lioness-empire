@@ -1,0 +1,246 @@
+{
+  "mode": "built-in image_gen",
+  "note": "User correction: present-day study contains only Olivia and Finley; tea attendant offscreen.",
+  "images": [
+    {
+      "cg": "CG02",
+      "title": "學院研究筆記特寫",
+      "id": "LE_CG_EP04_ACT02_SC01_IMG02_v0.1",
+      "prompt": "Close-up of worn academy research notebooks, annotated maps, bundled parchment notes and wax tabs on a desk, suggesting a five-year-old unfinished historical investigation, elegant fantasy stationery, no readable writing.",
+      "file": "LE_CG_EP04_ACT02_SC01_IMG02_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. Close-up tabletop still life of worn academy research notebooks and annotated maps, bundled parchments, wax tabs, curled paper corners, faded abstract ink diagrams, navy cloth bindings, signs of five years of handling and an unfinished investigation. Same night study warm candlelight, cool blue edge light. No people, faces, hands or portraits. Focus on old historical research rather than ornate ceremonial files.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG03",
+      "title": "薩克迪教科書式滅亡想像圖",
+      "id": "LE_CG_EP04_ACT02_SC01_IMG03_v0.1",
+      "prompt": "Grand imagined historical scene of the magical empire Sakti at war: shining imperial capital, giant barrier over towers, enemy armies surrounding the city, arcane explosions in the sky, dramatic textbook-like image of an empire falling to external invasion.",
+      "file": "LE_CG_EP04_ACT02_SC01_IMG03_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Grand imagined historical scene of the magical empire Sakti at war: shining imperial capital, giant barrier over towers, enemy armies surrounding the city, arcane explosions in the sky, dramatic textbook-like image of an empire falling to external invasion.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG04",
+      "title": "研究進入下一章",
+      "id": "LE_CG_EP04_ACT02_SC01_IMG04_v0.1",
+      "prompt": "Overhead shot of Olivia and Finley's notes with several circled concepts such as emergency authority, wartime logistics, exceptions becoming institutions, abstract illegible markings only, moody candlelight.",
+      "file": "LE_CG_EP04_ACT02_SC01_IMG04_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. Overhead tabletop view of open research notes and several connected geometric ink circles, arrows and abstract illegible marks implying emergency authority, wartime logistics and temporary exceptions becoming permanent institutions. A quill and old wax tabs, warm candlelight. Only tabletop and documents; no people or human portraits, no legible concepts or words.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG05",
+      "title": "薩克迪早期繁榮與官署運作",
+      "id": "LE_CG_EP04_ACT02_SC02_IMG01_v0.1",
+      "prompt": "Historical imagination scene of Sakti during its golden age: prosperous magical capital, organized administrative halls, arcane workshops, disciplined couriers and logistics teams, vibrant yet orderly imperial power.",
+      "file": "LE_CG_EP04_ACT02_SC02_IMG01_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Historical imagination scene of Sakti during its golden age: prosperous magical capital, organized administrative halls, arcane workshops, disciplined couriers and logistics teams, vibrant yet orderly imperial power.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG06",
+      "title": "戰時新增調度機構",
+      "id": "LE_CG_EP04_ACT02_SC02_IMG02_v0.1",
+      "prompt": "Fantasy imperial council creating a wartime emergency coordination office, officials gathered around maps and supply ledgers, mood of urgent necessity rather than corruption, richly dressed bureaucrats and military envoys.",
+      "file": "LE_CG_EP04_ACT02_SC02_IMG02_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Fantasy imperial council creating a wartime emergency coordination office, officials gathered around maps and supply ledgers, mood of urgent necessity rather than corruption, richly dressed bureaucrats and military envoys.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG07",
+      "title": "監督機構再度增殖",
+      "id": "LE_CG_EP04_ACT02_SC02_IMG03_v0.1",
+      "prompt": "Symbolic visual of layered bureaucracy growing: multiple desks, clerks, seals, ledgers and supervisory offices stacking into an increasingly complex system, elegant dark fantasy administration, metaphorical but concrete.",
+      "file": "LE_CG_EP04_ACT02_SC02_IMG03_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Symbolic visual of layered bureaucracy growing: multiple desks, clerks, seals, ledgers and supervisory offices stacking into an increasingly complex system, elegant dark fantasy administration, metaphorical but concrete.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG08",
+      "title": "層層機構示意構圖",
+      "id": "LE_CG_EP04_ACT02_SC02_IMG04_v0.1",
+      "prompt": "Conceptual composition of a towering administrative structure built from offices, archives, seals and corridors, visually expressing how temporary wartime institutions became a heavy permanent system.",
+      "file": "LE_CG_EP04_ACT02_SC02_IMG04_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Conceptual composition of a towering administrative structure built from offices, archives, seals and corridors, visually expressing how temporary wartime institutions became a heavy permanent system.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG09",
+      "title": "等待核准的魔導物資",
+      "id": "LE_CG_EP04_ACT02_SC03_IMG01_v0.1",
+      "prompt": "A convoy carrying precious magical cores stopped at an imperial gate, crates glowing faintly, transport officers, inspectors and administrators all present, tense stillness, no one willing or able to authorize movement.",
+      "file": "LE_CG_EP04_ACT02_SC03_IMG01_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. A convoy carrying precious magical cores stopped at an imperial gate, crates glowing faintly, transport officers, inspectors and administrators all present, tense stillness, no one willing or able to authorize movement.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG10",
+      "title": "每個人都在履行職責",
+      "id": "LE_CG_EP04_ACT02_SC03_IMG02_v0.1",
+      "prompt": "Medium shot of several different officials each reviewing separate procedures around the same cargo: safety inspection, accounting, authorization, military request review. Everyone appears diligent and serious, not villainous.",
+      "file": "LE_CG_EP04_ACT02_SC03_IMG02_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Medium shot of several different officials each reviewing separate procedures around the same cargo: safety inspection, accounting, authorization, military request review. Everyone appears diligent and serious, not villainous.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG11",
+      "title": "前線等待中的防線",
+      "id": "LE_CG_EP04_ACT02_SC03_IMG03_v0.1",
+      "prompt": "Distant frontline fortress of Sakti under pressure, fading defensive barrier, exhausted defenders looking toward the horizon while waiting for supplies that never arrive, melancholic impending collapse.",
+      "file": "LE_CG_EP04_ACT02_SC03_IMG03_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Distant frontline fortress of Sakti under pressure, fading defensive barrier, exhausted defenders looking toward the horizon while waiting for supplies that never arrive, melancholic impending collapse.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG12",
+      "title": "沉默停滯的車隊",
+      "id": "LE_CG_EP04_ACT02_SC03_IMG04_v0.1",
+      "prompt": "Wide still-life style composition of an unmoving logistics convoy in the rain or cold dusk, silent wheels, sealed magical crates, waiting officials, conveying systemic paralysis without overt violence.",
+      "file": "LE_CG_EP04_ACT02_SC03_IMG04_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Wide still-life style composition of an unmoving logistics convoy in the rain or cold dusk, silent wheels, sealed magical crates, waiting officials, conveying systemic paralysis without overt violence.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG13",
+      "title": "回到當下的攝政書房",
+      "id": "LE_CG_EP04_ACT02_SC04_IMG01_v0.1",
+      "prompt": "Return to present: Olivia and Finley in the regent's study discussing current high officials, serious candlelit atmosphere, piles of both ancient research and contemporary court documents.",
+      "file": "LE_CG_EP04_ACT02_SC04_IMG01_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. References: image 1 Olivia official identity/wardrobe, image 2 Finley official identity/wardrobe, image 3 accepted CG01 for study environment and rendering continuity. Reference sheets are NOT output layouts. Show only the protagonist(s) explicitly required in the scene. No officials, attendants, guards or other people in the present-day study, nor human portraits. Olivia: adult woman with waist-length straight midnight blue-black hair, amber-gold eyes, high-collared ivory and navy antique-gold embroidered regent gown, no crown. Finley: youthful adult androgynous fully human scholar, short side-parted brown hair, grey-green eyes, navy scholarly clothes, round human ears, no horns, scales, tail or other nonhuman traits. Their interaction is a familiar private scholarly conversation, natural and restrained. Study: large carved dark wooden desk, gothic tall windows with blue night outside, dark bookshelves, a few warm candles, matching image 3. Return to present: Olivia and Finley in the regent's study discussing current high officials, serious candlelit atmosphere, piles of both ancient research and contemporary court documents.",
+      "reference_paths": [
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_OLIVIA_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_FINLEY_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/output/LE_EP04_ACT02_restart/LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png"
+      ]
+    },
+    {
+      "cg": "CG14",
+      "title": "三名官員的回想鏡頭",
+      "id": "LE_CG_EP04_ACT02_SC04_IMG02_v0.1",
+      "prompt": "Memory montage from the daytime regency reception showing three identifiable senior officials—Ludovic the correspondence coordinator, Mathieu the commerce and transport liaison, and Hermann the personnel coordinator—smiling politely in court attire, not villainous, each visually distinct.",
+      "file": "LE_CG_EP04_ACT02_SC04_IMG02_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. A single cohesive daytime memory shot at the palace regency reception showing EXACTLY THREE senior officials in polite conversation, all morally neutral, faint soft edges to suggest recollection. Ludovic slender older man with silver slicked-back hair, clean-shaven, dark charcoal robes; Mathieu stockier middle-aged man with chestnut wavy hair and a short neat beard, warm brown-gold robes; Hermann older man straight grey hair and neat moustache, forest-green formal robes. Distinct silhouettes and friendly courteous smiles. No Olivia or Finley, no present-day study, no sinister cues, no split panels.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG15",
+      "title": "插曲開始：侍從來報茶點",
+      "id": "LE_CG_EP04_ACT02_SC04_IMG03_v0.1",
+      "prompt": "A palace attendant enters the study awkwardly holding a paper notice instead of tea, reporting a procedural delay, Olivia looking tired and mildly incredulous, Finley barely suppressing amusement.",
+      "file": "LE_CG_EP04_ACT02_SC04_IMG03_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. References: image 1 Olivia official identity/wardrobe, image 2 Finley official identity/wardrobe, image 3 accepted CG01 for study environment and rendering continuity. Reference sheets are NOT output layouts. Show only the protagonist(s) explicitly required in the scene. No officials, attendants, guards or other people in the present-day study, nor human portraits. Olivia: adult woman with waist-length straight midnight blue-black hair, amber-gold eyes, high-collared ivory and navy antique-gold embroidered regent gown, no crown. Finley: youthful adult androgynous fully human scholar, short side-parted brown hair, grey-green eyes, navy scholarly clothes, round human ears, no horns, scales, tail or other nonhuman traits. Their interaction is a familiar private scholarly conversation, natural and restrained. Study: large carved dark wooden desk, gothic tall windows with blue night outside, dark bookshelves, a few warm candles, matching image 3. Exactly TWO people visible, Olivia and Finley seated at their study desk, reacting to an offscreen report that tea service has been delayed by bureaucratic procedure. Olivia looks tired and mildly incredulous, eyebrow slightly raised; Finley glances at her while barely suppressing an amused smile. A small folded procedural notice lies on the edge of the desk; no readable writing. No served tea or food. The attendant is entirely offscreen and MUST NOT appear, even as a hand, reflection, silhouette or background figure. Natural quiet comic beat, no exaggerated slapstick.",
+      "reference_paths": [
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_OLIVIA_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_FINLEY_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/output/LE_EP04_ACT02_restart/LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png"
+      ]
+    },
+    {
+      "cg": "CG16",
+      "title": "茶杯與研究筆記並置",
+      "id": "LE_CG_EP04_ACT02_SC04_IMG04_v0.1",
+      "prompt": "Symbolic tabletop shot: an empty teacup beside Sakti research notes and current administrative records, showing the absurd parallel between imperial collapse and a delayed cup of tea.",
+      "file": "LE_CG_EP04_ACT02_SC04_IMG04_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. Symbolic close tabletop shot of ONE empty porcelain teacup and saucer beside worn Sakti research notes and a separate pile of newer administrative records, softly-lit wax seals and abstract illegible diagrams, warm night candlelight and blue window reflections. The cup is visibly empty. Elegant understated visual parallel between imperial administrative paralysis and delayed tea. No people, faces, hands or human portraits.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG17",
+      "title": "奧莉維亞重新審視官員資料",
+      "id": "LE_CG_EP04_ACT02_SC04_IMG05_v0.1",
+      "prompt": "Olivia in thoughtful close-up sorting the three officials' files next to Saktian historical notes, expression shifting from amusement to political focus, warm candlelight and quiet resolve.",
+      "file": "LE_CG_EP04_ACT02_SC04_IMG05_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. References: image 1 Olivia official identity/wardrobe, image 2 Finley official identity/wardrobe, image 3 accepted CG01 for study environment and rendering continuity. Reference sheets are NOT output layouts. Show only the protagonist(s) explicitly required in the scene. No officials, attendants, guards or other people in the present-day study, nor human portraits. Olivia: adult woman with waist-length straight midnight blue-black hair, amber-gold eyes, high-collared ivory and navy antique-gold embroidered regent gown, no crown. Finley: youthful adult androgynous fully human scholar, short side-parted brown hair, grey-green eyes, navy scholarly clothes, round human ears, no horns, scales, tail or other nonhuman traits. Their interaction is a familiar private scholarly conversation, natural and restrained. Study: large carved dark wooden desk, gothic tall windows with blue night outside, dark bookshelves, a few warm candles, matching image 3. Olivia in thoughtful close-up sorting the three officials' files next to Saktian historical notes, expression shifting from amusement to political focus, warm candlelight and quiet resolve.",
+      "reference_paths": [
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_OLIVIA_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_FINLEY_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/output/LE_EP04_ACT02_restart/LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png"
+      ]
+    },
+    {
+      "cg": "CG18",
+      "title": "薩克迪衰敗中的帝都遠景",
+      "id": "LE_CG_EP04_ACT02_SC05_IMG01_v0.1",
+      "prompt": "Imagined late-stage Sakti capital in decline: damaged towers, dim magical infrastructure, half-empty streets, imperial grandeur decaying into exhaustion rather than explosive destruction.",
+      "file": "LE_CG_EP04_ACT02_SC05_IMG01_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Imagined late-stage Sakti capital in decline: damaged towers, dim magical infrastructure, half-empty streets, imperial grandeur decaying into exhaustion rather than explosive destruction.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG19",
+      "title": "國家仍有力量卻無法運作",
+      "id": "LE_CG_EP04_ACT02_SC05_IMG02_v0.1",
+      "prompt": "Symbolic scene showing that Sakti still has warehouses, soldiers, magical devices and offices, yet all parts are disconnected and failing to cooperate, a nation with resources but no functioning flow.",
+      "file": "LE_CG_EP04_ACT02_SC05_IMG02_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. One coherent wide city scene, historical imagined late Sakti: a warehouse containing sacks of grain behind a closed gate in foreground, loaded idle carts in a middle street, waiting disciplined soldiers near an armory, a distant inactive arcane conduit and many administrative offices. Resources visibly exist but locked gates, blocked routes and silent equipment separate each activity. No infographic, panels, floating symbols or literal text. Exhausted systemic paralysis, no battle, no present-day protagonists.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG20",
+      "title": "研究筆記最後的空白頁",
+      "id": "LE_CG_EP04_ACT02_SC05_IMG03_v0.1",
+      "prompt": "Close-up of the final pages of the old research notebook, unfinished notes, blank sections, abstract illegible annotations, conveying an interrupted academic investigation.",
+      "file": "LE_CG_EP04_ACT02_SC05_IMG03_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. Close-up of the last pages of an old shared academy research notebook on the candlelit study desk. Faded abstract illegible notes end abruptly, leaving large blank sections, a few unfinished diagrams, worn edges and empty margins. Visual feeling of an interrupted scholarly investigation, not a magical spellbook. No people, hands, faces, portraits, readable letters or words.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG21",
+      "title": "薩克迪最終成為廢墟",
+      "id": "LE_CG_EP04_ACT02_SC05_IMG04_v0.1",
+      "prompt": "Melancholic wide shot of the ruins of Sakti: silent collapsed magical towers, overgrown imperial avenues, vast abandoned stone architecture, haunting sense of self-exhausted civilization.",
+      "file": "LE_CG_EP04_ACT02_SC05_IMG04_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. This is a self-contained imagined ANCIENT SAKTI historical reconstruction. Only ancient anonymous officials, couriers or soldiers when appropriate. Never depict Olivia, Finley, Ludovic, Mathieu, Hermann or any present-day protagonists. No framing scene in a study, no foreground observers, no contemporary characters. Maintain arcane towers, pale weathered stone, classical imperial arches and magical logistics aesthetic appropriate to ancient Sakti. Melancholic wide shot of the ruins of Sakti: silent collapsed magical towers, overgrown imperial avenues, vast abandoned stone architecture, haunting sense of self-exhausted civilization.",
+      "reference_paths": []
+    },
+    {
+      "cg": "CG22",
+      "title": "芬利翻到研究末頁",
+      "id": "LE_CG_EP04_ACT02_SC06_IMG01_v0.1",
+      "prompt": "Finley turning to the last page of the shared research notebook in the candlelit study, calm and earnest expression, unfinished references and blocked-access notes implied through abstract illegible markings.",
+      "file": "LE_CG_EP04_ACT02_SC06_IMG01_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. References: image 1 Olivia official identity/wardrobe, image 2 Finley official identity/wardrobe, image 3 accepted CG01 for study environment and rendering continuity. Reference sheets are NOT output layouts. Show only the protagonist(s) explicitly required in the scene. No officials, attendants, guards or other people in the present-day study, nor human portraits. Olivia: adult woman with waist-length straight midnight blue-black hair, amber-gold eyes, high-collared ivory and navy antique-gold embroidered regent gown, no crown. Finley: youthful adult androgynous fully human scholar, short side-parted brown hair, grey-green eyes, navy scholarly clothes, round human ears, no horns, scales, tail or other nonhuman traits. Their interaction is a familiar private scholarly conversation, natural and restrained. Study: large carved dark wooden desk, gothic tall windows with blue night outside, dark bookshelves, a few warm candles, matching image 3. Finley turning to the last page of the shared research notebook in the candlelit study, calm and earnest expression, unfinished references and blocked-access notes implied through abstract illegible markings.",
+      "reference_paths": [
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_OLIVIA_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_FINLEY_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/output/LE_EP04_ACT02_restart/LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png"
+      ]
+    },
+    {
+      "cg": "CG23",
+      "title": "芬利坦承未完成研究",
+      "id": "LE_CG_EP04_ACT02_SC06_IMG02_v0.1",
+      "prompt": "Two-shot of Finley sincerely admitting he still wants to complete the five-year-old historical research, Olivia listening quietly across the desk, emotional but restrained atmosphere.",
+      "file": "LE_CG_EP04_ACT02_SC06_IMG02_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. References: image 1 Olivia official identity/wardrobe, image 2 Finley official identity/wardrobe, image 3 accepted CG01 for study environment and rendering continuity. Reference sheets are NOT output layouts. Show only the protagonist(s) explicitly required in the scene. No officials, attendants, guards or other people in the present-day study, nor human portraits. Olivia: adult woman with waist-length straight midnight blue-black hair, amber-gold eyes, high-collared ivory and navy antique-gold embroidered regent gown, no crown. Finley: youthful adult androgynous fully human scholar, short side-parted brown hair, grey-green eyes, navy scholarly clothes, round human ears, no horns, scales, tail or other nonhuman traits. Their interaction is a familiar private scholarly conversation, natural and restrained. Study: large carved dark wooden desk, gothic tall windows with blue night outside, dark bookshelves, a few warm candles, matching image 3. Two-shot of Finley sincerely admitting he still wants to complete the five-year-old historical research, Olivia listening quietly across the desk, emotional but restrained atmosphere.",
+      "reference_paths": [
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_OLIVIA_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_FINLEY_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/output/LE_EP04_ACT02_restart/LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png"
+      ]
+    },
+    {
+      "cg": "CG24",
+      "title": "奧莉維亞想起塔瑪拉",
+      "id": "LE_CG_EP04_ACT02_SC06_IMG03_v0.1",
+      "prompt": "Olivia in reflective close-up, eyes shifting slightly as she remembers that Tamara may know a legal route to the missing materials, subtle realization in a quiet night setting.",
+      "file": "LE_CG_EP04_ACT02_SC06_IMG03_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. References: image 1 Olivia official identity/wardrobe, image 2 Finley official identity/wardrobe, image 3 accepted CG01 for study environment and rendering continuity. Reference sheets are NOT output layouts. Show only the protagonist(s) explicitly required in the scene. No officials, attendants, guards or other people in the present-day study, nor human portraits. Olivia: adult woman with waist-length straight midnight blue-black hair, amber-gold eyes, high-collared ivory and navy antique-gold embroidered regent gown, no crown. Finley: youthful adult androgynous fully human scholar, short side-parted brown hair, grey-green eyes, navy scholarly clothes, round human ears, no horns, scales, tail or other nonhuman traits. Their interaction is a familiar private scholarly conversation, natural and restrained. Study: large carved dark wooden desk, gothic tall windows with blue night outside, dark bookshelves, a few warm candles, matching image 3. Olivia in reflective close-up, eyes shifting slightly as she remembers that Tamara may know a legal route to the missing materials, subtle realization in a quiet night setting.",
+      "reference_paths": [
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_OLIVIA_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/references/cloud_originals/LE_REF_FINLEY_FACE_WARDROBE_v0.1.png",
+        "C:/Users/45P/Documents/ChatGPT/母獅帝國官方美術專案/output/LE_EP04_ACT02_restart/LE_CG_EP04_ACT02_SC01_IMG01_v0.3.png"
+      ]
+    },
+    {
+      "cg": "CG25",
+      "title": "兩疊文獻與攝政印信",
+      "id": "LE_CG_EP04_ACT02_SC06_IMG04_v0.1",
+      "prompt": "Final overhead closing shot: Saktian historical research notes and contemporary Anduvence administrative files lying side by side with the regency seal between them, visual metaphor connecting past imperial decline and present governance.",
+      "file": "LE_CG_EP04_ACT02_SC06_IMG04_v0.3.png",
+      "final_prompt": "Use case: illustration-story. Produce ONE finished 16:9 landscape game event CG, premium Japanese visual novel, dark political fantasy, high-end hand-painted 2D anime illustration, fine controlled linework, richly detailed backgrounds, elegant muted navy and antique gold palette, cinematic lighting. No readable letters or numbers, no text overlays, no captions, watermark, logo, photorealism, modern machinery, extra limbs, disfigured hands, sexualization. Any writing must be faint abstract ink marks that cannot be read as actual words. Never show the scene ID. Final overhead closing shot in the night study: two clearly separate stacks lie side by side, worn navy-bound Saktian historical research notes and crisp contemporary Anduvence administrative documents. A small brass regency seal lies between them. Warm candles at the margins, antique gold glints against dark wood, quiet reflective mood. Only abstract illegible document marks. No people, faces, hands, portraits or crowns.",
+      "reference_paths": []
+    }
+  ]
+}

@@ -26,7 +26,10 @@
     "content:import-ep02-act01": "tsx scripts/import-ep02-act01.ts",
     "content:import-ep02-act02": "tsx scripts/import-ep02-act02.ts",
     "content:import-ep02-later-acts": "tsx scripts/import-ep02-later-acts.ts",
-    "content:import-ep03": "tsx scripts/import-ep03.ts"
+    "content:import-ep03": "tsx scripts/import-ep03.ts",
+    "content:import-ep04-act01": "tsx scripts/import-ep04-act01.ts",
+    "content:import-ep04-act02": "tsx scripts/import-ep04-act02.ts",
+    "content:import-ep04-later-acts": "tsx scripts/import-ep04-later-acts.ts"
   },
   "dependencies": {
     "idb": "^8.0.0",

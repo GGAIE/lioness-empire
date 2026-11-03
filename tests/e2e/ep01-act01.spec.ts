@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { openActFromDirectory } from '../helpers/directory';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { readFile } from 'node:fs/promises';
 import { currentCg, initialState } from '../../packages/narrative-core/engine';
 

@@ -105,6 +105,25 @@
             "properties": {
               "type": {
                 "type": "string",
+                "const": "points"
+              },
+              "delta": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "type",
+              "delta"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
                 "const": "political"
               },
               "value": {

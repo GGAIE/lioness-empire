@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState, markRead } from '../../packages/narrative-core/engine';
 import audit from '../../content/sources/ep03/asset-audit.json' with { type: 'json' };
 

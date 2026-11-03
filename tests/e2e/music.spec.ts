@@ -32,6 +32,30 @@ test('Motif loops across its actual MP3 end without a pause or track change', as
   );
 });
 
+test('Sigil loops across its natural MP3 boundary and still honors a native pause', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await menu(page);
+  await page.getByLabel('選擇背景音樂').selectOption('BGM_SIGIL');
+  await playing(page, 'BGM_SIGIL');
+  const media = page.getByTestId('background-music');
+  await expect.poll(() => media.evaluate((a: HTMLAudioElement) => a.duration)).toBeGreaterThan(100);
+  await media.evaluate((a: HTMLAudioElement) => {
+    a.currentTime = a.duration - 0.5;
+  });
+  await expect
+    .poll(() => media.evaluate((a: HTMLAudioElement) => a.currentTime), { timeout: 10000 })
+    .toBeLessThan(2);
+  await expect(media).toHaveJSProperty('paused', false);
+  await expect
+    .poll(() => media.evaluate((a: HTMLAudioElement) => a.currentTime))
+    .toBeGreaterThan(0.2);
+  await media.evaluate((a: HTMLAudioElement) => a.pause());
+  await expect(page.getByRole('status', { name: '背景音樂播放狀態', exact: true })).toHaveText(
+    '已暫停'
+  );
+});
 test('six original tracks really decode, balance volume, pause/resume, stop and loop', async ({
   page,
 }, info) => {
@@ -128,7 +152,7 @@ test('remembers song/volume without autoplay and keeps manual music across dialo
   await page.getByRole('button', { name: '播放背景音樂', exact: true }).click();
   await playing(page, 'BGM_MOTIF');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
-  await page.getByRole('button', { name: /^開始序幕/ }).click();
+  await page.getByRole('button', { name: /^開始遊戲/ }).click();
   const media = page.getByTestId('background-music'),
     time = await media.evaluate((a: HTMLAudioElement) => a.currentTime);
   for (let i = 0; i < 4; i++)

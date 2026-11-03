@@ -1,0 +1,261 @@
+{
+  "act": 3,
+  "sourceSha256": "319de12ef571959fddedf8736a8e157a2edcd1fce525d5a4c8137997db61ec62",
+  "archive": "C:\\Users\\45P\\Downloads\\04\\母獅帝國_EP04_ACT03_23張CG_圖片包_v1.0.zip",
+  "archiveSha256": "bcb430cdc74ca3e90420dbe7b17ea7a525e50f1ee3cd9002404aa00359bebbf5",
+  "images": [
+    {
+      "id": "EP04-ACT03-CG01",
+      "number": 1,
+      "title": "SC01 主場景：三人學術會談",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG01_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC01_IMG01_v1.0.png",
+      "sha256": "406e9658ad6b6c6b2589dcb7c98b5402246ead2264fe198b70a800b9014d5acb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2941547
+    },
+    {
+      "id": "EP04-ACT03-CG02",
+      "number": 2,
+      "title": "法伊德的困境：被贊助綁住的研究",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG02_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC01_IMG02_v1.0.png",
+      "sha256": "6f2e97f7b3298bd6f5ad0dab78577c00fb48c0a6bbcf479f3091763e77e53cce",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2820925
+    },
+    {
+      "id": "EP04-ACT03-CG03",
+      "number": 3,
+      "title": "艾拉的困境：奧特丹學會的艱苦現實",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG03_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC01_IMG03_v1.0.png",
+      "sha256": "49a956f3d2a15cac46c2ae65b70f1b8828c2fa11b2cb35a0b98c38ff172f7f21",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2893178
+    },
+    {
+      "id": "EP04-ACT03-CG04",
+      "number": 4,
+      "title": "SC01 收束：奧莉薇雅思考兩種困境",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG04_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC01_IMG04_v1.0.png",
+      "sha256": "12cb2e67d7ad2a5678d4deb2ce53e20b74d253f46f6b953c33e07cfb29973dee",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2524400
+    },
+    {
+      "id": "EP04-ACT03-CG05",
+      "number": 5,
+      "title": "艾琳達與奧莉薇雅的側廳會面",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG05_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC02_IMG05_v1.0.png",
+      "sha256": "55a1d10ecd7135ffb835f08fba5c9514b6fb5fd67c11576ddcb27b71bb332d12",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2746690
+    },
+    {
+      "id": "EP04-ACT03-CG06",
+      "number": 6,
+      "title": "卡巴剛得流寇問題的情境畫面",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG06_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC02_IMG06_v1.0.png",
+      "sha256": "47225aae7e297989254145efda20b5a474b004e7025eb327d0d00e396aca4185",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2750588
+    },
+    {
+      "id": "EP04-ACT03-CG07",
+      "number": 7,
+      "title": "異常裝備證物",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG07_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC02_IMG07_v1.0.png",
+      "sha256": "4f8b49bd1e725f871d162c045e942faec7daeb7da7a30bd0d381645111caa270",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2698713
+    },
+    {
+      "id": "EP04-ACT03-CG08",
+      "number": 8,
+      "title": "艾琳達談真正困難",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG08_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC02_IMG08_v1.0.png",
+      "sha256": "a13f5805631dc00436a503a79e8a234354ebbf6dc85ab95a2e49ca289f32b1a2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2584073
+    },
+    {
+      "id": "EP04-ACT03-CG09",
+      "number": 9,
+      "title": "SC02 收束：留下未解的疑問",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG09_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC02_IMG09_v1.0.png",
+      "sha256": "73879bb66c424f9f55efb28505f1b90c3dda7af3412c7fa3b9d3677863476603",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2456866
+    },
+    {
+      "id": "EP04-ACT03-CG10",
+      "number": 10,
+      "title": "病房中的父女會談",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG10_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC03_IMG10_v1.0.png",
+      "sha256": "81eefb77095372ff62c40b26241821b2c30f1a54d9829ff8cee80c0b882d77b1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2685522
+    },
+    {
+      "id": "EP04-ACT03-CG11",
+      "number": 11,
+      "title": "回憶感畫面：戰時設立官署",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG11_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC03_IMG11_v1.0.png",
+      "sha256": "d1e8afa09c49506604fd8de423bc02dace0433a9ee2827f326a25871cebbd3e0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2790145
+    },
+    {
+      "id": "EP04-ACT03-CG12",
+      "number": 12,
+      "title": "制度交纏的象徵畫面",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG12_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC03_IMG12_v1.0.png",
+      "sha256": "d299f1985e1f06ca531134a4265e81e1577246b527c03b8a84ae5da2449b612e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3067794
+    },
+    {
+      "id": "EP04-ACT03-CG13",
+      "number": 13,
+      "title": "艾爾維爾評價兄妹政治能力",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG13_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC03_IMG13_v1.0.png",
+      "sha256": "7790259317a920143342d27651787ae57a9c9090736a1905e69e11e2d005b37f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2591968
+    },
+    {
+      "id": "EP04-ACT03-CG14",
+      "number": 14,
+      "title": "奧莉薇雅離開病房沉思",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG14_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC03_IMG14_v1.0.png",
+      "sha256": "7de5fb724220f2355d001ab9803d18416d9601abef08ea9d95107ef1be1ac330",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2242088
+    },
+    {
+      "id": "EP04-ACT03-CG15",
+      "number": 15,
+      "title": "奧莉薇雅低調出行",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG15_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC04_IMG15_v1.0.png",
+      "sha256": "74b6d42db875b495117248a8871ac0a41858d77624bc7c38e38c2a72f02520c0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2687644
+    },
+    {
+      "id": "EP04-ACT03-CG16",
+      "number": 16,
+      "title": "市場與商販閒聊",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG16_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC04_IMG16_v1.0.png",
+      "sha256": "a96568806eb85c5e6a5481d0593ec08ec11e00ecb07007bf3ff06bdeb54ec688",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2934814
+    },
+    {
+      "id": "EP04-ACT03-CG17",
+      "number": 17,
+      "title": "與第一線小官員交談",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG17_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC04_IMG17_v1.0.png",
+      "sha256": "90554dec70f4678f564e04429dd16454277e57ceabaf6bd6f83c2d895a3d2449",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2419886
+    },
+    {
+      "id": "EP04-ACT03-CG18",
+      "number": 18,
+      "title": "等待中的運輸車隊",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG18_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC04_IMG18_v1.0.png",
+      "sha256": "8e3c4175832eca57720611ca5f47ca6b48478688ae7335cc2a22f13a9179d0b2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2584838
+    },
+    {
+      "id": "EP04-ACT03-CG19",
+      "number": 19,
+      "title": "民生／救濟現場",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG19_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC04_IMG19_v1.0.png",
+      "sha256": "87f8c748cc8583622fcc7638be34f287f2e03d1399da00a68df94635ada6fb35",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2735015
+    },
+    {
+      "id": "EP04-ACT03-CG20",
+      "number": 20,
+      "title": "街邊茶攤的收束",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG20_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC04_IMG20_v1.0.png",
+      "sha256": "1600e5469dd079733b4c2025f5df36ed9d6f96e99513a8428a32b7281d73f376",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2602507
+    },
+    {
+      "id": "EP04-ACT03-CG21",
+      "number": 21,
+      "title": "街頭偶遇塔馬拉",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG21_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC05_IMG21_v1.0.png",
+      "sha256": "06c2ff5c7b84450e7a418a9e0f6f338f1bf56cbec12c0e4a3078f7efeaabf472",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2616136
+    },
+    {
+      "id": "EP04-ACT03-CG22",
+      "number": 22,
+      "title": "F1 啟動版：談薩克敵家族文獻",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG22_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC05_IMG22_v1.0.png",
+      "sha256": "87bee5ba5e6b99279f3c3fdb6eb37c872e21c47b8806a75157c3e2cca843bbfc",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2528163
+    },
+    {
+      "id": "EP04-ACT03-CG23",
+      "number": 23,
+      "title": "分別與 ACT03 收尾",
+      "path": "assets/cg/ep04/act03/complete-v1.0/LE_EP04_ACT03_CG23_v1.0.png",
+      "entry": "LE_CG_EP04_ACT03_SC05_IMG23_v1.0.png",
+      "sha256": "5c14ff203f7769666ddfa62766854d8586e6ee06ffb3a53392882efddae0593c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2572092
+    }
+  ]
+}

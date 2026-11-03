@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { musicTracks } from '../../apps/web-vn/src/engine/music';
 import { openActFromDirectory } from '../helpers/directory';
 import { readdir, readFile } from 'node:fs/promises';
-import { loadContent } from '../../scripts/load-content';
+import { loadReaderContent as loadContent } from '../../scripts/load-content';
 import { initialState } from '../../packages/narrative-core/engine';
 test('static build runs independently, has no developer UI or external service requests', async ({
   page,
@@ -16,13 +16,13 @@ test('static build runs independently, has no developer UI or external service r
       external.push(r.url());
   });
   await page.goto('/');
-  await expect(page.getByRole('button', { name: '開始序幕' })).toBeVisible();
+  await expect(page.getByRole('button', { name: '開始遊戲' })).toBeVisible();
   await expect(page.getByTestId('political-points')).toHaveText('50');
   await expect(page.getByTestId('unrest-value')).toHaveText('30 / 100');
   await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
   await expect(page.getByRole('button', { name: '瀏覽劇情架構' })).toHaveCount(0);
   await expect(page.getByRole('button', { name: '劇情架構', exact: true })).toHaveCount(0);
-  await page.getByRole('button', { name: '開始序幕' }).click();
+  await page.getByRole('button', { name: '開始遊戲' }).click();
   await page.getByRole('button', { name: '推進對話' }).click();
   await expect(page.getByTestId('dialogue-text')).toContainText('安度因的鐘聲');
   await expect(page.getByTestId('scene-cg')).toBeVisible();

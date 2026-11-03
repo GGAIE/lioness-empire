@@ -5,8 +5,13 @@ import {
   type GameState,
   type Story,
 } from '../../../../packages/narrative-core/schema';
-import { initialState, visibleSegments } from '../../../../packages/narrative-core/engine';
+import {
+  initialState,
+  visibleSegments,
+  evaluate,
+} from '../../../../packages/narrative-core/engine';
 import { createCampaign } from '../../../../packages/narrative-core/campaign';
+import { reviewedHistoryText } from '../../../../packages/narrative-core/reader-text';
 export const SettingsSchema = z
   .object({
     speed: z.number().min(0).max(100),
@@ -15,6 +20,7 @@ export const SettingsSchema = z
     sfx: z.number().min(0).max(1),
     autoDelay: z.number().min(500).max(10000),
     musicTrack: z.string().max(100).default('story'),
+    storyUnlocked: z.boolean().default(false),
   })
   .strict();
 export type Settings = z.infer<typeof SettingsSchema>;
@@ -25,6 +31,7 @@ export const defaults: Settings = {
   sfx: 0.4,
   autoDelay: 1800,
   musicTrack: 'story',
+  storyUnlocked: false,
 };
 export const MetaSchema = z
   .object({
@@ -162,6 +169,14 @@ export function restoreSave(input: unknown, story: Story): { state: GameState; n
       notices.push(`已加入新版旗標：${k}`);
     } else if (typeof state.flags[k] !== typeof v.initial) throw Error(`旗標型別不相容：${k}`);
   }
+  const restoredScene = story.scenes[state.currentSceneId];
+  if (restoredScene.availableWhen && !evaluate(state, restoredScene.availableWhen)) {
+    if (!restoredScene.next || !story.scenes[restoredScene.next])
+      throw Error('找不到可閱讀的接續位置。');
+    state.currentSceneId = restoredScene.next;
+    state.currentSegmentIndex = 0;
+    notices.push('已移至目前進度可閱讀的位置。');
+  }
   if (
     (state.tarotRoute === 'STAR' && state.politicalRoute !== 'SACRED') ||
     (state.tarotRoute === 'CHARIOT' && state.politicalRoute !== 'WORLD') ||
@@ -185,9 +200,15 @@ export function restoreSave(input: unknown, story: Story): { state: GameState; n
     state.currentSegmentIndex = Math.max(0, max);
     notices.push('段落已縮短，位置移至本場景最後一段。');
   }
-  let refreshedSpeakers = 0;
+  let refreshedSpeakers = 0,
+    refreshedText = 0;
   state.history = state.history.map((entry) => {
     const segment = story.scenes[entry.sceneId]?.segments.find((s) => s.id === entry.segmentId);
+    const text = reviewedHistoryText(entry.sceneId, entry.segmentId, entry.text);
+    if (segment?.text === text && text !== entry.text) {
+      refreshedText++;
+      entry = { ...entry, text };
+    }
     if (
       !segment ||
       segment.text !== entry.text ||
@@ -197,6 +218,7 @@ export function restoreSave(input: unknown, story: Story): { state: GameState; n
     refreshedSpeakers++;
     return { ...entry, speaker: segment.speaker, speakerLabel: segment.speakerLabel };
   });
+  if (refreshedText) notices.push(`已潤飾 ${refreshedText} 段回顧的敘述，閱讀位置與選擇保留。`);
   if (refreshedSpeakers)
     notices.push(`已更新 ${refreshedSpeakers} 段回顧的說話者標記，正文與閱讀位置不變。`);
   return { state, notices };

@@ -3,7 +3,15 @@ import type {
   CampaignState,
 } from '../../../../packages/narrative-core/campaign-schema';
 import { openingCost } from '../../../../packages/narrative-core/campaign';
-export function ResourceHud({ state, plan }: { state: CampaignState | null; plan?: CampaignPlan }) {
+export function ResourceHud({
+  state,
+  plan,
+  unlocked = false,
+}: {
+  state: CampaignState | null;
+  plan?: CampaignPlan;
+  unlocked?: boolean;
+}) {
   const points = state?.politicalPoints ?? null,
     unrest = state?.unrest ?? null;
   const band =
@@ -40,11 +48,13 @@ export function ResourceHud({ state, plan }: { state: CampaignState | null; plan
         <strong data-testid="unrest-value">{unrest === null ? '待設定' : `${unrest} / 100`}</strong>
       </div>
       <div className="resource-hud-forecast" aria-live="polite">
-        {cost !== null
-          ? `下章開局預計扣 ${cost} 點`
-          : next === 'EP12'
-            ? 'EP12 結算規則待確認'
-            : '依固定劇情選項更新'}
+        {unlocked
+          ? '自由閱讀 · 切換章節不扣點'
+          : cost !== null
+            ? `下章開局預計扣 ${cost} 點`
+            : next === 'EP12'
+              ? 'EP12 結算規則待確認'
+              : '依固定劇情選項更新'}
       </div>
     </section>
   );

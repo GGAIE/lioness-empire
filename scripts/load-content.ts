@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { z } from 'zod';
 import { CampaignPlanSchema } from '../packages/narrative-core/campaign-schema';
+import { prepareReaderStory } from '../packages/narrative-core/reader-text';
 import {
   ManifestSchema,
   AssetSchema,
@@ -12,6 +13,7 @@ import {
 export const root = resolve(import.meta.dirname, '..');
 export const readJson = async (path: string) =>
   JSON.parse(await readFile(resolve(root, 'content', path), 'utf8')) as unknown;
+export const loadReaderContent = async () => prepareReaderStory(await loadContent());
 export async function loadContent(): Promise<Story> {
   const manifest = ManifestSchema.parse(await readJson('manifests/story.json'));
   const scenes: Story['scenes'] = {};

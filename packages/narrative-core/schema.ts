@@ -42,6 +42,7 @@ export const EffectSchema = z.discriminatedUnion('type', [
     })
     .strict(),
   z.object({ type: z.literal('score'), delta: z.number().int() }).strict(),
+  z.object({ type: z.literal('points'), delta: z.number().int() }).strict(),
   z.object({ type: z.literal('political'), value: z.enum(['SACRED', 'WORLD']) }).strict(),
   z.object({ type: z.literal('reinforce'), value: z.boolean() }).strict(),
 ]);
@@ -82,6 +83,15 @@ export const SceneSchema = z
     scoring: z.enum(['NONE', 'STORY_EFFECTS']).optional(),
     choiceMode: z.enum(['STORY', 'DIALOGUE_FLAVOR']).optional(),
     completionFlags: z.record(z.string().regex(/^[A-Z][A-Z0-9_]*$/), Scalar).optional(),
+    availableWhen: ConditionSchema.optional(),
+    completionEffects: z
+      .object({ when: ConditionSchema, effects: z.array(EffectSchema).min(1) })
+      .strict()
+      .optional(),
+    conditionalNext: z
+      .object({ when: ConditionSchema, next: z.string().min(1) })
+      .strict()
+      .optional(),
     completion: z
       .object({
         title: z.string(),
@@ -136,6 +146,13 @@ export const SceneSchema = z
       c.addIssue({ code: 'custom', message: 'Chapter completion requires end scene' });
     if (s.completionFlags && s.kind === 'choice')
       c.addIssue({ code: 'custom', message: 'Completion flags cannot precede a player choice' });
+    if ((s.completionEffects || s.conditionalNext) && s.kind === 'choice')
+      c.addIssue({
+        code: 'custom',
+        message: 'Automatic completion cannot precede a player choice',
+      });
+    if (s.conditionalNext && !s.next)
+      c.addIssue({ code: 'custom', message: 'Conditional next requires a fallback next' });
     if (s.kind === 'choice' && (s.pov !== 'OLIVIA' || s.chapter === 'EP12' || !s.choices.length))
       c.addIssue({
         code: 'custom',
