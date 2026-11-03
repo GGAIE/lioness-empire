@@ -1,0 +1,51 @@
+[
+  {
+    "id": "palace",
+    "label": "王都迴廊",
+    "desktop": "assets/covers/default-palace.png",
+    "mobile": "assets/covers/default-palace.png",
+    "alt": "母獅旗幟下的王都迴廊與遠方宮殿"
+  },
+  {
+    "id": "star-character",
+    "label": "星星・人物",
+    "desktop": "assets/covers/release-20261104/star-character-desktop.jpg",
+    "mobile": "assets/covers/release-20261104/star-character-mobile.jpg",
+    "alt": "奧莉維亞與王都"
+  },
+  {
+    "id": "star-abstract",
+    "label": "星星・抽象",
+    "desktop": "assets/covers/release-20261104/star-abstract-desktop.jpg",
+    "mobile": "assets/covers/release-20261104/star-abstract-mobile.jpg",
+    "alt": "星星主題的王國風景"
+  },
+  {
+    "id": "tower-character",
+    "label": "高塔・人物",
+    "desktop": "assets/covers/release-20261104/tower-character-desktop.jpg",
+    "mobile": "assets/covers/release-20261104/tower-character-mobile.jpg",
+    "alt": "奧莉維亞與王都"
+  },
+  {
+    "id": "tower-abstract",
+    "label": "高塔・抽象",
+    "desktop": "assets/covers/release-20261104/tower-abstract-desktop.jpg",
+    "mobile": "assets/covers/release-20261104/tower-abstract-mobile.jpg",
+    "alt": "高塔主題的王國風景"
+  },
+  {
+    "id": "chariot-character",
+    "label": "戰車・人物",
+    "desktop": "assets/covers/release-20261104/chariot-character-desktop.jpg",
+    "mobile": "assets/covers/release-20261104/chariot-character-mobile.jpg",
+    "alt": "奧莉維亞與艾維斯的王室對峙"
+  },
+  {
+    "id": "chariot-abstract",
+    "label": "戰車・抽象",
+    "desktop": "assets/covers/release-20261104/chariot-abstract-desktop.jpg",
+    "mobile": "assets/covers/release-20261104/chariot-abstract-mobile.jpg",
+    "alt": "戰車主題的王國風景"
+  }
+]

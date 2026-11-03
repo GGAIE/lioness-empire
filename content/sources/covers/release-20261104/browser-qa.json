@@ -1,0 +1,174 @@
+{
+  "browser": "Microsoft Edge headless",
+  "results": [
+    {
+      "route": "star",
+      "variant": "character",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/star-character-desktop.jpg",
+      "width": 1920,
+      "height": 1080,
+      "ratio": 1.7777777777777777,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "star",
+      "variant": "abstract",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/star-abstract-desktop.jpg",
+      "width": 1920,
+      "height": 1080,
+      "ratio": 1.7777777777777777,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "tower",
+      "variant": "character",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/tower-character-desktop.jpg",
+      "width": 1920,
+      "height": 1080,
+      "ratio": 1.7777777777777777,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "tower",
+      "variant": "abstract",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/tower-abstract-desktop.jpg",
+      "width": 1920,
+      "height": 1080,
+      "ratio": 1.7777777777777777,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "chariot",
+      "variant": "character",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/chariot-character-desktop.jpg",
+      "width": 1920,
+      "height": 1080,
+      "ratio": 1.7777777777777777,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "chariot",
+      "variant": "abstract",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/chariot-abstract-desktop.jpg",
+      "width": 1920,
+      "height": 1080,
+      "ratio": 1.7777777777777777,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "star",
+      "variant": "character",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/star-character-mobile.jpg",
+      "width": 1080,
+      "height": 1920,
+      "ratio": 0.5625042255425596,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "star",
+      "variant": "abstract",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/star-abstract-mobile.jpg",
+      "width": 1080,
+      "height": 1920,
+      "ratio": 0.5625042255425596,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "tower",
+      "variant": "character",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/tower-character-mobile.jpg",
+      "width": 1080,
+      "height": 1920,
+      "ratio": 0.5625042255425596,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "tower",
+      "variant": "abstract",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/tower-abstract-mobile.jpg",
+      "width": 1080,
+      "height": 1920,
+      "ratio": 0.5625042255425596,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "chariot",
+      "variant": "character",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/chariot-character-mobile.jpg",
+      "width": 1080,
+      "height": 1920,
+      "ratio": 0.5625042255425596,
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "route": "chariot",
+      "variant": "abstract",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "src": "file:///C:/Users/45P/Documents/ChatGPT/%E6%AF%8D%E7%8D%85%E5%B8%9D%E5%9C%8B%E5%AE%98%E6%96%B9%E7%BE%8E%E8%A1%93%E5%B0%88%E6%A1%88/output/LE_Covers_release_20261104/images/chariot-abstract-mobile.jpg",
+      "width": 1080,
+      "height": 1920,
+      "ratio": 0.5625042255425596,
+      "overflow": false,
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

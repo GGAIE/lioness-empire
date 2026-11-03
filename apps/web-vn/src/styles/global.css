@@ -1828,14 +1828,72 @@ input[type='range'] {
   border: 0;
   background: none;
 }
+.shell--title .game-frame {
+  height: auto;
+  min-height: 0;
+  max-height: none;
+}
+.shell--title .title-screen {
+  padding: 0 0 30px;
+  height: auto;
+  min-height: 0;
+  background: #0c1420;
+}
+.title-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #080d18;
+}
+.title-cover picture,
+.title-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.title-cover img {
+  object-fit: contain;
+}
+.title-cover-copy {
+  position: absolute;
+  inset: auto 6% 5%;
+  text-align: center;
+  text-shadow: 0 2px 12px #000;
+}
+.title-cover-copy h1 {
+  font-size: clamp(28px, 4vw, 56px);
+}
+.title-cover-copy .latin-title {
+  margin-top: 4px;
+}
+.settings select {
+  width: 100%;
+  padding: 12px;
+  background: #111d2b;
+  color: #eee6d6;
+  border: 1px solid var(--line);
+  font: inherit;
+}
+.settings select:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+@media (max-width: 767px) {
+  .title-cover {
+    aspect-ratio: 9 / 16;
+  }
+  .title-cover-copy {
+    bottom: 6%;
+  }
+}
 @media (max-width: 650px) {
   .shell--title .game-frame {
     height: auto;
-    min-height: 620px;
+    min-height: 0;
     max-height: none;
   }
   .shell--title .title-screen {
-    min-height: 620px;
+    min-height: 0;
   }
   .title-screen .eyebrow {
     margin-bottom: 18px;
@@ -1850,5 +1908,181 @@ input[type='range'] {
   }
   .page-footer {
     align-items: center;
+  }
+}
+
+/* Keep the complete title menu within the first viewport. */
+.shell--title {
+  height: 100svh;
+  min-height: 420px;
+  max-width: none;
+  padding: 0 20px;
+  display: grid;
+  grid-template-rows: 62px auto minmax(0, 1fr) 44px;
+  grid-template-columns: minmax(0, 1fr);
+}
+.shell--title .masthead {
+  height: 62px;
+}
+.shell--title .brand {
+  font-size: 18px;
+}
+.shell--title .brand small {
+  font-size: 8px;
+}
+.shell--title > .resource-hud {
+  margin: 8px 0;
+  position: static;
+}
+.shell--title .workspace {
+  display: block;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+.shell--title .side-label,
+.shell--title .right-rail {
+  display: none;
+}
+.shell--title .game-frame {
+  height: 100%;
+  min-height: 0;
+}
+.shell--title .title-screen {
+  height: 100%;
+  padding: 0;
+}
+.shell--title .title-cover {
+  height: 100%;
+  aspect-ratio: auto;
+  overflow: hidden;
+}
+.shell--title .title-cover img {
+  object-position: center top;
+}
+.shell--title .title-cover--palace img {
+  object-fit: cover;
+}
+.shell--title .title-cover::after {
+  content: '';
+  position: absolute;
+  inset: 55% 0 0;
+  background: linear-gradient(transparent, #080e1cbb);
+  pointer-events: none;
+}
+.shell--title .title-cover-copy {
+  z-index: 1;
+  inset: auto 3% 112px;
+}
+.shell--title .title-cover-copy h1 {
+  font-size: clamp(26px, 3vw, 44px);
+}
+.shell--title .title-actions {
+  position: absolute;
+  z-index: 1;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(800px, 92%);
+  margin: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.shell--title .title-actions > button {
+  min-height: 38px;
+  padding: 9px 4px;
+  letter-spacing: 2px;
+}
+.shell--title .page-footer {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+@media (max-width: 767px) {
+  .shell--title {
+    padding: 0 8px;
+    grid-template-rows: 54px auto minmax(0, 1fr) 40px;
+  }
+  .shell--title .masthead {
+    height: 54px;
+  }
+  .shell--title .edition {
+    display: none;
+  }
+  .shell--title .brand {
+    font-size: 16px;
+    gap: 6px;
+  }
+  .shell--title .title-cover-copy {
+    bottom: 116px;
+  }
+  .shell--title .title-cover-copy h1 {
+    font-size: 28px;
+  }
+  .shell--title .title-cover-copy .latin-title {
+    font-size: 9px;
+    letter-spacing: 4px;
+  }
+  .shell--title .title-actions {
+    width: 96%;
+    gap: 6px;
+    bottom: 12px;
+  }
+  .shell--title .title-actions > button {
+    min-height: 44px;
+    padding: 8px 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .shell--title .page-footer > span {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+}
+@media (max-height: 520px) and (orientation: landscape) {
+  .shell--title {
+    min-height: 320px;
+    grid-template-rows: 42px auto minmax(0, 1fr) 30px;
+  }
+  .shell--title .masthead {
+    height: 42px;
+  }
+  .shell--title .title-cover-copy {
+    inset: 8px auto auto 16px;
+  }
+  .shell--title .title-cover-copy h1 {
+    font-size: 24px;
+  }
+  .shell--title .title-cover-copy .latin-title {
+    display: none;
+  }
+  .shell--title .title-actions {
+    bottom: 8px;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 4px;
+  }
+  .shell--title .title-actions > button {
+    min-height: 32px;
+    padding: 6px 2px;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .shell--title .page-footer .secret-trigger {
+    min-height: 30px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .shell--title .page-footer .secret-trigger {
+    min-height: 40px;
+    padding: 4px;
+  }
+}
+
+@media (max-height: 520px) and (orientation: landscape) {
+  .shell--title .page-footer .secret-trigger {
+    min-height: 30px;
+    padding: 0;
   }
 }

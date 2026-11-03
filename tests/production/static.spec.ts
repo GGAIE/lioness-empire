@@ -60,7 +60,7 @@ test('static build opens ACT II with the original CG and the second-act heading'
 }) => {
   await page.goto('/');
   await expect(page.getByRole('button', { name: '章節目錄', exact: true })).toBeVisible();
-  await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
+  await expect(page.getByTestId('title-cover')).toHaveJSProperty('naturalWidth', 1672);
   await page.screenshot({ path: 'docs/screenshots/production-title-act02.png', fullPage: true });
   await openActFromDirectory(page, 2);
   await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP01_ACT02_SC01');

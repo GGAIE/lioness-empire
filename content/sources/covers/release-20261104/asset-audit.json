@@ -1,0 +1,198 @@
+{
+  "archive": "C:\\Users\\45P\\Documents\\ChatGPT\\母獅帝國官方美術專案\\output\\LE_Covers_release_20261104.zip",
+  "archiveSha256": "c796bffd69472b38e9001b34f643da3f378405c7f7c7f005f7b3392539b4ce57",
+  "images": [
+    {
+      "entry": "images/star-character-desktop.png",
+      "path": "assets/covers/release-20261104/star-character-desktop.png",
+      "sha256": "9cb2571397e57d32831ded9b85712dce01dc38b3d4cde92cd7ca3e65c95eef39",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 5104629
+    },
+    {
+      "entry": "images/star-character-desktop.jpg",
+      "path": "assets/covers/release-20261104/star-character-desktop.jpg",
+      "sha256": "a141751cbbea7be2a95a87de5b9d77db259750a8a7c6db540942fddb189e5e12",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 528970
+    },
+    {
+      "entry": "images/star-character-mobile.png",
+      "path": "assets/covers/release-20261104/star-character-mobile.png",
+      "sha256": "2ccd84ea451410f6b9c4b7c87476ea8018a8f2f8fba1ef2929ee1d6d4be9bea0",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 4768178
+    },
+    {
+      "entry": "images/star-character-mobile.jpg",
+      "path": "assets/covers/release-20261104/star-character-mobile.jpg",
+      "sha256": "e156af5988809912f1de8d4bf8a40d649724691fbf6aa203304f274337cf4343",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 511741
+    },
+    {
+      "entry": "images/star-abstract-desktop.png",
+      "path": "assets/covers/release-20261104/star-abstract-desktop.png",
+      "sha256": "69f8be016ebb0e35609476bf62f7abc4977ebf9b4a1d71fdd748f50d8071b0e0",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 4669970
+    },
+    {
+      "entry": "images/star-abstract-desktop.jpg",
+      "path": "assets/covers/release-20261104/star-abstract-desktop.jpg",
+      "sha256": "bbfbbf9cfc4cb12549e9beddc634d17066a2786e945c0ac544916bbe08faf4db",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 479622
+    },
+    {
+      "entry": "images/star-abstract-mobile.png",
+      "path": "assets/covers/release-20261104/star-abstract-mobile.png",
+      "sha256": "f7b5e985b19f4d4e8729e8b79aa0dfc9f05a827334c48b86abc3ba31741dd141",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 4481035
+    },
+    {
+      "entry": "images/star-abstract-mobile.jpg",
+      "path": "assets/covers/release-20261104/star-abstract-mobile.jpg",
+      "sha256": "71d615e11f6adb812665b9616f2eb325f9b7ba36a4fcc584ad42e64a4f512341",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 464162
+    },
+    {
+      "entry": "images/tower-character-desktop.png",
+      "path": "assets/covers/release-20261104/tower-character-desktop.png",
+      "sha256": "e74c2e6b174edef79d76ea17388b0ff62ee39b84cc9e73f28de6cea153212161",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 4494457
+    },
+    {
+      "entry": "images/tower-character-desktop.jpg",
+      "path": "assets/covers/release-20261104/tower-character-desktop.jpg",
+      "sha256": "19bc8682a5a26ca28e58a59341930ca49b8d2b7b8e0fbffad6f7d4f1296067f2",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 460365
+    },
+    {
+      "entry": "images/tower-character-mobile.png",
+      "path": "assets/covers/release-20261104/tower-character-mobile.png",
+      "sha256": "2b2e3b56c134fd1180d3a73940ff9c67e272b8a584d2ae59ccb285c966930011",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 4189640
+    },
+    {
+      "entry": "images/tower-character-mobile.jpg",
+      "path": "assets/covers/release-20261104/tower-character-mobile.jpg",
+      "sha256": "3b702eacc2eaae80c736fd04d4f1a71d35cf6dab53a4ba127bf861948b390f1f",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 459482
+    },
+    {
+      "entry": "images/tower-abstract-desktop.png",
+      "path": "assets/covers/release-20261104/tower-abstract-desktop.png",
+      "sha256": "7c2aed6eaf26881dbcb894b0203990d0db41af2ee1050a38e95813df81dd5011",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 4730890
+    },
+    {
+      "entry": "images/tower-abstract-desktop.jpg",
+      "path": "assets/covers/release-20261104/tower-abstract-desktop.jpg",
+      "sha256": "128039c08d0d0b5c744b4129734382bd9cbf5125cd3f8740c0f39695553866e1",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 470319
+    },
+    {
+      "entry": "images/tower-abstract-mobile.png",
+      "path": "assets/covers/release-20261104/tower-abstract-mobile.png",
+      "sha256": "5ab71f8ca91097f4a4a1da432daea560347cf461184b42e1e8be715e15644f8d",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 4839488
+    },
+    {
+      "entry": "images/tower-abstract-mobile.jpg",
+      "path": "assets/covers/release-20261104/tower-abstract-mobile.jpg",
+      "sha256": "fe27d69d380027f8d43eccc5663cb37d76ec0b18698f2c6bbbfada31cb96487e",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 527199
+    },
+    {
+      "entry": "images/chariot-character-desktop.png",
+      "path": "assets/covers/release-20261104/chariot-character-desktop.png",
+      "sha256": "428f15828b367d13e9bb9130647104609d434e229529068d0a369d6d0364dd8b",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 4721559
+    },
+    {
+      "entry": "images/chariot-character-desktop.jpg",
+      "path": "assets/covers/release-20261104/chariot-character-desktop.jpg",
+      "sha256": "b7e7c4202099e68dbbc1cd103291e28b347020fafb60eb254814442b5129cbe5",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 484168
+    },
+    {
+      "entry": "images/chariot-character-mobile.png",
+      "path": "assets/covers/release-20261104/chariot-character-mobile.png",
+      "sha256": "8b0fb3f98f6bc1cb865db9c40d79a3e14b4b6408a58bd72c7a4bf7008f910e40",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 4245841
+    },
+    {
+      "entry": "images/chariot-character-mobile.jpg",
+      "path": "assets/covers/release-20261104/chariot-character-mobile.jpg",
+      "sha256": "01d649a2bc4ab1399ab18a85a0c07bf62746f3ce1d33cdf62d461cb3e3a40f98",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 434464
+    },
+    {
+      "entry": "images/chariot-abstract-desktop.png",
+      "path": "assets/covers/release-20261104/chariot-abstract-desktop.png",
+      "sha256": "5279f361ec6ab376c55b9b785173af3eb453de862b5c6cca330972914b750879",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 4868132
+    },
+    {
+      "entry": "images/chariot-abstract-desktop.jpg",
+      "path": "assets/covers/release-20261104/chariot-abstract-desktop.jpg",
+      "sha256": "add850ebfefa4e4bec3ea788d9529c2caa20d6399eede7002d4106d4648871a1",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 519547
+    },
+    {
+      "entry": "images/chariot-abstract-mobile.png",
+      "path": "assets/covers/release-20261104/chariot-abstract-mobile.png",
+      "sha256": "334d9ec532ef81e39db1f0736eb5e6effcbbd31fffc7ab194bd13241439dd145",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 4846209
+    },
+    {
+      "entry": "images/chariot-abstract-mobile.jpg",
+      "path": "assets/covers/release-20261104/chariot-abstract-mobile.jpg",
+      "sha256": "9da523b0dd3f02312a5d374161948f3c7fc83d982cbcf151f6b2741fe87f19dc",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 547530
+    }
+  ]
+}

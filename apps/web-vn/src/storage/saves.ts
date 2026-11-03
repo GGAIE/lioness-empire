@@ -12,6 +12,7 @@ import {
 } from '../../../../packages/narrative-core/engine';
 import { createCampaign } from '../../../../packages/narrative-core/campaign';
 import { reviewedHistoryText } from '../../../../packages/narrative-core/reader-text';
+import { CoverIdSchema, CoverRouteSchema } from '../engine/covers';
 export const SettingsSchema = z
   .object({
     speed: z.number().min(0).max(100),
@@ -21,6 +22,7 @@ export const SettingsSchema = z
     autoDelay: z.number().min(500).max(10000),
     musicTrack: z.string().max(100).default('story'),
     storyUnlocked: z.boolean().default(false),
+    cover: CoverIdSchema.default('palace'),
   })
   .strict();
 export type Settings = z.infer<typeof SettingsSchema>;
@@ -32,6 +34,7 @@ export const defaults: Settings = {
   autoDelay: 1800,
   musicTrack: 'story',
   storyUnlocked: false,
+  cover: 'palace',
 };
 export const MetaSchema = z
   .object({
@@ -39,6 +42,7 @@ export const MetaSchema = z
     cg: z.array(z.string()),
     endings: z.array(z.string()),
     chapters: z.array(z.string()),
+    completedRoutes: z.array(CoverRouteSchema).optional(),
   })
   .strict();
 export type Meta = z.infer<typeof MetaSchema>;
@@ -237,6 +241,7 @@ export function exportSave(record: SaveRecord) {
 export function mergeMeta(meta: Meta, state: GameState, cg?: string, ending?: string): Meta {
   const union = (a: string[], b: string[]) => [...new Set([...a, ...b])];
   return {
+    ...meta,
     read: union(meta.read, state.readSegments),
     cg: union(meta.cg, cg ? [cg] : []),
     endings: union(meta.endings, ending ? [ending] : []),

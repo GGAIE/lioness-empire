@@ -1,0 +1,103 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-04 Asia/Taipei",
+  "hand_fix": "Precise local anatomy correction of this cover. Change ONLY the malformed hand/wrist area at the right end of Olivia's visible sleeve, around x 60-67% y 59-69%. Draw ONE anatomically correct slender adult right hand resting gently palm down on stone parapet: coherent wrist aligned with forearm, five total fingers, four relaxed naturally separated fingers gently draping down front edge, thumb on inner side, correct knuckles and realistic finger lengths. Retain a single gold lion signet ring on ring finger. Other hand fully hidden behind forearm/body, no overlapping duplicated fingers. Preserve original character face, hair, costume embroidery, camera, city, flags, lighting, colors and 16:9 composition exactly. No red marks, no text.",
+  "assets": [
+    {
+      "id": "star-character",
+      "format": "desktop",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-ef8ea1e3-d767-4182-84e5-9b6089269124.png",
+      "prompt": "Use case: stylized-concept. Finished official game cover for The Lioness Empire. Dark political fantasy, premium Japanese visual novel, high-end hand-painted anime illustration, cinematic light, refined painterly architecture. No text, no letters, no logos, no watermark, no border, no collage. Bottom 28 percent quiet dark foreground reserved for HTML title and buttons. Olivia d'Anduvence, adult royal stateswoman, waist-length straight blue-black hair, amber-gold eyes, cool pale skin, refined mature aristocratic face, controlled presence. Match reference face and navy antique-gold embroidered regent coat over ivory inner dress, Ogan pendant and lion signet ring. NO crown or tiara. Olivia alone on a palace terrace, three-quarter view towards viewer, steady hopeful gaze. United navy ivory banners flank pale Gothic royal capital, dawn breaking into star-lit sky, warm gold light suggests support and legitimate ascent. No other people. Landscape 16:9, 1920x1080. Keep main figure and key architecture entirely inside middle 30 percent width so a central portrait crop retains the story, face in upper-middle area, expansive scenic wings.",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "star-character",
+      "format": "mobile",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-bd313dd1-7067-4277-9031-411f523db740.png",
+      "prompt": "Adapt this exact finished artwork into a dedicated portrait 9:16 mobile game cover, 1080x1920. Preserve Olivia's exact face, adult age, blue-black long straight hair, gold eyes, navy gold ivory regent clothing, pendant, no crown. Recompose to show her complete head and upper body in central area and pale capital behind her shoulder, starry dawn sky above. Correct hands naturally composed at waist with five fingers per hand and clear wrist anatomy, single signet ring. Bottom 28% dark quiet terrace for title and buttons. Same painterly style and palette. No text, no border.",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "star-abstract",
+      "format": "desktop",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-9c445a6b-28e6-4515-ad55-1f0e26fc1ce2.png",
+      "prompt": "Use case: stylized-concept. Finished official game cover for The Lioness Empire. Dark political fantasy, premium Japanese visual novel, high-end hand-painted anime illustration, cinematic light, refined painterly architecture. No text, no letters, no logos, no watermark, no border, no collage. Bottom 28 percent quiet dark foreground reserved for HTML title and buttons. Entirely unpeopled symbolic dreamlike scene: a single brilliant star above luminous pale Gothic sanctuary, navy and ivory banners converging toward one pool of golden light, scattered gold filaments becoming a united halo. Hope and collective support. No humans, faces, silhouettes, statues or human-shaped forms. Landscape 16:9 1920x1080, central star sanctuary and pool of light all inside middle 30 percent width, expansive atmospheric wings. Match navy ivory antique gold aesthetic of companion character cover.",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "star-abstract",
+      "format": "mobile",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-30db53b0-5661-4f6e-82a8-c80ed73009bf.png",
+      "prompt": "Recompose this same finished artwork as portrait 9:16 mobile cover 1080x1920. Preserve luminous sanctuary, one star, united navy ivory banners and golden pool, same style, architecture and hopeful palette. Keep star inset from top edge, sanctuary in middle, bottom 28 percent calm dark navy stone terrace for HTML. Entirely no people, humanoid shapes, statues, text, logo or watermark.",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "tower-character",
+      "format": "desktop",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-643bdcc8-90c1-4f92-839c-14db4661faed.png",
+      "prompt": "Use case: stylized-concept. Finished official game cover for The Lioness Empire. Dark political fantasy, premium Japanese visual novel, high-end hand-painted anime illustration, cinematic light, refined painterly architecture. No text, no letters, no logos, no watermark, no border, no collage. Bottom 28 percent quiet dark foreground reserved for HTML title and buttons. Olivia d'Anduvence, adult royal stateswoman, waist-length straight blue-black hair, amber-gold eyes, cool pale skin, refined mature aristocratic face, controlled presence. Match reference face and navy antique-gold embroidered regent coat over ivory inner dress, Ogan pendant and lion signet ring. NO crown or tiara. Olivia alone in three-quarter back view, face profile visible, standing with dignified grief above a fallen royal capital, broken Gothic tower and burning city beyond, embers in charcoal storm sky, torn navy banners, orange reflected fire on gold embroidery. No other people. No gore. Landscape 16:9 1920x1080. Figure and broken tower close together inside central 30 percent width for a safe portrait crop, face upper-middle. Expansive burning city wings.",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "tower-character",
+      "format": "mobile",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-50e8b58d-a06a-44bb-a02e-f564a748c5f3.png",
+      "prompt": "Recompose this corrected finished artwork as dedicated portrait 9:16 mobile cover 1080x1920. Preserve Olivia exact adult face, amber eye, long blue-black hair, no crown, navy gold ivory regent garment and single signet ring. Three-quarter back view looking toward burning royal capital, broken tower visible behind shoulder. One anatomically correct right hand rests palm down gently on parapet at waist level, coherent wrist, four relaxed fingers draping over edge and thumb on inner side, other hand completely hidden. Keep full head inset and all visible fingers inside image. Same controlled grief, charcoal ember orange light and painted style. Bottom 28% calm dark stone and cloak for HTML, no text or watermark.",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "tower-abstract",
+      "format": "desktop",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-6c4ad8c3-a9bc-48b4-8c2e-4501e6602e30.png",
+      "prompt": "Use case: stylized-concept. Finished official game cover for The Lioness Empire. Dark political fantasy, premium Japanese visual novel, high-end hand-painted anime illustration, cinematic light, refined painterly architecture. No text, no letters, no logos, no watermark, no border, no collage. Bottom 28 percent quiet dark foreground reserved for HTML title and buttons. Entirely unpeopled symbolic dreamlike fallen capital: a shattered Gothic tower suspended in smoke over burning royal city, broken gilded royal seal and torn navy banner on black stone foreground, fractured rays and ember-orange ash in charcoal and dark crimson sky. No humans, faces, silhouettes, statues or human-shaped forms. No gore. Landscape 16:9 1920x1080, key shattered tower and broken seal stacked in central 30 percent width for portrait crop, expansive city wings.",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "tower-abstract",
+      "format": "mobile",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-2f56361a-36cc-4c64-a537-07e018a39dcd.png",
+      "prompt": "Recompose this exact unpeopled symbolic cover into portrait 9:16 1080x1920. Shattered Gothic tower in upper middle over burning royal city, broken gold royal seal and torn navy banner below, retain same charcoal crimson ember palette and fine painted style. Preserve meaningful seal and fractured tower fully within frame. Bottom 28 percent calm black stone for HTML. No humans, human faces, silhouettes, statues, text, watermarks or border.",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "chariot-character",
+      "format": "desktop",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-650f17b0-ff40-42ab-a648-07fe1f38e9bf.png",
+      "prompt": "Use case: stylized-concept. Finished official game cover for The Lioness Empire. Dark political fantasy, premium Japanese visual novel, high-end hand-painted anime illustration, cinematic light, refined painterly architecture. No text, no letters, no logos, no watermark, no border, no collage. Bottom 28 percent quiet dark foreground reserved for HTML title and buttons. Olivia d'Anduvence, adult royal stateswoman, waist-length straight blue-black hair, amber-gold eyes, cool pale skin, refined mature aristocratic face, controlled presence. Match reference face and navy antique-gold embroidered regent coat over ivory inner dress, Ogan pendant and lion signet ring. NO crown or tiara. Olivia and her older brother Aivis in restrained fierce political confrontation, facing inward in profile, equally dignified competent heirs, neither villainized. Aivis match second reference: mature military commander, short brown hair gray temples, brown amber eyes, stubble beard, dark navy gold tailored coat, burgundy inner layer. A chessboard and empty royal seat behind, opposed navy and burgundy banners. Antique gold light divides scene. Exactly two people, no romance, no crowns. Landscape 16:9 1920x1080. Both characters close together centered, both complete heads inside central 30 percent width, waist-up two-shot, hands out of frame. Balanced architectural wings.",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "chariot-character",
+      "format": "mobile",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-f28a5948-04ce-4335-9782-01576ab1d0a2.png",
+      "prompt": "Recompose this finished cover into dedicated portrait 9:16 mobile artwork 1080x1920. Preserve exact character identities: Olivia left, mature older brother Aivis right, brown short hair gray temples stubble beard. Both heads fully visible with comfortable side margins, facing inward in equally dignified tense political opposition. Scale both figures down enough to fit in middle width, mid torso up, faces around y30 percent, empty throne above chessboard between them, navy and burgundy banners in background. Hands entirely out of view behind foreground dark balustrade. Preserve exact navy gold ivory Olivia costume pendant no crown and Aivis navy gold coat burgundy inner layer. No romance, no villain caricature. Bottom 28 percent quiet dark floor for HTML title. Same painterly anime style, no text watermark or border.",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "chariot-abstract",
+      "format": "desktop",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-d96d01a4-a56e-4923-a8d2-9b003e09d28f.png",
+      "prompt": "Use case: stylized-concept. Finished official game cover for The Lioness Empire. Dark political fantasy, premium Japanese visual novel, high-end hand-painted anime illustration, cinematic light, refined painterly architecture. No text, no letters, no logos, no watermark, no border, no collage. Bottom 28 percent quiet dark foreground reserved for HTML title and buttons. Entirely unpeopled symbolic dreamlike political contest: two opposing gold royal seal medallions, navy and burgundy banners pulled in opposite directions above a cracked chessboard leading to one empty throne, twin balanced shafts of cold and warm light, antique gold, tense symmetry, no explicit chess human-shaped pieces. No humans, faces, silhouettes, statues or human-shaped forms. Landscape 16:9 1920x1080, both medallions close together inside central 30 percent width, throne centered above them, broad architectural wings.",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "chariot-abstract",
+      "format": "mobile",
+      "source": "C:\\Users\\45P\\.codex\\generated_images\\01a1a242-55a2-74b0-8d01-cbf00be1a837\\exec-f6208279-656f-4257-acaf-3c94f74a9a64.png",
+      "prompt": "Recompose this exact symbolic unpeopled political game cover into portrait 9:16 mobile 1080x1920. Retain BOTH gold lion seal medallions facing inward fully visible side by side, navy left burgundy right banners pulled opposing directions, cracked chessboard below, one empty throne above centered. Same antique gold painterly Gothic architecture, blue cold and warm gold split light. Main symbols in upper 70 percent and bottom 28 percent dark quiet stone for HTML. No people, human faces, humanoid statues, text, logo, watermark, border.",
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

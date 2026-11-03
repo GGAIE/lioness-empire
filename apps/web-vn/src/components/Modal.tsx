@@ -19,7 +19,7 @@ export function Modal({
     d?.showModal();
     return () => {
       d?.close();
-      previous?.focus();
+      previous?.focus({ preventScroll: true });
     };
   }, []);
   return (

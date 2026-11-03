@@ -1,0 +1,134 @@
+[
+  {
+    "id": "star-character",
+    "format": "desktop",
+    "source_width": 1672,
+    "source_height": 941,
+    "width": 1920,
+    "height": 1080,
+    "png": "images/star-character-desktop.png",
+    "web": "images/star-character-desktop.jpg",
+    "sha256": "9CB2571397E57D32831DED9B85712DCE01DC38B3D4CDE92CD7CA3E65C95EEF39"
+  },
+  {
+    "id": "star-character",
+    "format": "mobile",
+    "source_width": 941,
+    "source_height": 1672,
+    "width": 1080,
+    "height": 1920,
+    "png": "images/star-character-mobile.png",
+    "web": "images/star-character-mobile.jpg",
+    "sha256": "2CCD84EA451410F6B9C4B7C87476EA8018A8F2F8FBA1EF2929EE1D6D4BE9BEA0"
+  },
+  {
+    "id": "star-abstract",
+    "format": "desktop",
+    "source_width": 1672,
+    "source_height": 941,
+    "width": 1920,
+    "height": 1080,
+    "png": "images/star-abstract-desktop.png",
+    "web": "images/star-abstract-desktop.jpg",
+    "sha256": "69F8BE016EBB0E35609476BF62F7ABC4977EBF9B4A1D71FDD748F50D8071B0E0"
+  },
+  {
+    "id": "star-abstract",
+    "format": "mobile",
+    "source_width": 941,
+    "source_height": 1672,
+    "width": 1080,
+    "height": 1920,
+    "png": "images/star-abstract-mobile.png",
+    "web": "images/star-abstract-mobile.jpg",
+    "sha256": "F7B5E985B19F4D4E8729E8B79AA0DFC9F05A827334C48B86ABC3BA31741DD141"
+  },
+  {
+    "id": "tower-character",
+    "format": "desktop",
+    "source_width": 1672,
+    "source_height": 941,
+    "width": 1920,
+    "height": 1080,
+    "png": "images/tower-character-desktop.png",
+    "web": "images/tower-character-desktop.jpg",
+    "sha256": "E74C2E6B174EDEF79D76EA17388B0FF62EE39B84CC9E73F28DE6CEA153212161"
+  },
+  {
+    "id": "tower-character",
+    "format": "mobile",
+    "source_width": 941,
+    "source_height": 1672,
+    "width": 1080,
+    "height": 1920,
+    "png": "images/tower-character-mobile.png",
+    "web": "images/tower-character-mobile.jpg",
+    "sha256": "2B2E3B56C134FD1180D3A73940FF9C67E272B8A584D2AE59CCB285C966930011"
+  },
+  {
+    "id": "tower-abstract",
+    "format": "desktop",
+    "source_width": 1672,
+    "source_height": 941,
+    "width": 1920,
+    "height": 1080,
+    "png": "images/tower-abstract-desktop.png",
+    "web": "images/tower-abstract-desktop.jpg",
+    "sha256": "7C2AED6EAF26881DBCB894B0203990D0DB41AF2EE1050A38E95813DF81DD5011"
+  },
+  {
+    "id": "tower-abstract",
+    "format": "mobile",
+    "source_width": 941,
+    "source_height": 1672,
+    "width": 1080,
+    "height": 1920,
+    "png": "images/tower-abstract-mobile.png",
+    "web": "images/tower-abstract-mobile.jpg",
+    "sha256": "5AB71F8CA91097F4A4A1DA432DAEA560347CF461184B42E1E8BE715E15644F8D"
+  },
+  {
+    "id": "chariot-character",
+    "format": "desktop",
+    "source_width": 1672,
+    "source_height": 941,
+    "width": 1920,
+    "height": 1080,
+    "png": "images/chariot-character-desktop.png",
+    "web": "images/chariot-character-desktop.jpg",
+    "sha256": "428F15828B367D13E9BB9130647104609D434E229529068D0A369D6D0364DD8B"
+  },
+  {
+    "id": "chariot-character",
+    "format": "mobile",
+    "source_width": 941,
+    "source_height": 1672,
+    "width": 1080,
+    "height": 1920,
+    "png": "images/chariot-character-mobile.png",
+    "web": "images/chariot-character-mobile.jpg",
+    "sha256": "8B0FB3F98F6BC1CB865DB9C40D79A3E14B4B6408A58BD72C7A4BF7008F910E40"
+  },
+  {
+    "id": "chariot-abstract",
+    "format": "desktop",
+    "source_width": 1672,
+    "source_height": 941,
+    "width": 1920,
+    "height": 1080,
+    "png": "images/chariot-abstract-desktop.png",
+    "web": "images/chariot-abstract-desktop.jpg",
+    "sha256": "5279F361EC6AB376C55B9B785173AF3EB453DE862B5C6CCA330972914B750879"
+  },
+  {
+    "id": "chariot-abstract",
+    "format": "mobile",
+    "source_width": 941,
+    "source_height": 1672,
+    "width": 1080,
+    "height": 1920,
+    "png": "images/chariot-abstract-mobile.png",
+    "web": "images/chariot-abstract-mobile.jpg",
+    "sha256": "334D9EC532EF81E39DB1F0736EB5E6EFFCBBD31FFFC7AB194BD13241439DD145"
+  }
+]

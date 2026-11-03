@@ -35,6 +35,15 @@ import {
 import { useTypewriter } from './hooks/useTypewriter';
 import { useAudio } from './hooks/useAudio';
 import { Stage } from './components/Stage';
+import { TitleCover } from './components/TitleCover';
+import {
+  covers,
+  availableCover,
+  coverAvailable,
+  coverRoute,
+  routeLabels,
+  recordRouteCompletion,
+} from './engine/covers';
 import { Modal } from './components/Modal';
 import { Library } from './screens/Library';
 import { ChapterDirectory } from './screens/ChapterDirectory';
@@ -153,6 +162,11 @@ function Game({
     loadGeneration = useRef(0);
   const frameRef = useRef<HTMLElement>(null),
     dialogueRef = useRef<HTMLDivElement>(null);
+  const selectedCover = availableCover(settings.cover, meta);
+  useEffect(() => {
+    if (settings.cover !== selectedCover)
+      setSettings((s) => ({ ...s, cover: selectedCover as Settings['cover'] }));
+  }, [settings.cover, selectedCover]);
   useEffect(() => {
     if (started) window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
   }, [started]);
@@ -283,7 +297,9 @@ function Game({
       setState(marked);
     setMeta((m) => {
       const ending =
-        scene.kind === 'end' && !scene.completion ? resolveEnding(marked, story.endings) : null;
+        last && scene.kind === 'end' && !scene.completion
+          ? resolveEnding(marked, story.endings)
+          : null;
       const result = mergeMeta(
         m,
         marked,
@@ -292,9 +308,10 @@ function Game({
           ? ending.candidate?.id
           : undefined
       );
-      return JSON.stringify(m) === JSON.stringify(result) ? m : result;
+      const completed = recordRouteCompletion(result, marked, story);
+      return JSON.stringify(m) === JSON.stringify(completed) ? m : completed;
     });
-  }, [started, writer.complete, key, scene.kind, story]);
+  }, [started, writer.complete, key, scene.kind, story, last]);
   async function thumbnail(snapshot: GameState): Promise<string | null> {
     const id = currentCg(story, snapshot),
       a = story.assets.find((a) => a.id === id);
@@ -616,44 +633,41 @@ function Game({
           data-scene-id={scene.id}
           data-segment-id={segment.id}
         >
-          <Stage story={story} state={state} onLoaded={collect} active={started} />
+          {started && <Stage story={story} state={state} onLoaded={collect} active={started} />}
           {!started ? (
             <div className="title-screen">
-              <div className="eyebrow">A KINGDOM. A CROWN. A CHOICE.</div>
-              <span className="title-ornament">◇</span>
-              <h1>母獅帝國</h1>
-              <p className="latin-title">LIONESS EMPIRE</p>
-              <p className="title-copy">王冠之下，歷史尚未寫定。</p>
-              <nav className="title-actions" aria-label="主選單">
-                <button
-                  className={records.some((r) => r.slot === 'auto') ? 'primary' : undefined}
-                  disabled={!records.some((r) => r.slot === 'auto') || directoryBusy}
-                  onClick={() => {
-                    const r = records.find((r) => r.slot === 'auto');
-                    if (r) requestLoad(r);
-                  }}
-                >
-                  繼續遊戲
-                </button>
-                <button
-                  className={records.some((r) => r.slot === 'auto') ? undefined : 'primary'}
-                  disabled={directoryBusy}
-                  onClick={() => {
-                    if (records.some((r) => r.slot === 'auto')) open('restart');
-                    else void startNewGame();
-                  }}
-                >
-                  開始遊戲
-                </button>
-                <button onClick={() => open('saves')}>存讀檔</button>
-                <button aria-label="章節目錄" onClick={() => open('chapters')}>
-                  章節目錄
-                </button>
-                <button onClick={() => open('gallery')}>鑑賞</button>
-                <button onClick={() => open('endings')}>結局</button>
-                <button onClick={() => open('music')}>背景音樂</button>
-                <button onClick={() => open('settings')}>設定</button>
-              </nav>
+              <TitleCover selected={selectedCover}>
+                <nav className="title-actions" aria-label="主選單">
+                  <button
+                    className={records.some((r) => r.slot === 'auto') ? 'primary' : undefined}
+                    disabled={!records.some((r) => r.slot === 'auto') || directoryBusy}
+                    onClick={() => {
+                      const r = records.find((r) => r.slot === 'auto');
+                      if (r) requestLoad(r);
+                    }}
+                  >
+                    繼續遊戲
+                  </button>
+                  <button
+                    className={records.some((r) => r.slot === 'auto') ? undefined : 'primary'}
+                    disabled={directoryBusy}
+                    onClick={() => {
+                      if (records.some((r) => r.slot === 'auto')) open('restart');
+                      else void startNewGame();
+                    }}
+                  >
+                    開始遊戲
+                  </button>
+                  <button onClick={() => open('saves')}>存讀檔</button>
+                  <button aria-label="章節目錄" onClick={() => open('chapters')}>
+                    章節目錄
+                  </button>
+                  <button onClick={() => open('gallery')}>鑑賞</button>
+                  <button onClick={() => open('endings')}>結局</button>
+                  <button onClick={() => open('music')}>背景音樂</button>
+                  <button onClick={() => open('settings')}>設定</button>
+                </nav>
+              </TitleCover>
             </div>
           ) : (
             <>
@@ -897,6 +911,7 @@ function Game({
           close={() => {
             setPanel(null);
             setPending(null);
+            if (!started && panel === 'settings') window.scrollTo({ top: 0, behavior: 'auto' });
           }}
         >
           {message && !pending && (
@@ -980,6 +995,31 @@ function Game({
           )}
           {panel === 'settings' && (
             <div className="settings">
+              <label htmlFor="title-cover-selection">首頁封面</label>
+              <select
+                id="title-cover-selection"
+                value={selectedCover}
+                onChange={(event) =>
+                  coverAvailable(event.target.value, meta) &&
+                  setSettings((s) => ({ ...s, cover: event.target.value as Settings['cover'] }))
+                }
+              >
+                {covers.map((cover) => (
+                  <option
+                    key={cover.id}
+                    value={cover.id}
+                    disabled={!coverAvailable(cover.id, meta)}
+                  >
+                    {cover.label}
+                    {coverAvailable(cover.id, meta)
+                      ? ''
+                      : `（完成${routeLabels[coverRoute(cover.id)!]}路線後解鎖）`}
+                  </option>
+                ))}
+              </select>
+              <p className="muted">
+                完成星星、高塔或戰車路線的結局後，可解鎖該路線的兩款封面。僅更換首頁外觀，不影響劇情選擇。
+              </p>
               {(
                 [
                   ['speed', '逐字間隔（0 為立即顯示）', 0, 100, 1, 'ms'],
