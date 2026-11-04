@@ -30,7 +30,9 @@
     "content:import-ep04-act01": "tsx scripts/import-ep04-act01.ts",
     "content:import-ep04-act02": "tsx scripts/import-ep04-act02.ts",
     "content:import-ep04-later-acts": "tsx scripts/import-ep04-later-acts.ts",
-    "content:import-ep05": "python -X utf8 scripts/import-ep05.py"
+    "content:import-ep05": "python -X utf8 scripts/import-ep05.py",
+    "build:pages": "npm run content:validate && tsc --noEmit && vite build --mode pages && tsx scripts/package-pages.ts",
+    "package:pages": "npm run build:pages && python -X utf8 scripts/zip-pages.py"
   },
   "dependencies": {
     "idb": "^8.0.0",
@@ -46,6 +48,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "fake-indexeddb": "^6.0.0",
     "prettier": "^3.9.10",
+    "sharp": "^0.35.5",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "vite": "^6.1.0",

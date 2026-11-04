@@ -1,5 +1,7 @@
 node_modules/
 dist/
+github-pages/
+*_GitHubPages_*.zip
 test-results/
 playwright-report/
 apps/web-vn/public/content/

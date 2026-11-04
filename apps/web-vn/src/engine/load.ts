@@ -9,7 +9,11 @@ import {
 } from '../../../../packages/narrative-core/schema';
 import { validateStory } from '../../../../packages/narrative-core/validate';
 import { prepareReaderStory } from '../../../../packages/narrative-core/reader-text';
-export const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+export const assetUrl = (path: string) => {
+  const published =
+    import.meta.env.MODE === 'pages' ? path.replace(/\.(png|jpe?g)$/i, '.webp') : path;
+  return `${import.meta.env.BASE_URL}${published}`;
+};
 const json = async (path: string) => {
   const r = await fetch(assetUrl('content/' + path), { cache: 'no-cache' });
   if (!r.ok) throw Error(`無法讀取內容：${path} (${r.status})`);

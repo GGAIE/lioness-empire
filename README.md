@@ -1,5 +1,7 @@
 # 《母獅帝國》HTML5 視覺小說
 
+GitHub Pages：請用 `npm run build:pages` 產生 `github-pages/`（最外層即 `index.html`，約 312 MB），或上傳本次附好的 ZIP 解壓內容至獨立網頁分支。已附 GitHub Actions 自動發佈設定；首次到 Settings → Pages 將 Source 選為 GitHub Actions。步驟見 [GitHub上傳說明](GitHub上傳說明.md)。原圖版 `dist/` 約 1.53 GB，不能直接用於 Pages。
+
 EP05 第一至第四幕已接入：20 小節、19 個選擇點、91 張完整原始 CG。第四幕最新兩個分包已補齊全部 23 張，終場可正常顯示與收錄鑑賞；第四幕結束等待第五幕，不提前結算整章。詳見 [EP05 接入紀錄](docs/EP05_ACT01_ACT04_DELIVERY.md)。
 首頁預設使用王都迴廊封面，主選單直接顯示於封面內。完成星星／高塔／戰車的正式路線結局後，解鎖對應人物版與抽象版，可於「設定 → 首頁封面」選擇並記住偏好。詳見 [封面接入紀錄](docs/COVERS.md)。
 
