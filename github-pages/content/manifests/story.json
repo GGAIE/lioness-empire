@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "version": "0.13.1-ep05-act04-cg-complete.reader-v1",
+  "start": "PRO-SC01",
+  "chapters": [
+    {
+      "id": "DEMO",
+      "title": "序曲測試 · 尚未寫下的歷史",
+      "status": "DEMO_ONLY",
+      "file": "episodes/demo/chapter.json",
+      "entry": "DEMO_ACT01_SC01"
+    },
+    {
+      "id": "PROLOGUE",
+      "title": "母獅登基",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/prologue/chapter.json",
+      "entry": "PRO-SC01"
+    },
+    {
+      "id": "EP01",
+      "title": "王冠之前 · ACT I–V",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep01/chapter.json",
+      "entry": "EP01_ACT01_SC01"
+    },
+    {
+      "id": "EP02",
+      "title": "留下來的人",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep02/chapter.json",
+      "entry": "EP02_ACT01_SC01"
+    },
+    {
+      "id": "EP03",
+      "title": "責任先於權力",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep03/chapter.json",
+      "entry": "EP03_ACT01_SC01"
+    },
+    {
+      "id": "EP04",
+      "title": "不得已攝政",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep04/chapter.json",
+      "entry": "EP04_ACT01_SC01"
+    },
+    {
+      "id": "EP05",
+      "title": "攝政成為習慣",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep05/chapter.json",
+      "entry": "EP05_ACT01_SC01"
+    },
+    {
+      "id": "EP06",
+      "title": "兩份攝政令",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP07",
+      "title": "無旗者",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP08",
+      "title": "兩個繼承人",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP09",
+      "title": "誰在統治安度因",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP10",
+      "title": "王權的讓位",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP11",
+      "title": "母獅加冕",
+      "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "EP12",
+      "title": "母獅帝國",
+      "status": "NOT_YET_AVAILABLE"
+    }
+  ],
+  "flags": {
+    "DEMO_INSPECTED": {
+      "initial": false,
+      "description": "引擎示範專用，非正式設定"
+    },
+    "DEMO_RESULT_SEEN": {
+      "initial": false,
+      "description": "引擎示範專用，非正式設定"
+    },
+    "DEMO_DONE": {
+      "initial": false,
+      "description": "引擎示範專用，非正式設定"
+    },
+    "EARLY_PS_ZERO": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "ARCHIVE_TRUTH_COMPLETE": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "ALINDA_TRUCE": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "CORONATION": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "HISTORY_POLICY": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "FINAL_AGREEMENT": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "ALINDA_SAFE_HAVEN": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "DRAGON_EMPRESS_TRUCE": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "KNIGHT_COUNCIL_READY": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "OLIVIA_SURRENDER_OFFER": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "FINAL_PEACE_TREATY_SIGNED": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "SUCCESSION_CONTEST": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "POLITICAL_CAPTIVITY": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "TOWER_SURVIVAL": {
+      "initial": "UNRESOLVED",
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "LATER_ASYLUM": {
+      "initial": false,
+      "description": "v2 規則草案欄位；設定事件須由正式劇本確認"
+    },
+    "EP01_ACT02_PRIORITY": {
+      "initial": "NONE",
+      "description": "EP01第二幕返都工作優先順序：ROYAL_AUTHORITY／EASTERN_FRONT／TECHNICAL_INTERFACE；僅記錄方向，未設定資源增減。"
+    },
+    "OLIVIA_AT_CAPITAL": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：OLIVIA_AT_CAPITAL；不代表數值獎勵或攝政授權。"
+    },
+    "FINLEY_AT_CAPITAL_AS_ACADEMY_LIAISON": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：FINLEY_AT_CAPITAL_AS_ACADEMY_LIAISON；不代表數值獎勵或攝政授權。"
+    },
+    "KING_HEALTH_INITIAL_BRIEFING_RECEIVED": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：KING_HEALTH_INITIAL_BRIEFING_RECEIVED；不代表數值獎勵或攝政授權。"
+    },
+    "AIVIS_EASTERN_DUTY_CONFIRMED": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：AIVIS_EASTERN_DUTY_CONFIRMED；不代表數值獎勵或攝政授權。"
+    },
+    "ROYAL_RECORDS_PRELIMINARY_REVIEW": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：ROYAL_RECORDS_PRELIMINARY_REVIEW；不代表數值獎勵或攝政授權。"
+    },
+    "OLIVIA_REGENCY_AUTHORITY": {
+      "initial": false,
+      "description": "ACT III幕末事實紀錄：OLIVIA_REGENCY_AUTHORITY；不代表數值獎勵或攝政授權。"
+    },
+    "ROYAL_DOCUMENT_ROLES_CLARIFIED": {
+      "initial": false,
+      "description": "ACT IV固定結果事實：ROYAL_DOCUMENT_ROLES_CLARIFIED；不作選項獎懲。"
+    },
+    "FATHER_AUDIENCE_REQUESTED": {
+      "initial": false,
+      "description": "ACT IV固定結果事實：FATHER_AUDIENCE_REQUESTED；不作選項獎懲。"
+    },
+    "FATHER_AUDIENCE_GRANTED": {
+      "initial": false,
+      "description": "ACT IV固定結果事實：FATHER_AUDIENCE_GRANTED；不作選項獎懲。"
+    },
+    "FATHER_AUDIENCE_COMPLETED": {
+      "initial": false,
+      "description": "ACT V章末事實：FATHER_AUDIENCE_COMPLETED；不作選項獎懲。"
+    },
+    "KING_INTENDS_RETURN_TO_GOVERNMENT": {
+      "initial": false,
+      "description": "ACT V章末事實：KING_INTENDS_RETURN_TO_GOVERNMENT；不作選項獎懲。"
+    },
+    "OLIVIA_TEMPORARY_CAPITAL_STAY": {
+      "initial": false,
+      "description": "ACT V章末事實：OLIVIA_TEMPORARY_CAPITAL_STAY；不作選項獎懲。"
+    },
+    "OLIVIA_ADMINISTRATIVE_ROLE_GRANTED": {
+      "initial": false,
+      "description": "ACT V章末事實：OLIVIA_ADMINISTRATIVE_ROLE_GRANTED；不作選項獎懲。"
+    },
+    "ACADEMY_RESEARCH_CONTINUES": {
+      "initial": false,
+      "description": "ACT V章末事實：ACADEMY_RESEARCH_CONTINUES；不作選項獎懲。"
+    },
+    "AIVIS_DEPARTED_EASTERN_FRONT": {
+      "initial": false,
+      "description": "僅EP02 ACT V SC03實際讀完城門送行後記錄王儲正式出城；不代表政治數值、攝政、失能或路線授權。"
+    },
+    "FINLEY_RESEARCH_F1_STATE": {
+      "initial": "NOT_STARTED",
+      "description": "芬利研究支線：NOT_STARTED／ACTIVE／DECLINED／MATERIAL_OBTAINED／CLEARED。ACT02啟動-10；ACT03合法調閱承接；ACT04答謝讀完一次+20；不增加CLEAR。"
+    },
+    "EP05_UNION_ATTITUDE": {
+      "initial": "UNSET",
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_PORT_PREP": {
+      "initial": "UNSET",
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_PORT_METHOD": {
+      "initial": "UNSET",
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_OSINM_REPRESENTATION": {
+      "initial": "UNSET",
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_ACT03_STAFF_SOURCE": {
+      "initial": "UNSET",
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_PORT_POLITICAL_SETTLED": {
+      "initial": false,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_OSINM_REP_SETTLED": {
+      "initial": false,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_PORT_RELATION": {
+      "initial": "UNSET",
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_ELLA_CARGO_STATUS": {
+      "initial": "WAITING_AT_OSINM",
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_OSINM_RESTORED": {
+      "initial": false,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_TAMARA_FAMILY_FUNDING_CONFIRMED": {
+      "initial": false,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_STAFF_DELIVERED": {
+      "initial": false,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_CHURCH_FUNDING_UNRESOLVED": {
+      "initial": true,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_TEMPORARY_HOUSING_AUTHORIZED": {
+      "initial": false,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    },
+    "EP05_EXILE_IDENTITY_VERIFIED": {
+      "initial": false,
+      "description": "EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。"
+    }
+  },
+  "migrations": {
+    "DEMO_OLD_START": "DEMO_ACT01_SC01"
+  },
+  "planningFile": "planning/part-one.json"
+}

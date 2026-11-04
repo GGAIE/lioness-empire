@@ -50,11 +50,15 @@ for (const prefix of ['/', '/lioness-empire/']) {
     await coverPreferences(page, ['STAR'], 'star-character');
     await expect(page.getByTestId('title-cover')).toHaveJSProperty(
       'naturalWidth',
-      info.project.name === 'pages-desktop' ? 1920 : 1080
+      info.project.name.endsWith('desktop') ? 1920 : 1080
     );
     expect(
       await page.getByTestId('title-cover').evaluate((i: HTMLImageElement) => i.currentSrc)
-    ).toContain(prefix + 'assets/covers/release-20261104/star-character-');
+    ).toContain(
+      prefix +
+        (info.project.metadata.rootEntry ? 'github-pages/' : '') +
+        'assets/covers/release-20261104/star-character-'
+    );
     await page.screenshot({
       path: `docs/screenshots/${info.project.name}-${prefix === '/' ? 'root' : 'project'}-hosting.png`,
     });
@@ -64,13 +68,15 @@ for (const prefix of ['/', '/lioness-empire/']) {
 }
 test('published asset references stay inside the compact bundle and retain the original music', async ({
   request,
-}) => {
+}, info) => {
   const report = JSON.parse(
     await readFile(root + '/docs/github-pages-package-report.json', 'utf8')
   );
   expect(report.totalBytes).toBeLessThan(1_000_000_000);
   for (const item of report.assets) {
-    const response = await request.get('/lioness-empire/' + item.output);
+    const response = await request.get(
+      '/lioness-empire/' + (info.project.metadata.rootEntry ? 'github-pages/' : '') + item.output
+    );
     expect(response.status(), item.output).toBe(200);
     expect(
       createHash('sha256')

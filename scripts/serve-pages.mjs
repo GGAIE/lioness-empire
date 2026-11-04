@@ -3,7 +3,9 @@ import { createServer } from 'node:http';
 import { createReadStream } from 'node:fs';
 import { stat } from 'node:fs/promises';
 import { resolve, relative, extname } from 'node:path';
-const root = resolve('github-pages');
+const rootEntry = process.argv.includes('--root-entry');
+const root = resolve(rootEntry ? '.' : 'github-pages');
+const port = rootEntry ? 4183 : 4182;
 const mime = {
   '.html': 'text/html',
   '.js': 'text/javascript',
@@ -23,6 +25,8 @@ createServer(async (req, res) => {
       return;
     }
     if (path.startsWith('/lioness-empire/')) path = path.slice('/lioness-empire'.length);
+    if (rootEntry && !['/', '/index.html'].includes(path) && !path.startsWith('/github-pages/'))
+      throw Error('Excluded source file');
     const file = resolve(root, '.' + (path.endsWith('/') ? path + 'index.html' : path));
     if (relative(root, file).startsWith('..')) throw Error('Invalid path');
     const info = await stat(file);
@@ -38,6 +42,6 @@ createServer(async (req, res) => {
     res.writeHead(404);
     res.end('Not found');
   }
-}).listen(4182, '127.0.0.1', () =>
-  console.log('Pages package: http://127.0.0.1:4182/lioness-empire/')
+}).listen(port, '127.0.0.1', () =>
+  console.log(`Pages package: http://127.0.0.1:${port}/lioness-empire/`)
 );

@@ -31,7 +31,7 @@
     "content:import-ep04-act02": "tsx scripts/import-ep04-act02.ts",
     "content:import-ep04-later-acts": "tsx scripts/import-ep04-later-acts.ts",
     "content:import-ep05": "python -X utf8 scripts/import-ep05.py",
-    "build:pages": "npm run content:validate && tsc --noEmit && vite build --mode pages && tsx scripts/package-pages.ts",
+    "build:pages": "npm run content:validate && tsc --noEmit && vite build --mode pages && tsx scripts/package-pages.ts && tsx scripts/root-pages-entry.ts",
     "package:pages": "npm run build:pages && python -X utf8 scripts/zip-pages.py"
   },
   "dependencies": {

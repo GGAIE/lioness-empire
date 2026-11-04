@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "id": "DEMO",
+  "version": "0.1.0",
+  "status": "DEMO_ONLY",
+  "source": "工程驗證內容，與正式 EP01–EP12 隔離",
+  "scenes": [
+    {
+      "id": "DEMO_ACT01_SC01",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "尚未寫下的歷史",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "這是一段 DEMO_ONLY 工程測試。眼前的議事廳、對話與選擇，皆不是正式 Canon。"
+        },
+        {
+          "id": "L2",
+          "speaker": "OLIVIA",
+          "text": "先讓一段文字、一個選擇，找到它們應該抵達的地方。"
+        },
+        {
+          "id": "L3",
+          "text": "桌上放著三份測試記錄。接下來的選項只驗證分支與資料流。"
+        }
+      ],
+      "choices": [],
+      "next": "DEMO_ACT01_SC02",
+      "cg": "demo-hall",
+      "bgm": "demo-calm",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "DEMO_ACT01_SC02",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "三份記錄",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "請選擇一項測試操作。三條分支將在結果場景重新匯合。"
+        }
+      ],
+      "choices": [
+        {
+          "id": "inspect",
+          "text": "查閱測試檔案",
+          "next": "DEMO_BRANCH_ARCHIVE",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "DEMO_INSPECTED",
+              "value": true
+            },
+            {
+              "type": "clear",
+              "key": "finley",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "id": "dispatch",
+          "text": "送出測試公文",
+          "next": "DEMO_BRANCH_DISPATCH",
+          "effects": [
+            {
+              "type": "clear",
+              "key": "tamara",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "id": "observe",
+          "text": "保留記錄，觀察結果",
+          "next": "DEMO_BRANCH_OBSERVE",
+          "effects": [
+            {
+              "type": "score",
+              "delta": 1
+            }
+          ]
+        }
+      ],
+      "cg": "demo-hall",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "DEMO_BRANCH_ARCHIVE",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "檔案測試",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "檔案已被查閱。隱藏旗標已寫入；芬利 CLEAR 的變化僅用來驗證效果。"
+        }
+      ],
+      "choices": [],
+      "next": "DEMO_RESULT",
+      "cg": "demo-map",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "DEMO_BRANCH_DISPATCH",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "公文測試",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "測試公文已送出。塔娜拉 CLEAR 的變化僅用來驗證效果。"
+        }
+      ],
+      "choices": [],
+      "next": "DEMO_RESULT",
+      "cg": "demo-terrace",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "DEMO_BRANCH_OBSERVE",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "觀察測試",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "記錄已保留。PoliticalScore 的變化僅用來驗證狀態，正式遊戲不向玩家顯示數值。"
+        }
+      ],
+      "choices": [],
+      "next": "DEMO_RESULT",
+      "cg": "demo-map",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "DEMO_RESULT",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "另一個視角",
+      "pov": "FINLEY",
+      "cast": [
+        "FINLEY"
+      ],
+      "kind": "result",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "【Result Scene / NO CHOICE】芬利確認三條測試分支都能抵達這裡。",
+          "sfx": "demo-chime"
+        },
+        {
+          "id": "L2",
+          "speaker": "OLIVIA",
+          "text": "這段視角沒有玩家決策；角色也沒有取得超出本場景知識邊界的資訊。"
+        }
+      ],
+      "choices": [],
+      "next": "DEMO_FINAL_CHOICE",
+      "cg": "demo-terrace",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "DEMO_FINAL_CHOICE",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "條件選項測試",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "最後一次測試：只有查閱過檔案的人，會看見額外的選項。"
+        }
+      ],
+      "choices": [
+        {
+          "id": "confirm-archive",
+          "text": "確認檔案記錄並完成測試",
+          "next": "DEMO_END",
+          "when": {
+            "path": "flags.DEMO_INSPECTED",
+            "op": "eq",
+            "value": true
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "DEMO_DONE",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "DEMO_RESULT_SEEN",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "text": "完成本次引擎測試",
+          "next": "DEMO_END",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "DEMO_DONE",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "DEMO_RESULT_SEEN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "cg": "demo-hall",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "DEMO_END",
+      "chapter": "DEMO",
+      "act": "ACT01",
+      "title": "測試的終點",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "end",
+      "status": "DEMO_ONLY",
+      "source": "工程自製測試；不是正式劇本",
+      "version": "0.1.0",
+      "knowledge": {
+        "knows": [
+          "此處為系統驗證用的假設情境"
+        ],
+        "withheld": [
+          "正式章節劇情尚未匯入"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L1",
+          "text": "DEMO_ONLY · 測試完成。這不是三十個正式結局之一。"
+        },
+        {
+          "id": "L2",
+          "speaker": "OLIVIA",
+          "text": "你現在可以存檔、回看對話、檢查 CG 收藏，或重新開始另一條測試分支。"
+        }
+      ],
+      "choices": [],
+      "cg": "demo-map",
+      "presentation": {
+        "fit": "cover",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1.04,
+        "panX": 1,
+        "fadeMs": 700
+      }
+    }
+  ]
+}
