@@ -94,6 +94,12 @@ export function applyEffects(state: GameState, effects: Effect[]): GameState {
         throw Error(`政治點數不足，需要 ${-e.delta} 點。`);
       n.campaign.politicalPoints += e.delta;
     }
+    if (e.type === 'unrest') {
+      if (!n.campaign || n.campaign.unrest === null) throw Error('目前無法確認動盪值');
+      const value = n.campaign.unrest + e.delta;
+      if (!e.clamp && (value < 0 || value > 100)) throw Error('動盪值超出可用範圍');
+      n.campaign.unrest = e.clamp ? Math.max(0, Math.min(100, value)) : value;
+    }
     if (e.type === 'political') {
       if ((n.politicalRoute !== 'NONE' && n.politicalRoute !== e.value) || n.tarotRoute !== 'NONE')
         throw Error('Political route is locked');
@@ -117,6 +123,15 @@ export function choiceUnavailableReason(
     if (points === undefined || points === null) return '目前無法確認政治點數';
     points += effect.delta;
     if (points < 0) return `政治點數不足，需要 ${-effect.delta} 點`;
+  }
+  if (choice.previewEffects) {
+    try {
+      let preview = applyEffects(state, choice.effects);
+      for (const item of choice.previewEffects)
+        if (evaluate(preview, item.when)) preview = applyEffects(preview, item.effects);
+    } catch (error) {
+      return error instanceof Error ? error.message : String(error);
+    }
   }
   return undefined;
 }
@@ -156,6 +171,8 @@ export function markRead(story: Story, state: GameState): GameState {
   if (n.currentSegmentIndex === visibleSegments(story, n).length - 1) {
     const completion = story.scenes[n.currentSceneId].completionEffects;
     if (completion && evaluate(n, completion.when)) n = applyEffects(n, completion.effects);
+    for (const settlement of story.scenes[n.currentSceneId].settlements ?? [])
+      if (evaluate(n, settlement.when)) n = applyEffects(n, settlement.effects);
     for (const [key, value] of Object.entries(
       story.scenes[n.currentSceneId].completionFlags ?? {}
     )) {
@@ -194,6 +211,8 @@ export function choose(story: Story, state: GameState, id: string): GameState {
   if (!c) throw Error('Choice is unavailable');
   if (state.decisionLog.some((x) => x.startsWith(`${scene.id}:`)))
     throw Error('Choice already committed in this playthrough');
+  const unavailable = choiceUnavailableReason(state, c);
+  if (unavailable) throw Error(unavailable);
   const n = applyEffects(markRead(story, state), c.effects);
   n.decisionLog.push(key);
   n.currentSceneId = c.next;
@@ -283,7 +302,11 @@ export function resolveEnding(state: GameState, rules: EndingRule[]) {
 export function currentCg(story: Story, state: GameState) {
   const scene = story.scenes[state.currentSceneId];
   if (scene.imageWhen && !evaluate(state, scene.imageWhen)) return undefined;
+  const base = (scene.cgWhen ?? []).reduce(
+    (cg, variant) => (evaluate(state, variant.when) ? variant.cg : cg),
+    scene.cg
+  );
   return visibleSegments(story, state)
     .slice(0, state.currentSegmentIndex + 1)
-    .reduce((cg, s) => s.cg ?? cg, scene.cg);
+    .reduce((cg, s) => s.cg ?? cg, base);
 }

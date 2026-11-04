@@ -1,0 +1,126 @@
+{
+  "version": "1.1",
+  "episode": "EP05",
+  "act": "ACT03",
+  "owner": "OLIVIA",
+  "status": "DRAFT_FOR_REVIEW",
+  "choices": {
+    "flavor": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06"
+    ],
+    "flavor_effects": {
+      "political_points": 0,
+      "unrest": 0,
+      "clear": 0,
+      "historic_flags": []
+    },
+    "main_scene": "SC04",
+    "main_key": "EP05_ACT03_STAFF_SOURCE"
+  },
+  "branches": {
+    "PALACE": {
+      "label": "A 王宮",
+      "SC04": {
+        "political_points": 10,
+        "unrest": 8,
+        "provisional": true
+      },
+      "SC05": {
+        "political_points": 0,
+        "unrest": 0
+      },
+      "tamara_called": false,
+      "SC05_route": "NPC",
+      "cg_branch": [
+        "COMMON",
+        "A_OR_C"
+      ]
+    },
+    "TAMARA": {
+      "label": "B 塔馬拉",
+      "SC04": {
+        "political_points": -8,
+        "unrest": 0,
+        "provisional": true
+      },
+      "SC05": {
+        "political_points": 15,
+        "unrest": 0,
+        "confirmed": true
+      },
+      "tamara_called": true,
+      "SC05_route": "TAMARA_ONLY",
+      "cg_branch": [
+        "COMMON",
+        "B_ONLY"
+      ]
+    },
+    "ELLA_REJECTED": {
+      "label": "C 艾拉被拒",
+      "SC04": {
+        "political_points": -12,
+        "unrest": 0,
+        "provisional": true
+      },
+      "SC05": {
+        "political_points": 0,
+        "unrest": 0
+      },
+      "tamara_called": false,
+      "SC05_route": "NPC",
+      "cg_branch": [
+        "COMMON",
+        "C_ONLY",
+        "A_OR_C"
+      ]
+    }
+  },
+  "mandatory": {
+    "staff_delivered": true,
+    "tamaras_family_funding_only_for_B": true,
+    "palace_charity_discrepancy_unresolved": true,
+    "EP06_route_not_set": true
+  },
+  "cg_logic": {
+    "COMMON": [
+      "LE_CG_EP05_ACT03_01",
+      "LE_CG_EP05_ACT03_02",
+      "LE_CG_EP05_ACT03_03",
+      "LE_CG_EP05_ACT03_04",
+      "LE_CG_EP05_ACT03_05",
+      "LE_CG_EP05_ACT03_06",
+      "LE_CG_EP05_ACT03_07",
+      "LE_CG_EP05_ACT03_08",
+      "LE_CG_EP05_ACT03_09",
+      "LE_CG_EP05_ACT03_10",
+      "LE_CG_EP05_ACT03_11",
+      "LE_CG_EP05_ACT03_12",
+      "LE_CG_EP05_ACT03_13",
+      "LE_CG_EP05_ACT03_14",
+      "LE_CG_EP05_ACT03_15",
+      "LE_CG_EP05_ACT03_16",
+      "LE_CG_EP05_ACT03_17",
+      "LE_CG_EP05_ACT03_18",
+      "LE_CG_EP05_ACT03_19",
+      "LE_CG_EP05_ACT03_25"
+    ],
+    "A_OR_C": [
+      "LE_CG_EP05_ACT03_21",
+      "LE_CG_EP05_ACT03_22"
+    ],
+    "B_ONLY": [
+      "LE_CG_EP05_ACT03_23",
+      "LE_CG_EP05_ACT03_24"
+    ],
+    "C_ONLY": [
+      "LE_CG_EP05_ACT03_20"
+    ]
+  },
+  "cg_count_total": 25,
+  "image_files_in_package": 0
+}

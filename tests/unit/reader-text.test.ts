@@ -13,10 +13,10 @@ beforeAll(async () => {
   original = await loadContent();
   reader = prepareReaderStory(original);
 });
-it('reviews all 5347 paragraphs and 230 answers and changes only the 47 exact editorial entries', () => {
+it('reviews all 6193 paragraphs and 284 answers and changes only the 47 exact editorial entries', () => {
   const scenes = Object.values(reader.scenes).filter((s) => s.status !== 'DEMO_ONLY');
-  expect(scenes.flatMap((s) => s.segments)).toHaveLength(5347);
-  expect(scenes.flatMap((s) => s.choices)).toHaveLength(230);
+  expect(scenes.flatMap((s) => s.segments)).toHaveLength(6193);
+  expect(scenes.flatMap((s) => s.choices)).toHaveLength(284);
   expect(readerTextEdits).toHaveLength(47);
   expect(readerTextEdits.filter((e) => e.choiceId)).toHaveLength(1);
   const reconstructed = structuredClone(reader.scenes);

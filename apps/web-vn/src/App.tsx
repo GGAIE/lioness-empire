@@ -281,8 +281,11 @@ function Game({
     void putPreference('meta', meta).catch(() => notify('收藏與已讀紀錄未能保存。'));
   }, [meta, notify]);
   const collect = useCallback(
-    (id: string) => setMeta((m) => (m.cg.includes(id) ? m : { ...m, cg: [...m.cg, id] })),
-    []
+    (id: string) => {
+      if (story.assets.find((a) => a.id === id)?.status !== 'APPROVED') return;
+      setMeta((m) => (m.cg.includes(id) ? m : { ...m, cg: [...m.cg, id] }));
+    },
+    [story.assets]
   );
   useEffect(() => {
     if (!started || !writer.complete) return;

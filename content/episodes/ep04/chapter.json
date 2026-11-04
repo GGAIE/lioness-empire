@@ -12632,7 +12632,9 @@
         "nextChapterId": "EP05",
         "policy": "NO_SCORING",
         "scope": "CHAPTER",
-        "pendingLabel": "第五章〈攝政成為習慣〉· 劇本尚未提供"
+        "nextSceneId": "EP05_ACT01_SC01",
+        "continueLabel": "進入第五章",
+        "nextLabel": "第五章〈攝政成為習慣〉"
       },
       "directions": [
         {

@@ -1,0 +1,123 @@
+{
+  "title": "Lioness Empire EP05 ACT01 choices",
+  "status": "DRAFT_FOR_REVIEW",
+  "political_delta_timing": "ACT02_SC05_ONCE_AFTER_VERIFIED_RESULT",
+  "unrest_delta": "TBD_PENDING_CANON_RECONCILIATION",
+  "choices": [
+    {
+      "id": "EP05_ACT01_C01",
+      "scene": "EP05_ACT01_SC02",
+      "owner": "OLIVIA",
+      "options": [
+        "SOOTHE",
+        "QUESTION"
+      ]
+    },
+    {
+      "id": "EP05_ACT01_C02",
+      "scene": "EP05_ACT01_SC04",
+      "owner": "OLIVIA",
+      "options": [
+        "CONTACT_UNION",
+        "CHECK_CARRIERS"
+      ]
+    },
+    {
+      "id": "EP05_ACT01_C03",
+      "scene": "EP05_ACT01_SC05",
+      "owner": "OLIVIA",
+      "options": [
+        "KEEP",
+        "RIVER"
+      ]
+    }
+  ],
+  "result_combinations": [
+    {
+      "choice1": "SOOTHE",
+      "choice2": "CONTACT_UNION",
+      "choice3": "KEEP",
+      "political_delta_at_act02_sc05": 0,
+      "port_relation": "RECONCILED",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "choice1": "SOOTHE",
+      "choice2": "CONTACT_UNION",
+      "choice3": "RIVER",
+      "political_delta_at_act02_sc05": 15,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "choice1": "SOOTHE",
+      "choice2": "CHECK_CARRIERS",
+      "choice3": "KEEP",
+      "political_delta_at_act02_sc05": 0,
+      "port_relation": "RECONCILED",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "choice1": "SOOTHE",
+      "choice2": "CHECK_CARRIERS",
+      "choice3": "RIVER",
+      "political_delta_at_act02_sc05": 15,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "choice1": "QUESTION",
+      "choice2": "CONTACT_UNION",
+      "choice3": "KEEP",
+      "political_delta_at_act02_sc05": 0,
+      "port_relation": "RECONCILED",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "choice1": "QUESTION",
+      "choice2": "CONTACT_UNION",
+      "choice3": "RIVER",
+      "political_delta_at_act02_sc05": -15,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "choice1": "QUESTION",
+      "choice2": "CHECK_CARRIERS",
+      "choice3": "KEEP",
+      "political_delta_at_act02_sc05": 0,
+      "port_relation": "RECONCILED",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "choice1": "QUESTION",
+      "choice2": "CHECK_CARRIERS",
+      "choice3": "RIVER",
+      "political_delta_at_act02_sc05": -15,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "act02_location": "OSINM",
+      "cargo_after_act01": "WAITING_AT_OSINM",
+      "cargo_after_act02": "DELIVERED_TO_AOTEDAN"
+    }
+  ],
+  "idempotence_flag": "EP05_PORT_POLITICAL_SETTLED",
+  "branch_image_slot": {
+    "KEEP": "LE_CG_EP05_ACT01_SC05_IMG02_KEEP",
+    "RIVER": "LE_CG_EP05_ACT01_SC05_IMG02_RIVER"
+  },
+  "next": "EP05_ACT02_SC01_OSINM"
+}

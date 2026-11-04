@@ -3750,5 +3750,733 @@
     "label": "重新點亮的攝政書房",
     "status": "APPROVED",
     "source": "使用者提供EP04 ACT05正確圖片包v1.0原PNG。APPROVED僅表示素材可用；正文維持DRAFT。SHA、CRC、尺寸見sources/ep04/act05-asset-audit.json。"
+  },
+  {
+    "id": "EP05-ACT01-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG01_v0.2.png",
+    "label": "CG01",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG02_v0.2.png",
+    "label": "CG02",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG03_v0.2.png",
+    "label": "CG03",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG04_v0.2.png",
+    "label": "CG04",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG01_v0.2.png",
+    "label": "CG05",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG02_v0.2.png",
+    "label": "CG06",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG03_v0.2.png",
+    "label": "CG07",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG04_v0.2.png",
+    "label": "CG08",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG01_v0.2.png",
+    "label": "CG09",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG02_v0.2.png",
+    "label": "CG10",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG03_v0.2.png",
+    "label": "CG11",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG04_v0.2.png",
+    "label": "CG12",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG01_v0.2.png",
+    "label": "CG13",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG02_v0.2.png",
+    "label": "CG14",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG03_v0.2.png",
+    "label": "CG15",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG04_v0.2.png",
+    "label": "CG16",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG01_v0.2.png",
+    "label": "CG17",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG18-K",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG02_KEEP_v0.2.png",
+    "label": "CG18-K",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG18-R",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG02_RIVER_v0.2.png",
+    "label": "CG18-R",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG03_v0.2.png",
+    "label": "CG19",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT01-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG04_v0.2.png",
+    "label": "CG20",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT01圖片；原PNG與CRC／SHA256見sources/ep05/act01/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC01_IMG01_v1.0.png",
+    "label": "七艘船與九份委託",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC01_IMG02_v1.0.png",
+    "label": "瑪蕾娜自貨堆後現身",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC01_IMG03_v1.0.png",
+    "label": "昔日海盜的商人帳本",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC02_IMG04_v1.0.png",
+    "label": "議事桌上的運力圖",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC02_IMG05_v1.0.png",
+    "label": "尤里斯的文書與眼鏡",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC02_IMG06_v1.0.png",
+    "label": "七船仍在九需求仍在",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG07_v1.0.png",
+    "label": "積塵的議員舉薦文書",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG08_v1.0.png",
+    "label": "皇家印信與三個候選方向",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG09A",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG09A_v1.0.png",
+    "label": "尤里斯接過任命文書",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG09B",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG09B_v1.0.png",
+    "label": "格拉斯被宣布為代表",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG09C",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG09C_v1.0.png",
+    "label": "公告舉薦程序",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG10_v1.0.png",
+    "label": "三方在印信下留下承諾",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG11_v1.0.png",
+    "label": "印信生效與登記",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG12_v1.0.png",
+    "label": "碼頭重排與併艙",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG13K",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG13K_v1.0.png",
+    "label": "原承運船裝貨",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG13R",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG13R_v1.0.png",
+    "label": "河運轉載",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG14_v1.0.png",
+    "label": "艾拉檢查封箱",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG15_v1.0.png",
+    "label": "離港與留在碼頭的人",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG16_v1.0.png",
+    "label": "艾拉與瑪蕾娜的告別",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG17_v1.0.png",
+    "label": "數日後奧特丹收貨確認",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG18_v1.0.png",
+    "label": "格拉斯回望港務舊帳",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT02-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG19_v1.0.png",
+    "label": "下一封來自聖光會的邀請",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT02圖片；原PNG與CRC／SHA256見sources/ep05/act02/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_01_v1.1.png",
+    "label": "清晨沉睡",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_02_v1.1.png",
+    "label": "被窩裡的獅徽戒",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_03_v1.1.png",
+    "label": "早晨頌歌的威脅",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_04_v1.1.png",
+    "label": "私人會面安排",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_05_v1.1.png",
+    "label": "浴袍登場",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_06_v1.1.png",
+    "label": "早晨頌歌誤會",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_07_v1.1.png",
+    "label": "三樓早餐茶會",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_08_v1.1.png",
+    "label": "守衛大師的提醒",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_09_v1.1.png",
+    "label": "救濟站的邀請",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_10_v1.1.png",
+    "label": "外袍都在整理",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_11_v1.1.png",
+    "label": "艾拉客房門前",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_12_v1.1.png",
+    "label": "向艾拉借外袍",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_13_v1.1.png",
+    "label": "紫外袍白內裡",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_14_v1.1.png",
+    "label": "我不想被認出來",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_15_v1.1.png",
+    "label": "東北塔出發",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_16_v1.1.png",
+    "label": "王都救濟站外觀",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_17_v1.1.png",
+    "label": "救濟與祈禱並行",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_18_v1.1.png",
+    "label": "戰後金援的疑點",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_19_v1.1.png",
+    "label": "借人決策",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_20_v1.1.png",
+    "label": "米耶爾白眼",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_21_v1.1.png",
+    "label": "王宮官員抵達",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_22_v1.1.png",
+    "label": "官署人員實際救濟",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_23_v1.1.png",
+    "label": "塔馬拉親臨",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG24",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_24_v1.1.png",
+    "label": "家族資助交涉",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT03-CG25",
+    "type": "cg",
+    "src": "assets/cg/ep05/act03/LE_CG_EP05_ACT03_25_v1.1.png",
+    "label": "回程與未決的帳",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT03圖片；原PNG與CRC／SHA256見sources/ep05/act03/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_01.png",
+    "label": "夜茶三人",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_02.png",
+    "label": "精準端茶",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_03.png",
+    "label": "白色守衛的舊影",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_04.png",
+    "label": "山頂最後防線",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_05.png",
+    "label": "白色守衛對抗法拉迪軍",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_06.png",
+    "label": "十五位生還者",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_07.png",
+    "label": "兩個學術中心",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_08.png",
+    "label": "王都夜景",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_09.png",
+    "label": "民用技術構想",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_10.png",
+    "label": "共同笑聲",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_11.png",
+    "label": "夜談散場",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_12.png",
+    "label": "睡前閱讀",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_13.png",
+    "label": "門禁對講亮起",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_14.png",
+    "label": "闔上的書",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_15.png",
+    "label": "一樓圓桌重新亮起",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_16.png",
+    "label": "遠來的客人",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_17.png",
+    "label": "兩位研究者震驚",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_18.png",
+    "label": "疲憊與熱茶",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_19.png",
+    "label": "守衛接受照護指令",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_20.png",
+    "label": "放下熱茶的守衛",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_21.png",
+    "label": "毛毯與臨時鋪位",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_22.png",
+    "label": "樓梯口的晚安",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT04-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep05/act04/LE_CG_EP05_ACT04_23.png",
+    "label": "東北塔夜間照護",
+    "status": "APPROVED",
+    "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
   }
 ]

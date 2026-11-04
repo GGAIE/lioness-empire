@@ -43,6 +43,7 @@ export const EffectSchema = z.discriminatedUnion('type', [
     .strict(),
   z.object({ type: z.literal('score'), delta: z.number().int() }).strict(),
   z.object({ type: z.literal('points'), delta: z.number().int() }).strict(),
+  z.object({ type: z.literal('unrest'), delta: z.number().int(), clamp: z.boolean() }).strict(),
   z.object({ type: z.literal('political'), value: z.enum(['SACRED', 'WORLD']) }).strict(),
   z.object({ type: z.literal('reinforce'), value: z.boolean() }).strict(),
 ]);
@@ -53,6 +54,9 @@ export const ChoiceSchema = z
     next: z.string().min(1),
     when: ConditionSchema.optional(),
     effects: z.array(EffectSchema).default([]),
+    previewEffects: z
+      .array(z.object({ when: ConditionSchema, effects: z.array(EffectSchema) }).strict())
+      .optional(),
   })
   .strict();
 export const SegmentSchema = z
@@ -88,6 +92,9 @@ export const SceneSchema = z
       .object({ when: ConditionSchema, effects: z.array(EffectSchema).min(1) })
       .strict()
       .optional(),
+    settlements: z
+      .array(z.object({ when: ConditionSchema, effects: z.array(EffectSchema).min(1) }).strict())
+      .optional(),
     conditionalNext: z
       .object({ when: ConditionSchema, next: z.string().min(1) })
       .strict()
@@ -115,12 +122,17 @@ export const SceneSchema = z
     source: z.string().min(1),
     version: z.string(),
     planNodeId: z.string().optional(),
+    planDecisionOverride: z
+      .object({ source: z.string().min(1), reason: z.string().min(1) })
+      .strict()
+      .optional(),
     knowledge: z.object({ knows: z.array(z.string()), withheld: z.array(z.string()) }).strict(),
     segments: z.array(SegmentSchema).min(1),
     choices: z.array(ChoiceSchema).default([]),
     next: z.string().optional(),
     cg: z.string().optional(),
     bgm: z.string().optional(),
+    cgWhen: z.array(z.object({ when: ConditionSchema, cg: z.string() }).strict()).optional(),
     imageWhen: ConditionSchema.optional(),
     presentation: z
       .object({
@@ -140,13 +152,18 @@ export const SceneSchema = z
       c.addIssue({ code: 'custom', message: 'Choice mode requires a choice scene' });
     if (s.choiceMode === 'DIALOGUE_FLAVOR' && s.choices.some((choice) => choice.effects.length))
       c.addIssue({ code: 'custom', message: 'Flavor choices must have no gameplay effects' });
+    if (
+      s.choiceMode === 'DIALOGUE_FLAVOR' &&
+      s.choices.some((choice) => choice.previewEffects?.length)
+    )
+      c.addIssue({ code: 'custom', message: 'Flavor choices must not impose future costs' });
     if (s.playback === 'CUTSCENE' && (s.kind === 'choice' || s.choices.length))
       c.addIssue({ code: 'custom', message: 'Cutscenes forbid player choices' });
     if (s.completion && s.kind !== 'end')
       c.addIssue({ code: 'custom', message: 'Chapter completion requires end scene' });
     if (s.completionFlags && s.kind === 'choice')
       c.addIssue({ code: 'custom', message: 'Completion flags cannot precede a player choice' });
-    if ((s.completionEffects || s.conditionalNext) && s.kind === 'choice')
+    if ((s.completionEffects || s.settlements || s.conditionalNext) && s.kind === 'choice')
       c.addIssue({
         code: 'custom',
         message: 'Automatic completion cannot precede a player choice',

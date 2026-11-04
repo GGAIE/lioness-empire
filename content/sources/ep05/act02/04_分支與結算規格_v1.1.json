@@ -1,0 +1,571 @@
+{
+  "version": "1.1",
+  "status": "DRAFT_FOR_REVIEW",
+  "episode": "EP05",
+  "act": "ACT02",
+  "scenes": [
+    "EP05_ACT02_SC01",
+    "EP05_ACT02_SC02",
+    "EP05_ACT02_SC03",
+    "EP05_ACT02_SC04",
+    "EP05_ACT02_SC05"
+  ],
+  "choice_owner": "OLIVIA",
+  "choices": [
+    {
+      "id": "EP05_ACT02_REP",
+      "scene": "EP05_ACT02_SC03",
+      "options": [
+        {
+          "id": "YURIS_APPOINTED",
+          "political": -15,
+          "unrest": -10
+        },
+        {
+          "id": "GRASS_APPOINTED",
+          "political": 10,
+          "unrest": 20
+        },
+        {
+          "id": "PUBLIC_NOMINATION_PENDING",
+          "political": 5,
+          "unrest": -10
+        }
+      ]
+    }
+  ],
+  "settlement": {
+    "scene": "EP05_ACT02_SC05",
+    "idempotence_flags": [
+      "EP05_PORT_POLITICAL_SETTLED",
+      "EP05_OSINM_REP_SETTLED"
+    ],
+    "separate_ledger_entries": true,
+    "port_unrest": "UNKNOWN_DO_NOT_SET",
+    "unrest_range": [
+      0,
+      100
+    ],
+    "clamp_unrest": true,
+    "political_insufficiency": "PENDING_SYSTEM_RULE; DO_NOT GUESS",
+    "cargo_final": "DELIVERED_TO_AOTEDAN",
+    "flavor_choices_settle": false
+  },
+  "branches": [
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "KEEP",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -15,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "KEEP",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": 10,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "KEEP",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 5,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "RIVER",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": 15,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 0,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "RIVER",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": 15,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": 25,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "RIVER",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": 15,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 20,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "KEEP",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -15,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "KEEP",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": 10,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "KEEP",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 5,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "RIVER",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": 15,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 0,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "RIVER",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": 15,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": 25,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "SOOTHE",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "RIVER",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": 15,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 20,
+      "port_relation": "SOOTHED_WITH_ALTERNATIVE",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "KEEP",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -15,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "KEEP",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": 10,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "KEEP",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 5,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "RIVER",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": -15,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -30,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "RIVER",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": -15,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": -5,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CONTACT_UNION",
+      "act01_c3": "RIVER",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": -15,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -10,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "KEEP",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -15,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "KEEP",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": 10,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "KEEP",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": 0,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": 5,
+      "port_relation": "RECONCILED",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "RIVER",
+      "act02_representation": "YURIS_APPOINTED",
+      "act01_port_political_delta": -15,
+      "act02_nomination_political_delta": -15,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -30,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "RIVER",
+      "act02_representation": "GRASS_APPOINTED",
+      "act01_port_political_delta": -15,
+      "act02_nomination_political_delta": 10,
+      "act02_nomination_unrest_delta": 20,
+      "total_political_delta": -5,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    },
+    {
+      "act01_c1": "QUESTION",
+      "act01_c2": "CHECK_CARRIERS",
+      "act01_c3": "RIVER",
+      "act02_representation": "PUBLIC_NOMINATION_PENDING",
+      "act01_port_political_delta": -15,
+      "act02_nomination_political_delta": 5,
+      "act02_nomination_unrest_delta": -10,
+      "total_political_delta": -10,
+      "port_relation": "WARY_AFTER_BYPASS",
+      "cargo": "DELIVERED_TO_AOTEDAN"
+    }
+  ],
+  "cg_assets": [
+    {
+      "id": "CG01",
+      "scene": "SC01",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC01_IMG01_v1.0.png"
+    },
+    {
+      "id": "CG02",
+      "scene": "SC01",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC01_IMG02_v1.0.png"
+    },
+    {
+      "id": "CG03",
+      "scene": "SC01",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC01_IMG03_v1.0.png"
+    },
+    {
+      "id": "CG04",
+      "scene": "SC02",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC02_IMG04_v1.0.png"
+    },
+    {
+      "id": "CG05",
+      "scene": "SC02",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC02_IMG05_v1.0.png"
+    },
+    {
+      "id": "CG06",
+      "scene": "SC02",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC02_IMG06_v1.0.png"
+    },
+    {
+      "id": "CG07",
+      "scene": "SC03",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC03_IMG07_v1.0.png"
+    },
+    {
+      "id": "CG08",
+      "scene": "SC03",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC03_IMG08_v1.0.png"
+    },
+    {
+      "id": "CG09A",
+      "scene": "SC03",
+      "branch": "YURIS_APPOINTED",
+      "asset": "LE_CG_EP05_ACT02_SC03_IMG09A_v1.0.png"
+    },
+    {
+      "id": "CG09B",
+      "scene": "SC03",
+      "branch": "GRASS_APPOINTED",
+      "asset": "LE_CG_EP05_ACT02_SC03_IMG09B_v1.0.png"
+    },
+    {
+      "id": "CG09C",
+      "scene": "SC03",
+      "branch": "PUBLIC_NOMINATION_PENDING",
+      "asset": "LE_CG_EP05_ACT02_SC03_IMG09C_v1.0.png"
+    },
+    {
+      "id": "CG10",
+      "scene": "SC03",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC03_IMG10_v1.0.png"
+    },
+    {
+      "id": "CG11",
+      "scene": "SC04",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC04_IMG11_v1.0.png"
+    },
+    {
+      "id": "CG12",
+      "scene": "SC04",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC04_IMG12_v1.0.png"
+    },
+    {
+      "id": "CG13K",
+      "scene": "SC04",
+      "branch": "KEEP",
+      "asset": "LE_CG_EP05_ACT02_SC04_IMG13K_v1.0.png"
+    },
+    {
+      "id": "CG13R",
+      "scene": "SC04",
+      "branch": "RIVER",
+      "asset": "LE_CG_EP05_ACT02_SC04_IMG13R_v1.0.png"
+    },
+    {
+      "id": "CG14",
+      "scene": "SC04",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC04_IMG14_v1.0.png"
+    },
+    {
+      "id": "CG15",
+      "scene": "SC05",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC05_IMG15_v1.0.png"
+    },
+    {
+      "id": "CG16",
+      "scene": "SC05",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC05_IMG16_v1.0.png"
+    },
+    {
+      "id": "CG17",
+      "scene": "SC05",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC05_IMG17_v1.0.png"
+    },
+    {
+      "id": "CG18",
+      "scene": "SC05",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC05_IMG18_v1.0.png"
+    },
+    {
+      "id": "CG19",
+      "scene": "SC05",
+      "branch": "COMMON",
+      "asset": "LE_CG_EP05_ACT02_SC05_IMG19_v1.0.png"
+    }
+  ],
+  "flavor_choices": [
+    {
+      "id": "EP05_ACT02_FLAVOR_01",
+      "scene": "EP05_ACT02_SC01",
+      "kind": "FLAVOR_NO_EFFECT",
+      "options": [
+        "F01_A",
+        "F01_B",
+        "F01_C"
+      ],
+      "effects": {
+        "political": 0,
+        "unrest": 0,
+        "clear": 0,
+        "historical_flags": []
+      },
+      "persistence": "NONE",
+      "next": "SAME_SCENE_COMMON_MERGE"
+    },
+    {
+      "id": "EP05_ACT02_FLAVOR_02",
+      "scene": "EP05_ACT02_SC02",
+      "kind": "FLAVOR_NO_EFFECT",
+      "options": [
+        "F02_A",
+        "F02_B",
+        "F02_C"
+      ],
+      "effects": {
+        "political": 0,
+        "unrest": 0,
+        "clear": 0,
+        "historical_flags": []
+      },
+      "persistence": "NONE",
+      "next": "SAME_SCENE_COMMON_MERGE"
+    },
+    {
+      "id": "EP05_ACT02_FLAVOR_03",
+      "scene": "EP05_ACT02_SC03",
+      "kind": "FLAVOR_NO_EFFECT",
+      "options": [
+        "F03_A",
+        "F03_B",
+        "F03_C"
+      ],
+      "effects": {
+        "political": 0,
+        "unrest": 0,
+        "clear": 0,
+        "historical_flags": []
+      },
+      "persistence": "NONE",
+      "next": "SAME_SCENE_COMMON_MERGE",
+      "notes": "Precedes EP05_ACT02_REP; never replaces or skips it"
+    },
+    {
+      "id": "EP05_ACT02_FLAVOR_04",
+      "scene": "EP05_ACT02_SC04",
+      "kind": "FLAVOR_NO_EFFECT",
+      "options": [
+        "F04_A",
+        "F04_B",
+        "F04_C"
+      ],
+      "effects": {
+        "political": 0,
+        "unrest": 0,
+        "clear": 0,
+        "historical_flags": []
+      },
+      "persistence": "NONE",
+      "next": "SAME_SCENE_COMMON_MERGE"
+    },
+    {
+      "id": "EP05_ACT02_FLAVOR_05",
+      "scene": "EP05_ACT02_SC05",
+      "kind": "FLAVOR_NO_EFFECT",
+      "options": [
+        "F05_A",
+        "F05_B",
+        "F05_C"
+      ],
+      "effects": {
+        "political": 0,
+        "unrest": 0,
+        "clear": 0,
+        "historical_flags": []
+      },
+      "persistence": "NONE",
+      "next": "SAME_SCENE_COMMON_MERGE"
+    }
+  ]
+}

@@ -29,7 +29,8 @@
     "content:import-ep03": "tsx scripts/import-ep03.ts",
     "content:import-ep04-act01": "tsx scripts/import-ep04-act01.ts",
     "content:import-ep04-act02": "tsx scripts/import-ep04-act02.ts",
-    "content:import-ep04-later-acts": "tsx scripts/import-ep04-later-acts.ts"
+    "content:import-ep04-later-acts": "tsx scripts/import-ep04-later-acts.ts",
+    "content:import-ep05": "python -X utf8 scripts/import-ep05.py"
   },
   "dependencies": {
     "idb": "^8.0.0",

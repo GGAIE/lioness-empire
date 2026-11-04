@@ -9,6 +9,7 @@ import {
   initialState,
   visibleSegments,
   evaluate,
+  applyEffects,
 } from '../../../../packages/narrative-core/engine';
 import { createCampaign } from '../../../../packages/narrative-core/campaign';
 import { reviewedHistoryText } from '../../../../packages/narrative-core/reader-text';
@@ -199,6 +200,12 @@ export function restoreSave(input: unknown, story: Story): { state: GameState; n
     );
   }
   state.contentVersion = story.manifest.version;
+  // Imported mid-result saves must be able to honor their already chosen, deferred ledger.
+  let settlementPreview = state;
+  for (const item of story.scenes[state.currentSceneId].settlements ?? []) {
+    if (evaluate(settlementPreview, item.when))
+      settlementPreview = applyEffects(settlementPreview, item.effects);
+  }
   const max = visibleSegments(story, state).length - 1;
   if (state.currentSegmentIndex > max) {
     state.currentSegmentIndex = Math.max(0, max);

@@ -100,7 +100,7 @@ test('production skips declined F1, completes the earned reward once and warns o
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
     '第五章〈攝政成為習慣〉'
   );
-  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('敬請期待');
+  await expect(page.getByRole('button', { name: /進入第五章/ })).toBeVisible();
   await expect(page.getByRole('region', { name: '章節完成' })).not.toContainText('劇本尚未提供');
   await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
     '85'

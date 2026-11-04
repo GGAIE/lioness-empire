@@ -63,7 +63,7 @@ test('the subtle symbol opens best access, remembers it, preserves backups and r
   await expect(page.getByRole('status')).toContainText('自由閱讀已開啟');
   await close(page);
   await directory(page);
-  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(109);
+  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(129);
   await page.locator('.directory-sections button').filter({ hasText: firstTitle }).click();
   await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP01_ACT01_SC01');
   await directory(page);
@@ -79,7 +79,7 @@ test('the subtle symbol opens best access, remembers it, preserves backups and r
   await expect.poll(() => preference(page)).toBe(true);
   await page.reload();
   await directory(page);
-  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(109);
+  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(129);
   await close(page);
   await access(page);
   await page.screenshot({

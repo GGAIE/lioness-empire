@@ -1,0 +1,221 @@
+{
+  "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+  "archiveSha256": "c56c516f5ce523204298f7c68cd02223d994589447a4a377f47e89d5fc7fcf38",
+  "supplements": [],
+  "supersededPartial": [],
+  "partial": [],
+  "images": [
+    {
+      "id": "EP05-ACT01-CG01",
+      "entry": "LE_CG_EP05_ACT01_SC01_IMG01_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG01_v0.2.png",
+      "bytes": 3021982,
+      "sha256": "694b07b79111f836a9ae644a03a9a2c3b01a50cd2b0fd27474346b90f6345bf3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG02",
+      "entry": "LE_CG_EP05_ACT01_SC01_IMG02_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG02_v0.2.png",
+      "bytes": 2604351,
+      "sha256": "61d1a7ab22cc987dd5dd8735fcf04c605103c9b42ce386e4960c0f3d1db132e5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG03",
+      "entry": "LE_CG_EP05_ACT01_SC01_IMG03_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG03_v0.2.png",
+      "bytes": 2851189,
+      "sha256": "e41b1e4bcbe352c7a629f74b19d1167d056d5f30bcc90cd4ae68b7866d279fe5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG04",
+      "entry": "LE_CG_EP05_ACT01_SC01_IMG04_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC01_IMG04_v0.2.png",
+      "bytes": 2792942,
+      "sha256": "7f2a0802d64fb041dc119d1d01f0bb6a4fe3f4225f057549d4e57161d6c98d5d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG05",
+      "entry": "LE_CG_EP05_ACT01_SC02_IMG01_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG01_v0.2.png",
+      "bytes": 3294997,
+      "sha256": "9f776adc8b6356bc1cbb06e8c75ab2427c3e141d81ae3d2d304daa96a25772a2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG06",
+      "entry": "LE_CG_EP05_ACT01_SC02_IMG02_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG02_v0.2.png",
+      "bytes": 3061589,
+      "sha256": "d21f8316f0e14b52063f0fb683ac0642f3815cd1b656eba149264e3254b67c19",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG07",
+      "entry": "LE_CG_EP05_ACT01_SC02_IMG03_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG03_v0.2.png",
+      "bytes": 2626256,
+      "sha256": "9de8060509402ef6d79b54bad8cc11fa3e61409012273c47b3ece28d23a2d7ed",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG08",
+      "entry": "LE_CG_EP05_ACT01_SC02_IMG04_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC02_IMG04_v0.2.png",
+      "bytes": 2726243,
+      "sha256": "327b29b7474bb24b9e34ce3e0a9c5fdaf5f2ebae2fc763a3461bb5eea8e8c55f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG09",
+      "entry": "LE_CG_EP05_ACT01_SC03_IMG01_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG01_v0.2.png",
+      "bytes": 2784302,
+      "sha256": "0d55f2e27372f78ff2af6373f6d3870a649c88ed9eca68a07a00d9c99ef29c29",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG10",
+      "entry": "LE_CG_EP05_ACT01_SC03_IMG02_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG02_v0.2.png",
+      "bytes": 2880648,
+      "sha256": "8dea4b3dc0475d489e46ae893d60b69773e53cc4c1c274dbdc269945dd98272c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG11",
+      "entry": "LE_CG_EP05_ACT01_SC03_IMG03_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG03_v0.2.png",
+      "bytes": 2575240,
+      "sha256": "414a6068fb804b9e596491caf117ba01ba6c6b5db26a641a5b69305f5a982bbb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG12",
+      "entry": "LE_CG_EP05_ACT01_SC03_IMG04_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC03_IMG04_v0.2.png",
+      "bytes": 2852190,
+      "sha256": "10a76d7d8f450e0fb58f2daccf41e5c2d804fe308e7151480a028e109bcea20f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG13",
+      "entry": "LE_CG_EP05_ACT01_SC04_IMG01_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG01_v0.2.png",
+      "bytes": 2307707,
+      "sha256": "9ed537d6ce9109543eeb06adc64df4545c5badfcb1e6ac0b3a100554990eb389",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG14",
+      "entry": "LE_CG_EP05_ACT01_SC04_IMG02_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG02_v0.2.png",
+      "bytes": 2249244,
+      "sha256": "c6af3fe8842e5f663cc12600b6fa215d6be492957b00f9f7569cd66bbb7a300c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG15",
+      "entry": "LE_CG_EP05_ACT01_SC04_IMG03_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG03_v0.2.png",
+      "bytes": 3126279,
+      "sha256": "0825c0ec3d40dacd669e2f667d9f0bf7a9d3577300023253927242fe82ace130",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG16",
+      "entry": "LE_CG_EP05_ACT01_SC04_IMG04_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC04_IMG04_v0.2.png",
+      "bytes": 2830270,
+      "sha256": "b24ae84f62de6e418688f9fbc182ad8e8be64e25bf57ac737f4d2f8d07aeffcd",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG17",
+      "entry": "LE_CG_EP05_ACT01_SC05_IMG01_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG01_v0.2.png",
+      "bytes": 2760333,
+      "sha256": "ca8a9797ea635170ba185234dc16cd202fca64fc0c19381063679be66b1967bd",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG18-K",
+      "entry": "LE_CG_EP05_ACT01_SC05_IMG02_KEEP_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG02_KEEP_v0.2.png",
+      "bytes": 2906682,
+      "sha256": "06f16216172e299014507a3d1b8dd6c8482730ef401a1e90c517db28852b25b7",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG18-R",
+      "entry": "LE_CG_EP05_ACT01_SC05_IMG02_RIVER_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG02_RIVER_v0.2.png",
+      "bytes": 2962816,
+      "sha256": "1f95697833f35a141a4762bc92e16377e4cb971614be87297757b7a3637f01b0",
+      "width": 1671,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG19",
+      "entry": "LE_CG_EP05_ACT01_SC05_IMG03_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG03_v0.2.png",
+      "bytes": 2778908,
+      "sha256": "c44b1f1a4f0f0ee56f893af123d67313b09ae61155c86e6410c12801921c6059",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT01-CG20",
+      "entry": "LE_CG_EP05_ACT01_SC05_IMG04_v0.2.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\LE_EP05_ACT01_21CG_v0.2.zip",
+      "path": "assets/cg/ep05/act01/LE_CG_EP05_ACT01_SC05_IMG04_v0.2.png",
+      "bytes": 2522556,
+      "sha256": "7f060db45546440e41259f912c4cf71fc4885237ccac93838131f9ec9f0d809e",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "missing": [],
+  "sourceSha256": "c25ccf2061fe50b80b57a513c225e5a37b0121d87c6433e809bf65d9d486499e"
+}

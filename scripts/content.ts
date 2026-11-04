@@ -5,6 +5,7 @@ import { loadContent, root, readJson } from './load-content';
 import { z } from 'zod';
 import { EndingRuleSchema } from '../packages/narrative-core/schema';
 import { validateStory } from '../packages/narrative-core/validate';
+import { explorationKey } from './exploration-key';
 import { auditSpeakers } from './speaker-annotations';
 import { prepareReaderStory } from '../packages/narrative-core/reader-text';
 import {
@@ -14,6 +15,7 @@ import {
   initialState,
   visibleChoices,
   visibleSegments,
+  choiceUnavailableReason,
 } from '../packages/narrative-core/engine';
 const story = await loadContent();
 const report = validateStory(story);
@@ -69,27 +71,15 @@ const pending = story.manifest.chapters
     .map((c) => initialState({ ...story, manifest: { ...story.manifest, start: c.entry! } })),
   seen = new Set<string>();
 let ends = 0;
-const flavorDecisions = new Set(
-  Object.values(story.scenes)
-    .filter((s) => s.choiceMode === 'DIALOGUE_FLAVOR')
-    .map((s) => s.id)
-);
+const stateKey = explorationKey(story);
+let blockedChoices = 0;
 // EP03 adds five complete acts; keep a bounded, exhaustive content graph check.
-while (pending.length && seen.size < 60000) {
+while (pending.length && seen.size < 250000) {
   const s = pending.pop()!;
-  const key = JSON.stringify([
-    s.currentSceneId,
-    s.currentSegmentIndex,
-    s.flags,
-    s.clear,
-    s.politicalRoute,
-    s.tarotRoute,
-    s.campaign,
-    s.readChapters,
-    // Flavor history is saved for replay UI, but cannot affect future story conditions.
-    // Validation forbids returning to a flavor choice, so common nodes can be merged.
-    s.decisionLog.filter((entry) => !flavorDecisions.has(entry.slice(0, entry.lastIndexOf(':')))),
-  ]);
+  // Read history is an output, never a story condition; do not copy thousands of old paragraphs per graph edge.
+  s.history = [];
+  s.readSegments = [];
+  const key = stateKey(s);
   if (seen.has(key)) continue;
   seen.add(key);
   try {
@@ -104,7 +94,13 @@ while (pending.length && seen.size < 60000) {
     else {
       const choices = visibleChoices(story, s);
       if (!choices.length) report.errors.push(`Conditional dead-end ${scene.id}`);
-      for (const c of choices) pending.push(choose(story, s, c.id));
+      for (const c of choices) {
+        if (choiceUnavailableReason(s, c)) {
+          blockedChoices++;
+          continue;
+        }
+        pending.push(choose(story, s, c.id));
+      }
     }
   } catch (e) {
     report.errors.push(String(e));
@@ -115,6 +111,7 @@ const full = {
   ...report,
   exploredStates: seen.size,
   endStates: ends,
+  blockedChoices,
   explorationComplete: pending.length === 0,
   canonEndings: story.endings.length,
   approvedCanonEndings: story.endings.filter((r) => r.status === 'APPROVED').length,

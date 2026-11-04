@@ -66,6 +66,13 @@ it('imports all 46 nodes, 602 paragraphs and 22 answers with complete source and
   const parsed = ([3, 4, 5] as const).map((act) => parseEp04LaterAct(sources[act], act));
   const scenes = parsed.flatMap((p) => p.scenes);
   connectEp04LaterActs([structuredClone(raw.scenes.EP04_ACT02_SC06_COMMON), ...scenes]);
+  const final = scenes.find((s) => s.completion?.nextChapterId === 'EP05')!;
+  delete final.completion!.pendingLabel;
+  Object.assign(final.completion!, {
+    nextSceneId: 'EP05_ACT01_SC01',
+    continueLabel: '進入第五章',
+    nextLabel: '第五章〈攝政成為習慣〉',
+  });
   expect(scenes).toEqual(
     Object.values(raw.scenes).filter(
       (s) => s.chapter === 'EP04' && ['ACT03', 'ACT04', 'ACT05'].includes(s.act)
@@ -230,7 +237,7 @@ it('plays all 324 ACT05 answer combinations and applies exactly the new +10/+5/0
       scope: 'CHAPTER',
       nextChapterId: 'EP05',
     });
-    expect(() => continueChapter(reader, result.state)).toThrow();
+    expect(continueChapter(reader, result.state).currentSceneId).toBe('EP05_ACT01_SC01');
     expect(restoreSave(result.state, reader).state).toEqual(result.state);
   }
 }, 60000);

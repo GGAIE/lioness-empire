@@ -1,0 +1,26 @@
+﻿cg_id,scene,branch,title_zh,story_beat,olivia_wardrobe,characters,filename,status
+LE_CG_EP05_ACT03_01,SC01,COMMON,清晨沉睡,難得的好覺,home,olivia,LE_CG_EP05_ACT03_01_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_02,SC01,COMMON,被窩裡的獅徽戒,不在／現在沒有了,home,olivia,LE_CG_EP05_ACT03_02_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_03,SC01,COMMON,早晨頌歌的威脅,別了我起來吧,home,"olivia, finley",LE_CG_EP05_ACT03_03_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_04,SC01,COMMON,私人會面安排,三樓私人會面,home,"olivia, finley",LE_CG_EP05_ACT03_04_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_05,SC02,COMMON,浴袍登場,妳就穿這樣出來,home,"olivia, mielle",LE_CG_EP05_ACT03_05_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_06,SC02,COMMON,早晨頌歌誤會,那不是威脅,home,"olivia, mielle, finley",LE_CG_EP05_ACT03_06_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_07,SC02,COMMON,三樓早餐茶會,早餐私談,home,"olivia, mielle, finley",LE_CG_EP05_ACT03_07_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_08,SC02,COMMON,守衛大師的提醒,我不建議妳嘗試,home,"olivia, mielle, finley",LE_CG_EP05_ACT03_08_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_09,SC02,COMMON,救濟站的邀請,借半天時間,home,"olivia, mielle, finley",LE_CG_EP05_ACT03_09_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_10,SC03,COMMON,外袍都在整理,前幾天去奧辛姆的外袍還在洗,white,"olivia, finley",LE_CG_EP05_ACT03_10_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_11,SC03,COMMON,艾拉客房門前,借衣前,white,olivia,LE_CG_EP05_ACT03_11_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_12,SC03,COMMON,向艾拉借外袍,攝政公主借衣,white,"olivia, ella",LE_CG_EP05_ACT03_12_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_13,SC03,COMMON,紫外袍白內裡,兩套衣服的接合,out,"olivia, ella",LE_CG_EP05_ACT03_13_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_14,SC03,COMMON,我不想被認出來,因為我沒有想要被認出來,out,"olivia, ella",LE_CG_EP05_ACT03_14_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_15,SC03,COMMON,東北塔出發,一樓會合,out,"olivia, mielle, finley",LE_CG_EP05_ACT03_15_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_16,SC04,COMMON,王都救濟站外觀,抵達救濟站,out,"olivia, mielle",LE_CG_EP05_ACT03_16_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_17,SC04,COMMON,救濟與祈禱並行,她早知道慈善傳教,out,"olivia, mielle",LE_CG_EP05_ACT03_17_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_18,SC04,COMMON,戰後金援的疑點,王宮支出未減少的記憶,out,"olivia, mielle",LE_CG_EP05_ACT03_18_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_19,SC04,COMMON,借人決策,政治主選項,out,"olivia, mielle",LE_CG_EP05_ACT03_19_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_20,SC04,C_ONLY,米耶爾白眼,C 立即拒絕,out,"olivia, mielle",LE_CG_EP05_ACT03_20_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_21,SC05,A_OR_C,王宮官員抵達,A/C 共用 NPC,out,"olivia, mielle, npc",LE_CG_EP05_ACT03_21_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_22,SC05,A_OR_C,官署人員實際救濟,A/C 救濟結果,out,"olivia, mielle, npc",LE_CG_EP05_ACT03_22_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_23,SC05,B_ONLY,塔馬拉親臨,B 塔馬拉到場,out,"olivia, mielle, tamara",LE_CG_EP05_ACT03_23_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_24,SC05,B_ONLY,家族資助交涉,B 家族金援及+15,out,"olivia, mielle, tamara",LE_CG_EP05_ACT03_24_v1.1.png,PROMPT_ONLY
+LE_CG_EP05_ACT03_25,SC05,COMMON,回程與未決的帳,SC05 共通尾聲,out,olivia,LE_CG_EP05_ACT03_25_v1.1.png,PROMPT_ONLY

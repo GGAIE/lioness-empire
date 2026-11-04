@@ -228,7 +228,7 @@ test('free reading hides the unavailable F1 scene and completion rewards survive
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   await page.getByRole('button', { name: '章節目錄', exact: true }).click();
   await page.getByRole('button', { name: '展開全部', exact: true }).click();
-  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(109);
+  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(129);
   await expect(
     page.locator('.directory-sections button').filter({ hasText: '芬利的答謝' })
   ).toHaveCount(0);
@@ -250,7 +250,7 @@ test('free reading hides the unavailable F1 scene and completion rewards survive
   );
   await page.getByRole('button', { name: '章節', exact: true }).click();
   await page.getByRole('button', { name: '展開全部', exact: true }).click();
-  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(110);
+  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(130);
   await expect(
     page.locator('.directory-sections button').filter({ hasText: '芬利的答謝' })
   ).toHaveCount(1);

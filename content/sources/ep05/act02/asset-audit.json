@@ -1,0 +1,231 @@
+{
+  "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+  "archiveSha256": "fe44a99a0a53088732c090fda006bf99e46e132a4ee0a618791b0c8d0171477a",
+  "supplements": [],
+  "supersededPartial": [],
+  "partial": [],
+  "images": [
+    {
+      "id": "EP05-ACT02-CG01",
+      "entry": "LE_CG_EP05_ACT02_SC01_IMG01_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC01_IMG01_v1.0.png",
+      "bytes": 3195041,
+      "sha256": "89dbd8350243946bf6462fb8809f62c2d268f2bde9d6b627b6af1601487985a7",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG02",
+      "entry": "LE_CG_EP05_ACT02_SC01_IMG02_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC01_IMG02_v1.0.png",
+      "bytes": 3076110,
+      "sha256": "2a0d0822963c3228ab9e71fcff774fda33df25f992722c9136cff2bbaa659d6c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG03",
+      "entry": "LE_CG_EP05_ACT02_SC01_IMG03_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC01_IMG03_v1.0.png",
+      "bytes": 3184537,
+      "sha256": "0d48200b124c700dacc51a12acf3b6061d99e079e2fccf7ff9eb2fd3a19c40cb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG04",
+      "entry": "LE_CG_EP05_ACT02_SC02_IMG04_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC02_IMG04_v1.0.png",
+      "bytes": 3183351,
+      "sha256": "2ad613620291914661a8e3b5232f9850463824566837b301fd12646a1149d23a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG05",
+      "entry": "LE_CG_EP05_ACT02_SC02_IMG05_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC02_IMG05_v1.0.png",
+      "bytes": 2371265,
+      "sha256": "483120c3ca1c4177c85c8e9a2c5681d9b2062d43f605b60e52253708006d01a9",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG06",
+      "entry": "LE_CG_EP05_ACT02_SC02_IMG06_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC02_IMG06_v1.0.png",
+      "bytes": 3028104,
+      "sha256": "f869a6406468fabce9ecb17319d23b32107f33724fed1e1eef407390f4afd547",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG07",
+      "entry": "LE_CG_EP05_ACT02_SC03_IMG07_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG07_v1.0.png",
+      "bytes": 2937227,
+      "sha256": "de3fad3383282523395e9fccec978e926d062eee6fae62ae69c33203e88df691",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG08",
+      "entry": "LE_CG_EP05_ACT02_SC03_IMG08_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG08_v1.0.png",
+      "bytes": 2592555,
+      "sha256": "50460c00d5acfadd634e85f1f20885fadc308a06acebd6ca30cc7744de5ea9f5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG09A",
+      "entry": "LE_CG_EP05_ACT02_SC03_IMG09A_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG09A_v1.0.png",
+      "bytes": 2828698,
+      "sha256": "612f8fe1bc72413bfe8e29abdcf716d32912a56fff345f68550eb2b156425528",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG09B",
+      "entry": "LE_CG_EP05_ACT02_SC03_IMG09B_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG09B_v1.0.png",
+      "bytes": 2781418,
+      "sha256": "167c4de7535b3361aff7c7998968840dbcfeaddbea7bc8b9384af735ba098e04",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG09C",
+      "entry": "LE_CG_EP05_ACT02_SC03_IMG09C_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG09C_v1.0.png",
+      "bytes": 2933950,
+      "sha256": "2396d9972184ab72995ad2ec47f9e987ad5a1669a6a300d9fb78ee8f19929f4d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG10",
+      "entry": "LE_CG_EP05_ACT02_SC03_IMG10_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC03_IMG10_v1.0.png",
+      "bytes": 2866949,
+      "sha256": "230a63b9b3dd1ecf7698a78369cecca5a6ebd861f885d55686b8c520f590222f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG11",
+      "entry": "LE_CG_EP05_ACT02_SC04_IMG11_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG11_v1.0.png",
+      "bytes": 3028344,
+      "sha256": "cee14ffa95263414547ceee896984a473c3c05ba527eb8224a7523a1fdd2e830",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG12",
+      "entry": "LE_CG_EP05_ACT02_SC04_IMG12_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG12_v1.0.png",
+      "bytes": 3131132,
+      "sha256": "4031da674739532c86b7297623763579a699549df1aa951902f4987f979c2830",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG13K",
+      "entry": "LE_CG_EP05_ACT02_SC04_IMG13K_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG13K_v1.0.png",
+      "bytes": 2893578,
+      "sha256": "9cd8792975dafa282eefbf68df46eee74ed504edf7f5a33dd6ca079e8b14b323",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG13R",
+      "entry": "LE_CG_EP05_ACT02_SC04_IMG13R_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG13R_v1.0.png",
+      "bytes": 3211763,
+      "sha256": "279fe57a33f04da91a22b7d4db761606a760c626542a7eaa64ecfe411508a127",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG14",
+      "entry": "LE_CG_EP05_ACT02_SC04_IMG14_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC04_IMG14_v1.0.png",
+      "bytes": 3144469,
+      "sha256": "20abd792c8b88009657202894ad45924ce990255a68cf37c79014fad578297bf",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG15",
+      "entry": "LE_CG_EP05_ACT02_SC05_IMG15_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG15_v1.0.png",
+      "bytes": 2712424,
+      "sha256": "ce97d92c2da53e8c18ee3dc8f7202988b803d60150e417cf3dbcf6afcb29f26b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG16",
+      "entry": "LE_CG_EP05_ACT02_SC05_IMG16_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG16_v1.0.png",
+      "bytes": 2936648,
+      "sha256": "65fd7bdae685b969a50b518cb903b7979b008f280588b9a6a59ff7a917196544",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG17",
+      "entry": "LE_CG_EP05_ACT02_SC05_IMG17_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG17_v1.0.png",
+      "bytes": 2413497,
+      "sha256": "6b4b8762692e01c4c76e5f97d59596b4b7f6c7ab21b14c9c6f42cce85f88f320",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG18",
+      "entry": "LE_CG_EP05_ACT02_SC05_IMG18_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG18_v1.0.png",
+      "bytes": 2720960,
+      "sha256": "9f111d6488d200f13b5de0f16997b3c027a027d98f9397280c6b256af644579e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "EP05-ACT02-CG19",
+      "entry": "LE_CG_EP05_ACT02_SC05_IMG19_v1.0.png",
+      "archive": "C:\\Users\\45P\\Downloads\\ep5\\母獅帝國_EP05_ACT02_22張CG_正確圖片包_v1.0.zip",
+      "path": "assets/cg/ep05/act02/LE_CG_EP05_ACT02_SC05_IMG19_v1.0.png",
+      "bytes": 2141578,
+      "sha256": "a776270bcda4af8a4fc789b207b5bd1e207050c5dcab70a8ef1d331157548619",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "missing": [],
+  "sourceSha256": "242b219d94677f0bef08b60fa08b42c2bec1282069de292221a3a6ced28bffbe"
+}

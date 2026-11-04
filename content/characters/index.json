@@ -1,9 +1,9 @@
 {
   "NARRATOR": "旁白",
-  "OLIVIA": "奧莉薇雅",
+  "OLIVIA": "奧莉維亞",
   "ALINDA": "艾琳達",
   "FINLEY": "芬利",
-  "TAMARA": "塔娜拉",
+  "TAMARA": "塔馬拉",
   "SHALIA": "莎莉雅",
   "TALIA": "塔莉雅",
   "AIVIS": "艾維斯",
@@ -85,5 +85,12 @@
   "RECORDS_CLERK": "承辦官員",
   "LIBRARY_CLERK": "圖書館職員",
   "GORM": "剛姆",
-  "COURT_SENIOR_OFFICIAL": "高級官員"
+  "COURT_SENIOR_OFFICIAL": "高級官員",
+  "GRASS": "格拉斯",
+  "COURT_ATTENDANT": "侍從",
+  "MARENA": "瑪蕾娜",
+  "YURIS": "尤里斯",
+  "MIEL": "米耶爾",
+  "PALACE_RELIEF_OFFICIAL": "王宮官員",
+  "RUENNE_EXILE_DELEGATE": "流亡貴族代表"
 }

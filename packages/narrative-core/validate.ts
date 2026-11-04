@@ -35,6 +35,23 @@ export function validateStory(story: Story) {
       errors.push(`${where}: invalid tarot route`);
   };
   for (const scene of Object.values(story.scenes)) {
+    for (const item of [
+      ...(scene.settlements ?? []),
+      ...scene.choices.flatMap((c) => c.previewEffects ?? []),
+    ]) {
+      check(item.when, scene.id);
+      for (const e of item.effects)
+        if (
+          e.type === 'flag' &&
+          (!story.manifest.flags[e.key] ||
+            typeof story.manifest.flags[e.key].initial !== typeof e.value)
+        )
+          errors.push(`${scene.id}: invalid settlement/preview flag ${e.key}`);
+    }
+    for (const item of scene.cgWhen ?? []) {
+      check(item.when, scene.id);
+      ref(item.cg, 'cg|background');
+    }
     if (scene.availableWhen) check(scene.availableWhen, scene.id);
     if (scene.conditionalNext) {
       check(scene.conditionalNext.when, scene.id);
@@ -83,9 +100,17 @@ export function validateStory(story: Story) {
         if (
           scene.kind === 'choice' &&
           act.decision === 'NONE' &&
+          !scene.planDecisionOverride &&
           (scene.choiceMode !== 'DIALOGUE_FLAVOR' || scene.choices.some((c) => c.effects.length))
         )
           errors.push(`${scene.id}: opening/result plan node forbids effective choices`);
+        if (
+          scene.planDecisionOverride &&
+          (scene.chapter === 'PROLOGUE' ||
+            scene.chapter === 'EP12' ||
+            scene.planDecisionOverride.source !== scene.source)
+        )
+          errors.push(`${scene.id}: invalid authored decision override`);
       }
     }
     const local = new Set<string>();

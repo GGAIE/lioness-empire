@@ -2,7 +2,6 @@ import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import type { Story, GameState } from '../../../../packages/narrative-core/schema';
 import {
   currentCg,
-  visibleChoices,
   visibleSegments,
   nextSceneId,
 } from '../../../../packages/narrative-core/engine';
@@ -30,14 +29,16 @@ export function Stage({
     return () => clearTimeout(t);
   }, [outgoing, scene.presentation?.fadeMs]);
   useEffect(() => {
-    const next = [
-      nextSceneId(story, state),
-      ...visibleChoices(story, state).map((c) => c.next),
-    ].filter(Boolean) as string[];
+    // Preload only the committed next path, with its visible first illustration.
+    // Unchosen routes must not fetch or expose their exclusive CGs.
+    const next = [nextSceneId(story, state)].filter(Boolean) as string[];
     const nextSegmentCg = visibleSegments(story, state)
       .slice(state.currentSegmentIndex + 1)
       .find((segment) => segment.cg)?.cg;
-    const upcoming = new Set([nextSegmentCg, ...next.map((n) => story.scenes[n]?.cg)]);
+    const upcoming = new Set([
+      nextSegmentCg,
+      ...next.map((n) => currentCg(story, { ...state, currentSceneId: n, currentSegmentIndex: 0 })),
+    ]);
     for (const cg of upcoming) {
       const a = story.assets.find((x) => x.id === cg);
       if (a) {

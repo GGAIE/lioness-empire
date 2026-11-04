@@ -223,6 +223,29 @@
                       "properties": {
                         "type": {
                           "type": "string",
+                          "const": "unrest"
+                        },
+                        "delta": {
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "clamp": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "delta",
+                        "clamp"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
                           "const": "political"
                         },
                         "value": {
@@ -265,6 +288,184 @@
               "effects"
             ],
             "additionalProperties": false
+          },
+          "settlements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "when": {
+                  "$ref": "#/definitions/__schema0"
+                },
+                "effects": {
+                  "minItems": 1,
+                  "type": "array",
+                  "items": {
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "const": "flag"
+                          },
+                          "key": {
+                            "type": "string",
+                            "pattern": "^[A-Z][A-Z0-9_]*$"
+                          },
+                          "value": {
+                            "type": [
+                              "boolean",
+                              "number",
+                              "string"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "key",
+                          "value"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "const": "clear"
+                          },
+                          "key": {
+                            "type": "string",
+                            "enum": [
+                              "alinda",
+                              "finley",
+                              "tamara",
+                              "shalia"
+                            ]
+                          },
+                          "delta": {
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "key",
+                          "delta"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "const": "score"
+                          },
+                          "delta": {
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "delta"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "const": "points"
+                          },
+                          "delta": {
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "delta"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "const": "unrest"
+                          },
+                          "delta": {
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          },
+                          "clamp": {
+                            "type": "boolean"
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "delta",
+                          "clamp"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "const": "political"
+                          },
+                          "value": {
+                            "type": "string",
+                            "enum": [
+                              "SACRED",
+                              "WORLD"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "value"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "const": "reinforce"
+                          },
+                          "value": {
+                            "type": "boolean"
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "value"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "when",
+                "effects"
+              ],
+              "additionalProperties": false
+            }
           },
           "conditionalNext": {
             "type": "object",
@@ -357,6 +558,24 @@
           },
           "planNodeId": {
             "type": "string"
+          },
+          "planDecisionOverride": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source",
+              "reason"
+            ],
+            "additionalProperties": false
           },
           "knowledge": {
             "type": "object",
@@ -565,6 +784,29 @@
                         "properties": {
                           "type": {
                             "type": "string",
+                            "const": "unrest"
+                          },
+                          "delta": {
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          },
+                          "clamp": {
+                            "type": "boolean"
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "delta",
+                          "clamp"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
                             "const": "political"
                           },
                           "value": {
@@ -600,6 +842,183 @@
                       }
                     ]
                   }
+                },
+                "previewEffects": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "when": {
+                        "$ref": "#/definitions/__schema0"
+                      },
+                      "effects": {
+                        "type": "array",
+                        "items": {
+                          "oneOf": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string",
+                                  "const": "flag"
+                                },
+                                "key": {
+                                  "type": "string",
+                                  "pattern": "^[A-Z][A-Z0-9_]*$"
+                                },
+                                "value": {
+                                  "type": [
+                                    "boolean",
+                                    "number",
+                                    "string"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "type",
+                                "key",
+                                "value"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string",
+                                  "const": "clear"
+                                },
+                                "key": {
+                                  "type": "string",
+                                  "enum": [
+                                    "alinda",
+                                    "finley",
+                                    "tamara",
+                                    "shalia"
+                                  ]
+                                },
+                                "delta": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                }
+                              },
+                              "required": [
+                                "type",
+                                "key",
+                                "delta"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string",
+                                  "const": "score"
+                                },
+                                "delta": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                }
+                              },
+                              "required": [
+                                "type",
+                                "delta"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string",
+                                  "const": "points"
+                                },
+                                "delta": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                }
+                              },
+                              "required": [
+                                "type",
+                                "delta"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string",
+                                  "const": "unrest"
+                                },
+                                "delta": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "clamp": {
+                                  "type": "boolean"
+                                }
+                              },
+                              "required": [
+                                "type",
+                                "delta",
+                                "clamp"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string",
+                                  "const": "political"
+                                },
+                                "value": {
+                                  "type": "string",
+                                  "enum": [
+                                    "SACRED",
+                                    "WORLD"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "type",
+                                "value"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string",
+                                  "const": "reinforce"
+                                },
+                                "value": {
+                                  "type": "boolean"
+                                }
+                              },
+                              "required": [
+                                "type",
+                                "value"
+                              ],
+                              "additionalProperties": false
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "when",
+                      "effects"
+                    ],
+                    "additionalProperties": false
+                  }
                 }
               },
               "required": [
@@ -619,6 +1038,25 @@
           },
           "bgm": {
             "type": "string"
+          },
+          "cgWhen": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "when": {
+                  "$ref": "#/definitions/__schema0"
+                },
+                "cg": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "when",
+                "cg"
+              ],
+              "additionalProperties": false
+            }
           },
           "imageWhen": {
             "allOf": [

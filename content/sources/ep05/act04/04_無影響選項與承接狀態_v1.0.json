@@ -1,0 +1,85 @@
+{
+  "package": "EP05_ACT04",
+  "status": "DRAFT_FOR_REVIEW",
+  "choices": [
+    {
+      "id": "EP05_A04_F01",
+      "scene": "EP05_ACT04_SC01",
+      "type": "FLAVOR_ONLY",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_points_delta": 0,
+      "unrest_delta": 0,
+      "clear_delta": {
+        "A": 0,
+        "F": 0,
+        "T": 0,
+        "S": 0
+      },
+      "persistent_flags": [],
+      "route_change": null,
+      "merge": "same scene F01 common continuation"
+    },
+    {
+      "id": "EP05_A04_F02",
+      "scene": "EP05_ACT04_SC02",
+      "type": "FLAVOR_ONLY",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_points_delta": 0,
+      "unrest_delta": 0,
+      "clear_delta": {
+        "A": 0,
+        "F": 0,
+        "T": 0,
+        "S": 0
+      },
+      "persistent_flags": [],
+      "route_change": null,
+      "merge": "same scene F02 common continuation"
+    },
+    {
+      "id": "EP05_A04_F03",
+      "scene": "EP05_ACT04_SC03",
+      "type": "FLAVOR_ONLY",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_points_delta": 0,
+      "unrest_delta": 0,
+      "clear_delta": {
+        "A": 0,
+        "F": 0,
+        "T": 0,
+        "S": 0
+      },
+      "persistent_flags": [],
+      "route_change": null,
+      "merge": "same scene F03 common continuation"
+    }
+  ],
+  "common_continuity_only": {
+    "temporary_housing": "NORTHEAST_TOWER_GROUND_FLOOR",
+    "guest_nobles": "SELF_DECLARED_RUENNE_NOBLES",
+    "motive": "FEAR_FUTURE_PURGE_NOT_VERIFIED",
+    "route": "CLAIM_WALKED_OVER_DRAGONSPINE_UNVERIFIED",
+    "formal_asylum": "NOT_DECIDED",
+    "t1": "NOT_RESOLVED_IN_ACT04"
+  },
+  "forbidden_effects": [
+    "route06 Sacred World",
+    "formal asylum",
+    "T1 resolution",
+    "new political points/unrest",
+    "recompute ACT03 results"
+  ],
+  "next": "EP05_ACT05_SC01"
+}

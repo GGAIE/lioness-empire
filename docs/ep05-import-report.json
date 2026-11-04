@@ -1,0 +1,5862 @@
+{
+  "scenes": 95,
+  "segments": 846,
+  "uses": [
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L001",
+      "line": 25,
+      "original": "東北塔清晨的鐘聲，比王宮的晨鐘慢了半拍。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L002",
+      "line": 27,
+      "original": "以前奧莉維亞在學院聽鐘，是為了知道下一堂課還有多久；現在鐘聲提醒她，昨天答應處理的公文又多活了一夜。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L003",
+      "line": 29,
+      "original": "東北塔一樓環形接待區有人候見。侍從將薄薄的來訪名冊交給魔法守衛核對；守衛依既有規則指引來客，沒有自行決定誰可以面見攝政。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L004",
+      "line": 31,
+      "original": "「殿下，今日第一位不是地方領主，也不是來請您追加軍費的。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L005",
+      "line": 33,
+      "original": "「這聽起來是好消息。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L006",
+      "line": 35,
+      "original": "「是艾拉小姐。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L007",
+      "line": 37,
+      "original": "「那就有機會是壞消息了。她通常把好消息寫成論文，把壞消息親自帶來。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L008",
+      "line": 41,
+      "original": "艾拉・葛拉維茨進門時手上抱著三份運輸單，肩上的旅行披巾還帶著外面的寒意。她不是為學術演講而來，連寒暄都省了大半。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L009",
+      "line": 43,
+      "original": "「我先說，設備買到了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L010",
+      "line": 45,
+      "original": "「這是妳近來第一句讓我放心的話。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L011",
+      "line": 47,
+      "original": "「也只有第一句。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L012",
+      "line": 49,
+      "original": "「……說吧。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L013",
+      "line": 51,
+      "original": "「奧特丹那邊缺的零件、修繕材料和幾箱實驗設備，已經湊齊。東西在奧辛姆，船也沒有沉，可是一直出不了港。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L014",
+      "line": 55,
+      "original": "「船壞了？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L015",
+      "line": 57,
+      "original": "「沒有。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L016",
+      "line": 59,
+      "original": "「船主跑了？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L017",
+      "line": 61,
+      "original": "「也沒有。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L018",
+      "line": 63,
+      "original": "「那就是貨不見了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L019",
+      "line": 65,
+      "original": "「貨也在。殿下，我說過了，它們只是動不了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L020",
+      "line": 67,
+      "original": "「我開始理解妳為什麼親自來。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L021",
+      "line": 69,
+      "original": "「奧特丹的修繕不是把石頭一塊塊疊回去就好。測試架少一組、材料晚一個月，整套工作都可能停。人也不是物資，不能一直要他們等。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L022",
+      "line": 71,
+      "original": "她說到最後一句時，聲音低了下來。奧莉維亞記得艾拉談起研究時的眼睛；今天那雙眼睛裡沒有想像未來的光，只有疲倦。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L023",
+      "line": 73,
+      "original": "「先坐。今天我們不談再撥一筆錢，也不請妳重新買一次貨。我們先查，已經屬於妳們的東西，究竟被什麼卡住。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L024",
+      "line": 75,
+      "original": "「我去調港務副本。只查能交叉核對的資料，不會把傳聞當船期。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC01",
+      "segmentId": "L025",
+      "line": 79,
+      "original": "艾拉稍稍鬆開指節，卻沒有把那疊單據從桌面收走。她需要的不是一句會幫忙，而是貨物確實能抵達。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L001",
+      "line": 90,
+      "original": "芬利送來的副本被分成三疊：可用船舶、已確認貨運，以及始終沒有取得最終日期的船期。每一疊都附著不同官署的印記。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L002",
+      "line": 92,
+      "original": "「短期內能安排的船只有七艘。按照各方已提交的裝載需求，至少相當於九艘船的運力。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L003",
+      "line": 94,
+      "original": "「也就是缺兩艘。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L004",
+      "line": 96,
+      "original": "「是缺兩艘的運力，不是有人藏了兩艘船。若能併艙或錯開日期，仍有部分需求可以先行；但不能保證九份一起完成。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L005",
+      "line": 98,
+      "original": "「我的貨已經在其中，對吧？不要告訴我還要排第十份。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L006",
+      "line": 100,
+      "original": "「在其中。它本來就在待運清單上。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L007",
+      "line": 104,
+      "original": "「那麼到底是誰把能走的船也留在原地？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L008",
+      "line": 106,
+      "original": "「港務人員把船期審核交給工會的協調窗口；工會幾個派系對優先順序與責任分擔沒有共識。還有一些真正的運力衝突。這是兩個問題。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L009",
+      "line": 108,
+      "original": "「所以他們談不攏，我們就得一直等？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L010",
+      "line": 110,
+      "original": "「目前的效果確實如此。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L011",
+      "line": 112,
+      "original": "奧莉維亞翻到後面的附件。上面不是新的貨單，而是有關王都此前『精簡行動』的傳聞摘要。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L012",
+      "line": 114,
+      "original": "「……精簡行動？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L013",
+      "line": 116,
+      "original": "「消息傳到奧辛姆後，有人擔心港務編制、船期協調職位、甚至工會原有的分配權，都會在下一輪被調整。王都尚未下達針對奧辛姆的裁撤決議，但恐慌已經先行。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L014",
+      "line": 118,
+      "original": "「他們怕被精簡，就讓所有人的貨都卡在港口？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L015",
+      "line": 120,
+      "original": "「這樣搞才會被精簡吧。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L016",
+      "line": 124,
+      "original": "「殿下，這個判斷可以留在室內。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L017",
+      "line": 126,
+      "original": "「我只說給你們聽。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02",
+      "segmentId": "L018",
+      "line": 128,
+      "original": "她沒有笑很久。那份精簡不是衝著奧辛姆去的，卻已在海港引起一場預先防衛的爭執。她第一次在新的攝政桌前，看見自己曾參與推動的行政調整，如何在遠方被別人重新解讀。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_A",
+      "segmentId": "L001",
+      "line": 135,
+      "original": "「先把話說清楚。我們沒有下令裁撤奧辛姆工會，更沒有要一般船員為一份尚不存在的命令失去工作。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_A",
+      "segmentId": "L002",
+      "line": 137,
+      "original": "「我想要我的貨，不想要誰因此丟飯碗。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_A",
+      "segmentId": "L003",
+      "line": 139,
+      "original": "「正好。我們可以同時把這兩句話帶過去。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_A",
+      "segmentId": "L004",
+      "line": 141,
+      "original": "「我會把能確認的政策範圍與未定事項分開列明。不承諾將來永不改革。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_A",
+      "segmentId": "L005",
+      "line": 143,
+      "original": "奧莉維亞點頭。安撫不是替所有人保證一個永遠不會變動的職位，而是承認有些恐懼需要正面回答。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_B",
+      "segmentId": "L001",
+      "line": 147,
+      "original": "「港口不是只有管理船期的人。要是貨主都找別的路，留住那張審核桌又有什麼用？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_B",
+      "segmentId": "L002",
+      "line": 149,
+      "original": "「如果真有別的路，我今天就不必來這裡了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_B",
+      "segmentId": "L003",
+      "line": 151,
+      "original": "「也許有，只是替代航線未必便宜，更未必能處理所有貨。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_B",
+      "segmentId": "L004",
+      "line": 153,
+      "original": "「那至少該查。工會不能把別人沒有選擇，當成自己永遠不必改變的理由。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_B",
+      "segmentId": "L005",
+      "line": 155,
+      "original": "她看向那些等待批准的船期。合理的勞工保障與壟斷權力之間，也許只隔著一張由誰簽字的表格。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC02_C1_COMMON",
+      "segmentId": "L001",
+      "line": 159,
+      "original": "不論奧莉維亞如何看待工會，港口的船都沒有因此多出一艘。艾拉的貨還在奧辛姆；唯一改變的，是攝政府準備帶去的第一句話。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L001",
+      "line": 170,
+      "original": "接近中午，芬利又送來過去幾年的港務與調度紀錄。奧莉維亞發現，許多爭議的呈報欄都出現同一個名字。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L002",
+      "line": 172,
+      "original": "「格拉斯・諾丁漢。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L003",
+      "line": 174,
+      "original": "「格拉斯大人長年替父王管理王國的貿易、航運與商務糾紛。奧辛姆是他的故鄉。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L004",
+      "line": 176,
+      "original": "「那他應該最知道工會在想什麼吧？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L005",
+      "line": 178,
+      "original": "「他知道得太多了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L006",
+      "line": 180,
+      "original": "「殿下？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L007",
+      "line": 182,
+      "original": "「每個人不肯認帳時，最後都找格拉斯。久而久之，他們恐怕連對方下句會說什麼都背起來了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L008",
+      "line": 186,
+      "original": "「他處理過緊急軍需、民用貨運與船主補償的爭議。並非每次都失敗，但當事人留下了不少沒有結清的不滿。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L009",
+      "line": 188,
+      "original": "「我不是來討他們幾年前的帳的。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L010",
+      "line": 190,
+      "original": "「我知道。可他們現在正拿那些帳，決定妳這批貨能不能動。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L011",
+      "line": 192,
+      "original": "窗外有傳令兵騎馬穿過庭園。奧莉維亞忍不住想到，父王從前總有一群人可以替他承接這些問題；如今那些人彼此熟悉，卻未必還有能力一起做決定。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L012",
+      "line": 196,
+      "original": "「殿下，有沒有可能就算我們把工會談好了，也還是沒有空位？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L013",
+      "line": 198,
+      "original": "「有。七艘對九份需求是真實的限制。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L014",
+      "line": 200,
+      "original": "「那就把事情分開。誰不肯簽、誰沒有船、誰該補償，不能全寫成一句『港口有困難』。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L015",
+      "line": 204,
+      "original": "奧莉維亞將格拉斯的名字圈在邊欄。她原本打算派人請這位老臣來東北塔；午前的傳報卻先到一步：格拉斯已帶著奧辛姆案件進宮，請求面見艾爾維爾。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L016",
+      "line": 206,
+      "original": "「他還是先去找父王了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L017",
+      "line": 208,
+      "original": "「多年習慣。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC03",
+      "segmentId": "L018",
+      "line": 210,
+      "original": "「我猜父王會把他送來這裡。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L001",
+      "line": 221,
+      "original": "格拉斯在國王內廷外廊站得筆直。這條路他走了太多年，連壁燈的火焰往哪側偏，都熟悉得令人厭煩。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L002",
+      "line": 223,
+      "original": "「勞煩通報。奧辛姆有件事，老臣必須向陛下說明。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L003",
+      "line": 225,
+      "original": "「陛下已經知道。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L004",
+      "line": 227,
+      "original": "「那麼，陛下的指示呢？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L005",
+      "line": 229,
+      "original": "「請格拉斯大人將完整報告送往東北塔，由攝政殿下處理。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L006",
+      "line": 231,
+      "original": "「……陛下親口說的？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L007",
+      "line": 233,
+      "original": "「是。陛下也說，若案件有超出攝政授權的事項，請依法再呈請。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L008",
+      "line": 235,
+      "original": "格拉斯沉默片刻。這不是國王不知如何裁決，而是國王明白地將日常政務交給了已被正式授權的人。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L009",
+      "line": 239,
+      "original": "「我看著那孩子長大。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L010",
+      "line": 241,
+      "original": "「大人？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L011",
+      "line": 243,
+      "original": "「沒什麼。只是下次來這裡，大概該先問東北塔有沒有空了。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L012",
+      "line": 245,
+      "original": "他把卷宗夾進臂彎，轉身離開。內廷的門沒有打開，王權卻並未缺席。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L013",
+      "line": 249,
+      "original": "「格拉斯？您今天不是要見父王？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L014",
+      "line": 251,
+      "original": "「殿下消息靈通。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L015",
+      "line": 253,
+      "original": "「他不見客？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L016",
+      "line": 255,
+      "original": "「他說這件事該找您。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L017",
+      "line": 257,
+      "original": "「所以您繞了半座王宮，最後還是到了我的桌前。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L018",
+      "line": 259,
+      "original": "「老臣從前替您向陛下請過假，如今倒要來向您請示港口。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L019",
+      "line": 261,
+      "original": "「至少這次我不會為了逃課求您幫忙。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L020",
+      "line": 263,
+      "original": "「這倒比您當年進步。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L021",
+      "line": 265,
+      "original": "兩人都笑了。艾拉坐在桌邊，眼看著一位熟悉故鄉工會的老臣放下文件，終於感覺這場拖延或許能有真正的處理者。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L022",
+      "line": 267,
+      "original": "「殿下，奧辛姆有幾家大船主不願意先承接責任；工會掌握船期協調的人則怕王都精簡以後，連他們的位置都保不住。至於一般船員，大多只怕明天沒有薪資。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L023",
+      "line": 269,
+      "original": "「聽起來是三件不同的事。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04",
+      "segmentId": "L024",
+      "line": 271,
+      "original": "「正是。他們現在卻要把三件事綁在一起談。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_A",
+      "segmentId": "L001",
+      "line": 278,
+      "original": "「我想先知道，誰能代表真正擔心失業的人。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_A",
+      "segmentId": "L002",
+      "line": 280,
+      "original": "「好。老臣會聯絡能說話的人，但不保證所有派系都樂意同桌。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_A",
+      "segmentId": "L003",
+      "line": 282,
+      "original": "「只要有人願意承認貨主也在受損，我就願意聽。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_A",
+      "segmentId": "L004",
+      "line": 284,
+      "original": "格拉斯在名冊上圈出數位可聯絡的代表。這份準備將使 ACT02 的協商較早取得會談入口，但不能代替正式和解。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_B",
+      "segmentId": "L001",
+      "line": 288,
+      "original": "「至少替艾拉查一條不必等同一張簽字桌的路。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_B",
+      "segmentId": "L002",
+      "line": 290,
+      "original": "「名單很多，能接這批貨的可不一定多。若走內河，還要看靠泊、轉運與承保。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_B",
+      "segmentId": "L003",
+      "line": 292,
+      "original": "「只要不是讓我再買一次設備，我願意看報價。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_B",
+      "segmentId": "L004",
+      "line": 294,
+      "original": "「先查條件，不等於現在就改約。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_B",
+      "segmentId": "L005",
+      "line": 296,
+      "original": "格拉斯列出其他承運者與河港窗口。這份準備將使 ACT02 的河運核實較快，但不自動證明所有河道都能通行。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_COMMON",
+      "segmentId": "L001",
+      "line": 300,
+      "original": "格拉斯抬頭看了奧莉維亞一眼，像是在確認她真的要自己承擔這個決定，而不會轉身找國王替她收尾。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_COMMON",
+      "segmentId": "L002",
+      "line": 302,
+      "original": "「殿下，無論走哪條路，我們都得去奧辛姆。坐在王都說服不了每一個掌握碼頭的人。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC04_C1_COMMON",
+      "segmentId": "L003",
+      "line": 304,
+      "original": "「正合我意。只是出發前，我們還有一件事要說定。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05",
+      "segmentId": "L001",
+      "line": 315,
+      "original": "午後最後一束光落在港務地圖邊緣。格拉斯把七艘船的標記一字排開；艾拉將自己的貨單壓在地圖角落，像怕它再次消失在官署的紙堆裡。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05",
+      "segmentId": "L002",
+      "line": 317,
+      "original": "「老臣不願把奧辛姆說成一群不講道理的人。有人真怕丟工作，有人怕失去貨運分配權；那些人目的不同，今天卻恰好站在一起。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05",
+      "segmentId": "L003",
+      "line": 319,
+      "original": "「可我的設備沒有做錯什麼。它們不能因為別人的派系爭執就永遠放在倉庫。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05",
+      "segmentId": "L004",
+      "line": 321,
+      "original": "「妳說得對。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05",
+      "segmentId": "L005",
+      "line": 323,
+      "original": "她看著兩人。父王將問題交給她，不是要她表演出一道比舊臣更響亮的王令。她需要的是一項確實能執行的安排。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05",
+      "segmentId": "L006",
+      "line": 325,
+      "original": "「我們去奧辛姆。我要親眼看見那七艘船，也要知道誰有權把它們留在碼頭。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05",
+      "segmentId": "L007",
+      "line": 327,
+      "original": "「明白。那麼艾拉小姐的貨，我們採取哪個辦法？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_A",
+      "segmentId": "L001",
+      "line": 332,
+      "original": "「既然他們收下了貨，就得提出可履行的船期。把勞工的擔憂聽完，但也不能讓艾拉替所有人無限期等待。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_A",
+      "segmentId": "L002",
+      "line": 334,
+      "original": "「老臣會帶上契約與港務副本。明天讓他們當面說清楚。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_A",
+      "segmentId": "L003",
+      "line": 336,
+      "original": "「那我只求一件事：別再用『再等幾天』當作交代。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_A",
+      "segmentId": "L004",
+      "line": 338,
+      "original": "「我會要一個能核對的日期，不只是一句保證。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_A",
+      "segmentId": "L005",
+      "line": 342,
+      "original": "奧莉維亞沒有直接將船期改寫在紙上。她只要求把能履行與不能履行的部分逐項確認：七艘船仍然是七艘，而九份需求需要重新排程。明天，她會讓工會把這些數字說給真正等待貨物的人聽。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_B",
+      "segmentId": "L001",
+      "line": 346,
+      "original": "「別讓艾拉替工會的內部爭吵繼續付時間。若新承運商確有運力，就請他們接手，從內河進奧特丹。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_B",
+      "segmentId": "L002",
+      "line": 348,
+      "original": "「可以查，也能談。但要核對原契約如何解除、倉儲如何交接、轉運誰出面、費用與風險如何負擔。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_B",
+      "segmentId": "L003",
+      "line": 350,
+      "original": "「我只希望有人把貨送到。若能快一點，我願意配合重做必要的交接。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_B",
+      "segmentId": "L004",
+      "line": 352,
+      "original": "「不是讓妳再買一次貨。我們先把誰該付的帳釐清。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_B",
+      "segmentId": "L005",
+      "line": 356,
+      "original": "格拉斯在地圖上另畫出一條通往奧特丹的內河運輸方向。他沒有說這條路毫無代價，只說明天抵達奧辛姆後，可以把它變成一份真正的運輸契約。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L001",
+      "line": 362,
+      "original": "「還有一件事。格拉斯，請把我們目前沒有對奧辛姆下達裁撤命令的說明，正式帶給工會。基層的生活不該被拿來當談判籌碼。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L002",
+      "line": 364,
+      "original": "「我會請代表接收並回覆，不能只靠口頭轉述。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L003",
+      "line": 366,
+      "original": "奧莉維亞沒有許諾永遠不改革。她只要求對方明白：眼前的貨運處置不是一份秘密裁員令。是否獲得工會代表接納，要在 ACT02 現場得到回應。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L004",
+      "line": 370,
+      "original": "「格拉斯，明天也請他們回答一件事：當貨主開始改走別條路，工會究竟還打算保護誰？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L005",
+      "line": 372,
+      "original": "「我會轉達。只是有些人會把這句話聽成警告。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L006",
+      "line": 374,
+      "original": "「那就請他們明白，我要的是可執行的船期，不是報復。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L007",
+      "line": 376,
+      "original": "格拉斯收下這份措辭嚴厲的問題。它可能讓工會更快正視失去生意的風險，也可能讓他們以為攝政府正準備繞開自己。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L008",
+      "line": 380,
+      "original": "「我會讓已願意接觸的人在港務會議上出面。至少我們不是到了奧辛姆才從頭找人。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L009",
+      "line": 384,
+      "original": "「另外幾家的名單和可用船期，我會逐一核實。名字寫在紙上，不等於船已經停在碼頭。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L010",
+      "line": 388,
+      "original": "「我能同行嗎？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L011",
+      "line": 390,
+      "original": "「當然。貨物是妳的，妳有資格聽見別人怎麼決定它的去向。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L012",
+      "line": 392,
+      "original": "「那老臣只好安排多一個位子。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L013",
+      "line": 394,
+      "original": "「您不是總說自己的名單很多？」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L014",
+      "line": 396,
+      "original": "「殿下，名單多的是承運商，不是可以變出來的馬車。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L015",
+      "line": 398,
+      "original": "三人相視而笑。玩笑過後，格拉斯把出行文件放入封套。奧莉維亞沒有碰父王的王印，因為她手上已有合法的暫時攝政授權。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L016",
+      "line": 402,
+      "original": "窗外的王都點起晚燈。很遠的奧辛姆港，七艘短期可調度的船仍在等待一個讓人願意簽字的安排。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L017",
+      "line": 404,
+      "original": "至於艾拉的那批貨，它今天仍然沒有離港。"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L018",
+      "line": 406,
+      "original": "「把人安撫好，讓船動起來。原來兩件事，也不一定非得互相妨礙。」"
+    },
+    {
+      "act": 1,
+      "sceneId": "EP05_ACT01_SC05_C1_COMMON",
+      "segmentId": "L019",
+      "line": 408,
+      "original": "明天，他們就去奧辛姆。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L001",
+      "line": 24,
+      "original": "奧辛姆的海風帶著鹽味，還帶著紙張沾潮後不太愉快的味道。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L002",
+      "line": 26,
+      "original": "七艘可在短期內調度的船，停靠在不同泊位。它們沒有壞，也沒有神祕失蹤。船員在補繩，工人照常搬箱，只有成排貼上待核標記的貨物，像被一句「再等等」擋在港口。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L003",
+      "line": 28,
+      "original": "「有些人把七艘船說得像七艘王室戰艦。其實每艘都有人出資、有人付工錢，也有人正等著它載別的貨。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L004",
+      "line": 30,
+      "original": "「而需求相當於九艘。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L005",
+      "line": 32,
+      "original": "「至少差兩艘當量。這才是沒人能靠吼叫解決的部分。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L006",
+      "line": 34,
+      "original": "「我可以等明確的船期，不能再等『等協調完』。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L007",
+      "line": 36,
+      "original": "有人在貨堆另一側大笑。她穿一件不像宮廷禮服、又比一般船長外套昂貴許多的深色商旅長衣，站姿卻像仍在甲板上指揮船隊。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L008",
+      "line": 40,
+      "original": "「艾拉？這次妳居然自己來催貨？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L009",
+      "line": 42,
+      "original": "「瑪蕾娜？妳現在連碼頭的帳都要自己盯？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L010",
+      "line": 44,
+      "original": "「有王室客人來，我總得裝得像個正經商人。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L011",
+      "line": 46,
+      "original": "「妳以前看到王室旗幟不是先叫人轉舵嗎？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L012",
+      "line": 48,
+      "original": "「那也是以前。現在我看見王室旗幟，會先算這趟能開多少張發票。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L013",
+      "line": 50,
+      "original": "「妳們認識？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L014",
+      "line": 52,
+      "original": "「很久了。奧特丹不少器材和材料都靠她運。以前靠她的船，現在也是。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L015",
+      "line": 54,
+      "original": "「是她把我從海盜變成商人的。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L016",
+      "line": 56,
+      "original": "「……改過自新？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L017",
+      "line": 58,
+      "original": "「沒有。她們給的長期貨運委託，賺得比搶船穩。做海盜得躲巡防，做生意還能找王室討論港務。殿下，您說哪個划算？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L018",
+      "line": 62,
+      "original": "艾拉忍著笑。瑪蕾娜說得像是一項顯而易見的會計發現，卻沒有掩飾其中的多年交情。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L019",
+      "line": 64,
+      "original": "「瑪蕾娜女士如今是港口商會長，旗下不只船，還連著倉儲、修船、碼頭合約與幾條外地商路。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L020",
+      "line": 66,
+      "original": "「格拉斯大人也終於肯承認我做的是生意了。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L021",
+      "line": 68,
+      "original": "「我承認妳照契約付稅。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L022",
+      "line": 70,
+      "original": "「對我而言已經是進步。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L023",
+      "line": 72,
+      "original": "「我們今天不是來查妳過去搶過什麼船。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L024",
+      "line": 74,
+      "original": "「那太好了。我怕得找三個書記才列得完。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L025",
+      "line": 76,
+      "original": "「妳就不能少說兩句？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01",
+      "segmentId": "L026",
+      "line": 78,
+      "original": "「我現在是正經商會長。當然得會說話。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_A",
+      "segmentId": "L001",
+      "line": 83,
+      "original": "「看來貨運契約有時比王室通緝令更有說服力。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_A",
+      "segmentId": "L002",
+      "line": 84,
+      "original": "「通緝令沒有按月付款，殿下。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_B",
+      "segmentId": "L001",
+      "line": 86,
+      "original": "「我原以為奧特丹的承運商都是學院熟識的商隊。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_B",
+      "segmentId": "L002",
+      "line": 87,
+      "original": "「她熟識航道，比很多學者熟識自己的書架。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_C",
+      "segmentId": "L001",
+      "line": 89,
+      "original": "「既然彼此熟識，今天更該把貨運條件談清楚。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_C",
+      "segmentId": "L002",
+      "line": 90,
+      "original": "「對，我喜歡先談價錢，故事可以免費送。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_COMMON",
+      "segmentId": "L001",
+      "line": 92,
+      "original": "「不管以前怎麼認識，奧特丹這批設備都等不起了。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_COMMON",
+      "segmentId": "L002",
+      "line": 95,
+      "original": "笑聲沒有把貨物送上船。瑪蕾娜望向碼頭另一側仍關著的登記室，收起玩笑。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC01_C1_COMMON",
+      "segmentId": "L003",
+      "line": 97,
+      "original": "「殿下，您要的是船能走。我也要。但有人覺得只要桌上的章還在他手裡，誰出不了港都得先來求他。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02",
+      "segmentId": "L001",
+      "line": 108,
+      "original": "港務議事廳的長桌分為三側：王室與承辦官署、航運工會、港口商會。軍需與民用運輸代表也在場，沒有人可以代替其他人簽掉他的義務。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02",
+      "segmentId": "L002",
+      "line": 110,
+      "original": "一位眼鏡男子在每個人的座位前放好相同的航次副本。紙張邊角對齊得彷彿也要通過審查。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02",
+      "segmentId": "L003",
+      "line": 112,
+      "original": "「尤里斯。奧辛姆航運工會會長，今日代表工會說明航次審核及船員安排。先更正一點：船未起航，不等於有人私自扣押船隻。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02",
+      "segmentId": "L004",
+      "line": 114,
+      "original": "「那就是合法地把船留在港口。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02",
+      "segmentId": "L005",
+      "line": 116,
+      "original": "「如果您願意把『合法』二字留著，我們至少有了共識。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02",
+      "segmentId": "L006",
+      "line": 118,
+      "original": "「我的設備不會因為你們取得共識，就自己浮到奧特丹。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02",
+      "segmentId": "L007",
+      "line": 122,
+      "original": "「七艘可調度船，已登記的裝載需求折算九艘。奧特丹那批在原清單之內。部分航次因容量、船員輪班與承保程序確實需要重新安排；部分因優先權爭議未能批准。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_A",
+      "segmentId": "L001",
+      "line": 127,
+      "original": "「我需要知道每艘船現在能裝多少，不是只聽見『七艘』這個數字。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_A",
+      "segmentId": "L002",
+      "line": 128,
+      "original": "「載重及已承諾貨量均在附表，殿下。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_B",
+      "segmentId": "L001",
+      "line": 130,
+      "original": "「不是每一份申請都能同日出航，先把最晚交期講清楚。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_B",
+      "segmentId": "L002",
+      "line": 131,
+      "original": "「我會依委託與契約交期逐項說明。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_C",
+      "segmentId": "L001",
+      "line": 133,
+      "original": "「若勉強把貨擠上船，風險總得有人承擔。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_C",
+      "segmentId": "L002",
+      "line": 134,
+      "original": "「這句話商會願意簽在最前面。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L001",
+      "line": 136,
+      "original": "「三份資料已附在同一份航次副本中；目前仍只有七艘可用船。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L002",
+      "line": 139,
+      "original": "「這句最後的『未能批准』，十年前就有人拿來當盾牌。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L003",
+      "line": 141,
+      "original": "「格拉斯大人，您的戰時徵調令也是拿來當盾牌的。被迫改航的船，延誤的貨，以及答應補償卻遲到的款項，我都有紀錄。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L004",
+      "line": 143,
+      "original": "「我也有紀錄。王國在打仗。那時不把糧送去前線，今天就沒有港口讓你整理這些紙。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L005",
+      "line": 145,
+      "original": "「所以我沒有否認徵調。我問的是，代價為什麼只記在船員的帳上。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L006",
+      "line": 147,
+      "original": "兩個人誰也沒有提高音量，卻像在桌上重新打了一場十年前的仗。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L007",
+      "line": 151,
+      "original": "「先核實攝政府已公告的範圍。此前的精簡措施沒有授權港務官署裁撤奧辛姆工會，也沒有向任何船員發出解職令。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L008",
+      "line": 153,
+      "original": "「我已收到您的書面說明。工會將原件交由各分會傳閱，但我們也要知道下一次改革是否會變。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L009",
+      "line": 155,
+      "original": "「我不會保證永不改革。我保證不拿尚未決定的事，當成今日扣住所有貨主的理由。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L010",
+      "line": 159,
+      "original": "「既然貨主能找到別的航道，工會就不能把舊有分配方式當成永遠不變的權利。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L011",
+      "line": 161,
+      "original": "「我會把殿下的立場如實記入會議。但船員在聽見『另找航道』時，聽到的可能是『你們不重要了』。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L012",
+      "line": 163,
+      "original": "「這倒是真的。他們不是每個人都坐在這張桌子的正中間。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L013",
+      "line": 167,
+      "original": "「王都昨晚已先交給我們正式通知，因此我備有現行調度表、爭議航次，以及可接受的分批規則。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L014",
+      "line": 169,
+      "original": "「總算有一份不用等人吵完才送來的清單。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L015",
+      "line": 173,
+      "original": "「我核過替代承運與內河交接方案。但那只是備援，不代表原契約可以裝作不存在。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L016",
+      "line": 175,
+      "original": "「既然帶了備援，我要求它的保險、轉運責任與船員工時一併列明。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L017",
+      "line": 179,
+      "original": "瑪蕾娜指向七枚船標，沒有把它們移成九枚。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L018",
+      "line": 181,
+      "original": "「我能借倉、拆貨、安排交接。沒有第八艘和第九艘，我就不能變出來。奧特丹那批可以先走，其他人得拿到確切的下一次船期。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L019",
+      "line": 183,
+      "original": "「我能接受分批，但需要知道哪些實驗設備先抵達，哪些材料可以晚一程。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC02_C1_COMMON",
+      "segmentId": "L020",
+      "line": 185,
+      "original": "「那就一份份確認：誰的貨先行，誰承擔換線費用，誰得到延期書面通知。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L001",
+      "line": 196,
+      "original": "這間議事廳的牆上，還留著十年前的空位。曾經有一群大商人能從奧辛姆舉薦王國議員，後來航運式微，商人撤資、移居、把倉庫變賣。人先走，名字還留了一陣子，最後連資格也被王室廢止。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L002",
+      "line": 198,
+      "original": "「那時的奧辛姆不是沒有船，是沒有還願意對港口負責的舉薦人。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L003",
+      "line": 200,
+      "original": "「有意思。原來只要以前有錢，就能把席位留在牆上。後來我們把生意做回來，卻連提名的門都沒有。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L004",
+      "line": 202,
+      "original": "「在那段時間，是工會留下來協調船員與碼頭安全。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L005",
+      "line": 204,
+      "original": "「我知道。後來你們還想順便決定誰能做生意。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L006",
+      "line": 206,
+      "original": "「也有人以為只要有錢，就能不用遵守輪班與薪酬協議。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L007",
+      "line": 208,
+      "original": "「我沒說過不要付工錢。我說的是別讓一本名冊控制整個港口。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03",
+      "segmentId": "L008",
+      "line": 210,
+      "original": "格拉斯皺著眉。他主持過那段困難年月的貿易調度，也知道瑪蕾娜現在不只靠幾艘自己的船過活。她的倉庫、船廠、信用、裝卸工與外地商路彼此相連；她一旦不願配合，港口會有許多人跟著重新計算風險。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_A",
+      "segmentId": "L001",
+      "line": 215,
+      "original": "「資格消失之前，港口還有誰必須接手那些人的承諾？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_A",
+      "segmentId": "L002",
+      "line": 216,
+      "original": "「有些貨約有人接，有些官司拖到舉薦資格已經撤銷。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_B",
+      "segmentId": "L001",
+      "line": 218,
+      "original": "「既然原來的商人離去，留下來維持營運的人不該只出現在帳尾。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_B",
+      "segmentId": "L002",
+      "line": 219,
+      "original": "「工會維持船員輪班。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_B",
+      "segmentId": "L003",
+      "line": 220,
+      "original": "「商人把生意和船帶回來。兩樣缺一不可。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_C",
+      "segmentId": "L001",
+      "line": 222,
+      "original": "「我想先確認法律上真正失去的是什麼。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_C",
+      "segmentId": "L002",
+      "line": 223,
+      "original": "「是港口的舉薦資格；商人的名字只是當年的代表。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_COMMON",
+      "segmentId": "L001",
+      "line": 225,
+      "original": "無論先問哪一筆舊帳，奧辛姆失去代表管道的事實都不會改變。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_COMMON",
+      "segmentId": "L002",
+      "line": 230,
+      "original": "「當年的商人走了，奧辛姆卻沒有消失。既然資格是因原有代表基礎崩解而廢止，現在新的港務共同體已經存在，就該考慮恢復它。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_COMMON",
+      "segmentId": "L003",
+      "line": 232,
+      "original": "「殿下，皇家印信能處理恢復程序，但首任代表如何產生，勢必又是一場爭執。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_COMMON",
+      "segmentId": "L004",
+      "line": 234,
+      "original": "「那也不能讓十年前逃走的人，替今天留下的人作決定。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_COMMON",
+      "segmentId": "L005",
+      "line": 236,
+      "original": "「您要是選定了人，我也會認清楚您究竟把誰當成奧辛姆。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C1_COMMON",
+      "segmentId": "L006",
+      "line": 238,
+      "original": "「我請求任何決定都留下正式依據。這不是誰講話比較大聲，就能替換的名字。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L001",
+      "line": 248,
+      "original": "「工會在最困難的時候仍維持了航運秩序。由會長作為首任議員代表，向王國提出港口的需求。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L002",
+      "line": 250,
+      "original": "「我接受。但要請殿下記住，工會並不只有我的名字。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L003",
+      "line": 252,
+      "original": "工會分會的書記與船員代表低聲交談，接著響起帶著猶疑的掌聲。對許多人來說，這是十年來第一次有人承認他們不是可隨時替換的工人。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L004",
+      "line": 254,
+      "original": "「恭喜。那麼我的商會、倉儲工、出資修船的人，從今天起都得讓尤里斯先生替我們說話？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L005",
+      "line": 256,
+      "original": "「商會仍可以向議員提出要求。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L006",
+      "line": 258,
+      "original": "「哦，『提出要求』。真熟悉。我以前還是海盜時，至少不用先問別人願不願意替我遞信。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L007",
+      "line": 260,
+      "original": "她沒有當場掀桌，也沒有阻止艾拉的貨。只是她讓隨行商務主管重新核對往後的承運擔保、信用期限和跨港合作。這些商人不全是她的下屬，卻都會聽見她對王宮的評價。她的不滿，轉成攝政府必須耗費的政治協調成本。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_A",
+      "segmentId": "L008",
+      "line": 262,
+      "original": "「工會認可安定了船員。但殿下，港口不是只有工會。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L001",
+      "line": 270,
+      "original": "「格拉斯熟悉奧辛姆，也熟悉王國貿易。他能立即把港口的問題帶進王都，而不是先讓爭議停留在港口。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L002",
+      "line": 272,
+      "original": "「殿下，我接受您的安排，但請允許我先把原有行政職責的利益衝突列入交接；我不能一邊核准承運，一邊假裝自己只代表被核准的人。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L003",
+      "line": 274,
+      "original": "「十年前我們在格拉斯大人的命令下讓出船。十年後，奧辛姆終於恢復資格，名字仍是格拉斯大人。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L004",
+      "line": 276,
+      "original": "「真是一場漂亮的回歸。以前的大商人跑了，現在的新商人做出一座港，結果王宮把位置給了自己的老臣。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L005",
+      "line": 278,
+      "original": "「他也是奧辛姆出身。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L006",
+      "line": 280,
+      "original": "「我沒忘。奧辛姆的人也沒忘他當年簽過什麼。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L007",
+      "line": 282,
+      "original": "王室承辦體系很快向格拉斯提交可運用的貿易與議事協調支持，讓攝政府取得實際政治資源。但消息傳過市場、裝卸隊、倉儲商與船廠，抱怨迅速變成停工威脅、延期通知與要求重新議價的公開集會。動亂不是瑪蕾娜一聲令下，而是她龐大的商業網絡把不信任放大。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_B",
+      "segmentId": "L008",
+      "line": 284,
+      "original": "「若這是殿下的命令，我會把它做成能執行的事。可您得知道，我比誰都更明白這港口為什麼會生氣。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L001",
+      "line": 292,
+      "original": "「皇家印信恢復的是奧辛姆的舉薦資格，不是哪一個人永遠替它說話的權利。工會、商人、船主與實際在這裡工作的人，都應有依法參與的機會。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L002",
+      "line": 294,
+      "original": "「若要讓不同人都進來，必須先訂定資格、期限與異議程序。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L003",
+      "line": 296,
+      "original": "「那就明文訂。今天恢復資格，之後舉行舉薦活動。等你們有正式結果，再請選出的代表前往王都完成登錄。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L004",
+      "line": 298,
+      "original": "「殿下這回總算不像是來替我們選一個新老闆。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L005",
+      "line": 300,
+      "original": "「這會多出很多文書。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L006",
+      "line": 302,
+      "original": "「格拉斯大人，您不是最愛文書？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L007",
+      "line": 304,
+      "original": "「我愛的是有用的文書。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L008",
+      "line": 306,
+      "original": "「那就寫一份有用的吧。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_C",
+      "segmentId": "L009",
+      "line": 308,
+      "original": "工會、商會與港務官署各派人整理規程。瑪蕾娜同意以其運輸與倉儲網維持既有貨約；尤里斯同意讓工會參與公開程序。攝政府因此取得地方合作帶來的有限政治資源；而公布舉薦期限、讓各方有渠道表達爭議，足以抵消資源整合帶來的短期摩擦，使本事件淨動亂下降。尚未有人被選為議員。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC03_C2_COMMON",
+      "segmentId": "L001",
+      "line": 312,
+      "original": "印信的重量沒有改變，但它落在不同名字或不同程序上，會讓奧辛姆接下來的十年有完全不同的語氣。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L001",
+      "line": 323,
+      "original": "臨時攝政的印信印在復權文書上，旁邊另附本次首任代表的任命或舉薦程序。恢復的是奧辛姆失去十年的政治發聲管道，卻不代表港務所有契約可以因此一筆勾銷。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L002",
+      "line": 326,
+      "original": "「我會先把工會名冊與議事責任分開登錄。若任命有效，我不能再用工會會長的身分替所有非工會商人簽字。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L003",
+      "line": 327,
+      "original": "「你總算說了一句我愛聽的話。希望你進王都之後還記得。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L004",
+      "line": 330,
+      "original": "「我會提交既有貿易職務交接，並公開哪些合約由我曾經核批。任命不會讓那些簽名消失。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L005",
+      "line": 331,
+      "original": "「那最好。奧辛姆不缺只會在王都說『一切正常』的人。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L006",
+      "line": 334,
+      "original": "「首輪舉薦資料的收件、查核與異議期限將向港口公布。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L007",
+      "line": 335,
+      "original": "「我會讓各家商人知道。可別以為我會去競選，我好不容易才不用每天被官署叫去挨訓。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L008",
+      "line": 336,
+      "original": "「妳自己就是半個官署了。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L009",
+      "line": 337,
+      "original": "「我至少會請人喝酒。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L010",
+      "line": 341,
+      "original": "「現在談船。議員資格是往後的事，今天的貨不能再留在倉庫裡。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L011",
+      "line": 345,
+      "original": "「由原承運商履行契約。七艘船按用途重新排期，奧特丹貨物列入可行的先行併艙批次。延期的其他貨主獲得新船期和責任書。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L012",
+      "line": 346,
+      "original": "「工會會核對船員的工時與安全負擔，不讓『先行』變成無限加班。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L013",
+      "line": 347,
+      "original": "「我提供現有倉位和裝卸協調，別以為這代表所有商人都認可你們新的議員。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L014",
+      "line": 348,
+      "original": "「只要你們有具體日期，我能安排奧特丹那邊接貨。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L015",
+      "line": 349,
+      "original": "先前相互抵制的簽署流程重新串起來。原承運商沒有被王室任意撤換，七艘仍是七艘；其餘需求照可執行的分批表延後。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L016",
+      "line": 350,
+      "original": "【CG13K｜原承運船裝貨】",
+      "origin": "SOURCE_CG_HOLD"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L017",
+      "line": 354,
+      "original": "「奧特丹這批改由可接手的河運承運網分段轉運。原本的貨約會依條款交接和處理費用，不是把上一個承運者從紙上擦掉。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L018",
+      "line": 355,
+      "original": "「我要看到新的裝卸、保險與輪班規則。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L019",
+      "line": 356,
+      "original": "「我知道幾個轉運庫房可以接這批貨。我可以協助核對，不過這回別把我的商路當成免費的王室道路。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L020",
+      "line": 357,
+      "original": "「從海路改河路沒關係，只要每箱都有人接。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L021",
+      "line": 359,
+      "original": "「我們收到了政策澄清，也得到轉線通知。工會可以接受本次安排，但我要把補償和人員調整列進紀錄。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L022",
+      "line": 360,
+      "original": "「這次雙方留下了可以履行的交換條件。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L023",
+      "line": 362,
+      "original": "「即使此案程序合法，工會也會記得攝政府先質疑我們，再選擇繞開原有承運。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L024",
+      "line": 363,
+      "original": "「我知道。這次貨能走，不代表關係已經修好。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L025",
+      "line": 364,
+      "original": "河運交接啟動。它解決奧特丹的特定貨物，並不使奧辛姆的七艘海運船突然足以消化九份需求。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04",
+      "segmentId": "L026",
+      "line": 365,
+      "original": "【CG13R｜河運轉載】",
+      "origin": "SOURCE_CG_HOLD"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_A",
+      "segmentId": "L001",
+      "line": 370,
+      "original": "「拿到新船期的人，也該知道是哪位承辦官負責。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_A",
+      "segmentId": "L002",
+      "line": 371,
+      "original": "「延期與聯繫窗口已列在同一份清單。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_B",
+      "segmentId": "L001",
+      "line": 373,
+      "original": "「每次換船或換車，都要有人認得這批貨。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_B",
+      "segmentId": "L002",
+      "line": 374,
+      "original": "「奧特丹會照原先貨號核對收貨。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_C",
+      "segmentId": "L001",
+      "line": 376,
+      "original": "「不能把排程的缺口變成無期限加班。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_C",
+      "segmentId": "L002",
+      "line": 377,
+      "original": "「輪班與承保已經完成書面確認。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L001",
+      "line": 379,
+      "original": "分批、交接、通知與工時事項按既定方案執行，這些提醒不會變出額外船隻，也不改承運方式。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L002",
+      "line": 384,
+      "original": "艾拉親自核對第一箱研究設備的封條。瑪蕾娜站在她身旁，像多年以前那樣檢查箱角、受潮防護及運送風險。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L003",
+      "line": 386,
+      "original": "「妳以前運這些東西，真的從來沒有弄丟過？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L004",
+      "line": 388,
+      "original": "「當然有丟過。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L005",
+      "line": 390,
+      "original": "「……妳現在才說？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L006",
+      "line": 392,
+      "original": "「我把貨找回來了。妳們訂單那麼多，總不能為一個小失誤就錯過我這種優秀承運商。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L007",
+      "line": 394,
+      "original": "「我們要不要先問那個『小失誤』是什麼？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC04_C1_COMMON",
+      "segmentId": "L008",
+      "line": 396,
+      "original": "「不要。我比較想讓今天的貨順利走。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L001",
+      "line": 407,
+      "original": "傍晚，船與轉運車隊依各自的契約開始動起來。不是所有貨主都拿到今日出發的安排；有人帶走新船期，有人仍要等待下一輪協商。但至少從這一天開始，港口不再把每一份延誤都藏在同一句沒有日期的答覆後面。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L002",
+      "line": 409,
+      "original": "「奧特丹會記得這趟。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L003",
+      "line": 411,
+      "original": "「妳們記得準時付款就好。再說了，沒你們那麼多年委託，我搞不好還在海上被人追。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L004",
+      "line": 413,
+      "original": "「妳說得像妳從來沒有追過別人的船。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L005",
+      "line": 415,
+      "original": "「往事不必這麼完整。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L006",
+      "line": 419,
+      "original": "「瑪蕾娜，我希望今日的政治爭議不會影響奧特丹已簽的貨約。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L007",
+      "line": 422,
+      "original": "「艾拉的貨，我照約定送。至於港口以後讓誰替誰說話……我會一筆一筆記清楚。殿下也最好記得。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L008",
+      "line": 425,
+      "original": "「生意我會做，帳我會照付。但如果王室認為一個格拉斯就能代表整座港，我那些合作商人會有別的意見。您很快就會收到。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L009",
+      "line": 428,
+      "original": "「我會叫大家去參加舉薦。先說好，別替我報名。我是靠跑船發財的，不是靠坐議事廳。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L010",
+      "line": 429,
+      "original": "「她在桌邊坐超過兩個鐘頭就會想找窗戶逃走。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L011",
+      "line": 430,
+      "original": "「這也是我不再做海盜的原因之一。合法船都有靠岸的地方。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L012",
+      "line": 432,
+      "original": "奧莉維亞終於笑了。笑意很短，因為港務官已拿來尚未履行的剩餘運力清單。她簽下的不是讓所有人滿意的童話，而是讓同一座港口明天還願意繼續合作的責任。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L013",
+      "line": 436,
+      "original": "數日後，王都收到奧特丹的收貨確認。那批修繕材料與實驗設備依分批清單完成交付；艾拉最在意的貨，終於不是檔案上的一個待辦欄位。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L014",
+      "line": 438,
+      "original": "「奧特丹確認收貨。不是剛剛從奧辛姆出港就算抵達，我核對了兩地的交接紀錄。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L015",
+      "line": 440,
+      "original": "「很好。那另外被延後的需求呢？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05",
+      "segmentId": "L016",
+      "line": 442,
+      "original": "「還在排程裡。至少這回都有日期和負責的人。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_A",
+      "segmentId": "L001",
+      "line": 458,
+      "original": "「收貨只是第一步，我希望他們能照預定進度恢復研究。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_A",
+      "segmentId": "L002",
+      "line": 459,
+      "original": "「用途交由奧特丹自行確認；交接責任已完成。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_B",
+      "segmentId": "L001",
+      "line": 461,
+      "original": "「送到一批貨，不等於其餘人從此不必等。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_B",
+      "segmentId": "L002",
+      "line": 462,
+      "original": "「未履行清單仍由港務官署追蹤，不會在此結案。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_C",
+      "segmentId": "L001",
+      "line": 464,
+      "original": "「十年前的爭議不該再變成十年後的空白。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_C",
+      "segmentId": "L002",
+      "line": 465,
+      "original": "「談判與運貨紀錄都已列入本幕卷宗。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L001",
+      "line": 467,
+      "original": "奧莉維亞將完成交付的回報與仍待處理的清單並排放好。選擇如何回應，不改任何已結算數值或往後的議員代表狀態。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L002",
+      "line": 472,
+      "original": "「殿下，十年前我以為把船調得動，事情就結束了。現在才知道，有些欠帳不會跟著船一起離港。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L003",
+      "line": 474,
+      "original": "「那至少把還能補的部分，交給真的負責的人。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L004",
+      "line": 476,
+      "original": "桌上放著恢復奧辛姆資格的副本，以及奧特丹收貨確認。兩份文件看起來都很薄，背後卻有兩種不同的問題：一種是今天貨物怎麼到，一種是明天誰能替港口說話。"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L005",
+      "line": 480,
+      "original": "「還有一封新函。米椰爾想請您去看一處救濟據點，並談一個涉及王國議會的提案。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L006",
+      "line": 482,
+      "original": "「才剛替一個港口找回舉薦資格，現在又有人要談議會？」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L007",
+      "line": 484,
+      "original": "「殿下最近很受歡迎。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L008",
+      "line": 486,
+      "original": "「我以前以為『受歡迎』至少會有人帶甜點來。」"
+    },
+    {
+      "act": 2,
+      "sceneId": "EP05_ACT02_SC05_C1_COMMON",
+      "segmentId": "L009",
+      "line": 488,
+      "original": "奧辛姆的風仍吹在那份帳冊裡。她將它闔上，拿起另一封邀請。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L001",
+      "line": 33,
+      "original": "奧辛姆的船期、港口代表權、送往奧特丹的研究物資，以及一連串需要王室蓋章的文件，總算有了交代。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L002",
+      "line": 35,
+      "original": "奧莉維亞昨夜回到東北塔，沒有再拆開任何一封公文。她難得一覺睡到陽光照進房間。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L003",
+      "line": 37,
+      "original": "「起床了，大公主。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L004",
+      "line": 39,
+      "original": "床上毫無動靜。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L005",
+      "line": 41,
+      "original": "「殿下。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L006",
+      "line": 43,
+      "original": "「……不在。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L007",
+      "line": 45,
+      "original": "「您就在我面前。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L008",
+      "line": 47,
+      "original": "「你認錯人了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L009",
+      "line": 51,
+      "original": "「您的獅徽戒還戴在手上。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L010",
+      "line": 53,
+      "original": "奧莉維亞默默把手縮回被窩。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L011",
+      "line": 55,
+      "original": "「現在沒有了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01",
+      "segmentId": "L012",
+      "line": 57,
+      "original": "「米耶爾閣下已經到了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_A",
+      "segmentId": "L001",
+      "line": 62,
+      "original": "「她知道。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_A",
+      "segmentId": "L002",
+      "line": 63,
+      "original": "「那就請她下午再來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_B",
+      "segmentId": "L001",
+      "line": 65,
+      "original": "「她知道您昨晚回來了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_B",
+      "segmentId": "L002",
+      "line": 66,
+      "original": "「消息倒是靈通。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_C",
+      "segmentId": "L001",
+      "line": 68,
+      "original": "「像一位正在與棉被談判的大公主。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_C",
+      "segmentId": "L002",
+      "line": 69,
+      "original": "「而且快談贏了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L001",
+      "line": 73,
+      "original": "「米耶爾閣下表示，她很樂意進來幫妳唱早晨頌歌。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L002",
+      "line": 75,
+      "original": "被窩沉默了。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L003",
+      "line": 77,
+      "original": "「她說可以從第一節開始。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L004",
+      "line": 79,
+      "original": "「別了，我起來吧……」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L005",
+      "line": 83,
+      "original": "「她在哪裡？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L006",
+      "line": 85,
+      "original": "「三樓會客室。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L007",
+      "line": 87,
+      "original": "「不是一樓？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L008",
+      "line": 89,
+      "original": "「您昨天才回來，又難得睡了個好覺。我就先把她請上來了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L009",
+      "line": 91,
+      "original": "「這個當作是私人會面。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L010",
+      "line": 93,
+      "original": "「……你偶爾還是挺貼心的。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L011",
+      "line": 95,
+      "original": "「謝謝殿下。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L012",
+      "line": 97,
+      "original": "「除了拿早晨頌歌威脅我的時候。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L013",
+      "line": 99,
+      "original": "「那是米耶爾閣下自己提出的。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L014",
+      "line": 101,
+      "original": "「你明明可以不告訴我。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L015",
+      "line": 103,
+      "original": "「但那樣您就不會起床了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L016",
+      "line": 105,
+      "original": "「艾拉呢？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L017",
+      "line": 107,
+      "original": "「還在睡。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L018",
+      "line": 109,
+      "original": "「怎麼不叫她？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L019",
+      "line": 111,
+      "original": "「因為米耶爾閣下要見的是您。艾拉小姐也不是安度因的攝政公主。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L020",
+      "line": 113,
+      "original": "「真好啊……不是攝政公主的人。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L021",
+      "line": 115,
+      "original": "「三樓已經備好早餐與茶。我也把您平常穿的家居長袍放在床邊了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L022",
+      "line": 117,
+      "original": "「給我一點時間。還有，別讓她開始唱。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L023",
+      "line": 119,
+      "original": "「我會盡力。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L024",
+      "line": 121,
+      "original": "「……什麼叫盡力？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC01_C1_COMMON",
+      "segmentId": "L025",
+      "line": 123,
+      "original": "LE_CG_EP05_ACT03_04：芬利帶著笑意關門，奧莉維亞在床上無奈扶額。",
+      "origin": "SOURCE_CG_HOLD"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02",
+      "segmentId": "L001",
+      "line": 138,
+      "original": "茶几上放著剛出爐的麵包與果醬。米耶爾端詳著窗外王都的屋頂，聽到開門聲才回頭。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02",
+      "segmentId": "L002",
+      "line": 140,
+      "original": "「早安，米耶爾。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02",
+      "segmentId": "L003",
+      "line": 142,
+      "original": "「早安，奧莉——殿下？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02",
+      "segmentId": "L004",
+      "line": 144,
+      "original": "她的視線停在奧莉維亞鬆繫腰帶的家居長袍，以及還沒完全梳整的藍黑長髮上。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02",
+      "segmentId": "L005",
+      "line": 146,
+      "original": "「妳、妳就穿這樣出來？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_A",
+      "segmentId": "L001",
+      "line": 151,
+      "original": "「是私人會面沒錯……但我以為至少會稍微正式一點。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_B",
+      "segmentId": "L001",
+      "line": 153,
+      "original": "「看得出來，只是我沒想到妳真的會這樣接待訪客。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_B",
+      "segmentId": "L002",
+      "line": 154,
+      "original": "「那現在妳看到了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_C",
+      "segmentId": "L001",
+      "line": 156,
+      "original": "「倒也不必！」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_C",
+      "segmentId": "L002",
+      "line": 157,
+      "original": "「那就沒有問題了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L001",
+      "line": 161,
+      "original": "「我昨天才處理完奧辛姆的事，今天一早又有人威脅要唱早晨頌歌。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L002",
+      "line": 165,
+      "original": "「那不是威脅！我只是說，如果妳需要，我可以唱給妳聽。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L003",
+      "line": 167,
+      "original": "「我不需要。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L004",
+      "line": 169,
+      "original": "「早餐還熱著，殿下。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L005",
+      "line": 171,
+      "original": "芬利熟練地替兩人倒茶，彷彿今晨沒有發生任何爭執。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L006",
+      "line": 175,
+      "original": "「說起來，妳這座塔真有意思。我上樓時遇到幾位魔法守衛，還向我行禮。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L007",
+      "line": 177,
+      "original": "「那是正常的。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L008",
+      "line": 179,
+      "original": "「但有一位不太一樣。聽說叫魔法守衛大師？我還想請他展示一下自己的能力。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C1_COMMON",
+      "segmentId": "L009",
+      "line": 181,
+      "original": "奧莉維亞停下抹果醬的動作。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_A",
+      "segmentId": "L001",
+      "line": 186,
+      "original": "「有那麼危險嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_A",
+      "segmentId": "L002",
+      "line": 187,
+      "original": "「尤其不要請他對妳使用。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_B",
+      "segmentId": "L001",
+      "line": 189,
+      "original": "「我只是好奇！」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_B",
+      "segmentId": "L002",
+      "line": 190,
+      "original": "「好奇和親身體驗是兩回事。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_C",
+      "segmentId": "L001",
+      "line": 192,
+      "original": "「為什麼？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_C",
+      "segmentId": "L002",
+      "line": 193,
+      "original": "「至少今天的早餐還來得及吃。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L001",
+      "line": 197,
+      "original": "「魔法守衛大師的能力不是為訪客表演而設計的。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L002",
+      "line": 199,
+      "original": "「那麼是做什麼用的？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L003",
+      "line": 201,
+      "original": "「處理那些不肯乖乖當訪客的人。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L004",
+      "line": 203,
+      "original": "「……我還是繼續喝茶好了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L005",
+      "line": 205,
+      "original": "「很明智。也沒有必要在門口唱早晨頌歌。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L006",
+      "line": 207,
+      "original": "「芬利！」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L007",
+      "line": 211,
+      "original": "「所以，妳一大早來找我，總不會只是想看守衛。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L008",
+      "line": 213,
+      "original": "「當然不是。聽說妳剛處理完奧辛姆的七艘船？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L009",
+      "line": 215,
+      "original": "「能讓貨物動起來，不代表其他事會跟著自己解決。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L010",
+      "line": 217,
+      "original": "「那麼，那些連商會都進不去、連請求人手的地方都沒有的人呢？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L011",
+      "line": 219,
+      "original": "「妳想說聖光會的救濟站？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L012",
+      "line": 223,
+      "original": "「我知道妳熟悉我們在做什麼。但我還是想請妳親眼看看最近的情況。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L013",
+      "line": 225,
+      "original": "「總不會是特地邀我去做禮拜吧？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L014",
+      "line": 227,
+      "original": "「不是。只是陪我出去走走，半天就好。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L015",
+      "line": 229,
+      "original": "「最近怎麼每個人都喜歡借我的時間……芬利，上午有事嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L016",
+      "line": 231,
+      "original": "「沒有不能調整的正式會議。下午有文件需要過目。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L017",
+      "line": 233,
+      "original": "「而且我答應妳，今天不唱早晨頌歌。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L018",
+      "line": 235,
+      "original": "「成交。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L019",
+      "line": 237,
+      "original": "「這麼容易？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L020",
+      "line": 239,
+      "original": "「妳不知道我早上為了躲那首歌付出多大的努力。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L021",
+      "line": 241,
+      "original": "「不過出門前，您最好還是換件衣服。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L022",
+      "line": 243,
+      "original": "「……這件不能出去？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC02_C2_COMMON",
+      "segmentId": "L023",
+      "line": 245,
+      "original": "「不建議。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L001",
+      "line": 260,
+      "original": "奧莉維亞換上自己那套乾淨的白色日常衣裝，打開衣櫃。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L002",
+      "line": 262,
+      "original": "「芬利，我前幾天去奧辛姆穿的外袍呢？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L003",
+      "line": 264,
+      "original": "「還在洗。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L004",
+      "line": 266,
+      "original": "「另一件？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L005",
+      "line": 268,
+      "original": "「送去整理了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L006",
+      "line": 270,
+      "original": "「再另一件？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L007",
+      "line": 272,
+      "original": "「裁縫還在修改。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L008",
+      "line": 274,
+      "original": "「……所以我連一件能穿出去的外袍都沒有？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L009",
+      "line": 276,
+      "original": "「正式禮服倒是還有。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L010",
+      "line": 278,
+      "original": "「我只是去看救濟站，不是去加冕。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L011",
+      "line": 280,
+      "original": "她看著空下來的衣架，忽然想到借宿塔裡的人。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L012",
+      "line": 284,
+      "original": "「艾拉醒了嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L013",
+      "line": 286,
+      "original": "「剛醒。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L014",
+      "line": 288,
+      "original": "「很好，我去借件衣服。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L015",
+      "line": 292,
+      "original": "「艾拉，是我，可以進來嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L016",
+      "line": 294,
+      "original": "「進來吧。妳今天不是可以休息？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L017",
+      "line": 296,
+      "original": "「本來是。米耶爾約我去救濟站。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L018",
+      "line": 298,
+      "original": "「哦，聖光會那位。那不是挺好的？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L019",
+      "line": 300,
+      "original": "「嗯，所以……妳有沒有多帶一件外袍？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L020",
+      "line": 302,
+      "original": "「……什麼？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L021",
+      "line": 304,
+      "original": "「我的在洗。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L022",
+      "line": 306,
+      "original": "「妳沒有別件？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L023",
+      "line": 308,
+      "original": "「有，正式禮服。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03",
+      "segmentId": "L024",
+      "line": 310,
+      "original": "「噗。安度因的攝政大公主，現在要向我借衣服？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_A",
+      "segmentId": "L001",
+      "line": 315,
+      "original": "「有什麼差別？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_A",
+      "segmentId": "L002",
+      "line": 316,
+      "original": "「聽起來比較沒那麼可憐。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_B",
+      "segmentId": "L001",
+      "line": 318,
+      "original": "「哪一國外交需要借外袍？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_B",
+      "segmentId": "L002",
+      "line": 319,
+      "original": "「安度因今天早上的外交。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_C",
+      "segmentId": "L001",
+      "line": 321,
+      "original": "「……妳到底想做什麼？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_C",
+      "segmentId": "L002",
+      "line": 322,
+      "original": "「當一個早上不用工作的普通人。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L001",
+      "line": 326,
+      "original": "艾拉忍著笑，從行李中取出一件煙紫色的外袍。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L002",
+      "line": 328,
+      "original": "「拿去吧。袖子可能稍短，而且這不是王室服裝。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L003",
+      "line": 330,
+      "original": "「更好。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L004",
+      "line": 332,
+      "original": "「更好？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L005",
+      "line": 334,
+      "original": "「因為我沒有想要被認出來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L006",
+      "line": 338,
+      "original": "「妳該不會打算偷偷溜出去？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L007",
+      "line": 340,
+      "original": "「怎麼能叫偷偷溜出去？我可是有通知芬利。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L008",
+      "line": 344,
+      "original": "「他知道妳穿我的外袍嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L009",
+      "line": 346,
+      "original": "「他知道我要出門。至於穿誰的衣服，那是另一回事。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L010",
+      "line": 348,
+      "original": "「真拿妳沒辦法。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L011",
+      "line": 350,
+      "original": "「回來就還妳。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L012",
+      "line": 352,
+      "original": "「不急，我今天要整理帶來的資料，晚些再找芬利聊研究。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L013",
+      "line": 354,
+      "original": "「那就拜託妳陪他說說話了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L014",
+      "line": 356,
+      "original": "「妳聽起來像在把工作丟給我。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L015",
+      "line": 358,
+      "original": "「我今天要出去玩。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L016",
+      "line": 360,
+      "original": "「……妳不是去救濟站？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L017",
+      "line": 362,
+      "original": "「也是出去啊。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L018",
+      "line": 366,
+      "original": "「殿下，外袍借到了？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L019",
+      "line": 368,
+      "original": "「艾拉的。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L020",
+      "line": 370,
+      "original": "「挺適合妳。這樣比王室外出禮服輕鬆多了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L021",
+      "line": 372,
+      "original": "「奧辛姆那件下午應該就洗好了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L022",
+      "line": 374,
+      "original": "「……所以只要再等幾個小時？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L023",
+      "line": 376,
+      "original": "「是的。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L024",
+      "line": 378,
+      "original": "「你為什麼不早說？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L025",
+      "line": 380,
+      "original": "「因為您已經借到了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L026",
+      "line": 382,
+      "original": "「芬利！」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L027",
+      "line": 384,
+      "original": "米耶爾笑得肩膀微微發抖。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L028",
+      "line": 386,
+      "original": "「對了，米耶爾。出門後別一直叫我大公主。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L029",
+      "line": 388,
+      "original": "「為什麼？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L030",
+      "line": 390,
+      "original": "「我今天可是特地借了衣服的。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L031",
+      "line": 392,
+      "original": "「好吧，奧莉維亞。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC03_C1_COMMON",
+      "segmentId": "L032",
+      "line": 394,
+      "original": "門側的魔法守衛無聲地行禮。奧莉維亞與米耶爾走出東北塔，前往王都內的救濟站。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L001",
+      "line": 409,
+      "original": "車停在一間附設小禮拜空間的石造救濟站前。沒有迎接王室的旗幟，也沒有等候攝政者的隊伍。院子裡的工作照常進行。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L002",
+      "line": 411,
+      "original": "「到了。這裡是我們平常工作的地方。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L003",
+      "line": 413,
+      "original": "「不是大教堂？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L004",
+      "line": 415,
+      "original": "「今天要看的東西不在大教堂。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L005",
+      "line": 417,
+      "original": "有人在分送麵包，有人在為傷兵換藥，有年輕的神職工作者教孩子朗讀祈禱詞。奧莉維亞並不意外。聖光會以救濟接近人民、傳播教義，她早就知道。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L006",
+      "line": 419,
+      "original": "「食物、醫療、住處，還有祈禱。你們一直很擅長把這些放在一起。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L007",
+      "line": 421,
+      "original": "「聽起來像在挖苦我們。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L008",
+      "line": 423,
+      "original": "「我只是說事實。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L009",
+      "line": 425,
+      "original": "「那也是事實。我們不要求領麵包的人都入教，但若有人願意聽，我們也不會把聖光藏起來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L010",
+      "line": 427,
+      "original": "「我知道。人會記得誰在困難時給過他食物。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L011",
+      "line": 429,
+      "original": "「那我們至少得確保食物真的給得出去。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L012",
+      "line": 433,
+      "original": "「可是最近很難。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L013",
+      "line": 435,
+      "original": "「物資不夠？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L014",
+      "line": 439,
+      "original": "「金援。戰爭結束後，貴族、商會、個人捐助都少了。大家以為戰爭停了，苦難也該結束。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L015",
+      "line": 441,
+      "original": "「但這裡用餐的人沒有少。傷兵也不會一夜痊癒。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L016",
+      "line": 443,
+      "original": "「是。需要照顧的孩子、失去住處的人，還是每天都會來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L017",
+      "line": 445,
+      "original": "奧莉維亞安靜地看著她。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L018",
+      "line": 447,
+      "original": "「戰後各方捐款減少……」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L019",
+      "line": 449,
+      "original": "「可至少在我開始精簡王宮開支之前，王宮對聖光會慈善事業的撥款並沒有減少。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L020",
+      "line": 451,
+      "original": "「她說的可能是其他來源。也可能是總會與這間救濟站收到的數字不同。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04",
+      "segmentId": "L021",
+      "line": 453,
+      "original": "「現在還不能下結論。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_A",
+      "segmentId": "L001",
+      "line": 458,
+      "original": "「是的。和平來了，他們就開始有別的事要花錢。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_B",
+      "segmentId": "L001",
+      "line": 460,
+      "original": "「人手。現在就連把每天該做的事做完，都很吃力。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_C",
+      "segmentId": "L001",
+      "line": 462,
+      "original": "「所以才更難縮減。關掉一張床很容易，讓睡在上面的人有地方可去就不容易。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_COMMON",
+      "segmentId": "L001",
+      "line": 468,
+      "original": "「我今天帶妳來，主要不是請妳再簽一筆捐款。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_COMMON",
+      "segmentId": "L002",
+      "line": 470,
+      "original": "「那是？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_COMMON",
+      "segmentId": "L003",
+      "line": 472,
+      "original": "「借人。王都現在能不能臨時調出一些人來？搬運、登記、整理住處，甚至維持排隊秩序都好。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_COMMON",
+      "segmentId": "L004",
+      "line": 474,
+      "original": "「妳知道王都的人手也不是多到無處可用。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_COMMON",
+      "segmentId": "L005",
+      "line": 476,
+      "original": "「所以才找妳商量。不要求永久派駐，只希望有人幫我們撐過這段時間。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_COMMON",
+      "segmentId": "L006",
+      "line": 478,
+      "original": "「救濟站由你們負責，借來的人做哪些事、什麼時候回去，都得先說清楚。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C1_COMMON",
+      "segmentId": "L007",
+      "line": 480,
+      "original": "「同意。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_A",
+      "segmentId": "L001",
+      "line": 486,
+      "original": "「我讓王宮官署撥一批人來，先支援搬運和名冊整理。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_A",
+      "segmentId": "L002",
+      "line": 488,
+      "original": "「若能如此，今天就能讓不少人鬆口氣。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_A",
+      "segmentId": "L003",
+      "line": 490,
+      "original": "「工作範圍與期限寫清楚；王宮也會派人負責交接。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_A",
+      "segmentId": "L004",
+      "line": 492,
+      "original": "「妳真的很習慣把所有事變成一份能核對的單子。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_A",
+      "segmentId": "L005",
+      "line": 494,
+      "original": "「因為人是從其他地方借來的。那邊少了人，也一定有人得承擔。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_B",
+      "segmentId": "L001",
+      "line": 500,
+      "original": "「我先問問塔馬拉。第二團在王都有人員與調度經驗，也許能抽出一些短期協助。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_B",
+      "segmentId": "L002",
+      "line": 502,
+      "original": "「塔馬拉？那倒是可以問問。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_B",
+      "segmentId": "L003",
+      "line": 504,
+      "original": "「但我不能替她答應。城防與巡查若抽不開，她有權拒絕。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_B",
+      "segmentId": "L004",
+      "line": 506,
+      "original": "「只要不影響她的正事，我們很願意接受。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_B",
+      "segmentId": "L005",
+      "line": 508,
+      "original": "奧莉維亞立即讓人送出短箋，列明工作內容、時間與最低必要人數。她也清楚，請一位有獨立勤務責任的騎士團統領調人，需要先付出協調成本。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L001",
+      "line": 514,
+      "original": "「不然我去問問艾拉？她那邊或許能找幾個人幫忙。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L002",
+      "line": 516,
+      "original": "「……艾拉？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L003",
+      "line": 518,
+      "original": "「嗯，現在還住在我那裡，很好問。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L004",
+      "line": 520,
+      "original": "「奧特丹魔法學會的那位？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L005",
+      "line": 522,
+      "original": "「對啊。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L006",
+      "line": 524,
+      "original": "米耶爾把原本準備拿起的茶杯放回桌面，毫不掩飾地翻了一個白眼。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L007",
+      "line": 528,
+      "original": "「奧莉維亞，妳明明知道聖光會不和魔法學術勢力合作救濟事務。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L008",
+      "line": 530,
+      "original": "「知道啊。可是多幾個人幫忙，不是很好嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L009",
+      "line": 532,
+      "original": "「不，謝謝。我缺的是搬運和登記的人，不是另一場宗教與魔法理論的爭論。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L010",
+      "line": 534,
+      "original": "「也許他們會相處得很好？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L011",
+      "line": 536,
+      "original": "「妳自己相信嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L012",
+      "line": 538,
+      "original": "「……好吧。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L013",
+      "line": 540,
+      "original": "「如果妳真的想借人，請從王都官署找。不要把學會的人帶進來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L014",
+      "line": 542,
+      "original": "「那我另外安排王宮人員。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_C",
+      "segmentId": "L015",
+      "line": 544,
+      "original": "原先的提議被直接否決，奧莉維亞只好重新調整人手與交接程序。這些時間與政治協調成本，沒能替她帶來王宮直接主導所取得的相同收益。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC04_C2_COMMON",
+      "segmentId": "L001",
+      "line": 550,
+      "original": "不論人手從哪裡調來，聖光會仍會繼續分送食物，等待的人也不會因為一場談判而消失。奧莉維亞離開辦公室時，仍記得王宮的那幾頁撥款紀錄。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L001",
+      "line": 570,
+      "original": "「妳派來的人到了嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L002",
+      "line": 572,
+      "original": "「王宮已核定，應該快到了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L003",
+      "line": 576,
+      "original": "「所以最後還是從王宮派人？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L004",
+      "line": 578,
+      "original": "「……是啊。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L005",
+      "line": 580,
+      "original": "「那妳剛才何必提艾拉？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L006",
+      "line": 582,
+      "original": "「我想過也許妳會改變主意。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L007",
+      "line": 584,
+      "original": "「沒有。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L008",
+      "line": 586,
+      "original": "「我知道了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L009",
+      "line": 592,
+      "original": "院子外傳來車輪聲。幾名身著普通官署制服的人把推車停好，其中一名中年官員走上前，行了一個簡單的禮。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L010",
+      "line": 594,
+      "original": "「殿下，奉命前來支援。人員與時段已經排好。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L011",
+      "line": 596,
+      "original": "「先說明做哪些事。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L012",
+      "line": 598,
+      "original": "「物資搬運、領取名冊核對、住處整理與交接。救濟站的日常宗教事務仍由聖光會自行負責。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L013",
+      "line": 600,
+      "original": "「這樣就足夠了。請隨我來，我帶各位認識工作負責人。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L014",
+      "line": 602,
+      "original": "「明白。每日工作結束會留下交接單，調派到期就回官署報到。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L015",
+      "line": 604,
+      "original": "有了人手，先前卡在門口的糧袋被搬進乾燥倉庫，排隊領餐的人不必在櫃台前等待太久。有人開始重新整理救濟床位旁的通道。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L016",
+      "line": 608,
+      "original": "「今天真的幫上忙了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L017",
+      "line": 610,
+      "original": "「別忘了調派有期限。妳們得把能自行接手的工作先安排好。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L018",
+      "line": 612,
+      "original": "「我知道。至少現在能讓原本的人稍微喘口氣。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L019",
+      "line": 614,
+      "original": "在另一邊的王宮官署，抽出的工作崗位仍需要有人頂替。若奧莉維亞選擇直接調派，這些壓力會化為下一輪需要處理的不滿；若她先提出被拒的學會方案，支援雖然最終到場，額外協調成本卻已付出。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L020",
+      "line": 624,
+      "original": "午後，救濟站入口響起一陣腳步聲。不是王宮官員，而是塔馬拉帶著第二騎士團的一小隊可調人員抵達。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L021",
+      "line": 626,
+      "original": "「聽說這裡缺人？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L022",
+      "line": 628,
+      "original": "「塔馬拉，妳真的來了？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L023",
+      "line": 630,
+      "original": "「奧莉維亞送來的工作清單很清楚。我確認過城內勤務，能短期借出這幾位。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L024",
+      "line": 632,
+      "original": "「沒有耽誤你們的巡查吧？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L025",
+      "line": 634,
+      "original": "「有代價，但還在能調整的範圍內。不是妳一句話，我就能把整個第二團搬來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L026",
+      "line": 636,
+      "original": "「我知道，所以才先問妳。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L027",
+      "line": 638,
+      "original": "「你們先去協助倉庫、整理出入口。有人需要護送物資，就按救濟站負責人的安排做。宗教事務不歸我們管。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L028",
+      "line": 640,
+      "original": "人員很快投入工作。物資搬運有人負責，擁擠的路口也有了清楚的行進方向。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L029",
+      "line": 644,
+      "original": "「不過，米耶爾，我剛才還聽說，這裡經費也不太好？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L030",
+      "line": 646,
+      "original": "「戰後捐助減少，的確不太寬裕。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L031",
+      "line": 648,
+      "original": "「我家一向是聖光會慈善事業的資助者之一。這件事我能替妳問問家裡。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L032",
+      "line": 650,
+      "original": "「……妳家？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L033",
+      "line": 652,
+      "original": "「怎麼，妳不知道？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L034",
+      "line": 654,
+      "original": "「我知道王都貴族與教會有往來，但沒想到今天借人，還能借出這條關係。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L035",
+      "line": 656,
+      "original": "「原本就是我們家在做的事。只是不代表每間救濟站的缺口，家裡都會立刻知道。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L036",
+      "line": 658,
+      "original": "「如果能讓這裡的情況被他們看見，已經是幫忙。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L037",
+      "line": 660,
+      "original": "塔馬拉並未當場擅自處分家族全部資金。她請家族聯絡人核對既有慈善預算，確認有一筆可合法改向這處救濟站的短期支援，並約定後續文件與用途查核。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L038",
+      "line": 664,
+      "original": "「好了，短期人手交給你們。家裡那邊也確認能先支應一部分經費，剩下的照程序辦。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L039",
+      "line": 666,
+      "original": "「這下真的輕鬆不少。奧莉維亞，謝謝妳把塔馬拉找來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L040",
+      "line": 668,
+      "original": "「我好像只負責把人叫來。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L041",
+      "line": 670,
+      "original": "「懂得該找誰，本來就是妳的工作吧？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L042",
+      "line": 672,
+      "original": "「……這話我可不能反駁。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L043",
+      "line": 674,
+      "original": "「至少今天，我們不必立刻決定要關掉哪一間房間。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L044",
+      "line": 676,
+      "original": "這次合作讓短期人手、既有家族資助與王都救濟站之間建立可追蹤的安排。奧莉維亞先前用來協調塔馬拉的政治資源，終於得到可執行的合作回報。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05",
+      "segmentId": "L045",
+      "line": 684,
+      "original": "「不管怎麼說，今天真的謝謝妳，奧莉維亞。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_A",
+      "segmentId": "L001",
+      "line": 689,
+      "original": "「妳今天確實幫了大忙。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_B",
+      "segmentId": "L001",
+      "line": 691,
+      "original": "「現在可是下午了。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_B",
+      "segmentId": "L002",
+      "line": 692,
+      "original": "「午睡也是睡覺。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_C",
+      "segmentId": "L001",
+      "line": 694,
+      "original": "「那他會答應嗎？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_C",
+      "segmentId": "L002",
+      "line": 695,
+      "original": "「至少他會先替我算出要付多少代價。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L001",
+      "line": 699,
+      "original": "「還有另一件事。我帶了一份構想，不只關乎救濟站。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L002",
+      "line": 701,
+      "original": "「王宮剛替奧辛姆處理完代表資格。妳該不會也要談議會吧？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L003",
+      "line": 703,
+      "original": "「正是。地方與救濟事務不能永遠只靠有人願意借手、捐錢，或者某位公主剛好有空。我希望能讓王國重新建立可被見證、能提出地方困難的正式議事安排。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L004",
+      "line": 705,
+      "original": "「聖光會也希望參與？」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L005",
+      "line": 707,
+      "original": "「我們願意提供在地方長年建立的紀錄與聯繫。但誰能成為議員、由誰承認、負責到哪一步，都應該寫清楚。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L006",
+      "line": 709,
+      "original": "「交給芬利登記。我會看，但不會今天就在這裡答應整個制度。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L007",
+      "line": 711,
+      "original": "「我也不是要妳在這裡立刻答應。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L008",
+      "line": 713,
+      "original": "米耶爾將一份議會與地方救濟合作構想交給她。奧莉維亞收下，未簽署任何政治主導聯盟。"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L009",
+      "line": 717,
+      "original": "「聖光會確實把食物送到了人手上，也確實因此讓人們記住它。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L010",
+      "line": 719,
+      "original": "「可米耶爾說戰後金援減少。至少在我精簡王宮支出之前，宮裡撥給聖光會慈善事業的款項並沒有減少。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L011",
+      "line": 721,
+      "original": "「她說的可能都是真的。只是這兩份帳，還缺了中間那一頁。」"
+    },
+    {
+      "act": 3,
+      "sceneId": "EP05_ACT03_SC05_C1_COMMON",
+      "segmentId": "L012",
+      "line": 723,
+      "original": "馬車駛回東北塔。艾拉還在塔裡，芬利也正等著處理下一批資料。對奧莉維亞而言，這一天遠沒有結束。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L001",
+      "line": 26,
+      "original": "東北塔的夜晚比王宮安靜。牆內元素燈的光落在圓邊小茶桌上，三隻茶杯中還冒著熱氣。白天在奧辛姆的船期、救濟站的人手、還有一份尚未簽署的議會構想，此刻都被奧莉維亞留在樓下的工作桌上。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L002",
+      "line": 28,
+      "original": "她已將艾拉的煙紫色外袍歸還原主，換回自己的深海軍藍家居長袍。艾拉則因為尚有運輸交接與資料需要處理，接受邀請，在東北塔住上一晚。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L003",
+      "line": 30,
+      "original": "「我先說好，明天如果又有新的船期表，我可不會為了趕回去而半夜下山。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L004",
+      "line": 32,
+      "original": "「我邀請妳留宿，不是聘妳守夜。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L005",
+      "line": 34,
+      "original": "「不過如果妳願意替我把桌上那疊文書校對完，我可以替妳延長住宿。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L006",
+      "line": 36,
+      "original": "「你看吧。我就知道這座塔的住宿不可能完全免費。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L007",
+      "line": 38,
+      "original": "「芬利，別替我出租房間。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L008",
+      "line": 40,
+      "original": "守在門旁的魔法守衛微微俯身，平穩地把新煮好的茶放到桌邊。它的金屬手指收攏得極為精準，沒有使杯緣敲出一聲脆響。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L009",
+      "line": 44,
+      "original": "「等一下。它會自己調整力度了？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L010",
+      "line": 46,
+      "original": "「杯子比武器脆。總不能讓它用搬運鐵箱的方式端茶。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L011",
+      "line": 48,
+      "original": "「所以你真的去研究怎麼讓它端茶？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L012",
+      "line": 50,
+      "original": "「研究的是接觸反饋。端茶只是比較容易測試。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L013",
+      "line": 52,
+      "original": "「我還以為是怕它打碎東西，最後要從我的預算裡賠。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L014",
+      "line": 54,
+      "original": "「這也是一個很有效的研究動機。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L015",
+      "line": 56,
+      "original": "「那……如果它把杯子打碎了，是不是還會自己填報損壞單？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L016",
+      "line": 58,
+      "original": "「下一版可以考慮。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01",
+      "segmentId": "L017",
+      "line": 60,
+      "original": "「我拒絕讓我的茶杯成為行政程序的一部分。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_A",
+      "segmentId": "L001",
+      "line": 64,
+      "original": "「它還能替我處理多少日常瑣事？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_A",
+      "segmentId": "L002",
+      "line": 65,
+      "original": "「取物、提醒、門禁、傳話；真正要注意的反而是哪些事不能讓它自己決定。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_B",
+      "segmentId": "L001",
+      "line": 68,
+      "original": "「這麼靈巧，應該不便宜吧？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_B",
+      "segmentId": "L002",
+      "line": 69,
+      "original": "「初期不便宜。可是若能維修、重用，長期成本就能慢慢比較。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_B",
+      "segmentId": "L003",
+      "line": 70,
+      "original": "「你看，他果然早就算過了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_C",
+      "segmentId": "L001",
+      "line": 73,
+      "original": "「它有沒有學會叫我早點睡？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_C",
+      "segmentId": "L002",
+      "line": 74,
+      "original": "「可建立休息提醒。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_C",
+      "segmentId": "L003",
+      "line": 75,
+      "original": "「不。我只是問問。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L001",
+      "line": 79,
+      "original": "「說真的。它現在和貝里札德那個白色的傢伙，差多少？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L002",
+      "line": 81,
+      "original": "「貝里札德？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L003",
+      "line": 83,
+      "original": "「……妳怎麼又提那次？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L004",
+      "line": 85,
+      "original": "「因為殿下顯然還不知道。魔法守衛第一次讓很多人記住名字，就是在那裡。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L005",
+      "line": 87,
+      "original": "「聽起來不像是一般的學術發表。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L006",
+      "line": 89,
+      "original": "「當然不是。這傢伙原本去山頂考察，結果考察到一半，學院被敵軍攻上來了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L007",
+      "line": 91,
+      "original": "「我也沒料到會遇上這種接待。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L008",
+      "line": 93,
+      "original": "「接著他弄出一具白色守衛，把法拉迪將軍打得放棄進攻。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L009",
+      "line": 95,
+      "original": "「法拉迪？那位半龍人將軍？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L010",
+      "line": 97,
+      "original": "「就是那位。許多人類將軍都敗在他手下。那天他的部隊卻付了非常大的代價。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L011",
+      "line": 99,
+      "original": "「……我知道他的名字。家族裡也有人死於那場大戰。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L012",
+      "line": 101,
+      "original": "她沒有繼續追問那些舊事，只是重新看向芬利。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L013",
+      "line": 103,
+      "original": "「你真的把他的軍隊擊退了？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L014",
+      "line": 105,
+      "original": "「讓他放棄繼續攻擊那個陣地，並不代表擊敗了整支軍隊。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L015",
+      "line": 107,
+      "original": "「他說得好像沒什麼，可法拉迪親自決定撤退。這已經很了不起了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L016",
+      "line": 109,
+      "original": "「更了不起的是那裡的人沒有放棄。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L017",
+      "line": 113,
+      "original": "芬利抬眼望向窗外，彷彿那片深夜的雲後，還藏著另一座山的輪廓。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L018",
+      "line": 115,
+      "original": "「當時我們只剩下一小塊地方。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L019",
+      "line": 117,
+      "original": "「那座學院……最後守住了嗎？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC01_C1_COMMON",
+      "segmentId": "L020",
+      "line": 119,
+      "original": "「沒有。至少，沒有守住整座學院。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L001",
+      "line": 132,
+      "original": "芬利說起大戰最初的日子。位於山脈頂端、最靠近戰線的貝里札德魔法學院，率先承受敵軍的攻擊。建築在火光中崩裂，通往研究室的長廊一段段失守。留下的魔法師一次次退回仍能防守的區域。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L002",
+      "line": 134,
+      "original": "「我原本只打算待幾天。研究室、藏書室、幾種特殊術式的保存方式——考察清單寫得很好。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L003",
+      "line": 136,
+      "original": "「然後你就發現，敵軍不會照著你的行程走。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L004",
+      "line": 138,
+      "original": "「確實。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L005",
+      "line": 140,
+      "original": "最後的陣地被封在殘存牆垣與術式屏障之間。芬利的白色魔法守衛站在前方，抵擋敵軍，與殘餘魔法師共同反擊。法拉迪的部隊在持續攻擊中死傷慘重，終於停下攻勢。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L006",
+      "line": 144,
+      "original": "「所以法拉迪最後選擇撤退？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L007",
+      "line": 146,
+      "original": "「他選擇不再為了那一小塊地方付出更多人命。那是他的判斷。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L008",
+      "line": 148,
+      "original": "「等我們的援軍投入救援時，整座學院剩下的東西，已經少得可憐。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L009",
+      "line": 150,
+      "original": "「最後生還的十五人……」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L010",
+      "line": 152,
+      "original": "「是學院裡的十五個人。我只是剛好被困在裡面。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L011",
+      "line": 154,
+      "original": "「你又來了。『剛好』可不會自己指揮魔法守衛。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L012",
+      "line": 156,
+      "original": "「我沒有說他們只靠我活下來。每個人都有自己的位置。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L013",
+      "line": 158,
+      "original": "兩人沒有爭執下去。奧莉維亞知道，在那場戰爭裡，一小塊守住的地方與整座沒能保住的學院，都同樣真實。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L014",
+      "line": 162,
+      "original": "「十五個人活下來了。那他們後來呢？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L015",
+      "line": 164,
+      "original": "「各自還有各自要走的路。有人還能研究，有人光是重新生活就花了很久。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L016",
+      "line": 166,
+      "original": "「不要把每個人都寫成『學院的最後傳人』。那樣對他們太重了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L017",
+      "line": 168,
+      "original": "艾拉低頭看著杯中已經不再冒熱氣的茶，旋即把話題拉向另一所學院。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L018",
+      "line": 170,
+      "original": "「貝里札德是整座毀了。馬赫學院又不一樣。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L019",
+      "line": 172,
+      "original": "「亞拉岡德洛的馬赫？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L020",
+      "line": 174,
+      "original": "「對。它派出很多能打的研究者支援大戰。結果核心人物死得太多，戰後連原本的組織都撐不住。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L021",
+      "line": 176,
+      "original": "「所以和奧特丹合併。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L022",
+      "line": 178,
+      "original": "「成了我們的附屬組織。還有自己的研究傳統，但經費、設備、人事安排，現在很多都得一起協調。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L023",
+      "line": 180,
+      "original": "「這樣至少能留下學派？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02",
+      "segmentId": "L024",
+      "line": 182,
+      "original": "「能留下多少，我們還在努力。有人願意改變，有人只想保住原來的名字；不是搬幾箱書過來就叫保存成功。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_A",
+      "segmentId": "L001",
+      "line": 186,
+      "original": "「那十五名倖存者，還有人能繼續教學嗎？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_A",
+      "segmentId": "L002",
+      "line": 187,
+      "original": "「有些人或許可以，但不能把恢復整套學院的責任壓到他們身上。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_B",
+      "segmentId": "L001",
+      "line": 190,
+      "original": "「馬赫的人，真的願意接受合併嗎？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_B",
+      "segmentId": "L002",
+      "line": 191,
+      "original": "「有人願意，有人無可奈何。願不願意與能不能活下去，常常是兩回事。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_C",
+      "segmentId": "L001",
+      "line": 194,
+      "original": "「皇家學院能不能替他們保留資料？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_C",
+      "segmentId": "L002",
+      "line": 195,
+      "original": "「能提供部分保管與複製能力，但資料怎麼使用，得由持有者和合作機構談明白。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L001",
+      "line": 201,
+      "original": "「這麼說來，戰前四個主要學術機構，現在真正還能獨立運作的，主要就是皇家學院和奧特丹了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L002",
+      "line": 203,
+      "original": "「這句話聽起來很了不起，可我們的屋頂每逢下雨還是會漏。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L003",
+      "line": 205,
+      "original": "「皇家學院的屋頂倒是不常漏。只是每次修什麼，都得解釋給好幾種資助者聽。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L004",
+      "line": 207,
+      "original": "「你們有錢，卻得聽人指揮。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L005",
+      "line": 209,
+      "original": "「妳們有自由，卻常常缺錢。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L006",
+      "line": 211,
+      "original": "「我現在是不是應該替兩位安排一場互相羨慕的正式辯論？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L007",
+      "line": 213,
+      "original": "「不用。辯論完我們還是需要錢。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L008",
+      "line": 215,
+      "original": "「皇家學院也一樣需要能自主安排的時間。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC02_C1_COMMON",
+      "segmentId": "L009",
+      "line": 217,
+      "original": "笑聲不大，卻把方才山頂戰場帶來的沉重稍微推遠。戰爭沒有帶走每個研究者的幽默，只讓他們更清楚，剩下的日子應該拿來做什麼。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L001",
+      "line": 228,
+      "original": "窗外，王都的燈火逐漸稀疏。東北塔裡仍亮著溫暖的光，一具魔法守衛正在遠處安靜整理已使用的茶具。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L002",
+      "line": 230,
+      "original": "「如果下一場戰爭永遠不來，你們最想研究什麼？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L003",
+      "line": 232,
+      "original": "「這個問題真奢侈。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L004",
+      "line": 234,
+      "original": "「我倒覺得可以認真想想。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L005",
+      "line": 236,
+      "original": "「畢竟我今晚沒有打算審核新的軍需清單。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L006",
+      "line": 238,
+      "original": "「那就從眼前開始。這些守衛能巡夜、搬運、傳話，也能做重複又需要精準的工作。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L007",
+      "line": 240,
+      "original": "「下一步是不是讓它們負責幫所有研究者整理資料？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L008",
+      "line": 242,
+      "original": "「如果檔案格式統一，或許有機會。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L009",
+      "line": 244,
+      "original": "「先等一下。今天聽到的『或許』，會不會明天就變成送到我桌上的預算？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L010",
+      "line": 246,
+      "original": "「不排除。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L011",
+      "line": 248,
+      "original": "「你至少假裝否認一下吧。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L012",
+      "line": 252,
+      "original": "「更遠一點的事，是讓資料、通訊和研究成果能跨學院保存。貝里札德的教訓不只是建築會倒；一旦懂得使用某項術式的人都不在了，別人拿到圖紙也未必能安全重建。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L013",
+      "line": 254,
+      "original": "「我同意交流，也贊成備份。但備份放在哪裡？誰能看？誰能禁止別人研究？這些都得說清楚。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L014",
+      "line": 256,
+      "original": "「妳擔心所有研究最後都要經過皇家學院批准？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L015",
+      "line": 258,
+      "original": "「任何一家都一樣。就算是奧特丹，我也不希望它替全國的研究者決定什麼才值得存在。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L016",
+      "line": 260,
+      "original": "「而我擔心沒有穩定資源，很多研究根本走不到能讓別人判斷價值的那一天。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L017",
+      "line": 262,
+      "original": "「一個怕被人管得太多，一個怕根本沒有人能負責。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L018",
+      "line": 264,
+      "original": "「差不多。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L019",
+      "line": 266,
+      "original": "「但不是只有二選一吧？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03",
+      "segmentId": "L020",
+      "line": 268,
+      "original": "「所以才值得討論。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_A",
+      "segmentId": "L001",
+      "line": 272,
+      "original": "「至少有些基礎資源，應該能有不附帶干涉的提供方式。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_A",
+      "segmentId": "L002",
+      "line": 273,
+      "original": "「那得把『不干涉』寫得比贊助人的心情更可靠。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_B",
+      "segmentId": "L001",
+      "line": 276,
+      "original": "「研究者自己也該參與訂規則，而不是只等王宮核准。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_B",
+      "segmentId": "L002",
+      "line": 277,
+      "original": "「這樣能避免少數承辦者決定一切，但規則仍得有人持續執行。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_C",
+      "segmentId": "L001",
+      "line": 280,
+      "original": "「等等，你們是不是繞了一大圈，又在暗示我幫忙出錢？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_C",
+      "segmentId": "L002",
+      "line": 281,
+      "original": "「我原本想等到下一杯茶再說。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_C",
+      "segmentId": "L003",
+      "line": 282,
+      "original": "「既然殿下先提出，那我可以帶一份粗略清單。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L001",
+      "line": 288,
+      "original": "「我就知道。兩位討論學術自由的最後一站，居然是我的錢袋。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L002",
+      "line": 290,
+      "original": "「一位有錢、願意支持研究、又不喜歡干涉研究方向的贊助者，很難找的。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L003",
+      "line": 292,
+      "original": "「如果還願意負責長期維修，就更難了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L004",
+      "line": 294,
+      "original": "「你們這個要求已經不是贊助者，是神明了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L005",
+      "line": 296,
+      "original": "「那至少是個很務實的神明。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L006",
+      "line": 298,
+      "original": "三人笑了起來。奧莉維亞想起下午的救濟站。那裡需要的是今天就能送到手上的人力與食物；而眼前這兩位研究者談的，是讓明天的人不必一次次承受同樣的困難。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L007",
+      "line": 300,
+      "original": "「一邊是已經伸出去的手，一邊是尚未建成的道路。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L008",
+      "line": 302,
+      "original": "「王國需要的不只是一種答案。可每一種答案，都會讓某些人擁有更多決定權。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L009",
+      "line": 304,
+      "original": "「好啦，殿下，看妳表情又在想工作。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L010",
+      "line": 306,
+      "original": "「因為我身邊有人把研究經費包裝成哲學問題。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L011",
+      "line": 308,
+      "original": "「這是很嚴重的誤解。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L012",
+      "line": 310,
+      "original": "「那你把預算清單收起來。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L013",
+      "line": 312,
+      "original": "「我還沒拿出來。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L014",
+      "line": 314,
+      "original": "「所以真的有？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L015",
+      "line": 316,
+      "original": "笑聲又起。夜已深，艾拉回客房，芬利帶走自己的資料，奧莉維亞也告辭，返回同層的私人房間。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC03_C1_COMMON",
+      "segmentId": "L016",
+      "line": 318,
+      "original": "【LE_CG_EP05_ACT04_11｜夜談散場】",
+      "origin": "SOURCE_CG_HOLD"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L001",
+      "line": 331,
+      "original": "三樓私人寢室裡，只剩床頭燈還亮著。奧莉維亞換上包覆式夜間長衣，摘下大部分飾物，在床邊坐下，翻開一本尚未讀完的書。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L002",
+      "line": 333,
+      "original": "「學術自由、國家資源、修不完的屋頂……」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L003",
+      "line": 335,
+      "original": "「連睡前閱讀，都快像在替他們整理會議紀錄了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L004",
+      "line": 337,
+      "original": "她才翻過幾頁，房間側壁的門禁傳話晶體亮起柔和的光。守衛的聲音從裝置中傳來，清晰而不刺耳。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L005",
+      "line": 339,
+      "original": "「殿下，東北塔門禁收到塔瑪拉大人的通話請求。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L006",
+      "line": 341,
+      "original": "「現在？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L007",
+      "line": 343,
+      "original": "「是。是否接通？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L008",
+      "line": 345,
+      "original": "「……接通。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L009",
+      "line": 349,
+      "original": "「通訊已接通。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L010",
+      "line": 351,
+      "original": "「殿下，抱歉這麼晚打擾。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L011",
+      "line": 353,
+      "original": "「如果是明天的巡查預算，妳可以現在掛斷，讓我明天假裝剛收到。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L012",
+      "line": 355,
+      "original": "「不是預算。我帶來幾名從路恩過來的人。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L013",
+      "line": 357,
+      "original": "「旅客？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L014",
+      "line": 359,
+      "original": "「他們自稱路恩貴族，說是逃難，想請求王室庇護。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L015",
+      "line": 361,
+      "original": "「已經遭到追捕？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L016",
+      "line": 363,
+      "original": "「據他們自述，是擔心路恩局勢變化後會被清算。完整身分和實情還沒核對。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L017",
+      "line": 365,
+      "original": "「所以還不是能直接辦成一份外交文書的事情。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L018",
+      "line": 367,
+      "original": "「正因如此才來找妳。這幾個人疲憊得很，我不想讓夜巡隊在街上問一整夜。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L019",
+      "line": 369,
+      "original": "「妳現在在哪？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L020",
+      "line": 371,
+      "original": "「塔下門禁。人員在我的部下看顧下，尚未進入上層。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L021",
+      "line": 373,
+      "original": "「好。請帶他們到一樓交誼廳；出入由第二團與塔內守衛共同核對。我先下去見一面。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L022",
+      "line": 375,
+      "original": "「明白。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L023",
+      "line": 377,
+      "original": "「守衛，請芬利與艾拉到一樓。如果他們已經睡下，就說是我請他們幫忙接待客人，不是又要他們交報告。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L024",
+      "line": 379,
+      "original": "「收到。將向兩位傳達。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L025",
+      "line": 383,
+      "original": "通訊結束，光芒退去。奧莉維亞把書籤夾入書頁，闔上書，起身換回簡便的深海軍藍會客服裝。她並未佩戴王冠。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L026",
+      "line": 385,
+      "original": "「看來守衛的通訊功能確實很好用。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L027",
+      "line": 387,
+      "original": "「好用到我連躲在三樓都沒辦法休息。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L028",
+      "line": 389,
+      "original": "走廊的照明依序亮起，守衛安靜地讓出通往樓梯的道路。她下樓前回頭望了一眼仍放在床邊的書。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC04",
+      "segmentId": "L029",
+      "line": 391,
+      "original": "「最後一頁，明天再讀吧。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L001",
+      "line": 402,
+      "original": "東北塔一樓的圓桌交誼廳重新亮了燈。這裡白天可用來議事，夜裡也足以臨時接待客人。幾具魔法守衛已經移開桌邊的雜物，騰出座椅與休息空間。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L002",
+      "line": 404,
+      "original": "芬利帶著空白記錄紙下樓，艾拉披著自己的煙紫色外袍，睡意未退。塔瑪拉領著幾名衣物沾滿山路泥塵、神情疲倦的路恩來客進入交誼廳；第二騎士團的護送人員留在適當位置，並不擠到桌邊。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L003",
+      "line": 406,
+      "original": "「我還以為是新的實驗事故。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L004",
+      "line": 408,
+      "original": "「在這個時間，妳居然比較希望是實驗事故？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L005",
+      "line": 410,
+      "original": "「實驗至少能先問是誰操作錯了。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L006",
+      "line": 412,
+      "original": "「我現在比較希望，大家可以先坐下。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L007",
+      "line": 416,
+      "original": "「殿下。我等冒昧深夜求見，實在萬分慚愧。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L008",
+      "line": 418,
+      "original": "「先喝點水。請告訴我，各位為何離開路恩？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L009",
+      "line": 420,
+      "original": "「蘇菲・羅蘭・路恩如今已得勢。我們原先的家族與政治關係，恐怕不會被她的人輕易放過。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L010",
+      "line": 422,
+      "original": "「你們已收到通緝或查封的正式通知嗎？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L011",
+      "line": 424,
+      "original": "「……尚未。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L012",
+      "line": 426,
+      "original": "「那是有人試圖追捕各位？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L013",
+      "line": 428,
+      "original": "「也沒有。但是殿下，等到真的有人上門，就來不及了！」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L014",
+      "line": 430,
+      "original": "「所以你們是在可能發生清算之前離開。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L015",
+      "line": 432,
+      "original": "「正是如此。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L016",
+      "line": 434,
+      "original": "「預防性的逃難。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L017",
+      "line": 436,
+      "original": "「殿下明鑑。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L018",
+      "line": 438,
+      "original": "奧莉維亞沒有立刻判斷這份恐懼是否有根據。路恩的新權力關係仍待查證，而面前的人確實已經筋疲力盡。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L019",
+      "line": 440,
+      "original": "「你們從哪一條道路過來？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L020",
+      "line": 442,
+      "original": "「我們從龍脊山脈翻過來。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L021",
+      "line": 444,
+      "original": "「……龍脊？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L022",
+      "line": 446,
+      "original": "「你們有嚮導？使用飛行術式，還是有專門的山道運輸？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L023",
+      "line": 448,
+      "original": "「沒有。我們是自己走過來的。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L024",
+      "line": 452,
+      "original": "「你們是說，徒步翻過龍脊山脈？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L025",
+      "line": 454,
+      "original": "「是。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L026",
+      "line": 456,
+      "original": "「……那你們可真厲害。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L027",
+      "line": 458,
+      "original": "「我倒很想知道你們帶了多少食物，又怎麼安排路線。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L028",
+      "line": 460,
+      "original": "「我也想知道。那裡的地形可不是隨便走走就能通過的。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L029",
+      "line": 462,
+      "original": "「兩位，現在先別研究別人怎麼翻山。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L030",
+      "line": 464,
+      "original": "「我只是好奇。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L031",
+      "line": 466,
+      "original": "「我也是。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L032",
+      "line": 468,
+      "original": "「我看得出來。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L033",
+      "line": 472,
+      "original": "有人端起茶杯，雙手卻因為疲憊而微微發抖。奧莉維亞望向那些泥濘的衣角，沒有再追問路線細節。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L034",
+      "line": 474,
+      "original": "「各位的身分和路恩局勢，明天還要核實。今晚我不會在這裡作出正式庇護承諾。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L035",
+      "line": 476,
+      "original": "「那麼，我們……」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L036",
+      "line": 478,
+      "original": "「但你們今晚可以先留在這裡。吃點東西，好好休息。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L037",
+      "line": 480,
+      "original": "「……感謝殿下。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L038",
+      "line": 482,
+      "original": "「在確認身分以前，請不要自行離開接待區，也別讓任何人替安度因對外宣告什麼。明天我們再把事情說清楚。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L039",
+      "line": 484,
+      "original": "「我會安排第二團維持必要的安全與出入核對。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L040",
+      "line": 486,
+      "original": "「不用把這裡弄成拘留所。他們是今晚需要休息的客人；正式身分如何處理，留給明天。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L041",
+      "line": 488,
+      "original": "「明白。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L042",
+      "line": 492,
+      "original": "「守衛，請準備熱水、食物、毛毯，還有能讓人躺下的地方。注意別碰翻客人的隨身物品。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L043",
+      "line": 494,
+      "original": "「指令確認。開始安排臨時接待。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L044",
+      "line": 496,
+      "original": "一具守衛推來餐車，另一具從儲藏處搬出乾淨毛毯，第三具按指示挪動輕便家具。它們的動作平穩，既不需要客人立刻報上姓名，也不會擅自翻動行囊。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L045",
+      "line": 500,
+      "original": "「這些……都是魔法造物？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L046",
+      "line": 502,
+      "original": "「是啊。想不到吧，能替你們端茶的技術，以前可是把法拉迪將軍的軍隊打到放棄進攻。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L047",
+      "line": 504,
+      "original": "「妳真的每次介紹守衛都要從戰爭說起嗎？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L048",
+      "line": 506,
+      "original": "「這樣比較容易留下印象。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L049",
+      "line": 508,
+      "original": "「我倒覺得，能讓遠道而來的人今晚好好睡覺，比戰績更容易讓人記住。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L050",
+      "line": 510,
+      "original": "「這點我同意。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L051",
+      "line": 514,
+      "original": "守衛在交誼廳空出的位置鋪好臨時休息的墊褥，毛毯整齊地放在一旁。餐點與溫水陸續送到。疲憊的旅人終於不必再用緊繃的姿勢坐著。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L052",
+      "line": 516,
+      "original": "「我們不會忘記殿下今晚的恩情。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L053",
+      "line": 518,
+      "original": "「不用現在談恩情。先休息。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L054",
+      "line": 520,
+      "original": "「明早我把初步查驗結果帶來。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L055",
+      "line": 522,
+      "original": "「好。詳細的事明天再說。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L056",
+      "line": 524,
+      "original": "「可是明天真的不能先問他們怎麼翻過龍脊？」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L057",
+      "line": 526,
+      "original": "「我可以只問路線，不問政治。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L058",
+      "line": 528,
+      "original": "「等他們睡醒再說。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L059",
+      "line": 530,
+      "original": "「成交。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L060",
+      "line": 534,
+      "original": "奧莉維亞走向樓梯，停下腳步，回頭看著交誼廳裡的光。幾位原先連夜翻越山脈的人，如今正捧著熱茶；魔法守衛低頭整理最後一條毯子。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L061",
+      "line": 536,
+      "original": "「今晚沒有誰能告訴我，路恩的政治究竟會走向哪裡。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L062",
+      "line": 538,
+      "original": "「但至少，這幾個人現在不必繼續走路。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L063",
+      "line": 540,
+      "original": "「各位，晚安。」"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L064",
+      "line": 544,
+      "original": "一樓交誼廳的燈沒有全部熄滅。守衛依照指示安靜照看臨時休息區，第二騎士團維持必要的安全，圓桌上只剩一壺尚溫的茶。"
+    },
+    {
+      "act": 4,
+      "sceneId": "EP05_ACT04_SC05",
+      "segmentId": "L065",
+      "line": 546,
+      "original": "在山頂學院，守衛曾為了十五名倖存者守住最後一小塊地方。多年以後，在這座塔裡，它們以另一種方式，守住了幾個陌生人能安睡的一夜。"
+    }
+  ],
+  "omitted": [
+    {
+      "act": 1,
+      "line": 410,
+      "text": "幕末結果： C1/C2/C3 三個選擇點全部落定；不在 ACT01 結算港務政治點數；艾拉貨物仍待出港；ACT02 必到奧辛姆，按選項組合演出現場安撫、合同移轉、船期和解與貨物交付。"
+    },
+    {
+      "act": 2,
+      "line": 93,
+      "text": "互動註記： `EP05_ACT02_FLAVOR_01`；三選一即時返回本場主線；無任何數值或旗標影響。"
+    },
+    {
+      "act": 2,
+      "line": 137,
+      "text": "互動註記： `EP05_ACT02_FLAVOR_02`；不額外取得資訊優勢；C2 的情報準備旗標仍僅由 ACT01 決定。"
+    },
+    {
+      "act": 2,
+      "line": 226,
+      "text": "互動註記： `EP05_ACT02_FLAVOR_03`；不改皇家印信三選項的可用性、數值或選擇順序。"
+    },
+    {
+      "act": 2,
+      "line": 380,
+      "text": "互動註記： `EP05_ACT02_FLAVOR_04`；KEEP/RIVER 不變，不加減政治或動亂。"
+    },
+    {
+      "act": 2,
+      "line": 468,
+      "text": "互動註記： `EP05_ACT02_FLAVOR_05`；無歷史旗標，無角色支柱變動，接續同一段落。"
+    },
+    {
+      "act": 2,
+      "line": 490,
+      "text": "終場結果： `EP05_ELLA_CARGO_STATUS=DELIVERED_TO_AOTEDAN`；`EP05_OSINM_RESTORED=TRUE`；船運及任命政治變動各入帳一次；任命的商業反彈或公開舉薦待決傳給 EP06；轉入 `EP05_ACT03_SC01`，不提前鎖 Sacred/World。"
+    },
+    {
+      "act": 4,
+      "line": 20,
+      "text": "Scene ID `EP05_ACT04_SC01`｜時間 EP05 晚間｜地點 東北塔三樓夜談空間"
+    },
+    {
+      "act": 4,
+      "line": 126,
+      "text": "Scene ID `EP05_ACT04_SC02`｜時間 同夜｜地點 東北塔三樓（穿插不改寫歷史的回憶畫面）"
+    },
+    {
+      "act": 4,
+      "line": 222,
+      "text": "Scene ID `EP05_ACT04_SC03`｜時間 同夜稍晚｜地點 三樓夜談空間／窗邊"
+    },
+    {
+      "act": 4,
+      "line": 325,
+      "text": "Scene ID `EP05_ACT04_SC04`｜時間 夜深、夜談結束後｜地點 三樓奧莉維亞私人寢室；門禁通訊另一端位於東北塔樓下"
+    },
+    {
+      "act": 4,
+      "line": 396,
+      "text": "Scene ID `EP05_ACT04_SC05`｜時間 同夜｜地點 東北塔一樓圓桌交誼廳"
+    }
+  ],
+  "readerEdits": [
+    {
+      "act": 1,
+      "line": 284,
+      "original": "格拉斯在名冊上圈出數位可聯絡的代表。這份準備將使 ACT02 的協商較早取得會談入口，但不能代替正式和解。",
+      "text": "格拉斯在名冊上圈出數位可聯絡的代表。這份準備將使 之後的協商較早取得會談入口，但不能代替正式和解。"
+    },
+    {
+      "act": 1,
+      "line": 296,
+      "original": "格拉斯列出其他承運者與河港窗口。這份準備將使 ACT02 的河運核實較快，但不自動證明所有河道都能通行。",
+      "text": "格拉斯列出其他承運者與河港窗口。這份準備將使 之後的河運核實較快，但不自動證明所有河道都能通行。"
+    },
+    {
+      "act": 1,
+      "line": 366,
+      "original": "奧莉維亞沒有許諾永遠不改革。她只要求對方明白：眼前的貨運處置不是一份秘密裁員令。是否獲得工會代表接納，要在 ACT02 現場得到回應。",
+      "text": "奧莉維亞沒有許諾永遠不改革。她只要求對方明白：眼前的貨運處置不是一份秘密裁員令。是否獲得工會代表接納，要在 抵達奧辛姆後在現場得到回應。"
+    },
+    {
+      "act": 2,
+      "line": 465,
+      "original": "「談判與運貨紀錄都已列入本幕卷宗。」",
+      "text": "「談判與運貨紀錄都已列入這次的卷宗。」"
+    }
+  ],
+  "images": 91,
+  "missing": [],
+  "choices": 19
+}
