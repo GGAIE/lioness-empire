@@ -1,40 +1,33 @@
-# GitHub Pages 上傳說明
+# GitHub 根目錄發佈
 
-已整理的遊戲位於 github-pages 資料夾，約 312 MB。首頁 index.html 就在該資料夾最外層：
+已依要求把真正的遊戲首頁 index.html 放在專案根目錄。可直接使用 GitHub Pages 的 main 分支／根目錄發佈，不必開啟自訂 Actions。
+
+## 這次只需推送這些更新
 
 ```
-github-pages/
-├─ index.html
-├─ .nojekyll
-├─ assets/       遊戲程式、網頁版圖片、六首原始音樂
-└─ content/      遊戲執行需要的劇情與設定
+專案根目錄/
+├─ index.html          首頁
+├─ _config.yml         排除原始大圖與開發檔案
+└─ github-pages/       必須一起上傳的完整遊戲資料
+   ├─ index.html
+   ├─ assets/
+   └─ content/
 ```
 
-不要只上傳 index.html，assets 和 content 必須放在旁邊。
+在 GitHub Desktop 將這次修改及新增檔案 Commit，再按 Push origin。github-pages 已取消排除，應能看到它裡面的新增檔案。
 
-## 建議：保留目前 GitHub 專案，用自動發佈
+GitHub 倉庫 → Settings → Pages → Source：Deploy from a branch → Branch：main → Folder：/(root) → Save。如果已經選好 main／根目錄，保持原設定即可。等 GitHub 的 Pages build and deployment 完成後開啟遊戲。
 
-1. 將這次更新的專案檔案推送到原本 GitHub 倉庫 main，包含 .github/workflows/pages.yml、package.json、package-lock.json、新打包程式及原本的劇情／素材。
-2. GitHub 倉庫 → Settings → Pages → Build and deployment → Source，選 GitHub Actions。
-3. 到 Actions 找 Publish game to GitHub Pages，第一次可按 Run workflow。之後更新 main 會自動產生並發佈網頁。
-4. 等建置、發佈皆成功後，從 Settings → Pages 的 Visit site 開啟遊戲。
+## ZIP 也已改成同一種根目錄結構
 
-這條方式只發佈 github-pages 的內容。原專案根目錄不必放編譯後 index.html，dist 仍保持排除上傳；不會把原始 PNG、美術稽核與製作文件當成公開網站的一部分。
+「母獅帝國_GitHubPages_上傳包.zip」解壓到目前專案根目錄即可，會放入 index.html、_config.yml、github-pages；不會覆蓋原始 assets、content 或劇本。此電腦已經完成整理，不必再解壓一次。
 
-## 手動上傳現成網頁
+首頁利用 base 路徑讀取 github-pages 內的遊戲程式、圖片與劇情；不是轉址或提示頁。index.html、_config.yml 與 github-pages 必須一起推送。根目錄不要放 .nojekyll，否則 GitHub 會跳過排除大圖的設定。github-pages 內原有的 .nojekyll 不影響根目錄設定。
 
-已準備「母獅帝國_GitHubPages_上傳包.zip」。先解壓縮，裡面最外層就是 index.html；GitHub 不會自動解開 ZIP。
+## 未來更新
 
-使用獨立的 gh-pages 分支（或專門放網頁的倉庫），讓最外層只包含上面這些發佈檔案，再將 Pages 設為 Deploy from a branch → gh-pages → /(root)。要放的是解壓後的所有內容，而不是 ZIP 檔或包住它們的外層資料夾。勿直接混入原專案全部檔案，否則原始圖片也會計入網站大小。
+雙擊「打包GitHub網頁.cmd」，或執行 npm run package:pages，會重建網頁版、根目錄首頁、發佈設定與 ZIP。網頁版約 312 MB，圖片為品質 95／原尺寸 WebP，原 PNG/JPG 與原圖 dist 保留，音樂位元組不變。
 
-## 之後自行更新
+舊的 .github/workflows/pages.yml 保留為手動執行選項，已取消 push 自動觸發，避免與根目錄的 Pages 自動發佈重複。現在建議使用上述 main／根目錄方式。
 
-雙擊「打包GitHub網頁.cmd」，或執行 npm run package:pages，會重新產生 github-pages 與 ZIP。網站採 WebP 品質 95、不縮放尺寸，原始 PNG/JPG 與原圖版 dist 不會被改寫；音樂原封保留。這是另行壓縮的網頁版本，不宣稱圖片位元組或像素與原圖完全相同。
-
-網址在網域根目錄及 /lioness-empire/ 子目錄都已驗證，封面、遊戲 CG、音樂與舊存檔匯入可用。原本本機存檔與 GitHub 網站分屬不同網址，需要時用遊戲內匯出／匯入搬移。
-
-GitHub Pages 發佈網站上限為 1 GB，本次發佈包約 312 MB。官方說明：
-- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-- https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
-
-這次已完成本機目錄與發佈設定，尚未代你推送 GitHub 或更改線上 Pages 設定。
+已在桌面、Android、iPhone 模擬確認根目錄首頁與 /lioness-empire/ 子路徑正常，封面、CG、音樂及舊存檔匯入皆可使用。尚未代你推送 GitHub 或更改線上設定。

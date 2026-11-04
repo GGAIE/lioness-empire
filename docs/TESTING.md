@@ -1,5 +1,9 @@
 # 實際驗證紀錄與重跑方式
 
+## 2026-11-05：根目錄首頁
+
+根目錄 index.html 透過 base 讀取 github-pages 內的實際遊戲，_config.yml 排除原始大圖與開發資料；github-pages 取消 Git 排除，Pages 可使用 main／根目錄發佈。根首頁與 /lioness-empire/ 子路徑的三平台 6 項瀏覽器案例、573 個素材的三平台 3 項雜湊案例分批通過，共 9 項；根目錄 ZIP 結構、原始 assets/content 不覆蓋、排除清單、型別與格式已確認。未在遠端執行 Jekyll，未代為推送或更改線上 Pages 設定。
+
 ## 2026-11-05：GitHub Pages 發佈目錄
 
 新增 github-pages/index.html 與專用 Pages 建置、自動部署流程及根目錄 ZIP。輸出 589 檔、312246605 bytes（約 312 MB；精確值以 github-pages-package-report.json 為準），低於 1 GB。原 PNG/JPG 與原圖 dist 未改寫，網站使用品質 95／原尺寸 WebP，音樂位元組不變。573 個素材輸出 SHA 驗證、三平台根目錄及 /lioness-empire/ 共 9 個瀏覽器／資產案例通過，含音樂實播、EP05 終場 CG、路線封面及舊存檔匯入。18 項封面／存檔／音樂單元、型別與格式通過。未執行遠端 GitHub Actions 或改 Pages 設定。首次 iPhone 檢查因 WebKit 禁用本機測試埠 4190 而阻擋導航，改用 4182 後全數通過；未更改遊戲邏輯。
