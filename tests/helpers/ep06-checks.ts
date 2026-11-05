@@ -4,6 +4,42 @@ import { initialState, visibleSegments } from '../../packages/narrative-core/eng
 import { importPlayerState } from './import-player-state';
 
 export function ep06Checks() {
+  test('keeps the dialogue box on visual cues and restores it on a tap without advancing', async ({
+    page,
+  }, info) => {
+    const story = await loadReaderContent();
+    const id = 'PRO-SC08';
+    const state = initialState({ ...story, manifest: { ...story.manifest, start: id } });
+    state.currentSegmentIndex = visibleSegments(story, state).findIndex((s) => s.id === 'L046');
+    await page.goto('/');
+    await importPlayerState(page, state);
+
+    const frame = page.locator('.game-frame');
+    const box = page.locator('.dialogue-wrap');
+    const hide = page.getByRole('button', { name: '隱藏對話框', exact: true });
+    const restore = page.getByRole('button', { name: '點任意處顯示對話框', exact: true });
+    const auto = page.getByRole('button', { name: 'AUTO', exact: true });
+    await expect(box).toBeVisible();
+    await expect(box).toHaveCSS('border-top-style', 'solid');
+    await auto.click();
+    await hide.click();
+    await expect(box).toBeHidden();
+    await expect(restore).toBeInViewport({ ratio: 1 });
+    if (info.project.use.hasTouch) await page.touchscreen.tap(8, 8);
+    else await page.mouse.click(8, 8);
+    await expect(box).toBeVisible();
+    await expect(frame).toHaveAttribute('data-segment-id', 'L046');
+    await expect(auto).toHaveAttribute('aria-pressed', 'false');
+
+    await hide.click();
+    await expect(restore).toBeFocused();
+    await page.keyboard.press('Escape');
+    await expect(hide).toBeFocused();
+    await expect(frame).toHaveAttribute('data-segment-id', 'L046');
+    await page.getByRole('button', { name: '繼續 →', exact: true }).click();
+    await expect(frame).toHaveAttribute('data-segment-id', 'L047');
+  });
+
   test('plays the prologue fade and the hospital CG transition as visual cues', async ({
     page,
   }) => {

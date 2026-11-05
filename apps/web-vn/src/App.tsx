@@ -150,6 +150,7 @@ function Game({
     [records, setRecords] = useState<SaveRecord[]>([]),
     [auto, setAuto] = useState(false),
     [skip, setSkip] = useState(false),
+    [dialogueHidden, setDialogueHidden] = useState(false),
     [nonce, setNonce] = useState(0),
     [pending, setPending] = useState<{
       state: GameState;
@@ -163,7 +164,12 @@ function Game({
     loadGeneration = useRef(0);
   const frameRef = useRef<HTMLElement>(null),
     dialogueRef = useRef<HTMLDivElement>(null),
-    continueRef = useRef<HTMLButtonElement>(null);
+    continueRef = useRef<HTMLButtonElement>(null),
+    hideDialogueRef = useRef<HTMLButtonElement>(null),
+    restoreDialogueRef = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    if (dialogueHidden) restoreDialogueRef.current?.showModal();
+  }, [dialogueHidden]);
   const selectedCover = availableCover(settings.cover, meta);
   useEffect(() => {
     if (settings.cover !== selectedCover)
@@ -219,7 +225,8 @@ function Game({
   const writer = useTypewriter(
     started && segment.text.trim() ? segment.text : '',
     settings.speed,
-    key
+    key,
+    dialogueHidden
   );
   const chapterContinue = last && Boolean(scene.completion?.nextSceneId);
   const storyContinue =
@@ -230,12 +237,12 @@ function Game({
           ? Boolean(nextSceneId(story, state))
           : segment.kind === 'caption' || segment.visual === 'BLACK')));
   useEffect(() => {
-    if (!started || !storyContinue || panel || pending || settlement) return;
+    if (!started || !storyContinue || dialogueHidden || panel || pending || settlement) return;
     const frame = requestAnimationFrame(() =>
       continueRef.current?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
     );
     return () => cancelAnimationFrame(frame);
-  }, [started, storyContinue, key, panel, pending, settlement]);
+  }, [started, storyContinue, dialogueHidden, key, panel, pending, settlement]);
   const settlementShown = useRef('');
   useEffect(() => {
     if (
@@ -382,7 +389,7 @@ function Game({
     };
   }, [state, started, pending, store]);
   const move = useCallback(() => {
-    if (panel || pending || settlement || !started) return;
+    if (panel || pending || settlement || dialogueHidden || !started) return;
     if (!writer.complete) {
       writer.reveal();
       return;
@@ -409,6 +416,7 @@ function Game({
     panel,
     pending,
     settlement,
+    dialogueHidden,
     started,
     writer.complete,
     key,
@@ -481,6 +489,7 @@ function Game({
     if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
     setAuto(false);
     setSkip(false);
+    setDialogueHidden(false);
     setState(next);
     setNonce((n) => n + 1);
     setStarted(true);
@@ -642,7 +651,9 @@ function Game({
     ['settings', '設定'],
   ] as const;
   return (
-    <main className={`shell${started ? '' : ' shell--title'}`}>
+    <main
+      className={`shell${started ? '' : ' shell--title'}${dialogueHidden ? ' shell--dialogue-hidden' : ''}`}
+    >
       <audio
         ref={audio.musicRef}
         data-testid="background-music"
@@ -863,7 +874,7 @@ function Game({
                             : '點擊繼續 / SPACE'}
                     </span>
                   )}
-                  <div>
+                  <div className="dialogue-controls">
                     <button
                       aria-pressed={auto}
                       onClick={() => {
@@ -882,6 +893,17 @@ function Game({
                       }}
                     >
                       已讀跳過
+                    </button>
+                    <button
+                      ref={hideDialogueRef}
+                      className="hide-dialogue"
+                      onClick={() => {
+                        setAuto(false);
+                        setSkip(false);
+                        setDialogueHidden(true);
+                      }}
+                    >
+                      隱藏對話框
                     </button>
                   </div>
                 </div>
@@ -933,6 +955,21 @@ function Game({
           ✧
         </button>
       </footer>
+      {dialogueHidden && (
+        <dialog
+          ref={restoreDialogueRef}
+          className="dialogue-restore"
+          aria-label="對話框已隱藏"
+          onClose={() => {
+            setDialogueHidden(false);
+            requestAnimationFrame(() => hideDialogueRef.current?.focus({ preventScroll: true }));
+          }}
+        >
+          <button onClick={() => restoreDialogueRef.current?.close()}>
+            <span>點任意處顯示對話框</span>
+          </button>
+        </dialog>
+      )}
       {message && !panel && !pending && (
         <div className="toast" role="status">
           {message}
