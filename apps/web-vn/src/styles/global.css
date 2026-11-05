@@ -1596,12 +1596,13 @@ input[type='range'] {
   letter-spacing: 3px;
   color: var(--gold);
 }
-.chapter-complete.with-caption {
+.chapter-complete.with-caption,
+.chapter-complete.can-continue {
   top: auto;
   bottom: calc(4% + var(--dialogue-height, 200px) + 18px);
 }
-.game-frame:has(.chapter-complete--chapter.with-caption .primary) {
-  min-height: calc(var(--dialogue-height, 200px) + 490px);
+.game-frame:has(.chapter-complete.can-continue) {
+  min-height: calc(var(--dialogue-height, 200px) + 340px);
 }
 .chapter-complete h3 {
   font-size: 32px;
@@ -1640,6 +1641,19 @@ input[type='range'] {
 .caption-mode .dialogue-bottom > span {
   display: none;
 }
+.dialogue-bottom.has-story-continue {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.dialogue-bottom .story-continue {
+  min-width: 112px;
+  min-height: 44px;
+  padding: 9px 16px;
+  border: 1px solid #d4bd91;
+  font-size: 14px;
+  scroll-margin-block: 16px;
+}
 @media (max-width: 650px) {
   .chapter-complete {
     top: 20%;
@@ -1647,11 +1661,12 @@ input[type='range'] {
     right: 7%;
     padding: 18px;
   }
-  .chapter-complete.with-caption {
+  .chapter-complete.with-caption,
+  .chapter-complete.can-continue {
     top: auto;
     bottom: calc(var(--dialogue-height, 240px) + 16px);
   }
-  .game-frame:has(.chapter-complete.with-caption) {
+  .game-frame:has(.chapter-complete.with-caption, .chapter-complete.can-continue) {
     min-height: max(620px, calc(var(--dialogue-height, 240px) + 390px));
   }
   .chapter-complete h3 {

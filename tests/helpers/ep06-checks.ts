@@ -22,6 +22,7 @@ export function ep06Checks() {
     }
 
     const next = page.getByRole('button', { name: '推進對話', exact: true });
+    const continueButton = page.getByRole('button', { name: '繼續 →', exact: true });
     const text = page.getByTestId('dialogue-text');
     const cg = page.getByTestId('scene-cg');
     const overlay = page.locator('.stage-blackout');
@@ -32,7 +33,8 @@ export function ep06Checks() {
     await expect(cg).toHaveAttribute('src', /PRO-CG08/);
     await expect(overlay).toHaveCSS('transition-duration', '1.2s');
     await expect(overlay).toHaveCSS('opacity', '1');
-    await next.click();
+    await expect(continueButton).toBeInViewport({ ratio: 1 });
+    await continueButton.click();
     await expect(text).toHaveText('最後，只留下遠處的鐘聲。');
     await expect(overlay).toHaveCSS('opacity', '1');
 
@@ -41,7 +43,8 @@ export function ep06Checks() {
     await expect(text).toBeEmpty();
     await expect(cg).toHaveAttribute('src', /CG11/);
     await expect(cg).toHaveJSProperty('naturalWidth', 1672);
-    await next.click();
+    await expect(continueButton).toBeInViewport({ ratio: 1 });
+    await continueButton.click();
     await expect(cg).toHaveAttribute('src', /CG12/);
     await expect(text).toContainText('第六團的倉庫');
   });
@@ -77,7 +80,9 @@ export function ep06Checks() {
     await expect(cg).toHaveCount(0);
     await expect(blackout).toHaveCSS('background-color', 'rgb(0, 0, 0)');
     await expect(blackout).toHaveCSS('opacity', '1');
-    await advance.click();
+    const continueButton = page.getByRole('button', { name: '繼續 →', exact: true });
+    await expect(continueButton).toBeInViewport({ ratio: 1 });
+    await continueButton.press('Space');
     await expect(cg).toHaveAttribute('src', /CG07/);
     await expect(blackout).toHaveCSS('opacity', '1');
     releaseNextCg();
@@ -111,7 +116,9 @@ export function ep06Checks() {
     for (const key of Object.keys(old.flags))
       if (key.startsWith('EP06_') || key === 'T1_STATUS') delete old.flags[key];
     await importPlayerState(page, old);
-    await page.getByRole('button', { name: /進入第五幕/ }).click();
+    const enterFifthAct = page.getByRole('button', { name: /進入第五幕/ });
+    await expect(enterFifthAct).toBeInViewport({ ratio: 1 });
+    await enterFifthAct.click();
     await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP05_ACT05_SC01');
     await expect(hud('political-points')).toHaveText('100');
     const fifthEnd = at('EP05_ACT05_SC05', true);
@@ -119,7 +126,9 @@ export function ep06Checks() {
     await importPlayerState(page, fifthEnd);
     await expect(page.getByRole('alertdialog')).toContainText('章末');
     await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
-    await page.getByRole('button', { name: /進入第六章/ }).click();
+    const enterSixthChapter = page.getByRole('button', { name: /進入第六章/ });
+    await expect(enterSixthChapter).toBeInViewport({ ratio: 1 });
+    await enterSixthChapter.press('Enter');
     await expect(page.getByRole('alertdialog')).toContainText('章初');
     await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
     await expect(hud('political-points')).toHaveText('90');

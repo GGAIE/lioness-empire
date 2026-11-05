@@ -8,6 +8,7 @@ import {
   currentCg,
   initialState,
   markRead,
+  nextSceneId,
   resolveEnding,
   segmentKey,
   visibleChoices,
@@ -161,7 +162,8 @@ function Game({
     autoSaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null),
     loadGeneration = useRef(0);
   const frameRef = useRef<HTMLElement>(null),
-    dialogueRef = useRef<HTMLDivElement>(null);
+    dialogueRef = useRef<HTMLDivElement>(null),
+    continueRef = useRef<HTMLButtonElement>(null);
   const selectedCover = availableCover(settings.cover, meta);
   useEffect(() => {
     if (settings.cover !== selectedCover)
@@ -219,6 +221,21 @@ function Game({
     settings.speed,
     key
   );
+  const chapterContinue = last && Boolean(scene.completion?.nextSceneId);
+  const storyContinue =
+    writer.complete &&
+    (chapterContinue ||
+      (!(last && (scene.kind === 'end' || scene.kind === 'choice')) &&
+        (last
+          ? Boolean(nextSceneId(story, state))
+          : segment.kind === 'caption' || segment.visual === 'BLACK')));
+  useEffect(() => {
+    if (!started || !storyContinue || panel || pending || settlement) return;
+    const frame = requestAnimationFrame(() =>
+      continueRef.current?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+    );
+    return () => cancelAnimationFrame(frame);
+  }, [started, storyContinue, key, panel, pending, settlement]);
   const settlementShown = useRef('');
   useEffect(() => {
     if (
@@ -365,14 +382,43 @@ function Game({
     };
   }, [state, started, pending, store]);
   const move = useCallback(() => {
-    if (panel || pending || !started) return;
+    if (panel || pending || settlement || !started) return;
     if (!writer.complete) {
       writer.reveal();
       return;
     }
+    if (chapterContinue) {
+      setAuto(false);
+      setSkip(false);
+      try {
+        const before = stateRef.current;
+        const next = continueChapter(story, before, settings.storyUnlocked);
+        setState(next);
+        if (before.campaign && next.campaign) {
+          const notice = chapterStartNotice(before.campaign, next.campaign);
+          if (notice) setSettlement(notice);
+        }
+      } catch (e) {
+        notify(String(e));
+      }
+      return;
+    }
     if ((scene.kind === 'end' || scene.kind === 'choice') && last) return;
     setState((s) => advance(story, s));
-  }, [panel, pending, started, writer.complete, key, scene.kind, last, story]);
+  }, [
+    panel,
+    pending,
+    settlement,
+    started,
+    writer.complete,
+    key,
+    chapterContinue,
+    scene.kind,
+    last,
+    story,
+    settings.storyUnlocked,
+    notify,
+  ]);
   const select = (id: string) => {
     try {
       setState((s) => choose(story, s, id));
@@ -730,7 +776,7 @@ function Game({
               )}
               {scene.completion && last && writer.complete && (
                 <section
-                  className={`chapter-complete${segment.kind === 'caption' ? ' with-caption' : ''}${scene.completion.scope === 'CHAPTER' ? ' chapter-complete--chapter' : ''}`}
+                  className={`chapter-complete${segment.kind === 'caption' ? ' with-caption' : ''}${chapterContinue ? ' can-continue' : ''}`}
                   aria-label="章節完成"
                 >
                   <span>
@@ -744,28 +790,6 @@ function Game({
                       : (scene.completion.pendingLabel?.replace('劇本尚未提供', '敬請期待') ??
                         `${scene.completion.nextChapterId} · 敬請期待`)}
                   </p>
-                  {scene.completion.nextSceneId && (
-                    <button
-                      className="primary"
-                      onClick={() => {
-                        setAuto(false);
-                        setSkip(false);
-                        try {
-                          const before = stateRef.current;
-                          const next = continueChapter(story, before, settings.storyUnlocked);
-                          setState(next);
-                          if (before.campaign && next.campaign) {
-                            const notice = chapterStartNotice(before.campaign, next.campaign);
-                            if (notice) setSettlement(notice);
-                          }
-                        } catch (e) {
-                          notify(String(e));
-                        }
-                      }}
-                    >
-                      {continueLabel} →
-                    </button>
-                  )}
                   <small>
                     政治點數 {state.campaign?.politicalPoints ?? '待設定'} · 動盪{' '}
                     {state.campaign?.unrest ?? '待設定'} ·{' '}
@@ -808,31 +832,37 @@ function Game({
                   style={{ fontSize: settings.fontSize + (segment.kind === 'caption' ? 6 : 0) }}
                 >
                   <span data-testid="dialogue-text">{writer.text}</span>
-                  <span className="continue-mark">
-                    {writer.complete
-                      ? scene.kind === 'end' && last
-                        ? '終'
-                        : scene.kind === 'choice' && last
-                          ? '◇'
-                          : '▼'
-                      : '·'}
-                  </span>
+                  {!storyContinue && (
+                    <span className="continue-mark">
+                      {writer.complete
+                        ? scene.kind === 'end' && last
+                          ? '終'
+                          : scene.kind === 'choice' && last
+                            ? '◇'
+                            : '▼'
+                        : '·'}
+                    </span>
+                  )}
                 </button>
-                <div className="dialogue-bottom">
-                  <span>
-                    {scene.kind === 'end' && last
-                      ? scene.completion
-                        ? scene.completion.nextSceneId
-                          ? `可${continueLabel}`
-                          : (scene.completion.pendingLabel?.replace('劇本尚未提供', '敬請期待') ??
-                            '待續')
-                        : '故事告一段落'
-                      : !writer.complete
+                <div className={`dialogue-bottom${storyContinue ? ' has-story-continue' : ''}`}>
+                  {storyContinue ? (
+                    <button ref={continueRef} className="primary story-continue" onClick={move}>
+                      {chapterContinue ? continueLabel : '繼續'} →
+                    </button>
+                  ) : (
+                    <span>
+                      {!writer.complete
                         ? '點擊顯示全文'
-                        : scene.kind === 'choice' && last
-                          ? '選擇下一步'
-                          : '點擊繼續 / SPACE'}
-                  </span>
+                        : scene.kind === 'end' && last
+                          ? scene.completion
+                            ? (scene.completion.pendingLabel?.replace('劇本尚未提供', '敬請期待') ??
+                              '待續')
+                            : '故事告一段落'
+                          : scene.kind === 'choice' && last
+                            ? '選擇下一步'
+                            : '點擊繼續 / SPACE'}
+                    </span>
+                  )}
                   <div>
                     <button
                       aria-pressed={auto}
