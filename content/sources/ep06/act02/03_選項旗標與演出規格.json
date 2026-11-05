@@ -1,0 +1,18 @@
+{
+  "package": "LionessEmpire_EP06_ACT02_v1.2",
+  "status": "author_review_not_locked",
+  "scenes": 5,
+  "choices": [
+    {"id":"EP06_A2_CH01","scene":"SC04","topic":"emergency_workforce","options":{"A":{"type":"church","political":"decrease","unrest":"decrease"},"B":{"type":"self","political":"increase","unrest":"unchanged","flag":"B1_FINLEY"},"C":{"type":"defer","political":"unchanged","unrest":"increase"}}},
+    {"id":"EP06_A2_CH02","scene":"SC04","topic":"displaced_people","options":{"A":{"type":"church","political":"decrease","unrest":"decrease"},"B":{"type":"self","political":"increase","unrest":"unchanged","flag":"B2_SHALIA"},"C":{"type":"defer","political":"unchanged","unrest":"increase"}}},
+    {"id":"EP06_A2_CH03","scene":"SC04","topic":"reconstruction_admin","options":{"A":{"type":"church","political":"decrease","unrest":"decrease"},"B":{"type":"self","political":"increase","unrest":"unchanged","flag":"B3_OFFICIALS"},"C":{"type":"defer","political":"unchanged","unrest":"increase"}}}
+  ],
+  "magnitudes": "TBD_NOT_AUTHORIZED",
+  "a1_clear_rule": "at_least_one_choice_is_A_or_B",
+  "understood": "SC03_personally_inspected_warehouse_refugees_medical_road",
+  "ending_priority": ["AAA","CCC","BBB","B_TWO_BY_POSITION","B_ONE_BY_POSITION","NO_B_MIXED"],
+  "ending_variants": {"AAA":"E01","CCC":"E02","BBB":"E03","B1+B2":"E04","B1+B3":"E05","B2+B3":"E06","B1_ONLY":"E07","B2_ONLY":"E08","B3_ONLY":"E09","A_TWO_C_ONE":"E10","A_ONE_C_TWO":"E11"},
+  "must_not_grant": ["ALINDA_SUPPORTED","ALINDA_SAFE_HAVEN","SACRED_LOCK","WORLD_LOCK"],
+  "act01_compatibility": "Read existing 5-way choice and consequences, do not overwrite or re-award ACT01 PS. ACT01 parallel with ACT02 SC01. Arrival post-battle.",
+  "note": "PS and unrest numerical delta deliberately unspecified pending user balance decisions. Existing church rescue remains even on CCC."
+}

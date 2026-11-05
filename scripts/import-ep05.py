@@ -237,7 +237,7 @@ for act in range(1,5):
 next(s for s in scenes if s['id']=='EP05_ACT04_SC05')['completionFlags']={'EP05_TEMPORARY_HOUSING_AUTHORIZED':True,'EP05_EXILE_IDENTITY_VERIFIED':False}
 manifest=read('content/manifests/story.json');oldassets=read('content/manifests/assets.json');characters=read('content/characters/index.json');plan=read('content/planning/part-one.json')
 for k,v in {ATT:'UNSET',PREP:'UNSET',METHOD:'UNSET',REP:'UNSET',STAFF:'UNSET',PORTDONE:False,REPDONE:False,'EP05_PORT_RELATION':'UNSET','EP05_ELLA_CARGO_STATUS':'WAITING_AT_OSINM','EP05_OSINM_RESTORED':False,FUND:False,'EP05_STAFF_DELIVERED':False,'EP05_CHURCH_FUNDING_UNRESOLVED':True,'EP05_TEMPORARY_HOUSING_AUTHORIZED':False,'EP05_EXILE_IDENTITY_VERIFIED':False}.items():manifest['flags'][k]=dict(initial=v,description='EP05 使用者逐字劇本連續性與一次性結算；非路線／CLEAR授權。')
-manifest['version']='0.13.1-ep05-act04-cg-complete' if (ROOT/'content/sources/ep05/act04/supplement-archives.json').exists() else '0.13.0-ep05-act01-act04'
+manifest['version']=manifest['version'] if any(a['id'].startswith('EP05-ACT05-') for a in oldassets) else '0.13.1-ep05-act04-cg-complete' if (ROOT/'content/sources/ep05/act04/supplement-archives.json').exists() else '0.13.0-ep05-act01-act04'
 chapter=next(c for c in manifest['chapters'] if c['id']=='EP05');chapter.update(status='DRAFT_AVAILABLE',file='episodes/ep05/chapter.json',entry='EP05_ACT01_SC01')
 previous=read('content/episodes/ep04/chapter.json');end=next(s for s in previous['scenes'] if s.get('completion',{}).get('nextChapterId')=='EP05');end['completion'].pop('pendingLabel',None);end['completion'].update(nextSceneId='EP05_ACT01_SC01',continueLabel='進入第五章',nextLabel='第五章〈攝政成為習慣〉')
 for act in next(c for c in plan['chapters'] if c['id']=='EP05')['acts'][:4]:
@@ -245,9 +245,14 @@ for act in next(c for c in plan['chapters'] if c['id']=='EP05')['acts'][:4]:
     if act['number']==1:act['decision']='NONE'
 # Normalize one display name, without changing existing stored IDs.
 characters.update(roles)
-write('content/episodes/ep05/chapter.json',dict(schemaVersion=1,id='EP05',status='DRAFT',version='1.0.0',source='使用者EP05 ACT01 v1.0、ACT02 v1.1、ACT03 v1.1、ACT04 v1.0完整製作包；原始劇本與圖片稽核見sources/ep05。ACT05未提供；不提前章末結算、不鎖定EP06路線。',scenes=scenes))
+later=read('content/episodes/ep05/chapter.json') if (ROOT/'content/episodes/ep05/chapter.json').exists() else {}
+extra=[s for s in later.get('scenes',[]) if s['act']=='ACT05']
+if extra:
+    end=next(s for s in scenes if s['id']=='EP05_ACT04_SC05')
+    end['completion']=next(s for s in later['scenes'] if s['id']==end['id'])['completion']
+write('content/episodes/ep05/chapter.json',dict(schemaVersion=1,id='EP05',status='DRAFT',version=later.get('version','1.0.0'),source=later['source'] if extra else '使用者EP05 ACT01 v1.0、ACT02 v1.1、ACT03 v1.1、ACT04 v1.0完整製作包；原始劇本與圖片稽核見sources/ep05。ACT05未提供；不提前章末結算、不鎖定EP06路線。',scenes=scenes+extra))
 write('content/episodes/ep04/chapter.json',previous);write('content/manifests/story.json',manifest)
-write('content/manifests/assets.json',[a for a in oldassets if not a['id'].startswith('EP05-ACT')]+assets)
+write('content/manifests/assets.json',[a for a in oldassets if not a['id'].startswith(('EP05-ACT01-','EP05-ACT02-','EP05-ACT03-','EP05-ACT04-'))]+assets)
 write('content/characters/index.json',characters);write('content/planning/part-one.json',plan)
 write('docs/ep05-import-report.json',dict(scenes=len(scenes),segments=sum(len(s['segments']) for s in scenes),uses=uses,omitted=omitted,readerEdits=edits,images=sum(len(a['images']) for a in audits),missing=[x for a in audits for x in a['missing']],choices=sum(s['kind']=='choice' for s in scenes)))
 print(json.dumps(dict(scenes=len(scenes),images=sum(len(a['images']) for a in audits),omitted=omitted),ensure_ascii=False,indent=2))

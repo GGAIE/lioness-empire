@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 4186,
-    "thoughts": 52,
-    "narration": 1926,
+    "dialogue": 4859,
+    "thoughts": 56,
+    "narration": 2137,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -113,6 +113,18 @@
       "sceneId": "EP05_ACT02_SC01",
       "segmentId": "L002",
       "text": "七艘可在短期內調度的船，停靠在不同泊位。它們沒有壞，也沒有神祕失蹤。船員在補繩，工人照常搬箱，只有成排貼上待核標記的貨物，像被一句「再等等」擋在港口。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP05_ACT05_SC02",
+      "segmentId": "L012",
+      "text": "芬利用筆在自己的紙上畫了一個極小的記號。他沒有在外人能看到的清單上寫「走私」，也沒立即派人扣押所有船隻。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT02_SC05",
+      "segmentId": "L001",
+      "text": "第六團的臨時行政室裡，莉姆斯把剛送到的回函整理成三疊。她已經不再把「某某願意協助」寫成「某某已經完成」。每一份文件都分開標記：已到位、已答應、待核准、尚未安排。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

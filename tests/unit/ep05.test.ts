@@ -60,12 +60,14 @@ function run(state: GameState, answers: string[] = [], cross = false) {
 it('imports 20 ordered sections and all 19 choices with complete tagged speaker/source coverage', async () => {
   expect(validateStory(story).errors).toEqual([]);
   expect(auditSpeakers(story).errors).toEqual([]);
-  const scenes = Object.values(story.scenes).filter((s) => s.chapter === 'EP05');
+  const scenes = Object.values(story.scenes).filter(
+    (s) => s.chapter === 'EP05' && s.act !== 'ACT05'
+  );
   expect(scenes).toHaveLength(95);
   expect(scenes.filter((s) => s.kind === 'choice')).toHaveLength(19);
   expect(scenes.filter((s) => s.choiceMode === 'DIALOGUE_FLAVOR')).toHaveLength(14);
   const directory = chapterDirectory(story).find((c) => c.id === 'EP05')!;
-  expect(directory.acts.map((a) => a.sections.length)).toEqual([5, 5, 5, 5, 0]);
+  expect(directory.acts.map((a) => a.sections.length)).toEqual([5, 5, 5, 5, 5]);
   for (const act of directory.acts.slice(0, 4))
     for (const section of act.sections)
       expect(section.sceneIds[0]).toBe(

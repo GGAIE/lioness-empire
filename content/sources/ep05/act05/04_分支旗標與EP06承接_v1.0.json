@@ -1,0 +1,102 @@
+{
+  "status": "DRAFT_FOR_REVIEW",
+  "episode": "EP05",
+  "act": "ACT05",
+  "fixed_scenes": [
+    "EP05_ACT05_SC01_TAMARA_TEMP_HOUSING",
+    "EP05_ACT05_SC02_F2_CLUE"
+  ],
+  "fixed_flags": {
+    "TAMARA_TEMP_HOUSING": true,
+    "F2_LEDGER_ANOMALY_FOUND": true,
+    "F2_INVESTIGATION_PENDING": true
+  },
+  "choices": [
+    {
+      "id": "EP05_A05_T1S1_01",
+      "owner": "OLIVIA",
+      "options": [
+        {
+          "id": "A",
+          "label": "默認兩人的安排",
+          "next": "SUCCESS",
+          "effects": {
+            "T1_STATUS": "SUCCESS",
+            "S1_STATUS": "SUCCESS",
+            "ROUENNE_TRANSFER_APPROVED": true
+          }
+        },
+        {
+          "id": "B",
+          "label": "提出質疑",
+          "next": "EP05_A05_T1S1_02",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "EP05_A05_T1S1_02",
+      "owner": "OLIVIA",
+      "requires": "choice EP05_A05_T1S1_01=B",
+      "options": [
+        {
+          "id": "A",
+          "label": "接受解釋並移交",
+          "next": "SUCCESS",
+          "effects": {
+            "T1_STATUS": "SUCCESS",
+            "S1_STATUS": "SUCCESS",
+            "ROUENNE_TRANSFER_APPROVED": true
+          }
+        },
+        {
+          "id": "B",
+          "label": "仍然否決",
+          "next": "FAILURE",
+          "effects": {
+            "T1_STATUS": "FAILED",
+            "S1_STATUS": "FAILED",
+            "ROUENNE_TRANSFER_APPROVED": false
+          }
+        }
+      ]
+    }
+  ],
+  "resolver_notes": [
+    "T1 S1 resolve ONCE in EP05 ACT05 SC04.",
+    "Questioning alone has zero effect.",
+    "Do not automatically add political points or unrest; earlier -5/+5 is superseded pending recalibration.",
+    "F2 resolves by Olivia choice in EP06 after Finley investigates smuggling.",
+    "EP06 T1 S1 is no-choice result scene; no redo.",
+    "Sacred/World not decided in EP05."
+  ],
+  "ep06": {
+    "F2": "Finley determines someone concealed undeclared contraband among legitimate shipping; responsible parties and cargo type pending design; player choice decides success/failure.",
+    "T1_S1": "No-choice consequences based on EP05 transfer flag, do not recalculate CLEAR."
+  },
+  "cg_conditions": {
+    "LE_CG_EP05_ACT05_01": "common",
+    "LE_CG_EP05_ACT05_02": "common",
+    "LE_CG_EP05_ACT05_03": "common",
+    "LE_CG_EP05_ACT05_04": "common",
+    "LE_CG_EP05_ACT05_05": "common",
+    "LE_CG_EP05_ACT05_06": "common",
+    "LE_CG_EP05_ACT05_07": "common",
+    "LE_CG_EP05_ACT05_08": "common",
+    "LE_CG_EP05_ACT05_09": "common",
+    "LE_CG_EP05_ACT05_10": "common",
+    "LE_CG_EP05_ACT05_11": "common",
+    "LE_CG_EP05_ACT05_12": "common",
+    "LE_CG_EP05_ACT05_13": "common",
+    "LE_CG_EP05_ACT05_14": "question_only",
+    "LE_CG_EP05_ACT05_15": "success_only",
+    "LE_CG_EP05_ACT05_16": "success_only",
+    "LE_CG_EP05_ACT05_17": "failure_only",
+    "LE_CG_EP05_ACT05_18": "success_only",
+    "LE_CG_EP05_ACT05_19": "failure_only",
+    "LE_CG_EP05_ACT05_20": "common",
+    "LE_CG_EP05_ACT05_21": "common",
+    "LE_CG_EP05_ACT05_22": "common",
+    "LE_CG_EP05_ACT05_23": "common"
+  }
+}

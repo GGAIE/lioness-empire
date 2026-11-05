@@ -1,0 +1,18 @@
+{
+  "status": "USER_CONFIRMED",
+  "options": {
+    "A": {
+      "points": -10,
+      "unrest": -5
+    },
+    "B": {
+      "points": 10,
+      "unrest": 0
+    },
+    "C": {
+      "points": 0,
+      "unrest": 10
+    }
+  },
+  "source": "2026-11-06 使用者本聊天指定三組同幅度：A政治-10動盪-5；B政治+10動盪不變；C政治不變動盪+10。"
+}

@@ -4478,5 +4478,573 @@
     "label": "東北塔夜間照護",
     "status": "APPROVED",
     "source": "使用者提供EP05 ACT04圖片；原PNG與CRC／SHA256見sources/ep05/act04/asset-audit.json。素材可用不代表DRAFT正文升格。"
+  },
+  {
+    "id": "EP05-ACT05-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_01.webp",
+    "label": "夜盡的圓桌",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_02.webp",
+    "label": "尚未核實的身分",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_03.webp",
+    "label": "一生的請求",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_04.webp",
+    "label": "暫時移交的清晨",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_05.webp",
+    "label": "借宿客人的帳本",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_06.webp",
+    "label": "對不上的重量",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_07.webp",
+    "label": "夾帶的疑點",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_08.webp",
+    "label": "尚未交出的結論",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_09.webp",
+    "label": "有備而來的訪客",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_10.webp",
+    "label": "南方商路",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_11.webp",
+    "label": "一起去找她",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_12.webp",
+    "label": "第二團的一大疊麻煩",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_13.webp",
+    "label": "兩句話的成交",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_14.webp",
+    "label": "攝政者的追問",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_15.webp",
+    "label": "簽下交接",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_16.webp",
+    "label": "兩位團長都滿意",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_17.webp",
+    "label": "兩個人一起沉默",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_18.webp",
+    "label": "往第三團去的車隊",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_19.webp",
+    "label": "重新排上的值勤表",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_20.webp",
+    "label": "街燈與便服",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_21.webp",
+    "label": "三杯排開",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_22.webp",
+    "label": "終於不是公文",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP05-ACT05-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep05/act05/LE_CG_EP05_ACT05_23.webp",
+    "label": "公主付帳，夜色未歇",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP05_ACT05_23CG_final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep05/act05/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG01_v1.0.webp",
+    "label": "東北塔一樓全景",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG02_v1.0.webp",
+    "label": "塔馬拉看到早起的大公主",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG03_v1.0.webp",
+    "label": "平面辦公精神",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG04A",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG04A_v1.0.webp",
+    "label": "莎莉亞已接手安置分支",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG04B",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG04B_v1.0.webp",
+    "label": "莎莉亞未接手安置分支",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG05_v1.0.webp",
+    "label": "莉姆斯抵達",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG06_v1.0.webp",
+    "label": "呈交軍事請援信",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG07_v1.0.webp",
+    "label": "「怪了」",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG08_v1.0.webp",
+    "label": "茶几上的兩類問題",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG09_v1.0.webp",
+    "label": "前往王宮的路上",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG10_v1.0.webp",
+    "label": "巧遇米椰爾",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG11_v1.0.webp",
+    "label": "談到卡巴岡德",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG12_v1.0.webp",
+    "label": "目送米椰爾離去",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG13_v1.0.webp",
+    "label": "內務會談室的芬利",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG14_v1.0.webp",
+    "label": "兩件麻煩事開始整理",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG15_v1.0.webp",
+    "label": "艾拉應該要回去算帳",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG16_v1.0.webp",
+    "label": "教會想切進卡巴岡德",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG17_v1.0.webp",
+    "label": "五選一的抉擇時刻",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG18_v1.0.webp",
+    "label": "艾拉帶著行李出現",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG19_v1.0.webp",
+    "label": "奧特丹的人要倒楣了",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG20_v1.0.webp",
+    "label": "一起走向出入口",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG21_v1.0.webp",
+    "label": "艾拉上馬車離開",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT01-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep06/act01/LE_EP06_ACT01_CG22_v1.0.webp",
+    "label": "未完的日常",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT01_23CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act01/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG01_v1.0.webp",
+    "label": "山谷中的格拉斯哥",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG02_v1.0.webp",
+    "label": "裂光之盾迎擊巨掌",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG03_v1.0.webp",
+    "label": "艾琳達負傷後仍站起",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG04_v1.0.webp",
+    "label": "最後一箭射向岩壁裂縫",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG05_v1.0.webp",
+    "label": "格拉斯哥被山崩吞沒",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG06_v1.0.webp",
+    "label": "勝利之後受傷的艾琳達",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG07_v1.0.webp",
+    "label": "東北塔的踱步",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG08_v1.0.webp",
+    "label": "塔頂飛船接駁",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG09_v1.0.webp",
+    "label": "飛船俯視封閉山道與災民營",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG10_v1.0.webp",
+    "label": "莉姆斯在接駁場告知討伐結果",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG11_v1.0.webp",
+    "label": "兩位表親在病房初次打招呼",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG12_v1.0.webp",
+    "label": "空掉的第六騎士團倉庫",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG13_v1.0.webp",
+    "label": "斷路與被掩埋的農田",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG14_v1.0.webp",
+    "label": "難民出示地契",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG15_v1.0.webp",
+    "label": "已在運作的聖光會醫療站",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG16_v1.0.webp",
+    "label": "災區地圖與名冊核對",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG17_v1.0.webp",
+    "label": "三方在病床邊開始商談",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG18_v1.0.webp",
+    "label": "緊急人力決策特寫",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG19_v1.0.webp",
+    "label": "難民安置決策與地契",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG20_v1.0.webp",
+    "label": "重建人力三選一",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG21_v1.0.webp",
+    "label": "三人結束協商的神情",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG22_v1.0.webp",
+    "label": "莉姆斯主持臨時救災行政",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG23_v1.0.webp",
+    "label": "奧莉薇雅踏入教會傳送法陣",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG24",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG24_v1.0.webp",
+    "label": "東北塔返回，芬利與奧莉薇雅",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT02-CG25",
+    "type": "cg",
+    "src": "assets/cg/ep06/act02/LE_EP06_ACT02_CG25_v1.0.webp",
+    "label": "東北塔桌上兩份不同的麻煩",
+    "status": "APPROVED",
+    "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
   }
 ]

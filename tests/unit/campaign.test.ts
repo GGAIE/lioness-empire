@@ -122,7 +122,7 @@ describe('source-backed chapter architecture', () => {
         (s) =>
           s.status === 'DEMO_ONLY' ||
           (s.status === 'DRAFT' &&
-            ['PROLOGUE', 'EP01', 'EP02', 'EP03', 'EP04', 'EP05'].includes(s.chapter))
+            ['PROLOGUE', 'EP01', 'EP02', 'EP03', 'EP04', 'EP05', 'EP06'].includes(s.chapter))
       )
     ).toBe(true);
     expect(plan.chapters.every((c) => c.availability === 'NOT_YET_AVAILABLE')).toBe(true);

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "EP05",
   "status": "DRAFT",
-  "version": "1.0.0",
-  "source": "使用者EP05 ACT01 v1.0、ACT02 v1.1、ACT03 v1.1、ACT04 v1.0完整製作包；原始劇本與圖片稽核見sources/ep05。ACT05未提供；不提前章末結算、不鎖定EP06路線。",
+  "version": "1.1.0",
+  "source": "使用者EP05 ACT01 v1.0、ACT02 v1.1、ACT03 v1.1、ACT04 v1.0完整製作包；原始劇本與圖片稽核見sources/ep05；ACT05 v1.0已接入，完成第五章並接續EP06。",
   "scenes": [
     {
       "id": "EP05_ACT01_SC01",
@@ -13249,7 +13249,9 @@
         "nextChapterId": "EP05",
         "policy": "NO_SCORING",
         "scope": "ACT",
-        "pendingLabel": "第五幕〈庇護的代價〉· 敬請期待"
+        "nextSceneId": "EP05_ACT05_SC01",
+        "nextLabel": "第五幕〈庇護的代價〉",
+        "continueLabel": "進入第五幕"
       },
       "directions": [
         {
@@ -13845,6 +13847,2016 @@
       ],
       "choices": [],
       "cg": "EP05-ACT04-CG15",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC01",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "天亮以後的客人",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MAGIC_GUARD",
+        "TAMARA",
+        "RUENNE_EXILE_DELEGATE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "completionFlags": {
+        "TAMARA_TEMP_HOUSING": true
+      },
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "`scene_id: EP05_ACT05_SC01`｜時間：前夜接待後的清晨｜地點：東北塔一樓圓桌交誼廳／接待長廊｜人物：奧莉維亞、塔馬拉、路恩代表、第二團警衛、魔法守衛｜POV：奧莉維亞｜Choice：無"
+        },
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "戲劇功能： 一夜善意變成隔日行政責任；固定啟動塔馬拉暫時承接，不設玩家選項。"
+        },
+        {
+          "beforeSegment": 32,
+          "cue": "來源製作註記",
+          "text": "【SC01 RESULT】 `TAMARA_TEMP_HOUSING=TRUE`（固定），`FORMAL_ASYLUM=UNRESOLVED`；T1 不結算；不收取或返還五點政治資源。臨時安置發生，不論後續選擇如何。"
+        }
+      ],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "清晨的光落在圓桌邊緣。昨夜臨時鋪設的軟墊已收起一半，毛毯整齊折好，茶壺旁留著幾只尚未清洗的杯子。守衛推著餐車走過，動作比窗外的鐘聲還準時。",
+          "cg": "EP05-ACT05-CG01"
+        },
+        {
+          "id": "L002",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（心聲）",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「昨晚只答應了一夜。可是天一亮，所有人就會問：下一夜呢？」"
+        },
+        {
+          "id": "L003",
+          "speaker": "MAGIC_GUARD",
+          "speakerLabel": "魔法守衛",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，臨時食宿記錄已整理。夜間未發生出入衝突。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。人不是箱子；別在收拾餐具時把客人的事情也當作收完了。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "MAGIC_GUARD",
+          "speakerLabel": "魔法守衛",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「指令確認。維持接待。」"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉把兩份不同的紙放到桌上，一份是夜巡隊昨晚記下的口述資料，另一份是清晨由官署初步核對的名冊。兩份紙並排放著，頁面上都有等待確認的空欄。",
+          "cg": "EP05-ACT05-CG02"
+        },
+        {
+          "id": "L007",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「能核到的只有姓名的部分拼法、幾件行李與隨行者自述。沒有路恩那邊的正式通緝文書，也沒有能讓我們立刻把他們交出去的外交請求。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「路上呢？」"
+        },
+        {
+          "id": "L009",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「他們堅持說是走過龍脊山脈。我沒把這件事寫成已經證實的路線。夜巡隊不是登山嚮導。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就先把『他們說』和『我們查到』分開。至少別讓明天的官員把兩者抄成同一句話。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這倒容易。難的是人往哪裡放。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "RUENNE_EXILE_DELEGATE",
+          "speakerLabel": "路恩代表",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下……我們是不是必須離開？」"
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我沒有要把你們趕到街上。只是昨天的招待不等於今天就能給一份永久庇護令。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "RUENNE_EXILE_DELEGATE",
+          "speakerLabel": "路恩代表",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們願意等待調查。只求不要把我們直接送回去。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「在沒有正式查證與正當程序前，不會僅憑傳聞把你們交給任何人。暫時留下，也請遵守接待與出入規範。」"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "送走來客後，塔馬拉翻到自己的值勤表。王都的巡防、商旅驗查、入夜後的城門，都排得滿滿的。昨晚的外國客人像憑空長出的另一列工作。",
+          "cg": "EP05-ACT05-CG03"
+        },
+        {
+          "id": "L017",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我可以留人看守塔外，也可以安排夜間巡邏。但我不能讓第二團永遠替每個失勢的外國家族訂床位。」"
+        },
+        {
+          "id": "L018",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以我想拜託妳。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳這個開頭，通常都不太吉利。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「拜託，這是我一生的請求！」"
+        },
+        {
+          "id": "L021",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……妳的人生到底有多少個『一生』？」"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這次真的只要暫時的。身分查核還是由官署處理，正式外交立場也留在攝政府。我需要的是有地方安置、有人維持秩序，不讓他們再睡在東北塔。」"
+        },
+        {
+          "id": "L023",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「人數、期限、糧食和警衛輪班，全部寫清楚。別讓我明天才知道又多了幾個表親。」"
+        },
+        {
+          "id": "L024",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我會讓文書官送正式委託。費用不全丟給妳。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好。先由第二團暫時接收。先說好，『暫時』這兩個字要寫得比妳的王室徽記還大。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我就知道妳最好了。」"
+        },
+        {
+          "id": "L027",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還有，下次喝酒，妳自罰三杯。」"
+        },
+        {
+          "id": "L028",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「成交。我付錢。」"
+        },
+        {
+          "id": "L029",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第二團的車輛停在東北塔外。流亡者帶著不多的行囊走上車，一位隨行者在登車前仍回望昨晚替他們端茶的魔法守衛。塔馬拉的部下核對人數，沒有扣押私人物件，也沒有把臨時安置宣稱成政治庇護的終局。",
+          "cg": "EP05-ACT05-CG04"
+        },
+        {
+          "id": "L030",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先到第二團的接待處。有人有病就先看醫師，沒有的人等官署下一份通知。禁止擅自對外宣稱王室支持你們在路恩的任何政治主張。」"
+        },
+        {
+          "id": "L031",
+          "speaker": "RUENNE_EXILE_DELEGATE",
+          "speakerLabel": "路恩代表",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們明白。」"
+        },
+        {
+          "id": "L032",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（心聲）",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「至少今天，所有人都有地方去。但新的去處，總要有人負責。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP05_ACT05_SC02",
+      "cg": "EP05-ACT05-CG01",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC02",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "兩本帳的同一艘船",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELLA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "completionFlags": {
+        "F2_LEDGER_ANOMALY_FOUND": true,
+        "F2_INVESTIGATION_PENDING": true
+      },
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "`scene_id: EP05_ACT05_SC02`｜時間：同日午後｜地點：東北塔二樓會議室／運輸資料閱覽桌｜人物：芬利、艾拉・葛拉維茨、奧莉維亞（後段短暫出現）｜POV：芬利 Result Scene（無玩家選項）"
+        },
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "戲劇功能： F2〈兩本帳〉入口。只見疑點，不揭示走私貨、運送者或幕後人，EP06 查明並由奧莉維亞 Choice 決定成敗。與 ACT02 七艘船／九份需求的客觀運力不足連續，不能倒寫成所有船貨都已如期抵達。"
+        },
+        {
+          "beforeSegment": 27,
+          "cue": "來源製作註記",
+          "text": "【SC02 RESULT】 `F2_LEDGER_ANOMALY_FOUND=TRUE`、`F2_INVESTIGATION_PENDING=TRUE`、`F2_CLEAR_UNRESOLVED`；不核發 F2 CLEAR；艾拉知情程度止於自己船貨帳目差異，不預設知情參與走私。"
+        }
+      ],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾拉沒有立刻離開王都。昨夜她借宿東北塔，今早還得核對奧特丹的交接文件。窗邊的桌上攤著她隨身帶來的船貨抄本，紙角因旅途與海風略微捲起。",
+          "cg": "EP05-ACT05-CG05"
+        },
+        {
+          "id": "L002",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「原本只是想問，恢復排程後這批貨要怎麼分段出港。我已經讓那邊的人別一次等著全部到齊。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這個判斷正確。七艘船對九份需求，談判能讓船動起來，不能讓海上突然多出兩艘。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以我才把每一批實際裝載的數量重新對了。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「給我看看王宮收到的那份。」"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人沿著相同的交接日期，一筆筆比對。艾拉的簿子依船次及封箱記錄，王宮副本依申報品項與核准重量。兩套規則原本就不完全一樣，但有幾處重量差異，不能用換算方式解釋。",
+          "cg": "EP05-ACT05-CG06"
+        },
+        {
+          "id": "L007",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這一批我記得很清楚。設備和修繕材料有單獨列出，不該多出這個重量。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「也有可能是後段併貨，王宮副本比妳的抄本晚。先不要把差異等同於有人犯罪。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我沒有要說是誰做的。但這些箱子不是我們申請的研究材料。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳確定？」"
+        },
+        {
+          "id": "L011",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我能確定我的申請裡沒有。至於它們真正裝了什麼，我還不知道。」"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利用筆在自己的紙上畫了一個極小的記號。他沒有在外人能看到的清單上寫「走私」，也沒立即派人扣押所有船隻。",
+          "cg": "EP05-ACT05-CG07"
+        },
+        {
+          "id": "L013",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「可能有人利用合法船貨夾帶了未申報的東西。也可能是轉運流程出了嚴重問題。我要先追查原始封箱紀錄、換手的人和報關副本。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「會不會連奧特丹的貨都受影響？」"
+        },
+        {
+          "id": "L015",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我先把有疑點的部分與正常貨物分開。不能為了查一箱不明物，就讓整批戰後修繕材料重新困在港口。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果需要我證明哪些箱子是我們的，儘管說。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我會。妳先別替別人背這個責任。」"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞走進會議室時，兩人剛好收起各自的帳本。",
+          "cg": "EP05-ACT05-CG08"
+        },
+        {
+          "id": "L019",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們昨晚談學術自由，今天改談船貨？」"
+        },
+        {
+          "id": "L020",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這世上研究者的自由，常常得從一張正確的運輸單開始。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，帳目有幾處值得查證。我還不能下結論。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「需要我現在下令？」"
+        },
+        {
+          "id": "L023",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先不用。我想把原件查清楚，下一次正式議程前給妳一份能負責的答覆。」"
+        },
+        {
+          "id": "L024",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好。不要因為想抓到犯錯的人，先把沒犯錯的人困住。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我明白。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那我能不能先知道我的貨會不會變成證物？」"
+        },
+        {
+          "id": "L027",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我答應先告訴妳，不會讓妳從港口公告上才得知。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP05_ACT05_SC03",
+      "cg": "EP05-ACT05-CG05",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC03",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "聞香而來",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "`scene_id: EP05_ACT05_SC03`｜時間：午後稍晚｜地點：東北塔接待廳／通往第二團辦公區的迴廊｜人物：奧莉維亞、莎莉亞｜POV：奧莉維亞｜Choice：無"
+        },
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "戲劇功能： 鎖定莎莉亞家族長期經營南方貿易、看中路恩流亡貴族的人脈與商業知識；她主動拜訪，不是奉命來接收。"
+        },
+        {
+          "beforeSegment": 19,
+          "cue": "來源製作註記",
+          "text": "【SC03 RESULT】 `S1_OFFER_MADE=TRUE`；莎莉亞商業動機已向玩家揭露，但尚未獲得任何貴族的永久效忠或實際商路利益；S1 不結算。"
+        }
+      ],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "午後，東北塔的訪客名單上又添了一個奧莉維亞熟悉的名字。莎莉亞沒有穿出征甲，卻帶著領主見客時那種從容，彷彿早已知道今天要談什麼。",
+          "cg": "EP05-ACT05-CG09"
+        },
+        {
+          "id": "L002",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「莎莉亞？第三團出了什麼事？」"
+        },
+        {
+          "id": "L003",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「沒有。今天是有件事情想向殿下打聽。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那聽起來通常比出事還危險。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「聽說妳收留了幾位路恩來的貴族？」"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「昨天晚上才到。妳的消息倒是快。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們家族經營南方貿易很久了。關於商路上的人，有時消息比貨船先到。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不是每條路都靠錢開得了。南方某些港口、行會、家族之間的信任，是很多年累積下來的。失勢的人可能失去官職，卻未必失去介紹人的資格。」",
+          "cg": "EP05-ACT05-CG10"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳是想做他們的生意，還是拿他們的名字去做生意？」"
+        },
+        {
+          "id": "L010",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果他們願意合作，兩件事都可能做得成。我能給住處、安全與重新站穩腳步的機會；他們可能替第三團打開南方新的聯絡。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳還真是來得巧。昨晚我們正為安置頭痛。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道，所以才趁還有位置商量。殿下不用擔心，我不是要妳把他們送給我。他們有沒有意願、各自能做什麼，總得先談。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「原來地方領主也會這麼熱心替王都分憂。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「分憂跟做生意，又不是不能一起。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「人現在暫時由塔馬拉照看。」",
+          "cg": "EP05-ACT05-CG11"
+        },
+        {
+          "id": "L016",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就一起去找她。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳不怕她拒絕？」"
+        },
+        {
+          "id": "L018",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我倒比較怕殿下捨不得放手。」"
+        },
+        {
+          "id": "L019",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞想到塔馬拉今早的值勤表，忍不住笑了一聲。兩人穿過迴廊，前往第二騎士團的辦公區。"
+        }
+      ],
+      "choices": [],
+      "next": "EP05_ACT05_SC04",
+      "cg": "EP05-ACT05-CG09",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC04",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "那就交給我吧",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA",
+        "SHALIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "choiceMode": "STORY",
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "`scene_id: EP05_ACT05_SC04`｜時間：同日下午｜地點：第二騎士團行政辦公室｜人物：奧莉維亞、莎莉亞、塔馬拉、少量文書人員｜POV：奧莉維亞｜Choice：兩層；第二層只在第一層質疑時出現"
+        },
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "戲劇功能： T1/S1 雙支線唯一結算點。三人有獨立利益；玩家可以問，但連續否決才雙失敗。"
+        }
+      ],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉桌上堆著比上午更厚的文件。食宿安排、巡邏輪班、外國來客出入規範，原本屬於城防的桌面，被幾個陌生貴族占了半邊。",
+          "cg": "EP05-ACT05-CG12"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下。妳早上不是才走？」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這次帶了個可能讓妳高興的消息。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那我聽聽。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第三團可以接收那些路恩貴族。我會替他們安排暫住與後續商談，必要的費用也由我們承擔。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳確定？」"
+        },
+        {
+          "id": "L007",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「當然。我們家族的南方商路正好能用上這些人的關係。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就交給我吧。」",
+          "cg": "EP05-ACT05-CG13"
+        },
+        {
+          "id": "L009",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「求之不得。」"
+        },
+        {
+          "id": "L010",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這兩句幾乎沒有間隔。塔馬拉像是終於等到了能把厚厚一疊文件推往另一張桌子的時機。"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……妳答應得也太快了吧？」"
+        },
+        {
+          "id": "L012",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「人是妳拜託我先收的。現在有人願意合法接手，我為什麼要把她擋在門外？」"
+        },
+        {
+          "id": "L013",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我也不會要妳把他們捆上車送到第三團。先核對意願與身分，願意去的人才安排。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就更好了。」"
+        },
+        {
+          "id": "L015",
+          "speakerLabel": "選擇",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞如何回應？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "默認兩人的安排。",
+          "next": "EP05_ACT05_SC04_ACCEPT_DIRECT",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "T1_STATUS",
+              "value": "SUCCESS"
+            },
+            {
+              "type": "flag",
+              "key": "S1_STATUS",
+              "value": "SUCCESS"
+            },
+            {
+              "type": "flag",
+              "key": "ROUENNE_TRANSFER_APPROVED",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "T1_S1_RESOLVED",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "提出質疑：「莎莉亞，妳為什麼願意接這個麻煩？」",
+          "next": "EP05_ACT05_SC04_QUESTION",
+          "effects": []
+        }
+      ],
+      "cg": "EP05-ACT05-CG12",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC04_QUESTION",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "那就交給我吧",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA",
+        "TAMARA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "choiceMode": "STORY",
+      "directions": [],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「等等。莎莉亞，妳願意出人出錢，總有更完整的理由吧？」",
+          "cg": "EP05-ACT05-CG14"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有。我們家族在南方經營多年，認識不少商行，卻未必能踏進所有地方家族的門。這些流亡者熟悉的人、規矩和舊往來，可能比他們現在隨身的錢更有價值。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果有人不願意替妳牽線？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就不牽。提供住處不等於買下他們。願意合作的人再談契約，不願意的我也不能把王室的庇護變成人情債。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我現在只想知道，這份交接文件要不要寫。如果妳覺得不適合，第二團就繼續照規定做。」"
+        },
+        {
+          "id": "L006",
+          "speakerLabel": "選擇",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "聽完解釋後，奧莉維亞如何決定？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "接受解釋，批准自願安置移交。",
+          "next": "EP05_ACT05_SC04_ACCEPT",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "T1_STATUS",
+              "value": "SUCCESS"
+            },
+            {
+              "type": "flag",
+              "key": "S1_STATUS",
+              "value": "SUCCESS"
+            },
+            {
+              "type": "flag",
+              "key": "ROUENNE_TRANSFER_APPROVED",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "T1_S1_RESOLVED",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "仍然否決，不准第三團接手。",
+          "next": "EP05_ACT05_SC04_REJECT",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "T1_STATUS",
+              "value": "FAILED"
+            },
+            {
+              "type": "flag",
+              "key": "S1_STATUS",
+              "value": "FAILED"
+            },
+            {
+              "type": "flag",
+              "key": "ROUENNE_TRANSFER_APPROVED",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "T1_S1_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "cg": "EP05-ACT05-CG13",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC04_ACCEPT_DIRECT",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "那就交給我吧",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「既然你們都談得來，我沒有必要擋在中間。把移交的期限、費用和人員意願寫清楚。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「多謝殿下。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我現在開始相信，今天真的是好日子。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP05_ACT05_SC04_ACCEPT",
+      "cg": "EP05-ACT05-CG13",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC04_ACCEPT",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "那就交給我吧",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 13,
+          "cue": "來源製作註記",
+          "text": "【SUCCESS 結算】 `T1_STATUS=SUCCESS`；`S1_STATUS=SUCCESS`；`ROUENNE_TRANSFER_APPROVED=TRUE`。成功不代表所有流亡者都簽了商業合同；僅正式批准自願安置，責任有承接人。結算一次，不在 EP06 重算。"
+        }
+      ],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就照程序辦。第二團交出暫時安置責任，第三團接手願意遷往領地的來客；未同意的人仍由官署按原程序安排，不能被當成貨物一起交接。」",
+          "cg": "EP05-ACT05-CG15"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「外交身份與調查也不會被一份安置協議沖掉，對吧？」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「對。路恩方面若有正式請求，還是交王室與法定官署處理。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第三團會把名單、住處和費用回報。商業合作是之後的事。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好。那就請文書官把這些都寫進去。我不想過三天又有人說：原來你們以為我還在管。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「說得這麼嚴格，明明妳剛剛答應得最快。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為我急著讓這份文件生效。」"
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "文書官拿走交接副本。莎莉亞已開始詢問何時能與流亡者逐一會談；塔馬拉則終於把桌上那疊住宿文件移出自己的待辦區。兩位團長神色都輕鬆了許多，理由卻截然不同。",
+          "cg": "EP05-ACT05-CG16"
+        },
+        {
+          "id": "L009",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，這次算我欠妳一次引見。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這次算妳替我結掉一筆麻煩。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「原來我今天的工作，是替你們兩個互相介紹。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很重要的工作。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「非常重要。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP05_ACT05_SC05",
+      "cg": "EP05-ACT05-CG13",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC04_REJECT",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "那就交給我吧",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "directions": [
+        {
+          "beforeSegment": 9,
+          "cue": "來源製作註記",
+          "text": "【FAILURE 結算】 `T1_STATUS=FAILED`；`S1_STATUS=FAILED`；`ROUENNE_TRANSFER_APPROVED=FALSE`。本次錯過合作不會在 EP06 補選；塔馬拉繼續依法定期限承擔原本的暫時安置。"
+        }
+      ],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不行。就算理由說得通，我也不打算把這批人交給第三團。」",
+          "cg": "EP05-ACT05-CG17"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……明白。那就當我今天沒有提出這個建議。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我確認一下：第二團還是照原來的臨時委託管理，直到官署作出新的安置安排？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是。現有期限和費用我會照承諾負責。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好。我會照做。」"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉沒有發脾氣，只是把剛剛移到一旁的住宿文件重新拉回桌面。莎莉亞把準備好的領地接待草案收回袖中。"
+        },
+        {
+          "id": "L007",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，如果將來改變主意，恐怕就未必還有同一批人、同一個機會了。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少妳今天不用擔心我會把文件弄錯。因為文件根本沒辦成。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（心聲）",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「她們都接受了我的決定。只是沒有一個人因此比較高興。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP05_ACT05_SC05",
+      "cg": "EP05-ACT05-CG16",
+      "cgWhen": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP05_ACT05_SC05",
+      "chapter": "EP05",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "說好的三杯",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA",
+        "RUENNE_EXILE_DELEGATE",
+        "SECOND_ORDER_CLERK",
+        "TAMARA",
+        "TAVERN_CLERK"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "completion": {
+        "title": "第五章完 · 庇護的代價",
+        "nextChapterId": "EP06",
+        "policy": "NO_SCORING",
+        "scope": "CHAPTER",
+        "nextSceneId": "EP06_ACT01_SC01",
+        "nextLabel": "第六章〈兩份攝政令〉",
+        "continueLabel": "進入第六章"
+      },
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "`scene_id: EP05_ACT05_SC05`｜時間：同日傍晚至夜晚｜地點：第二團接待處／王都街巷／無名酒館｜人物：奧莉維亞、塔馬拉、莎莉亞（成功短場）、路恩來客（剪影）、酒館店員｜POV：奧莉維亞｜Choice：無"
+        },
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "戲劇功能： 落實人員安排、呈現雙成功／雙失敗結果，不再給補救選項；固定回收三杯酒，並為 EP06 留下政治連結。"
+        },
+        {
+          "beforeSegment": 0,
+          "cue": "來源製作註記",
+          "text": "### 成功限定｜第三團開始接手"
+        },
+        {
+          "beforeSegment": 4,
+          "cue": "來源製作註記",
+          "text": "### 失敗限定｜仍在第二團的接待處"
+        },
+        {
+          "beforeSegment": 8,
+          "cue": "來源製作註記",
+          "text": "### 全分支共同｜履約的夜晚"
+        },
+        {
+          "beforeSegment": 23,
+          "cue": "來源製作註記",
+          "text": "{SUCCESS ONLY}"
+        },
+        {
+          "beforeSegment": 28,
+          "cue": "來源製作註記",
+          "text": "{/SUCCESS ONLY}"
+        },
+        {
+          "beforeSegment": 28,
+          "cue": "來源製作註記",
+          "text": "{FAILURE ONLY}"
+        },
+        {
+          "beforeSegment": 32,
+          "cue": "來源製作註記",
+          "text": "{/FAILURE ONLY}"
+        },
+        {
+          "beforeSegment": 43,
+          "cue": "來源製作註記",
+          "text": "【ACT05 END → EP06〈兩份攝政令〉】"
+        },
+        {
+          "beforeSegment": 43,
+          "cue": "來源製作註記",
+          "text": "本章不選 Sacred／World；不重算 ACT02 船運結果；EP06 F2 才由奧莉維亞選項決定成敗。"
+        }
+      ],
+      "source": "sources/ep05/act05/01_EP05_ACT05_完整VN劇情_v1.0.md",
+      "version": "1.0.0",
+      "planNodeId": "EP05_ACT05",
+      "knowledge": {
+        "knows": [
+          "僅本稿已呈現的觀察與對話。"
+        ],
+        "withheld": [
+          "未驗證身分、未履行承諾與未結案調查不提前定案。"
+        ]
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "傍晚，第二團接待處外停了一列較小的車隊。莎莉亞親自與流亡者代表核對住處和前往領地的路程，告知他們有權先看清安排再答應。願意轉往第三團的人登車，其他人仍留在原承辦程序中。",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          },
+          "cg": "EP05-ACT05-CG18"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「到了領地先安頓。有人想談南方商路，等休息好再說。今天不用向誰宣誓。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L003",
+          "speaker": "RUENNE_EXILE_DELEGATE",
+          "speakerLabel": "路恩代表",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少我們知道下一站在哪裡了。多謝大人。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L004",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉的警衛依簽收文件完成最後一輪護送交接，沒有把責任留在口頭承諾裡。",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "同樣的傍晚，塔馬拉的承辦人替流亡者安排下一批輪值守衛。原本有可能移往第三團的名單沒有生效，會議結束後，一切仍依臨時委託維持。",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          },
+          "cg": "EP05-ACT05-CG19"
+        },
+        {
+          "id": "L006",
+          "speaker": "SECOND_ORDER_CLERK",
+          "speakerLabel": "第二團文書",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大人，新的出入核對表已經準備好了。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L007",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「照原期限辦。別為了省事把他們趕走，也別替他們宣布任何政治立場。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "莎莉亞回到自己的領地安排，沒有獲得這次接收機會。塔馬拉則繼續工作，並不因為對公主不滿就放棄職責。",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L009",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "入夜，王都的街燈一盞盞亮起。奧莉維亞換下日間的攝政禮裝，披上低調的深色外衣；塔馬拉也將當值時的裝備交回部下。她們沒有帶著整隊儀仗進酒館，只留必要的低調安全照應。",
+          "cg": "EP05-ACT05-CG20"
+        },
+        {
+          "id": "L010",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳沒忘記吧？」"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我一整天都在想，要怎麼讓妳忘記。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那妳今天的政績恐怕不太好。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳現在可是拿著我的承諾勒索我。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是妳自己說的，一生的請求。」"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "酒館的木桌上，很快排了三只小杯。塔馬拉用手指輕敲桌面，像在確認一份終於沒有模糊期限的契約。",
+          "cg": "EP05-ACT05-CG21"
+        },
+        {
+          "id": "L016",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「三杯。少一杯都不算。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我現在撤回『一生』那兩個字，還來得及嗎？」"
+        },
+        {
+          "id": "L018",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「晚了。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳真的記仇。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只記承諾。今天剛好有一份很好記。」"
+        },
+        {
+          "id": "L021",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞舉起第一杯，沒有急著一口喝完。塔馬拉看她一眼，先把桌上放的水杯推過去。"
+        },
+        {
+          "id": "L022",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「別喝太快。我可沒打算明天再替妳背一個送公主回宮的差事。」"
+        },
+        {
+          "id": "L023",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳倒是把『暫時』兩個字貫徹到底。」"
+        },
+        {
+          "id": "L024",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "…",
+          "cg": "EP05-ACT05-CG22"
+        },
+        {
+          "id": "L025",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不過今天這件，總算是替我解決了。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「莎莉亞得到她要的商路，妳得到能空出來的警衛。我是不是也該得到一點獎勵？」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L027",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳現在不是正在喝嗎？」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L028",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這是懲罰吧！」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L029",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「人還是留在我那裡。明天照樣要安排警衛。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L030",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道。該由攝政府負責的費用，我不會推給妳。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L031",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我會照職責做。只是妳今天確實錯過了一個有人願意替妳分擔的機會。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L032",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我知道。」",
+          "when": {
+            "path": "flags.ROUENNE_TRANSFER_APPROVED",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L033",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好啦，先不談公文。今天妳是來付酒錢的。」"
+        },
+        {
+          "id": "L034",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這才是妳最在乎的部分。」"
+        },
+        {
+          "id": "L035",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳終於明白了。」"
+        },
+        {
+          "id": "L036",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "窗外街聲漸遠。王都依舊有人等著一份王命，也依舊有人正在為另一張簽過的紙工作。這一刻，兩人只是坐在桌邊，能為同一件小事笑出聲來。"
+        },
+        {
+          "id": "L037",
+          "speaker": "TAVERN_CLERK",
+          "speakerLabel": "店員",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「兩位的帳單。」",
+          "cg": "EP05-ACT05-CG23"
+        },
+        {
+          "id": "L038",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我付。」"
+        },
+        {
+          "id": "L039",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這句才最像一位可靠的攝政。」"
+        },
+        {
+          "id": "L040",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳對可靠的標準未免太容易滿足。」"
+        },
+        {
+          "id": "L041",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不。我只是知道，真正的麻煩明天還會有。」"
+        },
+        {
+          "id": "L042",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞把錢放在桌上，回望窗外王都的燈。東北塔仍有未結案的貨運帳冊；在第三團與第二團之間，一批遠來的人將依她今天的決定走向不同地方。明天還有兩份攝政令等待被比較，還有許多人想告訴她，王國應該由誰替誰負責。"
+        },
+        {
+          "id": "L043",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（心聲）",
+          "kind": "thought",
+          "visual": "SCENE",
+          "text": "「今天我至少記住一件事：有人願意替你接下責任，不代表他沒有自己的理由。」"
+        }
+      ],
+      "choices": [],
+      "cg": "EP05-ACT05-CG18",
       "cgWhen": [],
       "presentation": {
         "fit": "contain",

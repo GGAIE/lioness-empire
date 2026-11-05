@@ -2,7 +2,8 @@ import type { Story, Condition, GameState } from '../packages/narrative-core/sch
 // Keep only values that can still affect executable story flow. Saved player state stays intact.
 export function explorationKey(story: Story) {
   const live = new Map<string, Set<string>>(),
-    reachable = new Map<string, Set<string>>();
+    reachable = new Map<string, Set<string>>(),
+    resources = new Map<string, Set<string>>();
   const refs = (c: Condition, set: Set<string>) => {
     if ('all' in c) c.all.forEach((x) => refs(x, set));
     else if ('any' in c) c.any.forEach((x) => refs(x, set));
@@ -28,6 +29,22 @@ export function explorationKey(story: Story) {
       for (const rule of story.endings) if (rule.when) refs(rule.when, set);
     live.set(scene.id, set);
     reachable.set(scene.id, new Set(scene.kind === 'choice' ? [scene.id] : []));
+    const effects = [
+      ...scene.choices.flatMap((c) => [
+        ...c.effects,
+        ...(c.previewEffects ?? []).flatMap((p) => p.effects),
+      ]),
+      ...(scene.completionEffects?.effects ?? []),
+      ...(scene.settlements ?? []).flatMap((s) => s.effects),
+    ];
+    const reads = new Set<string>();
+    if (effects.some((e) => e.type === 'points' && e.delta < 0)) reads.add('points');
+    if (effects.some((e) => e.type === 'unrest' && !e.clamp)) reads.add('unrest');
+    if (scene.completion?.nextSceneId && scene.completion.nextChapterId !== scene.chapter) {
+      reads.add('points');
+      reads.add('unrest');
+    }
+    resources.set(scene.id, reads);
     edges.set(
       scene.id,
       [
@@ -43,7 +60,7 @@ export function explorationKey(story: Story) {
     changed = false;
     for (const [id, next] of edges)
       for (const to of next)
-        for (const map of [live, reachable]) {
+        for (const map of [live, reachable, resources]) {
           const a = map.get(id)!,
             b = map.get(to);
           for (const key of b ?? [])
@@ -66,8 +83,8 @@ export function explorationKey(story: Story) {
         s.campaign.mode,
         s.campaign.chapter,
         s.campaign.act,
-        s.campaign.politicalPoints,
-        s.campaign.unrest,
+        resources.get(s.currentSceneId)!.has('points') ? s.campaign.politicalPoints : null,
+        resources.get(s.currentSceneId)!.has('unrest') ? s.campaign.unrest : null,
         s.campaign.sealed,
         s.campaign.upkeep.map((r) => r.chapter),
       ],

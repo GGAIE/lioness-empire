@@ -13,6 +13,7 @@ import {
   choose,
   continueChapter,
   initialState,
+  markRead,
   visibleChoices,
   visibleSegments,
   choiceUnavailableReason,
@@ -75,10 +76,14 @@ const stateKey = explorationKey(story);
 let blockedChoices = 0;
 // EP03 adds five complete acts; keep a bounded, exhaustive content graph check.
 while (pending.length && seen.size < 250000) {
-  const s = pending.pop()!;
+  let s = pending.pop()!;
   // Read history is an output, never a story condition; do not copy thousands of old paragraphs per graph edge.
   s.history = [];
   s.readSegments = [];
+  // Paragraphs have no effects or choices. Explore each scene at its executable
+  // boundary; markRead still applies the real final-paragraph settlements.
+  s.currentSegmentIndex = visibleSegments(story, s).length - 1;
+  s = markRead(story, s);
   const key = stateKey(s);
   if (seen.has(key)) continue;
   seen.add(key);
