@@ -213,22 +213,27 @@ export function restoreSave(input: unknown, story: Story): { state: GameState; n
   }
   let refreshedSpeakers = 0,
     refreshedText = 0;
-  state.history = state.history.map((entry) => {
-    const segment = story.scenes[entry.sceneId]?.segments.find((s) => s.id === entry.segmentId);
-    const text = reviewedHistoryText(entry.sceneId, entry.segmentId, entry.text);
-    if (segment?.text === text && text !== entry.text) {
-      refreshedText++;
-      entry = { ...entry, text };
-    }
-    if (
-      !segment ||
-      segment.text !== entry.text ||
-      (segment.speaker === entry.speaker && segment.speakerLabel === entry.speakerLabel)
-    )
-      return entry;
-    refreshedSpeakers++;
-    return { ...entry, speaker: segment.speaker, speakerLabel: segment.speakerLabel };
-  });
+  state.history = state.history
+    .filter((entry) => {
+      const segment = story.scenes[entry.sceneId]?.segments.find((s) => s.id === entry.segmentId);
+      return !segment || Boolean(segment.text.trim());
+    })
+    .map((entry) => {
+      const segment = story.scenes[entry.sceneId]?.segments.find((s) => s.id === entry.segmentId);
+      const text = reviewedHistoryText(entry.sceneId, entry.segmentId, entry.text);
+      if (segment?.text === text && text !== entry.text) {
+        refreshedText++;
+        entry = { ...entry, text };
+      }
+      if (
+        !segment ||
+        segment.text !== entry.text ||
+        (segment.speaker === entry.speaker && segment.speakerLabel === entry.speakerLabel)
+      )
+        return entry;
+      refreshedSpeakers++;
+      return { ...entry, speaker: segment.speaker, speakerLabel: segment.speakerLabel };
+    });
   if (refreshedText) notices.push(`已潤飾 ${refreshedText} 段回顧的敘述，閱讀位置與選擇保留。`);
   if (refreshedSpeakers)
     notices.push(`已更新 ${refreshedSpeakers} 段回顧的說話者標記，正文與閱讀位置不變。`);

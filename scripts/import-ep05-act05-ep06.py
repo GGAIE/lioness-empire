@@ -98,6 +98,22 @@ class Reader:
     def push(self,line,text,extra=None,origin='BODY'):
         gate=extra or self.gate(line);raw=text;text=text.strip().replace('**','')
         if not text or text=='---' or re.fullmatch(r'[＊*\s]+',text):return
+        if text.startswith(('轉場：', '轉場:')):
+            self.note(line, text)
+            if self.pending:
+                self.append(' ', line, kind='caption', gate=gate, origin='CG_TRANSITION')
+            return
+        if re.fullmatch(r'CUT TO BLACK[。.]?', text, re.IGNORECASE):
+            if self.pending and self.current['segments']:
+                previous = self.current['segments'][-1]
+                image, image_gate, _ = self.pending
+                if previous.get('when') == image_gate and 'cg' not in previous:
+                    previous['cg'] = image
+                    self.pending = None
+            self.hold()
+            self.append(' ', line, kind='caption', gate=gate, origin='BLACKOUT')
+            self.current['segments'][-1]['visual'] = 'BLACK'
+            return
         if self.k=='6-1' and line in anchors:self.cue(anchors[line],gate,line)
         m=re.match(r'^【(?:LE_CG_EP05_ACT05_|CG-)(\d{2})｜',text)
         if m:self.cue(m[1],gate,line);return
@@ -249,7 +265,7 @@ for (num,title),(start,end),cg in zip(section_titles('6-2',845),bounds('6-2',845
 manifest=load('content/manifests/story.json');characters=load('content/characters/index.json');oldassets=load('content/manifests/assets.json')
 defs={'TAMARA_TEMP_HOUSING':False,'F2_LEDGER_ANOMALY_FOUND':False,'F2_INVESTIGATION_PENDING':False,'T1_STATUS':'PENDING','S1_STATUS':'PENDING',TRANSFER:False,'T1_S1_RESOLVED':False,D1:'UNSET','ELLA_DEPARTED_FOR_AOTEDAN':False,**{k:'UNSET' for k in CH},'B1_FINLEY':False,'B2_SHALIA':False,'B3_OFFICIALS':False,'A1_STATUS':'PENDING','EP06_A1_RESOLVED':False,'EP06_DISASTER_PERSONALLY_INSPECTED':False}
 for k,v in defs.items():manifest['flags'][k]=dict(initial=v,description='2026-11-06 使用者逐字劇本與明定選項效果；任務成敗不自動增加未授權CLEAR或鎖定政治路線。')
-manifest['version']='0.14.0-ep05-complete-ep06-act01-act02'
+manifest['version']='0.14.2-reader-staging'
 next(c for c in manifest['chapters'] if c['id']=='EP06').update(status='DRAFT_AVAILABLE',file='episodes/ep06/chapter.json',entry='EP06_ACT01_SC01')
 p5chapter=load('content/episodes/ep05/chapter.json');p5chapter['scenes']=[s for s in p5chapter['scenes'] if s['act']!='ACT05']+[s for s in scenes if s['chapter']=='EP05']
 previous=next(s for s in p5chapter['scenes'] if s['act']=='ACT04' and s.get('completion'))

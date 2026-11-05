@@ -23,7 +23,7 @@ const report = validateStory(story);
 const speakerAudit = auditSpeakers(story);
 const readerStory = prepareReaderStory(story);
 const outOfStory =
-  /\bACT\b|ACT\s*\d|\bEP\d|\bSC\d|\bCG\b|上一章|下一章|本章|上一幕|下一幕|本幕|畫面轉到|分支合流|SOURCE_REQUIRED|PROPOSAL|鏡頭|畫面漸暗/iu;
+  /\bACT\b|ACT\s*\d|\bEP\d|\bSC\d|\bCG\b|上一章|下一章|本章|上一幕|下一幕|本幕|畫面轉到|分支合流|SOURCE_REQUIRED|PROPOSAL|鏡頭|畫面漸暗|\bCUT TO BLACK\b|^\s*(?:(?:轉場|演出備註|音效|畫面指示)[：:]|(?:淡出|淡入|切黑|畫面漸黑|FADE (?:IN|OUT|TO BLACK))[。.!！]?\s*$)/iu;
 for (const scene of Object.values(readerStory.scenes)) {
   if (scene.status === 'DEMO_ONLY') continue;
   for (const item of [...scene.segments, ...scene.choices])

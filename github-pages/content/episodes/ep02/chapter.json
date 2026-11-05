@@ -1161,13 +1161,13 @@
           "speakerLabel": "號令官",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「塔瑪拉，第二騎士團統領。」"
+          "text": "「塔馬拉，第二騎士團統領。」"
         },
         {
           "id": "L029",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔瑪拉上前致禮。她身上的衣飾偏向王都制式，語氣俐落，沒有多餘修辭。"
+          "text": "塔馬拉上前致禮。她身上的衣飾偏向王都制式，語氣俐落，沒有多餘修辭。"
         },
         {
           "id": "L030",
@@ -1178,7 +1178,7 @@
         {
           "id": "L031",
           "speaker": "TAMARA",
-          "speakerLabel": "塔瑪拉",
+          "speakerLabel": "塔馬拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「城門值勤已按輪換表調整。戰後入城人數增加，我們會繼續與各門官核對。」"
@@ -1194,7 +1194,7 @@
         {
           "id": "L033",
           "speaker": "TAMARA",
-          "speakerLabel": "塔瑪拉",
+          "speakerLabel": "塔馬拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「遵命。」"
@@ -1203,7 +1203,7 @@
           "id": "L034",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔瑪拉退回列隊時，恰好與奧莉維亞對上視線，露出一個克制的笑容。"
+          "text": "塔馬拉退回列隊時，恰好與奧莉維亞對上視線，露出一個克制的笑容。"
         },
         {
           "id": "L035",
@@ -1468,7 +1468,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（內心）",
+          "speakerLabel": "奧莉維亞（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "奧莉維亞心想：「他不是只記得名字。他還記得這個王國怎麼辦事。」"
@@ -3483,7 +3483,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（內心）",
+          "speakerLabel": "奧莉維亞（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「所以，」她在心中對自己說，「我暫時留在王都，幫父王分擔一點點事情，應該就夠了吧？」"
@@ -10541,7 +10541,7 @@
           "speakerLabel": "侍從",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「殿下，第三團的莎莉雅大人到了。」"
+          "text": "「殿下，第三團的莎莉亞大人到了。」"
         },
         {
           "id": "L003",
@@ -10571,12 +10571,12 @@
           "id": "L006",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉雅穿著簡潔的森林綠禮裝走進來，手中帶著一只小巧的禮盒。她行禮時仍有領主的端正，眼中卻已帶著笑意。"
+          "text": "莎莉亞穿著簡潔的森林綠禮裝走進來，手中帶著一只小巧的禮盒。她行禮時仍有領主的端正，眼中卻已帶著笑意。"
         },
         {
           "id": "L007",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我帶了點領地的特產。這次確定不是要妳簽的東西。」"
@@ -10592,7 +10592,7 @@
         {
           "id": "L009",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我今天把行程空了兩個時辰。侍從若在這段時間拿文件來，除非第三團著火，不然一律明天再說。」"
@@ -10608,7 +10608,7 @@
         {
           "id": "L011",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那也得先確認是糧倉、馬廄，還是哪位承包人又把帳算錯了。」"
@@ -10617,7 +10617,7 @@
           "id": "L012",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "兩人笑了。莎莉雅把禮盒放上桌，彷彿暫時把領主的工作也一同放下。"
+          "text": "兩人笑了。莎莉亞把禮盒放上桌，彷彿暫時把領主的工作也一同放下。"
         },
         {
           "id": "L013",
@@ -10631,7 +10631,7 @@
         {
           "id": "L014",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有人倒是非常熱心，說願意替我分擔重擔。」"
@@ -10647,7 +10647,7 @@
         {
           "id": "L016",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「他們稱那叫求婚。」"
@@ -10663,7 +10663,7 @@
         {
           "id": "L018",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「其中一位在信裡說，願意讓我從領地的繁重職責裡解脫。」"
@@ -10679,7 +10679,7 @@
         {
           "id": "L020",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我也想知道。所以我回信請他先說明，有沒有管理糧倉的經驗。」"
@@ -10695,7 +10695,7 @@
         {
           "id": "L022",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「沒有下文了。」"
@@ -10711,7 +10711,7 @@
         {
           "id": "L024",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就太好了，我正愁沒有時間安排婚禮。」"
@@ -10720,12 +10720,12 @@
           "id": "L025",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉雅笑得毫不拘束。戰爭已讓她失去原本的婚約，可她並不打算讓別人替她決定下一段人生。"
+          "text": "莎莉亞笑得毫不拘束。戰爭已讓她失去原本的婚約，可她並不打算讓別人替她決定下一段人生。"
         },
         {
           "id": "L026",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我並不是說永遠不會結婚。只是不想讓別人以為，『分擔重擔』就是替我把領主的椅子坐暖。」"
@@ -10741,7 +10741,7 @@
         {
           "id": "L028",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「至少要知道橋不會自己修好。」"
@@ -10750,13 +10750,13 @@
           "id": "L029",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "茶添過第二回，笑聲淡下來。莎莉雅輕輕轉動杯柄，神情仍然平穩。",
+          "text": "茶添過第二回，笑聲淡下來。莎莉亞輕輕轉動杯柄，神情仍然平穩。",
           "cg": "EP02-ACT04-CG01-03"
         },
         {
           "id": "L030",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「其實我挺喜歡現在可以自己作主的日子。」"
@@ -10772,7 +10772,7 @@
         {
           "id": "L032",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「正因為忙。以前父親和哥哥們各自管著不同的事情，我做好分內工作就行。現在他們的事不會憑空消失。」"
@@ -10780,7 +10780,7 @@
         {
           "id": "L033",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「家臣能辦事，軍官能領隊，書記官能整理帳冊。我不是一個人搬石頭、算糧袋。」"
@@ -10788,7 +10788,7 @@
         {
           "id": "L034",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「可一旦兩件事都得先做，最後總有人問：領主大人，妳決定哪件？」"
@@ -10804,7 +10804,7 @@
         {
           "id": "L036",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「嗯。所以我現在終於能決定所有事情了。包括決定今天少睡一個時辰。」"
@@ -10820,7 +10820,7 @@
         {
           "id": "L038",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「還好我至少能決定自己喝什麼茶。」"
@@ -10834,7 +10834,7 @@
         {
           "id": "L040",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「說起來，我今天還真有件事想問妳。」",
@@ -10851,7 +10851,7 @@
         {
           "id": "L042",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「放心，我沒帶印章，也沒帶契約。」"
@@ -10867,7 +10867,7 @@
         {
           "id": "L044",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「第三團有幾段道路和橋梁正在修。錢與人手要照實際情況調整，有些技術問題卻不是多派幾個人就會解決。」"
@@ -10875,7 +10875,7 @@
         {
           "id": "L045",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳在學院待得久，可否有機會替我問問，有沒有願意承接短期評估的研究人員？」"
@@ -10891,7 +10891,7 @@
         {
           "id": "L047",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我知道。正式委託和費用由我那邊談。我只是不想再從第一封介紹信開始，繞過半個王都。」"
@@ -10899,7 +10899,7 @@
         {
           "id": "L048",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「還有些從前與父親和哥哥們往來的人。我知道名字，卻不確定現在該找哪個窗口。」"
@@ -10915,7 +10915,7 @@
         {
           "id": "L050",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「正是。第三團的事，終究還是我來負責。」"
@@ -11005,7 +11005,7 @@
         {
           "id": "L003",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這就足夠好了。至少我知道第一封信該寄去哪裡。」"
@@ -11070,7 +11070,7 @@
         {
           "id": "L003",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「總比找到了人，才發現他三年前就調職好。」"
@@ -11135,7 +11135,7 @@
         {
           "id": "L003",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這我擅長。總算有一份文件是我願意自己整理的。」"
@@ -11195,7 +11195,7 @@
         {
           "id": "L001",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先說好，我今天不是來請妳當第三團的管事。」"
@@ -11211,7 +11211,7 @@
         {
           "id": "L003",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我們在這件事上難得完全一致。」"
@@ -11220,13 +11220,13 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "日色稍微偏斜時，莎莉雅起身告辭。門外的侍從果然已等著，但手上的封函並沒有堆成山。",
+          "text": "日色稍微偏斜時，莎莉亞起身告辭。門外的侍從果然已等著，但手上的封函並沒有堆成山。",
           "cg": "EP02-ACT04-CG01-05"
         },
         {
           "id": "L005",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「看來我的兩個時辰用完了。」"
@@ -11242,7 +11242,7 @@
         {
           "id": "L007",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「而且沒人讓我當場決定一座橋該怎麼修。這場拜訪相當成功。」"
@@ -11258,7 +11258,7 @@
         {
           "id": "L009",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「若真有這種人，我會優先考慮讓他去見帳房。」"
@@ -11267,7 +11267,7 @@
           "id": "L010",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉雅笑著離開。奧莉維亞沒有得到一份盟約，莎莉雅也沒有得到任何王室保證。兩人只是恢復了一條原本就存在的私人聯絡。"
+          "text": "莎莉亞笑著離開。奧莉維亞沒有得到一份盟約，莎莉亞也沒有得到任何王室保證。兩人只是恢復了一條原本就存在的私人聯絡。"
         }
       ],
       "choices": [],
@@ -14816,7 +14816,7 @@
           "id": "L025",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "桌上放著一些普通的問候函，尚未需要立刻處理。莎莉雅的聯絡需求、艾琳達的卡巴剛得邀約，以及塔馬拉未定的家族儀式，都還是生活裡的往來，尚未成為正式的政治契約。"
+          "text": "桌上放著一些普通的問候函，尚未需要立刻處理。莎莉亞的聯絡需求、艾琳達的卡巴剛得邀約，以及塔馬拉未定的家族儀式，都還是生活裡的往來，尚未成為正式的政治契約。"
         },
         {
           "id": "L026",
@@ -15617,7 +15617,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞又想到塔馬拉肩上的軍務與家族責任、莎莉雅必須自己守住的領地，以及艾琳達遠道而來仍不能脫離卡巴剛得的事情。"
+          "text": "奧莉維亞又想到塔馬拉肩上的軍務與家族責任、莎莉亞必須自己守住的領地，以及艾琳達遠道而來仍不能脫離卡巴剛得的事情。"
         },
         {
           "id": "L002",
@@ -18387,7 +18387,7 @@
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（內心）",
+          "speakerLabel": "奧莉維亞（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「一道命令，究竟要經過多少人的手才會成真？」"
@@ -18441,7 +18441,7 @@
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（內心）",
+          "speakerLabel": "奧莉維亞（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「知道大家缺什麼，也許比知道大家聽誰的更重要。」"
@@ -18495,7 +18495,7 @@
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（內心）",
+          "speakerLabel": "奧莉維亞（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「如果所有人都習慣來找同一個人，連拒絕也會變得困難。」"

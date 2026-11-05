@@ -112,7 +112,7 @@ for (const [answer, f1] of [
             const buttons = page.getByLabel('劇情選項').getByRole('button');
             await expect(buttons).toHaveCount(n === 6 ? 2 : 3);
             if (n === 6) {
-              await expect(buttons.nth(0)).toContainText('「我知道塔瑪拉那邊好像有。」');
+              await expect(buttons.nth(0)).toContainText('「我知道塔馬拉那邊好像有。」');
               await expect(buttons.nth(1)).toContainText('「裝傻。」');
               if (answer === 'A') {
                 await page.screenshot({

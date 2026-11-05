@@ -32,6 +32,7 @@ it('preserves source text, exact speaker spelling, thoughts and flashback captio
   expect(oath?.speakerLabel).toBe('奧莉維亞');
   const end = story.scenes['PRO-SC08'];
   expect(end.segments.filter((s) => s.kind === 'caption').map((s) => s.text)).toEqual([
+    ' ',
     '數年前。',
     '皇家魔法學院。',
   ]);
@@ -56,7 +57,7 @@ it('walks every paragraph linearly without choices, effects, premature chapter c
   expect(visited).toEqual(
     Array.from({ length: 8 }, (_, i) => `PRO-SC${String(i + 1).padStart(2, '0')}`)
   );
-  expect(s.history).toHaveLength(346);
+  expect(s.history).toHaveLength(345);
   expect(s.readChapters).toEqual(['PROLOGUE']);
   expect(s.decisionLog).toEqual([]);
   expect(s.flags).toEqual(original.flags);

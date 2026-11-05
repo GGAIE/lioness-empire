@@ -23,6 +23,7 @@ export function Stage({
     [failed, setFailed] = useState('');
   const loaded = useRef<{ id: string; src: string } | null>(null),
     [outgoing, setOutgoing] = useState<{ id: string; src: string } | null>(null);
+  const [holdCut, setHoldCut] = useState(false);
   useEffect(() => {
     if (!outgoing) return;
     const t = setTimeout(() => setOutgoing(null), scene.presentation?.fadeMs ?? 600);
@@ -48,7 +49,9 @@ export function Stage({
     }
   }, [scene.id, state.currentSegmentIndex, story]);
   const p = scene.presentation;
-  const black = visibleSegments(story, state)[state.currentSegmentIndex]?.visual === 'BLACK';
+  const segment = visibleSegments(story, state)[state.currentSegmentIndex];
+  const black = segment?.visual === 'BLACK';
+  const cut = black && !segment.text.trim() && !segment.cg;
   useEffect(() => {
     if (black && !id) {
       loaded.current = null;
@@ -56,11 +59,14 @@ export function Stage({
     }
   }, [black, id]);
   useEffect(() => {
+    if (cut) setHoldCut(true);
+  }, [cut]);
+  useEffect(() => {
     if (active && !black && loaded.current?.id === id && id) onLoaded(id);
   }, [active, black, id, onLoaded]);
   return (
     <div
-      className={`stage${black ? ' stage-black' : ''}`}
+      className={`stage${black || holdCut ? ' stage-black' : ''}${cut || holdCut ? ' stage-cut' : ''}`}
       aria-label="場景 CG"
       style={
         {
@@ -70,7 +76,7 @@ export function Stage({
         } as CSSProperties
       }
     >
-      {outgoing && outgoing.id !== id && (
+      {outgoing && outgoing.id !== id && !(black && !id) && (
         <img className="outgoing-cg" src={assetUrl(outgoing.src)} alt="" aria-hidden="true" />
       )}
       {asset && (asset.status === 'APPROVED' || scene.status === 'DEMO_ONLY') && failed !== id ? (
@@ -80,6 +86,7 @@ export function Stage({
           src={assetUrl(asset.src)}
           alt={asset.label}
           onLoad={() => {
+            setHoldCut(false);
             if (loaded.current?.id !== asset.id) {
               setOutgoing(loaded.current);
               loaded.current = { id: asset.id, src: asset.src };
@@ -87,6 +94,7 @@ export function Stage({
             if (active && !black) onLoaded(asset.id);
           }}
           onError={() => {
+            setHoldCut(false);
             setFailed(id ?? '');
             setOutgoing(null);
             loaded.current = null;

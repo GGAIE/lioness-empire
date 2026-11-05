@@ -160,7 +160,10 @@ export function markRead(story: Story, state: GameState): GameState {
     key = segmentKey(story, n);
   if (!segment) return n;
   if (!n.readSegments.includes(key)) n.readSegments.push(key);
-  if (!n.history.some((h) => h.sceneId === n.currentSceneId && h.segmentId === segment.id))
+  if (
+    segment.text.trim() &&
+    !n.history.some((h) => h.sceneId === n.currentSceneId && h.segmentId === segment.id)
+  )
     n.history.push({
       sceneId: n.currentSceneId,
       segmentId: segment.id,
@@ -308,5 +311,5 @@ export function currentCg(story: Story, state: GameState) {
   );
   return visibleSegments(story, state)
     .slice(0, state.currentSegmentIndex + 1)
-    .reduce((cg, s) => s.cg ?? cg, base);
+    .reduce((cg, s) => s.cg ?? (s.visual === 'BLACK' && !s.text.trim() ? undefined : cg), base);
 }

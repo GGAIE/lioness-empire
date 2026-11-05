@@ -257,7 +257,7 @@
         {
           "id": "L030",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「對他們來說，今天應該是值得高興的日子。」"
@@ -574,7 +574,7 @@
         {
           "id": "L033",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「在這裡，每個人都有自己的位置。」"
@@ -582,7 +582,7 @@
         {
           "id": "L034",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「至於能不能坐得安穩……」"
@@ -812,7 +812,7 @@
         {
           "id": "L023",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「至少今天，大家都很有耐心。」"
@@ -883,7 +883,7 @@
         {
           "id": "L033",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「不知道這場典禮結束後，又有多少事情得重新談一次。」"
@@ -901,7 +901,7 @@
           "speakerLabel": "侍從",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「瓦肯大人，第三騎士團的莎莉雅大人請問，您是否方便在儀式前與她見一面？」"
+          "text": "「瓦肯大人，第三騎士團的莎莉亞大人請問，您是否方便在儀式前與她見一面？」"
         },
         {
           "id": "L036",
@@ -984,7 +984,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉雅站在窗邊，手中拿著一份折起的典禮程序。"
+          "text": "莎莉亞站在窗邊，手中拿著一份折起的典禮程序。"
         },
         {
           "id": "L004",
@@ -996,7 +996,7 @@
         {
           "id": "L005",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我還以為妳會比我更早到。」"
@@ -1012,7 +1012,7 @@
         {
           "id": "L007",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天？」"
@@ -1030,12 +1030,12 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉雅笑了。"
+          "text": "莎莉亞笑了。"
         },
         {
           "id": "L010",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「也是。」"
@@ -1043,7 +1043,7 @@
         {
           "id": "L011",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「王都總有辦法在最需要道路暢通的日子，把所有道路都封起來。」"
@@ -1059,7 +1059,7 @@
         {
           "id": "L013",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那已經比有些命令強多了。」"
@@ -1088,7 +1088,7 @@
         {
           "id": "L017",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「卡巴剛得最近怎麼樣？」"
@@ -1112,7 +1112,7 @@
         {
           "id": "L020",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「第三團也差不多。」"
@@ -1120,7 +1120,7 @@
         {
           "id": "L021",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我現在最怕聽到的，就是有人告訴我只需要『暫時調整』。」"
@@ -1136,7 +1136,7 @@
         {
           "id": "L023",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「因為他們從來不會告訴我，什麼時候可以調整回來。」"
@@ -1179,7 +1179,7 @@
         {
           "id": "L029",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天之後，王都應該又會有很多事情要我們配合。」"
@@ -1195,7 +1195,7 @@
         {
           "id": "L031",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以我才說，又。」"
@@ -1212,12 +1212,12 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "片刻之後，莎莉雅收起笑意，望向登基大廳的方向。"
+          "text": "片刻之後，莎莉亞收起笑意，望向登基大廳的方向。"
         },
         {
           "id": "L034",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳覺得呢？」"
@@ -1233,7 +1233,7 @@
         {
           "id": "L036",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天的事。」"
@@ -1263,7 +1263,7 @@
         {
           "id": "L040",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這可不像妳平常會給的答案。」"
@@ -1279,7 +1279,7 @@
         {
           "id": "L042",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我也不知道。」"
@@ -1289,12 +1289,12 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉雅重新望向窗外。"
+          "text": "莎莉亞重新望向窗外。"
         },
         {
           "id": "L044",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「或許只是想知道，接下來會不會比以前好一點。」"
@@ -1310,7 +1310,7 @@
         {
           "id": "L046",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「少一點臨時命令。」"
@@ -1326,7 +1326,7 @@
         {
           "id": "L048",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「少一點王都替我們決定地方能承受什麼。」"
@@ -1342,7 +1342,7 @@
         {
           "id": "L050",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那麼至少還有希望。」"
@@ -1371,7 +1371,7 @@
         {
           "id": "L054",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「走吧。」"
@@ -1379,7 +1379,7 @@
         {
           "id": "L055",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天可不能讓新王等我們。」"
@@ -1395,7 +1395,7 @@
         {
           "id": "L057",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「抱怨歸抱怨。」"
@@ -1403,7 +1403,7 @@
         {
           "id": "L058",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉雅",
+          "speakerLabel": "莎莉亞",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「禮數還是要有的。」"
@@ -1446,7 +1446,7 @@
         {
           "id": "L064",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「今天之後，應該真的會有很多事情改變吧。」"
@@ -1648,7 +1648,7 @@
         {
           "id": "L019",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「平常總是在忙的人，今天倒是終於有機會好好走完一條路了。」"
@@ -1726,7 +1726,7 @@
         {
           "id": "L030",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「原來，所有人安靜下來的時候，是這個樣子。」"
@@ -1896,7 +1896,7 @@
         {
           "id": "L015",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「說出口很容易。」"
@@ -1904,7 +1904,7 @@
         {
           "id": "L016",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「之後的每一天，才是麻煩的地方。」"
@@ -2034,7 +2034,7 @@
         {
           "id": "L034",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「希望那些今天點頭的人，明天也還記得自己答應了什麼。」"
@@ -2375,7 +2375,7 @@
         {
           "id": "L037",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「陛下。」"
@@ -2432,7 +2432,7 @@
         {
           "id": "L045",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「明天開始，大家都還有得忙呢。」"
@@ -2484,6 +2484,11 @@
         "nextSceneId": "EP01_ACT01_SC01"
       },
       "directions": [
+        {
+          "beforeSegment": 45,
+          "cue": "畫面漸黑",
+          "text": "人群的身影、王座、獅徽與高大的石柱，一點一點淡出。"
+        },
         {
           "beforeSegment": 47,
           "cue": "畫面漸黑",
@@ -2564,7 +2569,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "她看見莎莉雅正在與另一位領主交換簡短的問候。"
+          "text": "她看見莎莉亞正在與另一位領主交換簡短的問候。"
         },
         {
           "id": "L008",
@@ -2597,7 +2602,7 @@
         {
           "id": "L012",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「現在回頭想想……」"
@@ -2654,7 +2659,7 @@
         {
           "id": "L020",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「我大概會先問，他是不是把人認錯了吧。」"
@@ -2746,7 +2751,7 @@
         {
           "id": "L033",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「究竟是從什麼時候開始的呢？」"
@@ -2810,7 +2815,7 @@
         {
           "id": "L042",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「不過，要說起這一切……」"
@@ -2818,7 +2823,7 @@
         {
           "id": "L043",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達・心聲",
+          "speakerLabel": "艾琳達（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「大概得從她還在學院的時候說起吧。」"
@@ -2839,16 +2844,16 @@
         },
         {
           "id": "L046",
-          "speakerLabel": "旁白",
-          "kind": "narration",
-          "visual": "SCENE",
-          "text": "人群的身影、王座、獅徽與高大的石柱，一點一點淡出。"
+          "kind": "caption",
+          "visual": "BLACK",
+          "text": " ",
+          "cg": "PRO-CG08"
         },
         {
           "id": "L047",
           "speakerLabel": "旁白",
           "kind": "narration",
-          "visual": "SCENE",
+          "visual": "BLACK",
           "text": "最後，只留下遠處的鐘聲。"
         },
         {

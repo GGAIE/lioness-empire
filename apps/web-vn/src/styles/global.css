@@ -1577,6 +1577,10 @@ input[type='range'] {
 .stage-black .stage-blackout {
   opacity: 1;
 }
+.stage-cut .stage-blackout {
+  background: #000;
+  transition: none;
+}
 .chapter-complete {
   position: absolute;
   top: 21%;

@@ -59,12 +59,17 @@ export function parsePrologue(markdown: string): {
       if (kind !== 'narration' && kind !== 'caption' && !speaker)
         throw Error(`Unknown speaker: ${label}`);
       if (speaker) roles[speaker] = name;
+      const fade = text === '人群的身影、王座、獅徽與高大的石柱，一點一點淡出。';
+      if (fade) {
+        directions.push({ beforeSegment: segments.length, cue: '畫面漸黑', text });
+        black = true;
+      }
       segments.push({
         id: `L${String(segments.length + 1).padStart(3, '0')}`,
-        text: kind === 'caption' ? text.replace(/^\*(.*)\*$/s, '$1') : text,
+        text: fade ? ' ' : kind === 'caption' ? text.replace(/^\*(.*)\*$/s, '$1') : text,
         ...(speaker ? { speaker } : {}),
-        speakerLabel: label,
-        kind,
+        ...(fade ? { cg: 'PRO-CG08' } : { speakerLabel: label }),
+        kind: fade ? 'caption' : kind,
         visual: black ? 'BLACK' : 'SCENE',
       });
     };

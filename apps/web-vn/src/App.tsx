@@ -214,7 +214,11 @@ function Game({
   const committedChoice = scene.choices.find((c) =>
     state.decisionLog.includes(`${scene.id}:${c.id}`)
   );
-  const writer = useTypewriter(started ? segment.text : '', settings.speed, key);
+  const writer = useTypewriter(
+    started && segment.text.trim() ? segment.text : '',
+    settings.speed,
+    key
+  );
   const settlementShown = useRef('');
   useEffect(() => {
     if (

@@ -2828,14 +2828,14 @@
           "kind": "dialogue",
           "visual": "SCENE",
           "speaker": "ALINDA",
-          "speakerLabel": "艾琳達"
+          "speakerLabel": "艾琳達",
+          "cg": "EP06-ACT02-CG06"
         },
         {
           "id": "L035",
-          "text": "CUT TO BLACK。",
-          "kind": "narration",
-          "visual": "SCENE",
-          "cg": "EP06-ACT02-CG06"
+          "text": " ",
+          "kind": "caption",
+          "visual": "BLACK"
         }
       ],
       "choices": [],
@@ -3456,8 +3456,8 @@
         },
         {
           "id": "L075",
-          "text": "轉場：奧莉薇雅隨莉姆斯巡視，病房沒有立即開始談判。",
-          "kind": "narration",
+          "text": " ",
+          "kind": "caption",
           "visual": "SCENE",
           "cg": "EP06-ACT02-CG11"
         }
@@ -3473,6 +3473,11 @@
           "beforeSegment": 0,
           "cue": "來源製作註記",
           "text": "BGM：〈A Convenient Inspection〉／俏皮木管、輕鋼琴，抵達時轉為低弦。"
+        },
+        {
+          "beforeSegment": 74,
+          "cue": "來源製作註記",
+          "text": "轉場：奧莉薇雅隨莉姆斯巡視，病房沒有立即開始談判。"
         }
       ],
       "next": "EP06_ACT02_SC03"

@@ -2,6 +2,8 @@ import { beforeAll, expect, it } from 'vitest';
 import { loadContent } from '../../scripts/load-content';
 import {
   prepareReaderStory,
+  readerNames,
+  readerSpeakerLabel,
   readerTextEdits,
   readerText,
 } from '../../packages/narrative-core/reader-text';
@@ -13,7 +15,7 @@ beforeAll(async () => {
   original = await loadContent();
   reader = prepareReaderStory(original);
 });
-it('reviews all 7087 paragraphs and 302 answers and changes only the 47 exact editorial entries', () => {
+it('preserves the story graph and applies only reviewed text and character name changes', () => {
   const scenes = Object.values(reader.scenes).filter((s) => s.status !== 'DEMO_ONLY');
   expect(scenes.flatMap((s) => s.segments)).toHaveLength(7087);
   expect(scenes.flatMap((s) => s.choices)).toHaveLength(302);
@@ -25,12 +27,31 @@ it('reviews all 7087 paragraphs and 302 answers and changes only the 47 exact ed
     const item = edit.choiceId
       ? scene.choices.find((c) => c.id === edit.choiceId)
       : scene.segments.find((p) => p.id === edit.segmentId);
-    expect(item?.text).toBe(edit.to);
+    expect(item?.text).toBe(readerNames(edit.to));
     item!.text = edit.from;
   }
-  expect(reconstructed).toEqual(original.scenes);
+  const expected = structuredClone(original.scenes);
+  for (const scene of Object.values(expected)) {
+    if (scene.status === 'DEMO_ONLY') continue;
+    for (const segment of scene.segments) {
+      if (!readerTextEdits.some((e) => e.sceneId === scene.id && e.segmentId === segment.id))
+        segment.text = readerNames(segment.text);
+      if (segment.speakerLabel)
+        segment.speakerLabel = readerSpeakerLabel(segment.speaker, segment.speakerLabel);
+    }
+    for (const choice of scene.choices)
+      if (!readerTextEdits.some((e) => e.sceneId === scene.id && e.choiceId === choice.id))
+        choice.text = readerNames(choice.text);
+  }
+  expect(reconstructed).toEqual(expected);
   expect(reader.assets).toEqual(original.assets);
-  expect(reader.characters).toEqual(original.characters);
+  expect(reader.characters).toMatchObject({ MIYER: '米耶爾', MIEL: '米耶爾' });
+  expect(reader.scenes['PRO-SC08'].segments.find((s) => s.id === 'L042')?.speakerLabel).toBe(
+    '艾琳達（心聲）'
+  );
+  expect(reader.scenes.EP02_ACT02_SC04.segments.find((s) => s.id === 'L016')?.speakerLabel).toBe(
+    '奧莉維亞、芬利（同時）'
+  );
   expect(reader.endings).toEqual(original.endings);
   expect(reader.plan).toEqual(original.plan);
   for (const scene of scenes)
@@ -43,7 +64,9 @@ it('preserves ordinary in-world references to acting, stories, magical settings 
   for (const scene of Object.values(original.scenes))
     for (const p of scene.segments) {
       if (/演戲|版本|巡查|故事/.test(p.text))
-        expect(reader.scenes[scene.id].segments.find((s) => s.id === p.id)?.text).toBe(p.text);
+        expect(reader.scenes[scene.id].segments.find((s) => s.id === p.id)?.text).toBe(
+          readerNames(p.text)
+        );
     }
   expect(prepareReaderStory(reader)).toEqual(reader);
   const edit = readerTextEdits[0];

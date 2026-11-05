@@ -4,6 +4,89 @@ import { initialState, visibleSegments } from '../../packages/narrative-core/eng
 import { importPlayerState } from './import-player-state';
 
 export function ep06Checks() {
+  test('plays the prologue fade and the hospital CG transition as visual cues', async ({
+    page,
+  }) => {
+    const story = await loadReaderContent();
+    await page.goto('/');
+    await page.getByRole('button', { name: '設定', exact: true }).click();
+    await page.getByRole('slider', { name: '逐字間隔（0 為立即顯示）' }).fill('0');
+    await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
+
+    async function loadBeforeCue(id: string, cueId: string) {
+      const state = initialState({ ...story, manifest: { ...story.manifest, start: id } });
+      state.currentSegmentIndex =
+        visibleSegments(story, state).findIndex((segment) => segment.id === cueId) - 1;
+      expect(state.currentSegmentIndex).toBeGreaterThanOrEqual(0);
+      await importPlayerState(page, state);
+    }
+
+    const next = page.getByRole('button', { name: '推進對話', exact: true });
+    const text = page.getByTestId('dialogue-text');
+    const cg = page.getByTestId('scene-cg');
+    const overlay = page.locator('.stage-blackout');
+    await loadBeforeCue('PRO-SC08', 'L046');
+    await expect(cg).toHaveJSProperty('naturalWidth', 1672);
+    await next.click();
+    await expect(text).toBeEmpty();
+    await expect(cg).toHaveAttribute('src', /PRO-CG08/);
+    await expect(overlay).toHaveCSS('transition-duration', '1.2s');
+    await expect(overlay).toHaveCSS('opacity', '1');
+    await next.click();
+    await expect(text).toHaveText('最後，只留下遠處的鐘聲。');
+    await expect(overlay).toHaveCSS('opacity', '1');
+
+    await loadBeforeCue('EP06_ACT02_SC02', 'L075');
+    await next.click();
+    await expect(text).toBeEmpty();
+    await expect(cg).toHaveAttribute('src', /CG11/);
+    await expect(cg).toHaveJSProperty('naturalWidth', 1672);
+    await next.click();
+    await expect(cg).toHaveAttribute('src', /CG12/);
+    await expect(text).toContainText('第六團的倉庫');
+  });
+
+  test('cuts to black without dialogue and waits for the next CG to load', async ({ page }) => {
+    const story = await loadReaderContent();
+    const id = 'EP06_ACT02_SC01';
+    const state = initialState({ ...story, manifest: { ...story.manifest, start: id } });
+    state.currentSegmentIndex = visibleSegments(story, state).length - 2;
+    state.contentVersion = '0.14.0-ep05-complete-ep06-act01-act02.reader-v1';
+    state.history = [{ sceneId: id, segmentId: 'L035', text: 'CUT TO BLACK。' }];
+
+    let releaseNextCg!: () => void;
+    const nextCgReady = new Promise<void>((resolve) => {
+      releaseNextCg = resolve;
+    });
+    await page.route(/LE_EP06_ACT02_CG07_v1\.0\.(png|webp)$/, async (route) => {
+      await nextCgReady;
+      await route.continue();
+    });
+
+    await page.goto('/');
+    await page.getByRole('button', { name: '設定', exact: true }).click();
+    await page.getByRole('slider', { name: '逐字間隔（0 為立即顯示）' }).fill('0');
+    await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
+    await importPlayerState(page, state);
+    const cg = page.getByTestId('scene-cg');
+    const advance = page.getByRole('button', { name: '推進對話', exact: true });
+    const blackout = page.locator('.stage-blackout');
+    await expect(cg).toHaveAttribute('src', /CG06/);
+    await advance.click();
+    await expect(page.getByTestId('dialogue-text')).toBeEmpty();
+    await expect(cg).toHaveCount(0);
+    await expect(blackout).toHaveCSS('background-color', 'rgb(0, 0, 0)');
+    await expect(blackout).toHaveCSS('opacity', '1');
+    await advance.click();
+    await expect(cg).toHaveAttribute('src', /CG07/);
+    await expect(blackout).toHaveCSS('opacity', '1');
+    releaseNextCg();
+    await expect(cg).toHaveJSProperty('naturalWidth', 1672);
+    await expect(blackout).toHaveCSS('opacity', '0');
+    await page.getByRole('button', { name: '回顧', exact: true }).click();
+    await expect(page.getByRole('dialog')).not.toContainText('CUT TO BLACK');
+  });
+
   test('new chapters preserve old saves, display exclusive CGs and apply each decision once', async ({
     page,
   }, info) => {

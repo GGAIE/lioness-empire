@@ -140,7 +140,7 @@ it('charges F1 once, preserves committed replay and rejects insufficient points 
   const scene = reader.scenes.EP04_ACT02_SC06;
   const state = initialState({ ...reader, manifest: { ...reader.manifest, start: scene.id } });
   state.currentSegmentIndex = scene.segments.length - 1;
-  expect(scene.choices.map((c) => c.text)).toEqual(['「我知道塔瑪拉那邊好像有。」', '「裝傻。」']);
+  expect(scene.choices.map((c) => c.text)).toEqual(['「我知道塔馬拉那邊好像有。」', '「裝傻。」']);
   state.campaign!.politicalPoints = 9;
   const original = structuredClone(state);
   expect(choiceUnavailableReason(state, scene.choices[0])).toContain('10');

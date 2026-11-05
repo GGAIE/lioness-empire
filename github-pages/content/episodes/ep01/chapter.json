@@ -888,7 +888,7 @@
         {
           "id": "L018",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞低聲自語",
+          "speakerLabel": "奧莉維亞（低聲自語）",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「……至少告訴我，他現在怎麼樣了。」"
@@ -5611,7 +5611,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（內心）",
+          "speakerLabel": "奧莉維亞（心聲）",
           "kind": "thought",
           "visual": "BLACK",
           "text": "「這是哪一個沒有良心的人答應的……」"
@@ -5626,7 +5626,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（內心）",
+          "speakerLabel": "奧莉維亞（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「不是學院宿舍。啊……已經回王宮了。」"
@@ -6162,7 +6162,7 @@
         {
           "id": "L004",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下？」"
@@ -6267,7 +6267,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「明白。我會請同僚在清單上增加用途與負責人。」"
@@ -6332,7 +6332,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "承辦人鬆了口氣：「謝謝殿下。最近行程異動頻繁，確實造成不少重複作業。」"
@@ -6397,7 +6397,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "承辦人一時尷尬：「並沒有要殿下接管整個內廷的意思。」"
@@ -6531,7 +6531,7 @@
         {
           "id": "L009",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「明白。」"
@@ -6621,7 +6621,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「前者已有工程評估，但追加支出尚須核定。後者涉及東線調度，希望能在王儲啟程前確認優先順序。」"
@@ -6637,7 +6637,7 @@
         {
           "id": "L004",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「因為您正在協助了解王室近期事務。相關單位希望先提供完整資料。」"
@@ -6684,7 +6684,7 @@
         {
           "id": "L010",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那殿下是否能先表示原則上同意？」"
@@ -6775,7 +6775,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「通訊預算依主管機關程序；東線軍務中的一部分，可由王儲依現有授權確認。」"
@@ -6906,7 +6906,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下，我們並不是這個意思。」"
@@ -7694,7 +7694,7 @@
         {
           "id": "L008",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下，新的工作清單已按今日討論重新整理。日後各單位不會再將一般說明與正式核定混在一起。」"
@@ -7710,7 +7710,7 @@
         {
           "id": "L010",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「是。」"
@@ -7747,7 +7747,7 @@
         {
           "id": "L015",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「陛下仍遵照醫囑休養，目前減少接見。內廷尚未取得新的安排。」"
@@ -7851,7 +7851,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "承辦人語氣柔和：「明白，殿下。我會把這項私人請求如實呈報，不與一般政務接見混在一起。」"
@@ -7916,7 +7916,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "承辦人行禮：「遵命。我會依內廷程序呈報，待陛下確認後答覆。」"
@@ -7981,7 +7981,7 @@
         {
           "id": "L002",
           "speaker": "PALACE_CLERK",
-          "speakerLabel": "承辦人",
+          "speakerLabel": "內廷承辦人",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「下一次醫療評估與陛下確認後，我會主動回報殿下。」"
@@ -8900,7 +8900,7 @@
         {
           "id": "L009",
           "speaker": "NORTH_WING_STEWARD",
-          "speakerLabel": "主管",
+          "speakerLabel": "北翼主管",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "主管頓了頓：「是依照北翼現行的休養安排——」"
@@ -8993,7 +8993,7 @@
         {
           "id": "L022",
           "speaker": "NORTH_WING_STEWARD",
-          "speakerLabel": "主管",
+          "speakerLabel": "北翼主管",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "主管的語氣變得更加謹慎：「殿下，這確實需要再向上確認。」",
@@ -9126,7 +9126,7 @@
         {
           "id": "L002",
           "speaker": "NORTH_WING_STEWARD",
-          "speakerLabel": "主管",
+          "speakerLabel": "北翼主管",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下，接見的安排由北翼依照醫療意見辦理。」"
@@ -9198,7 +9198,7 @@
         {
           "id": "L002",
           "speaker": "NORTH_WING_STEWARD",
-          "speakerLabel": "主管",
+          "speakerLabel": "北翼主管",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下是要正式提出申訴？」"
@@ -9357,7 +9357,7 @@
         {
           "id": "L002",
           "speaker": "NORTH_WING_STEWARD",
-          "speakerLabel": "內廷主管",
+          "speakerLabel": "北翼主管",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "內廷主管終於點頭：「請殿下在此稍候。我會親自安排確認。」"

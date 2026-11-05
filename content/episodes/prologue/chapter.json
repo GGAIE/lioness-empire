@@ -2485,6 +2485,11 @@
       },
       "directions": [
         {
+          "beforeSegment": 45,
+          "cue": "畫面漸黑",
+          "text": "人群的身影、王座、獅徽與高大的石柱，一點一點淡出。"
+        },
+        {
           "beforeSegment": 47,
           "cue": "畫面漸黑",
           "text": ""
@@ -2839,16 +2844,16 @@
         },
         {
           "id": "L046",
-          "speakerLabel": "旁白",
-          "kind": "narration",
-          "visual": "SCENE",
-          "text": "人群的身影、王座、獅徽與高大的石柱，一點一點淡出。"
+          "kind": "caption",
+          "visual": "BLACK",
+          "text": " ",
+          "cg": "PRO-CG08"
         },
         {
           "id": "L047",
           "speakerLabel": "旁白",
           "kind": "narration",
-          "visual": "SCENE",
+          "visual": "BLACK",
           "text": "最後，只留下遠處的鐘聲。"
         },
         {

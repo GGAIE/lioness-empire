@@ -3335,7 +3335,7 @@
       "segmentId": "L035",
       "line": 103,
       "source": "6-2",
-      "origin": "BODY"
+      "origin": "BLACKOUT"
     },
     {
       "sceneId": "EP06_ACT02_SC02",
@@ -3860,7 +3860,7 @@
       "segmentId": "L075",
       "line": 269,
       "source": "6-2",
-      "origin": "BODY"
+      "origin": "CG_TRANSITION"
     },
     {
       "sceneId": "EP06_ACT02_SC03",
@@ -6499,6 +6499,11 @@
       "act": "6-2",
       "line": 109,
       "text": "BGM：〈A Convenient Inspection〉／俏皮木管、輕鋼琴，抵達時轉為低弦。"
+    },
+    {
+      "act": "6-2",
+      "line": 269,
+      "text": "轉場：奧莉薇雅隨莉姆斯巡視，病房沒有立即開始談判。"
     },
     {
       "act": "6-2",

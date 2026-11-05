@@ -6396,7 +6396,7 @@
           "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「還有一封新函。米椰爾想請您去看一處救濟據點，並談一個涉及王國議會的提案。」",
+          "text": "「還有一封新函。米耶爾想請您去看一處救濟據點，並談一個涉及王國議會的提案。」",
           "cg": "EP05-ACT02-CG19"
         },
         {
@@ -13015,7 +13015,7 @@
           "speakerLabel": "魔法守衛",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「殿下，東北塔門禁收到塔瑪拉大人的通話請求。」"
+          "text": "「殿下，東北塔門禁收到塔馬拉大人的通話請求。」"
         },
         {
           "id": "L006",
@@ -13338,7 +13338,7 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "芬利帶著空白記錄紙下樓，艾拉披著自己的煙紫色外袍，睡意未退。塔瑪拉領著幾名衣物沾滿山路泥塵、神情疲倦的路恩來客進入交誼廳；第二騎士團的護送人員留在適當位置，並不擠到桌邊。"
+          "text": "芬利帶著空白記錄紙下樓，艾拉披著自己的煙紫色外袍，睡意未退。塔馬拉領著幾名衣物沾滿山路泥塵、神情疲倦的路恩來客進入交誼廳；第二騎士團的護送人員留在適當位置，並不擠到桌邊。"
         },
         {
           "id": "L003",
@@ -13995,7 +13995,7 @@
         {
           "id": "L012",
           "speaker": "RUENNE_EXILE_DELEGATE",
-          "speakerLabel": "路恩代表",
+          "speakerLabel": "流亡貴族代表",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下……我們是不是必須離開？」"
@@ -14011,7 +14011,7 @@
         {
           "id": "L014",
           "speaker": "RUENNE_EXILE_DELEGATE",
-          "speakerLabel": "路恩代表",
+          "speakerLabel": "流亡貴族代表",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我們願意等待調查。只求不要把我們直接送回去。」"
@@ -14145,7 +14145,7 @@
         {
           "id": "L031",
           "speaker": "RUENNE_EXILE_DELEGATE",
-          "speakerLabel": "路恩代表",
+          "speakerLabel": "流亡貴族代表",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我們明白。」"
@@ -15472,7 +15472,7 @@
         {
           "id": "L003",
           "speaker": "RUENNE_EXILE_DELEGATE",
-          "speakerLabel": "路恩代表",
+          "speakerLabel": "流亡貴族代表",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「至少我們知道下一站在哪裡了。多謝大人。」",
