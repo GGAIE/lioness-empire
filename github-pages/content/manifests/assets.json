@@ -5046,5 +5046,693 @@
     "label": "東北塔桌上兩份不同的麻煩",
     "status": "APPROVED",
     "source": "使用者提供 LE_EP06_ACT02_25CG_Final_v1.0.zip 原始PNG；CRC／SHA256／尺寸見 sources/ep06/act02/asset-audit.json。正文保留DRAFT。"
+  },
+  {
+    "id": "EP06-ACT03-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG01_v0.1.webp",
+    "label": "暮色下的東北塔",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG02_v0.1.webp",
+    "label": "兩本帳的重疊",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG03_v0.1.webp",
+    "label": "舊案封存盒",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG04_v0.1.webp",
+    "label": "東北塔的決心",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG05_v0.1.webp",
+    "label": "地下檔案庫入口",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG06_v0.1.webp",
+    "label": "三份資料並排",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG07_v0.1.webp",
+    "label": "同一驗收記號的證據",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG08_v0.1.webp",
+    "label": "兩人推演貨運路徑",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG09_v0.1.webp",
+    "label": "檔案庫出口的會商",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG10_v0.1.webp",
+    "label": "地圖與調查方案",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG11_v0.1.webp",
+    "label": "三條道路",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG12_v0.1.webp",
+    "label": "王室秘書印",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG13_v0.1.webp",
+    "label": "東北塔三線分流",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG14_v0.1.webp",
+    "label": "芬利持秘書印調查",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG15_v0.1.webp",
+    "label": "層層疊起的涉案名單",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG16_v0.1.webp",
+    "label": "奧莉薇雅提著茶盒",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG17_v0.1.webp",
+    "label": "純粹的午後茶會",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG18_v0.1.webp",
+    "label": "兩條平行的午後",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG19_v0.1.webp",
+    "label": "芬利帶路訪院",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG20_v0.1.webp",
+    "label": "老朋友重逢",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG21_v0.1.webp",
+    "label": "老友聊天與公主旁聽",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG22_v0.1.webp",
+    "label": "鑑定推理的一瞬間",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG23_v0.1.webp",
+    "label": "三人完成證據鏈",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG24",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG24_v0.1.webp",
+    "label": "艾拉的提醒",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG25",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG25_v0.1.webp",
+    "label": "休假遭打擾的艾麗斯",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG26",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG26_v0.1.webp",
+    "label": "門關上後的走廊",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG27",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG27_v0.1.webp",
+    "label": "艾拉趕到救場",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG28",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG28_v0.1.webp",
+    "label": "攝政公主的補件山",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG29",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC05_IMG29_v0.1.webp",
+    "label": "破獲懸案的會商室",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT03-CG30",
+    "type": "cg",
+    "src": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC05_IMG30_v0.1.webp",
+    "label": "最後一份人情與下一幕的邀請",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-01.webp",
+    "label": "晨光中的東北塔",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-02.webp",
+    "label": "南方官道上的車隊",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-03.webp",
+    "label": "桌上的舊移交記錄",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-04.webp",
+    "label": "攝政公主起身出門",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-05.webp",
+    "label": "地方領主與王室的第二次談判",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-06.webp",
+    "label": "已建立的南方聯絡網",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-07.webp",
+    "label": "依靠既有關係的安置協商",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-08.webp",
+    "label": "第三團的接收名冊開始運作",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-09.webp",
+    "label": "限額之外的等待",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-10.webp",
+    "label": "沒有成立的移交協議",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-11.webp",
+    "label": "新協議或停滯的桌面",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-12.webp",
+    "label": "南門一眼望不到盡頭的隊伍",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-13.webp",
+    "label": "塔馬拉與奧莉薇雅的城門巡視",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-14.webp",
+    "label": "第三團有序接車",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-15.webp",
+    "label": "認得人卻沒有床位",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-16.webp",
+    "label": "新成立的登記站",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-17.webp",
+    "label": "城門外逐日增加的臨時營地",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-18.webp",
+    "label": "城門的法律與人道分流圖",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-19.webp",
+    "label": "王都城門的新命令與後果",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-20.webp",
+    "label": "芬利與學院的新協議",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-21.webp",
+    "label": "永久秘書印順利完成授權",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-22.webp",
+    "label": "授權未完的簽署欄",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-23.webp",
+    "label": "有邊界的學院合作",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG24",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-24.webp",
+    "label": "晚燈下完成的文件",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG25",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-25.webp",
+    "label": "米耶爾帶著封緘邀請來訪",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG26",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-26.webp",
+    "label": "奧莉薇雅與芬利的反應",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG27",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-27.webp",
+    "label": "邀請函與三人的輕鬆交談",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT04-CG28",
+    "type": "cg",
+    "src": "assets/cg/ep06/act04/EP06_ACT04_CG-28.webp",
+    "label": "聖安奴加斯旅程的起點",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC01_CG01_v1.0.webp",
+    "label": "前往聖安奴加斯的王室馬車",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC01_CG02_v1.0.webp",
+    "label": "馬車中的三人對談",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC01_CG03_v1.0.webp",
+    "label": "遠方的聖安奴加斯城與白色尖塔",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC01_CG04_v1.0.webp",
+    "label": "米耶爾說明儀式冊",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC01_CG05_v1.0.webp",
+    "label": "馬車抵達聖安奴加斯前的遠景",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC02_CG06_v1.0.webp",
+    "label": "聖安奴加斯迎賓大廳",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC02_CG07_v1.0.webp",
+    "label": "艾拉在廊下與奧莉維亞碰面",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC02_CG08_v1.0.webp",
+    "label": "米耶爾引見蘇菲",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC02_CG09_v1.0.webp",
+    "label": "奧莉維亞與蘇菲短暫交談",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC02_CG10_v1.0.webp",
+    "label": "儀式前的鐘聲與人流",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC03_CG11_v1.0.webp",
+    "label": "主祭壇與觀禮群眾的壯觀場面",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC03_CG12_v1.0.webp",
+    "label": "三位候選人步上祭壇",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC03_CG13_v1.0.webp",
+    "label": "聖匣與三枚候選籤牌",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC03_CG14_v1.0.webp",
+    "label": "主持神官抽出籤牌",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC03_CG15_v1.0.webp",
+    "label": "薩拉菲尼亞接受聖女之位",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC03_CG16_v1.0.webp",
+    "label": "薩拉菲尼亞對眾致詞",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC03_CG17_v1.0.webp",
+    "label": "儀式落幕後的群眾與新聖女遠景",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC04_CG18_v1.0.webp",
+    "label": "側翼休息室的私下談話",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC04_CG19_v1.0.webp",
+    "label": "艾拉談起薩拉菲尼亞的過往手腕",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC04_CG20_v1.0.webp",
+    "label": "奧莉維亞前往露台與蘇菲會面",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC04_CG21_v1.0.webp",
+    "label": "露台上的兩位年輕掌權者",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC04_CG22_v1.0.webp",
+    "label": "路恩與安度因的私人外交",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC04_CG23_v1.0.webp",
+    "label": "兩位年輕女性統治者的共識",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG24",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC05_CG24_v1.0.webp",
+    "label": "新任聖女的內部會客廳",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG25",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC05_CG25_v1.0.webp",
+    "label": "薩拉菲尼亞口頭邀請奧莉維亞合作",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG26",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC05_CG26_v1.0.webp",
+    "label": "艾拉在門邊與奧莉維亞道別",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG27",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC05_CG27_v1.0.webp",
+    "label": "奧莉維亞發現衣服裡多了一份文件",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP06-ACT05-CG28",
+    "type": "cg",
+    "src": "assets/cg/ep06/act05/LE_EP06_ACT05_SC05_CG28_v1.0.webp",
+    "label": "兩份合作方向並列於桌上",
+    "status": "APPROVED",
+    "source": "LE_EP06_ACT05_28CG_v1.0.zip"
   }
 ]

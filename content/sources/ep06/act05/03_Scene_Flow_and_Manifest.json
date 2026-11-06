@@ -1,0 +1,235 @@
+{
+  "project": "Lioness Empire",
+  "episode": "EP06",
+  "act": "ACT05",
+  "revision": "1.0",
+  "state": "DRAFT_FOR_REVIEW",
+  "no_key_choices": true,
+  "flavor_choice_groups": [
+    {
+      "scene": "SC01",
+      "groups": [
+        "FLAVOR-01",
+        "FLAVOR-02"
+      ]
+    },
+    {
+      "scene": "SC02",
+      "groups": [
+        "FLAVOR-03",
+        "FLAVOR-04"
+      ]
+    },
+    {
+      "scene": "SC03",
+      "groups": [
+        "FLAVOR-05",
+        "FLAVOR-06"
+      ]
+    },
+    {
+      "scene": "SC04",
+      "groups": [
+        "FLAVOR-07",
+        "FLAVOR-08"
+      ]
+    },
+    {
+      "scene": "SC05",
+      "groups": [
+        "FLAVOR-09",
+        "FLAVOR-10"
+      ]
+    }
+  ],
+  "carry_over_read_only": [
+    "ROUENNE_TRANSFER_APPROVED"
+  ],
+  "fixed_events": {
+    "saint_selection_publicly_lottery": true,
+    "saint_selection_privately_prearranged": true,
+    "winner": "Seraphinia",
+    "other_candidates": [
+      "Eleonora",
+      "Lucia"
+    ],
+    "sophie_de_facto_ruler_not_crowned": true,
+    "seraphinia_verbal_invitation": true,
+    "miyel_handles_details": true,
+    "ayla_secret_written_proposal": true,
+    "route_lock": false,
+    "clear_awards": false,
+    "point_changes": false
+  },
+  "cg_count": 28,
+  "cg_manifest": [
+    {
+      "id": "CG-01",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Royal carriage to Saint Annugas"
+    },
+    {
+      "id": "CG-02",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Conversation inside the carriage"
+    },
+    {
+      "id": "CG-03",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Distant view of Saint Annugas"
+    },
+    {
+      "id": "CG-04",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Miyel explains the ritual book"
+    },
+    {
+      "id": "CG-05",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Arrival before the holy city"
+    },
+    {
+      "id": "CG-06",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "Reception hall of Saint Annugas"
+    },
+    {
+      "id": "CG-07",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "Ayla greets Olivia under the colonnade"
+    },
+    {
+      "id": "CG-08",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "Miyel introduces Sophie"
+    },
+    {
+      "id": "CG-09",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "First conversation between Olivia and Sophie"
+    },
+    {
+      "id": "CG-10",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "Bell before the ceremony"
+    },
+    {
+      "id": "CG-11",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Grand sanctuary before the selection"
+    },
+    {
+      "id": "CG-12",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "The three saint candidates enter"
+    },
+    {
+      "id": "CG-13",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "The sacred lottery casket"
+    },
+    {
+      "id": "CG-14",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "The drawing of the lot"
+    },
+    {
+      "id": "CG-15",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Seraphinia accepts the office"
+    },
+    {
+      "id": "CG-16",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Seraphinia addresses the faithful"
+    },
+    {
+      "id": "CG-17",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "End of the public ceremony"
+    },
+    {
+      "id": "CG-18",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "Quiet side chamber with tea"
+    },
+    {
+      "id": "CG-19",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "Ayla recounts Seraphinia’s method"
+    },
+    {
+      "id": "CG-20",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "Olivia heads to the terrace meeting"
+    },
+    {
+      "id": "CG-21",
+      "scene": "SC04",
+      "condition": "TRANSFER_TRUE",
+      "title_en": "Sophie asks about transferred Rouenne nobles"
+    },
+    {
+      "id": "CG-22",
+      "scene": "SC04",
+      "condition": "TRANSFER_FALSE",
+      "title_en": "Sophie asks about untransferred Rouenne nobles"
+    },
+    {
+      "id": "CG-23",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "Shared understanding between rulers"
+    },
+    {
+      "id": "CG-24",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Private audience with the new saint"
+    },
+    {
+      "id": "CG-25",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Seraphinia invites Olivia to cooperate"
+    },
+    {
+      "id": "CG-26",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Ayla’s casual farewell at the doorway"
+    },
+    {
+      "id": "CG-27",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Olivia discovers the hidden proposal"
+    },
+    {
+      "id": "CG-28",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Two future paths on the table"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "archive": "Lioness_Empire_EP06_ACT03_30CG_Alice_v0.1.zip",
+  "images": [
+    {
+      "id": "EP06-ACT03-CG01",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG01_v0.1.png",
+      "sha256": "dca068533ab64100644bf6e56563ecdea2e8edf960d0e45e2e1c223d457b3d63",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2671023
+    },
+    {
+      "id": "EP06-ACT03-CG02",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG02_v0.1.png",
+      "sha256": "cdf84e407c35bf03e58e7abac6e725d20270032ccdbd2e33598c98c15d78be9c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2369631
+    },
+    {
+      "id": "EP06-ACT03-CG03",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG03_v0.1.png",
+      "sha256": "d18a48996cb0ec118279dfb77332a4ae5c6f91e11b15b19a825760c7407749a4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2459082
+    },
+    {
+      "id": "EP06-ACT03-CG04",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC01_IMG04_v0.1.png",
+      "sha256": "d4989288e7b4001c0d3993f0e3ba8bca4bdfc85f9c1faec4fe0c114b56f758ff",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2683343
+    },
+    {
+      "id": "EP06-ACT03-CG05",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG05_v0.1.png",
+      "sha256": "417ef6f9d43f46277bb3969afc99ac61d49b37d241d5d340cfc16eae782e1322",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2572066
+    },
+    {
+      "id": "EP06-ACT03-CG06",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG06_v0.1.png",
+      "sha256": "4bc6a0b1ae8a9311f228d359bf51f7c16a6803ab8af6ceb91db52b913ccb4667",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2923184
+    },
+    {
+      "id": "EP06-ACT03-CG07",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG07_v0.1.png",
+      "sha256": "3c9340c56cedf8a6c6af616f825b0fa8dde4df0b9b9a59a0b48a42c8c94b8627",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2471952
+    },
+    {
+      "id": "EP06-ACT03-CG08",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG08_v0.1.png",
+      "sha256": "994a2b627b4a64d418c2b2c4ad599609570d1439247c0ea3810d1e53778d8e14",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2527908
+    },
+    {
+      "id": "EP06-ACT03-CG09",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC02_IMG09_v0.1.png",
+      "sha256": "563c5ea287b077f77a2e84fb32d235d251205f8140af0539fbed6c9e8deba07c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2459289
+    },
+    {
+      "id": "EP06-ACT03-CG10",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG10_v0.1.png",
+      "sha256": "854fb8b368a4c48f991acf2275298c61a34925281a0c51d02f68998085093303",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2626527
+    },
+    {
+      "id": "EP06-ACT03-CG11",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG11_v0.1.png",
+      "sha256": "7a8978ea0b62dee0f230b063efea7e3a40a00a6e00b65ce98280200028388884",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2396290
+    },
+    {
+      "id": "EP06-ACT03-CG12",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG12_v0.1.png",
+      "sha256": "9f355d446bf434abcde1839fbb4a2c9ff223e7e4ffbee7f73d55cecd7244ba69",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2505779
+    },
+    {
+      "id": "EP06-ACT03-CG13",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC03_IMG13_v0.1.png",
+      "sha256": "85b34d7cac6db9dc6af7349f340f6b9679b4054d008bff45f47d4556ea800037",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2548826
+    },
+    {
+      "id": "EP06-ACT03-CG14",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG14_v0.1.png",
+      "sha256": "f953d2af63931d23863a63133fa2b716b4874897284fd8ee4f1dcb7c9097e98b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2596814
+    },
+    {
+      "id": "EP06-ACT03-CG15",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG15_v0.1.png",
+      "sha256": "7a6f7b1f4365f2dd3b9dc694f5c07a3232509f7b57d43f684bfd9efda1825c6f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2462126
+    },
+    {
+      "id": "EP06-ACT03-CG16",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG16_v0.1.png",
+      "sha256": "a43acdc3330e78e336d4769cf8244f5c2acdf5fdc4f6a5afcf133bc04301b926",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2420151
+    },
+    {
+      "id": "EP06-ACT03-CG17",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG17_v0.1.png",
+      "sha256": "c8f64bbde1c2fad06526e1f73299bc46770cfaa67095bc63da28bc3edc4f1c9f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2767106
+    },
+    {
+      "id": "EP06-ACT03-CG18",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG18_v0.1.png",
+      "sha256": "a7c3ef59c23d7d401e2da6b58d839ae66cff34766cb48fbf2f8bef9168e41504",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2509334
+    },
+    {
+      "id": "EP06-ACT03-CG19",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG19_v0.1.png",
+      "sha256": "a7b1c71e2ec2c592841ff7d5452bbae3df08639b2bc629aeab06355ba4e18dc9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2687096
+    },
+    {
+      "id": "EP06-ACT03-CG20",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG20_v0.1.png",
+      "sha256": "0d082c3bf0d7d325a665e6915a6ca469bd280638a4a5c54c81ce99011d4ea907",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2745045
+    },
+    {
+      "id": "EP06-ACT03-CG21",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG21_v0.1.png",
+      "sha256": "b155df140a6b0625394d4b0b2b4963c4e249118522b120398ea80a51484794be",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2850782
+    },
+    {
+      "id": "EP06-ACT03-CG22",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG22_v0.1.png",
+      "sha256": "4de9214c87e13587541d8ceed17d62a15526bf056be816e5c067761efa86dcf6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2805092
+    },
+    {
+      "id": "EP06-ACT03-CG23",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG23_v0.1.png",
+      "sha256": "f6520db44da00f95e71e96f67c0dc788ea700763efbb34688efe4e4ab1564a86",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2573015
+    },
+    {
+      "id": "EP06-ACT03-CG24",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG24_v0.1.png",
+      "sha256": "d094d049657aa591acf744438fb52cb008c39490fc28c88a042ffd194e86b005",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2724248
+    },
+    {
+      "id": "EP06-ACT03-CG25",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG25_v0.1.png",
+      "sha256": "c989debd59ac385f308cdfc7491969d13900b42640142a55e4d37cd8a204e784",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2503032
+    },
+    {
+      "id": "EP06-ACT03-CG26",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG26_v0.1.png",
+      "sha256": "bdda5517f4337aeabb2f3305c512cc7401312db053260b86225a50948409df8c",
+      "width": 1671,
+      "height": 941,
+      "bytes": 2369928
+    },
+    {
+      "id": "EP06-ACT03-CG27",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG27_v0.1.png",
+      "sha256": "8facf65cd386e4b8d17023844e672ba81f2e4cd44afdbee5aad946b5abd6e8fc",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2802947
+    },
+    {
+      "id": "EP06-ACT03-CG28",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC04_IMG28_v0.1.png",
+      "sha256": "8183e5db767813b7491d78ad087600796c0ace3b4ba7959fe8e1f6c3e9c0f836",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2484579
+    },
+    {
+      "id": "EP06-ACT03-CG29",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC05_IMG29_v0.1.png",
+      "sha256": "908d6c594436aec326cf96422877986ef11ff4742f17fe9e85593c2ff00e3660",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2292564
+    },
+    {
+      "id": "EP06-ACT03-CG30",
+      "path": "assets/cg/ep06/act03/LE_CG_EP06_ACT03_SC05_IMG30_v0.1.png",
+      "sha256": "5833d9af63dd39cc0ac2f78e8ca7b1430939036a631cd691dfc36249a7b9ba19",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2578577
+    }
+  ]
+}

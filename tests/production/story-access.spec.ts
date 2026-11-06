@@ -12,7 +12,7 @@ test('the production password unlocks supplied sections and continues at zero po
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   await page.getByRole('button', { name: '章節目錄', exact: true }).click();
   await page.getByRole('button', { name: '展開全部', exact: true }).click();
-  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(144);
+  await expect(page.locator('.directory-sections button:enabled')).toHaveCount(156);
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   const id = 'EP02_ACT05_SC05_COMMON',
     state = initialState({ ...story, manifest: { ...story.manifest, start: id } });

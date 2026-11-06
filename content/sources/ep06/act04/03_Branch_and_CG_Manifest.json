@@ -1,0 +1,317 @@
+{
+  "project": "Lioness Empire",
+  "episode": "EP06",
+  "act": "ACT04",
+  "revision": "1.0",
+  "state": "DRAFT_FOR_REVIEW",
+  "scenes": [
+    "SC01",
+    "SC02",
+    "SC03",
+    "SC04",
+    "SC05"
+  ],
+  "read_only_carryover": [
+    "ROUENNE_TRANSFER_APPROVED",
+    "T1_STATUS",
+    "S1_STATUS",
+    "FINLEY_SECRETARY_SEAL",
+    "F2_CLEAR",
+    "OTTODAN_COLD_CASE_SOLVED"
+  ],
+  "s2_resolution": {
+    "transfer_true": {
+      "success": {
+        "political_points": 5,
+        "unrest_delta": "UNCHANGED_UNSPECIFIED",
+        "S2_CLEAR": true
+      },
+      "failure": {
+        "political_points": -2,
+        "unrest_delta": 5,
+        "S2_CLEAR": false
+      }
+    },
+    "transfer_false": {
+      "success": {
+        "political_points": -5,
+        "unrest_delta": "UNCHANGED_UNSPECIFIED",
+        "S2_CLEAR": true
+      },
+      "failure": {
+        "political_points": -10,
+        "unrest_delta": 15,
+        "S2_CLEAR": false
+      }
+    }
+  },
+  "s2_choice_options": {
+    "transfer_true": [
+      "approve existing noble connection to a limited refugee receiving network",
+      "retain old noble placement but no new receiving quota"
+    ],
+    "transfer_false": [
+      "create a new limited time official Third Order reception compact",
+      "keep current receiving arrangements only"
+    ]
+  },
+  "t2_first_half": {
+    "inputs": [
+      "ROUENNE_TRANSFER_APPROVED",
+      "S2_REFUGEE_OUTCOME"
+    ],
+    "variations": [
+      "TRUE_SUCCESS",
+      "TRUE_FAILURE",
+      "FALSE_SUCCESS",
+      "FALSE_FAILURE"
+    ],
+    "success_flag": "CAPITAL_GATE_TRIAGE_READY",
+    "event_status": "T2_GATE_FIRST_HALF",
+    "clear_not_awarded_yet": true,
+    "political_points_delta": "TBD",
+    "unrest_delta": "TBD"
+  },
+  "f3": {
+    "if_secretary_seal": {
+      "auto_pass": true,
+      "F3_CLEAR": true,
+      "F3_RESOLUTION": "PERMANENT_SEAL_AUTO_PASS",
+      "extra_authorization_cost": 0
+    },
+    "without_seal": {
+      "major_choice_A": "limited audited academy cooperation => success",
+      "major_choice_B": "case-by-case only => failure",
+      "points": "TBD"
+    },
+    "ring_permanent": true
+  },
+  "flavor_groups": [
+    {
+      "scene": "SC01",
+      "count_per_run": 2,
+      "ids": [
+        "FLAVOR-01",
+        "FLAVOR-02"
+      ]
+    },
+    {
+      "scene": "SC02",
+      "count_per_run": 2,
+      "ids": [
+        "FLAVOR-03",
+        "FLAVOR-04-T or FLAVOR-04-F"
+      ]
+    },
+    {
+      "scene": "SC03",
+      "count_per_run": 2,
+      "ids": [
+        "FLAVOR-05",
+        "FLAVOR-06"
+      ]
+    },
+    {
+      "scene": "SC04",
+      "count_per_run": 2,
+      "ids": [
+        "FLAVOR-07",
+        "FLAVOR-08-N or FLAVOR-08-S"
+      ]
+    },
+    {
+      "scene": "SC05",
+      "count_per_run": 2,
+      "ids": [
+        "FLAVOR-09",
+        "FLAVOR-10"
+      ]
+    }
+  ],
+  "all_flavor_choices_no_effect": true,
+  "no_route_lock": true,
+  "miyel_invitation": {
+    "selection_already_agreed": true,
+    "details_revealed_during_journey_in_act05": true,
+    "royal_attendance_only": true,
+    "finley_fixed_line": "聖光會的東西通常都談好了。"
+  },
+  "cg_count": 28,
+  "cg_manifest": [
+    {
+      "id": "CG-01",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Morning at the Northeast Tower"
+    },
+    {
+      "id": "CG-02",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Road from Southern Rouenne"
+    },
+    {
+      "id": "CG-03",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "The prior transfer record"
+    },
+    {
+      "id": "CG-04",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "The regent heads to work"
+    },
+    {
+      "id": "CG-05",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "Second negotiation with Shalia"
+    },
+    {
+      "id": "CG-06",
+      "scene": "SC02",
+      "condition": "TRANSFER_TRUE",
+      "title_en": "Existing Rouenne noble contacts"
+    },
+    {
+      "id": "CG-07",
+      "scene": "SC02",
+      "condition": "TRANSFER_TRUE",
+      "title_en": "Practical reception capacity plan"
+    },
+    {
+      "id": "CG-08",
+      "scene": "SC02",
+      "condition": "TRANSFER_TRUE_S2_SUCCESS",
+      "title_en": "Third order agreed intake"
+    },
+    {
+      "id": "CG-09",
+      "scene": "SC02",
+      "condition": "TRANSFER_TRUE_S2_FAILURE",
+      "title_en": "Familiar names but no beds"
+    },
+    {
+      "id": "CG-10",
+      "scene": "SC02",
+      "condition": "TRANSFER_FALSE",
+      "title_en": "An unratified old agreement"
+    },
+    {
+      "id": "CG-11",
+      "scene": "SC02",
+      "condition": "TRANSFER_FALSE",
+      "title_en": "Negotiating a new obligation"
+    },
+    {
+      "id": "CG-12",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Crowds waiting outside the South Gate"
+    },
+    {
+      "id": "CG-13",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Tamara shows the gate"
+    },
+    {
+      "id": "CG-14",
+      "scene": "SC03",
+      "condition": "TRANSFER_TRUE_S2_SUCCESS",
+      "title_en": "Third Order transfer caravan"
+    },
+    {
+      "id": "CG-15",
+      "scene": "SC03",
+      "condition": "TRANSFER_TRUE_S2_FAILURE",
+      "title_en": "Known people with nowhere to go"
+    },
+    {
+      "id": "CG-16",
+      "scene": "SC03",
+      "condition": "TRANSFER_FALSE_S2_SUCCESS",
+      "title_en": "Newly established reception desk"
+    },
+    {
+      "id": "CG-17",
+      "scene": "SC03",
+      "condition": "TRANSFER_FALSE_S2_FAILURE",
+      "title_en": "An expanding camp outside the wall"
+    },
+    {
+      "id": "CG-18",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "The three gate procedures"
+    },
+    {
+      "id": "CG-19",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Decision at the gate"
+    },
+    {
+      "id": "CG-20",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "A new Royal Academy agreement"
+    },
+    {
+      "id": "CG-21",
+      "scene": "SC04",
+      "condition": "SECRETARY_SEAL_TRUE",
+      "title_en": "Permanent secretary signet gets immediate approval"
+    },
+    {
+      "id": "CG-22",
+      "scene": "SC04",
+      "condition": "SECRETARY_SEAL_FALSE",
+      "title_en": "The vacant authorization line"
+    },
+    {
+      "id": "CG-23",
+      "scene": "SC04",
+      "condition": "SECRETARY_SEAL_FALSE",
+      "title_en": "Formal institutional oversight meeting"
+    },
+    {
+      "id": "CG-24",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "Evening paperwork finally complete"
+    },
+    {
+      "id": "CG-25",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Miyel arrives with an invitation"
+    },
+    {
+      "id": "CG-26",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "The selection was already agreed"
+    },
+    {
+      "id": "CG-27",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Three personalities at a tea table"
+    },
+    {
+      "id": "CG-28",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "Journey to Saint Annugas foreshadow"
+    }
+  ],
+  "warnings": [
+    "Successful S2 unrest not newly specified. Do not silently substitute 0.",
+    "T2 and no-seal F3 political/unrest values are TBD, not invented.",
+    "T2 first-half not full T2 CLEAR.",
+    "EP05 S1/T1 do not re-award.",
+    "No Sacred/World route selection in ACT04."
+  ]
+}

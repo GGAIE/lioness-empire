@@ -210,11 +210,30 @@ export function ep06Checks() {
       EP06_ACT02_CH02: 'C',
       EP06_ACT02_CH03: 'C',
     });
+    end.contentVersion = '0.14.2-reader-staging.reader-v1';
+    delete end.flags.F2_METHOD;
     await importPlayerState(page, end);
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText('盤根錯節');
     await expect(page.getByRole('alertdialog')).toHaveCount(0);
+    await page.getByRole('button', { name: /進入第三幕/ }).click();
+    await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP06_ACT03_SC01');
+    await expect(page.getByTestId('scene-cg')).toHaveAttribute('src', /SC01_IMG01/);
+    await expect(hud('political-points')).toHaveText('100');
+
+    const finale = Object.values(story.scenes).find(
+      (scene) => scene.chapter === 'EP06' && scene.completion?.scope === 'CHAPTER'
+    )!;
+    const beforeCut = at(finale.id, true);
+    beforeCut.currentSegmentIndex--;
+    await importPlayerState(page, beforeCut);
+    await expect(page.getByTestId('scene-cg')).toHaveAttribute('src', /CG28/);
+    await page.getByRole('button', { name: '推進對話', exact: true }).click();
+    await expect(page.getByRole('alertdialog')).toContainText('章末');
+    await page.getByRole('button', { name: '確認結算資訊' }).click();
+    await expect(page.getByRole('region', { name: '章節完成' })).toContainText('不能兼顧的王國');
+    await expect(page.locator('.stage-blackout')).toHaveCSS('opacity', '1');
     await page.screenshot({
-      path: `docs/screenshots/${info.project.name}-ep06-act02.png`,
+      path: info.outputPath('ep06-finale.png'),
       fullPage: true,
     });
     expect(errors).toEqual([]);

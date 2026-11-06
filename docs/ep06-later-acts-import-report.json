@@ -1,0 +1,4129 @@
+{
+  "nodes": 130,
+  "segments": 824,
+  "choices": 37,
+  "answers": 81,
+  "images": 86,
+  "sourceTrace": [
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L001",
+      "line": 27
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L002",
+      "line": 29
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L003",
+      "line": 31
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L004",
+      "line": 33
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L005",
+      "line": 35
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L006",
+      "line": 37
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L007",
+      "line": 39
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L008",
+      "line": 41
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L009",
+      "line": 43
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L010",
+      "line": 45
+    },
+    {
+      "scene": "EP06_ACT03_SC01",
+      "segment": "L011",
+      "line": 49
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_A",
+      "segment": "L001",
+      "line": 50
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_A",
+      "segment": "L002",
+      "line": 50
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_A",
+      "segment": "L003",
+      "line": 50
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_B",
+      "segment": "L001",
+      "line": 51
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_B",
+      "segment": "L002",
+      "line": 51
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_B",
+      "segment": "L003",
+      "line": 51
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_COMMON",
+      "segment": "L001",
+      "line": 54
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_COMMON",
+      "segment": "L002",
+      "line": 56
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_COMMON",
+      "segment": "L003",
+      "line": 58
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_COMMON",
+      "segment": "L004",
+      "line": 60
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_COMMON",
+      "segment": "L005",
+      "line": 62
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_01_COMMON",
+      "segment": "L006",
+      "line": 66
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_A",
+      "segment": "L001",
+      "line": 67
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_A",
+      "segment": "L002",
+      "line": 67
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_B",
+      "segment": "L001",
+      "line": 68
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_B",
+      "segment": "L002",
+      "line": 68
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_COMMON",
+      "segment": "L001",
+      "line": 71
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_COMMON",
+      "segment": "L002",
+      "line": 73
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_COMMON",
+      "segment": "L003",
+      "line": 75
+    },
+    {
+      "scene": "EP06_ACT03_SC01_FLAVOR_02_COMMON",
+      "segment": "L004",
+      "line": 77
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L001",
+      "line": 91
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L002",
+      "line": 93
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L003",
+      "line": 95
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L004",
+      "line": 97
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L005",
+      "line": 99
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L006",
+      "line": 101
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L007",
+      "line": 105
+    },
+    {
+      "scene": "EP06_ACT03_SC02",
+      "segment": "L008",
+      "line": 107
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_A",
+      "segment": "L001",
+      "line": 108
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_A",
+      "segment": "L002",
+      "line": 108
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_B",
+      "segment": "L001",
+      "line": 109
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_B",
+      "segment": "L002",
+      "line": 109
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L001",
+      "line": 112
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L002",
+      "line": 114
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L003",
+      "line": 116
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L004",
+      "line": 118
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L005",
+      "line": 120
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L006",
+      "line": 124
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L007",
+      "line": 126
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_03_COMMON",
+      "segment": "L008",
+      "line": 128
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_A",
+      "segment": "L001",
+      "line": 129
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_A",
+      "segment": "L002",
+      "line": 129
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_B",
+      "segment": "L001",
+      "line": 130
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_B",
+      "segment": "L002",
+      "line": 130
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_COMMON",
+      "segment": "L001",
+      "line": 135
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_COMMON",
+      "segment": "L002",
+      "line": 137
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_COMMON",
+      "segment": "L003",
+      "line": 139
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_COMMON",
+      "segment": "L004",
+      "line": 141
+    },
+    {
+      "scene": "EP06_ACT03_SC02_FLAVOR_04_COMMON",
+      "segment": "L005",
+      "line": 143
+    },
+    {
+      "scene": "EP06_ACT03_SC03",
+      "segment": "L001",
+      "line": 157
+    },
+    {
+      "scene": "EP06_ACT03_SC03",
+      "segment": "L002",
+      "line": 159
+    },
+    {
+      "scene": "EP06_ACT03_SC03",
+      "segment": "L003",
+      "line": 161
+    },
+    {
+      "scene": "EP06_ACT03_SC03",
+      "segment": "L004",
+      "line": 163
+    },
+    {
+      "scene": "EP06_ACT03_SC03",
+      "segment": "L005",
+      "line": 165
+    },
+    {
+      "scene": "EP06_ACT03_SC03_FLAVOR_05_A",
+      "segment": "L001",
+      "line": 166
+    },
+    {
+      "scene": "EP06_ACT03_SC03_FLAVOR_05_A",
+      "segment": "L002",
+      "line": 166
+    },
+    {
+      "scene": "EP06_ACT03_SC03_FLAVOR_05_B",
+      "segment": "L001",
+      "line": 167
+    },
+    {
+      "scene": "EP06_ACT03_SC03_FLAVOR_05_B",
+      "segment": "L002",
+      "line": 167
+    },
+    {
+      "scene": "EP06_ACT03_SC03_FLAVOR_05_COMMON",
+      "segment": "L001",
+      "line": 170
+    },
+    {
+      "scene": "EP06_ACT03_SC03_FLAVOR_05_COMMON",
+      "segment": "L002",
+      "line": 172
+    },
+    {
+      "scene": "EP06_ACT03_SC03_FLAVOR_05_COMMON",
+      "segment": "L003",
+      "line": 176
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L001",
+      "line": 188
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L002",
+      "line": 190
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L003",
+      "line": 192
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L004",
+      "line": 194
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L005",
+      "line": 196
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L006",
+      "line": 198
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L007",
+      "line": 200
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L008",
+      "line": 202
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L009",
+      "line": 204
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L010",
+      "line": 206
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L011",
+      "line": 208
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L012",
+      "line": 210
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L013",
+      "line": 212
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L014",
+      "line": 214
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L015",
+      "line": 216
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L016",
+      "line": 218
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L017",
+      "line": 220
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L018",
+      "line": 222
+    },
+    {
+      "scene": "EP06_ACT03_SC03_A",
+      "segment": "L019",
+      "line": 260
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L001",
+      "line": 228
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L002",
+      "line": 230
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L003",
+      "line": 232
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L004",
+      "line": 234
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L005",
+      "line": 236
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L006",
+      "line": 238
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L007",
+      "line": 240
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L008",
+      "line": 242
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L009",
+      "line": 244
+    },
+    {
+      "scene": "EP06_ACT03_SC03_B",
+      "segment": "L010",
+      "line": 260
+    },
+    {
+      "scene": "EP06_ACT03_SC03_C",
+      "segment": "L001",
+      "line": 250
+    },
+    {
+      "scene": "EP06_ACT03_SC03_C",
+      "segment": "L002",
+      "line": 252
+    },
+    {
+      "scene": "EP06_ACT03_SC03_C",
+      "segment": "L003",
+      "line": 254
+    },
+    {
+      "scene": "EP06_ACT03_SC03_C",
+      "segment": "L004",
+      "line": 256
+    },
+    {
+      "scene": "EP06_ACT03_SC03_C",
+      "segment": "L005",
+      "line": 260
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L001",
+      "line": 272
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L002",
+      "line": 274
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L003",
+      "line": 276
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L004",
+      "line": 278
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L005",
+      "line": 282
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L006",
+      "line": 286
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L007",
+      "line": 288
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L008",
+      "line": 290
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L009",
+      "line": 292
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L010",
+      "line": 294
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L011",
+      "line": 296
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L012",
+      "line": 298
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L013",
+      "line": 300
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L014",
+      "line": 302
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L015",
+      "line": 304
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L016",
+      "line": 306
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L017",
+      "line": 310
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L018",
+      "line": 312
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L019",
+      "line": 314
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L020",
+      "line": 316
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L021",
+      "line": 316
+    },
+    {
+      "scene": "EP06_ACT03_SC04_A",
+      "segment": "L022",
+      "line": 318
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_A",
+      "segment": "L001",
+      "line": 319
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_A",
+      "segment": "L002",
+      "line": 319
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_A",
+      "segment": "L003",
+      "line": 319
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_B",
+      "segment": "L001",
+      "line": 320
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_B",
+      "segment": "L002",
+      "line": 320
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_B",
+      "segment": "L003",
+      "line": 320
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L001",
+      "line": 325
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L002",
+      "line": 327
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L003",
+      "line": 329
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L004",
+      "line": 331
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L005",
+      "line": 333
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L006",
+      "line": 335
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L007",
+      "line": 337
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L008",
+      "line": 339
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L009",
+      "line": 341
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L010",
+      "line": 343
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "segment": "L011",
+      "line": 345
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L001",
+      "line": 359
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L002",
+      "line": 361
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L003",
+      "line": 363
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L004",
+      "line": 365
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L005",
+      "line": 369
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L006",
+      "line": 371
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L007",
+      "line": 373
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L008",
+      "line": 375
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L009",
+      "line": 377
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L010",
+      "line": 379
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L011",
+      "line": 381
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L012",
+      "line": 383
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L013",
+      "line": 385
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L014",
+      "line": 385
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L015",
+      "line": 387
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L016",
+      "line": 389
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L017",
+      "line": 391
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L018",
+      "line": 393
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L019",
+      "line": 397
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L020",
+      "line": 399
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L021",
+      "line": 401
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L022",
+      "line": 403
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L023",
+      "line": 405
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L024",
+      "line": 407
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L025",
+      "line": 409
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L026",
+      "line": 409
+    },
+    {
+      "scene": "EP06_ACT03_SC04_B",
+      "segment": "L027",
+      "line": 411
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_A",
+      "segment": "L001",
+      "line": 412
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_A",
+      "segment": "L002",
+      "line": 412
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_B",
+      "segment": "L001",
+      "line": 413
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_B",
+      "segment": "L002",
+      "line": 413
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L001",
+      "line": 418
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L002",
+      "line": 420
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L003",
+      "line": 422
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L004",
+      "line": 424
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L005",
+      "line": 426
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L006",
+      "line": 428
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L007",
+      "line": 430
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L008",
+      "line": 432
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L009",
+      "line": 436
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L010",
+      "line": 438
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L011",
+      "line": 440
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L012",
+      "line": 442
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L013",
+      "line": 444
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "segment": "L014",
+      "line": 446
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L001",
+      "line": 460
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L002",
+      "line": 462
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L003",
+      "line": 464
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L004",
+      "line": 466
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L005",
+      "line": 468
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L006",
+      "line": 470
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L007",
+      "line": 472
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L008",
+      "line": 476
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L009",
+      "line": 478
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L010",
+      "line": 480
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L011",
+      "line": 482
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L012",
+      "line": 484
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L013",
+      "line": 486
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L014",
+      "line": 488
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L015",
+      "line": 490
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L016",
+      "line": 492
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L017",
+      "line": 494
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L018",
+      "line": 498
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L019",
+      "line": 500
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L020",
+      "line": 502
+    },
+    {
+      "scene": "EP06_ACT03_SC04_C",
+      "segment": "L021",
+      "line": 504
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_A",
+      "segment": "L001",
+      "line": 505
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_A",
+      "segment": "L002",
+      "line": 505
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_B",
+      "segment": "L001",
+      "line": 506
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_B",
+      "segment": "L002",
+      "line": 506
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L001",
+      "line": 509
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L002",
+      "line": 511
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L003",
+      "line": 513
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L004",
+      "line": 515
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L005",
+      "line": 517
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L006",
+      "line": 519
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L007",
+      "line": 523
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L008",
+      "line": 525
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L009",
+      "line": 527
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L010",
+      "line": 529
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L011",
+      "line": 531
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L012",
+      "line": 533
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L013",
+      "line": 537
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L014",
+      "line": 539
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L015",
+      "line": 541
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L016",
+      "line": 543
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L017",
+      "line": 545
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L018",
+      "line": 547
+    },
+    {
+      "scene": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "segment": "L019",
+      "line": 549
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L001",
+      "line": 563
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L002",
+      "line": 565
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L003",
+      "line": 568
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L004",
+      "line": 568
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L005",
+      "line": 568
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L006",
+      "line": 569
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L007",
+      "line": 569
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L008",
+      "line": 569
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L009",
+      "line": 570
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L010",
+      "line": 570
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L011",
+      "line": 570
+    },
+    {
+      "scene": "EP06_ACT03_SC05",
+      "segment": "L012",
+      "line": 572
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_A",
+      "segment": "L001",
+      "line": 573
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_A",
+      "segment": "L002",
+      "line": 573
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_B",
+      "segment": "L001",
+      "line": 574
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_B",
+      "segment": "L002",
+      "line": 574
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
+      "segment": "L001",
+      "line": 577
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
+      "segment": "L002",
+      "line": 579
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
+      "segment": "L003",
+      "line": 581
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
+      "segment": "L004",
+      "line": 583
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
+      "segment": "L005",
+      "line": 585
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_A",
+      "segment": "L001",
+      "line": 586
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_A",
+      "segment": "L002",
+      "line": 586
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_B",
+      "segment": "L001",
+      "line": 587
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_B",
+      "segment": "L002",
+      "line": 587
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L001",
+      "line": 591
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L002",
+      "line": 591
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L003",
+      "line": 591
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L004",
+      "line": 592
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L005",
+      "line": 592
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L006",
+      "line": 592
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L007",
+      "line": 593
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L008",
+      "line": 593
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L009",
+      "line": 593
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L010",
+      "line": 597
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L011",
+      "line": 599
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L012",
+      "line": 601
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L013",
+      "line": 603
+    },
+    {
+      "scene": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "segment": "L014",
+      "line": 605
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L001",
+      "line": 28
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L002",
+      "line": 30
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L003",
+      "line": 32
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L004",
+      "line": 34
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L005",
+      "line": 36
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L006",
+      "line": 38
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L007",
+      "line": 42
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L008",
+      "line": 44
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L009",
+      "line": 46
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L010",
+      "line": 48
+    },
+    {
+      "scene": "EP06_ACT04_SC01",
+      "segment": "L011",
+      "line": 50
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_A",
+      "segment": "L001",
+      "line": 51
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_A",
+      "segment": "L002",
+      "line": 51
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_A",
+      "segment": "L003",
+      "line": 51
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_B",
+      "segment": "L001",
+      "line": 52
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_B",
+      "segment": "L002",
+      "line": 52
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_B",
+      "segment": "L003",
+      "line": 52
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L001",
+      "line": 55
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L002",
+      "line": 58
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L003",
+      "line": 59
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L004",
+      "line": 60
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L005",
+      "line": 63
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L006",
+      "line": 64
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L007",
+      "line": 65
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_01_COMMON",
+      "segment": "L008",
+      "line": 69
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_A",
+      "segment": "L001",
+      "line": 70
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_A",
+      "segment": "L002",
+      "line": 70
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_B",
+      "segment": "L001",
+      "line": 71
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_B",
+      "segment": "L002",
+      "line": 71
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_COMMON",
+      "segment": "L001",
+      "line": 74
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_COMMON",
+      "segment": "L002",
+      "line": 76
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_COMMON",
+      "segment": "L003",
+      "line": 78
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_COMMON",
+      "segment": "L004",
+      "line": 80
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_COMMON",
+      "segment": "L005",
+      "line": 82
+    },
+    {
+      "scene": "EP06_ACT04_SC01_FLAVOR_02_COMMON",
+      "segment": "L006",
+      "line": 84
+    },
+    {
+      "scene": "EP06_ACT04_SC02",
+      "segment": "L001",
+      "line": 98
+    },
+    {
+      "scene": "EP06_ACT04_SC02",
+      "segment": "L002",
+      "line": 100
+    },
+    {
+      "scene": "EP06_ACT04_SC02",
+      "segment": "L003",
+      "line": 102
+    },
+    {
+      "scene": "EP06_ACT04_SC02",
+      "segment": "L004",
+      "line": 104
+    },
+    {
+      "scene": "EP06_ACT04_SC02",
+      "segment": "L005",
+      "line": 106
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_03_A",
+      "segment": "L001",
+      "line": 107
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_03_A",
+      "segment": "L002",
+      "line": 107
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_03_B",
+      "segment": "L001",
+      "line": 108
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_03_B",
+      "segment": "L002",
+      "line": 108
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_03_COMMON",
+      "segment": "L001",
+      "line": 0
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T",
+      "segment": "L001",
+      "line": 117
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T",
+      "segment": "L002",
+      "line": 119
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T",
+      "segment": "L003",
+      "line": 121
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T",
+      "segment": "L004",
+      "line": 123
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T",
+      "segment": "L005",
+      "line": 125
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T",
+      "segment": "L006",
+      "line": 127
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T",
+      "segment": "L007",
+      "line": 129
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_A",
+      "segment": "L001",
+      "line": 130
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_A",
+      "segment": "L002",
+      "line": 130
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_B",
+      "segment": "L001",
+      "line": 131
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_B",
+      "segment": "L002",
+      "line": 131
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_COMMON",
+      "segment": "L001",
+      "line": 136
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_COMMON",
+      "segment": "L002",
+      "line": 138
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_COMMON",
+      "segment": "L003",
+      "line": 140
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_T_COMMON",
+      "segment": "L004",
+      "line": 142
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_A",
+      "segment": "L001",
+      "line": 151
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_A",
+      "segment": "L002",
+      "line": 153
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_A",
+      "segment": "L003",
+      "line": 155
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_A",
+      "segment": "L004",
+      "line": 157
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_A",
+      "segment": "L005",
+      "line": 169
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_B",
+      "segment": "L001",
+      "line": 161
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_B",
+      "segment": "L002",
+      "line": 163
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_B",
+      "segment": "L003",
+      "line": 165
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_B",
+      "segment": "L004",
+      "line": 167
+    },
+    {
+      "scene": "EP06_ACT04_SC02_T_B",
+      "segment": "L005",
+      "line": 169
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F",
+      "segment": "L001",
+      "line": 177
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F",
+      "segment": "L002",
+      "line": 179
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F",
+      "segment": "L003",
+      "line": 181
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F",
+      "segment": "L004",
+      "line": 183
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F",
+      "segment": "L005",
+      "line": 185
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F",
+      "segment": "L006",
+      "line": 187
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F",
+      "segment": "L007",
+      "line": 189
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_F_A",
+      "segment": "L001",
+      "line": 190
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_F_A",
+      "segment": "L002",
+      "line": 190
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_F_B",
+      "segment": "L001",
+      "line": 191
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_F_B",
+      "segment": "L002",
+      "line": 191
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_F_COMMON",
+      "segment": "L001",
+      "line": 194
+    },
+    {
+      "scene": "EP06_ACT04_SC02_FLAVOR_04_F_COMMON",
+      "segment": "L002",
+      "line": 196
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_A",
+      "segment": "L001",
+      "line": 206
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_A",
+      "segment": "L002",
+      "line": 208
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_A",
+      "segment": "L003",
+      "line": 210
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_A",
+      "segment": "L004",
+      "line": 212
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_A",
+      "segment": "L005",
+      "line": 221
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_B",
+      "segment": "L001",
+      "line": 215
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_B",
+      "segment": "L002",
+      "line": 217
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_B",
+      "segment": "L003",
+      "line": 219
+    },
+    {
+      "scene": "EP06_ACT04_SC02_F_B",
+      "segment": "L004",
+      "line": 221
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L001",
+      "line": 234
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L002",
+      "line": 236
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L003",
+      "line": 238
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L004",
+      "line": 240
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L005",
+      "line": 242
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L006",
+      "line": 246
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L007",
+      "line": 248
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L008",
+      "line": 250
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L009",
+      "line": 252
+    },
+    {
+      "scene": "EP06_ACT04_SC03",
+      "segment": "L010",
+      "line": 254
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_A",
+      "segment": "L001",
+      "line": 255
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_A",
+      "segment": "L002",
+      "line": 255
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_B",
+      "segment": "L001",
+      "line": 256
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_B",
+      "segment": "L002",
+      "line": 256
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L001",
+      "line": 263
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L002",
+      "line": 263
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L003",
+      "line": 264
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L004",
+      "line": 265
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L005",
+      "line": 270
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L006",
+      "line": 270
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L007",
+      "line": 271
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L008",
+      "line": 272
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L009",
+      "line": 277
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L010",
+      "line": 277
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L011",
+      "line": 278
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L012",
+      "line": 279
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L013",
+      "line": 284
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L014",
+      "line": 284
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L015",
+      "line": 285
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L016",
+      "line": 286
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L017",
+      "line": 291
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L018",
+      "line": 291
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L019",
+      "line": 293
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L020",
+      "line": 295
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "segment": "L021",
+      "line": 297
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_06_A",
+      "segment": "L001",
+      "line": 298
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_06_A",
+      "segment": "L002",
+      "line": 298
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_06_B",
+      "segment": "L001",
+      "line": 299
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_06_B",
+      "segment": "L002",
+      "line": 299
+    },
+    {
+      "scene": "EP06_ACT04_SC03_FLAVOR_06_COMMON",
+      "segment": "L001",
+      "line": 302
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_A",
+      "segment": "L001",
+      "line": 325
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_A",
+      "segment": "L002",
+      "line": 325
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_A",
+      "segment": "L003",
+      "line": 329
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_A",
+      "segment": "L004",
+      "line": 329
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_A",
+      "segment": "L005",
+      "line": 330
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_B",
+      "segment": "L001",
+      "line": 327
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_B",
+      "segment": "L002",
+      "line": 327
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_B",
+      "segment": "L003",
+      "line": 329
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_B",
+      "segment": "L004",
+      "line": 329
+    },
+    {
+      "scene": "EP06_ACT04_SC03_T2_B",
+      "segment": "L005",
+      "line": 330
+    },
+    {
+      "scene": "EP06_ACT04_SC04",
+      "segment": "L001",
+      "line": 343
+    },
+    {
+      "scene": "EP06_ACT04_SC04",
+      "segment": "L002",
+      "line": 345
+    },
+    {
+      "scene": "EP06_ACT04_SC04",
+      "segment": "L003",
+      "line": 347
+    },
+    {
+      "scene": "EP06_ACT04_SC04",
+      "segment": "L004",
+      "line": 349
+    },
+    {
+      "scene": "EP06_ACT04_SC04",
+      "segment": "L005",
+      "line": 351
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_07_A",
+      "segment": "L001",
+      "line": 352
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_07_A",
+      "segment": "L002",
+      "line": 352
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_07_B",
+      "segment": "L001",
+      "line": 353
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_07_B",
+      "segment": "L002",
+      "line": 353
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_07_COMMON",
+      "segment": "L001",
+      "line": 0
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L001",
+      "line": 362
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L002",
+      "line": 364
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L003",
+      "line": 366
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L004",
+      "line": 368
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L005",
+      "line": 370
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L006",
+      "line": 372
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L007",
+      "line": 374
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L008",
+      "line": 376
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L009",
+      "line": 378
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEAL",
+      "segment": "L010",
+      "line": 380
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEALED_REPLY",
+      "segment": "L001",
+      "line": 416
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEALED_REPLY",
+      "segment": "L002",
+      "line": 417
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEALED_REPLY",
+      "segment": "L003",
+      "line": 418
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEALED_REPLY",
+      "segment": "L004",
+      "line": 421
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEALED_REPLY",
+      "segment": "L005",
+      "line": 422
+    },
+    {
+      "scene": "EP06_ACT04_SC04_SEALED_REPLY",
+      "segment": "L006",
+      "line": 424
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_S_A",
+      "segment": "L001",
+      "line": 425
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_S_A",
+      "segment": "L002",
+      "line": 425
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_S_B",
+      "segment": "L001",
+      "line": 426
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_S_B",
+      "segment": "L002",
+      "line": 426
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_S_COMMON",
+      "segment": "L001",
+      "line": 0
+    },
+    {
+      "scene": "EP06_ACT04_SC04_NO_SEAL",
+      "segment": "L001",
+      "line": 388
+    },
+    {
+      "scene": "EP06_ACT04_SC04_NO_SEAL",
+      "segment": "L002",
+      "line": 390
+    },
+    {
+      "scene": "EP06_ACT04_SC04_NO_SEAL",
+      "segment": "L003",
+      "line": 392
+    },
+    {
+      "scene": "EP06_ACT04_SC04_NO_SEAL",
+      "segment": "L004",
+      "line": 394
+    },
+    {
+      "scene": "EP06_ACT04_SC04_NO_SEAL",
+      "segment": "L005",
+      "line": 396
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_N_A",
+      "segment": "L001",
+      "line": 397
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_N_A",
+      "segment": "L002",
+      "line": 397
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_N_B",
+      "segment": "L001",
+      "line": 398
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_N_B",
+      "segment": "L002",
+      "line": 398
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FLAVOR_08_N_COMMON",
+      "segment": "L001",
+      "line": 401
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_A",
+      "segment": "L001",
+      "line": 409
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_A",
+      "segment": "L002",
+      "line": 409
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_A",
+      "segment": "L003",
+      "line": 421
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_A",
+      "segment": "L004",
+      "line": 422
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_B",
+      "segment": "L001",
+      "line": 411
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_B",
+      "segment": "L002",
+      "line": 411
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_B",
+      "segment": "L003",
+      "line": 421
+    },
+    {
+      "scene": "EP06_ACT04_SC04_AGREEMENT_B",
+      "segment": "L004",
+      "line": 422
+    },
+    {
+      "scene": "EP06_ACT04_SC04_FILES",
+      "segment": "L001",
+      "line": 429
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L001",
+      "line": 442
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L002",
+      "line": 444
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L003",
+      "line": 446
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L004",
+      "line": 448
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L005",
+      "line": 450
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L006",
+      "line": 452
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L007",
+      "line": 454
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L008",
+      "line": 456
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L009",
+      "line": 458
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L010",
+      "line": 462
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L011",
+      "line": 464
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L012",
+      "line": 466
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L013",
+      "line": 468
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L014",
+      "line": 470
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L015",
+      "line": 472
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L016",
+      "line": 474
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L017",
+      "line": 476
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L018",
+      "line": 478
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L019",
+      "line": 480
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L020",
+      "line": 482
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L021",
+      "line": 484
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L022",
+      "line": 486
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L023",
+      "line": 488
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L024",
+      "line": 490
+    },
+    {
+      "scene": "EP06_ACT04_SC05",
+      "segment": "L025",
+      "line": 492
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_A",
+      "segment": "L001",
+      "line": 493
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_A",
+      "segment": "L002",
+      "line": 493
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_B",
+      "segment": "L001",
+      "line": 494
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_B",
+      "segment": "L002",
+      "line": 494
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L001",
+      "line": 499
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L002",
+      "line": 501
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L003",
+      "line": 503
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L004",
+      "line": 505
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L005",
+      "line": 507
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L006",
+      "line": 509
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L007",
+      "line": 511
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L008",
+      "line": 513
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_09_COMMON",
+      "segment": "L009",
+      "line": 515
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_A",
+      "segment": "L001",
+      "line": 516
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_A",
+      "segment": "L002",
+      "line": 516
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_A",
+      "segment": "L003",
+      "line": 516
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_B",
+      "segment": "L001",
+      "line": 517
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_B",
+      "segment": "L002",
+      "line": 517
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_B",
+      "segment": "L003",
+      "line": 517
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_COMMON",
+      "segment": "L001",
+      "line": 522
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_COMMON",
+      "segment": "L002",
+      "line": 524
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_COMMON",
+      "segment": "L003",
+      "line": 526
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_COMMON",
+      "segment": "L004",
+      "line": 528
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_COMMON",
+      "segment": "L005",
+      "line": 530
+    },
+    {
+      "scene": "EP06_ACT04_SC05_FLAVOR_10_COMMON",
+      "segment": "L006",
+      "line": 532
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L001",
+      "line": 35
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L002",
+      "line": 37
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L003",
+      "line": 39
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L004",
+      "line": 41
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L005",
+      "line": 43
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L006",
+      "line": 45
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L007",
+      "line": 47
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L008",
+      "line": 49
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L009",
+      "line": 51
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L010",
+      "line": 53
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L011",
+      "line": 55
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L012",
+      "line": 59
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L013",
+      "line": 61
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L014",
+      "line": 63
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L015",
+      "line": 65
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L016",
+      "line": 67
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L017",
+      "line": 69
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L018",
+      "line": 71
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L019",
+      "line": 73
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L020",
+      "line": 75
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L021",
+      "line": 77
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L022",
+      "line": 79
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L023",
+      "line": 81
+    },
+    {
+      "scene": "EP06_ACT05_SC01",
+      "segment": "L024",
+      "line": 83
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_A",
+      "segment": "L001",
+      "line": 84
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_A",
+      "segment": "L002",
+      "line": 84
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_A",
+      "segment": "L003",
+      "line": 84
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_B",
+      "segment": "L001",
+      "line": 87
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_B",
+      "segment": "L002",
+      "line": 87
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_B",
+      "segment": "L003",
+      "line": 87
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L001",
+      "line": 94
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L002",
+      "line": 96
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L003",
+      "line": 98
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L004",
+      "line": 100
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L005",
+      "line": 102
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L006",
+      "line": 104
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L007",
+      "line": 106
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L008",
+      "line": 108
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L009",
+      "line": 110
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L010",
+      "line": 112
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L011",
+      "line": 114
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L012",
+      "line": 116
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_01_COMMON",
+      "segment": "L013",
+      "line": 118
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_A",
+      "segment": "L001",
+      "line": 119
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_A",
+      "segment": "L002",
+      "line": 119
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_A",
+      "segment": "L003",
+      "line": 119
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_B",
+      "segment": "L001",
+      "line": 122
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_B",
+      "segment": "L002",
+      "line": 122
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_B",
+      "segment": "L003",
+      "line": 122
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L001",
+      "line": 129
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L002",
+      "line": 131
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L003",
+      "line": 133
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L004",
+      "line": 135
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L005",
+      "line": 137
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L006",
+      "line": 139
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L007",
+      "line": 141
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L008",
+      "line": 145
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L009",
+      "line": 147
+    },
+    {
+      "scene": "EP06_ACT05_SC01_FLAVOR_02_COMMON",
+      "segment": "L010",
+      "line": 149
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L001",
+      "line": 165
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L002",
+      "line": 167
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L003",
+      "line": 169
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L004",
+      "line": 171
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L005",
+      "line": 173
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L006",
+      "line": 175
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L007",
+      "line": 177
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L008",
+      "line": 181
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L009",
+      "line": 183
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L010",
+      "line": 185
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L011",
+      "line": 187
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L012",
+      "line": 189
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L013",
+      "line": 191
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L014",
+      "line": 193
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L015",
+      "line": 195
+    },
+    {
+      "scene": "EP06_ACT05_SC02",
+      "segment": "L016",
+      "line": 197
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_A",
+      "segment": "L001",
+      "line": 198
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_A",
+      "segment": "L002",
+      "line": 198
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_A",
+      "segment": "L003",
+      "line": 198
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_B",
+      "segment": "L001",
+      "line": 201
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_B",
+      "segment": "L002",
+      "line": 201
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_B",
+      "segment": "L003",
+      "line": 201
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L001",
+      "line": 206
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L002",
+      "line": 210
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L003",
+      "line": 212
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L004",
+      "line": 214
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L005",
+      "line": 216
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L006",
+      "line": 218
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L007",
+      "line": 220
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L008",
+      "line": 222
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L009",
+      "line": 224
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L010",
+      "line": 226
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_03_COMMON",
+      "segment": "L011",
+      "line": 228
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_A",
+      "segment": "L001",
+      "line": 229
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_A",
+      "segment": "L002",
+      "line": 229
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_A",
+      "segment": "L003",
+      "line": 229
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_B",
+      "segment": "L001",
+      "line": 232
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_B",
+      "segment": "L002",
+      "line": 232
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_B",
+      "segment": "L003",
+      "line": 232
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L001",
+      "line": 239
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L002",
+      "line": 241
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L003",
+      "line": 243
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L004",
+      "line": 245
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L005",
+      "line": 247
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L006",
+      "line": 249
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L007",
+      "line": 253
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L008",
+      "line": 255
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L009",
+      "line": 257
+    },
+    {
+      "scene": "EP06_ACT05_SC02_FLAVOR_04_COMMON",
+      "segment": "L010",
+      "line": 259
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L001",
+      "line": 275
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L002",
+      "line": 277
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L003",
+      "line": 279
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L004",
+      "line": 281
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L005",
+      "line": 283
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L006",
+      "line": 287
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L007",
+      "line": 289
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L008",
+      "line": 291
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L009",
+      "line": 293
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L010",
+      "line": 295
+    },
+    {
+      "scene": "EP06_ACT05_SC03",
+      "segment": "L011",
+      "line": 297
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_A",
+      "segment": "L001",
+      "line": 298
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_A",
+      "segment": "L002",
+      "line": 298
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_A",
+      "segment": "L003",
+      "line": 298
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_B",
+      "segment": "L001",
+      "line": 301
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_B",
+      "segment": "L002",
+      "line": 301
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_B",
+      "segment": "L003",
+      "line": 301
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L001",
+      "line": 308
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L002",
+      "line": 310
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L003",
+      "line": 312
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L004",
+      "line": 314
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L005",
+      "line": 316
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L006",
+      "line": 318
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L007",
+      "line": 320
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L008",
+      "line": 322
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L009",
+      "line": 324
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L010",
+      "line": 328
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L011",
+      "line": 330
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L012",
+      "line": 332
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L013",
+      "line": 334
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L014",
+      "line": 338
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L015",
+      "line": 340
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_05_COMMON",
+      "segment": "L016",
+      "line": 342
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_A",
+      "segment": "L001",
+      "line": 343
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_A",
+      "segment": "L002",
+      "line": 343
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_A",
+      "segment": "L003",
+      "line": 343
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_B",
+      "segment": "L001",
+      "line": 346
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_B",
+      "segment": "L002",
+      "line": 346
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_B",
+      "segment": "L003",
+      "line": 346
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_COMMON",
+      "segment": "L001",
+      "line": 353
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_COMMON",
+      "segment": "L002",
+      "line": 355
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_COMMON",
+      "segment": "L003",
+      "line": 357
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_COMMON",
+      "segment": "L004",
+      "line": 359
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_COMMON",
+      "segment": "L005",
+      "line": 363
+    },
+    {
+      "scene": "EP06_ACT05_SC03_FLAVOR_06_COMMON",
+      "segment": "L006",
+      "line": 365
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L001",
+      "line": 381
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L002",
+      "line": 383
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L003",
+      "line": 385
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L004",
+      "line": 387
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L005",
+      "line": 389
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L006",
+      "line": 391
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L007",
+      "line": 393
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L008",
+      "line": 395
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L009",
+      "line": 397
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L010",
+      "line": 399
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L011",
+      "line": 401
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L012",
+      "line": 405
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L013",
+      "line": 407
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L014",
+      "line": 409
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L015",
+      "line": 411
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L016",
+      "line": 413
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L017",
+      "line": 415
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L018",
+      "line": 417
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L019",
+      "line": 419
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L020",
+      "line": 421
+    },
+    {
+      "scene": "EP06_ACT05_SC04",
+      "segment": "L021",
+      "line": 423
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_A",
+      "segment": "L001",
+      "line": 424
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_A",
+      "segment": "L002",
+      "line": 424
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_A",
+      "segment": "L003",
+      "line": 424
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_B",
+      "segment": "L001",
+      "line": 427
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_B",
+      "segment": "L002",
+      "line": 427
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_B",
+      "segment": "L003",
+      "line": 427
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L001",
+      "line": 432
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L002",
+      "line": 434
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L003",
+      "line": 436
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L004",
+      "line": 438
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L005",
+      "line": 442
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L006",
+      "line": 444
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L007",
+      "line": 446
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L008",
+      "line": 448
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L009",
+      "line": 450
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L010",
+      "line": 452
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L011",
+      "line": 454
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L012",
+      "line": 456
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L013",
+      "line": 460
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L014",
+      "line": 463
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L015",
+      "line": 465
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L016",
+      "line": 467
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L017",
+      "line": 469
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L018",
+      "line": 471
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L019",
+      "line": 474
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L020",
+      "line": 476
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L021",
+      "line": 478
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L022",
+      "line": 480
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L023",
+      "line": 482
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L024",
+      "line": 484
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L025",
+      "line": 488
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L026",
+      "line": 490
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L027",
+      "line": 492
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L028",
+      "line": 494
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L029",
+      "line": 496
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L030",
+      "line": 498
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_07_COMMON",
+      "segment": "L031",
+      "line": 500
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_A",
+      "segment": "L001",
+      "line": 501
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_A",
+      "segment": "L002",
+      "line": 501
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_A",
+      "segment": "L003",
+      "line": 501
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_B",
+      "segment": "L001",
+      "line": 504
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_B",
+      "segment": "L002",
+      "line": 504
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_B",
+      "segment": "L003",
+      "line": 504
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_COMMON",
+      "segment": "L001",
+      "line": 511
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_COMMON",
+      "segment": "L002",
+      "line": 513
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_COMMON",
+      "segment": "L003",
+      "line": 515
+    },
+    {
+      "scene": "EP06_ACT05_SC04_FLAVOR_08_COMMON",
+      "segment": "L004",
+      "line": 517
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L001",
+      "line": 533
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L002",
+      "line": 535
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L003",
+      "line": 537
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L004",
+      "line": 539
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L005",
+      "line": 541
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L006",
+      "line": 543
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L007",
+      "line": 545
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L008",
+      "line": 549
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L009",
+      "line": 551
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L010",
+      "line": 553
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L011",
+      "line": 555
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L012",
+      "line": 557
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L013",
+      "line": 559
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L014",
+      "line": 561
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L015",
+      "line": 563
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L016",
+      "line": 565
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L017",
+      "line": 567
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L018",
+      "line": 569
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L019",
+      "line": 571
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L020",
+      "line": 573
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L021",
+      "line": 575
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L022",
+      "line": 577
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L023",
+      "line": 579
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L024",
+      "line": 581
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L025",
+      "line": 583
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L026",
+      "line": 585
+    },
+    {
+      "scene": "EP06_ACT05_SC05",
+      "segment": "L027",
+      "line": 587
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_A",
+      "segment": "L001",
+      "line": 588
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_A",
+      "segment": "L002",
+      "line": 588
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_A",
+      "segment": "L003",
+      "line": 588
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_B",
+      "segment": "L001",
+      "line": 591
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_B",
+      "segment": "L002",
+      "line": 591
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_B",
+      "segment": "L003",
+      "line": 591
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_B",
+      "segment": "L004",
+      "line": 591
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L001",
+      "line": 598
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L002",
+      "line": 600
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L003",
+      "line": 602
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L004",
+      "line": 604
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L005",
+      "line": 606
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L006",
+      "line": 608
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L007",
+      "line": 610
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L008",
+      "line": 612
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L009",
+      "line": 614
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L010",
+      "line": 616
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L011",
+      "line": 618
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L012",
+      "line": 620
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L013",
+      "line": 624
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L014",
+      "line": 626
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L015",
+      "line": 628
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L016",
+      "line": 630
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L017",
+      "line": 632
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L018",
+      "line": 634
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L019",
+      "line": 636
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L020",
+      "line": 638
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L021",
+      "line": 640
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L022",
+      "line": 642
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L023",
+      "line": 644
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L024",
+      "line": 646
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L025",
+      "line": 648
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L026",
+      "line": 650
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L027",
+      "line": 652
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L028",
+      "line": 654
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L029",
+      "line": 656
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_09_COMMON",
+      "segment": "L030",
+      "line": 658
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_A",
+      "segment": "L001",
+      "line": 659
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_A",
+      "segment": "L002",
+      "line": 659
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_A",
+      "segment": "L003",
+      "line": 659
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_B",
+      "segment": "L001",
+      "line": 662
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_B",
+      "segment": "L002",
+      "line": 662
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_B",
+      "segment": "L003",
+      "line": 662
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L001",
+      "line": 669
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L002",
+      "line": 671
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L003",
+      "line": 673
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L004",
+      "line": 675
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L005",
+      "line": 677
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L006",
+      "line": 679
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L007",
+      "line": 681
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L008",
+      "line": 683
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L009",
+      "line": 685
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L010",
+      "line": 687
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L011",
+      "line": 689
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L012",
+      "line": 691
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L013",
+      "line": 693
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L014",
+      "line": 695
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L015",
+      "line": 697
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L016",
+      "line": 699
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L017",
+      "line": 701
+    },
+    {
+      "scene": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segment": "L018",
+      "line": 703
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "artifact": "LionessEmpire_EP06_ACT03",
+  "version": "1.0",
+  "status": "DRAFT_FOR_REVIEW",
+  "scene_order": [
+    "SC01",
+    "SC02",
+    "SC03",
+    "SC04_{choice}",
+    "SC05"
+  ],
+  "major_choice": {
+    "scene": "SC03",
+    "owner": "OLIVIA",
+    "id": "EP06_ACT03_F2",
+    "options": {
+      "A": {
+        "description": "Grant permanent royal secretary signet to Finley; Finley independently investigates; Olivia drinks tea with unaware Alice",
+        "political_points_delta": 5,
+        "F2_clear": true,
+        "F2_increment": 1,
+        "secretary_seal": true,
+        "case_solved": true,
+        "next_scene": "SC04_A"
+      },
+      "B": {
+        "description": "Olivia and Finley visit Alice, who is Finleys longtime friend; joint investigation",
+        "political_points_delta": 0,
+        "F2_clear": true,
+        "F2_increment": 1,
+        "secretary_seal": false,
+        "case_solved": true,
+        "next_scene": "SC04_B"
+      },
+      "C": {
+        "description": "Olivia goes alone and is rejected during Alices vacation; Ayla rescues; considerable administrative cost",
+        "political_points_delta": -20,
+        "F2_clear": false,
+        "F2_increment": 0,
+        "secretary_seal": false,
+        "case_solved": true,
+        "next_scene": "SC04_C"
+      }
+    }
+  },
+  "common_result_flags": {
+    "OTTODAN_COLD_CASE_SOLVED": true,
+    "ACADEMY_EMBEZZLEMENT_EXPOSED": true,
+    "AYLA_POLITICAL_FAVOR": true,
+    "ACADEMY_CROWN_COOPERATION_OPEN": true
+  },
+  "seal_rule": {
+    "flag": "FINLEY_SECRETARY_SEAL",
+    "permanent": true,
+    "granted_by_choice": "A",
+    "needed_for": "FINLEY_ALL_EVENTS_COMPLETE_AND_EIGHT_REVERSED_ENDINGS_ELIGIBILITY",
+    "not_sufficient_by_itself": true,
+    "not_a_general_legal_immunity": true
+  },
+  "flavor_choices": [
+    {
+      "id": "FLAVOR-01",
+      "scene": "SC01"
+    },
+    {
+      "id": "FLAVOR-02",
+      "scene": "SC01"
+    },
+    {
+      "id": "FLAVOR-03",
+      "scene": "SC02"
+    },
+    {
+      "id": "FLAVOR-04",
+      "scene": "SC02"
+    },
+    {
+      "id": "FLAVOR-05",
+      "scene": "SC03"
+    },
+    {
+      "id": "FLAVOR-06A",
+      "scene": "SC04_A"
+    },
+    {
+      "id": "FLAVOR-06B",
+      "scene": "SC04_B"
+    },
+    {
+      "id": "FLAVOR-06C",
+      "scene": "SC04_C"
+    },
+    {
+      "id": "FLAVOR-07",
+      "scene": "SC05"
+    },
+    {
+      "id": "FLAVOR-08",
+      "scene": "SC05"
+    }
+  ],
+  "flavor_choice_effects": {
+    "political_points": 0,
+    "F2_clear": 0,
+    "route_change": false,
+    "ending_flags_change": false,
+    "relationship_change": false
+  },
+  "no_route_lock": true,
+  "no_Alinda_A1_reaward": true,
+  "no_F3_clear_award": true,
+  "cg_pool_count": 30,
+  "cg_ids": [
+    "CG-01",
+    "CG-02",
+    "CG-03",
+    "CG-04",
+    "CG-05",
+    "CG-06",
+    "CG-07",
+    "CG-08",
+    "CG-09",
+    "CG-10",
+    "CG-11",
+    "CG-12",
+    "CG-13",
+    "CG-14",
+    "CG-15",
+    "CG-16",
+    "CG-17",
+    "CG-18",
+    "CG-19",
+    "CG-20",
+    "CG-21",
+    "CG-22",
+    "CG-23",
+    "CG-24",
+    "CG-25",
+    "CG-26",
+    "CG-27",
+    "CG-28",
+    "CG-29",
+    "CG-30"
+  ],
+  "continuity": {
+    "Alice_does_not_know_in_A": true,
+    "A_teatime_no_case_question": true,
+    "Finley_A_independent_case": true,
+    "Alice_Finley_longtime_friends": true,
+    "Alice_on_holiday": true,
+    "Alice_avoids_royalty": true
+  },
+  "notes": [
+    "Political resource insufficient handling governed globally; do not invent a negative-balance rule.",
+    "Accusations vs convictions distinguished; formal prosecution and asset recovery continue after case solved.",
+    "A separate secretary ring; Olivia retains her regular lion ring."
+  ]
+}

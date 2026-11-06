@@ -74,8 +74,8 @@ const pending = story.manifest.chapters
 let ends = 0;
 const stateKey = explorationKey(story);
 let blockedChoices = 0;
-// EP03 adds five complete acts; keep a bounded, exhaustive content graph check.
-while (pending.length && seen.size < 250000) {
+// Keep a bounded, exhaustive check across the accumulated chapter branches.
+while (pending.length && seen.size < 750000) {
   let s = pending.pop()!;
   // Read history is an output, never a story condition; do not copy thousands of old paragraphs per graph edge.
   s.history = [];

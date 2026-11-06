@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.14.2-reader-staging",
+  "version": "0.15.0-ep06-complete",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -362,6 +362,62 @@
     "EP06_DISASTER_PERSONALLY_INSPECTED": {
       "initial": false,
       "description": "2026-11-06 使用者逐字劇本與明定選項效果；任務成敗不自動增加未授權CLEAR或鎖定政治路線。"
+    },
+    "F2_METHOD": {
+      "initial": "UNSET",
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "FINLEY_SECRETARY_SEAL": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "F2_RESOLVED": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "F2_CLEAR": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "OTTODAN_COLD_CASE_SOLVED": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "ACADEMY_EMBEZZLEMENT_EXPOSED": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "AYLA_POLITICAL_FAVOR": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "ACADEMY_CROWN_COOPERATION_OPEN": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "S2_REFUGEE_OUTCOME": {
+      "initial": "PENDING",
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "S2_CLEAR": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "T2_GATE_FIRST_HALF": {
+      "initial": "PENDING",
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "CAPITAL_GATE_TRIAGE_READY": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "F3_CLEAR": {
+      "initial": false,
+      "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "F3_RESOLUTION": {
+      "initial": "PENDING",
+      "description": "第六章第三至五幕劇本的事件狀態。"
     }
   },
   "migrations": {

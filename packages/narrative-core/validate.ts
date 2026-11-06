@@ -159,8 +159,17 @@ export function validateStory(story: Story) {
         )
           errors.push(`${scene.id}: invalid effect flag ${e.key}`);
     }
-    if (scene.kind === 'choice' && !scene.choices.some((c) => !c.when))
-      errors.push(`${scene.id}: requires unconditional fallback choice`);
+    if (scene.kind === 'choice' && !scene.choices.some((c) => !c.when)) {
+      const availability = scene.availableWhen;
+      // A choice is guaranteed if each declared entry condition also enables an answer.
+      const covered =
+        availability &&
+        'any' in availability &&
+        availability.any.every((when) =>
+          scene.choices.some((c) => JSON.stringify(c.when) === JSON.stringify(when))
+        );
+      if (!covered) errors.push(`${scene.id}: requires unconditional fallback choice`);
+    }
     if (scene.status === 'DEMO_ONLY' && scene.chapter !== 'DEMO')
       errors.push(`${scene.id}: demo may not be assigned to a Canon chapter`);
     for (const target of [

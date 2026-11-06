@@ -1,0 +1,229 @@
+{
+  "archive": "Lioness_Empire_EP06_ACT04_28CG_Final_v1.0.zip",
+  "images": [
+    {
+      "id": "EP06-ACT04-CG01",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-01.png",
+      "sha256": "51170d85d49e27b2519809bac4b73b4fd2bcd4e191c8d9f6e0019a1752c9f3a9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2514559
+    },
+    {
+      "id": "EP06-ACT04-CG02",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-02.png",
+      "sha256": "cc162037ae4385c13adcfc5316e1fe5145664c890d7e5ea449f55bff1b56f9e3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3460703
+    },
+    {
+      "id": "EP06-ACT04-CG03",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-03.png",
+      "sha256": "857967efffbe6cc81027740e176d6525dbc2d65a144fb68899583e910dd7a350",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2515703
+    },
+    {
+      "id": "EP06-ACT04-CG04",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-04.png",
+      "sha256": "31bbb54f1c1c989b153569dc33377217c56532b79734558c57babf1c8118f8cb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2852452
+    },
+    {
+      "id": "EP06-ACT04-CG05",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-05.png",
+      "sha256": "bef98a638ca50a1269aa415e8ae5a68a0e1b5f1484a440920f91cadadac130a2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2713902
+    },
+    {
+      "id": "EP06-ACT04-CG06",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-06.png",
+      "sha256": "69db102adc87909936c0b3dc69c39deb3e9e1ed88b3cec048cb249b90eecf96c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2663238
+    },
+    {
+      "id": "EP06-ACT04-CG07",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-07.png",
+      "sha256": "3a4fbd6a74f9df76e09445ef75be1031c79f664b17798acc31aee5afc22ef271",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2809719
+    },
+    {
+      "id": "EP06-ACT04-CG08",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-08.png",
+      "sha256": "be1d1aab2924066aa5bcbb3a782444b7c9856937a92fd24fba2f05146088bd06",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2693455
+    },
+    {
+      "id": "EP06-ACT04-CG09",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-09.png",
+      "sha256": "0a30c3941f011200339594c53c3131ac1ac574d6cb488ae94dad96adb34015d4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2796063
+    },
+    {
+      "id": "EP06-ACT04-CG10",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-10.png",
+      "sha256": "feb40f9f8714bfff3440638551e78d0fedd1242f7b81efa181f711fa8fac7a6e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2395600
+    },
+    {
+      "id": "EP06-ACT04-CG11",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-11.png",
+      "sha256": "43c5c48ea78fb7c3ebcf406e7ae425eaefca0468f51ac637190c8962830fafc1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2953165
+    },
+    {
+      "id": "EP06-ACT04-CG12",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-12.png",
+      "sha256": "11edaca08d3d992dfda5e47e4a3e65973d7ff5db51688788101db9ef07aad10d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3289120
+    },
+    {
+      "id": "EP06-ACT04-CG13",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-13.png",
+      "sha256": "ea8eaa010faff99ddc2115ab9530e00f7eeeac230d1aba26428d034f214826e5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3133390
+    },
+    {
+      "id": "EP06-ACT04-CG14",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-14.png",
+      "sha256": "18bac766050f23a2919e9f819e04707232b0f4c3fe4abc00a1cafa3736c2a56e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3056343
+    },
+    {
+      "id": "EP06-ACT04-CG15",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-15.png",
+      "sha256": "fe47d6c72c14c3a93a9e629e439936f982cfe876bc32d3afef23cefd76d90783",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2829325
+    },
+    {
+      "id": "EP06-ACT04-CG16",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-16.png",
+      "sha256": "bfc39c2b430a7e548467b1209e842375b673cbe277f97b2cbeddfb9cc9657b34",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2696150
+    },
+    {
+      "id": "EP06-ACT04-CG17",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-17.png",
+      "sha256": "4584e321df1ed538b397239685e5f879a31316e3c6b55b05bccb10b842f96df4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3076557
+    },
+    {
+      "id": "EP06-ACT04-CG18",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-18.png",
+      "sha256": "b19665d19a651d7445a87b5ef183c0b6dea624ec3f46ca83fd8cbea9408f079e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3083763
+    },
+    {
+      "id": "EP06-ACT04-CG19",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-19.png",
+      "sha256": "200b4a95d1018dca31453e23c77e6cc4ca3abd9f0f5ed122d5e2804b8c6b914c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2935260
+    },
+    {
+      "id": "EP06-ACT04-CG20",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-20.png",
+      "sha256": "faeb44d23f459a1854ccf9994acff89600c487f0f78196be06b76ef08e999c76",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2574593
+    },
+    {
+      "id": "EP06-ACT04-CG21",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-21.png",
+      "sha256": "eb11947f4cee8ff4966e0c60caaf9a52399e43f617f9c749195e70d49fbdb91a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2731795
+    },
+    {
+      "id": "EP06-ACT04-CG22",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-22.png",
+      "sha256": "dadfd80c9e1081558dd097dc0fc5d4c0f4a6080c9d00b24b8ebb526b4ce4b209",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2688424
+    },
+    {
+      "id": "EP06-ACT04-CG23",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-23.png",
+      "sha256": "530caa6cb0a7f6f31cd5411c9d531a39fce9ba26a266c34bb9d715993a4c2b3f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2547346
+    },
+    {
+      "id": "EP06-ACT04-CG24",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-24.png",
+      "sha256": "ed3c9f143e42cac55ec0b382a7fef06327eb168c04cfbd9e69850011fd4f684f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2372167
+    },
+    {
+      "id": "EP06-ACT04-CG25",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-25.png",
+      "sha256": "55bea73a0711e9b79bfa6d6d9ceff83d175ceb9090c2325efc7389ad88053fd1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2757819
+    },
+    {
+      "id": "EP06-ACT04-CG26",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-26.png",
+      "sha256": "d69eca18e3356e66aed45dacf1062e511e91c07ce68aee779b8466167cc413f9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2941726
+    },
+    {
+      "id": "EP06-ACT04-CG27",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-27.png",
+      "sha256": "260970a2fb12564a57a9e8f80fd3721f9d9b72932773e1c587fa36d34c338fee",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2998738
+    },
+    {
+      "id": "EP06-ACT04-CG28",
+      "path": "assets/cg/ep06/act04/EP06_ACT04_CG-28.png",
+      "sha256": "97740197bdb212c3d99e14727c669ce751d69caf4e57831629967ec2a795c127",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2468197
+    }
+  ]
+}

@@ -56,7 +56,8 @@ it('has fifteen ordered sections, six effective decisions, explicit speakers and
   expect(validateStory(story).errors).toEqual([]);
   expect(auditSpeakers(story).errors).toEqual([]);
   const scenes = Object.values(story.scenes).filter(
-    (s) => s.id.startsWith('EP05_ACT05') || s.chapter === 'EP06'
+    (s) =>
+      s.id.startsWith('EP05_ACT05') || (s.chapter === 'EP06' && ['ACT01', 'ACT02'].includes(s.act))
   );
   expect(scenes).toHaveLength(32);
   expect(scenes.filter((s) => s.kind === 'choice')).toHaveLength(6);
@@ -72,7 +73,7 @@ it('has fifteen ordered sections, six effective decisions, explicit speakers and
     5, 5, 5, 5, 5,
   ]);
   expect(dir.find((c) => c.id === 'EP06')!.acts.map((a) => a.sections.length)).toEqual([
-    5, 5, 0, 0, 0,
+    5, 5, 5, 5, 5,
   ]);
 });
 it('uses all 71 complete original PNGs with exact archive hashes and dimensions', async () => {
@@ -179,7 +180,7 @@ it('executes all 405 transfer / ACT01 / ACT02 combinations with exact signed res
             }
             expect(result.state.readChapters).not.toContain('EP06');
             expect(scene.completion?.scope).toBe('ACT');
-            expect(scene.completion?.nextSceneId).toBeUndefined();
+            expect(scene.completion?.nextSceneId).toBe('EP06_ACT03_SC01');
           }
   expect(variants.size).toBe(11);
 }, 30000);

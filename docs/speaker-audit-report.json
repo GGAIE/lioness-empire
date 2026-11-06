@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 4859,
-    "thoughts": 56,
-    "narration": 2134,
+    "dialogue": 5449,
+    "thoughts": 66,
+    "narration": 2309,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -125,6 +125,48 @@
       "sceneId": "EP06_ACT02_SC05",
       "segmentId": "L001",
       "text": "第六團的臨時行政室裡，莉姆斯把剛送到的回函整理成三疊。她已經不再把「某某願意協助」寫成「某某已經完成」。每一份文件都分開標記：已到位、已答應、待核准、尚未安排。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT03_SC01_FLAVOR_01_COMMON",
+      "segmentId": "L001",
+      "text": "芬利將幾年前的案件索引放上桌。檔案首頁有王室採購印記，但事件標註停在「待補交承運證明」。後續年度找不到完整結案書。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT03_SC02",
+      "segmentId": "L007",
+      "text": "兩人依序找到同年的合約、款項與驗收摘要：款項依「完整原料重量」請撥；裝貨抄本卻記錄「處理後濃縮材料」的封裝重量。理論上兩者不能簡單對換，而不同年度又重複出現高度相似的驗收代碼。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT03_SC02_FLAVOR_04_COMMON",
+      "segmentId": "L001",
+      "text": "司書從庫架深處取出舊案停查通知。奧特丹相關單位當年曾提出補件請求，但王宮資料室沒有留下完整收件回執。芬利用一張空白紙分別列出「已證實」「待核對」「不應推論」三欄。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT03_SC04_B",
+      "segmentId": "L014",
+      "text": "她注意到後面的王室服飾，「……等等，你還帶了攝政公主？」",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT05_SC01",
+      "segmentId": "L012",
+      "text": "米耶爾打開隨身帶來的儀程冊，開始說明這場「早就談好了」的聖女選拔。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segmentId": "L001",
+      "text": "夜深。回到留宿處後，奧莉維亞把兩份完全不同風格的「邀請」攤在桌上。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
+      "segmentId": "L003",
+      "text": "另一份，則是艾拉偷偷塞進她衣服裡的書面提案；它靈活、主動、像在她還沒說「我願意聽」以前，就已經先把值得聽的內容送到她手上。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

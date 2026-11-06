@@ -265,14 +265,24 @@ for (num,title),(start,end),cg in zip(section_titles('6-2',845),bounds('6-2',845
 manifest=load('content/manifests/story.json');characters=load('content/characters/index.json');oldassets=load('content/manifests/assets.json')
 defs={'TAMARA_TEMP_HOUSING':False,'F2_LEDGER_ANOMALY_FOUND':False,'F2_INVESTIGATION_PENDING':False,'T1_STATUS':'PENDING','S1_STATUS':'PENDING',TRANSFER:False,'T1_S1_RESOLVED':False,D1:'UNSET','ELLA_DEPARTED_FOR_AOTEDAN':False,**{k:'UNSET' for k in CH},'B1_FINLEY':False,'B2_SHALIA':False,'B3_OFFICIALS':False,'A1_STATUS':'PENDING','EP06_A1_RESOLVED':False,'EP06_DISASTER_PERSONALLY_INSPECTED':False}
 for k,v in defs.items():manifest['flags'][k]=dict(initial=v,description='2026-11-06 使用者逐字劇本與明定選項效果；任務成敗不自動增加未授權CLEAR或鎖定政治路線。')
-manifest['version']='0.14.2-reader-staging'
+ep06_path=ROOT/'content/episodes/ep06/chapter.json'
+existing_ep06=load('content/episodes/ep06/chapter.json') if ep06_path.exists() else {}
+later_acts=[s for s in existing_ep06.get('scenes',[]) if s['act'] in ('ACT03','ACT04','ACT05')]
+if not later_acts:manifest['version']='0.14.2-reader-staging'
 next(c for c in manifest['chapters'] if c['id']=='EP06').update(status='DRAFT_AVAILABLE',file='episodes/ep06/chapter.json',entry='EP06_ACT01_SC01')
 p5chapter=load('content/episodes/ep05/chapter.json');p5chapter['scenes']=[s for s in p5chapter['scenes'] if s['act']!='ACT05']+[s for s in scenes if s['chapter']=='EP05']
 previous=next(s for s in p5chapter['scenes'] if s['act']=='ACT04' and s.get('completion'))
 previous['completion'].pop('pendingLabel',None);previous['completion'].update(nextSceneId='EP05_ACT05_SC01',continueLabel='進入第五幕',nextLabel='第五幕〈庇護的代價〉')
 p5chapter['version']='1.1.0';p5chapter['source']=p5chapter['source'].split('；ACT05')[0].split('。ACT05未提供')[0]+'；ACT05 v1.0已接入，完成第五章並接續EP06。'
 write('content/episodes/ep05/chapter.json',p5chapter)
-write('content/episodes/ep06/chapter.json',dict(schemaVersion=1,id='EP06',status='DRAFT',version='1.2.0',source='使用者EP06 ACT01 v1.0、ACT02 v1.2完整劇本與原圖；第二幕數值由使用者2026-11-06在本聊天指定。ACT03尚未提供。',scenes=[s for s in scenes if s['chapter']=='EP06']))
+ep06_scenes=[s for s in scenes if s['chapter']=='EP06']
+if later_acts:
+    previous_end=next(s['completion'] for s in existing_ep06['scenes'] if s['act']=='ACT02' and 'completion' in s)
+    next(s for s in ep06_scenes if s['act']=='ACT02' and 'completion' in s)['completion']=previous_end
+    existing_ep06['scenes']=ep06_scenes+later_acts
+else:
+    existing_ep06=dict(schemaVersion=1,id='EP06',status='DRAFT',version='1.2.0',source='使用者EP06 ACT01 v1.0、ACT02 v1.2完整劇本與原圖；第二幕數值由使用者2026-11-06在本聊天指定。ACT03尚未提供。',scenes=ep06_scenes)
+write('content/episodes/ep06/chapter.json',existing_ep06)
 characters.update(labels);write('content/characters/index.json',characters)
 write('content/manifests/story.json',manifest)
 write('content/manifests/assets.json',[a for a in oldassets if not a['id'].startswith(('EP05-ACT05-','EP06-ACT01-','EP06-ACT02-'))]+assets)

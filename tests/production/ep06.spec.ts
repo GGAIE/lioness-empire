@@ -5,12 +5,19 @@ import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { root } from '../../scripts/load-content';
-test('production ships all 71 new original PNGs without archive substitutions', async ({
+test('production ships all 157 original PNGs for the fifth chapter finale and EP06', async ({
   request,
 }) => {
   test.setTimeout(60000);
   let count = 0;
-  for (const folder of ['ep05/act05', 'ep06/act01', 'ep06/act02']) {
+  for (const folder of [
+    'ep05/act05',
+    'ep06/act01',
+    'ep06/act02',
+    'ep06/act03',
+    'ep06/act04',
+    'ep06/act05',
+  ]) {
     const audit = JSON.parse(
       await readFile(`${root}/content/sources/${folder}/asset-audit.json`, 'utf8')
     );
@@ -26,5 +33,5 @@ test('production ships all 71 new original PNGs without archive substitutions', 
       count++;
     }
   }
-  expect(count).toBe(71);
+  expect(count).toBe(157);
 });
