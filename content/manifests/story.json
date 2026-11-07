@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.15.0-ep06-complete",
+  "version": "0.16.0-interlude-ep07-act01-act02",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -62,7 +62,9 @@
     {
       "id": "EP07",
       "title": "無旗者",
-      "status": "NOT_YET_AVAILABLE"
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep07/chapter.json",
+      "entry": "EP07_ACT01_SC01"
     },
     {
       "id": "EP08",
@@ -418,6 +420,46 @@
     "F3_RESOLUTION": {
       "initial": "PENDING",
       "description": "第六章第三至五幕劇本的事件狀態。"
+    },
+    "ROUTE_06": {
+      "initial": "UNSET",
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "EP07_REFORM_RESPONSE": {
+      "initial": "UNSET",
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "EP07_ACT01_SECRETARY_BONUS_CLAIMED": {
+      "initial": false,
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "T2_STARTED": {
+      "initial": false,
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "F4_STARTED": {
+      "initial": false,
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "EP07_BORDER_REPORT_RECEIVED": {
+      "initial": false,
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "EP07_ACT02_REFUGEE_RESPONSE": {
+      "initial": "UNSET",
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "S3_CLEAR": {
+      "initial": false,
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "S3_RESOLVED_ONCE": {
+      "initial": false,
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "SOPHIE_CORONATED": {
+      "initial": false,
+      "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
     }
   },
   "migrations": {

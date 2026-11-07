@@ -1,0 +1,13 @@
+{
+  "priorSceneCount": 153,
+  "retainedSceneCount": 153,
+  "missingScenes": [],
+  "changedStoryFields": [],
+  "directoryFixSections": [
+    "EP06_ACT03_SC04",
+    "EP06_ACT03_SC05",
+    "EP06_ACT04_SC03"
+  ],
+  "liveVersionCompared": "0.15.0-ep06-complete.reader-v1",
+  "notes": "線上五幕資料與舊版本機一致；本次保留所有既有標題、段落及選項，改為顯示有前置條件的小節標題，並銜接新幕間。"
+}

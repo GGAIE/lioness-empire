@@ -43,7 +43,11 @@ export function chapterDirectory(
       const plan = story.plan?.chapters.find((p) => p.id === ch.id);
       const scenes = Object.values(story.scenes).filter(
         (s) =>
-          s.chapter === ch.id && (!state || !s.availableWhen || evaluate(state, s.availableWhen))
+          s.chapter === ch.id &&
+          (!state ||
+            !s.availableWhen ||
+            evaluate(state, s.availableWhen) ||
+            s.directoryVisibleWhenLocked)
       );
       const actIds = [
         ...new Set([
@@ -71,28 +75,54 @@ export function chapterDirectory(
         return {
           id,
           number,
-          label: actName(number),
+          label: authored.some((s) => s.interlude) ? '幕間' : actName(number),
           title,
           sections: [...groups.entries()].map(([number, group]) => {
-            const entry = group[0];
-            const branchIds = new Set(group.flatMap((s) => s.choices.map((c) => c.next)));
+            const eligible = state
+              ? group.filter((s) => !s.availableWhen || evaluate(state, s.availableWhen))
+              : group;
+            const entry = eligible[0] ?? group[0];
+            const readable = eligible.length ? eligible : group;
+            const branchIds = new Set(readable.flatMap((s) => s.choices.map((c) => c.next)));
             const complete = (s: Scene) =>
               (state
                 ? visibleSegments(story, { ...state, currentSceneId: s.id })
                 : s.segments
               ).every((p) => read.has(`${s.id}:${p.id}`));
-            const ordinary = group.filter((s) => !branchIds.has(s.id));
-            const decisions = group.filter((s) => s.kind === 'choice');
+            const ordinary = readable.filter((s) => !branchIds.has(s.id));
+            const decisions = readable.filter((s) => s.kind === 'choice');
+            const selectedPathRead = () => {
+              const visited = new Set<string>();
+              let current: Scene | undefined = entry;
+              while (current && !visited.has(current.id)) {
+                visited.add(current.id);
+                if (!complete(current)) return false;
+                let target: string | undefined;
+                if (current.kind === 'choice') {
+                  const currentId: string = current.id;
+                  const choice: Scene['choices'][number] | undefined = current.choices.find((c) =>
+                    state!.decisionLog.includes(`${currentId}:${c.id}`)
+                  );
+                  if (!choice) return false;
+                  target = choice.next;
+                } else target = nextSceneId(story, { ...state!, currentSceneId: current.id });
+                current = readable.find((s) => s.id === target);
+              }
+              return true;
+            };
             return {
               id: entry.id,
               number,
               title: entry.title,
               sceneIds: group.map((s) => s.id),
               read:
-                ordinary.every(complete) &&
-                decisions.every((s) =>
-                  s.choices.some((c) => complete(group.find((b) => b.id === c.next)!))
-                ),
+                eligible.length > 0 &&
+                (state
+                  ? selectedPathRead()
+                  : ordinary.every(complete) &&
+                    decisions.every((s) =>
+                      s.choices.some((c) => complete(group.find((b) => b.id === c.next)!))
+                    )),
             };
           }),
         };
@@ -112,7 +142,15 @@ export function navigableScenes(story: Story, state: GameState, unlocked = false
   if (unlocked)
     return new Set(
       chapterDirectory(story, [], state).flatMap((c) =>
-        c.acts.flatMap((a) => a.sections.map((s) => s.id))
+        c.acts.flatMap((a) =>
+          a.sections
+            .filter(
+              (s) =>
+                !story.scenes[s.id].availableWhen ||
+                evaluate(state, story.scenes[s.id].availableWhen!)
+            )
+            .map((s) => s.id)
+        )
       )
     );
   const reached = new Set<string>();
@@ -173,7 +211,9 @@ export function openDirectorySection(
     const chapter = story.plan?.chapters.find((c) => c.id === story.scenes[id].chapter);
     if (!chapter) throw Error('找不到章節資料。');
     n.campaign.chapter = chapter.id;
-    n.campaign.act = Number(story.scenes[id].act.replace('ACT', ''));
+    n.campaign.act = story.scenes[id].interlude
+      ? 5
+      : Number(story.scenes[id].act.replace('ACT', ''));
   }
   return n;
 }

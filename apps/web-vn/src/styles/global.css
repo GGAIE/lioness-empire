@@ -1018,6 +1018,25 @@ input[type='range'] {
   gap: 14px;
   line-height: 1.7;
 }
+.toast.special-ending-toast {
+  top: max(1rem, env(safe-area-inset-top));
+  right: 1rem;
+  bottom: auto;
+  left: auto;
+  max-width: calc(100vw - 2rem);
+  transform: none;
+}
+@keyframes special-ending-fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.game-frame.special-ending-fade {
+  animation: special-ending-fade 1s 0.8s both;
+}
 .toast button {
   border: 0;
   padding: 0 4px;

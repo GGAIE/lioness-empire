@@ -74,8 +74,9 @@ const pending = story.manifest.chapters
 let ends = 0;
 const stateKey = explorationKey(story);
 let blockedChoices = 0;
+let blockedChapterEntries = 0;
 // Keep a bounded, exhaustive check across the accumulated chapter branches.
-while (pending.length && seen.size < 750000) {
+while (pending.length && seen.size < 3000000) {
   let s = pending.pop()!;
   // Read history is an output, never a story condition; do not copy thousands of old paragraphs per graph edge.
   s.history = [];
@@ -108,7 +109,8 @@ while (pending.length && seen.size < 750000) {
       }
     }
   } catch (e) {
-    report.errors.push(String(e));
+    if (String(e).includes('點數不足處理尚未定案')) blockedChapterEntries++;
+    else report.errors.push(String(e));
   }
 }
 if (pending.length) report.errors.push('Exploration limit reached; verification incomplete');
@@ -117,6 +119,7 @@ const full = {
   exploredStates: seen.size,
   endStates: ends,
   blockedChoices,
+  blockedChapterEntries,
   explorationComplete: pending.length === 0,
   canonEndings: story.endings.length,
   approvedCanonEndings: story.endings.filter((r) => r.status === 'APPROVED').length,

@@ -88,7 +88,8 @@ function play(method: string, transferred: boolean, s2: string, t2: string, f3: 
       const again = markRead(story, state);
       expect(again.campaign).toEqual(state.campaign);
       expect(again.clear).toEqual(state.clear);
-      if (!scene.completion?.nextSceneId) return { state, images, seenChoices, lines, boundary };
+      if (scene.completion?.scope === 'CHAPTER')
+        return { state, images, seenChoices, lines, boundary };
       state = continueChapter(story, state);
     } else {
       state = advance(story, state);
@@ -150,9 +151,9 @@ it('runs all 40 investigation, resettlement, gate and authorization combinations
             expect(state.readChapters).toContain('EP06');
             expect(story.scenes[state.currentSceneId].completion).toMatchObject({
               scope: 'CHAPTER',
-              nextChapterId: 'EP07',
+              nextChapterId: 'EP06',
             });
-            expect(story.scenes[state.currentSceneId].completion?.nextSceneId).toBeUndefined();
+            expect(story.scenes[state.currentSceneId].completion?.nextSceneId).toBe('EP06_ACT06_SC01');
             expect(currentCg(story, state)).toBeUndefined();
             runs++;
           }

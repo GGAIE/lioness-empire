@@ -11,7 +11,8 @@ export function useAudio(
   musicVolume: number,
   sfxVolume: number,
   selected: string,
-  onError: (m: string) => void
+  onError: (m: string) => void,
+  suspended = false
 ) {
   const music = useRef<HTMLAudioElement | null>(null),
     effect = useRef<HTMLAudioElement | null>(null);
@@ -23,7 +24,7 @@ export function useAudio(
   const [enabled, setEnabled] = useState(false),
     [status, setStatus] = useState<MusicStatus>('stopped'),
     [error, setError] = useState('');
-  const track = selected === 'story' ? bgm : selected;
+  const track = suspended ? undefined : selected === 'story' ? bgm : selected;
   function fail(message: string) {
     wanted.current = false;
     music.current?.pause();
@@ -35,7 +36,7 @@ export function useAudio(
     const a = music.current,
       request = ++generation.current;
     if (!a) return;
-    const asset = story.assets.find((x) => x.id === id && x.type === 'bgm');
+    const asset = suspended ? undefined : story.assets.find((x) => x.id === id && x.type === 'bgm');
     if (error) onError('');
     setError('');
     if (!asset) {

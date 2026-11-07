@@ -16033,7 +16033,8 @@
         "op": "eq",
         "value": "A"
       },
-      "choiceMode": "DIALOGUE_FLAVOR"
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06A_A",
@@ -16101,7 +16102,8 @@
         "op": "eq",
         "value": "A"
       },
-      "next": "EP06_ACT03_SC04_FLAVOR_06A_COMMON"
+      "next": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06A_B",
@@ -16169,7 +16171,8 @@
         "op": "eq",
         "value": "A"
       },
-      "next": "EP06_ACT03_SC04_FLAVOR_06A_COMMON"
+      "next": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06A_COMMON",
@@ -16298,7 +16301,8 @@
         "op": "eq",
         "value": "A"
       },
-      "next": "EP06_ACT03_SC05"
+      "next": "EP06_ACT03_SC05",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_B",
@@ -16558,7 +16562,8 @@
         "op": "eq",
         "value": "B"
       },
-      "choiceMode": "DIALOGUE_FLAVOR"
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06B_A",
@@ -16618,7 +16623,8 @@
         "op": "eq",
         "value": "B"
       },
-      "next": "EP06_ACT03_SC04_FLAVOR_06B_COMMON"
+      "next": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06B_B",
@@ -16678,7 +16684,8 @@
         "op": "eq",
         "value": "B"
       },
-      "next": "EP06_ACT03_SC04_FLAVOR_06B_COMMON"
+      "next": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06B_COMMON",
@@ -16833,7 +16840,8 @@
         "op": "eq",
         "value": "B"
       },
-      "next": "EP06_ACT03_SC05"
+      "next": "EP06_ACT03_SC05",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_C",
@@ -17051,7 +17059,8 @@
         "op": "eq",
         "value": "C"
       },
-      "choiceMode": "DIALOGUE_FLAVOR"
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06C_A",
@@ -17110,7 +17119,8 @@
         "op": "eq",
         "value": "C"
       },
-      "next": "EP06_ACT03_SC04_FLAVOR_06C_COMMON"
+      "next": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06C_B",
@@ -17169,7 +17179,8 @@
         "op": "eq",
         "value": "C"
       },
-      "next": "EP06_ACT03_SC04_FLAVOR_06C_COMMON"
+      "next": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC04_FLAVOR_06C_COMMON",
@@ -17364,7 +17375,8 @@
         "op": "eq",
         "value": "C"
       },
-      "next": "EP06_ACT03_SC05"
+      "next": "EP06_ACT03_SC05",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC05",
@@ -17552,7 +17564,8 @@
           "value": "UNSET"
         }
       },
-      "choiceMode": "DIALOGUE_FLAVOR"
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC05_FLAVOR_07_A",
@@ -17614,7 +17627,8 @@
           "value": "UNSET"
         }
       },
-      "next": "EP06_ACT03_SC05_FLAVOR_07_COMMON"
+      "next": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC05_FLAVOR_07_B",
@@ -17676,7 +17690,8 @@
           "value": "UNSET"
         }
       },
-      "next": "EP06_ACT03_SC05_FLAVOR_07_COMMON"
+      "next": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC05_FLAVOR_07_COMMON",
@@ -17771,7 +17786,8 @@
           "value": "UNSET"
         }
       },
-      "choiceMode": "DIALOGUE_FLAVOR"
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC05_FLAVOR_08_A",
@@ -17833,7 +17849,8 @@
           "value": "UNSET"
         }
       },
-      "next": "EP06_ACT03_SC05_FLAVOR_08_COMMON"
+      "next": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC05_FLAVOR_08_B",
@@ -17895,7 +17912,8 @@
           "value": "UNSET"
         }
       },
-      "next": "EP06_ACT03_SC05_FLAVOR_08_COMMON"
+      "next": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT03_SC05_FLAVOR_08_COMMON",
@@ -18282,7 +18300,8 @@
         "nextSceneId": "EP06_ACT04_SC01",
         "continueLabel": "進入第四幕",
         "nextLabel": "第四幕〈代價與承諾〉"
-      }
+      },
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC01",
@@ -20251,7 +20270,8 @@
           }
         ]
       },
-      "choiceMode": "DIALOGUE_FLAVOR"
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_FLAVOR_05_A",
@@ -20366,7 +20386,8 @@
           }
         ]
       },
-      "next": "EP06_ACT04_SC03_FLAVOR_05_COMMON"
+      "next": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_FLAVOR_05_B",
@@ -20481,7 +20502,8 @@
           }
         ]
       },
-      "next": "EP06_ACT04_SC03_FLAVOR_05_COMMON"
+      "next": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_FLAVOR_05_COMMON",
@@ -20978,7 +21000,8 @@
           }
         ]
       },
-      "choiceMode": "DIALOGUE_FLAVOR"
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_FLAVOR_06_A",
@@ -21093,7 +21116,8 @@
           }
         ]
       },
-      "next": "EP06_ACT04_SC03_FLAVOR_06_COMMON"
+      "next": "EP06_ACT04_SC03_FLAVOR_06_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_FLAVOR_06_B",
@@ -21208,7 +21232,8 @@
           }
         ]
       },
-      "next": "EP06_ACT04_SC03_FLAVOR_06_COMMON"
+      "next": "EP06_ACT04_SC03_FLAVOR_06_COMMON",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_FLAVOR_06_COMMON",
@@ -21561,7 +21586,8 @@
           }
         ]
       },
-      "choiceMode": "STORY"
+      "choiceMode": "STORY",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_T2_A",
@@ -21696,7 +21722,8 @@
           }
         ]
       },
-      "next": "EP06_ACT04_SC04"
+      "next": "EP06_ACT04_SC04",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC03_T2_B",
@@ -21831,7 +21858,8 @@
           }
         ]
       },
-      "next": "EP06_ACT04_SC04"
+      "next": "EP06_ACT04_SC04",
+      "directoryVisibleWhenLocked": true
     },
     {
       "id": "EP06_ACT04_SC04",
@@ -27498,10 +27526,4626 @@
       "completion": {
         "title": "第六章完 · 聖安奴加斯的聖女選拔",
         "scope": "CHAPTER",
+        "nextChapterId": "EP06",
+        "policy": "NO_SCORING",
+        "nextSceneId": "EP06_ACT06_SC01",
+        "continueLabel": "進入幕間",
+        "nextLabel": "幕間〈不能兼顧的王國〉"
+      }
+    },
+    {
+      "id": "EP06_ACT06_SC01",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 1,
+      "title": "兩份麻煩",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "夜色沉入王宮高聳的石牆。衛兵的腳步聲沿迴廊遠去，只有大公主私人書房的窗戶仍透著燭光。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-01"
+        },
+        {
+          "id": "L002",
+          "text": "「終於回來了。」",
+          "kind": "thought",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（心聲）"
+        },
+        {
+          "id": "L003",
+          "text": "「選拔、招待、禮節、談話……聖安奴加斯的鐘聲到現在還在我腦子裡響。」",
+          "kind": "thought",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞（心聲）"
+        },
+        {
+          "id": "L004",
+          "text": "她解開披肩，將外套交給侍從，回頭便看見芬利早已站在桌邊，手裡還拿著一沓待閱文件。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-02"
+        },
+        {
+          "id": "L005",
+          "text": "「芬利。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「是，大公主。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「你現在的表情，跟『讓我好好睡一覺』沒有半點關係。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「我原本打算明早再送過來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "「那就明早啊。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "「但您在馬車上說，今晚先看看兩邊真正開出了什麼條件。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L011",
+          "text": "「……我那時候是不是太有責任感了？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "「是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L013",
+          "text": "桌上並排放著兩份截然不同的文件。聖光會的封緘紙張潔白厚實，邊緣透出溫暖金光；艾拉那份則摺得十分俐落，紙角隱隱浮現藍紫色符文。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-03"
+        },
+        {
+          "id": "L014",
+          "text": "「一份是聖女親口邀請合作，讓米耶爾接著處理的正式提案。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L016",
+          "text": "「另一份，是艾拉不問我同不同意，就塞進我衣服裡的東西。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "「也沒錯。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L018",
+          "text": "「……我是不是應該從兩邊都很會給人添麻煩這件事開始分析？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "「至少先看完內容再下結論。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L020",
+          "text": "先看哪份文件？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「聖光會的那份一直在發光。」",
+          "next": "EP06_ACT06_SC01_FLAVOR_01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「艾拉最好沒有又塞進奇怪的魔法。」",
+          "next": "EP06_ACT06_SC01_FLAVOR_01_B",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC01_FLAVOR_01_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 1,
+      "title": "兩份麻煩",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「聖光會的那份一直在發光。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「它連睡前都不肯低調一點嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「對方大概認為這樣比較莊嚴。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-03",
+      "next": "EP06_ACT06_SC01_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC01_FLAVOR_01_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 1,
+      "title": "兩份麻煩",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「艾拉最好沒有又塞進奇怪的魔法。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「她塞東西時的笑容實在太可疑了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「她確實留了法陣，不過先後仍以您的閱讀習慣為準。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-03",
+      "next": "EP06_ACT06_SC01_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC01_FLAVOR_01_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 1,
+      "title": "兩份麻煩",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞坐回椅子，將羽毛筆擺在一旁。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-04"
+        },
+        {
+          "id": "L002",
+          "text": "「好。我們今晚認真一點，兩份都看完。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「正合我意。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「只是要先說好，如果有人在文件裡藏了一整篇讚美自己的演講，你不能要我跟著鼓掌。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「我只要求您把條款讀完。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「……這是什麼不祥的回答？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "她先將手放在聖光會的封緘上。蠟印竟然輕輕亮了起來。",
+          "kind": "narration",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-03",
+      "next": "EP06_ACT06_SC02"
+    },
+    {
+      "id": "EP06_ACT06_SC02",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 2,
+      "title": "會唱歌的公文",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HOLY_DOCUMENT",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞解開封緘。紙頁並未落在桌上，而是像被某雙看不見的手托住，層層舒展開來。金色光點沿著頁邊流動，數行字化作小小的光符飄浮半空。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-05"
+        },
+        {
+          "id": "L002",
+          "text": "一道柔和、莊重得有些過頭的歌聲響起。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L003",
+          "text": "「願溫暖照進寒門，願遠行者得歸途；願安度因的每一寸土地，迎來彼此扶持的明日——」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HOLY_DOCUMENT",
+          "speakerLabel": "唱詩文件"
+        },
+        {
+          "id": "L004",
+          "text": "「……」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「……」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「它在唱歌。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「是的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「為什麼公文會唱歌？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「正式名稱大概是聖詠文書。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「我不在乎它叫什麼！為什麼一份政治合作文件需要有自己的演唱會？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「聖光會可能認為，以聲音宣讀更能體現公開見證的精神。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "「……真會體現。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "金光在半空中變成簡單的幻景：運送糧食的馬車、修院收容所、照料傷病的神職人員，以及地方官署與教會共同點核物資的場面。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-06"
+        },
+        {
+          "id": "L014",
+          "text": "「讓糧食抵達飢餓之人，讓藥草送到病榻之前；讓遠近修院與官署同行，使困苦得以減輕——」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HOLY_DOCUMENT",
+          "speakerLabel": "唱詩文件"
+        },
+        {
+          "id": "L015",
+          "text": "奧莉維亞逐行讀著下方真正的條款。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L016",
+          "text": "「救濟網絡、緊急醫療、地方物資轉運……這部分倒是有料。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "「卡巴岡德的事已經證明，聖光會確實能動員地方人手與救濟資源。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L018",
+          "text": "「尤其王室補給到不了的時候，他們原本就在地方上。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "「但常設窗口意味著，雙方不是做完一次救濟就散。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L020",
+          "text": "「嗯。我記下來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L021",
+          "text": "對第一樂章的反應",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「這比我想像中實用。」",
+          "next": "EP06_ACT06_SC02_FLAVOR_02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「唱得再好，也得有人真的把糧食送到。」",
+          "next": "EP06_ACT06_SC02_FLAVOR_02_B",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 12,
+          "cue": "原稿註記",
+          "text": "【第一樂章：民生與救濟】"
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC02_FLAVOR_02_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 2,
+      "title": "會唱歌的公文",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這比我想像中實用。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「他們不是只靠歌聲讓人信服。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「好處很實在，這點必須承認。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-06",
+      "next": "EP06_ACT06_SC02_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC02_FLAVOR_02_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 2,
+      "title": "會唱歌的公文",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「唱得再好，也得有人真的把糧食送到。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「所以條款列了運送、核對與責任窗口。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「那就把這幾行畫起來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-06",
+      "next": "EP06_ACT06_SC02_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC02_FLAVOR_02_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 2,
+      "title": "會唱歌的公文",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HOLY_DOCUMENT",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "歌聲轉為更加宏亮的段落。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「願誓約不被遺忘，願承諾在眾人面前站立；讓領主與民眾共同見證，讓信任化作長久的秩序——」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HOLY_DOCUMENT",
+          "speakerLabel": "唱詩文件"
+        },
+        {
+          "id": "L003",
+          "text": "新的光影顯示城鎮廣場上的地方代表、神職人員與貴族，公開宣讀義務與救濟承諾。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-07"
+        },
+        {
+          "id": "L004",
+          "text": "「這部分我倒是喜歡。那些會議上答應得很漂亮、轉頭就裝死的領主，至少會多一點壓力。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「公開見證讓失信的成本提高。不過記錄由誰保管、違約由誰認定，都需要確認。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「所以見證不等於裁判。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「最好從一開始就區分清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「他們這樣唱歌，居然還真能把我引到關鍵條款。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「它的設計目的應該就是這個。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「願彼此的手永不分離，願光明的守護長居城邦；願公義的聲音遍及各地——」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HOLY_DOCUMENT",
+          "speakerLabel": "唱詩文件"
+        },
+        {
+          "id": "L011",
+          "text": "這一頁的內容比先前密集。文件提出設立常設協調會議、教會代表出席特定地方事務討論、共同核對救濟資料及公開誓約的長期機制。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-08"
+        },
+        {
+          "id": "L012",
+          "text": "「……等一下。唱了半天，真正想談的權力在這裡。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「長期執行的確需要明確權限。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "「可是這個『共同監督』的界線呢？如果地方官署跟教會代表吵起來，最後誰說了算？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「文件目前提出的是協商機制。最終王室裁決權，正式會談時必須寫明。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L016",
+          "text": "「還有名冊。救濟名冊跟行政名冊不能想混就混。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "「我會列入待問事項。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L018",
+          "text": "「這幫人，幫忙真的會幫，可是伸手要權力的速度也真不慢。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "看到長期權限條款",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「這些制度不能直接讓他們說了算。」",
+          "next": "EP06_ACT06_SC02_FLAVOR_03_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「這麼完整的網絡，不可能完全不給權限。」",
+          "next": "EP06_ACT06_SC02_FLAVOR_03_B",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "原稿註記",
+          "text": "【第二樂章：地方誓約與公開見證】"
+        },
+        {
+          "beforeSegment": 9,
+          "cue": "原稿註記",
+          "text": "【第三樂章：長期制度與參與權】"
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-06",
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC02_FLAVOR_03_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 2,
+      "title": "會唱歌的公文",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這些制度不能直接讓他們說了算。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「那就明定王室保有最終行政授權。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「先在旁邊標上『必談』。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-08",
+      "next": "EP06_ACT06_SC02_FLAVOR_03_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC02_FLAVOR_03_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 2,
+      "title": "會唱歌的公文",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這麼完整的網絡，不可能完全不給權限。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「正是如此。關鍵是給到哪裡，以及能否撤回或修正。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「那我就更得親自談。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-08",
+      "next": "EP06_ACT06_SC02_FLAVOR_03_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC02_FLAVOR_03_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 2,
+      "title": "會唱歌的公文",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HOLY_DOCUMENT",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "文件像終於等到高潮似的，將最後一頁展到半空。光芒灑在牆壁與天花板上，唱詩也變得格外悠長。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「願善意不失其名，願王土記得人民；願相扶的雙手，帶領安度因邁向晨曦——」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HOLY_DOCUMENT",
+          "speakerLabel": "唱詩文件"
+        },
+        {
+          "id": "L003",
+          "text": "這段祝詞唱得比預期還久。奧莉維亞耐心聽完，雙手抱胸，偶爾看一眼芬利，芬利則低頭確認清單。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L004",
+          "text": "終於，最後一個音節消散。文件的金光沉下來，落回桌面。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L005",
+          "text": "「……終於完了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP07-INTERLUDE-09"
+        },
+        {
+          "id": "L006",
+          "text": "「民生、地方治理、公共誓約、長期合作授權，確實都說明得很完整。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「我也覺得內容不差。條款雖然得再談，但這些人真的有能力幫王國做事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「您的評價呢？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "奧莉維亞想了一想，又看了看那份終於不再唱歌的文件。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L010",
+          "text": "「我覺得這個不適合當背景音樂。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「我想，它原本就不是背景音樂。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "「那就不要唱得像要把整個王宮都變成聖堂嘛！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "她將文件小心放到左邊，沒有因為吐槽就丟掉它。真正重要的段落，全都已經被她做上標記。",
+          "kind": "narration",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "原稿註記",
+          "text": "【終章：祝福與結束】"
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-08",
+      "next": "EP06_ACT06_SC03"
+    },
+    {
+      "id": "EP06_ACT06_SC03",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 3,
+      "title": "艾拉的精彩簡報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELLA_RECORDING",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞將艾拉塞給她的那份提案展開，按照旁邊簡短的啟動標記觸碰紙面。藍紫色的魔法線條繞著文件邊緣亮起，形成一個小型投影法陣。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-10"
+        },
+        {
+          "id": "L002",
+          "text": "一道半透明人影浮在桌上方。艾拉的紅髮與招牌笑容，在投影裡依然鮮明。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L003",
+          "text": "「哎呀，親愛的奧莉維亞殿下！很高興妳願意看完我特地準備的合作提案！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L004",
+          "text": "「我才剛打開，妳就說我看完？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「看來是預先錄好的開場白。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「相信妳一定很好奇，我們能為安度因帶來多麼令人期待的改變！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L007",
+          "text": "「這人說話還是一樣油。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「她對自己相當有信心。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "「她不是有信心，她是把信心直接做成了魔法影像。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "艾拉揮手，光影形成安度因各地城鎮的示意連線，倉儲、書信、政令往返都被可視化為抽象的光點。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-11"
+        },
+        {
+          "id": "L011",
+          "text": "「想像一下，某個地方官署發生了問題，王室不必等到三封遲到的公文抵達，才知道事情已經鬧大！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L012",
+          "text": "「……這一點實在太懂我了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「訊息時效、行政比對與留存記錄，確實會提升。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "「但這套資訊由誰維護、誰能調閱？不能所有鑰匙都在學院派手裡。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「沒錯。王室必須擁有可稽核的權限與自己的管理人員。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L016",
+          "text": "「把彼此孤立的地方資料連接起來，才能讓真正有效的政策抵達真正需要的人！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L017",
+          "text": "「她這句說得好像很漂亮。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L018",
+          "text": "「但技術規格要另看附件。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L019",
+          "text": "「我知道。妳講得像我沒被學院派的附件折磨過一樣。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L020",
+          "text": "行政通訊",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「這能省下多少無謂的公文？」",
+          "next": "EP06_ACT06_SC03_FLAVOR_04_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「他們可別把王室資料全部握在手裡。」",
+          "next": "EP06_ACT06_SC03_FLAVOR_04_B",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 9,
+          "cue": "原稿註記",
+          "text": "【第一部分：通訊與行政資料】"
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC03_FLAVOR_04_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 3,
+      "title": "艾拉的精彩簡報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這能省下多少無謂的公文？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「若權限與程序設計完善，會非常可觀。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「所以『設計完善』又是重點。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-11",
+      "next": "EP06_ACT06_SC03_FLAVOR_04_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC03_FLAVOR_04_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 3,
+      "title": "艾拉的精彩簡報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「他們可別把王室資料全部握在手裡。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「可以把存取、備份與核對的權限分開。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「很好，先記下來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-11",
+      "next": "EP06_ACT06_SC03_FLAVOR_04_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC03_FLAVOR_04_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 3,
+      "title": "艾拉的精彩簡報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELLA_RECORDING",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "投影切換成魔法研究室、學術講堂和技術培訓場所。從醫療鑑定到公共工程，數個虛幻的操作畫面在艾拉身側展開。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-12"
+        },
+        {
+          "id": "L002",
+          "text": "「技術需要人才，人才需要制度。只有兩者一起建立，王國才能真正掌握自己的未來！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L003",
+          "text": "「我承認，這句沒錯。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「在王國內培養自己的法術技術官與行政人員，能降低對外部機構的依賴。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「但是學院派最會把人才培育變成人事安插。今天推薦研究者，明天就有人開始爭主管位置。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「那就公開任用標準，並把行政權與研究權分開。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「你看，這就是我為什麼說，他們的優點和毛病總是綁在一起。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "投影展開複雜的環形圖樣。物資、人力、跨區域調度與鑑定程序被化成一條條互相連結的光線；艾拉語氣熱情得像已經站在勝利演說的台上。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-13"
+        },
+        {
+          "id": "L009",
+          "text": "「當研究與行政真正合作，效率不再是願望！鑑定不再靠猜測！制度也能有更清晰的依據！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L010",
+          "text": "「這部分也確實用得上。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「技術鑑定、證據保全與跨機構程序，都可以因此更可靠。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "「但我可不想再看見所有人都說自己有專業，最後誰也不肯替結果負責。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「所以決策責任仍必須留在有正式授權的人手上。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "「嗯。她的方案有價值，但絕對不能整包吞下去。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "學院方案的代價",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「學院最擅長的是把簡單事情講得很難。」",
+          "next": "EP06_ACT06_SC03_FLAVOR_05_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「有技術不代表就能管政治。」",
+          "next": "EP06_ACT06_SC03_FLAVOR_05_B",
+          "effects": []
+        }
+      ],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "原稿註記",
+          "text": "【第二部分：研究、教育與人才】"
+        },
+        {
+          "beforeSegment": 7,
+          "cue": "原稿註記",
+          "text": "【第三部分：鑑定、調度與制度改革】"
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-11",
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC03_FLAVOR_05_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 3,
+      "title": "艾拉的精彩簡報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「學院最擅長的是把簡單事情講得很難。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「至少這次她做了圖。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「我該謝謝她嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-13",
+      "next": "EP06_ACT06_SC03_FLAVOR_05_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC03_FLAVOR_05_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 3,
+      "title": "艾拉的精彩簡報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「有技術不代表就能管政治。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「這是最需要分清楚的界線。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「看來正式談判得很長。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-13",
+      "next": "EP06_ACT06_SC03_FLAVOR_05_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC03_FLAVOR_05_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 3,
+      "title": "艾拉的精彩簡報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ELLA_RECORDING",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "投影回到艾拉本人，她的笑容比剛才又燦爛了幾分。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「至於合作的細節嘛，研究資源、人才交流、技術授權、長期制度協調，該寫的我都寫進文件了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L003",
+          "text": "「這句才像真正的內容。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「大家都有想得到的東西，才有理由把合作做長久。這點，妳一定很清楚吧，殿下？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L005",
+          "text": "「……她竟然連這種話都不避諱。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「以艾拉的作風來說，很正常。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「如果願意聊聊，只要沿著文件最下方的循跡符文啟動聯絡，就能直接找到我。別擔心，這次是本人，不是現在這段錄影。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L008",
+          "text": "「……她還知道我們會分不清？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「她預先考慮得很完整。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「那麼，祝妳有個美好的夜晚！我期待聽見妳的聲音。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA_RECORDING",
+          "speakerLabel": "艾拉（預錄影像）"
+        },
+        {
+          "id": "L011",
+          "text": "艾拉揮手道別，光影緩緩散去。這一次，整份簡報確實完整結束。信件下方仍留著小小的循跡符文，但沒有自動啟動。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-14"
+        },
+        {
+          "id": "L012",
+          "text": "「她真的很會講。講得這麼油，還是把條件列得清清楚楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「學院派的技術支援確實有吸引力。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "「而且我也知道他們能做到什麼。問題是他們每次碰到自己的利益，事情就不見得那麼漂亮了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「您已經看過不少相關情況。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L016",
+          "text": "「我可不想再重修一遍。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "奧莉維亞將兩份已完整閱畢的文件擺齊。兩種不同色澤的光，照在她的手背上。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L018",
+          "text": "「好處都看完了。那麼，來談談那些沒被唱出來、也沒被錄進簡報裡的東西吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [
+        {
+          "beforeSegment": 0,
+          "cue": "原稿註記",
+          "text": "【第四部分：合作條件與聯絡方式】"
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-13",
+      "next": "EP06_ACT06_SC04"
+    },
+    {
+      "id": "EP06_ACT06_SC04",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 4,
+      "title": "殺人不用刀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞用筆桿敲了敲會唱歌的文件。它不再出聲，只留一線平和的微光。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-15"
+        },
+        {
+          "id": "L002",
+          "text": "「教會的優勢我知道。人手多、地方根扎得深、講求承諾，也真能幫忙。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「但他們幫著幫著，就總會問一句：這項事務能不能交給我們共同監督？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「因為他們認為，要履行承諾，就需要相應的制度權限。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「第一次很合理，第二次也很合理。等到第十次，我可能就發現他們連我家大門要開幾點都能提出建議。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「嚴格來說，那大概不屬於救濟事項。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「我當然知道，我是在比喻。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「至少這個比喻很精準。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "奧莉維亞想起聖安奴加斯的大聖堂。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L011",
+          "text": "「尤其那位新聖女，薩拉菲尼亞……我不覺得她是什麼善茬。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "「我同意。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L013",
+          "text": "「連你都這麼乾脆？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L014",
+          "text": "「我看過聖光會怎麼辦事。他們很有耐心，也很擅長讓對手在合法程序裡失去施力的位置。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L015",
+          "text": "「像艾拉說的那件救濟制度改革？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L016",
+          "text": "「那件事只是其中一種方法。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L017",
+          "text": "「……殺人不用刀。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L018",
+          "text": "「有時候甚至不需要讓對方失去頭銜。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L019",
+          "text": "芬利停了一下，視線越過桌面。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L020",
+          "text": "「大公主，您還記得西方邦聯嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L021",
+          "text": "旁白與歷史畫面交錯：幾座西方城邦在丘陵、河谷與古老道路間彼此相望，城牆與商隊昭示曾經的繁榮。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-16"
+        },
+        {
+          "id": "L022",
+          "text": "「被雅桑德人一座一座滅掉的那個邦聯？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L023",
+          "text": "「是。它的城邦本來就有各自的利益，並非從來團結無間。但聖光會當年的連橫政策，讓這些裂痕變得更難修補。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L024",
+          "text": "「他們分別對不同城邦提出不同的合作安排。每個城邦都覺得，先保全自己的利益最安全。最後，真正需要一起承擔風險時，卻沒有任何人願意先動。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP07-INTERLUDE-17"
+        },
+        {
+          "id": "L025",
+          "text": "「……結果那些城邦都覺得，別人會先倒霉。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L026",
+          "text": "「直到輪到自己。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L027",
+          "text": "遠景的旗幟一面一面消失，防線斷成互不相連的孤島，雅桑德人的軍隊逐步穿過原本可以聯合抵抗的土地。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-18"
+        },
+        {
+          "id": "L028",
+          "text": "「直接動手的是雅桑德人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L029",
+          "text": "「沒有錯。征服者的責任不能抹去。邦聯本身也不是完全無辜。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L030",
+          "text": "「可如果要我說，西方邦聯最後會變成那樣，至少有一半得算在聖光會頭上。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L031",
+          "text": "「他們沒有親手攻下那些城。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L032",
+          "text": "「他們的政策讓那些城失去了彼此救援的能力。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L033",
+          "text": "回顧教會政治風險",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「他們到底要多少權力才會滿足？」",
+          "next": "EP06_ACT06_SC04_FLAVOR_06_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「薩拉菲尼亞會不會也這麼做？」",
+          "next": "EP06_ACT06_SC04_FLAVOR_06_B",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC04_FLAVOR_06_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 4,
+      "title": "殺人不用刀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「他們到底要多少權力才會滿足？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「組織一旦習慣透過權限解決問題，就很難自行停止擴張。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「那就不能指望對方替我們踩煞車。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-18",
+      "next": "EP06_ACT06_SC04_FLAVOR_06_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC04_FLAVOR_06_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 4,
+      "title": "殺人不用刀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「薩拉菲尼亞會不會也這麼做？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「那是前人的政策，不能直接算到她身上。但她顯然有能力做出同樣精密的安排。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「……這就夠我警覺了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-18",
+      "next": "EP06_ACT06_SC04_FLAVOR_06_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC04_FLAVOR_06_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 4,
+      "title": "殺人不用刀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞在燭光裡回想起那位年輕聖女。她的銀髮、深色內袍與淺色外衣，還有溫柔而精準的微笑，一樣都沒有變得陰森。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-19"
+        },
+        {
+          "id": "L002",
+          "text": "「我不覺得她會故意害人。她對蘇菲的加冕安排甚至很乾脆。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「正因為她知道什麼時候該合作，才更值得重視。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「我可以想像，她會很愉快地幫我把事情辦好，然後也很愉快地問我，下一項權限可不可以交給教會。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「那麼您就需要懂得說不。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「……偏偏她說得很可能都很合理。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "奧莉維亞把教會文件輕輕推回桌面一側，沒有否定其中的好處。",
+          "kind": "narration",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-18",
+      "next": "EP06_ACT06_SC05"
+    },
+    {
+      "id": "EP06_ACT06_SC05",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 5,
+      "title": "三十年的代價",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞又拿起艾拉的文件。藍紫色的紋路靜靜留在頁角，像在等待下一次啟動。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-20"
+        },
+        {
+          "id": "L002",
+          "text": "「可是魔法學派又好到哪裡去？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「您心裡應該有答案。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「我當然有。它們的人才是真的，學問是真的，技術也是。問題是這些人只要一談到研究方向、資源、人事，往往就開始吵誰最有資格決定。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「不同學派的研究方法與治理哲學本來就會分歧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「有分歧沒關係。可是每個人都覺得自己比別人聰明，最後就會開始想著多拿一些經費、多握一點行政權、多占幾個席位。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「學院派確實常把技術問題與政治利益綁在一起。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「最荒謬的是，他們還可能真心相信自己是在替所有人做好事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "奧莉維亞將文件翻到「國際技術合作」那一頁。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L010",
+          "text": "「芬利，南方大陸那場仗，打了多久？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「二、三十年。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "歷史畫面掠過陌生的南方海岸與邊境，遠處爆發魔法火光。旗幟、人群、營地和無法辨認的敵對剪影交織在厚重的煙塵裡。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-21"
+        },
+        {
+          "id": "L013",
+          "text": "「起因是學院派的政策爭議，最後演變成跟虛空族人的大戰。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L014",
+          "text": "「是。至於最初每一方的具體責任，歷史記錄還有很多爭論。能確定的，是那些政策讓衝突走到無法輕易收拾的地步。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L015",
+          "text": "「然後一次談不攏，就繼續打。再談不攏，又繼續打。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L016",
+          "text": "「許多人的一生都被那場戰爭耗掉了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L017",
+          "text": "畫面切到被草木覆蓋的破損軍械、荒廢的道路與無名墓碑。沒有誇張的血腥，只有時間與死亡留下的重量。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-22"
+        },
+        {
+          "id": "L018",
+          "text": "「死了多少人？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "「很多。多到已經不該用一份談判摘要去帶過。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L020",
+          "text": "「……」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L021",
+          "text": "「最後呢？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L022",
+          "text": "「最後還是在南方大陸跟虛空族人妥協。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L023",
+          "text": "歷史蒙太奇呈現一張漫長、幾乎沒有慶祝意味的談判桌。兩側代表保持距離，後方是一片難以修復的土地。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-23"
+        },
+        {
+          "id": "L024",
+          "text": "「所以打了二、三十年，死了那麼多人，最後還是得坐下來談？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L025",
+          "text": "「是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L026",
+          "text": "「那學院派到底拿到了什麼？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L027",
+          "text": "「沒有拿到他們當初想要的實質成果。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L028",
+          "text": "「……真了不起。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L029",
+          "text": "「這不就是偷雞不著蝕把米嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L030",
+          "text": "「如果用民間的話說，是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L031",
+          "text": "評價南方大陸爭議",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「他們就不能早一點承認要妥協？」",
+          "next": "EP06_ACT06_SC05_FLAVOR_07_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「他們真的從那場戰爭裡學到東西了嗎？」",
+          "next": "EP06_ACT06_SC05_FLAVOR_07_B",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC05_FLAVOR_07_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 5,
+      "title": "三十年的代價",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「他們就不能早一點承認要妥協？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「當所有人已付出巨大代價，承認原本的目標無法實現，反而會變得非常困難。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「難道繼續讓人死就比較容易？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-23",
+      "next": "EP06_ACT06_SC05_FLAVOR_07_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC05_FLAVOR_07_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 5,
+      "title": "三十年的代價",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「他們真的從那場戰爭裡學到東西了嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「有些人學到了，有些派系可能只記得自己失去了什麼。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「……這就是我擔心的地方。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-23",
+      "next": "EP06_ACT06_SC05_FLAVOR_07_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC05_FLAVOR_07_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 5,
+      "title": "三十年的代價",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "歷史畫面散去。書房重歸安靜，艾拉的提案還放在原處。奧莉維亞望著它，像剛剛才重新認識了某件早已知道的事。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-24"
+        },
+        {
+          "id": "L002",
+          "text": "「這兩邊真有意思。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「怎麼說？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「聖光會唱著團結與和平，卻曾經讓一個邦聯沒辦法團結。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「學院派講著理性與進步，卻把南方大陸的爭議搞成了幾十年的戰爭。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「那是兩段性質不同的歷史。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「我知道。我沒有說所有神官或學者都應該為前人的錯負責。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「但我也不能假裝，現在把權力交給他們，就完全沒有同樣的風險。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「越了解他們，越覺得跟誰合作都很難放心。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「因為他們的能力是真的，問題也是真的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "兩人沉默。這次沒有誰急著再講一句笑話。",
+          "kind": "narration",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-23",
+      "next": "EP06_ACT06_SC06"
+    },
+    {
+      "id": "EP06_ACT06_SC06",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 6,
+      "title": "道不同，不相為謀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞將兩份文件往桌子中間推近了一點。兩種光芒碰在一起，誰也沒有消失，只是讓桌上的陰影變得格外複雜。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-25"
+        },
+        {
+          "id": "L002",
+          "text": "「既然兩邊都能幫忙，那我為什麼不能兩邊都選？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「普通合作，當然可以。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「那就兩邊各做各的，不是很好？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「問題是，他們都希望成為安度因未來的主要政治合作支柱。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "芬利指著兩份條款。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L007",
+          "text": "「聖光會認為地方秩序、共同體承諾與宗教見證不能被當成純粹的行政工具。魔法學院派則相信，專業鑑定、統一資訊與中央制度應該主導改革。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「那只是方法不同吧？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「不只是方法。他們對於由誰判斷、誰保管記錄、誰能介入地方、王室應該把多少權限交給外部機構，立場都不一樣。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「也就是說，兩個組織不只是互相討厭。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「是。它們在很多核心問題上，真的認為對方的制度方向有問題。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "芬利舉出一個具體情境：某地發生糧食與救濟爭議，聖光會希望透過地方代表與公開誓約共同協調；學院派主張依行政數據、技術鑑定與中央調度解決。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L013",
+          "text": "「如果兩邊都握有您授予的最高優先決策權，那麼他們第一件事就可能是爭論——究竟誰有權替王國定義『正確的處理方式』。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "「……而不是先把糧食送到人手上。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「最壞的情況，是如此。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L016",
+          "text": "「然後最後還是得我出面吵架。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "「而且不只一次。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L018",
+          "text": "「光想就頭痛。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "對無法兼顧的擔憂",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「我不想把王室的權力分成兩半送出去。」",
+          "next": "EP06_ACT06_SC06_FLAVOR_08_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「我不想讓這個國家變成他們吵架的地方。」",
+          "next": "EP06_ACT06_SC06_FLAVOR_08_B",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP06_ACT06_SC06_FLAVOR_08_A",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 6,
+      "title": "道不同，不相為謀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我不想把王室的權力分成兩半送出去。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「正因為如此，您需要一套有明確界線的主導合作安排。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「一方主導，另一方繼續就具體事務合作。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-25",
+      "next": "EP06_ACT06_SC06_FLAVOR_08_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC06_FLAVOR_08_B",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 6,
+      "title": "道不同，不相為謀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我不想讓這個國家變成他們吵架的地方。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「那就不能給雙方互相衝突的最高授權。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「我明白了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-25",
+      "next": "EP06_ACT06_SC06_FLAVOR_08_COMMON"
+    },
+    {
+      "id": "EP06_ACT06_SC06_FLAVOR_08_COMMON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 6,
+      "title": "道不同，不相為謀",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞靠回椅背，視線在金色與紫色之間移動。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-26"
+        },
+        {
+          "id": "L002",
+          "text": "「所以，沒有第三條路？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「沒有能讓他們同時取得最高政治主導權的第三條路。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「聖光會與魔法學派的立場完全不同。道不同，不相為謀。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「說得真乾脆。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「我不能因為您希望有比較輕鬆的答案，就假裝那個答案存在。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「……你這人真是不懂得體貼。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「如果只談救濟與技術，他們仍然可以彼此合作。可是王國未來的主要制度，您必須決定由誰優先參與建立。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "「一邊很會用溫柔的方法拿走權力。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "「另一邊很會為了利益，把聰明人的事情弄成一團亂。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「您已經明白兩方的風險。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "「但我也確實需要他們的能力。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「正是如此。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "她走向窗邊，望著沉睡中的王都。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L015",
+          "text": "「那就不能拿西方邦聯和南方大陸的故事，當成永遠不做事的藉口。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L016",
+          "text": "「我同意。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L017",
+          "text": "「選哪一邊，我就得想好要如何跟他們合作，也要承擔後果。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L018",
+          "text": "「這就是攝政的責任。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L019",
+          "text": "金色文書在左，紫色提案在右；奧莉維亞的手停在兩份文件之間。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-27"
+        },
+        {
+          "id": "L020",
+          "text": "「那麼，大公主。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L021",
+          "text": "「您決定好了嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-25",
+      "next": "EP06_ACT06_SC07"
+    },
+    {
+      "id": "EP06_ACT06_SC07",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 7,
+      "title": "您的決定",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "您的決定",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「我明天去找米耶爾。」",
+          "next": "EP06_ACT06_SC07_SACRED",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "拿起艾拉的信，循符文聯絡她。",
+          "next": "EP06_ACT06_SC07_WORLD",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「算了，我不想玩了。」",
+          "next": "EP06_ACT06_SC07_ABANDON",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-27",
+      "choiceMode": "STORY"
+    },
+    {
+      "id": "EP06_ACT06_SC07_SACRED",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 7,
+      "title": "您的決定",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞把手放在聖光會的文件上。淡淡的金色光芒映在她的指尖。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-28"
+        },
+        {
+          "id": "L002",
+          "text": "「我明天去找米耶爾。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "芬利抬頭看了她一眼。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L004",
+          "text": "「您決定先跟聖光會正式談？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「嗯。薩拉菲尼亞既然親自開口，還說後續是米耶爾負責，我就去找真正辦事的人談。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「我明早替您安排時間。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「先把地方救濟和公開見證分開談。至於常設代表、共同監督、名冊和行政裁決權，全部列成待確認事項。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「我會把王室保有最終裁決權一併列在前面。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "「很好。能合作是一回事，不能讓他們直接拿走我們原本該負責的事情。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "芬利拿起日程冊，迅速寫下明日會談的安排。奧莉維亞重新坐下，肩膀放鬆了一點。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-29"
+        },
+        {
+          "id": "L011",
+          "text": "「還有一件事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "「請說。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L013",
+          "text": "「你明天替我提醒米耶爾——請帶正常的文件來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L014",
+          "text": "芬利看向桌上那份已經唱完的公文。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L015",
+          "text": "「我會特別註明。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L016",
+          "text": "「我不是討厭他們的祝福。我只是覺得，談政治的時候不需要有副歌。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "「這是合理要求。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L018",
+          "text": "「至於薩拉菲尼亞……以後大概還會跟她見很多次吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "「恐怕是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L020",
+          "text": "「那就來看看，她跟我到底誰比較難纏。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L021",
+          "text": "她看了一眼窗外漸淡的夜色。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L022",
+          "text": "「好了，明天再來處理他們。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L023",
+          "text": "「晚安，大公主。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-28",
+      "completionEffects": {
+        "when": {
+          "path": "flags.ROUTE_06",
+          "op": "eq",
+          "value": "UNSET"
+        },
+        "effects": [
+          {
+            "type": "flag",
+            "key": "ROUTE_06",
+            "value": "SACRED"
+          },
+          {
+            "type": "political",
+            "value": "SACRED"
+          }
+        ]
+      },
+      "completion": {
+        "title": "幕間完 · 不能兼顧的王國",
+        "scope": "ACT",
         "nextChapterId": "EP07",
         "policy": "NO_SCORING",
-        "pendingLabel": "幕間〈不能兼顧的王國〉· 敬請期待"
+        "nextSceneId": "EP07_ACT01_SC01",
+        "continueLabel": "進入第七章",
+        "nextLabel": "第七章〈改革的價碼〉"
       }
+    },
+    {
+      "id": "EP06_ACT06_SC07_WORLD",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 7,
+      "title": "您的決定",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ELLA"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞拿起艾拉的信。她翻到最後一頁，找到藏在書面提案下緣的循跡符文，沿著細小紋路滑過指尖。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-30"
+        },
+        {
+          "id": "L002",
+          "text": "「既然她連聯絡方式都留好了，那就現在問問她。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「您要立即聯絡艾拉女士？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「反正她一定猜得到我會這麼做。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "紫色光圈自桌面浮起。這次沒有預錄簡報的固定開場，而是先有短暫的呼叫光紋，接著才傳來對面真實的聲音。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "艾拉的半透明影像在法陣裡逐漸穩定。背景與姿態顯示她正處於另一個真實空間，而非之前的簡報舞台。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-31"
+        },
+        {
+          "id": "L007",
+          "text": "「哎呀，奧莉維亞殿下。這麼晚了還想到我？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L008",
+          "text": "「明明是妳叫我用這個的吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「呵呵，我只是準備得比較周到。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L010",
+          "text": "「妳連打開信的瞬間都要先誇自己一遍嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「如果能讓妳記得我，這點代價很值得。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L012",
+          "text": "「……我看完妳的合作提案了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「哦？那我就該認真聽了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L014",
+          "text": "「通訊、行政整合、研究合作和人才培育，確實很吸引人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「我就知道殿下看得出價值。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L016",
+          "text": "「但研究資源怎麼分、技術授權給到哪裡、學院派的人事關係怎麼處理，這些我可都要問清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "「當然。該帶的資料，我會一併準備。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L018",
+          "text": "「那就兩天後見面吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L019",
+          "text": "「兩天後？沒問題。我會先安排一個方便商談的地方，再把消息送過來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L020",
+          "text": "「記得帶能直接看的文件。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L021",
+          "text": "「我那段影像難道不好看？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L022",
+          "text": "「好看。就是太油。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L023",
+          "text": "「呵呵，那就當面再讓妳評價一次。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L024",
+          "text": "「不用特地增加這個項目！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L025",
+          "text": "「好啦。兩天後見，殿下。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉"
+        },
+        {
+          "id": "L026",
+          "text": "法陣關閉，房間恢復寧靜。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L027",
+          "text": "「芬利，幫我把後天的行程留出來。另外，把那些可能引起學院派系衝突的條款標好。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L028",
+          "text": "「明白。我也會準備資料授權、技術移轉與責任追究的問題清單。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L029",
+          "text": "「嗯。至少這次，她不能只靠那張嘴把所有事情講過去。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L030",
+          "text": "「我想她原本也知道，您不是容易敷衍的人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L031",
+          "text": "「……這話從你嘴裡說出來還挺好聽的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-30",
+      "completionEffects": {
+        "when": {
+          "path": "flags.ROUTE_06",
+          "op": "eq",
+          "value": "UNSET"
+        },
+        "effects": [
+          {
+            "type": "flag",
+            "key": "ROUTE_06",
+            "value": "WORLD"
+          },
+          {
+            "type": "political",
+            "value": "WORLD"
+          }
+        ]
+      },
+      "completion": {
+        "title": "幕間完 · 不能兼顧的王國",
+        "scope": "ACT",
+        "nextChapterId": "EP07",
+        "policy": "NO_SCORING",
+        "nextSceneId": "EP07_ACT01_SC01",
+        "continueLabel": "進入第七章",
+        "nextLabel": "第七章〈改革的價碼〉"
+      }
+    },
+    {
+      "id": "EP06_ACT06_SC07_ABANDON",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 7,
+      "title": "您的決定",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "兩人同時抬頭，看向玩家。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「……蛤？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「你確定？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「等等，我們處理了六章的麻煩，現在好不容易要決定王國未來，你說不玩了？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「後面還有政治、戰爭、外交，也可能有某些玩家期待的成人遊戲內容。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「喂！最後那句不用特別拿出來講吧！」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「我只是提醒他，現在退出會錯過後續劇情。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「……你還真的就這樣對著外面的人講起話來了？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "芬利直視玩家，奧莉維亞則維持一臉不可置信的神情。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP07-INTERLUDE-33"
+        },
+        {
+          "id": "L010",
+          "text": "「最後確認一次。你是真的打算放棄，回到主畫面嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L011",
+          "text": "確定放棄並回到主畫面？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "CONFIRM",
+          "text": "「確定，我不玩了。」",
+          "next": "EP06_ACT06_SC07_RETURN_TO_TITLE",
+          "effects": []
+        },
+        {
+          "id": "CANCEL",
+          "text": "「取消，繼續遊戲。」",
+          "next": "EP06_ACT06_SC07_CANCEL",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-32",
+      "transient": true,
+      "choiceMode": "STORY"
+    },
+    {
+      "id": "EP06_ACT06_SC07_RETURN_TO_TITLE",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 7,
+      "title": "您的決定",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "兩人依然看著玩家。奧莉維亞先露出無奈的神情，芬利則將手上的文件整齊放回桌上。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「……你還真的確定啊。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「好吧，那麼沒有什麼結局了，你就回主畫面。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-34",
+      "transient": true,
+      "specialEnding": "RETURN_TO_TITLE",
+      "completion": {
+        "title": "回主畫面",
+        "scope": "ACT",
+        "nextChapterId": "EP06",
+        "policy": "NO_SCORING",
+        "pendingLabel": "特殊結局〈回主畫面〉"
+      }
+    },
+    {
+      "id": "EP06_ACT06_SC07_CANCEL",
+      "chapter": "EP06",
+      "act": "ACT06",
+      "sceneNumber": 7,
+      "title": "您的決定",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "source": "sources/ep07/interlude/01_Full_VN_Script.md",
+      "version": "1.0.0",
+      "planNodeId": "EP06_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "芬利轉向奧莉維亞。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「大公主，當然是不行，如果你選不了，還是我幫你選吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「……還是我來吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「那麼，請您決定。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "您的決定",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「我明天去找米耶爾。」",
+          "next": "EP06_ACT06_SC07_SACRED",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "拿起艾拉的信，循符文聯絡她。",
+          "next": "EP06_ACT06_SC07_WORLD",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "interlude": true,
+      "cg": "EP07-INTERLUDE-27",
+      "choiceMode": "STORY"
     }
   ]
 }

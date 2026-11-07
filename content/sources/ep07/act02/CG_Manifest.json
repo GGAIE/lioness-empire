@@ -1,0 +1,185 @@
+{
+  "episode": "EP07",
+  "act": "ACT02",
+  "title": "Rouenne New Queen",
+  "logical_slots": 24,
+  "prompt_variants": 25,
+  "images_included": 0,
+  "items": [
+    {
+      "cg_id": "CG01",
+      "scene": "SC01",
+      "condition": "SACRED",
+      "file": "CG_Prompts/CG01_SC01_SACRED.md",
+      "title": "Palace morning paperwork"
+    },
+    {
+      "cg_id": "CG02",
+      "scene": "SC01",
+      "condition": "SACRED",
+      "file": "CG_Prompts/CG02_SC01_SACRED.md",
+      "title": "Cleric delivers coronation invitation"
+    },
+    {
+      "cg_id": "CG03",
+      "scene": "SC01",
+      "condition": "WORLD",
+      "file": "CG_Prompts/CG03_SC01_WORLD.md",
+      "title": "Finley wakes princess at tower"
+    },
+    {
+      "cg_id": "CG04",
+      "scene": "SC01",
+      "condition": "WORLD",
+      "file": "CG_Prompts/CG04_SC01_WORLD.md",
+      "title": "Invitation over breakfast"
+    },
+    {
+      "cg_id": "CG05",
+      "scene": "SC01",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG05_SC01_BOTH.md",
+      "title": "Invitation and refugees records"
+    },
+    {
+      "cg_id": "CG06",
+      "scene": "SC02",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG06_SC02_BOTH.md",
+      "title": "Shalia arrives at meeting"
+    },
+    {
+      "cg_id": "CG07",
+      "scene": "SC02",
+      "condition": "S1_SUCCESS",
+      "file": "CG_Prompts/CG07_SC02_S1_SUCCESS.md",
+      "title": "Settled nobles ledger"
+    },
+    {
+      "cg_id": "CG08",
+      "scene": "SC02",
+      "condition": "S1_SUCCESS",
+      "file": "CG_Prompts/CG08_SC02_S1_SUCCESS.md",
+      "title": "Exiles now local neighbors"
+    },
+    {
+      "cg_id": "CG09",
+      "scene": "SC02",
+      "condition": "S1_FAIL",
+      "file": "CG_Prompts/CG09_SC02_S1_FAIL.md",
+      "title": "Unfinished shelter reports"
+    },
+    {
+      "cg_id": "CG10",
+      "scene": "SC02",
+      "condition": "S1_FAIL",
+      "file": "CG_Prompts/CG10_SC02_S1_FAIL.md",
+      "title": "Refugee distribution crisis"
+    },
+    {
+      "cg_id": "CG11",
+      "scene": "SC02",
+      "condition": "S1_FAIL_B",
+      "file": "CG_Prompts/CG11_SC02_S1_FAIL_B.md",
+      "title": "Delay causes tangible cost"
+    },
+    {
+      "cg_id": "CG12",
+      "scene": "SC03",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG12_SC03_BOTH.md",
+      "title": "Rouenne black-flag capital arrival"
+    },
+    {
+      "cg_id": "CG13",
+      "scene": "SC03",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG13_SC03_BOTH.md",
+      "title": "Contrasting city reactions"
+    },
+    {
+      "cg_id": "CG14",
+      "scene": "SC03",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG14_SC03_BOTH.md",
+      "title": "Sophie welcomes Olivia"
+    },
+    {
+      "cg_id": "CG15",
+      "scene": "SC03",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG15_SC03_BOTH.md",
+      "title": "A question about exiles"
+    },
+    {
+      "cg_id": "CG16",
+      "scene": "SC03",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG16_SC03_BOTH.md",
+      "title": "Palace black banners at dusk"
+    },
+    {
+      "cg_id": "CG17",
+      "scene": "SC04",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG17_SC04_BOTH.md",
+      "title": "Coronation hall assembled"
+    },
+    {
+      "cg_id": "CG18",
+      "scene": "SC04",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG18_SC04_BOTH.md",
+      "title": "Saraphinia leads coronation"
+    },
+    {
+      "cg_id": "CG19",
+      "scene": "SC04",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG19_SC04_BOTH.md",
+      "title": "Sophie coronation symbolic climax"
+    },
+    {
+      "cg_id": "CG20",
+      "scene": "SC04",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG20_SC04_BOTH.md",
+      "title": "Diplomatic congratulations"
+    },
+    {
+      "cg_id": "CG21",
+      "scene": "SC04",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG21_SC04_BOTH.md",
+      "title": "Sophie after ceremony"
+    },
+    {
+      "cg_id": "CG22",
+      "scene": "SC05",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG22_SC05_BOTH.md",
+      "title": "Quiet council hall visit"
+    },
+    {
+      "cg_id": "CG23S",
+      "scene": "SC05",
+      "condition": "SACRED",
+      "file": "CG_Prompts/CG23S_SC05_SACRED.md",
+      "title": "Brief Saraphinia conversation"
+    },
+    {
+      "cg_id": "CG23W",
+      "scene": "SC05",
+      "condition": "WORLD",
+      "file": "CG_Prompts/CG23W_SC05_WORLD.md",
+      "title": "Finley and local magic academy"
+    },
+    {
+      "cg_id": "CG24",
+      "scene": "SC05",
+      "condition": "BOTH",
+      "file": "CG_Prompts/CG24_SC05_BOTH.md",
+      "title": "Departure from Rouenne"
+    }
+  ]
+}

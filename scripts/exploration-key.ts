@@ -3,12 +3,13 @@ import type { Story, Condition, GameState } from '../packages/narrative-core/sch
 export function explorationKey(story: Story) {
   const live = new Map<string, Set<string>>(),
     reachable = new Map<string, Set<string>>(),
-    resources = new Map<string, Set<string>>();
+    resources = new Map<string, Set<string>>(),
+    chapters = new Map<string, Set<string>>();
   const refs = (c: Condition, set: Set<string>) => {
     if ('all' in c) c.all.forEach((x) => refs(x, set));
     else if ('any' in c) c.any.forEach((x) => refs(x, set));
     else if ('not' in c) refs(c.not, set);
-    else if (c.path.startsWith('flags.')) set.add(c.path.slice(6));
+    else set.add(c.path);
   };
   const edges = new Map<string, string[]>();
   for (const scene of Object.values(story.scenes)) {
@@ -25,9 +26,12 @@ export function explorationKey(story: Story) {
       ...scene.choices.flatMap((c) => c.previewEffects?.map((p) => p.when) ?? []),
     ])
       if (c) refs(c, set);
-    if (scene.kind === 'end' && !scene.completion)
+    if (scene.kind === 'end' && !scene.completion) {
+      set.add('ending');
       for (const rule of story.endings) if (rule.when) refs(rule.when, set);
+    }
     live.set(scene.id, set);
+    chapters.set(scene.id, new Set([scene.chapter]));
     reachable.set(scene.id, new Set(scene.kind === 'choice' ? [scene.id] : []));
     const effects = [
       ...scene.choices.flatMap((c) => [
@@ -38,6 +42,9 @@ export function explorationKey(story: Story) {
       ...(scene.settlements ?? []).flatMap((s) => s.effects),
     ];
     const reads = new Set<string>();
+    if (effects.some((e) => e.type === 'political' || e.type === 'reinforce'))
+      set.add('politicalRoute');
+    if (effects.some((e) => e.type === 'reinforce')) set.add('tarotRoute');
     if (effects.some((e) => e.type === 'points' && e.delta < 0)) reads.add('points');
     if (effects.some((e) => e.type === 'unrest' && !e.clamp)) reads.add('unrest');
     if (scene.completion?.nextSceneId && scene.completion.nextChapterId !== scene.chapter) {
@@ -60,7 +67,7 @@ export function explorationKey(story: Story) {
     changed = false;
     for (const [id, next] of edges)
       for (const to of next)
-        for (const map of [live, reachable, resources]) {
+        for (const map of [live, reachable, resources, chapters]) {
           const a = map.get(id)!,
             b = map.get(to);
           for (const key of b ?? [])
@@ -74,11 +81,22 @@ export function explorationKey(story: Story) {
     JSON.stringify([
       s.currentSceneId,
       s.currentSegmentIndex,
-      [...live.get(s.currentSceneId)!].sort().map((k) => [k, s.flags[k]]),
-      s.clear,
+      [...live.get(s.currentSceneId)!]
+        .sort()
+        .map((k) => [
+          k,
+          k.startsWith('flags.')
+            ? s.flags[k.slice(6)]
+            : k.startsWith('clear.')
+              ? s.clear[k.slice(6) as keyof typeof s.clear]
+              : k === 'politicalScore'
+                ? s.politicalScore
+                : null,
+        ]),
+      live.get(s.currentSceneId)!.has('ending') ? s.clear : null,
       s.politicalRoute,
       s.tarotRoute,
-      s.politicalScore,
+      live.get(s.currentSceneId)!.has('ending') ? s.politicalScore : null,
       s.campaign && [
         s.campaign.mode,
         s.campaign.chapter,
@@ -86,7 +104,13 @@ export function explorationKey(story: Story) {
         resources.get(s.currentSceneId)!.has('points') ? s.campaign.politicalPoints : null,
         resources.get(s.currentSceneId)!.has('unrest') ? s.campaign.unrest : null,
         s.campaign.sealed,
-        s.campaign.upkeep.map((r) => r.chapter),
+        s.campaign.upkeep
+          .filter(
+            (r) =>
+              r.chapter !== story.scenes[s.currentSceneId].chapter &&
+              chapters.get(s.currentSceneId)!.has(r.chapter)
+          )
+          .map((r) => r.chapter),
       ],
       s.decisionLog.filter((e) =>
         reachable.get(s.currentSceneId)!.has(e.slice(0, e.lastIndexOf(':')))

@@ -32,10 +32,11 @@
     "ARCANA_08: DRAFT — Canon draft, no production award",
     "ARCANA_14: DRAFT — Canon draft, no production award"
   ],
-  "scenes": 683,
-  "exploredStates": 300647,
-  "endStates": 37644,
-  "blockedChoices": 1027,
+  "scenes": 905,
+  "exploredStates": 2188971,
+  "endStates": 98578,
+  "blockedChoices": 1037,
+  "blockedChapterEntries": 842,
   "explorationComplete": true,
   "canonEndings": 30,
   "approvedCanonEndings": 0,
@@ -48,7 +49,6 @@
     "unresolved": 8
   },
   "unavailableChapters": [
-    "EP07",
     "EP08",
     "EP09",
     "EP10",

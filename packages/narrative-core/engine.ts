@@ -58,7 +58,9 @@ export function initialState(story: Story): GameState {
             ...createCampaign(story.plan),
             mode: 'PLAYER',
             chapter: story.scenes[story.manifest.start].chapter,
-            act: Number(story.scenes[story.manifest.start].act.replace('ACT', '')),
+            act: story.scenes[story.manifest.start].interlude
+              ? 5
+              : Number(story.scenes[story.manifest.start].act.replace('ACT', '')),
           },
         }
       : {}),
@@ -104,6 +106,7 @@ export function applyEffects(state: GameState, effects: Effect[]): GameState {
       if ((n.politicalRoute !== 'NONE' && n.politicalRoute !== e.value) || n.tarotRoute !== 'NONE')
         throw Error('Political route is locked');
       n.politicalRoute = e.value;
+      if (n.campaign?.mode === 'PLAYER') n.campaign.politicalRoute = e.value;
     }
     if (e.type === 'reinforce') {
       if (n.tarotRoute !== 'NONE' || n.politicalRoute === 'NONE')
@@ -244,7 +247,9 @@ export function continueChapter(story: Story, state: GameState, unlocked = false
     if (scene.completion?.scope !== 'ACT' && !n.campaign.completedChapters.includes(scene.chapter))
       n.campaign.completedChapters.push(scene.chapter);
     n.campaign.chapter = chapter.id;
-    n.campaign.act = Number(story.scenes[target].act.replace('ACT', ''));
+    n.campaign.act = story.scenes[target].interlude
+      ? 5
+      : Number(story.scenes[target].act.replace('ACT', ''));
   }
   return StateSchema.parse(n);
 }

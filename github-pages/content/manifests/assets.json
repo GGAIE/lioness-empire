@@ -5734,5 +5734,637 @@
     "label": "兩份合作方向並列於桌上",
     "status": "APPROVED",
     "source": "LE_EP06_ACT05_28CG_v1.0.zip"
+  },
+  {
+    "id": "EP07-INTERLUDE-01",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG01.webp",
+    "label": "幕間 CG01",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-02",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG02.webp",
+    "label": "幕間 CG02",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-03",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG03.webp",
+    "label": "幕間 CG03",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-04",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG04.webp",
+    "label": "幕間 CG04",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-05",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG05.webp",
+    "label": "幕間 CG05",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-06",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG06.webp",
+    "label": "幕間 CG06",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-07",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG07.webp",
+    "label": "幕間 CG07",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-08",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG08.webp",
+    "label": "幕間 CG08",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-09",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG09.webp",
+    "label": "幕間 CG09",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-10",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG10.webp",
+    "label": "幕間 CG10",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-11",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG11.webp",
+    "label": "幕間 CG11",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-12",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG12.webp",
+    "label": "幕間 CG12",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-13",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG13.webp",
+    "label": "幕間 CG13",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-14",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG14.webp",
+    "label": "幕間 CG14",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-15",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG15.webp",
+    "label": "幕間 CG15",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-16",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG16.webp",
+    "label": "幕間 CG16",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-17",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG17.webp",
+    "label": "幕間 CG17",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-18",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG18.webp",
+    "label": "幕間 CG18",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-19",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG19.webp",
+    "label": "幕間 CG19",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-20",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG20.webp",
+    "label": "幕間 CG20",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-21",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG21.webp",
+    "label": "幕間 CG21",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-22",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG22.webp",
+    "label": "幕間 CG22",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-23",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG23.webp",
+    "label": "幕間 CG23",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-24",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG24.webp",
+    "label": "幕間 CG24",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-25",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG25.webp",
+    "label": "幕間 CG25",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-26",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG26.webp",
+    "label": "幕間 CG26",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-27",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG27.webp",
+    "label": "幕間 CG27",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-28",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG28.webp",
+    "label": "幕間 CG28",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-29",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG29.webp",
+    "label": "幕間 CG29",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-30",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG30.webp",
+    "label": "幕間 CG30",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-31",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG31.webp",
+    "label": "幕間 CG31",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-32",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG32.webp",
+    "label": "幕間 CG32",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-33",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG33.webp",
+    "label": "幕間 CG33",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-INTERLUDE-34",
+    "type": "cg",
+    "src": "assets/cg/ep07/interlude/CG34.webp",
+    "label": "幕間 CG34",
+    "status": "APPROVED",
+    "source": "使用者提供 interlude 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C01.webp",
+    "label": "第七章 ACT01 CGC01",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C02.webp",
+    "label": "第七章 ACT01 CGC02",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C03.webp",
+    "label": "第七章 ACT01 CGC03",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C04.webp",
+    "label": "第七章 ACT01 CGC04",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C05",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C05.webp",
+    "label": "第七章 ACT01 CGC05",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C06",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C06.webp",
+    "label": "第七章 ACT01 CGC06",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C07",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C07.webp",
+    "label": "第七章 ACT01 CGC07",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C08",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C08_SEAL_ONLY.webp",
+    "label": "第七章 ACT01 CGC08",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C09",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C09.webp",
+    "label": "第七章 ACT01 CGC09",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C10",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C10.webp",
+    "label": "第七章 ACT01 CGC10",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C11",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C11.webp",
+    "label": "第七章 ACT01 CGC11",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-C12",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_C12.webp",
+    "label": "第七章 ACT01 CGC12",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-S01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_S01.webp",
+    "label": "第七章 ACT01 CGS01",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-S02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_S02.webp",
+    "label": "第七章 ACT01 CGS02",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-S03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_S03.webp",
+    "label": "第七章 ACT01 CGS03",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-S04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_S04.webp",
+    "label": "第七章 ACT01 CGS04",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-W01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_W01.webp",
+    "label": "第七章 ACT01 CGW01",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-W02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_W02.webp",
+    "label": "第七章 ACT01 CGW02",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-W03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_W03.webp",
+    "label": "第七章 ACT01 CGW03",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT01-W04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act01/EP07_ACT01_W04.webp",
+    "label": "第七章 ACT01 CGW04",
+    "status": "APPROVED",
+    "source": "使用者提供 act01 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG01.webp",
+    "label": "第七章 ACT02 CG01",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG02.webp",
+    "label": "第七章 ACT02 CG02",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG03.webp",
+    "label": "第七章 ACT02 CG03",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG04.webp",
+    "label": "第七章 ACT02 CG04",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-05",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG05.webp",
+    "label": "第七章 ACT02 CG05",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-06",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG06.webp",
+    "label": "第七章 ACT02 CG06",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-07",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG07.webp",
+    "label": "第七章 ACT02 CG07",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-08",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG08.webp",
+    "label": "第七章 ACT02 CG08",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-09",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG09.webp",
+    "label": "第七章 ACT02 CG09",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-10",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG10.webp",
+    "label": "第七章 ACT02 CG10",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-11",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG11.webp",
+    "label": "第七章 ACT02 CG11",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-12",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG12.webp",
+    "label": "第七章 ACT02 CG12",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-13",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG13.webp",
+    "label": "第七章 ACT02 CG13",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-14",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG14.webp",
+    "label": "第七章 ACT02 CG14",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-15",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG15.webp",
+    "label": "第七章 ACT02 CG15",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-16",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG16.webp",
+    "label": "第七章 ACT02 CG16",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-17",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG17.webp",
+    "label": "第七章 ACT02 CG17",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-18",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG18.webp",
+    "label": "第七章 ACT02 CG18",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-19",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG19.webp",
+    "label": "第七章 ACT02 CG19",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-20",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG20.webp",
+    "label": "第七章 ACT02 CG20",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-21",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG21.webp",
+    "label": "第七章 ACT02 CG21",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-22",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG22.webp",
+    "label": "第七章 ACT02 CG22",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-23S",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG23S.webp",
+    "label": "第七章 ACT02 CG23S",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-23W",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG23W.webp",
+    "label": "第七章 ACT02 CG23W",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT02-24",
+    "type": "cg",
+    "src": "assets/cg/ep07/act02/CG24.webp",
+    "label": "第七章 ACT02 CG24",
+    "status": "APPROVED",
+    "source": "使用者提供 act02 圖包原圖。"
   }
 ]

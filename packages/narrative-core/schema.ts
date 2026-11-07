@@ -88,6 +88,10 @@ export const SceneSchema = z
     choiceMode: z.enum(['STORY', 'DIALOGUE_FLAVOR']).optional(),
     completionFlags: z.record(z.string().regex(/^[A-Z][A-Z0-9_]*$/), Scalar).optional(),
     availableWhen: ConditionSchema.optional(),
+    directoryVisibleWhenLocked: z.boolean().optional(),
+    interlude: z.boolean().optional(),
+    transient: z.boolean().optional(),
+    specialEnding: z.literal('RETURN_TO_TITLE').optional(),
     completionEffects: z
       .object({ when: ConditionSchema, effects: z.array(EffectSchema).min(1) })
       .strict()

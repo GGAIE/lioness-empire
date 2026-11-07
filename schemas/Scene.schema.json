@@ -88,6 +88,19 @@
         }
       ]
     },
+    "directoryVisibleWhenLocked": {
+      "type": "boolean"
+    },
+    "interlude": {
+      "type": "boolean"
+    },
+    "transient": {
+      "type": "boolean"
+    },
+    "specialEnding": {
+      "type": "string",
+      "const": "RETURN_TO_TITLE"
+    },
     "completionEffects": {
       "type": "object",
       "properties": {

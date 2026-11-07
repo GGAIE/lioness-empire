@@ -15,6 +15,13 @@ export function Library({
       <>
         <p className="muted">二十二個正位、八個逆位，記錄你走過的不同歷史。</p>
         <div className="ending-grid">
+          {meta.specialEndings?.includes('RETURN_TO_TITLE') && (
+            <article className="ending">
+              <span>特殊結局</span>
+              <h3>回主畫面</h3>
+              <small>已記錄的片刻</small>
+            </article>
+          )}
           {[...story.endings]
             .sort((a, b) =>
               a.orientation === b.orientation

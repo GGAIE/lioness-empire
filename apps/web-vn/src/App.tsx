@@ -212,7 +212,8 @@ function Game({
     segment = segments[state.currentSegmentIndex],
     key = `${nonce}:${segmentKey(story, state)}`,
     last = state.currentSegmentIndex === segments.length - 1;
-  const actLabel = actName(Number(scene.act.replace('ACT', '')));
+  const specialReturnRef = useRef<GameState | null>(null);
+  const actLabel = scene.interlude ? '幕間' : actName(Number(scene.act.replace('ACT', '')));
   const actScenes = Object.values(story.scenes).filter(
     (s) => s.chapter === scene.chapter && s.act === scene.act
   );
@@ -285,7 +286,8 @@ function Game({
     settings.bgm,
     settings.sfx,
     settings.musicTrack,
-    notify
+    notify,
+    started && scene.transient === true
   );
   const refreshSaves = useCallback(async () => {
     try {
@@ -363,6 +365,10 @@ function Game({
   const store = useCallback(
     async (slot: string, snapshot: GameState, generation = loadGeneration.current) => {
       try {
+        if (story.scenes[snapshot.currentSceneId].transient) {
+          if (!specialReturnRef.current) return;
+          snapshot = specialReturnRef.current;
+        }
         const thumb = await thumbnail(snapshot);
         if (slot === 'auto' && generation !== loadGeneration.current) return;
         await saveGame({
@@ -381,13 +387,34 @@ function Game({
     [story, refreshSaves, notify]
   );
   useEffect(() => {
-    if (!started || pending) return;
+    if (!started || pending || scene.transient) return;
     const generation = loadGeneration.current;
     autoSaveTimer.current = setTimeout(() => void store('auto', state, generation), 350);
     return () => {
       if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
     };
-  }, [state, started, pending, store]);
+  }, [state, started, pending, store, scene.transient]);
+  useEffect(() => {
+    if (!started || !scene.specialEnding || !last || !writer.complete || dialogueHidden || panel)
+      return;
+    const timer = setTimeout(() => {
+      const snapshot = specialReturnRef.current;
+      loadGeneration.current++;
+      if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
+      if (snapshot) {
+        setState(snapshot);
+        void store('auto', snapshot);
+      }
+      specialReturnRef.current = null;
+      setMeta((m) => ({ ...m, specialEndings: ['RETURN_TO_TITLE'] }));
+      setAuto(false);
+      setSkip(false);
+      setStarted(false);
+      setSettlement(null);
+      notify('結局已達成〈回主畫面〉');
+    }, 1800);
+    return () => clearTimeout(timer);
+  }, [started, scene.specialEnding, last, writer.complete, dialogueHidden, panel, store, notify]);
   const move = useCallback(() => {
     if (panel || pending || settlement || dialogueHidden || !started) return;
     if (!writer.complete) {
@@ -429,7 +456,19 @@ function Game({
   ]);
   const select = (id: string) => {
     try {
-      setState((s) => choose(story, s, id));
+      const before = stateRef.current;
+      const next = choose(story, before, id);
+      if (story.scenes[next.currentSceneId].transient && !scene.transient) {
+        specialReturnRef.current = before;
+        loadGeneration.current++;
+        if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
+        void store('auto', before);
+        audio.musicRef.current?.pause();
+        setAuto(false);
+      } else if (!story.scenes[next.currentSceneId].transient) {
+        specialReturnRef.current = null;
+      }
+      setState(next);
       setSkip(false);
     } catch (e) {
       notify(String(e));
@@ -485,6 +524,7 @@ function Game({
     return () => document.removeEventListener('keydown', onKey);
   }, [move]);
   function applyLoaded(next: GameState) {
+    specialReturnRef.current = null;
     loadGeneration.current++;
     if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
     setAuto(false);
@@ -517,7 +557,7 @@ function Game({
     }
     setDirectoryBusy(true);
     try {
-      const snapshot = stateRef.current;
+      const snapshot = specialReturnRef.current ?? stateRef.current;
       const next = openDirectorySection(
         story,
         started ? snapshot : initialState(story),
@@ -610,7 +650,7 @@ function Game({
     try {
       loadGeneration.current++;
       if (autoSaveTimer.current) clearTimeout(autoSaveTimer.current);
-      const snapshot = stateRef.current;
+      const snapshot = specialReturnRef.current ?? stateRef.current;
       await saveGame({
         slot: 'auto',
         savedAt: new Date().toISOString(),
@@ -692,7 +732,7 @@ function Game({
         </aside>
         <section
           ref={frameRef}
-          className="game-frame"
+          className={`game-frame${started && scene.specialEnding && last && writer.complete ? ' special-ending-fade' : ''}`}
           aria-label="視覺小說閱讀器"
           data-scene-id={scene.id}
           data-segment-id={segment.id}
@@ -785,7 +825,7 @@ function Game({
                   )}
                 </div>
               )}
-              {scene.completion && last && writer.complete && (
+              {scene.completion && !scene.specialEnding && last && writer.complete && (
                 <section
                   className={`chapter-complete${segment.kind === 'caption' ? ' with-caption' : ''}${chapterContinue ? ' can-continue' : ''}`}
                   aria-label="章節完成"
@@ -971,7 +1011,10 @@ function Game({
         </dialog>
       )}
       {message && !panel && !pending && (
-        <div className="toast" role="status">
+        <div
+          className={`toast${message === '結局已達成〈回主畫面〉' ? ' special-ending-toast' : ''}`}
+          role="status"
+        >
           {message}
           <button aria-label="關閉通知" onClick={() => setMessage('')}>
             ✕

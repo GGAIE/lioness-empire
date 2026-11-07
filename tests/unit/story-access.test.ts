@@ -25,13 +25,15 @@ it('accepts the requested password and migrates older preferences with access of
     storyUnlocked: false,
   });
 });
-it('opens exactly the 156 eligible authored sections without exposing demos, internal branches or future chapters', () => {
+it('keeps conditional titles visible while opening only eligible sections without exposing demos, internal branches or future chapters', () => {
   const state = initialState(story),
     ids = chapterDirectory(story, [], state).flatMap((c) =>
       c.acts.flatMap((a) => a.sections.map((s) => s.id))
     );
-  expect(ids).toHaveLength(156);
-  expect(navigableScenes(story, state, true)).toEqual(new Set(ids));
+  expect(ids).toHaveLength(176);
+  const eligible = navigableScenes(story, state, true);
+  expect(eligible.size).toBe(163);
+  expect([...eligible].every((id) => ids.includes(id))).toBe(true);
   expect(navigableScenes(story, state).has('EP04_ACT01_SC05')).toBe(false);
   for (const id of [
     'DEMO_ACT01_SC01',

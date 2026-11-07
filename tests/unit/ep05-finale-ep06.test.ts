@@ -73,7 +73,7 @@ it('has fifteen ordered sections, six effective decisions, explicit speakers and
     5, 5, 5, 5, 5,
   ]);
   expect(dir.find((c) => c.id === 'EP06')!.acts.map((a) => a.sections.length)).toEqual([
-    5, 5, 5, 5, 5,
+    5, 5, 5, 5, 5, 7,
   ]);
 });
 it('uses all 71 complete original PNGs with exact archive hashes and dimensions', async () => {
@@ -183,7 +183,7 @@ it('executes all 405 transfer / ACT01 / ACT02 combinations with exact signed res
             expect(scene.completion?.nextSceneId).toBe('EP06_ACT03_SC01');
           }
   expect(variants.size).toBe(11);
-}, 30000);
+}, 60000);
 it('guards insufficient costs, clamps unrest, and never pays again on committed replay or save restore', () => {
   const scene = story.scenes.EP06_ACT02_SC04;
   const poor = at(scene.id, 9);

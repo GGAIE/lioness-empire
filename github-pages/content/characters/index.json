@@ -103,5 +103,15 @@
   "ROYAL_ARCHIVE_LIBRARIAN": "司書",
   "SAINT_SELECTION_OFFICIANT": "主持神官",
   "SERAPHINIA": "薩拉菲尼亞",
-  "SOPHIE": "蘇菲"
+  "SOPHIE": "蘇菲",
+  "HOLY_DOCUMENT": "唱詩文件",
+  "ELLA_RECORDING": "艾拉（預錄影像）",
+  "SIXTH_ORDER_MEDIC": "軍醫",
+  "DISPLACED_OFFICIAL_A": "官員甲",
+  "DISPLACED_OFFICIAL_B": "官員乙",
+  "TRAVELLING_SCRIBE": "隨行書記",
+  "PALACE_PORTER": "搬運員",
+  "CORONATION_CLERIC": "神職人員",
+  "ROUENNE_RECEPTION": "接待官",
+  "ROUENNE_ACADEMY_DELEGATE": "魔法學派代表"
 }

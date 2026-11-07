@@ -44,6 +44,7 @@ export const MetaSchema = z
     endings: z.array(z.string()),
     chapters: z.array(z.string()),
     completedRoutes: z.array(CoverRouteSchema).optional(),
+    specialEndings: z.array(z.literal('RETURN_TO_TITLE')).optional(),
   })
   .strict();
 export type Meta = z.infer<typeof MetaSchema>;

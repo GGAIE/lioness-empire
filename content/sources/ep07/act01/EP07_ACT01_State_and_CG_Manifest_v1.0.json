@@ -1,0 +1,131 @@
+{
+  "project": "Lioness Empire",
+  "episode": "EP07",
+  "act": "ACT01",
+  "version": "v1.0",
+  "status": "DRAFT",
+  "branch_rule": "load COMMON + only selected ROUTE_06 route CGs",
+  "cg": [
+    {
+      "id": "C01",
+      "route": "COMMON"
+    },
+    {
+      "id": "C02",
+      "route": "COMMON"
+    },
+    {
+      "id": "C03",
+      "route": "COMMON"
+    },
+    {
+      "id": "C04",
+      "route": "COMMON"
+    },
+    {
+      "id": "C05",
+      "route": "COMMON"
+    },
+    {
+      "id": "C06",
+      "route": "COMMON"
+    },
+    {
+      "id": "C07",
+      "route": "COMMON"
+    },
+    {
+      "id": "C08",
+      "route": "COMMON"
+    },
+    {
+      "id": "C09",
+      "route": "COMMON"
+    },
+    {
+      "id": "C10",
+      "route": "COMMON"
+    },
+    {
+      "id": "C11",
+      "route": "COMMON"
+    },
+    {
+      "id": "C12",
+      "route": "COMMON"
+    },
+    {
+      "id": "S01",
+      "route": "SACRED"
+    },
+    {
+      "id": "S02",
+      "route": "SACRED"
+    },
+    {
+      "id": "S03",
+      "route": "SACRED"
+    },
+    {
+      "id": "S04",
+      "route": "SACRED"
+    },
+    {
+      "id": "W01",
+      "route": "WORLD"
+    },
+    {
+      "id": "W02",
+      "route": "WORLD"
+    },
+    {
+      "id": "W03",
+      "route": "WORLD"
+    },
+    {
+      "id": "W04",
+      "route": "WORLD"
+    }
+  ],
+  "choices": {
+    "flavor_groups": 7,
+    "major_group": "SC03",
+    "sacred": {
+      "each_ps": -10,
+      "each_unrest": -10,
+      "options": [
+        "S-A",
+        "S-B",
+        "S-C"
+      ]
+    },
+    "world": {
+      "each_ps": 20,
+      "unrest_by_option": {
+        "W-A": 10,
+        "W-B": 15,
+        "W-C": 20
+      }
+    }
+  },
+  "secretary_seal_bonus": {
+    "condition": "FINLEY_SECRETARY_SEAL == true",
+    "ps": 10,
+    "once_per": "EP07_ACT01_SC04",
+    "suggested_guard": "EP07_ACT01_SECRETARY_BONUS_CLAIMED"
+  },
+  "sc05_new_flags": [
+    "T2_STARTED",
+    "F4_STARTED",
+    "EP07_BORDER_REPORT_RECEIVED"
+  ],
+  "sc05_clear_effects": {
+    "T2_CLEAR": false,
+    "F4_CLEAR": false
+  },
+  "secrets_not_yet_disclosed": [
+    "smuggling_confirmed",
+    "magic_goods_confirmed",
+    "academy_provenance_confirmed"
+  ]
+}

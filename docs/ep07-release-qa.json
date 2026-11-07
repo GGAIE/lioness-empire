@@ -1,0 +1,25 @@
+{
+  "version": "0.16.0-interlude-ep07-act01-act02.reader-v1",
+  "added": {
+    "interludeCG": 34,
+    "ep07Act01CG": 20,
+    "ep07Act02CG": 25,
+    "runtimeNodes": 222,
+    "answers": 139
+  },
+  "ep06": {
+    "priorNodesRetained": 153,
+    "missingStoryFields": 0,
+    "conditionalDirectorySectionsRestored": 3
+  },
+  "verification": {
+    "unitTestsPassed": 272,
+    "rootPagesDesktopAndroidIPhoneTestsPassed": 21,
+    "originalImageProductionTestsPassed": 5,
+    "newWebPFilesVerified": 79,
+    "exhaustiveStates": 2188971,
+    "explorationComplete": true,
+    "uploadZipEntries": 829
+  },
+  "publishing": "本機、dist、github-pages 與根目錄上傳包已更新；尚未提交或推送 GitHub。"
+}

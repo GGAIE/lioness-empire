@@ -125,6 +125,7 @@ class Act:
             self.node['cg'] = self.images[image] if isinstance(image, int) else image
         if available:
             self.node['availableWhen'] = available
+            self.node['directoryVisibleWhenLocked'] = True
 
     def note(self, line, text):
         self.node['directions'].append(dict(beforeSegment=len(self.node['segments']), cue='原稿註記', text=text))
@@ -457,10 +458,16 @@ def main():
     handoff = next(s['completion'] for s in prior if s['act']=='ACT02' and 'completion' in s)
     handoff.pop('pendingLabel',None)
     handoff.update(nextSceneId='EP06_ACT03_SC01', continueLabel='進入第三幕', nextLabel='第三幕〈盤根錯節〉')
-    pack.update(version='1.3.0',source='使用者提供第六章五幕的逐字劇本及 CG。',scenes=prior+scenes)
+    interludes = [s for s in pack['scenes'] if s.get('interlude')]
+    if interludes:
+        end = next(s['completion'] for s in scenes if s.get('completion',{}).get('scope')=='CHAPTER')
+        end.pop('pendingLabel',None)
+        end.update(nextSceneId='EP06_ACT06_SC01',nextChapterId='EP06',continueLabel='進入幕間',nextLabel='幕間〈不能兼顧的王國〉')
+    pack.update(version='1.3.0',source='使用者提供第六章五幕的逐字劇本及 CG。',scenes=prior+scenes+interludes)
     manifest_path = ROOT / 'content/manifests/story.json'
     manifest = read(manifest_path)
-    manifest['version'] = VERSION
+    if not interludes:
+        manifest['version'] = VERSION
     defaults = {METHOD:'UNSET',SEAL:False,'F2_RESOLVED':False,'F2_CLEAR':False,
                 'OTTODAN_COLD_CASE_SOLVED':False,'ACADEMY_EMBEZZLEMENT_EXPOSED':False,
                 'AYLA_POLITICAL_FAVOR':False,'ACADEMY_CROWN_COOPERATION_OPEN':False,

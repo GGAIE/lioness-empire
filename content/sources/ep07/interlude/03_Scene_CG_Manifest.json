@@ -1,0 +1,377 @@
+{
+  "project": "Lioness Empire",
+  "episode": "EP06-EP07",
+  "act": "INTERLUDE",
+  "title_zh": "不能兼顧的王國",
+  "version": "1.0",
+  "document_type": "Full VN text plus CG prompt production package",
+  "cg_prompts_only": true,
+  "cg_count": 34,
+  "scene_config": [
+    {
+      "id": "SC01",
+      "cg_ids": [
+        "CG01",
+        "CG02",
+        "CG03",
+        "CG04"
+      ],
+      "flavor_choice_groups": [
+        1
+      ],
+      "route_choice": false
+    },
+    {
+      "id": "SC02",
+      "cg_ids": [
+        "CG05",
+        "CG06",
+        "CG07",
+        "CG08",
+        "CG09"
+      ],
+      "flavor_choice_groups": [
+        2,
+        3
+      ],
+      "route_choice": false
+    },
+    {
+      "id": "SC03",
+      "cg_ids": [
+        "CG10",
+        "CG11",
+        "CG12",
+        "CG13",
+        "CG14"
+      ],
+      "flavor_choice_groups": [
+        4,
+        5
+      ],
+      "route_choice": false
+    },
+    {
+      "id": "SC04",
+      "cg_ids": [
+        "CG15",
+        "CG16",
+        "CG17",
+        "CG18",
+        "CG19"
+      ],
+      "flavor_choice_groups": [
+        6
+      ],
+      "route_choice": false
+    },
+    {
+      "id": "SC05",
+      "cg_ids": [
+        "CG20",
+        "CG21",
+        "CG22",
+        "CG23",
+        "CG24"
+      ],
+      "flavor_choice_groups": [
+        7
+      ],
+      "route_choice": false
+    },
+    {
+      "id": "SC06",
+      "cg_ids": [
+        "CG25",
+        "CG26",
+        "CG27"
+      ],
+      "flavor_choice_groups": [
+        8
+      ],
+      "route_choice": false
+    },
+    {
+      "id": "SC07",
+      "cg_ids": [
+        "CG28",
+        "CG29",
+        "CG30",
+        "CG31",
+        "CG32",
+        "CG33",
+        "CG34"
+      ],
+      "flavor_choice_groups": [],
+      "route_choice": true
+    }
+  ],
+  "cg_records": [
+    {
+      "id": "CG01",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Night at the palace",
+      "featured": "Environment"
+    },
+    {
+      "id": "CG02",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Regent and aide begin the night",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG03",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Two proposals on the desk",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG04",
+      "scene": "SC01",
+      "condition": "COMMON",
+      "title_en": "Contrasting invitations overhead",
+      "featured": "Props, Olivia hands"
+    },
+    {
+      "id": "CG05",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "The hymnal document awakens",
+      "featured": "Olivia, Finley, holy document"
+    },
+    {
+      "id": "CG06",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "Holy relief network projection",
+      "featured": "Olivia, Finley, relief projection"
+    },
+    {
+      "id": "CG07",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "Public oath witness projection",
+      "featured": "Clergy, local leaders, public"
+    },
+    {
+      "id": "CG08",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "The hidden question of authority",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG09",
+      "scene": "SC02",
+      "condition": "COMMON",
+      "title_en": "At last the singing ends",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG10",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Ayla’s prerecorded projection begins",
+      "featured": "Olivia, Finley, prerecorded Ayla"
+    },
+    {
+      "id": "CG11",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Kingdom communication network",
+      "featured": "Olivia, Finley, prerecorded Ayla"
+    },
+    {
+      "id": "CG12",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Education and research presentation",
+      "featured": "Prerecorded Ayla, projection scenes"
+    },
+    {
+      "id": "CG13",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "Arcane administrative integration",
+      "featured": "Olivia, Finley, prerecorded Ayla"
+    },
+    {
+      "id": "CG14",
+      "scene": "SC03",
+      "condition": "COMMON",
+      "title_en": "The complete prerecorded signoff",
+      "featured": "Olivia, Finley, prerecorded Ayla"
+    },
+    {
+      "id": "CG15",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "The church and political leverage",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG16",
+      "scene": "SC04",
+      "condition": "HISTORY",
+      "title_en": "Western confederation before collapse",
+      "featured": "Historical environment"
+    },
+    {
+      "id": "CG17",
+      "scene": "SC04",
+      "condition": "HISTORY",
+      "title_en": "Diplomatic division of the city-states",
+      "featured": "Historical delegations and clergy"
+    },
+    {
+      "id": "CG18",
+      "scene": "SC04",
+      "condition": "HISTORY",
+      "title_en": "Yasander conquest in fragments",
+      "featured": "Historical armies, towns"
+    },
+    {
+      "id": "CG19",
+      "scene": "SC04",
+      "condition": "COMMON",
+      "title_en": "A memory of Seraphinia",
+      "featured": "Olivia, memory Seraphinia"
+    },
+    {
+      "id": "CG20",
+      "scene": "SC05",
+      "condition": "HISTORY",
+      "title_en": "Academy factions in dispute",
+      "featured": "Scholars"
+    },
+    {
+      "id": "CG21",
+      "scene": "SC05",
+      "condition": "HISTORY",
+      "title_en": "Southern continent war begins",
+      "featured": "Historical environment, indistinct silhouettes"
+    },
+    {
+      "id": "CG22",
+      "scene": "SC05",
+      "condition": "HISTORY",
+      "title_en": "Decades of loss",
+      "featured": "Historical environment"
+    },
+    {
+      "id": "CG23",
+      "scene": "SC05",
+      "condition": "HISTORY",
+      "title_en": "A costly peace without triumph",
+      "featured": "Silhouette delegations"
+    },
+    {
+      "id": "CG24",
+      "scene": "SC05",
+      "condition": "COMMON",
+      "title_en": "A question without an easy answer",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG25",
+      "scene": "SC06",
+      "condition": "SYMBOLIC",
+      "title_en": "Two incompatible governing architectures",
+      "featured": "Symbolic diagram"
+    },
+    {
+      "id": "CG26",
+      "scene": "SC06",
+      "condition": "COMMON",
+      "title_en": "Silence and responsibility",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG27",
+      "scene": "SC06",
+      "condition": "COMMON",
+      "title_en": "The final choice, still unmade",
+      "featured": "Olivia hand, two proposals"
+    },
+    {
+      "id": "CG28",
+      "scene": "SC07",
+      "condition": "SACRED",
+      "title_en": "The hand on the sacred document",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG29",
+      "scene": "SC07",
+      "condition": "SACRED",
+      "title_en": "Planning tomorrow’s meeting",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG30",
+      "scene": "SC07",
+      "condition": "WORLD",
+      "title_en": "Tracing the contact rune",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG31",
+      "scene": "SC07",
+      "condition": "WORLD",
+      "title_en": "Live correspondence with Ayla",
+      "featured": "Olivia, Finley, LIVE Ayla"
+    },
+    {
+      "id": "CG32",
+      "scene": "SC07",
+      "condition": "ABANDON",
+      "title_en": "Both characters break the fourth wall",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG33",
+      "scene": "SC07",
+      "condition": "ABANDON",
+      "title_en": "Finley warns the player",
+      "featured": "Olivia, Finley"
+    },
+    {
+      "id": "CG34",
+      "scene": "SC07",
+      "condition": "ABANDON_CONFIRM",
+      "title_en": "The return to title gag",
+      "featured": "Olivia, Finley"
+    }
+  ],
+  "critical_choices": {
+    "ROUTE-01": {
+      "Sacred": "I will go see Miyel tomorrow.",
+      "World": "Pick up Ayla letter and activate the contact tracing rune.",
+      "Abandon": "I quit playing."
+    },
+    "CONFIRM-01": {
+      "confirm": "RETURN_TO_TITLE",
+      "cancel": "GO_BACK_TO_CG27_AND_ONLY_SACRED_WORLD"
+    }
+  },
+  "state_changes": {
+    "on_sacred": "ROUTE_06=SACRED",
+    "on_world": "ROUTE_06=WORLD",
+    "on_abandon_confirm": "UNLOCK_SPECIAL_END_RETURN_TO_TITLE only; no PS/CLEAR/VI bad ending",
+    "on_abandon_cancel": "hide abandon in current interlude only; restore previous CG and music"
+  },
+  "branch_continuations": {
+    "Sacred": "Meet Miyel the following day",
+    "World": "Contact Ayla live immediately; arrange a meeting in two days"
+  },
+  "story_constraints": [
+    "Both presentations play to completion",
+    "Do not invent Void people appearance",
+    "No third shared highest political lead",
+    "Both organizations may still provide secondary cooperation",
+    "Full route lock only at SC07"
+  ]
+}

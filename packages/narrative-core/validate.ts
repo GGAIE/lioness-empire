@@ -95,7 +95,14 @@ export function validateStory(story: Story) {
       const act = chapter?.acts.find((a) => a.id === scene.planNodeId);
       if (!act) errors.push(`${scene.id}: unknown planning node ${scene.planNodeId}`);
       else {
-        if (scene.act !== `ACT${String(act.number).padStart(2, '0')}`)
+        if (
+          scene.act !== `ACT${String(act.number).padStart(2, '0')}` &&
+          !(
+            scene.interlude &&
+            act.number === chapter!.acts.length &&
+            scene.act === `ACT${String(act.number + 1).padStart(2, '0')}`
+          )
+        )
           errors.push(`${scene.id}: planning act mismatch`);
         if (
           scene.kind === 'choice' &&

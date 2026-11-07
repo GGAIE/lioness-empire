@@ -1,0 +1,311 @@
+{
+  "archive": "Lioness_Empire_Interlude_34CG_Final_v1.0.zip",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP07-INTERLUDE-01",
+      "path": "assets/cg/ep07/interlude/CG01.png",
+      "sha256": "7ad63f4f3e402b92bfb8429c8612d8555ea90daaf2c2568e688ab30a1a8c809e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2433899
+    },
+    {
+      "key": "02",
+      "id": "EP07-INTERLUDE-02",
+      "path": "assets/cg/ep07/interlude/CG02.png",
+      "sha256": "83a03daeb218b54234613f6aaf249e4fbbcd9959e3b720064413806b42eda998",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2354743
+    },
+    {
+      "key": "03",
+      "id": "EP07-INTERLUDE-03",
+      "path": "assets/cg/ep07/interlude/CG03.png",
+      "sha256": "69a2c000ff8230fd5ca392dd7115ffe80501180b84f554874ffec02054772542",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2449158
+    },
+    {
+      "key": "04",
+      "id": "EP07-INTERLUDE-04",
+      "path": "assets/cg/ep07/interlude/CG04.png",
+      "sha256": "b024d6a8498a508a3a413c587fe6111e28d59467d3300d24f0f9ae551bf8b463",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2567148
+    },
+    {
+      "key": "05",
+      "id": "EP07-INTERLUDE-05",
+      "path": "assets/cg/ep07/interlude/CG05.png",
+      "sha256": "2bd37e35dd4fe55ffc111b465daf2834d7f97b6a9d7de245758d8a1dfb16c953",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2717051
+    },
+    {
+      "key": "06",
+      "id": "EP07-INTERLUDE-06",
+      "path": "assets/cg/ep07/interlude/CG06.png",
+      "sha256": "b87d883935f94ae37c098d3939f4b8bc158bec2df7d45957ba45a66648660144",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2751483
+    },
+    {
+      "key": "07",
+      "id": "EP07-INTERLUDE-07",
+      "path": "assets/cg/ep07/interlude/CG07.png",
+      "sha256": "e295a21b0b884af635f999e30bac879f1e75ee62b0ab2938a3ccf2ee561f15a8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2666390
+    },
+    {
+      "key": "08",
+      "id": "EP07-INTERLUDE-08",
+      "path": "assets/cg/ep07/interlude/CG08.png",
+      "sha256": "24b809008d0ecbe1b7deeeff8ad24f8ea1dbf1ae542a71d45e4c7a74b6de68b3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2543836
+    },
+    {
+      "key": "09",
+      "id": "EP07-INTERLUDE-09",
+      "path": "assets/cg/ep07/interlude/CG09.png",
+      "sha256": "c3e8182ead4e3d04de642e4bc3288635f08d9dca41c275004e105680feb26669",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2397940
+    },
+    {
+      "key": "10",
+      "id": "EP07-INTERLUDE-10",
+      "path": "assets/cg/ep07/interlude/CG10.png",
+      "sha256": "c3a1136a779a94ea30ec3b7685e60c4dce8efe6c550e12523d35fe1f2048d986",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2587810
+    },
+    {
+      "key": "11",
+      "id": "EP07-INTERLUDE-11",
+      "path": "assets/cg/ep07/interlude/CG11.png",
+      "sha256": "ca766a2fce6d5839e603d3ceb2642173242fa79c92106a7da1081e6794167033",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2940788
+    },
+    {
+      "key": "12",
+      "id": "EP07-INTERLUDE-12",
+      "path": "assets/cg/ep07/interlude/CG12.png",
+      "sha256": "46f1254d2ae5a49d7d089ddb7f3016ecbe56ff6b3362fa0c639d67de3e3d0c9b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3034110
+    },
+    {
+      "key": "13",
+      "id": "EP07-INTERLUDE-13",
+      "path": "assets/cg/ep07/interlude/CG13.png",
+      "sha256": "4900889d2c94a6851b81e5fa45e6693cf8c8ddc433bd5f8dae76856d7bb9eba4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2774705
+    },
+    {
+      "key": "14",
+      "id": "EP07-INTERLUDE-14",
+      "path": "assets/cg/ep07/interlude/CG14.png",
+      "sha256": "deb6db29fd01a31062e369b462f50ddc06727ec9860747997a4b55fd008082bf",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2410404
+    },
+    {
+      "key": "15",
+      "id": "EP07-INTERLUDE-15",
+      "path": "assets/cg/ep07/interlude/CG15.png",
+      "sha256": "3e868d7a0dec767c963721f92065f7cb9cc513ef85e8d343ade6fe3e4a7fa418",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2481765
+    },
+    {
+      "key": "16",
+      "id": "EP07-INTERLUDE-16",
+      "path": "assets/cg/ep07/interlude/CG16.png",
+      "sha256": "2eff1612dec3296dd8def9c7e7e313bd126165cdcbfcde2d8023407af04279cd",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3624628
+    },
+    {
+      "key": "17",
+      "id": "EP07-INTERLUDE-17",
+      "path": "assets/cg/ep07/interlude/CG17.png",
+      "sha256": "4387d106f46b9101b9b43afe8dec9b0ae00e7c36648eab9ff08605a1455c7bd4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3478488
+    },
+    {
+      "key": "18",
+      "id": "EP07-INTERLUDE-18",
+      "path": "assets/cg/ep07/interlude/CG18.png",
+      "sha256": "72a0cec4e657643cbe986c4989b2309cfd53e25af4a18f90953f7bd9f4b2ff07",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3309729
+    },
+    {
+      "key": "19",
+      "id": "EP07-INTERLUDE-19",
+      "path": "assets/cg/ep07/interlude/CG19.png",
+      "sha256": "676baa65e4b6bf0b221c3d5d9969e667548163fac0d4cf56e41071c5cfeb2788",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2627193
+    },
+    {
+      "key": "20",
+      "id": "EP07-INTERLUDE-20",
+      "path": "assets/cg/ep07/interlude/CG20.png",
+      "sha256": "748baa5fb77e26d812dc5c315d9e619d6089c96f7d1cee236eeb7d9f4de7cb0a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3116960
+    },
+    {
+      "key": "21",
+      "id": "EP07-INTERLUDE-21",
+      "path": "assets/cg/ep07/interlude/CG21.png",
+      "sha256": "c2da872338e1c2a8d148164d31344d47cf2648e87cf55df63786399d9c79bc63",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2672969
+    },
+    {
+      "key": "22",
+      "id": "EP07-INTERLUDE-22",
+      "path": "assets/cg/ep07/interlude/CG22.png",
+      "sha256": "73179a53912e5d7b763be83d26b79766077fbe9c3058160e2c6f01d39391afd6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3101240
+    },
+    {
+      "key": "23",
+      "id": "EP07-INTERLUDE-23",
+      "path": "assets/cg/ep07/interlude/CG23.png",
+      "sha256": "10859e9f40b825d6d520b2d26515d991ab183fe89c5cbddbaed74dcbb3148911",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1909049
+    },
+    {
+      "key": "24",
+      "id": "EP07-INTERLUDE-24",
+      "path": "assets/cg/ep07/interlude/CG24.png",
+      "sha256": "9c3c07e14e5bfd8ba678cf364642ec648800cd843149f4f52516b6d9a58f7e44",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2330906
+    },
+    {
+      "key": "25",
+      "id": "EP07-INTERLUDE-25",
+      "path": "assets/cg/ep07/interlude/CG25.png",
+      "sha256": "846b6b67e452a2d83349a7b7703c8e261655a6e95ae1ce6b74f9c9d2de436e9e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2771733
+    },
+    {
+      "key": "26",
+      "id": "EP07-INTERLUDE-26",
+      "path": "assets/cg/ep07/interlude/CG26.png",
+      "sha256": "dea5852557b96608fe4b6a392f227fcacba47b87fff905da4d7d231c8b57428b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2285346
+    },
+    {
+      "key": "27",
+      "id": "EP07-INTERLUDE-27",
+      "path": "assets/cg/ep07/interlude/CG27.png",
+      "sha256": "1c6eb3f150a43e049938e946a41c85e374ce8a7319ef01a8bdbe4945bf4c2046",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2835243
+    },
+    {
+      "key": "28",
+      "id": "EP07-INTERLUDE-28",
+      "path": "assets/cg/ep07/interlude/CG28.png",
+      "sha256": "2b992fe2d991aaf72137022941910e90ddfb1ed05a2fac4932d63356170e1100",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2502377
+    },
+    {
+      "key": "29",
+      "id": "EP07-INTERLUDE-29",
+      "path": "assets/cg/ep07/interlude/CG29.png",
+      "sha256": "78f07524e047028ab85037343a406a83be9f570bda420d4191a0c0d637432701",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2363161
+    },
+    {
+      "key": "30",
+      "id": "EP07-INTERLUDE-30",
+      "path": "assets/cg/ep07/interlude/CG30.png",
+      "sha256": "f223ce2f1fe6b72e7a6263dcce9781fae7828b24ba0d17a9fcd193e03e3f1934",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2419565
+    },
+    {
+      "key": "31",
+      "id": "EP07-INTERLUDE-31",
+      "path": "assets/cg/ep07/interlude/CG31.png",
+      "sha256": "33c85bead88d38a703c8dff0dfa4eeba1858578c36d8913917b10f90ebbecdd3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2874066
+    },
+    {
+      "key": "32",
+      "id": "EP07-INTERLUDE-32",
+      "path": "assets/cg/ep07/interlude/CG32.png",
+      "sha256": "8f06ea9e12b744e563fb3083b0c3f929e4872b2fea2801e71b31edfba9629485",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2600308
+    },
+    {
+      "key": "33",
+      "id": "EP07-INTERLUDE-33",
+      "path": "assets/cg/ep07/interlude/CG33.png",
+      "sha256": "dc626cf58e313d8f76655c57a91d609c9187880d55ade0030cf8ee620b216171",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2421198
+    },
+    {
+      "key": "34",
+      "id": "EP07-INTERLUDE-34",
+      "path": "assets/cg/ep07/interlude/CG34.png",
+      "sha256": "a5e21f7080ca3fd80420479042d8d23245c48e363a36756f79daa3ce4b110a71",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2215511
+    }
+  ]
+}

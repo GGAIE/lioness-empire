@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 5449,
-    "thoughts": 66,
-    "narration": 2309,
+    "dialogue": 6237,
+    "thoughts": 70,
+    "narration": 2529,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -167,6 +167,12 @@
       "sceneId": "EP06_ACT05_SC05_FLAVOR_10_COMMON",
       "segmentId": "L003",
       "text": "另一份，則是艾拉偷偷塞進她衣服裡的書面提案；它靈活、主動、像在她還沒說「我願意聽」以前，就已經先把值得聽的內容送到她手上。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP06_ACT06_SC05",
+      "segmentId": "L009",
+      "text": "奧莉維亞將文件翻到「國際技術合作」那一頁。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

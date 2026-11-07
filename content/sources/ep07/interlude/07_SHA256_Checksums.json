@@ -1,0 +1,9 @@
+{
+  "00_README.md": "2a31ac2d92afb80c7909142abee91b920b82d3f57d0840aa29fbb7ea723d20b9",
+  "01_Full_VN_Script.md": "c4a07de1ee23f392d8ce6176fb94e8578260b5f56adb0bcdfed5bd492cd1ee21",
+  "02_CG_Prompts_EN.md": "0dad5e89047897f904b3296fefb96de2c622886f868b1afb9dc855bbb50f9c98",
+  "03_Scene_CG_Manifest.json": "4e214ac4dc5ba14004c2d31cd0bc2ac2675c1c6831410d21ae0836c59f9cbc93",
+  "04_CG_Shot_List.csv": "6dcad9b1791cc75e6d22eb2442e27d2b88fd91498aefeb48643c4f70b833146b",
+  "05_Production_QA.md": "b314187b6ff93abac72b718301ed4e41a635446e723b084ee1aeaceb01c499c3",
+  "06_Implementation_Notes.md": "4e817f6608c7bb236e9c4ea085db38700f6cfd731d6dd3393ac12e69aabbf21d"
+}
