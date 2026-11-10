@@ -26,7 +26,7 @@ GitHub 倉庫 → Settings → Pages → Source：Deploy from a branch → Branc
 
 ## 未來更新
 
-雙擊「打包GitHub網頁.cmd」，或執行 npm run package:pages，會重建網頁版、根目錄首頁、發佈設定與 ZIP。網頁版約 312 MB，圖片為品質 95／原尺寸 WebP，原 PNG/JPG 與原圖 dist 保留，音樂位元組不變。
+雙擊「打包GitHub網頁.cmd」，或執行 npm run package:pages，會重建網頁版、根目錄首頁、發佈設定與 ZIP。網頁版大小會隨新章節增加，可在 docs/github-pages-package-report.json 查看。圖片為品質 95／原尺寸 WebP，原 PNG/JPG 與原圖 dist 保留，音樂位元組不變。
 
 舊的 .github/workflows/pages.yml 保留為手動執行選項，已取消 push 自動觸發，避免與根目錄的 Pages 自動發佈重複。現在建議使用上述 main／根目錄方式。
 

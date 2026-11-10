@@ -1,0 +1,35 @@
+{
+  "version": "0.17.0-ep07-act03-worldlines.reader-v1",
+  "newRuntimeNodes": 141,
+  "newSegments": 509,
+  "newAnswers": 80,
+  "newImages": {
+    "Sacred": 42,
+    "World": 38
+  },
+  "sourcePolicy": {
+    "Sacred": "使用者授權依大綱擴寫，42張CG依提示詞內文安排。",
+    "World": "v1.3原稿逐字對白完整保留；數值依使用者授權補上。"
+  },
+  "separation": {
+    "routeGates": true,
+    "evidenceFlagsIsolated": true,
+    "wrongTimelineSaveRejected": true,
+    "SacredA2": "CLEAR +1，一次性",
+    "WorldA2": "待第五幕交付，不提前CLEAR"
+  },
+  "verification": {
+    "originalAct01Act02StoryFieldsUnchanged": true,
+    "allSuitePassedBeforeTwoFollowupTests": 279,
+    "newFollowupTestsPassed": 2,
+    "totalUnitTestsVerified": 281,
+    "rootPagesDesktopAndroidIPhoneTestsPassed": 30,
+    "originalDistTestsPassed": 5,
+    "speakerErrors": 0,
+    "missingWorldDialogue": 0,
+    "exhaustiveStates": 2222062,
+    "explorationComplete": true,
+    "zipEntries": 909
+  },
+  "publishing": "dist、github-pages、根目錄index.html與上傳ZIP已更新；未提交或推送GitHub。"
+}

@@ -531,6 +531,23 @@ small {
   color: #aa9368;
   margin: 0 10px;
 }
+.page-footer .release-log-trigger {
+  align-self: stretch;
+  padding: 4px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--gold);
+  font-size: 12px;
+}
+.release-log-trigger span {
+  margin-inline-start: 6px;
+}
+.release-entry time {
+  color: var(--gold);
+}
+.release-entry li + li {
+  margin-top: 8px;
+}
 .page-footer > span + span {
   color: #a48e67;
 }

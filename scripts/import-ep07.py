@@ -359,6 +359,7 @@ def act_two():
 
 
 def main():
+    existing_acts={s['act'] for s in core.read(ROOT/'content/episodes/ep07/chapter.json')['scenes']}
     interlude();act_one();act_two()
     used={s['cg'] for s in scenes if 'cg' in s}|{p['cg'] for s in scenes for p in s['segments'] if 'cg' in p}
     assert not {a['id'] for a in assets}-used,{a['id'] for a in assets}-used
@@ -387,6 +388,11 @@ def main():
          choices=sum(s['kind']=='choice' for s in scenes),answers=sum(len(s['choices']) for s in scenes),
          images=len(assets),trace=trace,sourceHashes=HASHES))
     print(len(scenes),'nodes',len(assets),'CGs')
+    if 'ACT03' in existing_acts:
+        import subprocess,sys
+        subprocess.run([sys.executable,'-X','utf8',str(ROOT/'scripts/import-ep07-act03.py')],check=True)
+        if 'ACT04' in existing_acts:
+            subprocess.run([sys.executable,'-X','utf8',str(ROOT/'scripts/import-ep07-act04.py')],check=True)
 
 
 if __name__=='__main__':main()

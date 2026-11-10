@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.16.0-interlude-ep07-act01-act02.reader-v1",
+  "version": "0.18.0-ep07-act04.reader-v1",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -460,6 +460,378 @@
     "SOPHIE_CORONATED": {
       "initial": false,
       "description": "幕間與第七章逐字劇本的路線及一次性事件狀態。"
+    },
+    "EP07_S3_EVIDENCE_COUNT": {
+      "initial": 0,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_SETTLED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_ORIGIN": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_EXPENSE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_RIGHTS": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_FIELD": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_CHAIN": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_REVISION": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_GROUND": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_WIRING": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_AUTHORITY": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_CAUSE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_REMEDY": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_AGREEMENT": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_CRISIS_NOTICE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C01_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C02_COST": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C02_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C03_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C04_COST": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C04_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C05_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C06_COST": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C06_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C07_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C08_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C09_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_SACRED_VOID_LEAK_STOPPED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_LEAK_REPAIRED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C10_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "ALINDA_A2_CLEAR": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_A2_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C11_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S3_C12_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_SACRED_NEGOTIATION_RESULT": {
+      "initial": "UNSET",
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_SACRED_CHURCH_ALERTED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_SACRED_CHURCH_RESTRAINED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_SACRED_CHURCH_REALIGNED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_SACRED_PALACE_DOCUMENT_TRACE_ACTIVE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_SACRED_FINLEY_SEAL_PROTOCOL": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_EVIDENCE_COUNT": {
+      "initial": 0,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_SETTLED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_RAW_REPORT": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_CAUSE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_GROUND": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_MEDICAL_LEDGER": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_FIELD": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_TRANSPORT": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_REMEDY": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_OWNERSHIP": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_REVIEW": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_REQUEST_CHANNEL": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_COMPENSATION_PROCEDURE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_AGREEMENT": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_CRISIS_NOTICE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W01_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W02_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_WORLD_VOID_LEAK_STOPPED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_LEAK_REPAIRED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W03_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W04_COST": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W04_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W05_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W06_COST": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W06_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W07_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W08_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W09_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W10_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W11_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W3_W12_RECORDED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_WORLD_ENDING_TONE": {
+      "initial": "UNSET",
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_WORLD_SETTLEMENT": {
+      "initial": "UNSET",
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_WORLD_ACADEMY_LIABILITY_ACKNOWLEDGED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_WORLD_ALINDA_INVOICE_PENDING": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_WORLD_FINLEY_NOTE_REQUEST_ACCEPTED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_WORLD_AYLA_FAVOR_OWED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S4_FORMAL_REQUEST_SENT": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S4_ELLA_REQUEST_SENT": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S4_EVACUATION_COMPLETE": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S4_OTARIA_UNDEAD_ACTIVITY_STOPPED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S4_EVACUATION_RECORDS_READY": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S4_RITUAL_WITNESS_STATEMENT_RETAINED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_REVIVAL_ATTEMPT_CONFIRMED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_RITUAL_OPERATOR_SWALLOWED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_ACADEMY_INITIAL_RESPONSE_FAILED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_KALLIS_CONTACT": {
+      "initial": "UNSET",
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_KALLIS_ASSISTED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_COOPERATION_MODEL": {
+      "initial": "UNSET",
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_DRAGONLANCERS_PARTICIPATED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_OTARIA_UNDEAD_ACTIVITY_STOPPED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_AFTERMATH_MODEL": {
+      "initial": "UNSET",
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W4_DRAGON_REVIVAL_INVESTIGATION_OPEN": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
     }
   },
   "migrations": {

@@ -133,7 +133,7 @@ it('runs both routes with every reform/refugee response, settlement history and 
               } else if (scene.kind === 'end') {
                 state = finish(state);
                 expect(markRead(story, state).campaign).toEqual(state.campaign);
-                if (!scene.completion?.nextSceneId) {
+                if (scene.act === 'ACT02') {
                   ended = true;
                   break;
                 }

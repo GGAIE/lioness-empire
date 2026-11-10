@@ -1,0 +1,41 @@
+﻿cg_id,scene,title_zh,shot,cast,script_marker,status
+W04-CG01,SC01,被打斷的安靜下午,wide establishing shot,"Olivia, Finley",【W04-CG01｜被打斷的安靜下午】,PROMPT_ONLY
+W04-CG02,SC01,艾拉的急訊,medium shot with luminous framing,"Olivia, Finley, Ayla",【W04-CG02｜艾拉的急訊】,PROMPT_ONLY
+W04-CG03,SC01,兩個熟悉學院的人,"two-shot, dry humor","Olivia, Finley",【W04-CG03｜兩個熟悉學院的人】,PROMPT_ONLY
+W04-CG04,SC01,窗外平靜，遠方不平靜,cinematic wide ending shot,"Olivia, Finley",【W04-CG04｜窗外平靜，遠方不平靜】,PROMPT_ONLY
+W04-CG05,SC02,失去穩定的監測光,low-lit communications medium-wide,"Olivia, Finley",【W04-CG05｜失去穩定的監測光】,PROMPT_ONLY
+W04-CG06,SC02,被擾亂的古代儀式地,distant environmental establishing shot,researchers,【W04-CG06｜被擾亂的古代儀式地】,PROMPT_ONLY
+W04-CG07,SC02,奧莉維亞的好奇與克制,intimate portrait and prop composition,"Olivia, Finley",【W04-CG07｜奧莉維亞的好奇與克制】,PROMPT_ONLY
+W04-CG08,SC02,將地圖轉向居民,top-down table and hands,"Olivia, Finley",【W04-CG08｜將地圖轉向居民】,PROMPT_ONLY
+W04-CG09,SC03,學院撤離前沿,wide remote field shot,researchers,【W04-CG09｜學院撤離前沿】,PROMPT_ONLY
+W04-CG10,SC03,不屬於當代尺度的敵人,extreme wide creature reveal,dragon,【W04-CG10｜不屬於當代尺度的敵人】,PROMPT_ONLY
+W04-CG11,SC03,退讓不是放棄,restrained analytical three-shot,"Olivia, Finley, Ayla",【W04-CG11｜退讓不是放棄】,PROMPT_ONLY
+W04-CG12,SC03,古代名字出現在桌上,close atmospheric book detail,"Finley, Olivia",【W04-CG12｜古代名字出現在桌上】,PROMPT_ONLY
+W04-CG13,SC04,尋找傳說人物的實際程序,wide strategic desk scene,"Olivia, Finley, Ayla",【W04-CG13｜尋找傳說人物的實際程序】,PROMPT_ONLY
+W04-CG14,SC04,奧莉維亞衡量代價,regent portrait by map,Olivia,【W04-CG14｜奧莉維亞衡量代價】,PROMPT_ONLY
+W04-CG15,SC04,穿越距離的求援,fantasy communications landscape,props,【W04-CG15｜穿越距離的求援】,PROMPT_ONLY
+W04-CG16,SC04,聖火之鷹的答覆,three-person meeting shot,"Kallis, Finley, Olivia",【W04-CG16｜聖火之鷹的答覆】,PROMPT_ONLY
+W04-CG17,SC04,兩個時代的法師,intellectual two-shot over a map,"Kallis, Finley",【W04-CG17｜兩個時代的法師】,PROMPT_ONLY
+W04-CG18,SC05,持槍者到來,low panoramic marching shot,dragonlancers,【W04-CG18｜持槍者到來】,PROMPT_ONLY
+W04-CG19,SC05,一張桌上的三種立場,ensemble negotiation medium-wide,"Olivia, Ayla, Kallis, dragonlancers",【W04-CG19｜一張桌上的三種立場】,PROMPT_ONLY
+W04-CG20,SC05,界線與各方任務,medium detail pointing at zones,"Olivia, Finley, dragonlancers",【W04-CG20｜界線與各方任務】,PROMPT_ONLY
+W04-CG21,SC05,牽制與撤離同時發生,wide action logistics tableau,"dragonlancers, researchers, civilians",【W04-CG21｜牽制與撤離同時發生】,PROMPT_ONLY
+W04-CG22,SC05,風暴前的安靜,cinematic valley suspense wide,"dragon, dragonlancers",【W04-CG22｜風暴前的安靜】,PROMPT_ONLY
+W04-CG23,SC06,守護者的空殼,epic characterful creature tableau,dragon,【W04-CG23｜守護者的空殼】,PROMPT_ONLY
+W04-CG24,SC06,龍槍使牽制,dynamic wide battle choreography,"dragonlancers, dragon",【W04-CG24｜龍槍使牽制】,PROMPT_ONLY
+W04-CG25,SC06,卡利斯觀察核心,"medium-hero shot, controlled magic",Kallis,【W04-CG25｜卡利斯觀察核心】,PROMPT_ONLY
+W04-CG26,SC06,最後的調度,war room over-shoulder,"Olivia, Finley",【W04-CG26｜最後的調度】,PROMPT_ONLY
+W04-CG27,SC06,古代火焰切斷驅動,epic magical action wide,"Kallis, dragon, dragonlancers",【W04-CG27｜古代火焰切斷驅動】,PROMPT_ONLY
+W04-CG28,SC06,巨龍停止，山谷沉靜,enormous atmospheric conclusion,"dragon, dragonlancers",【W04-CG28｜巨龍停止，山谷沉靜】,PROMPT_ONLY
+W04-CG29,SC07,不再動的巨大遺骸,environmental aftermath panorama,"dragon, civilians",【W04-CG29｜不再動的巨大遺骸】,PROMPT_ONLY
+W04-CG30,SC07,龍槍使與學院的爭執,three-party tensions medium shot,"Ayla, dragonlancers, civilians",【W04-CG30｜龍槍使與學院的爭執】,PROMPT_ONLY
+W04-CG31,SC07,受損道路與歸家的人,human centered wide photojournalistic,civilians,【W04-CG31｜受損道路與歸家的人】,PROMPT_ONLY
+W04-CG32,SC07,召開善後會議,wide meeting room establishing,"Olivia, Finley, Ayla, dragonlancers, civilians",【W04-CG32｜召開善後會議】,PROMPT_ONLY
+W04-CG33,SC08,三份不同的要求,overhead tabletop still life,props,【W04-CG33｜三份不同的要求】,PROMPT_ONLY
+W04-CG34,SC08,奧莉維亞聽見真正的成本,intimate political portrait,"Olivia, Finley",【W04-CG34｜奧莉維亞聽見真正的成本】,PROMPT_ONLY
+W04-CG35,SC08,選擇善後秩序,wide negotiation ensemble,"Olivia, Ayla, dragonlancers, civilians",【W04-CG35｜選擇善後秩序】,PROMPT_ONLY
+W04-CG36,SC08,協議不等於事情已做完,action result still,"Olivia, Ayla, dragonlancers, civilians",【W04-CG36｜協議不等於事情已做完】,PROMPT_ONLY
+W04-CG37,SC08,山谷重新出現可行的道路,landscape restoration first steps,"civilians, dragonlancers",【W04-CG37｜山谷重新出現可行的道路】,PROMPT_ONLY
+W04-CG38,SC09,三份回報，三種結果,regent desk medium-wide,"Olivia, Finley",【W04-CG38｜三份回報，三種結果】,PROMPT_ONLY
+W04-CG39,SC09,留在封存袋裡的未知,macro mystery still life,props,【W04-CG39｜留在封存袋裡的未知】,PROMPT_ONLY
+W04-CG40,SC09,窗外的日常恢復運作,wide contemplative closing shot,"Olivia, Finley",【W04-CG40｜窗外的日常恢復運作】,PROMPT_ONLY

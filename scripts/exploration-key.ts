@@ -77,6 +77,43 @@ export function explorationKey(story: Story) {
             }
         }
   }
+  // A balance above every remaining possible debit cannot change affordability.
+  // Keep exact low balances; use a conservative bound that ignores all future gains.
+  // Cycles retain exact balances rather than making a finite-budget assumption.
+  const debitBounds = new Map<string, number>();
+  const maxUpkeep = Math.max(0, ...(story.plan?.rules.resource.bands.map((b) => b.cost) ?? []));
+  const debit = (effects: { type: string; delta?: number }[]) =>
+    effects.reduce((sum, e) => sum + (e.type === 'points' ? Math.max(0, -(e.delta ?? 0)) : 0), 0);
+  const bound = (id: string, visiting = new Set<string>()): number => {
+    if (debitBounds.has(id)) return debitBounds.get(id)!;
+    if (visiting.has(id)) return Infinity;
+    const scene = story.scenes[id];
+    if (!scene) return 0;
+    const chain = new Set(visiting).add(id);
+    const own =
+      debit(scene.settlements?.flatMap((s) => s.effects) ?? []) +
+      debit(scene.completionEffects?.effects ?? []) +
+      Math.max(
+        0,
+        ...scene.choices.map(
+          (c) => debit(c.effects) + debit(c.previewEffects?.flatMap((p) => p.effects) ?? [])
+        )
+      );
+    const future = Math.max(
+      0,
+      ...(edges.get(id) ?? []).map(
+        (to) =>
+          bound(to, chain) +
+          (scene.completion?.nextSceneId === to && scene.completion.nextChapterId !== scene.chapter
+            ? maxUpkeep
+            : 0)
+      )
+    );
+    const value = own + future;
+    debitBounds.set(id, value);
+    return value;
+  };
+  for (const id of edges.keys()) bound(id);
   return (s: GameState) =>
     JSON.stringify([
       s.currentSceneId,
@@ -101,7 +138,11 @@ export function explorationKey(story: Story) {
         s.campaign.mode,
         s.campaign.chapter,
         s.campaign.act,
-        resources.get(s.currentSceneId)!.has('points') ? s.campaign.politicalPoints : null,
+        resources.get(s.currentSceneId)!.has('points')
+          ? s.campaign.politicalPoints === null
+            ? null
+            : Math.min(s.campaign.politicalPoints, debitBounds.get(s.currentSceneId)!)
+          : null,
         resources.get(s.currentSceneId)!.has('unrest') ? s.campaign.unrest : null,
         s.campaign.sealed,
         s.campaign.upkeep

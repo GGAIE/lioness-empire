@@ -58,6 +58,7 @@ import {
 import { SaveSlots } from './screens/SaveSlots';
 import { ResourceHud } from './components/ResourceHud';
 import { Music } from './screens/Music';
+import { releaseLog, releaseVersion } from './release-log';
 import {
   chapterEndNotice,
   chapterStartNotice,
@@ -73,6 +74,7 @@ type Panel =
   | 'music'
   | 'restart'
   | 'access'
+  | 'releases'
   | null;
 function playerEndNotice(story: Story, state: GameState, unlocked = false): SettlementNotice {
   if (unlocked)
@@ -680,6 +682,7 @@ function Game({
     music: '背景音樂',
     restart: '重新開始',
     access: '其他選項',
+    releases: '更新日誌',
   };
   const controls = [
     ['saves', '存讀檔'],
@@ -988,9 +991,9 @@ function Game({
         </nav>
       )}
       <footer className="page-footer">
-        <span>
-          LIONESS EMPIRE <i>／</i> 王冠之下，歷史尚未寫定。
-        </span>
+        <button className="release-log-trigger" onClick={() => open('releases')}>
+          更新日誌 <span>{releaseVersion(releaseLog[0].date)}</span>
+        </button>
         <button className="secret-trigger" aria-label="其他選項" onClick={() => open('access')}>
           ✧
         </button>
@@ -1036,6 +1039,18 @@ function Game({
               {message}
             </p>
           )}
+          {panel === 'releases' &&
+            releaseLog.map((release) => (
+              <article className="release-entry" key={release.date}>
+                <time dateTime={release.date}>{releaseVersion(release.date)}</time>
+                <h3>{release.title}</h3>
+                <ul>
+                  {release.changes.map((change) => (
+                    <li key={change}>{change}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
           {panel === 'saves' && (
             <SaveSlots
               records={records}

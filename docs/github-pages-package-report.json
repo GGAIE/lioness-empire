@@ -1,10 +1,10 @@
 {
-  "contentVersion": "0.16.0-interlude-ep07-act01-act02.reader-v1",
+  "contentVersion": "0.18.0-ep07-act04.reader-v1",
   "mode": "pages",
   "quality": 95,
   "resizing": false,
-  "totalBytes": 446093106,
-  "files": 827,
+  "totalBytes": 529576285,
+  "files": 987,
   "assets": [
     {
       "source": "assets/audio/bgm/ledger-of-the-lioness.mp3",
@@ -7489,6 +7489,1606 @@
       "bytes": 653888,
       "sourceSha256": "a31ef8a3ff2bb6889c68e4de565685c4825457f751e867ab287f064da53e6fd2",
       "sha256": "7f86bf3ec7a34dbef97bb9a46012240b21afb1145b518c44787f8f470f9f7573",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG01.png",
+      "output": "assets/cg/ep07/act03/sacred/CG01.webp",
+      "originalBytes": 2327048,
+      "bytes": 414356,
+      "sourceSha256": "4ac3db71412f438a461d1670a990d11216bb48cf953a54625e3d4fcb0b40784e",
+      "sha256": "ee14ad8aa4f0fe080e1c635d1b48529c9af0fed5c914252acc379fdba10e4d11",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG02.png",
+      "output": "assets/cg/ep07/act03/sacred/CG02.webp",
+      "originalBytes": 2604188,
+      "bytes": 524616,
+      "sourceSha256": "1c782c4be723af2f377456497727f1e702ffdc087d0735f6a1b983c9b582b69e",
+      "sha256": "02e3438259e3f67d2327eb5d4632a5764e87bdd2e2c98129ca7a8c8af0ff89b4",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG03.png",
+      "output": "assets/cg/ep07/act03/sacred/CG03.webp",
+      "originalBytes": 2803906,
+      "bytes": 556332,
+      "sourceSha256": "fa90b613bab39f0509ca9db0284d1dd6ab59e0be2dc7866afe008e0c3e1cd7d8",
+      "sha256": "50fa9d0fe10b41e9452274f40923f61ed0fecf402de6d17a71187d6d5e3efdac",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG04.png",
+      "output": "assets/cg/ep07/act03/sacred/CG04.webp",
+      "originalBytes": 3002436,
+      "bytes": 601990,
+      "sourceSha256": "2522745060ce27f19028eddecfe7e48bce92c83734f1dc25e8798e3469b7c584",
+      "sha256": "a857eb294ac2349d6fc5ee56545aab1af7698ec2afb97d8e2289092a78619114",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG05.png",
+      "output": "assets/cg/ep07/act03/sacred/CG05.webp",
+      "originalBytes": 2472903,
+      "bytes": 458262,
+      "sourceSha256": "dcb3b60d99fe73eb7f818b697001abf58153bc6f497ff0e0f0216776a3b72e27",
+      "sha256": "79f2a5ecdd1458eac38511e6a25645cd20eb0a33527eb8ea82be63fbfadeb128",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG06.png",
+      "output": "assets/cg/ep07/act03/sacred/CG06.webp",
+      "originalBytes": 2394865,
+      "bytes": 412318,
+      "sourceSha256": "e71ce98b8fda7eda3892e5d364954bd6a64d4109b540dbb0f33af295c1b67a37",
+      "sha256": "d7ca6df1739aa4f6d24cc186dab3af537d8ede5c692cac4a805bd5da1f913aad",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG07.png",
+      "output": "assets/cg/ep07/act03/sacred/CG07.webp",
+      "originalBytes": 3421443,
+      "bytes": 819984,
+      "sourceSha256": "fa2b22379055cbd39c043e0e9f72c8903d6c6f6dab408310efb12ee656a9b600",
+      "sha256": "ce94703bca56006875b3822af80200bb1e74a23bfd0c7463a5239d3a7cffd7e3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG08.png",
+      "output": "assets/cg/ep07/act03/sacred/CG08.webp",
+      "originalBytes": 2470252,
+      "bytes": 451928,
+      "sourceSha256": "459d6a8084ebbebe405424f946dfeda553ed47b5322588794dc02ca222bbabda",
+      "sha256": "7de5154551d69ba24d4da6fea4e8ce28c26fe992227fa203a6716c232592c490",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG09.png",
+      "output": "assets/cg/ep07/act03/sacred/CG09.webp",
+      "originalBytes": 2460924,
+      "bytes": 468820,
+      "sourceSha256": "870ad20abd65fd9999adc569de34b95a79af7f0c9defaa8c303ab5465cd392aa",
+      "sha256": "e7d66bd8399d4e67fedfd6e6dbc7c9413d9d3d26db2cc4ac97f385bde0f77a0e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG10.png",
+      "output": "assets/cg/ep07/act03/sacred/CG10.webp",
+      "originalBytes": 2890954,
+      "bytes": 557948,
+      "sourceSha256": "6f81f5fc8cc7f3f98a327c9cd2636752cc5a6c57bc98761595af2d0410e86507",
+      "sha256": "56415fdf964f2002d84a782639e17188bf99826626f2663ecaa5340f04c13e3d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG11.png",
+      "output": "assets/cg/ep07/act03/sacred/CG11.webp",
+      "originalBytes": 2925386,
+      "bytes": 551062,
+      "sourceSha256": "743ebfed15fff633fb3a35ef3d8f1942e0aadbbd7a08220452324a1cf24fab70",
+      "sha256": "eeca6e6c1586abb866f4fe1f8f2d45d12d17a9234abbbd5283bb07d47de3f1d1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG12.png",
+      "output": "assets/cg/ep07/act03/sacred/CG12.webp",
+      "originalBytes": 2922695,
+      "bytes": 591396,
+      "sourceSha256": "c55221171de698f5b8e8c8c326afb4f351472c6a217f2472a93608138140a00a",
+      "sha256": "7b5a4f4d0fa01930cd38ef40dd16860f1bf8b9e2116c4697fc7a51bb3cc37d2a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG13.png",
+      "output": "assets/cg/ep07/act03/sacred/CG13.webp",
+      "originalBytes": 2600117,
+      "bytes": 523260,
+      "sourceSha256": "6207ff6125ffb029ad9b7f9e0bf742ac68d030e378d679c9da2637591ebe4011",
+      "sha256": "47d034265b8dc4bf7bad64f21f89026ee5aad33a039f831e7ab82f1f25601564",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG14.png",
+      "output": "assets/cg/ep07/act03/sacred/CG14.webp",
+      "originalBytes": 2458823,
+      "bytes": 470356,
+      "sourceSha256": "435001e169d1d51a1bde340faa19af26d6f5f298ab0fccc8675ebe91512cd3fd",
+      "sha256": "8cc95338a1ab9fa48cd475a4da4a39c18bb1a944793595ece3bbaa424a2d86aa",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG15.png",
+      "output": "assets/cg/ep07/act03/sacred/CG15.webp",
+      "originalBytes": 2495195,
+      "bytes": 473790,
+      "sourceSha256": "9975ced1314aa7ea75a489b63395aeaf959cd62f2147fcbde408adeac3827dcd",
+      "sha256": "746de29c880493630496cc898461119f41f771d3f72a2414aa1133ec9231759e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG16.png",
+      "output": "assets/cg/ep07/act03/sacred/CG16.webp",
+      "originalBytes": 2505355,
+      "bytes": 453722,
+      "sourceSha256": "fe5deea6704facacd0da92da5a31379cb6edc4e20be3a8f6e7664c459b8f5645",
+      "sha256": "dcb49944b31db2c6c26f14695e4d398ba4fb19b1fffb9a9346a729397cef9d89",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG17.png",
+      "output": "assets/cg/ep07/act03/sacred/CG17.webp",
+      "originalBytes": 2326684,
+      "bytes": 408330,
+      "sourceSha256": "a94ab4c8486729b28c308a4116bb56f7d630766a479feba2aaf404daa74803ee",
+      "sha256": "e06cf7d3a3cde40e87c8467092ea80308d4e1c3375dc0270aad010a8fc56e0d6",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG18.png",
+      "output": "assets/cg/ep07/act03/sacred/CG18.webp",
+      "originalBytes": 2532867,
+      "bytes": 493144,
+      "sourceSha256": "6aafc92ca630a189e6dcf6243b813d93440b0eab721b7c235bafb0e017a177d5",
+      "sha256": "6eb92d2dcb2a2bc8c3f1a9cf5a6252976527483920a3abeeb3a65da9bf26fc90",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG19.png",
+      "output": "assets/cg/ep07/act03/sacred/CG19.webp",
+      "originalBytes": 2773571,
+      "bytes": 559040,
+      "sourceSha256": "f4b7d39ceb41f109b4789e95d32a69417329aa5ef3155fc06e7931e8e45cda19",
+      "sha256": "e4fb252d631fc744ab1a84b34742a2e150b9584b3cccef496aba2749a75854e9",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG20.png",
+      "output": "assets/cg/ep07/act03/sacred/CG20.webp",
+      "originalBytes": 3209749,
+      "bytes": 687798,
+      "sourceSha256": "628f36cb102e1d10bd6657fc6dadaed76d31378acd46b284fae96ac17d9ffb09",
+      "sha256": "d5b4ac4d412c7e8f1d42b18a1ee19bcc3284dee030a43bfce749871c20dd26c2",
+      "width": 1671,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG21.png",
+      "output": "assets/cg/ep07/act03/sacred/CG21.webp",
+      "originalBytes": 2771092,
+      "bytes": 559880,
+      "sourceSha256": "0c4ff70b74a3b65b589e9d4921aeb0ffd680dba5a6748aadc2ce022bf0457f9c",
+      "sha256": "a2369109c5cad43fab83d65f7dbc86911de872e7f251815fa606d9d0528941ec",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG22.png",
+      "output": "assets/cg/ep07/act03/sacred/CG22.webp",
+      "originalBytes": 2814396,
+      "bytes": 565862,
+      "sourceSha256": "188836bf48dd7fe111a4cc90add9cdbd03dff388381d1d9b1f3e7fb4fc4d3da8",
+      "sha256": "72535d2f3cc314f8935f3a7774db196d32333526b2c174f599e616dab8bb4342",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG23.png",
+      "output": "assets/cg/ep07/act03/sacred/CG23.webp",
+      "originalBytes": 2904605,
+      "bytes": 622358,
+      "sourceSha256": "e7c6c20279244028254a0fac6158026f6ec9395958af7dc663e4d729ffa462fe",
+      "sha256": "98e094f51cbdfa8dbae345f90917cc1aecf5f65e672347574bdb46b443fce22d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG24.png",
+      "output": "assets/cg/ep07/act03/sacred/CG24.webp",
+      "originalBytes": 2729603,
+      "bytes": 535650,
+      "sourceSha256": "1603b2921486cf1d995ff1c825ba77bd7b30ea231e1c67b867e7168588f2649f",
+      "sha256": "03c1b48c7493f07fbf52b1b76c459b67e16501c9ed33d3e1d431a1bef8ab5ab1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG25.png",
+      "output": "assets/cg/ep07/act03/sacred/CG25.webp",
+      "originalBytes": 2605387,
+      "bytes": 501946,
+      "sourceSha256": "b2304f40a0902886fd872045fd10ab6f87eb8fca23bd6812b093778fd1095ec4",
+      "sha256": "fad75c64e47303d48ed703563d07a2c505cc555be3ba5671c2d45e8bd747d17e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG26.png",
+      "output": "assets/cg/ep07/act03/sacred/CG26.webp",
+      "originalBytes": 2713079,
+      "bytes": 529490,
+      "sourceSha256": "1bbca311c0459aca4cd8722342286c6a5454c01147f10d0d0e59162fe4ecc0c3",
+      "sha256": "615cbbd9694aa39073ef66b8c2f527aaa17ceb87593436bb5f44ba0174292351",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG27.png",
+      "output": "assets/cg/ep07/act03/sacred/CG27.webp",
+      "originalBytes": 2320830,
+      "bytes": 394538,
+      "sourceSha256": "bcefe2988fc706156cb89a7fa38589e9a735dc2bf013f3f5939c5b54cc1e3b65",
+      "sha256": "5291041ab88724ce53c88309c69a62055c0b3ccf726d860475d9f3d30953f4c2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG28.png",
+      "output": "assets/cg/ep07/act03/sacred/CG28.webp",
+      "originalBytes": 2906588,
+      "bytes": 599316,
+      "sourceSha256": "6501cedba7f86f184aee664c1538ebab654883ae47564ec156edc67c5ac88621",
+      "sha256": "0073831e431e1a8c2fde05c925d4421107e30c022eb3d09bb86d8bf4803f6745",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG29.png",
+      "output": "assets/cg/ep07/act03/sacred/CG29.webp",
+      "originalBytes": 2582459,
+      "bytes": 492222,
+      "sourceSha256": "003e7f189ead62ff22df36ada02b9d03ff053198c16c2b463640732ff96a407d",
+      "sha256": "fc4a6e5257928747e0649973c92a365465f6ecf96e4b65ede607f3f5038e549c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG30.png",
+      "output": "assets/cg/ep07/act03/sacred/CG30.webp",
+      "originalBytes": 2374112,
+      "bytes": 427412,
+      "sourceSha256": "31fcec5b0b8fb49b271679a8f87c29426e8a96c0f92dbb32451d65020c091df0",
+      "sha256": "42b8a64a96ee885eb5435cbabd7f30ce37c0e16a43ce0d01be70319f30e57e66",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG31.png",
+      "output": "assets/cg/ep07/act03/sacred/CG31.webp",
+      "originalBytes": 2491471,
+      "bytes": 460496,
+      "sourceSha256": "89ed5e30c1cddb1db0c426315984e1a1f99861189860056f962d98d0c5cbc43d",
+      "sha256": "1009fee2ad98ac248236fa6006970d6a7a94b82bc7a02420927e89b101ae2c41",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG32.png",
+      "output": "assets/cg/ep07/act03/sacred/CG32.webp",
+      "originalBytes": 3101820,
+      "bytes": 642950,
+      "sourceSha256": "7a69acd7adce6adb26b2cb5d215a9825fffa00c8eac2cc2b67993a52c4be9680",
+      "sha256": "afb09727b339f8694b6bd9fdd0c067926d262b14da07b2c366e7add4bccb6f74",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG33.png",
+      "output": "assets/cg/ep07/act03/sacred/CG33.webp",
+      "originalBytes": 2889389,
+      "bytes": 582050,
+      "sourceSha256": "b52688755223e761002165f64a51e4ca333c8b3d044dd1cd7500a57c64ca5a4e",
+      "sha256": "f4ad92cf0ca1e03bbc95b7ea98e5ce59c8e69fedb5c93b7f6a633ee4ea9d6be8",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG34.png",
+      "output": "assets/cg/ep07/act03/sacred/CG34.webp",
+      "originalBytes": 2506273,
+      "bytes": 485886,
+      "sourceSha256": "144d514844927eb186bfb169a95cd84747c4ad49429b5288fcce37cb18e0a69c",
+      "sha256": "fa949778f1261f48bfb20e67944f55c5318e284280ce7d0f0b80f7d2db6d5b24",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG35.png",
+      "output": "assets/cg/ep07/act03/sacred/CG35.webp",
+      "originalBytes": 2475998,
+      "bytes": 459254,
+      "sourceSha256": "f5631324cd647214a01f458185a7ac70afbc693f8d0ab395c9e7aaab4fb7a21e",
+      "sha256": "5b736c239340e54caa95792a33856d32861f89ad78f22f813c79d177610791f3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG36.png",
+      "output": "assets/cg/ep07/act03/sacred/CG36.webp",
+      "originalBytes": 2772553,
+      "bytes": 581618,
+      "sourceSha256": "5d7115537d1b8ca18216370b8699c0cb8fa8248299a1f357e4e466fbe98f07cb",
+      "sha256": "7cdad4cec906a2cc96a6df44ebdee8783be07345248f8fec651a69257057261c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG37.png",
+      "output": "assets/cg/ep07/act03/sacred/CG37.webp",
+      "originalBytes": 2861317,
+      "bytes": 582418,
+      "sourceSha256": "30c14232b5a143a07592e4ef37a6e25a638d48d397754ad23f4069f93429b880",
+      "sha256": "7c6864079a89ba8a2ca1df8461bb3842db9711175ef4732af3e09646726623f5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG38.png",
+      "output": "assets/cg/ep07/act03/sacred/CG38.webp",
+      "originalBytes": 2756780,
+      "bytes": 559352,
+      "sourceSha256": "73e6499501b87118267fb45064506a29de0f7c45bcf461daa8357f1e38061dc5",
+      "sha256": "66b3c4fdb85779c876fe670e6983f9965d0a42170dbfbecbe2bea440496fcec4",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG39.png",
+      "output": "assets/cg/ep07/act03/sacred/CG39.webp",
+      "originalBytes": 2391501,
+      "bytes": 421254,
+      "sourceSha256": "1577faff8c76f2302d186dc1feb281b0d9f2c40b6627d58250dededc831f3239",
+      "sha256": "678a48451c9e4051b6ec78207b61c917698e98e1e61b70a418bdaec66b72f25d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG40.png",
+      "output": "assets/cg/ep07/act03/sacred/CG40.webp",
+      "originalBytes": 2627618,
+      "bytes": 515634,
+      "sourceSha256": "a09f5af6e3a79472ea64811d2328f1c31715182d66b1f489edcfe8b8a1f6ec17",
+      "sha256": "a063a2fac6036fbcc0f4ae8528b40edd2df58902ef0d10288829a59a74b08146",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG41.png",
+      "output": "assets/cg/ep07/act03/sacred/CG41.webp",
+      "originalBytes": 2895113,
+      "bytes": 598412,
+      "sourceSha256": "dbc88025954987dffc2033556a643db037d5bdabae3d67bbe9c1c99a4d363342",
+      "sha256": "44997502190275b4399956afd0a1e5dba6dd0d1c64c525116ee21962f2c2e0d5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/sacred/CG42.png",
+      "output": "assets/cg/ep07/act03/sacred/CG42.webp",
+      "originalBytes": 3001609,
+      "bytes": 643070,
+      "sourceSha256": "2631a0cc089c089b854aefb03bc5e3751bf2379ad99fe16ed87044b980cc5bc0",
+      "sha256": "00b15fbba22684e89d834e91e12ba14101db26cd3cae60bdf4cf850f460acec5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG01.png",
+      "output": "assets/cg/ep07/act03/world/CG01.webp",
+      "originalBytes": 2508687,
+      "bytes": 494848,
+      "sourceSha256": "24a65e4a3acc21932e433c1dac9d1a95c51271a79ea9f4ce0d35a8e144e8648b",
+      "sha256": "3b4eb207be61499ad2caeb062beb42e048046cd29200044d535df5bb528fa03e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG02.png",
+      "output": "assets/cg/ep07/act03/world/CG02.webp",
+      "originalBytes": 2229187,
+      "bytes": 371766,
+      "sourceSha256": "6b8dc9d7b214bdcd3edff272bf93d952eba5f53f5317e20bc54cbe65d6b65964",
+      "sha256": "f0c1225697763e5344302af00bb2a723668e842f813f99b9798eb104a50b029d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG03.png",
+      "output": "assets/cg/ep07/act03/world/CG03.webp",
+      "originalBytes": 2354079,
+      "bytes": 416802,
+      "sourceSha256": "941621409bd77bcd453b0eb627e6f597a10c0768d605de7036bff71164c935c3",
+      "sha256": "8c373d5d0899762c8b7e7d5c399a82d3d391d901d8a5768fe62b0dfe6dbc1ab7",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG04.png",
+      "output": "assets/cg/ep07/act03/world/CG04.webp",
+      "originalBytes": 2366329,
+      "bytes": 417406,
+      "sourceSha256": "8a6e0520e37f414c9605cdb1f3efcae4fbcd0258a621099fa2a86802fe69db6e",
+      "sha256": "63954e1228ecd6f4d36b12331a8e789f83695b9d20c7e536bdbdcc8748966599",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG05.png",
+      "output": "assets/cg/ep07/act03/world/CG05.webp",
+      "originalBytes": 2409851,
+      "bytes": 490914,
+      "sourceSha256": "a879994ddf9a10c8003d95335a9cdbb81ee39fcd6681d2267245eb4e70720262",
+      "sha256": "7761923f08f56ea52dae7ef9bb7ae0fe48398edbf25d5b9cb8c2d7bf792ee4ba",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG06.png",
+      "output": "assets/cg/ep07/act03/world/CG06.webp",
+      "originalBytes": 3246205,
+      "bytes": 705014,
+      "sourceSha256": "f75ef2f65e59c43cae913c9a465869bd4f05fef4f1e4bd2b38c03637af43fcad",
+      "sha256": "d3312ddcd5feb6f44a7253fb697235634f763eec2683eb7eeeef45e215f2a5be",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG07.png",
+      "output": "assets/cg/ep07/act03/world/CG07.webp",
+      "originalBytes": 2960903,
+      "bytes": 619464,
+      "sourceSha256": "c908ee3720a04cf78a6fa05fe45519b132f95eed67fe2d56575752f3d8eac9cb",
+      "sha256": "f0f6b8ea51ac202e64c0b5b8047580a17eb662cf337ccd116891938d29063d4d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG08.png",
+      "output": "assets/cg/ep07/act03/world/CG08.webp",
+      "originalBytes": 3100645,
+      "bytes": 647038,
+      "sourceSha256": "db50d27d89b4e640746bf02048bfbccc562e9c3ac9322474c817cecde4ff0ecb",
+      "sha256": "98984c695e99265a9bbd8a5c431eabb9d1fdbba22cf39ae509e5c852e222c172",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG09.png",
+      "output": "assets/cg/ep07/act03/world/CG09.webp",
+      "originalBytes": 2607548,
+      "bytes": 502070,
+      "sourceSha256": "71ce3c3972bfd2a6c360f4768113d11204a1ae98513a4529c06802fd204ab900",
+      "sha256": "adc40a36c29c5df2f83a29e5a2609de497e65d614c9837fc2374b4509f17775f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG10.png",
+      "output": "assets/cg/ep07/act03/world/CG10.webp",
+      "originalBytes": 2497609,
+      "bytes": 464778,
+      "sourceSha256": "f82c952e713e356913d2525698b28c10e3fb403709ad6469ad83df155250ffa1",
+      "sha256": "7e7ed304db8df804fe8fdcdd31a3792c5a24d8c6c71b115ea3a670aa60caeefa",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG11.png",
+      "output": "assets/cg/ep07/act03/world/CG11.webp",
+      "originalBytes": 2685665,
+      "bytes": 530688,
+      "sourceSha256": "3789878eec41932b94bb350f342a82267476d8cdfa7f765ffbf9abfa1151c4b5",
+      "sha256": "12240eeb7da92dcc81c47e395bbbeaf161795beffe4087caa60f6cb948020335",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG12.png",
+      "output": "assets/cg/ep07/act03/world/CG12.webp",
+      "originalBytes": 2902624,
+      "bytes": 596034,
+      "sourceSha256": "90e3e12074167dac904dc3f1726f0e2c885616846c5acb5b0ee2eb9b8415a135",
+      "sha256": "dede8f50783991ff2fa7137df488b77bbd9e8ac59595fd5b329effde1034cbef",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG13.png",
+      "output": "assets/cg/ep07/act03/world/CG13.webp",
+      "originalBytes": 3279247,
+      "bytes": 684638,
+      "sourceSha256": "3e332baa6089a227f8fea326205dc2c659a73ce82588921292379e8f67e29f3b",
+      "sha256": "d3d69dfde8987ae2b96048eaf6600e0ce6d749d20a41580d2eb92f87fbb380b3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG14.png",
+      "output": "assets/cg/ep07/act03/world/CG14.webp",
+      "originalBytes": 3323983,
+      "bytes": 694122,
+      "sourceSha256": "5b1fe5bde5cc28f0958509661379ee009a5ccb2da9a2a819920a7cfe62239ab7",
+      "sha256": "2b17ae4f225a98d1bd54e602e8d27c79ae4654cbd661c0ade408542386ea5e1a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG15.png",
+      "output": "assets/cg/ep07/act03/world/CG15.webp",
+      "originalBytes": 3012757,
+      "bytes": 624276,
+      "sourceSha256": "7063db471c2bb0064e2d29e216b57e7371c6755742a50c6b1ec822999fa04b50",
+      "sha256": "7854446b2234ca468d9874b1c59e50878451f94894ae98a18a7c2b635f197b86",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG16.png",
+      "output": "assets/cg/ep07/act03/world/CG16.webp",
+      "originalBytes": 2320830,
+      "bytes": 397824,
+      "sourceSha256": "d8e6340445ffa7df417747f6d74f8608bc1ffaa26e6725a991391fc414582025",
+      "sha256": "123c1a695d8b8012be19f8142f565b0992df737f488ff93b34c10b2bcaf97b5f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG17.png",
+      "output": "assets/cg/ep07/act03/world/CG17.webp",
+      "originalBytes": 2945291,
+      "bytes": 590572,
+      "sourceSha256": "6f7309fa614fbd76a58302d5b727dbbbbf4020ab41ea399bbcde4993f5d43c43",
+      "sha256": "7f18ec02c3810e8505b5b04b8b0f80b1b6cd59e16c3f7c790487a3e38f7133e3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG18.png",
+      "output": "assets/cg/ep07/act03/world/CG18.webp",
+      "originalBytes": 2882122,
+      "bytes": 577414,
+      "sourceSha256": "951b50d05fad6b3de3e5a42ac84a8b9cbb90d6a355b3375a666dd59cc0d1b137",
+      "sha256": "6aafda6852448f8ba9c22c369e0269d9d89c8b7678a41447b400201203311475",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG19.png",
+      "output": "assets/cg/ep07/act03/world/CG19.webp",
+      "originalBytes": 2686935,
+      "bytes": 494218,
+      "sourceSha256": "08311909f942aa78aacaca4e27a4544f6d4fa7b4ad9d312a0d07ddb0811bbd3d",
+      "sha256": "7b45b66e846d6c746715abf09d36e6063b9f23bb9c2a0f12986941e3110aae24",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG20.png",
+      "output": "assets/cg/ep07/act03/world/CG20.webp",
+      "originalBytes": 2917100,
+      "bytes": 589554,
+      "sourceSha256": "9df659b303472987e4ba76478025ee0790ba110e54b6c26935e66115be684ca1",
+      "sha256": "1ea1963bc8e86144e45e9c2b91f0188ea079bbd4b4b841b727f051b59defc81e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG21.png",
+      "output": "assets/cg/ep07/act03/world/CG21.webp",
+      "originalBytes": 3034506,
+      "bytes": 618544,
+      "sourceSha256": "262a534026aa5e272450a1a4eec86a777fbcfb129010fa9f1fabcfa9d8f67100",
+      "sha256": "2277e0134a016919bfaf350aa9a2e6843cf88ff8d6057cbd1b348663fe7b656c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG22.png",
+      "output": "assets/cg/ep07/act03/world/CG22.webp",
+      "originalBytes": 2800035,
+      "bytes": 577034,
+      "sourceSha256": "f1f495cfbf05ac5e58bf42fd050d9342197274d636ca5ff3fd287026e9eb6738",
+      "sha256": "235f988f94bde325bc3960f9973d840f2df73d406c312218355e5ce67c276733",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG23.png",
+      "output": "assets/cg/ep07/act03/world/CG23.webp",
+      "originalBytes": 2845443,
+      "bytes": 590248,
+      "sourceSha256": "69dd9517da52fe543cf23332325aeda1bedaf4f1e2858bbcc78da1c7bb4065e2",
+      "sha256": "8e39f973dab99e76cfe1d22c80071d8d10a276247e4c0516763d5389fcf3c265",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG24.png",
+      "output": "assets/cg/ep07/act03/world/CG24.webp",
+      "originalBytes": 2805089,
+      "bytes": 588330,
+      "sourceSha256": "e3674d6ba74bb18d8da4b62928f0e5f6a5fd19ad571d4efeb3a4ada059eb2fa9",
+      "sha256": "56d9eee0527389f28c5df1482dc2613b028e17367ff38c00dbcaa73d30d205b0",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG25.png",
+      "output": "assets/cg/ep07/act03/world/CG25.webp",
+      "originalBytes": 2754118,
+      "bytes": 533162,
+      "sourceSha256": "44d3f73de23a7749347bf2d680fcc28da3f92080725c1ed7bb3d9454ccd49a79",
+      "sha256": "4f9a576e4cda660f609cf73e1fa8c16927eb7e3bd9ae057975ddc34641ed9318",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG26.png",
+      "output": "assets/cg/ep07/act03/world/CG26.webp",
+      "originalBytes": 2831265,
+      "bytes": 573348,
+      "sourceSha256": "fda6ea5737ae2dd9c1f8d23d193f44703fd1b28776a7bc78b4270bcfe769233e",
+      "sha256": "d08f291b83aa5b82d1f254f8bc4e661cd4a32df9b0abe17c76ce298d6bd8feb4",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG27.png",
+      "output": "assets/cg/ep07/act03/world/CG27.webp",
+      "originalBytes": 2576128,
+      "bytes": 537850,
+      "sourceSha256": "81f8f57bfe3563be99f768621d586c1312bfad51fd2fc27ef1f136c6dd4a08b8",
+      "sha256": "839f80a01e2493e10477ffe22edcc5e86a15be1056cc66f15ea5ad92e6177307",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG28.png",
+      "output": "assets/cg/ep07/act03/world/CG28.webp",
+      "originalBytes": 3066388,
+      "bytes": 649644,
+      "sourceSha256": "201cd140bcd35accc0afe062348d576df02e56a2a521a21abc591cfd471fd48c",
+      "sha256": "8d7e673ee463f19b191b42f6a7ae108ed5180da1ad1ae4c8bfb1d23e3c68091f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG29.png",
+      "output": "assets/cg/ep07/act03/world/CG29.webp",
+      "originalBytes": 2404860,
+      "bytes": 459104,
+      "sourceSha256": "a98f19fdb863531cb917099e12f3343c7bd10653414c61788431c147e63bbbb8",
+      "sha256": "c6d846fe5145cd7fcfd8c98794d75b439389e659867922a2b6cec1d2b621e73f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG30.png",
+      "output": "assets/cg/ep07/act03/world/CG30.webp",
+      "originalBytes": 2286239,
+      "bytes": 406786,
+      "sourceSha256": "70e784923091564877744f712ab48c3f5e5d1236092fb603e7d5ddfd688db619",
+      "sha256": "b868034ab50f1dbe0b6fc4aa2697d77acfb3e7a7a2db15ee248ef906ae20dbfa",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG31.png",
+      "output": "assets/cg/ep07/act03/world/CG31.webp",
+      "originalBytes": 1540574,
+      "bytes": 96426,
+      "sourceSha256": "0ec51ee8823e0a131f8bce683634d1c2900d679885c45d093418a5e8dbafd7de",
+      "sha256": "8a03c8ab2a8bbecb2857586ff6c14bfa69a3ec8192b143ec13d671cfe155a084",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG32.png",
+      "output": "assets/cg/ep07/act03/world/CG32.webp",
+      "originalBytes": 1993305,
+      "bytes": 291268,
+      "sourceSha256": "e915dcc5e5bc653f4977ac026773af728b4c7031dff5e55467308324698a8ec6",
+      "sha256": "2a1e2eed4ae7ea3eae9bb433fc1d03b87b78bfdc68334cc01223bb2f82297429",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG33.png",
+      "output": "assets/cg/ep07/act03/world/CG33.webp",
+      "originalBytes": 2292807,
+      "bytes": 388780,
+      "sourceSha256": "1cc67aceb9fe9d32968cdef82ff166855d1ae1fae937f0f0e06a2c684ba78048",
+      "sha256": "76e251ea18c572b6d4451c871e88f65d0c654b381c3ab0b058389cb93082ecf0",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG34.png",
+      "output": "assets/cg/ep07/act03/world/CG34.webp",
+      "originalBytes": 2454587,
+      "bytes": 468576,
+      "sourceSha256": "66bca56e409e4c7dabe2a6f60a9f31f9098d5190d3d33bc278d2b9e1bcdcfef6",
+      "sha256": "834bb04458381021479dfa91ed0f1a789445f155fe4cc61e26d1a03ad0a0e6cb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG35.png",
+      "output": "assets/cg/ep07/act03/world/CG35.webp",
+      "originalBytes": 2359940,
+      "bytes": 424190,
+      "sourceSha256": "516677f1fb60daf2c816337d40ca409305742a84b219daa0b3a8490f5c3b74a6",
+      "sha256": "49392ee42c6f5f7ec3a29e8831f84c43b45180fe3fb2d4a4f0bce176842fb11f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG36.png",
+      "output": "assets/cg/ep07/act03/world/CG36.webp",
+      "originalBytes": 2688302,
+      "bytes": 514736,
+      "sourceSha256": "1ebd59998901a5c2463941553a6de298e8d947067eb4c7b5150eeaa0e7a594b3",
+      "sha256": "b0276a658f421dcb241c8cabe0270ce681664fb09c445ef9c9685d1e51197bda",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG37.png",
+      "output": "assets/cg/ep07/act03/world/CG37.webp",
+      "originalBytes": 2611355,
+      "bytes": 481174,
+      "sourceSha256": "dc2d0cb52e8e1be2396e4dece697ea315dd28a8401bd3bf39eba2fba13c12416",
+      "sha256": "30dd1113b55831da4533222884102a5bbcdbf8f3a48cd30f8515d4921d2684c1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act03/world/CG38.png",
+      "output": "assets/cg/ep07/act03/world/CG38.webp",
+      "originalBytes": 2770023,
+      "bytes": 540958,
+      "sourceSha256": "5a5c52d582eb7ba13d08e58396acdec469e9afeaf493377b56e2eee9154bd8aa",
+      "sha256": "0fdfdb15f189832d8b06332eeae5bf4cc2e3dd39301f25a66563483d6b112a9c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG01.png",
+      "output": "assets/cg/ep07/act04/sacred/CG01.webp",
+      "originalBytes": 2489622,
+      "bytes": 474612,
+      "sourceSha256": "bfaa7d8c5b25a1fc574b06c1f39045701dcc8ad8c7850376c8a8a594264e6428",
+      "sha256": "a3d343776798153949371cf6c1fc3578a454f062089d86e11634e78cecf70031",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG02.png",
+      "output": "assets/cg/ep07/act04/sacred/CG02.webp",
+      "originalBytes": 2544825,
+      "bytes": 452166,
+      "sourceSha256": "9030c592079d36449a47ac9e6b0e36be03fa35e5afc00f9eff63127ba99187ae",
+      "sha256": "f72b0524b9eaf6f7b8f05c8ac4239949f80fcf0cf1749504826cb6e9b6f228b3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG03.png",
+      "output": "assets/cg/ep07/act04/sacred/CG03.webp",
+      "originalBytes": 2217251,
+      "bytes": 342558,
+      "sourceSha256": "38802059067700e1fdc7d4c44d5e79a417c286b7e4186116aded6c929ddbea2a",
+      "sha256": "aea27e70b0811107f27538b6f4f9d3b94731517e0e8635276289b9fb47d309a1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG04.png",
+      "output": "assets/cg/ep07/act04/sacred/CG04.webp",
+      "originalBytes": 2448294,
+      "bytes": 458110,
+      "sourceSha256": "269ea1da007f5adc588f0c071984e3ce80fda2935caf494efcbe91723d15cad4",
+      "sha256": "58115e0f0d477108925236652a5e2e8fc02db2d957e8d50460a06c78ce0c8b0b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG05.png",
+      "output": "assets/cg/ep07/act04/sacred/CG05.webp",
+      "originalBytes": 3681987,
+      "bytes": 806974,
+      "sourceSha256": "0daa50d33af1685b1481c3da1274dc48a4d0ceb077196518d220981433f1512e",
+      "sha256": "b797e2b9912c652218f7ff457658be4f01dd1a3549ad85339a42c5516d4adae3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG06.png",
+      "output": "assets/cg/ep07/act04/sacred/CG06.webp",
+      "originalBytes": 2469510,
+      "bytes": 439758,
+      "sourceSha256": "147216ff534ee170b3459bca16d87c8b3e1010a3c88531836f89538478d56ce6",
+      "sha256": "3642d88bd02ab674a1d5f8e5c0ef88e88444a3ee35bcef91a9d1954e6ecde6ed",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG07.png",
+      "output": "assets/cg/ep07/act04/sacred/CG07.webp",
+      "originalBytes": 2259372,
+      "bytes": 352246,
+      "sourceSha256": "a75bd43de64deac25fc36de8af388100f2c6d7b305f84e80c9efd14597222ab5",
+      "sha256": "36f955160b031e48de895d760986c757ee80ca53a45360824e1e0f777695877b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG08.png",
+      "output": "assets/cg/ep07/act04/sacred/CG08.webp",
+      "originalBytes": 2565316,
+      "bytes": 470582,
+      "sourceSha256": "254de63f5a16ae601d0f052d8fc8b0da2a446a82f38b4764090db4c366f71b16",
+      "sha256": "0c40125e65cc5e755a271432c37ec744a67f34387670a4996cce829b6bdfa8c7",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG09.png",
+      "output": "assets/cg/ep07/act04/sacred/CG09.webp",
+      "originalBytes": 2287461,
+      "bytes": 389552,
+      "sourceSha256": "0f184f0acb60aaeac864d4009abe4ef2f15db7124eb0c6733b89735fa2037535",
+      "sha256": "104ad8b1542fda7d57b5a52c26146ef622d086b55b906eceb7dfb4e1ab6c5eda",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG10.png",
+      "output": "assets/cg/ep07/act04/sacred/CG10.webp",
+      "originalBytes": 2338387,
+      "bytes": 391700,
+      "sourceSha256": "3e52d1687f39aa13f1c8610b01622e077ad7115008917b24414b255216f3d5bf",
+      "sha256": "a27369004128995edb8889c006304ca01824ef50ccaca2761d92a5c7ad5e4cbb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG11.png",
+      "output": "assets/cg/ep07/act04/sacred/CG11.webp",
+      "originalBytes": 2336684,
+      "bytes": 396366,
+      "sourceSha256": "b822770af82867802192fcc8113b0d438eb80ec96c0b83a20fb4badc0f6d4543",
+      "sha256": "20064a42f9f3087fae14b98b46040a153976681b718730d958373a76b30d6d8f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG12.png",
+      "output": "assets/cg/ep07/act04/sacred/CG12.webp",
+      "originalBytes": 2267703,
+      "bytes": 393266,
+      "sourceSha256": "86ebde695b311e00873271a1ea7f34e441d40bee974dad65172ea0a4d642e59c",
+      "sha256": "cb58b8bb3ec3cddbbe44b60a7de423b65db521e77fb2ac2e181f3af9990c990f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG13.png",
+      "output": "assets/cg/ep07/act04/sacred/CG13.webp",
+      "originalBytes": 2175681,
+      "bytes": 370868,
+      "sourceSha256": "13ece136e48cac66f99fa6b68724bb5524d8a7340d5f9c39e13751c80314966f",
+      "sha256": "8400dd92d9597040d1bba02d464281be876888422d974294dc45154b29f6c193",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG14.png",
+      "output": "assets/cg/ep07/act04/sacred/CG14.webp",
+      "originalBytes": 2329311,
+      "bytes": 400658,
+      "sourceSha256": "80112b258163e3b11e2e086d68aa52d89cce8c7b2920a039d07f3a0e76a36cae",
+      "sha256": "8f8d7584ba471d184b86f01a5967b46913c1a0eeb0a69fb79a34c59c7132fbf9",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG15.png",
+      "output": "assets/cg/ep07/act04/sacred/CG15.webp",
+      "originalBytes": 2950969,
+      "bytes": 569840,
+      "sourceSha256": "1ae40d72d336a4a36674720ae9739e82d3924629013f10f6e54e79bb64aec0b9",
+      "sha256": "41ed8344c88e3c1e12668d42e46b1bfcf5740aac0495640e87615ffe758e1230",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG16.png",
+      "output": "assets/cg/ep07/act04/sacred/CG16.webp",
+      "originalBytes": 2763041,
+      "bytes": 528640,
+      "sourceSha256": "e3835d7c4e6f5fc976e8d82ea8091433e27482c22c2620f3514cc26c17bec95b",
+      "sha256": "e5e226ca7987844474a6d1f30a938d1f4684a9cbccf1153f3b4e8ce2be654cb2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG17.png",
+      "output": "assets/cg/ep07/act04/sacred/CG17.webp",
+      "originalBytes": 2908461,
+      "bytes": 570168,
+      "sourceSha256": "cb6721e6ccb97e2b2c536cc9690b12487744512efc1c0541de828a995dbbf1ee",
+      "sha256": "7cc309c3867fd128734c895f8c340744cca7c7af74c13893101049ddc24f0499",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG18.png",
+      "output": "assets/cg/ep07/act04/sacred/CG18.webp",
+      "originalBytes": 3100358,
+      "bytes": 618196,
+      "sourceSha256": "23dae7778c57f2019c0191b27e79f698ba92a0d87f727210bce9c2b62577d4ab",
+      "sha256": "29973c61edc999388361eaf4677c3146905f49848440cb670a38b1eac6d80783",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG19.png",
+      "output": "assets/cg/ep07/act04/sacred/CG19.webp",
+      "originalBytes": 2599593,
+      "bytes": 476596,
+      "sourceSha256": "3a940e80657fcf3ee7ec169069878995b690ffaf8b81944a3544c89b8c0d0b67",
+      "sha256": "68e8a5f27c44290733ea2e391bda84e6d483d4f8e1fb4916b29aec2b200d5efc",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG20.png",
+      "output": "assets/cg/ep07/act04/sacred/CG20.webp",
+      "originalBytes": 2567419,
+      "bytes": 453674,
+      "sourceSha256": "dca0b08791eaea3cf610feffcd51886be4dd5116ee966ff24b4651ac231fd109",
+      "sha256": "5bcac0b30f7088b1f65d235adeb79047dd5876b72a27d06eec396343966e112d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG21.png",
+      "output": "assets/cg/ep07/act04/sacred/CG21.webp",
+      "originalBytes": 2453026,
+      "bytes": 408556,
+      "sourceSha256": "42e00429516656087baf0d14c28529a4fc45872e3f21d29cbd3111b12c0a147f",
+      "sha256": "f47cc67d5442a4e900be4870a9ba6949dfe2f94c1366b77444aa6b46db7f5a65",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG22.png",
+      "output": "assets/cg/ep07/act04/sacred/CG22.webp",
+      "originalBytes": 2373774,
+      "bytes": 411162,
+      "sourceSha256": "15ccd8d0bbe8bff00594daa6c6ab464c76a3cef9c02636dc7229a93926269747",
+      "sha256": "c0618c91de84ddf602c557d4790d4d97d7ef3a8ce6ccbef0e8b81c15a7383540",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG23.png",
+      "output": "assets/cg/ep07/act04/sacred/CG23.webp",
+      "originalBytes": 3054490,
+      "bytes": 599778,
+      "sourceSha256": "9afe65f3fdee2b01a811bd7b2f0eed410e60ef7fbca75027e7655a2ab8fdb075",
+      "sha256": "4496b2ec13dca4fe1bd9cbd484c80fd0a6ec4a44684e5d9683604051bef9360a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG24.png",
+      "output": "assets/cg/ep07/act04/sacred/CG24.webp",
+      "originalBytes": 2560820,
+      "bytes": 453010,
+      "sourceSha256": "0412b83639d71a8fcae291209635eaf550550a705a014540bfbaed9eca31ef39",
+      "sha256": "c7265e0cb850c40ecf9652ab89e34724c5acbd13d292f5078fbbc42cd6638ec9",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG25.png",
+      "output": "assets/cg/ep07/act04/sacred/CG25.webp",
+      "originalBytes": 2883729,
+      "bytes": 552984,
+      "sourceSha256": "194d2aedad30dfc1572a5a23fb120fe58b1a6221521b9d51e1888fd1effbc642",
+      "sha256": "35e0f603ea9543844b1c1baa3224f310b02b78bd236f1f11c151b3c24ff548eb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG26.png",
+      "output": "assets/cg/ep07/act04/sacred/CG26.webp",
+      "originalBytes": 2777669,
+      "bytes": 526504,
+      "sourceSha256": "5670eaad9d0f943a59b562c788fd62a9c6de64675eace2240ca69cd156b5129d",
+      "sha256": "7c82b4c9e02b565c762f4d89254c7c95e2ef43b21674bb28f6d2c41780c74916",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG27.png",
+      "output": "assets/cg/ep07/act04/sacred/CG27.webp",
+      "originalBytes": 2876083,
+      "bytes": 560928,
+      "sourceSha256": "1b2e0fea2e55932001e965632d29470d4a840a792715f3d153955e691dbbe661",
+      "sha256": "513cd59592a4a64725d04ac5b5e2a06fa3bc9a1982d8e30156655ca567a52189",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG28.png",
+      "output": "assets/cg/ep07/act04/sacred/CG28.webp",
+      "originalBytes": 2987060,
+      "bytes": 576936,
+      "sourceSha256": "2805acba36d3afded4e501e63f523dded875762a974bdc68c30004f7a0b91376",
+      "sha256": "e081f37d6676e83ba52e7db1c420d964125bd8468568b8f10db48a2ec33631a0",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG29.png",
+      "output": "assets/cg/ep07/act04/sacred/CG29.webp",
+      "originalBytes": 3031217,
+      "bytes": 591334,
+      "sourceSha256": "b281dc33c92e2a2afce95c2685b79ada5504147264f0197623cf903e0d9975cc",
+      "sha256": "dae984c45d9a46c9799b77d827b28e882f54a613913d4dbdd1916c7689e30639",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG30.png",
+      "output": "assets/cg/ep07/act04/sacred/CG30.webp",
+      "originalBytes": 2676294,
+      "bytes": 479616,
+      "sourceSha256": "c48ffe3eb51be77805509c0c28ddf0c76fd11b8cfccc47a34a9434933e3de237",
+      "sha256": "df8aac1a3003a8e7824d90658c06a066643def884d91606fcc4fed0bba334017",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG31.png",
+      "output": "assets/cg/ep07/act04/sacred/CG31.webp",
+      "originalBytes": 2843012,
+      "bytes": 527896,
+      "sourceSha256": "97d4b29b5e6f51f78fe1bce18e80160ed13ab01285dc8af5f993e1b4df8050a5",
+      "sha256": "417fe80b559ed548bb2536f5e62e45c8ece6f987db43ea034381fa9346c3957a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG32.png",
+      "output": "assets/cg/ep07/act04/sacred/CG32.webp",
+      "originalBytes": 2635857,
+      "bytes": 481734,
+      "sourceSha256": "b647c767fe91ae8aa83dc5a853fe9a4e9748a9eb600e35fc331ed9a6bb00cc29",
+      "sha256": "93f9b3be7f6f65bb51376c7c39749ef85356ee119e5da4c655d0d59751cb020a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG33.png",
+      "output": "assets/cg/ep07/act04/sacred/CG33.webp",
+      "originalBytes": 3227111,
+      "bytes": 644240,
+      "sourceSha256": "a5f5408758bd9df94099eb7c0a409929d753f93a3f516a673666d9ffc2741f03",
+      "sha256": "90f2af5a18bf69d37422ee4dbbdf0e298c73b96b0f9009fb80e611045cf16df6",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG34.png",
+      "output": "assets/cg/ep07/act04/sacred/CG34.webp",
+      "originalBytes": 2722513,
+      "bytes": 495022,
+      "sourceSha256": "d85f4aa3ab54e3a8b96fc24741af87e1f5f2d406bf4097ff181fea732295891c",
+      "sha256": "24c98e74ca44e69aa56c20005d2fcd19071c4a7fe15fb853970c3943ed6b0a7d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG35.png",
+      "output": "assets/cg/ep07/act04/sacred/CG35.webp",
+      "originalBytes": 2898758,
+      "bytes": 563034,
+      "sourceSha256": "861a205d698ea0cec276914cd0a62c30de32f20be0099f3b37c2df2422ca5e8b",
+      "sha256": "db3c9e5a84c3240c389da7b367a2b06cdfe5c1dffb6be2adc062747d1474b2b7",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG36.png",
+      "output": "assets/cg/ep07/act04/sacred/CG36.webp",
+      "originalBytes": 2949026,
+      "bytes": 585480,
+      "sourceSha256": "d4cd0cf949dda30430e1a08479bc589cc7c04eba8a58efebde480b67dc4e421b",
+      "sha256": "9cecced93254883c8b3740889b137fee7b680fb1834fc80250130fc675574ff3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG37.png",
+      "output": "assets/cg/ep07/act04/sacred/CG37.webp",
+      "originalBytes": 2384997,
+      "bytes": 446316,
+      "sourceSha256": "83741a96e7b73603b6c1d33cfe49631b6463a0a32124641b84215a8e9a6133a7",
+      "sha256": "cc5292c9a08f113e87492ef018edfaa84b2062275f7da44af086130a16a136f8",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG38.png",
+      "output": "assets/cg/ep07/act04/sacred/CG38.webp",
+      "originalBytes": 2332176,
+      "bytes": 417996,
+      "sourceSha256": "5b7580f25fd8de432072c4557bd8e29ed539d15db6ca47a40db12558ea1fc0ad",
+      "sha256": "18fdca1c5da392280fa40dc9c72e8cf34cd54e2aa98497e4cf6d6a7b69564603",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG39.png",
+      "output": "assets/cg/ep07/act04/sacred/CG39.webp",
+      "originalBytes": 2569367,
+      "bytes": 543130,
+      "sourceSha256": "f31fcf300ce790b53ef9d8263019685efc16d23cb51bf82784d46a1bceaa13ec",
+      "sha256": "fb597d76a04bdb919914ab5aed4b0873e3d945178e33d85f8623296ddb8f8036",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/sacred/CG40.png",
+      "output": "assets/cg/ep07/act04/sacred/CG40.webp",
+      "originalBytes": 2251692,
+      "bytes": 413580,
+      "sourceSha256": "9d3430829d216af73602a3909f44e3352995f4e376e6a499bdab7c9fe65d2942",
+      "sha256": "5bdda0f358adbed7f6e3c2261c98b592784e5adc2d21be76407077f86bcea3e1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG01.png",
+      "output": "assets/cg/ep07/act04/world/CG01.webp",
+      "originalBytes": 2482528,
+      "bytes": 477060,
+      "sourceSha256": "45e2e82b816e1f9afbfb5390c2db6bf1f50f5939ef19e9f3a5670d0e04b638c6",
+      "sha256": "ff4f516816f7ccd565b1df7e4e64c67a0e87f49f5b9ea85e8b1293294ed61485",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG02.png",
+      "output": "assets/cg/ep07/act04/world/CG02.webp",
+      "originalBytes": 2644702,
+      "bytes": 520962,
+      "sourceSha256": "2f79b4447e5c2b3b9d516591efdf7c42510ad765d5d5d5aef43fd19f2155703a",
+      "sha256": "577a49c622633e70e48ab679e92a6d0ad9d5428c6bc1769316b9240a48322c69",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG03.png",
+      "output": "assets/cg/ep07/act04/world/CG03.webp",
+      "originalBytes": 2455305,
+      "bytes": 453956,
+      "sourceSha256": "e7e0b63a87a7db6b60b74b8367f1e774346cc37a006c01bebdb97b0b31626e41",
+      "sha256": "100f62e0a487915dbb62870d536b34d6155d0395cbcd2987e885c4086bf0df6d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG04.png",
+      "output": "assets/cg/ep07/act04/world/CG04.webp",
+      "originalBytes": 2488820,
+      "bytes": 500910,
+      "sourceSha256": "7d8eea1d82d7f3b4bab00ae5098ab6a4d6d697e11f90e7574132c64530a41711",
+      "sha256": "44a0b609cbe901c8e9435aaf04b4ac3e56af9be94a5a01a9195d10c2f7b742ba",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG05.png",
+      "output": "assets/cg/ep07/act04/world/CG05.webp",
+      "originalBytes": 2195806,
+      "bytes": 361568,
+      "sourceSha256": "3daac559c1899367b9299d831b6338362ab374499f3056d0142d665bac8ce75e",
+      "sha256": "fee179dee9811d44783b476cd7fa742ff6aaa7e909b7f20a85a9099fe7dc57b5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG06.png",
+      "output": "assets/cg/ep07/act04/world/CG06.webp",
+      "originalBytes": 2976865,
+      "bytes": 611432,
+      "sourceSha256": "6063a744b940e20e0ee08ec37d5b500ae15cc51054f3459a430a1de1e5afd48d",
+      "sha256": "7850bc4bb6311ba60b96765e8e8c7f3ca13d21dfdb4ba4d0c1338b34c9a2ed0e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG07.png",
+      "output": "assets/cg/ep07/act04/world/CG07.webp",
+      "originalBytes": 2511762,
+      "bytes": 464666,
+      "sourceSha256": "cdd9e77a7ebd1c3614e610144e5bd1a43da87b01d47c1ac379be87158bad6b27",
+      "sha256": "b65b926c887d1b5918c2f7435f42fc753673102333c3fcd498f134be865f319e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG08.png",
+      "output": "assets/cg/ep07/act04/world/CG08.webp",
+      "originalBytes": 2918640,
+      "bytes": 623216,
+      "sourceSha256": "2c1609bb7d88d73aef2e18977afc5c1a08a91e33da5a0925af0769c038b87794",
+      "sha256": "7bbeabf91197f351d95a9e490ee86234ba41b88d8b6817765adbfd5c6aa76244",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG09.png",
+      "output": "assets/cg/ep07/act04/world/CG09.webp",
+      "originalBytes": 2705239,
+      "bytes": 526270,
+      "sourceSha256": "558ba48e5119c00b5a59ffe1fc9fd2c88adc9240fbca034adca5333e12b2e8cb",
+      "sha256": "d0b8bff5d52ffec93a9df4a29671f01e30424be71a0990da74997464815e0b9a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG10.png",
+      "output": "assets/cg/ep07/act04/world/CG10.webp",
+      "originalBytes": 2917017,
+      "bytes": 575382,
+      "sourceSha256": "46fe635a34846f8fec049c5a21ead4704b4850233a334125a4cd0a6f37ba11a8",
+      "sha256": "f6265ba1bccab104a1e2462ec0b2a0be64fd9892b9f273d159bd6b8eb7e13a9d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG11.png",
+      "output": "assets/cg/ep07/act04/world/CG11.webp",
+      "originalBytes": 2538631,
+      "bytes": 472984,
+      "sourceSha256": "61d0ce7d77275ab9562b3e9d12e959745463d0e59c1ae70b6360b289d504d75f",
+      "sha256": "f20a90dee034c2e8d05ae76f9d844bbf9a4be7cfe3bea1bf9de77725b4736082",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG12.png",
+      "output": "assets/cg/ep07/act04/world/CG12.webp",
+      "originalBytes": 2581342,
+      "bytes": 497004,
+      "sourceSha256": "bd0d89ed4adcbb6afe1736d264725009b9a9d183a7ebb95f0939144aec5b4f81",
+      "sha256": "bbce8161239ef834ffc9556fc2dce731a31bde72114a1c1acb2f438d3c749b85",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG13.png",
+      "output": "assets/cg/ep07/act04/world/CG13.webp",
+      "originalBytes": 2848813,
+      "bytes": 572600,
+      "sourceSha256": "5ddb45f122fb45ce84196d742760c2604ec12ac72b20d0bff5e2128e5e5f5c09",
+      "sha256": "28eef9db3dd02345ff14c6877b21a6dfa6bd8ab3d06a3594139671171cfdb8b2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG14.png",
+      "output": "assets/cg/ep07/act04/world/CG14.webp",
+      "originalBytes": 2572635,
+      "bytes": 495678,
+      "sourceSha256": "a1a7917c6e5f335f90376fa2e72227f308337e01d6aede33bf314c5152a21bc0",
+      "sha256": "0d2c25a09e454f46129a01cac30026ee4459762954b643b209cf89079e4a99cc",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG15.png",
+      "output": "assets/cg/ep07/act04/world/CG15.webp",
+      "originalBytes": 2723191,
+      "bytes": 550966,
+      "sourceSha256": "912d178bb7c2dd041fce799b22e86c4609b3ab4b8f14da30ca3b1588a14dba76",
+      "sha256": "ca6220e7ed2573ef24b6ca1ef5fc6c6285aba3180bb940379f6b2a266d3e5ec6",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG16.png",
+      "output": "assets/cg/ep07/act04/world/CG16.webp",
+      "originalBytes": 2462216,
+      "bytes": 452806,
+      "sourceSha256": "34ff765ec700ffccddc8223fe6e7a65f993684b006fbe2b3ddd621280af250f0",
+      "sha256": "6d21d00215517d31038315428462ca3b6522edf8cc535b77dd1056c482149886",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG17.png",
+      "output": "assets/cg/ep07/act04/world/CG17.webp",
+      "originalBytes": 2541009,
+      "bytes": 473056,
+      "sourceSha256": "ed7e8ea45f12605b3f2eb13c211018a1496f15dbe6cb25e81999acb69602bbe0",
+      "sha256": "54893802611a9b49d69f9ab5af9b33d707bc6f4a272d2eb9611524039665faa1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG18.png",
+      "output": "assets/cg/ep07/act04/world/CG18.webp",
+      "originalBytes": 2535385,
+      "bytes": 458250,
+      "sourceSha256": "5db9f9564d35f2d7e56c8476a0ee428b478c60ebf9be2a4dbc95527b02cf5350",
+      "sha256": "57b64cea1d9e723790e2c8780e34227c9b2ad90ac9e7968a96b3dc14db307beb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG19.png",
+      "output": "assets/cg/ep07/act04/world/CG19.webp",
+      "originalBytes": 2722351,
+      "bytes": 538294,
+      "sourceSha256": "2a726cf9bafdf7a8df5779fe57fde4d03aa1d21181fc1b4f1dd6f5cda30807f5",
+      "sha256": "17e012f1b529a24afc13f4e9e7c854c8c93d53a1deba460e8ef4b5646b5fcd7b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG20.png",
+      "output": "assets/cg/ep07/act04/world/CG20.webp",
+      "originalBytes": 2607201,
+      "bytes": 496354,
+      "sourceSha256": "b69fb67e9fa566d1e7612a927c3ebb2d754a0b77dc1838f6f9661a60b16eca43",
+      "sha256": "d8e55e1aa0ed6d50b3f34b239dd23a3d64760abf1dd88cca30ce633d6c7b7875",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG21.png",
+      "output": "assets/cg/ep07/act04/world/CG21.webp",
+      "originalBytes": 3073528,
+      "bytes": 631522,
+      "sourceSha256": "665e303654405daaf0214948877174bf2c457f7a1cac29397155d0a38cc3ee74",
+      "sha256": "f71e7a87fb9b278f0e6f458d01201d61aad5621bcae12a299f2c5bedd4f1ce2f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG22.png",
+      "output": "assets/cg/ep07/act04/world/CG22.webp",
+      "originalBytes": 2691176,
+      "bytes": 503146,
+      "sourceSha256": "32e088a96508edaae3e188b8faeafd08313cd9955bc20471b56dcdc8b0427134",
+      "sha256": "900e9f708f6a27d8221f6559e1d022455fc19640d352ec79c336bc47ef455773",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG23.png",
+      "output": "assets/cg/ep07/act04/world/CG23.webp",
+      "originalBytes": 2651638,
+      "bytes": 500902,
+      "sourceSha256": "d5ca8ce4ed3458c330311c956519224aceaac15d5fa503aec35e5f26c48cfdc4",
+      "sha256": "00aec7fb62585939badf434a94b0d301d3b1e2bfe242f9642292dc7cc2f7c7cd",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG24.png",
+      "output": "assets/cg/ep07/act04/world/CG24.webp",
+      "originalBytes": 2795866,
+      "bytes": 535312,
+      "sourceSha256": "03e396db6124bb40c225373917d685317c28f71b65a5ecf00439767b90def422",
+      "sha256": "3351dcd4fd9c800bcc9a1cf3dde26208d4d9abe6689f71ca858e3037871f79ef",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG25.png",
+      "output": "assets/cg/ep07/act04/world/CG25.webp",
+      "originalBytes": 2673135,
+      "bytes": 509870,
+      "sourceSha256": "e6025b983b4b8235423825318eb99ea029a1b22112a7fe80a84b8a84c6718df7",
+      "sha256": "0a6f53d6f868de8e1fbfe6c863baa42755ca3c0422493510e4b236a6347c7759",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG26.png",
+      "output": "assets/cg/ep07/act04/world/CG26.webp",
+      "originalBytes": 2704287,
+      "bytes": 551720,
+      "sourceSha256": "628f6132a04fe02171c6d2cc0908b3ca3d2776a4ef08d9bc00a9d0861ff38577",
+      "sha256": "4abf6f210b20d24e9705e65e98760796dfc306a6651958a0cb533b5a4600ed44",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG27.png",
+      "output": "assets/cg/ep07/act04/world/CG27.webp",
+      "originalBytes": 2956069,
+      "bytes": 588852,
+      "sourceSha256": "8fe5c1a19304b5a04bf52e1b71f01ec123fdd714e166b12ba97cf44b4373c953",
+      "sha256": "02077aab32924c71f715cdba54ad3cdb0f371a46c43f6fd1b4b26d74aaf1892b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG28.png",
+      "output": "assets/cg/ep07/act04/world/CG28.webp",
+      "originalBytes": 2661525,
+      "bytes": 504570,
+      "sourceSha256": "a7d5f212b9a6adb439466220143121004f0ec273a3c24da3faa28b9c3e7d0bf2",
+      "sha256": "baebf69557a2faf06ae2686cb3556c897e4f5dbfc0c1ec7c73be767fbcdc5ec2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG29.png",
+      "output": "assets/cg/ep07/act04/world/CG29.webp",
+      "originalBytes": 2883870,
+      "bytes": 569638,
+      "sourceSha256": "1a556ba23bb0bb57ec982b306f3a98ab976f1b1624c32d12bf9efa97086671a4",
+      "sha256": "42dc7c5753ee0dcd778cd9d22d9dbfc3a2cff5305ba1ad41091ee0e49e764c02",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG30.png",
+      "output": "assets/cg/ep07/act04/world/CG30.webp",
+      "originalBytes": 3121246,
+      "bytes": 633348,
+      "sourceSha256": "e98aecedcae1a88ad4a1ddc357d825398026a611662951835ce0764a4048a93c",
+      "sha256": "0380441a861c1747166c9b347140bc2ff1447224be23cfb5f64fe5e78a223732",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG31.png",
+      "output": "assets/cg/ep07/act04/world/CG31.webp",
+      "originalBytes": 2863994,
+      "bytes": 558764,
+      "sourceSha256": "453dadd50911eaced84ef545bf19aba8e48eb5d7d264da8821cf040f0b3dcb0c",
+      "sha256": "c05d284c5ab2c901a0b681c8d4bb3d10fac4f6a4ada25fa542e13ab30f876fca",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG32.png",
+      "output": "assets/cg/ep07/act04/world/CG32.webp",
+      "originalBytes": 2700734,
+      "bytes": 521860,
+      "sourceSha256": "ce71c142264a480e3e17ea781b168ea6ca875c306ac77e4a51906e3a8b79ae2b",
+      "sha256": "1d796b76ef529c056fa88084ab3fb92e19099226b0560c03f1db450869d0e934",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG33.png",
+      "output": "assets/cg/ep07/act04/world/CG33.webp",
+      "originalBytes": 2917544,
+      "bytes": 608832,
+      "sourceSha256": "81c4ed51005396750aead3208d94f104cc1dfb89f7ea6f9f84311359ac4471e1",
+      "sha256": "a9a1ad8a3a80edc11b49f807be319cae3a4c8a1d97687e9623e7d6d1caa6ad15",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG34.png",
+      "output": "assets/cg/ep07/act04/world/CG34.webp",
+      "originalBytes": 2496975,
+      "bytes": 473448,
+      "sourceSha256": "0cb3bf97d92ba12bb333b41ca14eb369a0684f30c433b2b79e1b729fa0a5c297",
+      "sha256": "b6f66edf15c538a24a01c2465bacec7f5f3f22f5e3768fefa55a674d4a78a0c1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG35.png",
+      "output": "assets/cg/ep07/act04/world/CG35.webp",
+      "originalBytes": 2948696,
+      "bytes": 599388,
+      "sourceSha256": "a190ab8c83f64bb43015c919395c53bda5195586849c22525f571214da0165fa",
+      "sha256": "6104f33a67b30cc06bd26be93029fd3c5d2b7f330474ef5efdcf67d1ee2a7920",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG36.png",
+      "output": "assets/cg/ep07/act04/world/CG36.webp",
+      "originalBytes": 2910307,
+      "bytes": 579528,
+      "sourceSha256": "cc27888b7a7bfb3bd5dcecd9799191ccccdacd3e737f81e0ee6be001e6deca2c",
+      "sha256": "fa90db33191c54120ef6a767cf9c72746172f325404c8bc6dd447632d08f5c28",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG37.png",
+      "output": "assets/cg/ep07/act04/world/CG37.webp",
+      "originalBytes": 3216039,
+      "bytes": 663774,
+      "sourceSha256": "0575120f3835fedd9ae4435b1872e4876f1572461001d44def1973d661ed7ebb",
+      "sha256": "e55677657e80a23cbc62255fb40bc018680bed358e02b77543971a2b294ab437",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG38.png",
+      "output": "assets/cg/ep07/act04/world/CG38.webp",
+      "originalBytes": 2531915,
+      "bytes": 494382,
+      "sourceSha256": "223386c2fbd2cebb214b1bdf4132bf9d29022c20ca05c5a6cfcb6969bdf5969b",
+      "sha256": "692af2dd6880211e91f1256852c70a524385ea6d0c11ee8e42471acd43456d6c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG39.png",
+      "output": "assets/cg/ep07/act04/world/CG39.webp",
+      "originalBytes": 2505364,
+      "bytes": 422020,
+      "sourceSha256": "a671254d3fdf280ad71584b3b4d8a411cc33b0d700876a010139123a4d6fd6be",
+      "sha256": "d19b1d63e0dfc58f9800452fab751e5940b91224047d188eef38d2f23c86fc9e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "source": "assets/cg/ep07/act04/world/CG40.png",
+      "output": "assets/cg/ep07/act04/world/CG40.webp",
+      "originalBytes": 2534251,
+      "bytes": 511872,
+      "sourceSha256": "7d02afcef483187e442d2f3e791d325038562fe7542da70ce1490481f65fe680",
+      "sha256": "cc5fe1bfa32cd57738c0c6692415e9bdd6fc0b7fe12bff51b65959b058e73efa",
       "width": 1672,
       "height": 941
     },

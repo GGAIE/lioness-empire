@@ -30,7 +30,7 @@ it('keeps conditional titles visible while opening only eligible sections withou
     ids = chapterDirectory(story, [], state).flatMap((c) =>
       c.acts.flatMap((a) => a.sections.map((s) => s.id))
     );
-  expect(ids).toHaveLength(176);
+  expect(ids).toHaveLength(194);
   const eligible = navigableScenes(story, state, true);
   expect(eligible.size).toBe(163);
   expect([...eligible].every((id) => ids.includes(id))).toBe(true);

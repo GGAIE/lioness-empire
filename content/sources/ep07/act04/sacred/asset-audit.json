@@ -1,0 +1,365 @@
+{
+  "archive": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP07-ACT04-SACRED-01",
+      "path": "assets/cg/ep07/act04/sacred/CG01.png",
+      "sha256": "bfaa7d8c5b25a1fc574b06c1f39045701dcc8ad8c7850376c8a8a594264e6428",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2489622
+    },
+    {
+      "key": "02",
+      "id": "EP07-ACT04-SACRED-02",
+      "path": "assets/cg/ep07/act04/sacred/CG02.png",
+      "sha256": "9030c592079d36449a47ac9e6b0e36be03fa35e5afc00f9eff63127ba99187ae",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2544825
+    },
+    {
+      "key": "03",
+      "id": "EP07-ACT04-SACRED-03",
+      "path": "assets/cg/ep07/act04/sacred/CG03.png",
+      "sha256": "38802059067700e1fdc7d4c44d5e79a417c286b7e4186116aded6c929ddbea2a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2217251
+    },
+    {
+      "key": "04",
+      "id": "EP07-ACT04-SACRED-04",
+      "path": "assets/cg/ep07/act04/sacred/CG04.png",
+      "sha256": "269ea1da007f5adc588f0c071984e3ce80fda2935caf494efcbe91723d15cad4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2448294
+    },
+    {
+      "key": "05",
+      "id": "EP07-ACT04-SACRED-05",
+      "path": "assets/cg/ep07/act04/sacred/CG05.png",
+      "sha256": "0daa50d33af1685b1481c3da1274dc48a4d0ceb077196518d220981433f1512e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3681987
+    },
+    {
+      "key": "06",
+      "id": "EP07-ACT04-SACRED-06",
+      "path": "assets/cg/ep07/act04/sacred/CG06.png",
+      "sha256": "147216ff534ee170b3459bca16d87c8b3e1010a3c88531836f89538478d56ce6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2469510
+    },
+    {
+      "key": "07",
+      "id": "EP07-ACT04-SACRED-07",
+      "path": "assets/cg/ep07/act04/sacred/CG07.png",
+      "sha256": "a75bd43de64deac25fc36de8af388100f2c6d7b305f84e80c9efd14597222ab5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2259372
+    },
+    {
+      "key": "08",
+      "id": "EP07-ACT04-SACRED-08",
+      "path": "assets/cg/ep07/act04/sacred/CG08.png",
+      "sha256": "254de63f5a16ae601d0f052d8fc8b0da2a446a82f38b4764090db4c366f71b16",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2565316
+    },
+    {
+      "key": "09",
+      "id": "EP07-ACT04-SACRED-09",
+      "path": "assets/cg/ep07/act04/sacred/CG09.png",
+      "sha256": "0f184f0acb60aaeac864d4009abe4ef2f15db7124eb0c6733b89735fa2037535",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2287461
+    },
+    {
+      "key": "10",
+      "id": "EP07-ACT04-SACRED-10",
+      "path": "assets/cg/ep07/act04/sacred/CG10.png",
+      "sha256": "3e52d1687f39aa13f1c8610b01622e077ad7115008917b24414b255216f3d5bf",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2338387
+    },
+    {
+      "key": "11",
+      "id": "EP07-ACT04-SACRED-11",
+      "path": "assets/cg/ep07/act04/sacred/CG11.png",
+      "sha256": "b822770af82867802192fcc8113b0d438eb80ec96c0b83a20fb4badc0f6d4543",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2336684
+    },
+    {
+      "key": "12",
+      "id": "EP07-ACT04-SACRED-12",
+      "path": "assets/cg/ep07/act04/sacred/CG12.png",
+      "sha256": "86ebde695b311e00873271a1ea7f34e441d40bee974dad65172ea0a4d642e59c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2267703
+    },
+    {
+      "key": "13",
+      "id": "EP07-ACT04-SACRED-13",
+      "path": "assets/cg/ep07/act04/sacred/CG13.png",
+      "sha256": "13ece136e48cac66f99fa6b68724bb5524d8a7340d5f9c39e13751c80314966f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2175681
+    },
+    {
+      "key": "14",
+      "id": "EP07-ACT04-SACRED-14",
+      "path": "assets/cg/ep07/act04/sacred/CG14.png",
+      "sha256": "80112b258163e3b11e2e086d68aa52d89cce8c7b2920a039d07f3a0e76a36cae",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2329311
+    },
+    {
+      "key": "15",
+      "id": "EP07-ACT04-SACRED-15",
+      "path": "assets/cg/ep07/act04/sacred/CG15.png",
+      "sha256": "1ae40d72d336a4a36674720ae9739e82d3924629013f10f6e54e79bb64aec0b9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2950969
+    },
+    {
+      "key": "16",
+      "id": "EP07-ACT04-SACRED-16",
+      "path": "assets/cg/ep07/act04/sacred/CG16.png",
+      "sha256": "e3835d7c4e6f5fc976e8d82ea8091433e27482c22c2620f3514cc26c17bec95b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2763041
+    },
+    {
+      "key": "17",
+      "id": "EP07-ACT04-SACRED-17",
+      "path": "assets/cg/ep07/act04/sacred/CG17.png",
+      "sha256": "cb6721e6ccb97e2b2c536cc9690b12487744512efc1c0541de828a995dbbf1ee",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2908461
+    },
+    {
+      "key": "18",
+      "id": "EP07-ACT04-SACRED-18",
+      "path": "assets/cg/ep07/act04/sacred/CG18.png",
+      "sha256": "23dae7778c57f2019c0191b27e79f698ba92a0d87f727210bce9c2b62577d4ab",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3100358
+    },
+    {
+      "key": "19",
+      "id": "EP07-ACT04-SACRED-19",
+      "path": "assets/cg/ep07/act04/sacred/CG19.png",
+      "sha256": "3a940e80657fcf3ee7ec169069878995b690ffaf8b81944a3544c89b8c0d0b67",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2599593
+    },
+    {
+      "key": "20",
+      "id": "EP07-ACT04-SACRED-20",
+      "path": "assets/cg/ep07/act04/sacred/CG20.png",
+      "sha256": "dca0b08791eaea3cf610feffcd51886be4dd5116ee966ff24b4651ac231fd109",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2567419
+    },
+    {
+      "key": "21",
+      "id": "EP07-ACT04-SACRED-21",
+      "path": "assets/cg/ep07/act04/sacred/CG21.png",
+      "sha256": "42e00429516656087baf0d14c28529a4fc45872e3f21d29cbd3111b12c0a147f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2453026
+    },
+    {
+      "key": "22",
+      "id": "EP07-ACT04-SACRED-22",
+      "path": "assets/cg/ep07/act04/sacred/CG22.png",
+      "sha256": "15ccd8d0bbe8bff00594daa6c6ab464c76a3cef9c02636dc7229a93926269747",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2373774
+    },
+    {
+      "key": "23",
+      "id": "EP07-ACT04-SACRED-23",
+      "path": "assets/cg/ep07/act04/sacred/CG23.png",
+      "sha256": "9afe65f3fdee2b01a811bd7b2f0eed410e60ef7fbca75027e7655a2ab8fdb075",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3054490
+    },
+    {
+      "key": "24",
+      "id": "EP07-ACT04-SACRED-24",
+      "path": "assets/cg/ep07/act04/sacred/CG24.png",
+      "sha256": "0412b83639d71a8fcae291209635eaf550550a705a014540bfbaed9eca31ef39",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2560820
+    },
+    {
+      "key": "25",
+      "id": "EP07-ACT04-SACRED-25",
+      "path": "assets/cg/ep07/act04/sacred/CG25.png",
+      "sha256": "194d2aedad30dfc1572a5a23fb120fe58b1a6221521b9d51e1888fd1effbc642",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2883729
+    },
+    {
+      "key": "26",
+      "id": "EP07-ACT04-SACRED-26",
+      "path": "assets/cg/ep07/act04/sacred/CG26.png",
+      "sha256": "5670eaad9d0f943a59b562c788fd62a9c6de64675eace2240ca69cd156b5129d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2777669
+    },
+    {
+      "key": "27",
+      "id": "EP07-ACT04-SACRED-27",
+      "path": "assets/cg/ep07/act04/sacred/CG27.png",
+      "sha256": "1b2e0fea2e55932001e965632d29470d4a840a792715f3d153955e691dbbe661",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2876083
+    },
+    {
+      "key": "28",
+      "id": "EP07-ACT04-SACRED-28",
+      "path": "assets/cg/ep07/act04/sacred/CG28.png",
+      "sha256": "2805acba36d3afded4e501e63f523dded875762a974bdc68c30004f7a0b91376",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2987060
+    },
+    {
+      "key": "29",
+      "id": "EP07-ACT04-SACRED-29",
+      "path": "assets/cg/ep07/act04/sacred/CG29.png",
+      "sha256": "b281dc33c92e2a2afce95c2685b79ada5504147264f0197623cf903e0d9975cc",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3031217
+    },
+    {
+      "key": "30",
+      "id": "EP07-ACT04-SACRED-30",
+      "path": "assets/cg/ep07/act04/sacred/CG30.png",
+      "sha256": "c48ffe3eb51be77805509c0c28ddf0c76fd11b8cfccc47a34a9434933e3de237",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2676294
+    },
+    {
+      "key": "31",
+      "id": "EP07-ACT04-SACRED-31",
+      "path": "assets/cg/ep07/act04/sacred/CG31.png",
+      "sha256": "97d4b29b5e6f51f78fe1bce18e80160ed13ab01285dc8af5f993e1b4df8050a5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2843012
+    },
+    {
+      "key": "32",
+      "id": "EP07-ACT04-SACRED-32",
+      "path": "assets/cg/ep07/act04/sacred/CG32.png",
+      "sha256": "b647c767fe91ae8aa83dc5a853fe9a4e9748a9eb600e35fc331ed9a6bb00cc29",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2635857
+    },
+    {
+      "key": "33",
+      "id": "EP07-ACT04-SACRED-33",
+      "path": "assets/cg/ep07/act04/sacred/CG33.png",
+      "sha256": "a5f5408758bd9df94099eb7c0a409929d753f93a3f516a673666d9ffc2741f03",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3227111
+    },
+    {
+      "key": "34",
+      "id": "EP07-ACT04-SACRED-34",
+      "path": "assets/cg/ep07/act04/sacred/CG34.png",
+      "sha256": "d85f4aa3ab54e3a8b96fc24741af87e1f5f2d406bf4097ff181fea732295891c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2722513
+    },
+    {
+      "key": "35",
+      "id": "EP07-ACT04-SACRED-35",
+      "path": "assets/cg/ep07/act04/sacred/CG35.png",
+      "sha256": "861a205d698ea0cec276914cd0a62c30de32f20be0099f3b37c2df2422ca5e8b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2898758
+    },
+    {
+      "key": "36",
+      "id": "EP07-ACT04-SACRED-36",
+      "path": "assets/cg/ep07/act04/sacred/CG36.png",
+      "sha256": "d4cd0cf949dda30430e1a08479bc589cc7c04eba8a58efebde480b67dc4e421b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2949026
+    },
+    {
+      "key": "37",
+      "id": "EP07-ACT04-SACRED-37",
+      "path": "assets/cg/ep07/act04/sacred/CG37.png",
+      "sha256": "83741a96e7b73603b6c1d33cfe49631b6463a0a32124641b84215a8e9a6133a7",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2384997
+    },
+    {
+      "key": "38",
+      "id": "EP07-ACT04-SACRED-38",
+      "path": "assets/cg/ep07/act04/sacred/CG38.png",
+      "sha256": "5b7580f25fd8de432072c4557bd8e29ed539d15db6ca47a40db12558ea1fc0ad",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2332176
+    },
+    {
+      "key": "39",
+      "id": "EP07-ACT04-SACRED-39",
+      "path": "assets/cg/ep07/act04/sacred/CG39.png",
+      "sha256": "f31fcf300ce790b53ef9d8263019685efc16d23cb51bf82784d46a1bceaa13ec",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2569367
+    },
+    {
+      "key": "40",
+      "id": "EP07-ACT04-SACRED-40",
+      "path": "assets/cg/ep07/act04/sacred/CG40.png",
+      "sha256": "9d3430829d216af73602a3909f44e3352995f4e376e6a499bdab7c9fe65d2942",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2251692
+    }
+  ]
+}

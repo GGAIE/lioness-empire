@@ -21,7 +21,9 @@ test('uploaded EP06 text matches local content and all 79 new CG files exist', a
   const assets = JSON.parse(
     await readFile(`${root}/github-pages/content/manifests/assets.json`, 'utf8')
   );
-  const added = assets.filter((a: { id: string }) => a.id.startsWith('EP07-'));
+  const added = assets.filter(
+    (a: { id: string }) => a.id.startsWith('EP07-') && !/^EP07-ACT0[34]-/.test(a.id)
+  );
   expect(added).toHaveLength(79);
   for (const asset of added) {
     const image = await request.get('/github-pages/' + asset.src);

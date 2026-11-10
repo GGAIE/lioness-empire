@@ -176,6 +176,15 @@ export function restoreSave(input: unknown, story: Story): { state: GameState; n
     } else if (typeof state.flags[k] !== typeof v.initial) throw Error(`旗標型別不相容：${k}`);
   }
   const restoredScene = story.scenes[state.currentSceneId];
+  const routeGate = restoredScene.availableWhen;
+  if (
+    routeGate &&
+    'path' in routeGate &&
+    routeGate.path === 'politicalRoute' &&
+    routeGate.op === 'eq' &&
+    state.politicalRoute !== routeGate.value
+  )
+    throw Error('存檔世界線與劇情不一致，請載入對應路線的進度。');
   if (restoredScene.availableWhen && !evaluate(state, restoredScene.availableWhen)) {
     if (!restoredScene.next || !story.scenes[restoredScene.next])
       throw Error('找不到可閱讀的接續位置。');

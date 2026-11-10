@@ -85,7 +85,7 @@ while (pending.length && seen.size < 3000000) {
   // boundary; markRead still applies the real final-paragraph settlements.
   s.currentSegmentIndex = visibleSegments(story, s).length - 1;
   s = markRead(story, s);
-  const key = stateKey(s);
+  const key = createHash('sha256').update(stateKey(s)).digest('base64');
   if (seen.has(key)) continue;
   seen.add(key);
   try {

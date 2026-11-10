@@ -6366,5 +6366,1285 @@
     "label": "第七章 ACT02 CG24",
     "status": "APPROVED",
     "source": "使用者提供 act02 圖包原圖。"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG01.webp",
+    "label": "第七章 第三幕 SACRED CG01",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG02.webp",
+    "label": "第七章 第三幕 SACRED CG02",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG03.webp",
+    "label": "第七章 第三幕 SACRED CG03",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG04.webp",
+    "label": "第七章 第三幕 SACRED CG04",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-05",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG05.webp",
+    "label": "第七章 第三幕 SACRED CG05",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-06",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG06.webp",
+    "label": "第七章 第三幕 SACRED CG06",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-07",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG07.webp",
+    "label": "第七章 第三幕 SACRED CG07",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-08",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG08.webp",
+    "label": "第七章 第三幕 SACRED CG08",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-09",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG09.webp",
+    "label": "第七章 第三幕 SACRED CG09",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-10",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG10.webp",
+    "label": "第七章 第三幕 SACRED CG10",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-11",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG11.webp",
+    "label": "第七章 第三幕 SACRED CG11",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-12",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG12.webp",
+    "label": "第七章 第三幕 SACRED CG12",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-13",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG13.webp",
+    "label": "第七章 第三幕 SACRED CG13",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-14",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG14.webp",
+    "label": "第七章 第三幕 SACRED CG14",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-15",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG15.webp",
+    "label": "第七章 第三幕 SACRED CG15",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-16",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG16.webp",
+    "label": "第七章 第三幕 SACRED CG16",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-17",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG17.webp",
+    "label": "第七章 第三幕 SACRED CG17",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-18",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG18.webp",
+    "label": "第七章 第三幕 SACRED CG18",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-19",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG19.webp",
+    "label": "第七章 第三幕 SACRED CG19",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-20",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG20.webp",
+    "label": "第七章 第三幕 SACRED CG20",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-21",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG21.webp",
+    "label": "第七章 第三幕 SACRED CG21",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-22",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG22.webp",
+    "label": "第七章 第三幕 SACRED CG22",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-23",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG23.webp",
+    "label": "第七章 第三幕 SACRED CG23",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-24",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG24.webp",
+    "label": "第七章 第三幕 SACRED CG24",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-25",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG25.webp",
+    "label": "第七章 第三幕 SACRED CG25",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-26",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG26.webp",
+    "label": "第七章 第三幕 SACRED CG26",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-27",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG27.webp",
+    "label": "第七章 第三幕 SACRED CG27",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-28",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG28.webp",
+    "label": "第七章 第三幕 SACRED CG28",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-29",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG29.webp",
+    "label": "第七章 第三幕 SACRED CG29",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-30",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG30.webp",
+    "label": "第七章 第三幕 SACRED CG30",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-31",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG31.webp",
+    "label": "第七章 第三幕 SACRED CG31",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-32",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG32.webp",
+    "label": "第七章 第三幕 SACRED CG32",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-33",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG33.webp",
+    "label": "第七章 第三幕 SACRED CG33",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-34",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG34.webp",
+    "label": "第七章 第三幕 SACRED CG34",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-35",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG35.webp",
+    "label": "第七章 第三幕 SACRED CG35",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-36",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG36.webp",
+    "label": "第七章 第三幕 SACRED CG36",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-37",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG37.webp",
+    "label": "第七章 第三幕 SACRED CG37",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-38",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG38.webp",
+    "label": "第七章 第三幕 SACRED CG38",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-39",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG39.webp",
+    "label": "第七章 第三幕 SACRED CG39",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-40",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG40.webp",
+    "label": "第七章 第三幕 SACRED CG40",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-41",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG41.webp",
+    "label": "第七章 第三幕 SACRED CG41",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-SACRED-42",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/sacred/CG42.webp",
+    "label": "第七章 第三幕 SACRED CG42",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_Sacred_42CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG01.webp",
+    "label": "第七章 第三幕 WORLD CG01",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG02.webp",
+    "label": "第七章 第三幕 WORLD CG02",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG03.webp",
+    "label": "第七章 第三幕 WORLD CG03",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG04.webp",
+    "label": "第七章 第三幕 WORLD CG04",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-05",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG05.webp",
+    "label": "第七章 第三幕 WORLD CG05",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-06",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG06.webp",
+    "label": "第七章 第三幕 WORLD CG06",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-07",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG07.webp",
+    "label": "第七章 第三幕 WORLD CG07",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-08",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG08.webp",
+    "label": "第七章 第三幕 WORLD CG08",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-09",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG09.webp",
+    "label": "第七章 第三幕 WORLD CG09",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-10",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG10.webp",
+    "label": "第七章 第三幕 WORLD CG10",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-11",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG11.webp",
+    "label": "第七章 第三幕 WORLD CG11",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-12",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG12.webp",
+    "label": "第七章 第三幕 WORLD CG12",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-13",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG13.webp",
+    "label": "第七章 第三幕 WORLD CG13",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-14",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG14.webp",
+    "label": "第七章 第三幕 WORLD CG14",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-15",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG15.webp",
+    "label": "第七章 第三幕 WORLD CG15",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-16",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG16.webp",
+    "label": "第七章 第三幕 WORLD CG16",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-17",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG17.webp",
+    "label": "第七章 第三幕 WORLD CG17",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-18",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG18.webp",
+    "label": "第七章 第三幕 WORLD CG18",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-19",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG19.webp",
+    "label": "第七章 第三幕 WORLD CG19",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-20",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG20.webp",
+    "label": "第七章 第三幕 WORLD CG20",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-21",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG21.webp",
+    "label": "第七章 第三幕 WORLD CG21",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-22",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG22.webp",
+    "label": "第七章 第三幕 WORLD CG22",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-23",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG23.webp",
+    "label": "第七章 第三幕 WORLD CG23",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-24",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG24.webp",
+    "label": "第七章 第三幕 WORLD CG24",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-25",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG25.webp",
+    "label": "第七章 第三幕 WORLD CG25",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-26",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG26.webp",
+    "label": "第七章 第三幕 WORLD CG26",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-27",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG27.webp",
+    "label": "第七章 第三幕 WORLD CG27",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-28",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG28.webp",
+    "label": "第七章 第三幕 WORLD CG28",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-29",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG29.webp",
+    "label": "第七章 第三幕 WORLD CG29",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-30",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG30.webp",
+    "label": "第七章 第三幕 WORLD CG30",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-31",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG31.webp",
+    "label": "第七章 第三幕 WORLD CG31",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-32",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG32.webp",
+    "label": "第七章 第三幕 WORLD CG32",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-33",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG33.webp",
+    "label": "第七章 第三幕 WORLD CG33",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-34",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG34.webp",
+    "label": "第七章 第三幕 WORLD CG34",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-35",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG35.webp",
+    "label": "第七章 第三幕 WORLD CG35",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-36",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG36.webp",
+    "label": "第七章 第三幕 WORLD CG36",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-37",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG37.webp",
+    "label": "第七章 第三幕 WORLD CG37",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT03-WORLD-38",
+    "type": "cg",
+    "src": "assets/cg/ep07/act03/world/CG38.webp",
+    "label": "第七章 第三幕 WORLD CG38",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG01.webp",
+    "label": "第七章 第四幕 SACRED CG01",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG02.webp",
+    "label": "第七章 第四幕 SACRED CG02",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG03.webp",
+    "label": "第七章 第四幕 SACRED CG03",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG04.webp",
+    "label": "第七章 第四幕 SACRED CG04",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-05",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG05.webp",
+    "label": "第七章 第四幕 SACRED CG05",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-06",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG06.webp",
+    "label": "第七章 第四幕 SACRED CG06",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-07",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG07.webp",
+    "label": "第七章 第四幕 SACRED CG07",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-08",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG08.webp",
+    "label": "第七章 第四幕 SACRED CG08",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-09",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG09.webp",
+    "label": "第七章 第四幕 SACRED CG09",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-10",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG10.webp",
+    "label": "第七章 第四幕 SACRED CG10",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-11",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG11.webp",
+    "label": "第七章 第四幕 SACRED CG11",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-12",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG12.webp",
+    "label": "第七章 第四幕 SACRED CG12",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-13",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG13.webp",
+    "label": "第七章 第四幕 SACRED CG13",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-14",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG14.webp",
+    "label": "第七章 第四幕 SACRED CG14",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-15",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG15.webp",
+    "label": "第七章 第四幕 SACRED CG15",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-16",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG16.webp",
+    "label": "第七章 第四幕 SACRED CG16",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-17",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG17.webp",
+    "label": "第七章 第四幕 SACRED CG17",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-18",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG18.webp",
+    "label": "第七章 第四幕 SACRED CG18",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-19",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG19.webp",
+    "label": "第七章 第四幕 SACRED CG19",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-20",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG20.webp",
+    "label": "第七章 第四幕 SACRED CG20",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-21",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG21.webp",
+    "label": "第七章 第四幕 SACRED CG21",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-22",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG22.webp",
+    "label": "第七章 第四幕 SACRED CG22",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-23",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG23.webp",
+    "label": "第七章 第四幕 SACRED CG23",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-24",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG24.webp",
+    "label": "第七章 第四幕 SACRED CG24",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-25",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG25.webp",
+    "label": "第七章 第四幕 SACRED CG25",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-26",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG26.webp",
+    "label": "第七章 第四幕 SACRED CG26",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-27",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG27.webp",
+    "label": "第七章 第四幕 SACRED CG27",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-28",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG28.webp",
+    "label": "第七章 第四幕 SACRED CG28",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-29",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG29.webp",
+    "label": "第七章 第四幕 SACRED CG29",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-30",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG30.webp",
+    "label": "第七章 第四幕 SACRED CG30",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-31",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG31.webp",
+    "label": "第七章 第四幕 SACRED CG31",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-32",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG32.webp",
+    "label": "第七章 第四幕 SACRED CG32",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-33",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG33.webp",
+    "label": "第七章 第四幕 SACRED CG33",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-34",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG34.webp",
+    "label": "第七章 第四幕 SACRED CG34",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-35",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG35.webp",
+    "label": "第七章 第四幕 SACRED CG35",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-36",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG36.webp",
+    "label": "第七章 第四幕 SACRED CG36",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-37",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG37.webp",
+    "label": "第七章 第四幕 SACRED CG37",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-38",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG38.webp",
+    "label": "第七章 第四幕 SACRED CG38",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-39",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG39.webp",
+    "label": "第七章 第四幕 SACRED CG39",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-SACRED-40",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/sacred/CG40.webp",
+    "label": "第七章 第四幕 SACRED CG40",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_Sacred_CG01-CG40.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-01",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG01.webp",
+    "label": "第七章 第四幕 WORLD CG01",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-02",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG02.webp",
+    "label": "第七章 第四幕 WORLD CG02",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-03",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG03.webp",
+    "label": "第七章 第四幕 WORLD CG03",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-04",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG04.webp",
+    "label": "第七章 第四幕 WORLD CG04",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-05",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG05.webp",
+    "label": "第七章 第四幕 WORLD CG05",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-06",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG06.webp",
+    "label": "第七章 第四幕 WORLD CG06",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-07",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG07.webp",
+    "label": "第七章 第四幕 WORLD CG07",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-08",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG08.webp",
+    "label": "第七章 第四幕 WORLD CG08",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-09",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG09.webp",
+    "label": "第七章 第四幕 WORLD CG09",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-10",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG10.webp",
+    "label": "第七章 第四幕 WORLD CG10",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-11",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG11.webp",
+    "label": "第七章 第四幕 WORLD CG11",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-12",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG12.webp",
+    "label": "第七章 第四幕 WORLD CG12",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-13",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG13.webp",
+    "label": "第七章 第四幕 WORLD CG13",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-14",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG14.webp",
+    "label": "第七章 第四幕 WORLD CG14",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-15",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG15.webp",
+    "label": "第七章 第四幕 WORLD CG15",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-16",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG16.webp",
+    "label": "第七章 第四幕 WORLD CG16",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-17",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG17.webp",
+    "label": "第七章 第四幕 WORLD CG17",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-18",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG18.webp",
+    "label": "第七章 第四幕 WORLD CG18",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-19",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG19.webp",
+    "label": "第七章 第四幕 WORLD CG19",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-20",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG20.webp",
+    "label": "第七章 第四幕 WORLD CG20",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-21",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG21.webp",
+    "label": "第七章 第四幕 WORLD CG21",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-22",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG22.webp",
+    "label": "第七章 第四幕 WORLD CG22",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-23",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG23.webp",
+    "label": "第七章 第四幕 WORLD CG23",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-24",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG24.webp",
+    "label": "第七章 第四幕 WORLD CG24",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-25",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG25.webp",
+    "label": "第七章 第四幕 WORLD CG25",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-26",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG26.webp",
+    "label": "第七章 第四幕 WORLD CG26",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-27",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG27.webp",
+    "label": "第七章 第四幕 WORLD CG27",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-28",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG28.webp",
+    "label": "第七章 第四幕 WORLD CG28",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-29",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG29.webp",
+    "label": "第七章 第四幕 WORLD CG29",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-30",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG30.webp",
+    "label": "第七章 第四幕 WORLD CG30",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-31",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG31.webp",
+    "label": "第七章 第四幕 WORLD CG31",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-32",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG32.webp",
+    "label": "第七章 第四幕 WORLD CG32",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-33",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG33.webp",
+    "label": "第七章 第四幕 WORLD CG33",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-34",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG34.webp",
+    "label": "第七章 第四幕 WORLD CG34",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-35",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG35.webp",
+    "label": "第七章 第四幕 WORLD CG35",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-36",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG36.webp",
+    "label": "第七章 第四幕 WORLD CG36",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-37",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG37.webp",
+    "label": "第七章 第四幕 WORLD CG37",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-38",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG38.webp",
+    "label": "第七章 第四幕 WORLD CG38",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-39",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG39.webp",
+    "label": "第七章 第四幕 WORLD CG39",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
+  },
+  {
+    "id": "EP07-ACT04-WORLD-40",
+    "type": "cg",
+    "src": "assets/cg/ep07/act04/world/CG40.webp",
+    "label": "第七章 第四幕 WORLD CG40",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP07_ACT04_World_40CG_v0.4.zip"
   }
 ]

@@ -1,0 +1,347 @@
+{
+  "archive": "Lioness_Empire_EP07_ACT03_World_38CG_Final_v1.0.zip",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP07-ACT03-WORLD-01",
+      "path": "assets/cg/ep07/act03/world/CG01.png",
+      "sha256": "24a65e4a3acc21932e433c1dac9d1a95c51271a79ea9f4ce0d35a8e144e8648b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2508687
+    },
+    {
+      "key": "02",
+      "id": "EP07-ACT03-WORLD-02",
+      "path": "assets/cg/ep07/act03/world/CG02.png",
+      "sha256": "6b8dc9d7b214bdcd3edff272bf93d952eba5f53f5317e20bc54cbe65d6b65964",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2229187
+    },
+    {
+      "key": "03",
+      "id": "EP07-ACT03-WORLD-03",
+      "path": "assets/cg/ep07/act03/world/CG03.png",
+      "sha256": "941621409bd77bcd453b0eb627e6f597a10c0768d605de7036bff71164c935c3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2354079
+    },
+    {
+      "key": "04",
+      "id": "EP07-ACT03-WORLD-04",
+      "path": "assets/cg/ep07/act03/world/CG04.png",
+      "sha256": "8a6e0520e37f414c9605cdb1f3efcae4fbcd0258a621099fa2a86802fe69db6e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2366329
+    },
+    {
+      "key": "05",
+      "id": "EP07-ACT03-WORLD-05",
+      "path": "assets/cg/ep07/act03/world/CG05.png",
+      "sha256": "a879994ddf9a10c8003d95335a9cdbb81ee39fcd6681d2267245eb4e70720262",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2409851
+    },
+    {
+      "key": "06",
+      "id": "EP07-ACT03-WORLD-06",
+      "path": "assets/cg/ep07/act03/world/CG06.png",
+      "sha256": "f75ef2f65e59c43cae913c9a465869bd4f05fef4f1e4bd2b38c03637af43fcad",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3246205
+    },
+    {
+      "key": "07",
+      "id": "EP07-ACT03-WORLD-07",
+      "path": "assets/cg/ep07/act03/world/CG07.png",
+      "sha256": "c908ee3720a04cf78a6fa05fe45519b132f95eed67fe2d56575752f3d8eac9cb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2960903
+    },
+    {
+      "key": "08",
+      "id": "EP07-ACT03-WORLD-08",
+      "path": "assets/cg/ep07/act03/world/CG08.png",
+      "sha256": "db50d27d89b4e640746bf02048bfbccc562e9c3ac9322474c817cecde4ff0ecb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3100645
+    },
+    {
+      "key": "09",
+      "id": "EP07-ACT03-WORLD-09",
+      "path": "assets/cg/ep07/act03/world/CG09.png",
+      "sha256": "71ce3c3972bfd2a6c360f4768113d11204a1ae98513a4529c06802fd204ab900",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2607548
+    },
+    {
+      "key": "10",
+      "id": "EP07-ACT03-WORLD-10",
+      "path": "assets/cg/ep07/act03/world/CG10.png",
+      "sha256": "f82c952e713e356913d2525698b28c10e3fb403709ad6469ad83df155250ffa1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2497609
+    },
+    {
+      "key": "11",
+      "id": "EP07-ACT03-WORLD-11",
+      "path": "assets/cg/ep07/act03/world/CG11.png",
+      "sha256": "3789878eec41932b94bb350f342a82267476d8cdfa7f765ffbf9abfa1151c4b5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2685665
+    },
+    {
+      "key": "12",
+      "id": "EP07-ACT03-WORLD-12",
+      "path": "assets/cg/ep07/act03/world/CG12.png",
+      "sha256": "90e3e12074167dac904dc3f1726f0e2c885616846c5acb5b0ee2eb9b8415a135",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2902624
+    },
+    {
+      "key": "13",
+      "id": "EP07-ACT03-WORLD-13",
+      "path": "assets/cg/ep07/act03/world/CG13.png",
+      "sha256": "3e332baa6089a227f8fea326205dc2c659a73ce82588921292379e8f67e29f3b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3279247
+    },
+    {
+      "key": "14",
+      "id": "EP07-ACT03-WORLD-14",
+      "path": "assets/cg/ep07/act03/world/CG14.png",
+      "sha256": "5b1fe5bde5cc28f0958509661379ee009a5ccb2da9a2a819920a7cfe62239ab7",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3323983
+    },
+    {
+      "key": "15",
+      "id": "EP07-ACT03-WORLD-15",
+      "path": "assets/cg/ep07/act03/world/CG15.png",
+      "sha256": "7063db471c2bb0064e2d29e216b57e7371c6755742a50c6b1ec822999fa04b50",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3012757
+    },
+    {
+      "key": "16",
+      "id": "EP07-ACT03-WORLD-16",
+      "path": "assets/cg/ep07/act03/world/CG16.png",
+      "sha256": "d8e6340445ffa7df417747f6d74f8608bc1ffaa26e6725a991391fc414582025",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2320830
+    },
+    {
+      "key": "17",
+      "id": "EP07-ACT03-WORLD-17",
+      "path": "assets/cg/ep07/act03/world/CG17.png",
+      "sha256": "6f7309fa614fbd76a58302d5b727dbbbbf4020ab41ea399bbcde4993f5d43c43",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2945291
+    },
+    {
+      "key": "18",
+      "id": "EP07-ACT03-WORLD-18",
+      "path": "assets/cg/ep07/act03/world/CG18.png",
+      "sha256": "951b50d05fad6b3de3e5a42ac84a8b9cbb90d6a355b3375a666dd59cc0d1b137",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2882122
+    },
+    {
+      "key": "19",
+      "id": "EP07-ACT03-WORLD-19",
+      "path": "assets/cg/ep07/act03/world/CG19.png",
+      "sha256": "08311909f942aa78aacaca4e27a4544f6d4fa7b4ad9d312a0d07ddb0811bbd3d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2686935
+    },
+    {
+      "key": "20",
+      "id": "EP07-ACT03-WORLD-20",
+      "path": "assets/cg/ep07/act03/world/CG20.png",
+      "sha256": "9df659b303472987e4ba76478025ee0790ba110e54b6c26935e66115be684ca1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2917100
+    },
+    {
+      "key": "21",
+      "id": "EP07-ACT03-WORLD-21",
+      "path": "assets/cg/ep07/act03/world/CG21.png",
+      "sha256": "262a534026aa5e272450a1a4eec86a777fbcfb129010fa9f1fabcfa9d8f67100",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3034506
+    },
+    {
+      "key": "22",
+      "id": "EP07-ACT03-WORLD-22",
+      "path": "assets/cg/ep07/act03/world/CG22.png",
+      "sha256": "f1f495cfbf05ac5e58bf42fd050d9342197274d636ca5ff3fd287026e9eb6738",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2800035
+    },
+    {
+      "key": "23",
+      "id": "EP07-ACT03-WORLD-23",
+      "path": "assets/cg/ep07/act03/world/CG23.png",
+      "sha256": "69dd9517da52fe543cf23332325aeda1bedaf4f1e2858bbcc78da1c7bb4065e2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2845443
+    },
+    {
+      "key": "24",
+      "id": "EP07-ACT03-WORLD-24",
+      "path": "assets/cg/ep07/act03/world/CG24.png",
+      "sha256": "e3674d6ba74bb18d8da4b62928f0e5f6a5fd19ad571d4efeb3a4ada059eb2fa9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2805089
+    },
+    {
+      "key": "25",
+      "id": "EP07-ACT03-WORLD-25",
+      "path": "assets/cg/ep07/act03/world/CG25.png",
+      "sha256": "44d3f73de23a7749347bf2d680fcc28da3f92080725c1ed7bb3d9454ccd49a79",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2754118
+    },
+    {
+      "key": "26",
+      "id": "EP07-ACT03-WORLD-26",
+      "path": "assets/cg/ep07/act03/world/CG26.png",
+      "sha256": "fda6ea5737ae2dd9c1f8d23d193f44703fd1b28776a7bc78b4270bcfe769233e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2831265
+    },
+    {
+      "key": "27",
+      "id": "EP07-ACT03-WORLD-27",
+      "path": "assets/cg/ep07/act03/world/CG27.png",
+      "sha256": "81f8f57bfe3563be99f768621d586c1312bfad51fd2fc27ef1f136c6dd4a08b8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2576128
+    },
+    {
+      "key": "28",
+      "id": "EP07-ACT03-WORLD-28",
+      "path": "assets/cg/ep07/act03/world/CG28.png",
+      "sha256": "201cd140bcd35accc0afe062348d576df02e56a2a521a21abc591cfd471fd48c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3066388
+    },
+    {
+      "key": "29",
+      "id": "EP07-ACT03-WORLD-29",
+      "path": "assets/cg/ep07/act03/world/CG29.png",
+      "sha256": "a98f19fdb863531cb917099e12f3343c7bd10653414c61788431c147e63bbbb8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2404860
+    },
+    {
+      "key": "30",
+      "id": "EP07-ACT03-WORLD-30",
+      "path": "assets/cg/ep07/act03/world/CG30.png",
+      "sha256": "70e784923091564877744f712ab48c3f5e5d1236092fb603e7d5ddfd688db619",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2286239
+    },
+    {
+      "key": "31",
+      "id": "EP07-ACT03-WORLD-31",
+      "path": "assets/cg/ep07/act03/world/CG31.png",
+      "sha256": "0ec51ee8823e0a131f8bce683634d1c2900d679885c45d093418a5e8dbafd7de",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1540574
+    },
+    {
+      "key": "32",
+      "id": "EP07-ACT03-WORLD-32",
+      "path": "assets/cg/ep07/act03/world/CG32.png",
+      "sha256": "e915dcc5e5bc653f4977ac026773af728b4c7031dff5e55467308324698a8ec6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1993305
+    },
+    {
+      "key": "33",
+      "id": "EP07-ACT03-WORLD-33",
+      "path": "assets/cg/ep07/act03/world/CG33.png",
+      "sha256": "1cc67aceb9fe9d32968cdef82ff166855d1ae1fae937f0f0e06a2c684ba78048",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2292807
+    },
+    {
+      "key": "34",
+      "id": "EP07-ACT03-WORLD-34",
+      "path": "assets/cg/ep07/act03/world/CG34.png",
+      "sha256": "66bca56e409e4c7dabe2a6f60a9f31f9098d5190d3d33bc278d2b9e1bcdcfef6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2454587
+    },
+    {
+      "key": "35",
+      "id": "EP07-ACT03-WORLD-35",
+      "path": "assets/cg/ep07/act03/world/CG35.png",
+      "sha256": "516677f1fb60daf2c816337d40ca409305742a84b219daa0b3a8490f5c3b74a6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2359940
+    },
+    {
+      "key": "36",
+      "id": "EP07-ACT03-WORLD-36",
+      "path": "assets/cg/ep07/act03/world/CG36.png",
+      "sha256": "1ebd59998901a5c2463941553a6de298e8d947067eb4c7b5150eeaa0e7a594b3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2688302
+    },
+    {
+      "key": "37",
+      "id": "EP07-ACT03-WORLD-37",
+      "path": "assets/cg/ep07/act03/world/CG37.png",
+      "sha256": "dc2d0cb52e8e1be2396e4dece697ea315dd28a8401bd3bf39eba2fba13c12416",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2611355
+    },
+    {
+      "key": "38",
+      "id": "EP07-ACT03-WORLD-38",
+      "path": "assets/cg/ep07/act03/world/CG38.png",
+      "sha256": "5a5c52d582eb7ba13d08e58396acdec469e9afeaf493377b56e2eee9154bd8aa",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2770023
+    }
+  ]
+}
