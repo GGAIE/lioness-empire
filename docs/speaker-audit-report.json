@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 6798,
+    "dialogue": 7126,
     "thoughts": 70,
-    "narration": 2790,
+    "narration": 2865,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -185,6 +185,30 @@
       "sceneId": "EP07_ACT03_SC01_W",
       "segmentId": "L016",
       "text": "芬利把資料遞到床邊。奧莉維亞坐起身，頭髮有些凌亂，還在消化「大型虛空裂縫」這幾個字。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP07_ACT05_SC03_S_N06_COMMON",
+      "segmentId": "L001",
+      "text": "芬利完成初步來源鏈整理後指出，這批貨物經過的運輸渠道與 皇家魔法學派相關物流 有明確關聯，但目前只能說「與學派渠道有關」，還不能推論整個學派都參與其中。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP07_ACT05_SC05_S",
+      "segmentId": "L023",
+      "text": "奧莉維亞低頭看著那份標著「安度因國王議會」的備忘，嘆了一口氣，然後把它拉到自己面前。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP07_ACT05_SC04_W_N04B_COMMON",
+      "segmentId": "L024",
+      "text": "芬利在紀錄上寫下「虛空能量結晶，交易未完成，貨物全數昇華；來源與流通程序已協同核查」。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP07_ACT05_SC05_W",
+      "segmentId": "L001",
+      "text": "黃昏的書房裡，幾份新報告與舊案卷堆疊成兩座不太穩的紙塔。奧莉維亞把「第六團善後」放到一側，又把「路恩流亡者」擺進追蹤欄。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

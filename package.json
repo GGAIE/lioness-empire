@@ -37,7 +37,8 @@
     "content:import-ep06-later": "python -X utf8 scripts/import-ep06-later-acts.py",
     "content:import-ep07": "python -X utf8 scripts/import-ep07.py",
     "content:import-ep07-act03": "python -X utf8 scripts/import-ep07-act03.py",
-    "content:import-ep07-act04": "python -X utf8 scripts/import-ep07-act04.py"
+    "content:import-ep07-act04": "python -X utf8 scripts/import-ep07-act04.py",
+    "content:import-ep07-act05": "python -X utf8 scripts/import-ep07-act05.py"
   },
   "dependencies": {
     "idb": "^8.0.0",

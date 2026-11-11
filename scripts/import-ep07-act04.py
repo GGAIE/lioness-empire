@@ -230,6 +230,7 @@ def sacred():
 
 
 def main():
+    had_act05 = any(s['act'] == 'ACT05' for s in core.read(ROOT / 'content/episodes/ep07/chapter.json')['scenes'])
     sacred()
     world()
     used = {s.get('cg') for s in SCENES} | {p.get('cg') for s in SCENES for p in s['segments']}
@@ -261,6 +262,9 @@ def main():
     core.write(path, characters)
     print(len(SCENES), 'nodes', sum(len(s['segments']) for s in SCENES), 'segments',
           sum(len(s['choices']) for s in SCENES), 'answers', len(ASSETS), 'CGs')
+    if had_act05:
+        import subprocess, sys
+        subprocess.run([sys.executable, '-X', 'utf8', str(ROOT / 'scripts/import-ep07-act05.py')], check=True)
 
 
 if __name__ == '__main__':

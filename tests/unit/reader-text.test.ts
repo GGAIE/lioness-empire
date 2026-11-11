@@ -17,8 +17,8 @@ beforeAll(async () => {
 });
 it('preserves the story graph and applies only reviewed text and character name changes', () => {
   const scenes = Object.values(reader.scenes).filter((s) => s.status !== 'DEMO_ONLY');
-  expect(scenes.flatMap((s) => s.segments)).toHaveLength(9852);
-  expect(scenes.flatMap((s) => s.choices)).toHaveLength(642);
+  expect(scenes.flatMap((s) => s.segments)).toHaveLength(10281);
+  expect(scenes.flatMap((s) => s.choices)).toHaveLength(693);
   expect(readerTextEdits).toHaveLength(47);
   expect(readerTextEdits.filter((e) => e.choiceId)).toHaveLength(1);
   const reconstructed = structuredClone(reader.scenes);

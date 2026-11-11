@@ -13,6 +13,15 @@ export function releaseVersion(date: string): string {
 
 export const releaseLog = [
   {
+    date: '2026-11-11',
+    title: '第七章第五幕',
+    changes: [
+      '神聖線與世界線〈留下來的帳〉各新增五場劇情，共收錄 60 張 CG。',
+      '神聖線依結晶處置判定塔馬拉與芬利的支線，世界線依拜訪決定艾琳達的支線，並收束倉庫調查。',
+      '新增第七章章末結算提醒，承接各路線第四幕的進度。',
+    ],
+  },
+  {
     date: '2026-11-10',
     title: '第七章第四幕',
     changes: [

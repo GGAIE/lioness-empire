@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "EP07",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "status": "DRAFT",
   "source": "第七章兩條獨立世界線；Sacred 經使用者授權擴寫，World 依 v1.3 原稿。",
   "scenes": [
@@ -42207,7 +42207,9 @@
         "nextChapterId": "EP07",
         "policy": "NO_SCORING",
         "scope": "ACT",
-        "pendingLabel": "第五幕 · 敬請期待"
+        "nextSceneId": "EP07_ACT05_SC01_S",
+        "nextLabel": "第五幕〈留下來的帳〉",
+        "continueLabel": "進入第五幕"
       },
       "directions": [],
       "source": "sources/ep07/act04/sacred/01_Full_Script.md",
@@ -46894,7 +46896,9 @@
         "nextChapterId": "EP07",
         "policy": "NO_SCORING",
         "scope": "ACT",
-        "pendingLabel": "第五幕 · 敬請期待"
+        "nextSceneId": "EP07_ACT05_SC01_W",
+        "nextLabel": "第五幕〈留下來的帳〉",
+        "continueLabel": "進入第五幕"
       },
       "directions": [],
       "source": "sources/ep07/act04/world/01_World_ACT04_Full_Script_SC01-09.md",
@@ -46947,6 +46951,7541 @@
       ],
       "choices": [],
       "cg": "EP07-ACT04-WORLD-39",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ALINDA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "東北塔的窗外剛亮。昨夜才整理到一半的資料還堆在桌角，依序是地脈觀測站的修復確認、虛空污染善後名冊、死龍事件後的撤離與醫療報告。",
+          "cg": "EP07-ACT05-SACRED-01"
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞看著那疊文書，沉默了一會兒，才慢慢把其中一份翻開。"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「芬利。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「嗯？」"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我最近是不是只要一翻開公文，就一定有人要我付錢？」"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主，這應該是攝政工作的正常現象。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……」"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不過今天有一個好消息。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「真的？」"
+        },
+        {
+          "id": "L010",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「艾琳達送來的不是新的救援申請。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「太好了！」"
+        },
+        {
+          "id": "L012",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是救援完成報告。」"
+        },
+        {
+          "id": "L013",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞剛露出鬆一口氣的表情，芬利便把第二疊文件推了過來。",
+          "cg": "EP07-ACT05-SACRED-02"
+        },
+        {
+          "id": "L014",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「以及醫療後續、暫時無法耕作的農地、還有兩處需要修繕的道路預算。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……你剛剛是不是故意分兩次講？」"
+        },
+        {
+          "id": "L016",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只是希望妳能先聽見好消息。」"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這時，艾琳達抵達。她風塵僕僕地走進東北塔，把一份簡潔而清楚的報告放到桌上。",
+          "cg": "EP07-ACT05-SACRED-03"
+        },
+        {
+          "id": "L018",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「護送、醫療隊與收容線都穩下來了。虛空污染區那邊仍有部分地面不能用，死龍路線的山道也還不能完全開放，但最危急的部分已經過了。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。妳總算送來一份沒有『立刻』兩個字的公文了。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為這次我送來的是完成報告，不是求援。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我喜歡這種報告。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不過剩下的善後工作，還是需要王室繼續付錢。」"
+        },
+        {
+          "id": "L023",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳們是不是串通好的？」"
+        },
+        {
+          "id": "L024",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我認為這只是現實。」"
+        },
+        {
+          "id": "L025",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達進一步說明，前線的救援任務已經完成，但仍有傷患需要追蹤觀察，兩段道路暫時不能重開，部分撤離居民也還在等待更穩定的安置安排。",
+          "cg": "EP07-ACT05-SACRED-04"
+        },
+        {
+          "id": "L026",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我不需要您今天再給我一次稱讚。只要那些補給車明天還能準時開到醫療站。」",
+          "cg": "EP07-ACT05-SACRED-05"
+        },
+        {
+          "id": "L027",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道。這次不會只給妳一份漂亮的命令。」"
+        },
+        {
+          "id": "L028",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞先看哪一份文件？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "先看醫療報告",
+          "next": "EP07_ACT05_SC01_S_N01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "先看道路修繕",
+          "next": "EP07_ACT05_SC01_S_N01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "先看撤離與收容名冊",
+          "next": "EP07_ACT05_SC01_S_N01_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N01_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先看醫療報告"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這一份是醫療追蹤名單，艾琳達已經按傷勢與後續照護需求分好。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC01_S_N01_COMMON",
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N01_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先看道路修繕"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先看路也好。只要路不通，其他東西最後還是會回到我頭上。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC01_S_N01_COMMON",
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N01_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先看撤離與收容名冊"
+        },
+        {
+          "id": "L002",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先看名冊吧。至少這能提醒我，這些數字後面是人。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC01_S_N01_COMMON",
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N01_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞怎麼回艾琳達？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「辛苦妳了。」",
+          "next": "EP07_ACT05_SC01_S_N02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「還活著就好。」",
+          "next": "EP07_ACT05_SC01_S_N02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「下次希望不要再有這種報告。」",
+          "next": "EP07_ACT05_SC01_S_N02_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N02_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「辛苦妳了。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這句話我收下。比新的命令有用。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC01_S_N02_COMMON",
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N02_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還活著就好。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我本來就打算活著回來，殿下。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC01_S_N02_COMMON",
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N02_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「下次希望不要再有這種報告。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那得先讓世界願意合作一點。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC01_S_N02_COMMON",
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_S_N02_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "道路盡頭的醫療隊",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " "
+        },
+        {
+          "id": "L002",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "教會送來的資料仍有缺漏，艾琳達與王室逐項核對了善後需求。",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "FAILURE"
+          }
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "教會的回報已經比較完整，幾處仍需再向地方核實。",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "PARTIAL"
+          }
+        },
+        {
+          "id": "L004",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "米耶爾已重新協調收容站與醫療隊的對接，相關回報一併送達。",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "FULL"
+          }
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "米耶爾已重新協調收容與醫療對接，芬利也依既有制度查驗正式交接紀錄。",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "SEAL"
+          }
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_S",
+      "cg": "EP07-ACT05-SACRED-05",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "莎莉亞帶著地方更新的安置名冊來到王都。與最初只是單純避難的混亂狀態不同，這批從路恩王國來的人，現在已逐漸在安度因的地方共同體中站穩腳步。",
+          "cg": "EP07-ACT05-SACRED-06"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，這是最新名冊。有人已經在倉庫幫忙，有人接手文書，還有人乾脆去管馬車和糧草。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以，他們現在已經不只是住在這裡而已了？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「對。有些人開始像是本地人，有些本地人也已經習慣把事情交給他們。」",
+          "cg": "EP07-ACT05-SACRED-07"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「聽起來比我想像中順利。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「順利，是因為他們大多數本來就不打算回去。」",
+          "when": {
+            "all": [
+              {
+                "path": "flags.ROUENNE_TRANSFER_APPROVED",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "path": "flags.S1_STATUS",
+                "op": "eq",
+                "value": "SUCCESS"
+              }
+            ]
+          },
+          "cg": "EP07-ACT05-SACRED-08"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這句話等蘇菲真的開口問了，再拿來回答吧。」",
+          "when": {
+            "all": [
+              {
+                "path": "flags.ROUENNE_TRANSFER_APPROVED",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "path": "flags.S1_STATUS",
+                "op": "eq",
+                "value": "SUCCESS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "L008",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「明白。我也沒有打算主動挑起外交問題。」",
+          "when": {
+            "all": [
+              {
+                "path": "flags.ROUENNE_TRANSFER_APPROVED",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "path": "flags.S1_STATUS",
+                "op": "eq",
+                "value": "SUCCESS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "L009",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「順利是後來的事。前面其實花了不少力氣才把人留住。」",
+          "when": {
+            "not": {
+              "all": [
+                {
+                  "path": "flags.ROUENNE_TRANSFER_APPROVED",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "path": "flags.S1_STATUS",
+                  "op": "eq",
+                  "value": "SUCCESS"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那筆額外成本我已經付過了。這件事不能每次換張紙送上來，就再重算一次。」",
+          "when": {
+            "not": {
+              "all": [
+                {
+                  "path": "flags.ROUENNE_TRANSFER_APPROVED",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "path": "flags.S1_STATUS",
+                  "op": "eq",
+                  "value": "SUCCESS"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "L011",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「地方會照已談好的條件執行。」",
+          "when": {
+            "not": {
+              "all": [
+                {
+                  "path": "flags.ROUENNE_TRANSFER_APPROVED",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "path": "flags.S1_STATUS",
+                  "op": "eq",
+                  "value": "SUCCESS"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "L012",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞想先問什麼？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "先問工作安排",
+          "next": "EP07_ACT05_SC02_S_N03_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "先問居住情況",
+          "next": "EP07_ACT05_SC02_S_N03_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "先問他們是否想回路恩",
+          "next": "EP07_ACT05_SC02_S_N03_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N03_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問工作安排"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「最先穩下來的是工作。只要一開始有人願意讓他們碰帳和倉庫，後面就快得多。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_S_N03_COMMON",
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N03_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問居住情況"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「住處現在反而不是最大問題。真正難的是讓地方相信，這不是短期負擔，而是長期安排。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_S_N03_COMMON",
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N03_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問他們是否想回路恩"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些人想回去，但更多人已經不再把『回去』當成近期計畫。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_S_N03_COMMON",
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N03_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞怎麼評論這件事？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「至少他們找到了位置。」",
+          "next": "EP07_ACT05_SC02_S_N04_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「這種變化比外交協議快多了。」",
+          "next": "EP07_ACT05_SC02_S_N04_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「共同體有時候比邊界更實際。」",
+          "next": "EP07_ACT05_SC02_S_N04_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N04_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少他們找到了位置。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是。找到位置之後，人就沒那麼容易散掉。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_S_N04_COMMON",
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N04_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這種變化比外交協議快多了。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為人總是先活下來，政治才慢慢追上來。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_S_N04_COMMON",
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N04_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「共同體有時候比邊界更實際。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我也這麼覺得。只是通常要等很多麻煩之後，大家才肯承認。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_S_N04_COMMON",
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_S_N04_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " ",
+          "cg": "EP07-ACT05-SACRED-09"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_S",
+      "cg": "EP07-ACT05-SACRED-07",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA",
+        "FINLEY",
+        "TAMARA_FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉風風火火地走進東北塔，把一份舊求援函與一疊新紀錄一起放到桌上。芬利則已經把對應的通行證、貨單與中途交接紀錄整理好了。",
+          "cg": "EP07-ACT05-SACRED-10"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，先前那封邊境求援，查出結果了。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「就是那封寫得像一半被風吹走、連貨物名稱都沒寫清楚的？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「沒錯。塔馬拉攔下了對應的運送批次，我則把相關通行文件和交接紀錄對了一遍。」",
+          "cg": "EP07-ACT05-SACRED-11"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以是走私？」"
+        },
+        {
+          "id": "L006",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是。而且不是普通貨物。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「外層貨單與內層封存容器標示不一致。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「裡面裝了什麼？」"
+        },
+        {
+          "id": "L009",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉停了一下，才開口。"
+        },
+        {
+          "id": "L010",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「虛空能量結晶。」",
+          "cg": "EP07-ACT05-SACRED-12"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利的手立刻停下來。"
+        },
+        {
+          "id": "L012",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……妳沒有把它帶進王宮吧？」",
+          "cg": "EP07-ACT05-SACRED-13"
+        },
+        {
+          "id": "L013",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「當然沒有！」"
+        },
+        {
+          "id": "L014",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有人打開內層容器嗎？」"
+        },
+        {
+          "id": "L015",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「沒有！」"
+        },
+        {
+          "id": "L016",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有人碰過結晶嗎？」"
+        },
+        {
+          "id": "L017",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我怎麼可能讓人碰那個東西！」"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞看著兩人，忍不住挑眉。"
+        },
+        {
+          "id": "L019",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們兩個是不是反應有點大？」"
+        },
+        {
+          "id": "L020",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉、芬利幾乎同時出聲。"
+        },
+        {
+          "id": "L021",
+          "speaker": "TAMARA_FINLEY",
+          "speakerLabel": "塔馬拉、芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那是虛空能量！」"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……好，我知道了。」"
+        },
+        {
+          "id": "L023",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利指向桌角那份尚未收起的虛空污染善後地圖。",
+          "cg": "EP07-ACT05-SACRED-14"
+        },
+        {
+          "id": "L024",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主，我們才剛處理完一條接錯線造成的污染。現在有人把高濃度虛空能量裝進貨箱，打算像普通貨品一樣運來運去。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我負責把危險的東西攔在城門外，不負責示範自己能碰了還沒事。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……說得很有道理。」"
+        },
+        {
+          "id": "L027",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞先對誰開口？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "先問塔馬拉怎麼攔下來的",
+          "next": "EP07_ACT05_SC03_S_N05_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "先問芬利怎麼查到的",
+          "next": "EP07_ACT05_SC03_S_N05_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "先吐槽這封求援函寫得很爛",
+          "next": "EP07_ACT05_SC03_S_N05_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N05_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問塔馬拉怎麼攔下來的"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不是我厲害，是對方太心虛。正常商隊不會在一份貨單上寫三種彼此對不上的內容。」",
+          "cg": "EP07-ACT05-SACRED-15"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_S_N05_COMMON",
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N05_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問芬利怎麼查到的"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「最奇怪的是批轉紀錄。它們看起來像是真的，但越核對就越像有人故意把關鍵欄位寫得模糊。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_S_N05_COMMON",
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N05_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先吐槽這封求援函寫得很爛"
+        },
+        {
+          "id": "L002",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我現在終於知道，為什麼那封信看起來像是被風吹走一半。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我比較懷疑是寫的人自己心虛。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_S_N05_COMMON",
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N05_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞怎麼回應兩人的戒心？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「好吧，那我也不想碰。」",
+          "next": "EP07_ACT05_SC03_S_N06_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「你們這樣反而讓我更想看一眼。」",
+          "next": "EP07_ACT05_SC03_S_N06_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「看到你們這麼怕，我突然安心了一點。」",
+          "next": "EP07_ACT05_SC03_S_N06_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N06_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好吧，那我也不想碰。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「謝謝。我很高興妳做出正確的第一反應。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_S_N06_COMMON",
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N06_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們這樣反而讓我更想看一眼。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，我誠懇建議您把那個想法收回去。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_S_N06_COMMON",
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N06_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「看到你們這麼怕，我突然安心了一點。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那是因為至少還有人對風險有正常反應。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_S_N06_COMMON",
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_S_N06_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "completionFlags": {
+        "EP07_S5_SMUGGLING_CONFIRMED": true,
+        "EP07_S5_VOID_CRYSTALS_IDENTIFIED": true
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利完成初步來源鏈整理後指出，這批貨物經過的運輸渠道與 皇家魔法學派相關物流 有明確關聯，但目前只能說「與學派渠道有關」，還不能推論整個學派都參與其中。",
+          "cg": "EP07-ACT05-SACRED-16"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我能確認這批貨和學派渠道有關，但不能只靠這幾張紙，就把整個學派都判死刑。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。至少今天還沒有人打算逼我立刻對學派宣戰。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_S",
+      "cg": "EP07-ACT05-SACRED-14",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALYSSIA",
+        "FINLEY",
+        "TAMARA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾莉西亞一進門就看見桌上的封存紀錄，神情比其他人平靜得多。",
+          "cg": "EP07-ACT05-SACRED-17"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我聽說你們攔下了一批東西。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「一批能讓塔馬拉和芬利同時退後半步的東西。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……虛空結晶？」"
+        },
+        {
+          "id": "L005",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳知道？」"
+        },
+        {
+          "id": "L006",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我追查它們有一段時間了。原來跑到這裡。」",
+          "cg": "EP07-ACT05-SACRED-18"
+        },
+        {
+          "id": "L007",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以妳知道它們到底有多危險？」"
+        },
+        {
+          "id": "L008",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「知道。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「知道怎麼處理？」"
+        },
+        {
+          "id": "L010",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「知道。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那妳打算怎麼辦？」"
+        },
+        {
+          "id": "L012",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「帶走。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……就這樣？」"
+        },
+        {
+          "id": "L014",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不然呢？」"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉與芬利立刻轉向奧莉維亞。",
+          "cg": "EP07-ACT05-SACRED-19"
+        },
+        {
+          "id": "L016",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主，我強烈建議交給她。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我附議。」"
+        },
+        {
+          "id": "L018",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們兩個倒是難得這麼有共識。」"
+        },
+        {
+          "id": "L019",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞先問艾莉西亞什麼？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "先問她追查多久了",
+          "next": "EP07_ACT05_SC04_S_N07_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "先問她打算怎麼搬走",
+          "next": "EP07_ACT05_SC04_S_N07_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "先問她到底知不知道自己說得有多輕鬆",
+          "next": "EP07_ACT05_SC04_S_N07_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N07_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALYSSIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問她追查多久了"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「夠久，久到我不想再讓它們換第三手、第四手。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_S_N07_COMMON",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N07_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALYSSIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問她打算怎麼搬走"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「用正確的方法。這一點至少比把它們塞進普通貨箱的人強。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_S_N07_COMMON",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N07_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALYSSIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "先問她到底知不知道自己說得有多輕鬆"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道。只是這件事的正解本來就比你們想得簡單。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_S_N07_COMMON",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N07_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞怎麼回塔馬拉和芬利？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「你們的共識來得真快。」",
+          "next": "EP07_ACT05_SC04_S_N08_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「看到你們這麼團結，我居然有點感動。」",
+          "next": "EP07_ACT05_SC04_S_N08_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「看來今天最想結案的人不是我，是你們。」",
+          "next": "EP07_ACT05_SC04_S_N08_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N08_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們的共識來得真快。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為這次根本沒有必要猶豫。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_S_N08_COMMON",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N08_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「看到你們這麼團結，我居然有點感動。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果感動能加快交接，我不反對。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_S_N08_COMMON",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N08_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「看來今天最想結案的人不是我，是你們。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，非常準確。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_S_N08_COMMON",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_N08_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "choiceMode": "STORY",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "如何處置虛空能量結晶？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "先由王室自行封存",
+          "next": "EP07_ACT05_SC04_S_DISPOSAL_A",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP07_S5_CRYSTAL_HANDLING",
+              "value": "ROYAL_CUSTODY"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "交還皇家魔法學派",
+          "next": "EP07_ACT05_SC04_S_DISPOSAL_B",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP07_S5_CRYSTAL_HANDLING",
+              "value": "ACADEMY_RETURN"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "交給艾莉西亞",
+          "next": "EP07_ACT05_SC04_S_DISPOSAL_C",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP07_S5_CRYSTAL_HANDLING",
+              "value": "ALYSSIA_TRANSFER"
+            }
+          ]
+        }
+      ],
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_DISPOSAL_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA",
+        "FINLEY",
+        "ALYSSIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "settlements": [
+        {
+          "when": {
+            "path": "flags.EP07_T2_F4_RESOLVED",
+            "op": "eq",
+            "value": false
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "T2_CLEAR",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "F4_CLEAR",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP07_T2_F4_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先由王室自行封存。等事情少一點，我們再慢慢決定。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，那就表示要有人一直守著。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「而且我們沒有必要把這種風險留在自己手上。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我可以提醒妳一次：這不是適合留著慢慢想的東西。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_DISPOSAL_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "TAMARA",
+        "ALYSSIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "settlements": [
+        {
+          "when": {
+            "path": "flags.EP07_T2_F4_RESOLVED",
+            "op": "eq",
+            "value": false
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "T2_CLEAR",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "F4_CLEAR",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP07_T2_F4_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「既然它走的是學派渠道，那就交由學派自己處理。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「來源尚未查清，就把貨物送回同一條管道？」"
+        },
+        {
+          "id": "L003",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們剛剛才把它攔下來。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那妳之後可能還要再找一次。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_S_DISPOSAL_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "魔法學派的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALYSSIA",
+        "TAMARA",
+        "FINLEY",
+        "TAMARA_FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "settlements": [
+        {
+          "when": {
+            "all": [
+              {
+                "path": "flags.EP07_T2_F4_RESOLVED",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "path": "flags.T2_CLEAR",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          },
+          "effects": [
+            {
+              "type": "clear",
+              "key": "tamara",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "when": {
+            "all": [
+              {
+                "path": "flags.EP07_T2_F4_RESOLVED",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "path": "flags.F4_CLEAR",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          },
+          "effects": [
+            {
+              "type": "clear",
+              "key": "finley",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "when": {
+            "path": "flags.EP07_T2_F4_RESOLVED",
+            "op": "eq",
+            "value": false
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "T2_CLEAR",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "F4_CLEAR",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP07_T2_F4_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「既然妳本來就在追這批結晶，那就交給妳吧。」",
+          "cg": "EP07-ACT05-SACRED-20"
+        },
+        {
+          "id": "L002",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「行。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我立刻安排交接，免得有人又把它當普通貨物轉送。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「文件我來處理。移交對象、數量與先前貨運來源分開記錄。」",
+          "cg": "EP07-ACT05-SACRED-22"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們突然變得好有效率。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為這次終於不用我們碰它。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「完全同意。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們到底有多怕？」",
+          "cg": "EP07-ACT05-SACRED-21"
+        },
+        {
+          "id": "L009",
+          "speaker": "TAMARA_FINLEY",
+          "speakerLabel": "芬利、塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「非常。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "ALYSSIA",
+          "speakerLabel": "艾莉西亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……至少知道害怕也是件好事。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S",
+      "cg": "EP07-ACT05-SACRED-19",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "傍晚的東北塔安靜下來。芬利按事件順序把文件一份份排開：宮廷空間整理、路恩外交與安置、虛空污染、龍槍使聖戰、危險貨運查緝。",
+          "cg": "EP07-ACT05-SACRED-23"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先前整理的王宮大堂與議事廳已經回到原本用途。那些先前暫停的冗餘辦公室，在這段期間已正式終止功能。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。至少我現在知道哪裡可以拿來談正事，而不是塞滿桌子和櫃子。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「另外，蘇菲已完成加冕。路恩方面維持有限合作，莎莉亞那邊的安置也照既有安排穩定下來了。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「然後是虛空污染。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「虛空污染源頭已經停止外洩，但地面善後仍在進行。之後，奧塔莉雅遺骸停止活動，撤離完成，部分道路仍處封鎖與勘查階段。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「最後就是今天。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「塔馬拉確認了貨運路線，我核對了求援與來源，艾莉西亞已接手所有結晶。」",
+          "when": {
+            "path": "flags.EP07_S5_CRYSTAL_HANDLING",
+            "op": "eq",
+            "value": "ALYSSIA_TRANSFER"
+          },
+          "cg": "EP07-ACT05-SACRED-24"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「很好。這次終於沒有要求我再開三次會。」",
+          "when": {
+            "path": "flags.EP07_S5_CRYSTAL_HANDLING",
+            "op": "eq",
+            "value": "ALYSSIA_TRANSFER"
+          }
+        },
+        {
+          "id": "L010",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那批結晶沒有交到最合適的處置者手中。塔馬拉仍需依既有安全規範維持必要戒備。」",
+          "when": {
+            "not": {
+              "path": "flags.EP07_S5_CRYSTAL_HANDLING",
+              "op": "eq",
+              "value": "ALYSSIA_TRANSFER"
+            }
+          },
+          "cg": "EP07-ACT05-SACRED-24"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「也就是說，這件事最後還是留在我的帳上。」",
+          "when": {
+            "not": {
+              "path": "flags.EP07_S5_CRYSTAL_HANDLING",
+              "op": "eq",
+              "value": "ALYSSIA_TRANSFER"
+            }
+          }
+        },
+        {
+          "id": "L012",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「米耶爾那邊還欠我一份真正有用的答覆。」",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "FAILURE"
+          }
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少他們已經知道，不是所有事都能一句照舊帶過。」",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "PARTIAL"
+          }
+        },
+        {
+          "id": "L014",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果聖光會真願意照新的方式合作，就讓它繼續。」",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "FULL"
+          }
+        },
+        {
+          "id": "L015",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還有你那套追蹤文書。誰想偷偷替我轉交資料，最好先想清楚。」",
+          "when": {
+            "path": "flags.EP07_SACRED_NEGOTIATION_RESULT",
+            "op": "eq",
+            "value": "SEAL"
+          }
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利把最後一份文件——關於國王議會的考察備忘——放到桌面正中央。",
+          "cg": "EP07-ACT05-SACRED-25"
+        },
+        {
+          "id": "L017",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我原本以為，處理完眼前的事，就能休息一下。」"
+        },
+        {
+          "id": "L018",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主，眼前的事確實處理完了不少。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那剩下的呢？」"
+        },
+        {
+          "id": "L020",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些不是靠今天的救援、昨天的談判，或某個剛好經過的精靈術士就能解決的。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我就知道。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「它們需要更正式的制度。」"
+        },
+        {
+          "id": "L023",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞低頭看著那份標著「安度因國王議會」的備忘，嘆了一口氣，然後把它拉到自己面前。"
+        },
+        {
+          "id": "L024",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好吧。那就從下一份開始。」",
+          "cg": "EP07-ACT05-SACRED-26"
+        },
+        {
+          "id": "L025",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞最後把哪份文件壓在最上面？"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "國王議會備忘",
+          "next": "EP07_ACT05_SC05_S_N09_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "路恩外交文件",
+          "next": "EP07_ACT05_SC05_S_N09_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "虛空善後報告",
+          "next": "EP07_ACT05_SC05_S_N09_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N09_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "國王議會備忘"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那的確是接下來最不會自己消失的問題。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S_N09_COMMON",
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N09_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "路恩外交文件"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「外交通常會自己安靜一陣子，但不會真的結束。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S_N09_COMMON",
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N09_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "虛空善後報告"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少妳現在知道，魔法事故從來不只是一張修復報告的事。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S_N09_COMMON",
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N09_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞最後一句語氣"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「我們繼續吧。」",
+          "next": "EP07_ACT05_SC05_S_N10_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「真希望下一份不是災情報告。」",
+          "next": "EP07_ACT05_SC05_S_N10_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「如果接下來能少付一點錢就好了。」",
+          "next": "EP07_ACT05_SC05_S_N10_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N10_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們繼續吧。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「明白，大公主。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S_N10_COMMON",
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N10_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「真希望下一份不是災情報告。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我不敢保證，但可以先為妳祈禱。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S_N10_COMMON",
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N10_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果接下來能少付一點錢就好了。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那恐怕比沒有災情還困難。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_S_N10_COMMON",
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_S_N10_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "completion": {
+        "title": "第七章完 · 留下來的帳",
+        "nextChapterId": "EP08",
+        "policy": "NO_SCORING",
+        "scope": "CHAPTER",
+        "pendingLabel": "第八章〈兩個繼承人〉· 敬請期待"
+      },
+      "directions": [],
+      "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " "
+        }
+      ],
+      "choices": [],
+      "cg": "EP07-ACT05-SACRED-26",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_W",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "只是順路",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "choiceMode": "STORY",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "午後的王宮書房，卷宗逐一放上桌面。某份標著第六團善後進度的文件，比其他報告薄了許多。",
+          "cg": "EP07-ACT05-WORLD-01"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主，卡巴岡德的道路已恢復主要通行。臨時醫療點正在收整，第六團的撤離名冊也核對得差不多了。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「魔法學院那邊呢？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「學院已同意按核實的項目賠付，艾琳達正在整理最後一批帳目。她本人不需要我們再派人去指揮善後。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……她這陣子大概沒怎麼休息。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「她沒有在報告裡寫自己的睡眠時間。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道。只是……」"
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利翻過最後一頁，抬頭望向她。"
+        },
+        {
+          "id": "L009",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「第六團可以自己處理剩下的事情。大公主若還有安排，那就是額外的安排了。」"
+        },
+        {
+          "id": "L010",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "是否親自前往第六團？",
+          "cg": "EP07-ACT05-WORLD-02"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "親自前往卡巴岡德，當面確認後續事務。",
+          "next": "EP07_ACT05_SC01_W_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "以王室名義寄送正式慰問書函。",
+          "next": "EP07_ACT05_SC01_W_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "既然善後已有安排，就不額外干涉。",
+          "next": "EP07_ACT05_SC01_W_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_W_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "只是順路",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "PALACE_GUARD",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "settlements": [
+        {
+          "when": {
+            "all": [
+              {
+                "path": "flags.EP07_W5_A2_RESOLVED",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "path": "flags.ALINDA_A2_CLEAR",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          },
+          "effects": [
+            {
+              "type": "clear",
+              "key": "alinda",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "when": {
+            "path": "flags.EP07_W5_A2_RESOLVED",
+            "op": "eq",
+            "value": false
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "ALINDA_A2_CLEAR",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP07_W5_A2_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "卡巴岡德的雨後道路已恢復車轍。第六團營區仍傳來整裝聲與傷員交接的低語，忙碌卻不再混亂。",
+          "cg": "EP07-ACT05-WORLD-03"
+        },
+        {
+          "id": "L002",
+          "speaker": "PALACE_GUARD",
+          "speakerLabel": "守衛",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下駕到！」"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達把手上的名冊交給副官，快步迎出。她的低馬尾有些鬆散，護甲仍整齊。"
+        },
+        {
+          "id": "L004",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下？您怎麼親自過來了？」"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有幾份第六團的後續事務，想當面和妳確認。」"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達看向她手裡那薄薄的一疊文件。"
+        },
+        {
+          "id": "L007",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這些事交給芬利處理，應該就可以了吧？」"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……偶爾也需要親自確認嘛。」"
+        },
+        {
+          "id": "L009",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾琳達把目光收回，像是明白了什麼，卻沒有追問。",
+          "cg": "EP07-ACT05-WORLD-04"
+        },
+        {
+          "id": "L010",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「原來如此。那麼，請進吧。」"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "營地一角已撤去數張臨時病床，留下整齊疊放的毯子。奧莉維亞緩慢翻過文件，沒有急著坐上主位。"
+        },
+        {
+          "id": "L012",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「道路修復和傷員移送，還有缺口嗎？」"
+        },
+        {
+          "id": "L013",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些小事，但都在掌握中。第六團有自己的醫療隊，也能調整領地物資。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「王室還是可以協助。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下的好意我領了。不過這一次，不必。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「連一點都不需要？」"
+        },
+        {
+          "id": "L017",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果有真正需要的，我會照程序提出。現在這些，我能處理。」"
+        },
+        {
+          "id": "L018",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞合上根本沒翻到第二頁的報告。",
+          "cg": "EP07-ACT05-WORLD-05"
+        },
+        {
+          "id": "L019",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……妳總是把事情處理得很好。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只是做該做的事。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道。」"
+        },
+        {
+          "id": "L022",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "片刻安靜。外面傳來重新開放道路的馬蹄聲。"
+        },
+        {
+          "id": "L023",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「但我很高興，您今天願意特地過來。」"
+        },
+        {
+          "id": "L024",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我只是剛好有事。」"
+        },
+        {
+          "id": "L025",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「嗯。我知道。」"
+        },
+        {
+          "id": "L026",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "兩人心照不宣地笑了一下。艾琳達沒有要求補償，奧莉維亞也沒有再掏出什麼承諾；這趟拜訪到此已足夠。",
+          "cg": "EP07-ACT05-WORLD-06"
+        },
+        {
+          "id": "L027",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果沒有別的公務，我還得去巡看新開的道路。」"
+        },
+        {
+          "id": "L028",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「去吧。別忘了休息。」"
+        },
+        {
+          "id": "L029",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那是另外一件我會自行安排的事，殿下。」"
+        },
+        {
+          "id": "L030",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞笑出聲。"
+        },
+        {
+          "id": "L031",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " ",
+          "cg": "EP07-ACT05-WORLD-07"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_W",
+      "cg": "EP07-ACT05-WORLD-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_W_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "只是順路",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "settlements": [
+        {
+          "when": {
+            "path": "flags.EP07_W5_A2_RESOLVED",
+            "op": "eq",
+            "value": false
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "ALINDA_A2_CLEAR",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP07_W5_A2_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「替我以王室名義寫一封慰問書。把第六團的辛勞寫清楚。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「明白。送達後，我會把回函收入正常檔案。」"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "筆尖劃過紙張。書函按程序送出，營地仍照原計畫自行完成善後。"
+        },
+        {
+          "id": "L004",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " ",
+          "cg": "EP07-ACT05-WORLD-08"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_W",
+      "cg": "EP07-ACT05-WORLD-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC01_W_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 1,
+      "title": "只是順路",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "settlements": [
+        {
+          "when": {
+            "path": "flags.EP07_W5_A2_RESOLVED",
+            "op": "eq",
+            "value": false
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "ALINDA_A2_CLEAR",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP07_W5_A2_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「既然她們有辦法處理，就不要再插手了。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是。學院的賠償責任仍照原案執行。」"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "這份報告被收進已辦欄，沒有其他人因此被迫中止工作。"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_W",
+      "cg": "EP07-ACT05-WORLD-02",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_W",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "莎莉亞帶來的不是緊急軍報，而是一疊安置名冊。紙張邊緣有地方辦公處反覆翻閱的痕跡。",
+          "cg": "EP07-ACT05-WORLD-09"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，先前留在我領地的路恩人，最近安定了不少。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「蘇菲那邊有動作？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「恰好相反。路恩的新執政者似乎不怎麼想追究舊政權留下的那些事。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「也就是說，至少暫時不打算把那些人一個個找回去算帳？」"
+        },
+        {
+          "id": "L006",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「沒有這樣的要求送到我們這裡。可那也不等於她已經替所有人宣布赦免。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「外交措辭上，我們仍應把『未提出追究』與『正式免責』分開記錄。」"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「知道了。別把希望寫成已經蓋章的文件。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有些人因此開始打聽回去的路，另外一些人則在這裡找到了工作和熟人。」",
+          "cg": "EP07-ACT05-WORLD-10"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳願意讓他們長住？」"
+        },
+        {
+          "id": "L011",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「如果願意遵守地方規矩，也願意和旁人一樣分擔生活，就不該永遠被叫作『暫住的外人』。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那想回去的呢？」"
+        },
+        {
+          "id": "L013",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「等路恩的情勢更明朗，就讓他們自行選擇。留下不是背叛故土，離開也不是否定這裡。」"
+        },
+        {
+          "id": "L014",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞的回應",
+          "cg": "EP07-ACT05-WORLD-11"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「蘇菲倒是比想像中寬容。」",
+          "next": "EP07_ACT05_SC02_W_N02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「這樣我們少了一樁外交麻煩。」",
+          "next": "EP07_ACT05_SC02_W_N02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「他們終於可以睡個安穩覺了。」",
+          "next": "EP07_ACT05_SC02_W_N02_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_W_N02_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「蘇菲倒是比想像中寬容。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少現在，她沒有把清算所有舊人放在最前面。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_W_N02_COMMON",
+      "cg": "EP07-ACT05-WORLD-11",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_W_N02_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這樣我們少了一樁外交麻煩。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「前提是別把尚未宣布的赦免當作正式條款，大公主。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_W_N02_COMMON",
+      "cg": "EP07-ACT05-WORLD-11",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_W_N02_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「他們終於可以睡個安穩覺了。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「希望如此。至少今晚能比先前安穩一些。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC02_W_N02_COMMON",
+      "cg": "EP07-ACT05-WORLD-11",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC02_W_N02_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 2,
+      "title": "誰的共同體",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SHALIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只擔心一件事：總有人會把『給選擇』當成『沒有立場』。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「治理地方，本來就不需要替每個人決定一輩子的去處。」"
+        },
+        {
+          "id": "L003",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利將兩份名冊分開：一份有意返鄉，一份打算留下。沒有一張名冊被當成強制命令。"
+        },
+        {
+          "id": "L004",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " ",
+          "cg": "EP07-ACT05-WORLD-12"
+        },
+        {
+          "id": "L005",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「之前答應他們的安置已逐步做到。現在，終於能談真正的生活了。」",
+          "when": {
+            "path": "flags.S3_CLEAR",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那份承諾，我們沒有白寫。」",
+          "when": {
+            "path": "flags.S3_CLEAR",
+            "op": "eq",
+            "value": true
+          }
+        },
+        {
+          "id": "L007",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「之前的安排還有缺口。我會照已經核准的處置繼續補齊，但今天不需要再作另一遍決定。」",
+          "when": {
+            "path": "flags.S3_CLEAR",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「保留實際情況，不要把尚未完成的寫成完成。」",
+          "when": {
+            "path": "flags.S3_CLEAR",
+            "op": "eq",
+            "value": false
+          }
+        },
+        {
+          "id": "L009",
+          "speaker": "SHALIA",
+          "speakerLabel": "莎莉亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「蘇菲究竟會如何正式對待舊政權的人，終究要由路恩自己說清楚。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們先做好眼前的事情。」"
+        },
+        {
+          "id": "L011",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " ",
+          "cg": "EP07-ACT05-WORLD-13"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_W",
+      "cg": "EP07-ACT05-WORLD-11",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_W",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA",
+        "FINLEY",
+        "KALLIS"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一張原先只有寥寥數字的邊境求援函，如今壓在幾份完整運輸紀錄之下。塔馬拉把紅色標針刺在城郊道路交會處。",
+          "cg": "EP07-ACT05-WORLD-14"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，還記得 先前那封語焉不詳的求援嗎？我們終於查到它指的是哪一支車隊。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「當時連運什麼都不知道的那封？」"
+        },
+        {
+          "id": "L004",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「正是。關卡記錄與車行見證對上了：有人繞開正常申報路線，把數個密封箱送進王都西側舊貨運區。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「但它們在申報簿上的名稱一變再變。先是研究器材，後來變成『古代礦物樣本』。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「能讓名字變來變去的，通常不是好事。」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利攤開另一本簿冊。",
+          "cg": "EP07-ACT05-WORLD-15"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這批文書還用了魔法學派舊式物資轉運格式；是否真由學派授權，我們尚未核實。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「其中一個運貨中間人對外聲稱，他們手裡有一批地脈結晶。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「地脈結晶？那不是早就稀有得能把人嚇醒的東西嗎？」"
+        },
+        {
+          "id": "L011",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳會這麼想，是因為妳聽到的價格還不夠高。」"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "卡利斯・托維爾從門外走入。他在先前的危機後仍留在附近，手裡是自己追查交易時整理的筆記。"
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「卡利斯？你不是該好好休息嗎？」",
+          "cg": "EP07-ACT05-WORLD-16"
+        },
+        {
+          "id": "L014",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我追這批貨一段時間了。有人聲稱能一次出售好幾枚地脈結晶，價格與來源都說不通。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「地脈本身已在約五百至一千年前枯竭。若沒有古代存貨的流轉紀錄，這樣的數量確實值得懷疑。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「問題不只是數量。我見過交易方流出的粗略描述，晶體表現出的性質也不對。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以是假的？」"
+        },
+        {
+          "id": "L018",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我沒有說它是假貨。我說的是——它恐怕不是地脈結晶。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我追到車輪留下的路線，最後進了西側的廢棄貨運區。附近一間倉庫最近重新有人出入。」",
+          "cg": "EP07-ACT05-WORLD-17"
+        },
+        {
+          "id": "L020",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那間倉庫的租用紀錄沒有正常更新，但貨單上出現了對應的舊庫位代碼。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「交易方約在這幾天驗貨。如果箱子還在，至少能看清那究竟是什麼。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你們已經把地址找出來了？」"
+        },
+        {
+          "id": "L023",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「有很高把握。但現場得先由第二團確認安全。」"
+        },
+        {
+          "id": "L024",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞的回應",
+          "cg": "EP07-ACT05-WORLD-18"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「所以有人拿假結晶準備騙錢？」",
+          "next": "EP07_ACT05_SC03_W_N03_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「你為什麼這麼在意這批貨？」",
+          "next": "EP07_ACT05_SC03_W_N03_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「總之先把箱子找到。」",
+          "next": "EP07_ACT05_SC03_W_N03_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_W_N03_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "KALLIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以有人拿假結晶準備騙錢？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先別替它定性。假的地脈結晶，也可能是真正的別種東西。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_W_N03_COMMON",
+      "cg": "EP07-ACT05-WORLD-18",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_W_N03_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "KALLIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你為什麼這麼在意這批貨？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「真正的地脈結晶，在今天已經貴到不會隨便出現一整批。越不合理，我越想看看。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_W_N03_COMMON",
+      "cg": "EP07-ACT05-WORLD-18",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_W_N03_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「總之先把箱子找到。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這正是第二團要做的事，殿下。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC03_W_N03_COMMON",
+      "cg": "EP07-ACT05-WORLD-18",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC03_W_N03_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 3,
+      "title": "不完整的求援",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "KALLIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "completionFlags": {
+        "EP07_W5_CARGO_LOCATION_IDENTIFIED": true
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還有一件事，大公主。那個舊格式的來源，要向學派請人核對。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「知道了。如果找到貨，就找艾拉來看帳。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我只要親眼看見晶體，不需要那些人替我編故事。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那麼，出發。」"
+        },
+        {
+          "id": "L005",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " ",
+          "cg": "EP07-ACT05-WORLD-19"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_W",
+      "cg": "EP07-ACT05-WORLD-18",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA",
+        "FINLEY",
+        "KALLIS"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "舊貨運區的石牆爬滿藤蔓。塔馬拉把騎士分成兩組，先查門窗，再核對倉庫四周是否有人埋伏。",
+          "cg": "EP07-ACT05-WORLD-20"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殿下，請待在後面。沒有必要為幾箱貨冒險。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我知道規矩。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「大公主說這句話時，我通常會先確認她腳下的線在哪裡。」"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「今天沒有線。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「但願如此。」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "塔馬拉的部下解除門栓，屋內灰塵在日光裡翻飛。"
+        },
+        {
+          "id": "L008",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "箱子還在。十數只木箱按貨號碼放得整整齊齊，密封蠟印也看不出拆換痕跡。",
+          "cg": "EP07-ACT05-WORLD-21"
+        },
+        {
+          "id": "L009",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先驗第一箱。」"
+        },
+        {
+          "id": "L010",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "木箱撬開，裡面只有填充草與固定架。"
+        },
+        {
+          "id": "L011",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第二箱，一樣。"
+        },
+        {
+          "id": "L012",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "第三箱，還是一樣。"
+        },
+        {
+          "id": "L013",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……我們來晚了？」",
+          "cg": "EP07-ACT05-WORLD-22"
+        },
+        {
+          "id": "L014",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不對。封印和釘口都還完整，附近也沒有重新裝箱的痕跡。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「固定架的形狀表明原本確實放過某種晶體，不像故意做的空箱。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「把光照低一點。」"
+        },
+        {
+          "id": "L017",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "他蹲下，指向木箱底部一道幾乎看不見的紫色微光。"
+        },
+        {
+          "id": "L018",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "看見空箱後"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「他們該不會把貨提前賣了？」",
+          "next": "EP07_ACT05_SC04_W_N04A_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「不會十幾箱都裝空氣吧？」",
+          "next": "EP07_ACT05_SC04_W_N04A_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「卡利斯，你看出什麼了？」",
+          "next": "EP07_ACT05_SC04_W_N04A_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04A_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「他們該不會把貨提前賣了？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「目前沒有搬離痕跡，我不會先作這個結論。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_W_N04A_COMMON",
+      "cg": "EP07-ACT05-WORLD-22",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04A_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不會十幾箱都裝空氣吧？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少這些固定架，不像是專門用來裝空氣的，大公主。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_W_N04A_COMMON",
+      "cg": "EP07-ACT05-WORLD-22",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04A_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "KALLIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「卡利斯，你看出什麼了？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「看到了足以否定『地脈結晶』的東西。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_W_N04A_COMMON",
+      "cg": "EP07-ACT05-WORLD-22",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04A_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "KALLIS",
+        "TAMARA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利用小型檢測器靠近殘留物，暗紫色符紋一閃即滅。",
+          "cg": "EP07-ACT05-WORLD-23"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「殘留的是虛空能量。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那就說得通了。這些被當作地脈結晶的東西，其實是虛空能量結晶。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……所以根本不是地脈結晶？」"
+        },
+        {
+          "id": "L005",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不是。這也是我覺得那批貨不合理的原因。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這種結晶在目前這種存放條件下無法長期維持穩定。木箱沒有相應的保存設施，結晶逐漸昇華，最後只剩下微量痕跡。」"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那整批貨呢？」"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「已經沒有了，大公主。」"
+        },
+        {
+          "id": "L009",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "一時間，倉庫裡只聽得到木板輕微的吱呀聲。",
+          "cg": "EP07-ACT05-WORLD-24"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「讓我確認一下。有人把這些東西當成稀有地脈結晶，偷偷送來這裡，準備高價交易？」"
+        },
+        {
+          "id": "L011",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「依照目前的帳目和往來紀錄，是。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「然後他們沒有把貨保存好？」"
+        },
+        {
+          "id": "L013",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是。」"
+        },
+        {
+          "id": "L014",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「還沒完成交易，貨就全部昇華消失了？」"
+        },
+        {
+          "id": "L015",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳總結得很準確。」"
+        },
+        {
+          "id": "L016",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……這些人到底在幹什麼啊？」"
+        },
+        {
+          "id": "L017",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "得知真相後",
+          "cg": "EP07-ACT05-WORLD-25"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「這大概是最昂貴的一場烏龍。」",
+          "next": "EP07_ACT05_SC04_W_N04B_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「他們連自己賣的是什麼都不知道？」",
+          "next": "EP07_ACT05_SC04_W_N04B_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「所以最後只剩下木箱？」",
+          "next": "EP07_ACT05_SC04_W_N04B_C",
+          "effects": []
+        }
+      ],
+      "cg": "EP07-ACT05-WORLD-22",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04B_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "KALLIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這大概是最昂貴的一場烏龍。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「若他們真按地脈結晶喊價，恐怕確實如此。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_W_N04B_COMMON",
+      "cg": "EP07-ACT05-WORLD-25",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04B_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「他們連自己賣的是什麼都不知道？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少可以確認，他們不知道該如何保管。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_W_N04B_COMMON",
+      "cg": "EP07-ACT05-WORLD-25",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04B_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以最後只剩下木箱？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「木箱、書面紀錄，還有足以調查的運輸痕跡。並非什麼都沒留下。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC04_W_N04B_COMMON",
+      "cg": "EP07-ACT05-WORLD-25",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC04_W_N04B_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 4,
+      "title": "消失的貨物",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "TAMARA",
+        "FINLEY",
+        "ELLA",
+        "KALLIS"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "completionFlags": {
+        "EP07_W5_CRYSTALS_SUBLIMATED": true,
+        "EP07_W5_AYLA_RECORDS_CROSSCHECKED": true
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "settlements": [
+        {
+          "when": {
+            "all": [
+              {
+                "path": "flags.EP07_T2_F4_RESOLVED",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "path": "flags.T2_CLEAR",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          },
+          "effects": [
+            {
+              "type": "clear",
+              "key": "tamara",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "when": {
+            "all": [
+              {
+                "path": "flags.EP07_T2_F4_RESOLVED",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "path": "flags.F4_CLEAR",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          },
+          "effects": [
+            {
+              "type": "clear",
+              "key": "finley",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "when": {
+            "path": "flags.EP07_T2_F4_RESOLVED",
+            "op": "eq",
+            "value": false
+          },
+          "effects": [
+            {
+              "type": "flag",
+              "key": "T2_CLEAR",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "F4_CLEAR",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP07_T2_F4_RESOLVED",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那接下來怎麼辦？難道寫『結晶自己消失』就能把案子結了？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不能。我們仍要封存倉庫、保存記錄，按程序追查交貨與收貨方。只是交易沒有完成，而且沒有完整實物可扣押。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我也會把昇華的鑑定理由寫進備註，避免文書上變成『有人神祕搬走貨物』。」"
+        },
+        {
+          "id": "L004",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利遞來舊庫位代碼拓本。奧莉維亞看了看學派格式的標誌。",
+          "cg": "EP07-ACT05-WORLD-26"
+        },
+        {
+          "id": "L005",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「找艾拉。她應該能分辨這是學派真正的出貨，還是有人拿舊格式鑽漏洞。」"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "短暫等待後，通訊晶片亮起。"
+        },
+        {
+          "id": "L007",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「奧莉維亞？妳們又查到什麼學院醜聞了？」"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「先別急著否認。我這裡有一批用了學派舊式轉運格式的貨。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳說的『貨』現在在哪？」"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……箱子還在。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我問的是貨。」"
+        },
+        {
+          "id": "L012",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「貨不在了。」"
+        },
+        {
+          "id": "L013",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……？」"
+        },
+        {
+          "id": "L014",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是虛空能量結晶，保存不當，於交易前昇華。現在只需核對這份轉運編碼。」"
+        },
+        {
+          "id": "L015",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "艾拉一邊接過傳送的編碼抄本，一邊低聲嘀咕。",
+          "cg": "EP07-ACT05-WORLD-27"
+        },
+        {
+          "id": "L016",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「這是舊版學派物資格式，確實曾在轉運程序裡使用過；不能光憑這個就說是學院批准出貨。把倉庫租用記錄和簽收人給我。」"
+        },
+        {
+          "id": "L017",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「都已按規定封存，會提供核對副本。」"
+        },
+        {
+          "id": "L018",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我可以協助把來源鏈和授權欄位查明白。但有人想拿它當走私的遮羞布，別指望我替他們擔保。」"
+        },
+        {
+          "id": "L019",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「放心，今天至少沒有人要我替消失的結晶付錢。」"
+        },
+        {
+          "id": "L020",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「妳真的很會挑需要安慰自己的角度。」"
+        },
+        {
+          "id": "L021",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「所以真沒有地脈結晶。」"
+        },
+        {
+          "id": "L022",
+          "speaker": "ELLA",
+          "speakerLabel": "艾拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……你從頭到尾最在意的居然是這個？」"
+        },
+        {
+          "id": "L023",
+          "speaker": "KALLIS",
+          "speakerLabel": "卡利斯",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我本來就是為這個來的。」"
+        },
+        {
+          "id": "L024",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利在紀錄上寫下「虛空能量結晶，交易未完成，貨物全數昇華；來源與流通程序已協同核查」。",
+          "cg": "EP07-ACT05-WORLD-28"
+        },
+        {
+          "id": "L025",
+          "speaker": "TAMARA",
+          "speakerLabel": "塔馬拉",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「追查會繼續依法進行。今天至少確定了倉庫、運送路線與貨物的真相。」"
+        },
+        {
+          "id": "L026",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「好。不要把沒抓到的人寫成抓到了，也不要把消失的貨寫成真的地脈結晶。」"
+        },
+        {
+          "id": "L027",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「明白，大公主。」"
+        },
+        {
+          "id": "L028",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "卡利斯最後再看一眼空箱，無奈地搖頭。"
+        },
+        {
+          "id": "L029",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": " ",
+          "cg": "EP07-ACT05-WORLD-29"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_W",
+      "cg": "EP07-ACT05-WORLD-25",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_W",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "choiceMode": "DIALOGUE_FLAVOR",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "黃昏的書房裡，幾份新報告與舊案卷堆疊成兩座不太穩的紙塔。奧莉維亞把「第六團善後」放到一側，又把「路恩流亡者」擺進追蹤欄。",
+          "cg": "EP07-ACT05-WORLD-30"
+        },
+        {
+          "id": "L002",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我原以為，奧塔莉雅那件事結束後，至少能安靜兩天。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那件事確實已停止惡化。善後和後續追查則仍是另一回事。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「你就不能偶爾告訴我『全部解決了』嗎？」"
+        },
+        {
+          "id": "L005",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不能把沒有解決的部分寫成解決，大公主。」"
+        },
+        {
+          "id": "L006",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……你是對的，這才最麻煩。」"
+        },
+        {
+          "id": "L007",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利開始逐項整理：觀測站事故的賠償由魔法學院按約負責；第六團自己的後續工作依地方權責繼續；蘇菲暫未大規模追究流亡者，但尚無正式全面赦免；西側倉庫案件已核實結晶種類和運輸資料，還有司法程序要走。",
+          "cg": "EP07-ACT05-WORLD-31"
+        },
+        {
+          "id": "L008",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少最後那一批沒再開一道虛空裂縫。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那倒是。這次貨物在交易前就消失了。」"
+        },
+        {
+          "id": "L010",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「不要講得像這是一種值得表揚的安全措施。」"
+        },
+        {
+          "id": "L011",
+          "kind": "caption",
+          "visual": "SCENE",
+          "text": "奧莉維亞的章末感想",
+          "cg": "EP07-ACT05-WORLD-32"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「至少今天沒有新的災難。」",
+          "next": "EP07_ACT05_SC05_W_N05_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「我開始覺得空木箱也很可愛了。」",
+          "next": "EP07_ACT05_SC05_W_N05_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「把未完成的事情一件一件寫清楚吧。」",
+          "next": "EP07_ACT05_SC05_W_N05_C",
+          "effects": []
+        }
+      ],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_W_N05_A",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少今天沒有新的災難。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「截至目前為止，是的，大公主。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_W_N05_COMMON",
+      "cg": "EP07-ACT05-WORLD-32",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_W_N05_B",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我開始覺得空木箱也很可愛了。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少木箱的保存方式比較容易理解。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_W_N05_COMMON",
+      "cg": "EP07-ACT05-WORLD-32",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_W_N05_C",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「把未完成的事情一件一件寫清楚吧。」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「已經在寫了。這是最重要的部分。」"
+        }
+      ],
+      "choices": [],
+      "next": "EP07_ACT05_SC05_W_N05_COMMON",
+      "cg": "EP07-ACT05-WORLD-32",
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      }
+    },
+    {
+      "id": "EP07_ACT05_SC05_W_N05_COMMON",
+      "chapter": "EP07",
+      "act": "ACT05",
+      "sceneNumber": 5,
+      "title": "王國的帳本",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "completion": {
+        "title": "第七章完 · 留下來的帳",
+        "nextChapterId": "EP08",
+        "policy": "NO_SCORING",
+        "scope": "CHAPTER",
+        "pendingLabel": "第八章〈兩個繼承人〉· 敬請期待"
+      },
+      "directions": [],
+      "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",
+      "version": "1.0.0",
+      "planNodeId": "EP07_ACT05",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「對了，卡利斯呢？」"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「聽說他已經把那批結晶從『值得研究』的名單上劃掉了。」"
+        },
+        {
+          "id": "L003",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「可憐。他今天大概比走私者還失望。」"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「至少他沒有付貨款。」"
+        },
+        {
+          "id": "L005",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞終於笑了。"
+        },
+        {
+          "id": "L006",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "芬利將最後一份文件放到桌中央。",
+          "cg": "EP07-ACT05-WORLD-33"
+        },
+        {
+          "id": "L007",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……這又是什麼？」"
+        },
+        {
+          "id": "L008",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「國王議會的議程整理，以及此前各方承諾需要正式釐清的事項。」"
+        },
+        {
+          "id": "L009",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我們不是才剛處理完這麼多事情？」"
+        },
+        {
+          "id": "L010",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「是的，大公主。」"
+        },
+        {
+          "id": "L011",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「那為什麼桌上的文件看起來沒有變少？」"
+        },
+        {
+          "id": "L012",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「因為這是下一批。」"
+        },
+        {
+          "id": "L013",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "奧莉維亞望著那疊新文件，沉默半晌。"
+        },
+        {
+          "id": "L014",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「……晚餐前，先不要再送東西進來。」"
+        },
+        {
+          "id": "L015",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "text": "「我會把這句話登記成暫時的辦公安排。」"
+        },
+        {
+          "id": "L016",
+          "kind": "narration",
+          "visual": "SCENE",
+          "text": "燈火照著王宮地圖。路恩、卡巴岡德、王都與遙遠東線仍連在同一張紙上。今天收起的只是某些卷宗，沒有一個國家能被一次性寫成『完成』。",
+          "cg": "EP07-ACT05-WORLD-34"
+        }
+      ],
+      "choices": [],
+      "cg": "EP07-ACT05-WORLD-32",
       "presentation": {
         "fit": "contain",
         "focusX": 50,

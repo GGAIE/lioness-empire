@@ -8,11 +8,11 @@ test('shows the release log and continues both third-act saves into the matching
 }) => {
   const story = await loadReaderContent();
   await page.goto('/');
-  const release = page.getByRole('button', { name: /更新日誌 OLIVIA2026\.11\.10/ });
+  const release = page.getByRole('button', { name: /更新日誌 OLIVIA2026\.11\.11/ });
   await expect(release).toBeInViewport();
   await release.click();
   const log = page.getByRole('dialog', { name: '更新日誌' });
-  await expect(log).toContainText('OLIVIA2026.11.10');
+  await expect(log).toContainText('OLIVIA2026.11.11');
   await expect(log).toContainText('龍槍使聖戰');
   await expect(log).toContainText('死龍與聖戰');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();

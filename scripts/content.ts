@@ -76,7 +76,7 @@ const stateKey = explorationKey(story);
 let blockedChoices = 0;
 let blockedChapterEntries = 0;
 // Keep a bounded, exhaustive check across the accumulated chapter branches.
-while (pending.length && seen.size < 3000000) {
+while (!report.errors.length && pending.length && seen.size < 3000000) {
   let s = pending.pop()!;
   // Read history is an output, never a story condition; do not copy thousands of old paragraphs per graph edge.
   s.history = [];
@@ -113,7 +113,8 @@ while (pending.length && seen.size < 3000000) {
     else report.errors.push(String(e));
   }
 }
-if (pending.length) report.errors.push('Exploration limit reached; verification incomplete');
+if (pending.length && !report.errors.length)
+  report.errors.push('Exploration limit reached; verification incomplete');
 const full = {
   ...report,
   exploredStates: seen.size,

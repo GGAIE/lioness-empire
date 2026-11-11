@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.18.0-ep07-act04.reader-v1",
+  "version": "0.19.0-ep07-complete.reader-v1",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -830,6 +830,46 @@
       "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
     },
     "EP07_W4_DRAGON_REVIVAL_INVESTIGATION_OPEN": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_T2_F4_RESOLVED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "T2_CLEAR": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "F4_CLEAR": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S5_SMUGGLING_CONFIRMED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S5_VOID_CRYSTALS_IDENTIFIED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_S5_CRYSTAL_HANDLING": {
+      "initial": "UNSET",
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W5_A2_RESOLVED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W5_CARGO_LOCATION_IDENTIFIED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W5_CRYSTALS_SUBLIMATED": {
+      "initial": false,
+      "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP07_W5_AYLA_RECORDS_CROSSCHECKED": {
       "initial": false,
       "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
     }

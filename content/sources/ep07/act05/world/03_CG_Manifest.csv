@@ -1,0 +1,35 @@
+﻿cg_id,scene,branch,title,prompt_file,aspect_ratio,recommended_resolution,status
+W05-01,SC01,COMMON,Royal office afternoon,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-02,SC01,COMMON,Regent weighs a visit,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-03,SC01-A,A_ONLY,Arrival in Kabagande,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-04,SC01-A,A_ONLY,The flimsy excuse,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-05,SC01-A,A_ONLY,Offer politely refused,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-06,SC01-A,A_ONLY,A knowing smile,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-07,SC01-A,A_ONLY,Road work resumes,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-08,SC01-B,B_ONLY,Written courtesy,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-09,SC02,COMMON,Shalia arrives,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-10,SC02,COMMON,A country not pursuing,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-11,SC02,COMMON,Two directions,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-12,SC02,COMMON,Names and separate registers,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-13,SC02,COMMON,Choice without coercion,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-14,SC03,COMMON,The old distress note,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-15,SC03,COMMON,Contradicting cargo records,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-16,SC03,COMMON,Calis returns,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-17,SC03,COMMON,Not genuine leyline crystals,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-18,SC03,COMMON,Warehouse route found,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-19,SC03,COMMON,Departure to investigate,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-20,SC04,COMMON,Warehouse perimeter,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-21,SC04,COMMON,Sealed crates in sunlight,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-22,SC04,COMMON,All crates empty,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-23,SC04,COMMON,Thin violet residue,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-24,SC04,COMMON,Void energy analysis,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-25,SC04,COMMON,Costly empty deal,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-26,SC04,COMMON,Secure the evidence,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-27,SC04,COMMON,Contact with Ayla,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-28,SC04,COMMON,Institutional verification,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-29,SC04,COMMON,Calis and the empty box,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-30,SC05,COMMON,Back to paperwork,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-31,SC05,COMMON,Many cases one ledger,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-32,SC05,COMMON,No new void crack,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-33,SC05,COMMON,The legendary mage disappointed,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY
+W05-34,SC05,COMMON,Next batch of files,02_English_CG_Prompts_34.md,16:9,1920x1080,PROMPT_ONLY

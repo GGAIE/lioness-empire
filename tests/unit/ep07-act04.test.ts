@@ -52,7 +52,7 @@ function play(route: 'SACRED' | 'WORLD', picks: string[], outcome = 'FAILURE', s
     state = markRead(story, { ...state, currentSegmentIndex: segments.length - 1 });
     if (scene.kind === 'end') {
       expect(pick).toBe(picks.length);
-      expect(scene.completion?.pendingLabel).toContain('第五幕');
+      expect(scene.completion?.nextLabel).toContain('第五幕');
       expect([...images].every((id) => id.startsWith(`EP07-ACT04-${route}-`))).toBe(true);
       expect(state.campaign?.politicalPoints).toBe(50);
       expect(state.campaign?.unrest).toBe(30);

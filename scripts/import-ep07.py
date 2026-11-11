@@ -393,6 +393,8 @@ def main():
         subprocess.run([sys.executable,'-X','utf8',str(ROOT/'scripts/import-ep07-act03.py')],check=True)
         if 'ACT04' in existing_acts:
             subprocess.run([sys.executable,'-X','utf8',str(ROOT/'scripts/import-ep07-act04.py')],check=True)
+        if 'ACT05' in existing_acts:
+            subprocess.run([sys.executable,'-X','utf8',str(ROOT/'scripts/import-ep07-act05.py')],check=True)
 
 
 if __name__=='__main__':main()
