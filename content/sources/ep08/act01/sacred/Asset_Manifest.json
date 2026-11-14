@@ -1,0 +1,65 @@
+{
+  "package": "Lioness_Empire_EP08_ACT01_Sacred_Production_v1.1",
+  "files": [
+    {
+      "path": "01_Script/EP08_ACT01_Sacred_Full_Script_v1.1.md",
+      "bytes": 17457,
+      "sha256": "73f3b475b2adfd2c830b4c9e302e7eab1c7137eac22d7080678a16f377e91ad1"
+    },
+    {
+      "path": "02_CG_Prompts/EP08_ACT01_Sacred_18_CG_Prompts_v1.0.md",
+      "bytes": 7417,
+      "sha256": "5ce2916216c2711ec706b4b2ab3af33b578fb6f7f371847a337595e3f68fd7cc"
+    },
+    {
+      "path": "03_Character_Design/Saraphenia_Ceremonial_Three_View_v1.0.png",
+      "bytes": 2605656,
+      "sha256": "284b1b52fe6301b24a3d711f941de48e7ee1766ca6cd716b6661547f2cf992cb"
+    },
+    {
+      "path": "03_Character_Design/Saraphenia_Design_Spec_v1.0.md",
+      "bytes": 1600,
+      "sha256": "327fe640995b313d19610ccc3872e256c8cd304d1b0d89bc00469a93b60095fe"
+    },
+    {
+      "path": "03_Character_Design/Saraphenia_Source_Reference.jpg",
+      "bytes": 571284,
+      "sha256": "24b36e92a3ac1c44312a4c2fd611039c87ab95893751f29009d8b2e913199c03"
+    },
+    {
+      "path": "04_Production/ACT05_Choice_Planning_Notes_v1.1.md",
+      "bytes": 555,
+      "sha256": "88654aed8fad612763d2b40cba720782daf409d82c1a083ccbed720cb15635fb"
+    },
+    {
+      "path": "04_Production/Scene_Index_and_Flags_v1.1.md",
+      "bytes": 5567,
+      "sha256": "799c4d28d34a6556aa472503a2858f4658b900790186f089bba132004e01826c"
+    },
+    {
+      "path": "05_Source_Startup/EP08_Flags_and_Open_Issues_v1.0.md",
+      "bytes": 4992,
+      "sha256": "304f1962148faefb5fa061ae85b1b870aacd88e58905dda02fdde06b55358785"
+    },
+    {
+      "path": "05_Source_Startup/EP08_Production_Startup_v1.0.md",
+      "bytes": 14841,
+      "sha256": "ebc67afba758701c247fedd3bc867f32da74f6ac1ca1b3d6c5cfc5e401200ed9"
+    },
+    {
+      "path": "05_Source_Startup/EP08_Scene_Map_v1.0.md",
+      "bytes": 3607,
+      "sha256": "b7eb458ed2047350b832fda47f5ec0b320212f16f7d58daed9ef683b32ee7907"
+    },
+    {
+      "path": "05_Source_Startup/README.md",
+      "bytes": 797,
+      "sha256": "4ca96ed47d24d8d74f0e3376f5f53f7a6f0163b3bea61724618e1535385b9492"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1429,
+      "sha256": "3754ec8cedbb3641fbd3aab7da942d94a475824f069e200a9b8d0aef411e1a20"
+    }
+  ]
+}

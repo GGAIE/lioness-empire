@@ -32,12 +32,20 @@
     "ARCANA_08: DRAFT — Canon draft, no production award",
     "ARCANA_14: DRAFT — Canon draft, no production award"
   ],
-  "scenes": 1194,
-  "exploredStates": 2256371,
-  "endStates": 99252,
-  "blockedChoices": 6527,
-  "blockedChapterEntries": 842,
+  "scenes": 1297,
+  "exploredStates": 2259650,
+  "endStates": 99338,
+  "blockedChoices": 6687,
+  "blockedChapterEntries": 843,
   "explorationComplete": true,
+  "verificationStrategy": "state exploration with certified terminal chapters and exhaustive resource inputs",
+  "chapterBoundaryChecks": {
+    "chapters": [
+      "EP08"
+    ],
+    "checks": 770,
+    "errors": []
+  },
   "canonEndings": 30,
   "approvedCanonEndings": 0,
   "planning": {
@@ -49,7 +57,6 @@
     "unresolved": 8
   },
   "unavailableChapters": [
-    "EP08",
     "EP09",
     "EP10",
     "EP11",

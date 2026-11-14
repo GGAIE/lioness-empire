@@ -12,11 +12,11 @@ let story: Story;
 beforeAll(async () => {
   story = await loadContent();
 });
-it('groups 13 chapters and 62 acts with 200 authored sections, hiding engine demos and branch internals', () => {
+it('groups 13 chapters and 62 acts with 210 authored sections, hiding engine demos and branch internals', () => {
   const index = chapterDirectory(story);
   expect(index).toHaveLength(13);
   expect(index.flatMap((c) => c.acts)).toHaveLength(62);
-  expect(index.flatMap((c) => c.acts.flatMap((a) => a.sections))).toHaveLength(200);
+  expect(index.flatMap((c) => c.acts.flatMap((a) => a.sections))).toHaveLength(210);
   expect(index[1].title).toBe('王冠之前');
   expect(index[1].acts.map((a) => a.sections.length)).toEqual([5, 5, 5, 5, 5]);
   expect(index[1].acts[1].sections[2].sceneIds).toHaveLength(5);
@@ -24,6 +24,11 @@ it('groups 13 chapters and 62 acts with 200 authored sections, hiding engine dem
     index.flatMap((c) => c.acts.flatMap((a) => a.sections)).some((s) => s.title.includes('分支'))
   ).toBe(false);
   expect(index.some((c) => c.id === 'DEMO')).toBe(false);
+  expect(index.flatMap((c) => c.acts).every((a) => !/規劃|未命名|劇本待續/.test(a.title))).toBe(
+    true
+  );
+  expect(index.find((c) => c.id === 'EP08')!.acts[1].title).toBe('五十張椅子');
+  expect(index.find((c) => c.id === 'EP12')!.acts[4].title).toBe('帝國之後');
 });
 it('counts a decision section as read after the selected response and common passage, without requiring every branch', () => {
   const ids = ['EP01_ACT02_SC03', 'EP01_ACT02_SC03_A', 'EP01_ACT02_SC03_COMMON'];

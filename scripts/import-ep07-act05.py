@@ -300,6 +300,11 @@ def main():
     core.write(path, characters)
     print(len(SCENES), 'nodes', sum(len(s['segments']) for s in SCENES), 'segments',
           sum(len(s['choices']) for s in SCENES), 'answers', len(ASSETS), 'CGs')
+    # Rebuilding earlier acts must retain the newer chapter handoff and version.
+    if (ROOT / 'content/episodes/ep08/chapter.json').exists():
+        import subprocess
+        import sys
+        subprocess.run([sys.executable, '-X', 'utf8', str(ROOT / 'scripts/import-ep08-act01.py')], check=True)
 
 
 if __name__ == '__main__':

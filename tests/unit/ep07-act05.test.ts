@@ -55,7 +55,7 @@ function play(route: 'SACRED' | 'WORLD', answer: string, s3 = true) {
     expect(again.clear).toEqual(state.clear);
     if (scene.kind === 'end') {
       expect(scene.completion).toMatchObject({ scope: 'CHAPTER', nextChapterId: 'EP08' });
-      expect(scene.completion?.nextSceneId).toBeUndefined();
+      expect(scene.completion?.nextSceneId).toBe(`EP08_ACT01_SC01_${route[0]}`);
       expect(state.readChapters).toContain('EP07');
       expect(state.campaign!.politicalPoints).toBe(50);
       expect(state.campaign!.unrest).toBe(30);

@@ -1,0 +1,40 @@
+{
+  "package": "Lioness_Empire_EP08_ACT02_Sacred_Production_v1.0",
+  "files": [
+    {
+      "path": "01_Script/EP08_ACT02_Sacred_Full_Script_v1.0.md",
+      "bytes": 26132,
+      "sha256": "9ad5d1a76195a4197eb70c857529dba6a180470f3fb173aaab129e0aea5668f6"
+    },
+    {
+      "path": "03_Production/Scene_Index_and_Flags_v1.0.md",
+      "bytes": 7026,
+      "sha256": "78d445f744144212773d3bae022c8513b564199bc404c2e591962eec6527d9bf"
+    },
+    {
+      "path": "04_Source_Startup/EP08_Flags_and_Open_Issues_v1.0.md",
+      "bytes": 4992,
+      "sha256": "304f1962148faefb5fa061ae85b1b870aacd88e58905dda02fdde06b55358785"
+    },
+    {
+      "path": "04_Source_Startup/EP08_Production_Startup_v1.0.md",
+      "bytes": 14841,
+      "sha256": "ebc67afba758701c247fedd3bc867f32da74f6ac1ca1b3d6c5cfc5e401200ed9"
+    },
+    {
+      "path": "04_Source_Startup/EP08_Scene_Map_v1.0.md",
+      "bytes": 3607,
+      "sha256": "b7eb458ed2047350b832fda47f5ec0b320212f16f7d58daed9ef683b32ee7907"
+    },
+    {
+      "path": "04_Source_Startup/README.md",
+      "bytes": 797,
+      "sha256": "4ca96ed47d24d8d74f0e3376f5f53f7a6f0163b3bea61724618e1535385b9492"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1394,
+      "sha256": "0fbcbfc84f5a0f2861d80036a8f4a87ba27753ed8f3fece8d7fe6d5d6f1ef332"
+    }
+  ]
+}

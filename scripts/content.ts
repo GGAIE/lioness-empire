@@ -6,6 +6,11 @@ import { z } from 'zod';
 import { EndingRuleSchema } from '../packages/narrative-core/schema';
 import { validateStory } from '../packages/narrative-core/validate';
 import { explorationKey } from './exploration-key';
+import {
+  independentChapters,
+  independentEntryStates,
+  verifyChapterBoundaries,
+} from './chapter-boundaries';
 import { auditSpeakers } from './speaker-annotations';
 import { prepareReaderStory } from '../packages/narrative-core/reader-text';
 import {
@@ -67,16 +72,23 @@ for (const a of story.assets)
     report.errors.push(`Missing file ${a.src}`);
   }
 // Bounded executable branch exploration. This verifies this content, not all hypothetical imported states.
+const separate = independentChapters(story);
+const boundaryReport = verifyChapterBoundaries(story, separate);
+report.errors.push(...boundaryReport.errors);
 const pending = story.manifest.chapters
     .filter((c) => c.entry)
-    .map((c) => initialState({ ...story, manifest: { ...story.manifest, start: c.entry! } })),
+    .flatMap((c) => {
+      if (!separate.has(c.id))
+        return [initialState({ ...story, manifest: { ...story.manifest, start: c.entry! } })];
+      return independentEntryStates(story, c.id);
+    }),
   seen = new Set<string>();
 let ends = 0;
-const stateKey = explorationKey(story);
+const stateKey = explorationKey(story, { independentChapters: separate });
 let blockedChoices = 0;
 let blockedChapterEntries = 0;
 // Keep a bounded, exhaustive check across the accumulated chapter branches.
-while (!report.errors.length && pending.length && seen.size < 3000000) {
+while (!report.errors.length && pending.length && seen.size < 6000000) {
   let s = pending.pop()!;
   // Read history is an output, never a story condition; do not copy thousands of old paragraphs per graph edge.
   s.history = [];
@@ -88,6 +100,7 @@ while (!report.errors.length && pending.length && seen.size < 3000000) {
   const key = createHash('sha256').update(stateKey(s)).digest('base64');
   if (seen.has(key)) continue;
   seen.add(key);
+  if (seen.size % 250000 === 0) console.error(`Verified ${seen.size} branch states`);
   try {
     const scene = story.scenes[s.currentSceneId];
     if (scene.kind === 'end' && s.currentSegmentIndex === visibleSegments(story, s).length - 1) {
@@ -122,6 +135,9 @@ const full = {
   blockedChoices,
   blockedChapterEntries,
   explorationComplete: pending.length === 0,
+  verificationStrategy:
+    'state exploration with certified terminal chapters and exhaustive resource inputs',
+  chapterBoundaryChecks: boundaryReport,
   canonEndings: story.endings.length,
   approvedCanonEndings: story.endings.filter((r) => r.status === 'APPROVED').length,
   planning: story.plan

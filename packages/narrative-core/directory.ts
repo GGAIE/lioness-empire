@@ -1,4 +1,5 @@
 import type { GameState, Scene, Story } from './schema';
+import actTitles from './act-titles.json';
 import {
   clone,
   initialState,
@@ -60,13 +61,14 @@ export function chapterDirectory(
         const authored = scenes.filter((s) => s.act === id);
         const title =
           authored
+            .filter((s) => !state || !s.availableWhen || evaluate(state, s.availableWhen))
             .find((s) => s.completion)
             ?.completion?.title.split(' · ')
             .slice(1)
             .join(' · ') ||
           (ch.id === 'PROLOGUE'
             ? ch.title
-            : `${plan?.acts.find((a) => a.number === number)?.label ?? '劇本待續'}（規劃）`);
+            : (actTitles[`${ch.id}_${id}` as keyof typeof actTitles] ?? '未命名篇章'));
         const groups = new Map<number, Scene[]>();
         for (const [index, scene] of authored.entries()) {
           const n = scene.sceneNumber ?? index + 1;
@@ -190,8 +192,23 @@ export function navigableScenes(story: Story, state: GameState, unlocked = false
         state.campaign?.chapter === c.id ||
         state.campaign?.upkeep.some((r) => r.chapter === c.id) ||
         (previous && state.readChapters.includes(previous.id))
-      )
-        visit(c.entry);
+      ) {
+        const entry = story.scenes[c.entry];
+        // Chapters whose opening differs by worldline have two authored roots.
+        // Use the matching opening rather than exposing another route's text.
+        const matching =
+          entry?.availableWhen && !evaluate(state, entry.availableWhen)
+            ? Object.values(story.scenes).find(
+                (s) =>
+                  s.chapter === c.id &&
+                  s.act === entry.act &&
+                  s.sceneNumber === entry.sceneNumber &&
+                  s.availableWhen &&
+                  evaluate(state, s.availableWhen)
+              )
+            : entry;
+        if (matching) visit(matching.id);
+      }
     });
   return reached;
 }

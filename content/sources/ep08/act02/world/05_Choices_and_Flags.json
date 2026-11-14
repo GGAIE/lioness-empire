@@ -1,0 +1,79 @@
+{
+  "scene": "EP08_WORLD_ACT02_SC03",
+  "choice_id": "P01",
+  "status": "USER_SPECIFIED_DELTAS",
+  "effects": {
+    "A": {
+      "political_points_delta": 20,
+      "unrest_delta": 10
+    },
+    "B": {
+      "political_points_delta": -15,
+      "unrest_delta": -5
+    }
+  },
+  "unrest_bounds": [
+    0,
+    100
+  ],
+  "choice_owner": "OLIVIA",
+  "route_change": false,
+  "seat_changes": false,
+  "flavor_choices": [
+    {
+      "choice_id": "F01",
+      "branch_count": 3,
+      "effects": {
+        "political_points_delta": 0,
+        "unrest_delta": 0,
+        "role_clear_delta": 0,
+        "permanent_flags": [],
+        "route_change": false
+      }
+    },
+    {
+      "choice_id": "F02",
+      "branch_count": 3,
+      "effects": {
+        "political_points_delta": 0,
+        "unrest_delta": 0,
+        "role_clear_delta": 0,
+        "permanent_flags": [],
+        "route_change": false
+      }
+    },
+    {
+      "choice_id": "F03",
+      "branch_count": 3,
+      "effects": {
+        "political_points_delta": 0,
+        "unrest_delta": 0,
+        "role_clear_delta": 0,
+        "permanent_flags": [],
+        "route_change": false
+      }
+    },
+    {
+      "choice_id": "F04",
+      "branch_count": 3,
+      "effects": {
+        "political_points_delta": 0,
+        "unrest_delta": 0,
+        "role_clear_delta": 0,
+        "permanent_flags": [],
+        "route_change": false
+      }
+    },
+    {
+      "choice_id": "F05",
+      "branch_count": 3,
+      "effects": {
+        "political_points_delta": 0,
+        "unrest_delta": 0,
+        "role_clear_delta": 0,
+        "permanent_flags": [],
+        "route_change": false
+      }
+    }
+  ]
+}

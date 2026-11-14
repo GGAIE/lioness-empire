@@ -1,6 +1,6 @@
 import type { Story, Condition, GameState } from '../packages/narrative-core/schema';
 // Keep only values that can still affect executable story flow. Saved player state stays intact.
-export function explorationKey(story: Story) {
+export function explorationKey(story: Story, options: { independentChapters?: Set<string> } = {}) {
   const live = new Map<string, Set<string>>(),
     reachable = new Map<string, Set<string>>(),
     resources = new Map<string, Set<string>>(),
@@ -13,6 +13,10 @@ export function explorationKey(story: Story) {
   };
   const edges = new Map<string, string[]>();
   for (const scene of Object.values(story.scenes)) {
+    const separateEntry =
+      scene.completion?.nextSceneId &&
+      options.independentChapters?.has(scene.completion.nextChapterId) &&
+      scene.completion.nextChapterId !== scene.chapter;
     const set = new Set<string>();
     for (const c of [
       scene.availableWhen,
@@ -47,7 +51,12 @@ export function explorationKey(story: Story) {
     if (effects.some((e) => e.type === 'reinforce')) set.add('tarotRoute');
     if (effects.some((e) => e.type === 'points' && e.delta < 0)) reads.add('points');
     if (effects.some((e) => e.type === 'unrest' && !e.clamp)) reads.add('unrest');
-    if (scene.completion?.nextSceneId && scene.completion.nextChapterId !== scene.chapter) {
+    if (effects.some((e) => e.type === 'unrest')) reads.add('mutatesUnrest');
+    if (
+      scene.completion?.nextSceneId &&
+      scene.completion.nextChapterId !== scene.chapter &&
+      !separateEntry
+    ) {
       reads.add('points');
       reads.add('unrest');
     }
@@ -57,7 +66,7 @@ export function explorationKey(story: Story) {
       [
         scene.next,
         scene.conditionalNext?.next,
-        scene.completion?.nextSceneId,
+        separateEntry ? undefined : scene.completion?.nextSceneId,
         ...scene.choices.map((c) => c.next),
       ].filter(Boolean) as string[]
     );
@@ -84,8 +93,9 @@ export function explorationKey(story: Story) {
   const maxUpkeep = Math.max(0, ...(story.plan?.rules.resource.bands.map((b) => b.cost) ?? []));
   const debit = (effects: { type: string; delta?: number }[]) =>
     effects.reduce((sum, e) => sum + (e.type === 'points' ? Math.max(0, -(e.delta ?? 0)) : 0), 0);
-  const bound = (id: string, visiting = new Set<string>()): number => {
-    if (debitBounds.has(id)) return debitBounds.get(id)!;
+  const bound = (id: string, visiting = new Set<string>(), upkeep = maxUpkeep): number => {
+    const cacheKey = `${upkeep}:${id}`;
+    if (debitBounds.has(cacheKey)) return debitBounds.get(cacheKey)!;
     if (visiting.has(id)) return Infinity;
     const scene = story.scenes[id];
     if (!scene) return 0;
@@ -103,19 +113,34 @@ export function explorationKey(story: Story) {
       0,
       ...(edges.get(id) ?? []).map(
         (to) =>
-          bound(to, chain) +
+          bound(to, chain, upkeep) +
           (scene.completion?.nextSceneId === to && scene.completion.nextChapterId !== scene.chapter
-            ? maxUpkeep
+            ? upkeep
             : 0)
       )
     );
     const value = own + future;
-    debitBounds.set(id, value);
+    debitBounds.set(cacheKey, value);
     return value;
   };
   for (const id of edges.keys()) bound(id);
-  return (s: GameState) =>
-    JSON.stringify([
+  return (s: GameState) => {
+    const reads = resources.get(s.currentSceneId)!;
+    // Once no reachable event can change unrest, only its upkeep band can
+    // affect future execution. Preserve exact unrest until that point.
+    const fixedUnrest = !reads.has('mutatesUnrest');
+    const fee =
+      s.campaign?.unrest == null
+        ? null
+        : (story.plan?.rules.resource.bands.find(
+            (b) => s.campaign!.unrest! >= b.min && s.campaign!.unrest! <= b.max
+          )?.cost ?? null);
+    const remainingDebit = bound(
+      s.currentSceneId,
+      new Set(),
+      fixedUnrest && fee !== null ? fee : maxUpkeep
+    );
+    return JSON.stringify([
       s.currentSceneId,
       s.currentSegmentIndex,
       [...live.get(s.currentSceneId)!]
@@ -141,9 +166,9 @@ export function explorationKey(story: Story) {
         resources.get(s.currentSceneId)!.has('points')
           ? s.campaign.politicalPoints === null
             ? null
-            : Math.min(s.campaign.politicalPoints, debitBounds.get(s.currentSceneId)!)
+            : Math.min(s.campaign.politicalPoints, remainingDebit)
           : null,
-        resources.get(s.currentSceneId)!.has('unrest') ? s.campaign.unrest : null,
+        reads.has('unrest') ? (fixedUnrest ? fee : s.campaign.unrest) : null,
         s.campaign.sealed,
         s.campaign.upkeep
           .filter(
@@ -157,4 +182,5 @@ export function explorationKey(story: Story) {
         reachable.get(s.currentSceneId)!.has(e.slice(0, e.lastIndexOf(':')))
       ),
     ]);
+  };
 }

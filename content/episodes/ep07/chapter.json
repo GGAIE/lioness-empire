@@ -51201,8 +51201,10 @@
         "title": "第七章完 · 留下來的帳",
         "scope": "CHAPTER",
         "nextChapterId": "EP08",
-        "pendingLabel": "第八章〈兩個繼承人〉· 敬請期待",
-        "policy": "NO_SCORING"
+        "policy": "NO_SCORING",
+        "nextSceneId": "EP08_ACT01_SC01_S",
+        "continueLabel": "進入第八章",
+        "nextLabel": "第八章〈兩個繼承人〉"
       }
     },
     {
@@ -54491,8 +54493,10 @@
         "title": "第七章完 · 留下來的帳",
         "scope": "CHAPTER",
         "nextChapterId": "EP08",
-        "pendingLabel": "第八章〈兩個繼承人〉· 敬請期待",
-        "policy": "NO_SCORING"
+        "policy": "NO_SCORING",
+        "nextSceneId": "EP08_ACT01_SC01_W",
+        "continueLabel": "進入第八章",
+        "nextLabel": "第八章〈兩個繼承人〉"
       }
     }
   ]

@@ -51174,7 +51174,9 @@
         "nextChapterId": "EP08",
         "policy": "NO_SCORING",
         "scope": "CHAPTER",
-        "pendingLabel": "第八章〈兩個繼承人〉· 敬請期待"
+        "nextSceneId": "EP08_ACT01_SC01_S",
+        "nextLabel": "第八章〈兩個繼承人〉",
+        "continueLabel": "進入第八章"
       },
       "directions": [],
       "source": "sources/ep07/act05/sacred/EP07_ACT05_Sacred_Full_Script_v1.1.md",
@@ -54348,7 +54350,9 @@
         "nextChapterId": "EP08",
         "policy": "NO_SCORING",
         "scope": "CHAPTER",
-        "pendingLabel": "第八章〈兩個繼承人〉· 敬請期待"
+        "nextSceneId": "EP08_ACT01_SC01_W",
+        "nextLabel": "第八章〈兩個繼承人〉",
+        "continueLabel": "進入第八章"
       },
       "directions": [],
       "source": "sources/ep07/act05/world/01_Full_Script_SC01-SC05.md",

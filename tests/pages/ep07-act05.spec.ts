@@ -6,7 +6,7 @@ import { importPlayerState } from '../helpers/import-player-state';
 test('continues both fourth-act saves and displays the new release entry', async ({ page }) => {
   const story = await loadReaderContent();
   await page.goto('/');
-  await page.getByRole('button', { name: /更新日誌 OLIVIA2026\.11\.11/ }).click();
+  await page.getByRole('button', { name: /更新日誌 OLIVIA2026\.11\.14/ }).click();
   await expect(page.getByRole('dialog')).toContainText('第七章第五幕');
   await expect(page.getByRole('dialog')).toContainText('60 張 CG');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();

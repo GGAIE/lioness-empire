@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.19.0-ep07-complete.reader-v1",
+  "version": "0.21.0-ep08-act02.reader-v1",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -69,7 +69,9 @@
     {
       "id": "EP08",
       "title": "兩個繼承人",
-      "status": "NOT_YET_AVAILABLE"
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep08/chapter.json",
+      "entry": "EP08_ACT01_SC01_S"
     },
     {
       "id": "EP09",
@@ -872,6 +874,62 @@
     "EP07_W5_AYLA_RECORDS_CROSSCHECKED": {
       "initial": false,
       "description": "第七章第三幕：路線獨立的證據、進度與一次性結算。"
+    },
+    "EP08_SACRED_M01_SELF_NOMINATION": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_M01_ROYAL_REVIEW": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_M01_CHURCH_COORDINATION": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_M02_URGENT_WITH_CURRENT": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_M02_MIN_REP_FIRST": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_M02_CHURCH_TRANSITION": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_CHURCH_ASKS_MORE": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_CHURCH_DOUBLE_DEMAND": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_NEW_HALL_OPENED": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_PARLIAMENT_EXPANDED_50": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_HOLYLIGHT_ONE_SEAT": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_REPRESENTATION_SOURCES_DECLARED": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_NOMINATIONS_INCOMPLETE": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_SACRED_THEOCRACY_CASE_ACCEPTED": {
+      "initial": false,
+      "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
     }
   },
   "migrations": {

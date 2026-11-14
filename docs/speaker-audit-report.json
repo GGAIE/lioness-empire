@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 7126,
-    "thoughts": 70,
-    "narration": 2865,
+    "dialogue": 7640,
+    "thoughts": 72,
+    "narration": 3134,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -209,6 +209,30 @@
       "sceneId": "EP07_ACT05_SC05_W",
       "segmentId": "L001",
       "text": "黃昏的書房裡，幾份新報告與舊案卷堆疊成兩座不太穩的紙塔。奧莉維亞把「第六團善後」放到一側，又把「路恩流亡者」擺進追蹤欄。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT01_SC04_S_C04_COMMON",
+      "segmentId": "L015",
+      "text": "而那句「比較少走這條路」，比任何冠冕堂皇的責難都更難應付。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT02_SC02_S",
+      "segmentId": "L006",
+      "text": "撒拉非尼亞也在場。她今天的態度出奇地平靜，彷彿那個「一席」並沒有在她面前留下任何刺。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT02_SC04_S_M02_A",
+      "segmentId": "L004",
+      "text": "芬利則安靜地把「僅限緊急事項」幾個字重重畫在會議摘要邊上。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT02_SC05_S",
+      "segmentId": "L008",
+      "text": "它牽涉錢款、跨境管轄、王國官署、宗教見證，還有誰有資格在這個國家說出「由誰處理」四個字。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]
