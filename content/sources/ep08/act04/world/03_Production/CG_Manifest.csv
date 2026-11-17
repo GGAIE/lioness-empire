@@ -1,0 +1,35 @@
+﻿cg_id,scene,title,condition,relative_prompt,target,image_generated
+W08A04-01,SC01,霜覆綠野,ALWAYS,02_CG_Prompts/Individual/W08A04-01.md,16:9 1920x1080+,False
+W08A04-02,SC01,王都收到西線急報,ALWAYS,02_CG_Prompts/Individual/W08A04-02.md,16:9 1920x1080+,False
+W08A04-03,SC01,等待封口的信,ALWAYS,02_CG_Prompts/Individual/W08A04-03.md,16:9 1920x1080+,False
+W08A04-04,SC01,赴西線的學院車隊,ALWAYS,02_CG_Prompts/Individual/W08A04-04.md,16:9 1920x1080+,False
+W08A04-05,SC02,岔路與領地徽記,ALWAYS,02_CG_Prompts/Individual/W08A04-05.md,16:9 1920x1080+,False
+W08A04-06A,SC02,堡邸的迎接,N02=VISIT_FIRST,02_CG_Prompts/Individual/W08A04-06A.md,16:9 1920x1080+,False
+W08A04-06B,SC02,直行的車輪,N02=GO_STATION,02_CG_Prompts/Individual/W08A04-06B.md,16:9 1920x1080+,False
+W08A04-07A,SC02,滿桌的領地地圖與熱湯,NOTIFIED=true,02_CG_Prompts/Individual/W08A04-07A.md,16:9 1920x1080+,False
+W08A04-07B,SC02,撤走的補給車,NOTIFIED=false,02_CG_Prompts/Individual/W08A04-07B.md,16:9 1920x1080+,False
+W08A04-08,SC02,霜線以外仍有人生活,ALWAYS,02_CG_Prompts/Individual/W08A04-08.md,16:9 1920x1080+,False
+W08A04-09,SC03,霜下的第一份讀值,ALWAYS,02_CG_Prompts/Individual/W08A04-09.md,16:9 1920x1080+,False
+W08A04-10,SC03,艾莉的研究,ALWAYS,02_CG_Prompts/Individual/W08A04-10.md,16:9 1920x1080+,False
+W08A04-11,SC03,尚未閉合的契約迴路,ALWAYS,02_CG_Prompts/Individual/W08A04-11.md,16:9 1920x1080+,False
+W08A04-12A,SC03,預先清出的研究走廊,NOTIFIED=true & P=P01A,02_CG_Prompts/Individual/W08A04-12A.md,16:9 1920x1080+,False
+W08A04-12B,SC03,重新移動的器材,NOTIFIED=true & P=P01B,02_CG_Prompts/Individual/W08A04-12B.md,16:9 1920x1080+,False
+W08A04-12C,SC03,正式付款後的通行,NOTIFIED=false & P=P01A,02_CG_Prompts/Individual/W08A04-12C.md,16:9 1920x1080+,False
+W08A04-12D,SC03,堆積的通行帳單,NOTIFIED=false & P=P01B,02_CG_Prompts/Individual/W08A04-12D.md,16:9 1920x1080+,False
+W08A04-13,SC03,第一道冰環退去,ALWAYS,02_CG_Prompts/Individual/W08A04-13.md,16:9 1920x1080+,False
+W08A04-14,SC04,越界而來的白色,ALWAYS,02_CG_Prompts/Individual/W08A04-14.md,16:9 1920x1080+,False
+W08A04-15,SC04,反制術式的最後校驗,ALWAYS,02_CG_Prompts/Individual/W08A04-15.md,16:9 1920x1080+,False
+W08A04-16A,SC04,第三團與學院的共同防線,NOTIFIED=true & P=P02A,02_CG_Prompts/Individual/W08A04-16A.md,16:9 1920x1080+,False
+W08A04-16B,SC04,臨時變更的防線,NOTIFIED=true & P=P02B,02_CG_Prompts/Individual/W08A04-16B.md,16:9 1920x1080+,False
+W08A04-16C,SC04,額外護衛的協議,NOTIFIED=false & P=P02A,02_CG_Prompts/Individual/W08A04-16C.md,16:9 1920x1080+,False
+W08A04-16D,SC04,被駁回的額外徵用,NOTIFIED=false & P=P02B,02_CG_Prompts/Individual/W08A04-16D.md,16:9 1920x1080+,False
+W08A04-17,SC04,無形巨龍的門檻,ALWAYS,02_CG_Prompts/Individual/W08A04-17.md,16:9 1920x1080+,False
+W08A04-18,SC04,切斷尚未成立的連結,ALWAYS,02_CG_Prompts/Individual/W08A04-18.md,16:9 1920x1080+,False
+W08A04-19,SC04,未曾現世的寒冰之眼,ALWAYS,02_CG_Prompts/Individual/W08A04-19.md,16:9 1920x1080+,False
+W08A04-20,SC04,學者們終於鬆一口氣,ALWAYS,02_CG_Prompts/Individual/W08A04-20.md,16:9 1920x1080+,False
+W08A04-21,SC05,霜退去的河谷,ALWAYS,02_CG_Prompts/Individual/W08A04-21.md,16:9 1920x1080+,False
+W08A04-22A,SC05,堡邸的慶功早餐,NOTIFIED=true,02_CG_Prompts/Individual/W08A04-22A.md,16:9 1920x1080+,False
+W08A04-22B,SC05,茶杯旁的整疊帳單,NOTIFIED=false,02_CG_Prompts/Individual/W08A04-22B.md,16:9 1920x1080+,False
+W08A04-23,SC05,細雪化為水,ALWAYS,02_CG_Prompts/Individual/W08A04-23.md,16:9 1920x1080+,False
+W08A04-24,SC05,離開第三騎士團領地,ALWAYS,02_CG_Prompts/Individual/W08A04-24.md,16:9 1920x1080+,False
+W08A04-25,SC05,東北塔的研究回報,ALWAYS,02_CG_Prompts/Individual/W08A04-25.md,16:9 1920x1080+,False

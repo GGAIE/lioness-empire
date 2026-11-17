@@ -1,0 +1,75 @@
+{
+  "package": "Lioness_Empire_EP08_ACT04_Sacred_Full_Production_v1.0",
+  "entries": [
+    {
+      "path": "01_Full_Script/EP08_ACT04_Sacred_Full_Script_v1.0.md",
+      "bytes": 38019,
+      "sha256": "7c050c8db76e6e9a6b088d53a4104c9229adfa5b68ef1e23a92d62d25a9b073e"
+    },
+    {
+      "path": "02_CG_Prompts/EP08_ACT04_Sacred_36_CG_Prompts_v1.0.md",
+      "bytes": 28593,
+      "sha256": "37fe92987663517816152b4309469902d6e8a64da61ceaa45b870a9e7fd78a56"
+    },
+    {
+      "path": "03_Character_References/Adin_Glen_Character_Spec.md",
+      "bytes": 828,
+      "sha256": "0d9336343c79dce8fa8b114f38125b2dc509952cfb172a84fa11f91b1337072b"
+    },
+    {
+      "path": "03_Character_References/Adin_Glen_Three_View.png",
+      "bytes": 1756308,
+      "sha256": "ba228e9fdd7e4e4e8e5b65eae0efd177b39a20194728301a36e40b967e4776c6"
+    },
+    {
+      "path": "03_Character_References/Alicia_Design_Proposal_and_Three_View_Prompt.md",
+      "bytes": 2407,
+      "sha256": "9e8ab4254a08f4e6ed6bdce731d0b3a70585bf8d82fcffde82e71a552e3063d6"
+    },
+    {
+      "path": "04_Production/All_81_Choice_Combinations.json",
+      "bytes": 12808,
+      "sha256": "e823e7fc20f2f29e5c5297667ee102a2a725b1dae6ac69089b5770f738b138e0"
+    },
+    {
+      "path": "04_Production/Choice_Rules_and_Resolver.md",
+      "bytes": 2721,
+      "sha256": "e5c7f430e55d475deb0b371ccb39adb7741adb48ab6ff99341032b4d95275edd"
+    },
+    {
+      "path": "04_Production/QA_Checklist.txt",
+      "bytes": 386,
+      "sha256": "fb7e0e2cbb65f6523824a9bf7646e1d0f04400d1d1a9fc06199bca993a8ffb22"
+    },
+    {
+      "path": "04_Production/Scene_CG_and_Version_Map.md",
+      "bytes": 2241,
+      "sha256": "0cdb40af9a7eddbd54b8e62ee3c5c86ceeb3e32e84b1c8179bd90c176869a1b6"
+    },
+    {
+      "path": "05_Source_References/EP08_Flags_and_Open_Issues_v1.0.md",
+      "bytes": 4992,
+      "sha256": "304f1962148faefb5fa061ae85b1b870aacd88e58905dda02fdde06b55358785"
+    },
+    {
+      "path": "05_Source_References/EP08_Production_Startup_v1.0.md",
+      "bytes": 14841,
+      "sha256": "ebc67afba758701c247fedd3bc867f32da74f6ac1ca1b3d6c5cfc5e401200ed9"
+    },
+    {
+      "path": "05_Source_References/EP08_Scene_Map_v1.0.md",
+      "bytes": 3607,
+      "sha256": "b7eb458ed2047350b832fda47f5ec0b320212f16f7d58daed9ef683b32ee7907"
+    },
+    {
+      "path": "05_Source_References/README.md",
+      "bytes": 797,
+      "sha256": "4ca96ed47d24d8d74f0e3376f5f53f7a6f0163b3bea61724618e1535385b9492"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2063,
+      "sha256": "93ff92bd7b8c332d0e1a4fa0c6cf29db3168c0b25fb3fa5f95a988bfb7801bda"
+    }
+  ]
+}

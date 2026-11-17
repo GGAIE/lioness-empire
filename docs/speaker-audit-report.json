@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 7934,
+    "dialogue": 8371,
     "thoughts": 72,
-    "narration": 3431,
+    "narration": 3644,
     "fixed": 137
   },
   "retainedQuotes": [

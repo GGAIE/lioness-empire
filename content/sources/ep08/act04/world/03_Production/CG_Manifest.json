@@ -1,0 +1,308 @@
+[
+  {
+    "cg_id": "W08A04-01",
+    "scene": "SC01",
+    "title": "霜覆綠野",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-01.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-02",
+    "scene": "SC01",
+    "title": "王都收到西線急報",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-02.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-03",
+    "scene": "SC01",
+    "title": "等待封口的信",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-03.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-04",
+    "scene": "SC01",
+    "title": "赴西線的學院車隊",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-04.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-05",
+    "scene": "SC02",
+    "title": "岔路與領地徽記",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-05.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-06A",
+    "scene": "SC02",
+    "title": "堡邸的迎接",
+    "condition": "N02=VISIT_FIRST",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-06A.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-06B",
+    "scene": "SC02",
+    "title": "直行的車輪",
+    "condition": "N02=GO_STATION",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-06B.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-07A",
+    "scene": "SC02",
+    "title": "滿桌的領地地圖與熱湯",
+    "condition": "NOTIFIED=true",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-07A.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-07B",
+    "scene": "SC02",
+    "title": "撤走的補給車",
+    "condition": "NOTIFIED=false",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-07B.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-08",
+    "scene": "SC02",
+    "title": "霜線以外仍有人生活",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-08.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-09",
+    "scene": "SC03",
+    "title": "霜下的第一份讀值",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-09.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-10",
+    "scene": "SC03",
+    "title": "艾莉的研究",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-10.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-11",
+    "scene": "SC03",
+    "title": "尚未閉合的契約迴路",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-11.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-12A",
+    "scene": "SC03",
+    "title": "預先清出的研究走廊",
+    "condition": "NOTIFIED=true & P=P01A",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-12A.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-12B",
+    "scene": "SC03",
+    "title": "重新移動的器材",
+    "condition": "NOTIFIED=true & P=P01B",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-12B.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-12C",
+    "scene": "SC03",
+    "title": "正式付款後的通行",
+    "condition": "NOTIFIED=false & P=P01A",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-12C.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-12D",
+    "scene": "SC03",
+    "title": "堆積的通行帳單",
+    "condition": "NOTIFIED=false & P=P01B",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-12D.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-13",
+    "scene": "SC03",
+    "title": "第一道冰環退去",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-13.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-14",
+    "scene": "SC04",
+    "title": "越界而來的白色",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-14.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-15",
+    "scene": "SC04",
+    "title": "反制術式的最後校驗",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-15.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-16A",
+    "scene": "SC04",
+    "title": "第三團與學院的共同防線",
+    "condition": "NOTIFIED=true & P=P02A",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-16A.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-16B",
+    "scene": "SC04",
+    "title": "臨時變更的防線",
+    "condition": "NOTIFIED=true & P=P02B",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-16B.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-16C",
+    "scene": "SC04",
+    "title": "額外護衛的協議",
+    "condition": "NOTIFIED=false & P=P02A",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-16C.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-16D",
+    "scene": "SC04",
+    "title": "被駁回的額外徵用",
+    "condition": "NOTIFIED=false & P=P02B",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-16D.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-17",
+    "scene": "SC04",
+    "title": "無形巨龍的門檻",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-17.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-18",
+    "scene": "SC04",
+    "title": "切斷尚未成立的連結",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-18.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-19",
+    "scene": "SC04",
+    "title": "未曾現世的寒冰之眼",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-19.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-20",
+    "scene": "SC04",
+    "title": "學者們終於鬆一口氣",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-20.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-21",
+    "scene": "SC05",
+    "title": "霜退去的河谷",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-21.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-22A",
+    "scene": "SC05",
+    "title": "堡邸的慶功早餐",
+    "condition": "NOTIFIED=true",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-22A.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-22B",
+    "scene": "SC05",
+    "title": "茶杯旁的整疊帳單",
+    "condition": "NOTIFIED=false",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-22B.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-23",
+    "scene": "SC05",
+    "title": "細雪化為水",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-23.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-24",
+    "scene": "SC05",
+    "title": "離開第三騎士團領地",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-24.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  },
+  {
+    "cg_id": "W08A04-25",
+    "scene": "SC05",
+    "title": "東北塔的研究回報",
+    "condition": "ALWAYS",
+    "relative_prompt": "02_CG_Prompts/Individual/W08A04-25.md",
+    "target": "16:9 1920x1080+",
+    "image_generated": false
+  }
+]

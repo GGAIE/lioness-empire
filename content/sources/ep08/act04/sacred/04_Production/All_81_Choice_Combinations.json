@@ -1,0 +1,573 @@
+{
+  "correct_answers": "ABAA",
+  "combination_count": 81,
+  "cases": [
+    {
+      "choices": "AAAA",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "AAAB",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "AAAC",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "AABA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "AABB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "AABC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "AACA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "AACB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "AACC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "ABAA",
+      "successful_choices": 4,
+      "result": "BIG_SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG31"
+    },
+    {
+      "choices": "ABAB",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "ABAC",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "ABBA",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "ABBB",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ABBC",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ABCA",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "ABCB",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ABCC",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ACAA",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "ACAB",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ACAC",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ACBA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ACBB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "ACBC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "ACCA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "ACCB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "ACCC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BAAA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "BAAB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BAAC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BABA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BABB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BABC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BACA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BACB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BACC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BBAA",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "BBAB",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "BBAC",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "BBBA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "BBBB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BBBC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BBCA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "BBCB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BBCC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCAA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "BCAB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCAC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCBA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCBB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCBC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCCA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCCB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "BCCC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CAAA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "CAAB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CAAC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CABA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CABB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CABC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CACA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CACB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CACC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CBAA",
+      "successful_choices": 3,
+      "result": "SUCCESS",
+      "shalia_clear_delta": 1,
+      "ending_cg": "CG32"
+    },
+    {
+      "choices": "CBAB",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "CBAC",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "CBBA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "CBBB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CBBC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CBCA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "CBCB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CBCC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCAA",
+      "successful_choices": 2,
+      "result": "SMALL_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG33"
+    },
+    {
+      "choices": "CCAB",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCAC",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCBA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCBB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCBC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCCA",
+      "successful_choices": 1,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCCB",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    },
+    {
+      "choices": "CCCC",
+      "successful_choices": 0,
+      "result": "BIG_FAILURE",
+      "shalia_clear_delta": 0,
+      "ending_cg": "CG34"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "episode": "EP08",
+  "route": "WORLD",
+  "act": "ACT04",
+  "title": "未降臨的寒冰",
+  "status": "DRAFT",
+  "scene_choice_order": [
+    "SC01 N01",
+    "SC02 N02",
+    "SC03 P01",
+    "SC04 P02",
+    "SC05 SETTLEMENT"
+  ],
+  "choice_owner": "OLIVIA",
+  "choice_definitions": [
+    {
+      "id": "N01",
+      "scene": "SC01",
+      "type": "notice",
+      "options": [
+        {
+          "id": "A",
+          "text": "先通知莎莉雅，請她知道王室與學院要如何介入。",
+          "letter_sent": true
+        },
+        {
+          "id": "B",
+          "text": "我們先出發，等抵達後再安排。",
+          "letter_sent": false
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "scene": "SC02",
+      "type": "notice",
+      "options": [
+        {
+          "id": "A",
+          "text": "先去見莎莉雅，說明我們要做的事。",
+          "visit_first": true
+        },
+        {
+          "id": "B",
+          "text": "先往舊哨站，現場需要我們。",
+          "visit_first": false
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "scene": "SC03",
+      "type": "political",
+      "options_by_notice": {
+        "notified": [
+          {
+            "id": "A",
+            "text": "依莎莉雅準備的路線與設備表分工，把研究隊集中在最合適的位置。",
+            "good": true
+          },
+          {
+            "id": "B",
+            "text": "再調整一次觀測配置，讓王室按自己熟悉的方式統整。",
+            "good": false
+          }
+        ],
+        "not_notified": [
+          {
+            "id": "A",
+            "text": "逐項確認通行、倉庫與護衛費用，讓研究隊先取得穩定使用權。",
+            "good": true
+          },
+          {
+            "id": "B",
+            "text": "以王室急務要求先借用資源，之後再談對價。",
+            "good": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02",
+      "scene": "SC04",
+      "type": "political",
+      "options_by_notice": {
+        "notified": [
+          {
+            "id": "A",
+            "text": "照莎莉雅與學院共同制定的分工執行，第三團守住外圍，研究隊專注術式。",
+            "good": true
+          },
+          {
+            "id": "B",
+            "text": "讓王室改用同一套現場命令，重新安排護衛與車隊。",
+            "good": false
+          }
+        ],
+        "not_notified": [
+          {
+            "id": "A",
+            "text": "接受第三團原有調度範圍，王室另行支付增加的護衛與轉運支出。",
+            "good": true
+          },
+          {
+            "id": "B",
+            "text": "要求第三團立即以王室優先命令投入額外人力，費用留待事後。",
+            "good": false
+          }
+        ]
+      }
+    }
+  ],
+  "notice_formula": "NOTIFIED = LETTER_SENT || VISIT_FIRST",
+  "notice_is_valid_before_interference": true,
+  "late_notice_repairs_event": false,
+  "score_system": {
+    "method": "ONE_TIME_AT_SC05",
+    "do_not_double_charge_story_fees": true,
+    "thresholds": {
+      "notified": {
+        "base_political": 0,
+        "base_unrest": -10,
+        "per_good_political": 10,
+        "per_good_unrest": -10
+      },
+      "not_notified": {
+        "base_political": -50,
+        "base_unrest": 50,
+        "per_good_political": 15,
+        "per_good_unrest": -15
+      }
+    },
+    "unrest_clamp": [
+      0,
+      100
+    ],
+    "political_insufficient_handling": "UNRESOLVED_USE_GLOBAL_RULES"
+  },
+  "outcome_labels": {
+    "notified_good2": "大成功",
+    "notified_good1": "小成功",
+    "notified_good0": "小成功・最低",
+    "not_notified_good2": "小失敗・補救充分",
+    "not_notified_good1": "小失敗",
+    "not_notified_good0": "大失敗"
+  },
+  "flavor_choice_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12"
+  ],
+  "flavor_choice_options": 3,
+  "flavor_effects": {
+    "political_delta": 0,
+    "unrest_delta": 0,
+    "clear_delta": 0,
+    "route_delta": 0,
+    "relationship_delta": 0
+  },
+  "fixed_result_flags": {
+    "PROPOSED_EP08_ICE_EYE_MANIFESTED": false,
+    "PROPOSED_EP08_ELIA_RESEARCH_USED": true,
+    "PROPOSED_EP08_ACADEMY_CREDIBILITY_PARTIAL": true,
+    "PROPOSED_EP08_WORLD_SUMMONING_INTERRUPTED": true
+  },
+  "event_flag": "PROPOSED_EP08_WORLD_SHALIA_EVENT_COMPLETE",
+  "event_flag_formula": "LETTER_SENT || VISIT_FIRST",
+  "role_event_clear": "DO_NOT_AUTO_INCREMENT_EXISTING_S3/CLEAR; reconcile with previously approved event event-count definitions",
+  "no_route_lock_until_EP09": true,
+  "unknowns": [
+    "summoner and motives",
+    "exact ritual site and history",
+    "formal CLEAR score link with prior S3 lower half",
+    "EP07 final status references",
+    "political insufficient-point handling"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "reviewDateTaipei": "2026-11-17",
+  "scope": "EP08 ACT04 integration; original supplied scripts remain unchanged",
+  "sacredResourceAuthorization": "User delegated exact resource values in this conversation; proposed values were reported before implementation.",
+  "sacredSettlement": {
+    "BIG_SUCCESS": { "political": 20, "unrest": 10, "shaliaClear": 1 },
+    "SUCCESS": { "political": 10, "unrest": 5, "shaliaClear": 1 },
+    "SMALL_FAILURE": { "political": -10, "unrest": 5, "shaliaClear": 0 },
+    "BIG_FAILURE": { "political": -20, "unrest": 10, "shaliaClear": 0 }
+  },
+  "sacredRelief": "Dedicated relief is not diverted to the crown; political gains represent freed administrative resources. Shalia progress is granted once for three or four correct answers. No historical S3 flag is overwritten.",
+  "worldSettlement": "The supplied six-tier political/unrest matrix is applied once at SC05. No intermediate story fee is charged again.",
+  "worldShaliaClear": "Record this act's COMPLETE/FAILED event; the source explicitly defers its mapping to historical S3/CLEAR, so no automatic counter increment or historical flag overwrite.",
+  "affordability": "Global insufficient-point rule retained. Preview checks reserve the minimum unavoidable deferred debit, without charging it; later decisions cannot commit an unaffordable result.",
+  "worldlines": "Sacred: manifested and resealed by Alyssia. World: summoning interrupted before manifestation. Shared chapter storage does not combine these outcomes.",
+  "readingEdition": "Production metadata and branch instructions are omitted. Conditional stage directions become route-aware narration, CG variants or branching nodes; failure relief dialogue does not claim complete assistance. Original screenplay retained for traceability.",
+  "pendingNextActTitles": { "SACRED": "再赴聖安奴加斯", "WORLD": "東北塔的片刻" }
+}

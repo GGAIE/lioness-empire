@@ -167,13 +167,37 @@ export function independentChapters(story: Story): Set<string> {
 }
 
 export function independentEntryStates(story: Story, chapter: string) {
-  // Every debit is committed at most once in the certified acyclic chapter.
-  // Above their sum, all starting balances are affordable-equivalent; exact
-  // balances below it are seeded, including both sides of every cost boundary.
-  const budget = Object.values(story.scenes)
-    .filter((s) => s.chapter === chapter)
-    .flatMap(effectsOf)
-    .reduce((total, e) => total + (e.type === 'points' ? Math.max(0, -e.delta) : 0), 0);
+  // Certified chapters are acyclic. Follow the most expensive possible path,
+  // rather than adding the costs of mutually exclusive scenes. Gains are
+  // ignored and all conditional debits/previews are included conservatively.
+  const memo = new Map<string, number>();
+  const debit = (effects: Effect[]) =>
+    effects.reduce((n, e) => n + (e.type === 'points' ? Math.max(0, -e.delta) : 0), 0);
+  const bound = (id: string): number => {
+    if (memo.has(id)) return memo.get(id)!;
+    const s = story.scenes[id];
+    if (!s || s.chapter !== chapter) return 0;
+    const own =
+      debit(s.completionEffects?.effects ?? []) +
+      debit((s.settlements ?? []).flatMap((p) => p.effects)) +
+      Math.max(
+        0,
+        ...s.choices.map(
+          (c) => debit(c.effects) + debit((c.previewEffects ?? []).flatMap((p) => p.effects))
+        )
+      );
+    const next = [
+      s.next,
+      s.conditionalNext?.next,
+      s.completion?.nextSceneId,
+      ...s.choices.map((c) => c.next),
+    ].filter((id): id is string => !!id);
+    const total = own + Math.max(0, ...next.map(bound));
+    memo.set(id, total);
+    return total;
+  };
+  // Seed every exact low balance up to this bound, including affordability edges.
+  const budget = Math.max(0, ...independentEntryScenes(story, chapter).map((s) => bound(s.id)));
   return independentEntryScenes(story, chapter).flatMap((scene) => {
     const condition = scene.availableWhen;
     const route =

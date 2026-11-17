@@ -13,6 +13,80 @@ beforeAll(async () => {
   story = await loadReaderContent();
 });
 
+it('seeds up to the maximum acyclic debit path without adding exclusive branches together', () => {
+  const opening = story.scenes.EP08_ACT01_SC01_S;
+  const root: Scene = {
+    ...opening,
+    id: 'BUDGET_ROOT',
+    next: undefined,
+    choices: [
+      {
+        id: 'A',
+        text: 'A',
+        next: 'BUDGET_A',
+        effects: [{ type: 'points', delta: -5 }],
+        previewEffects: [
+          {
+            when: { path: 'politicalRoute', op: 'eq', value: 'SACRED' },
+            effects: [{ type: 'points', delta: -11 }],
+          },
+        ],
+      },
+      {
+        id: 'B',
+        text: 'B',
+        next: 'BUDGET_B',
+        effects: [{ type: 'points', delta: -7 }],
+        previewEffects: [
+          {
+            when: { path: 'politicalRoute', op: 'eq', value: 'SACRED' },
+            effects: [{ type: 'points', delta: -13 }],
+          },
+        ],
+      },
+    ],
+  };
+  const branch = (id: string, cost: number): Scene => ({
+    ...opening,
+    id,
+    kind: 'end',
+    choices: [],
+    next: undefined,
+    completionEffects: {
+      when: { path: 'politicalRoute', op: 'eq', value: 'SACRED' },
+      effects: [{ type: 'points', delta: -cost }],
+    },
+  });
+  const incoming: Scene = {
+    ...opening,
+    id: 'BEFORE_BUDGET',
+    chapter: 'EP07',
+    choices: [],
+    next: undefined,
+    completion: {
+      title: 'Previous act',
+      nextChapterId: 'EP08',
+      nextSceneId: root.id,
+      policy: 'NO_SCORING',
+      scope: 'ACT',
+    },
+  };
+  const fixture = {
+    ...story,
+    scenes: {
+      [incoming.id]: incoming,
+      [root.id]: root,
+      BUDGET_A: branch('BUDGET_A', 20),
+      BUDGET_B: branch('BUDGET_B', 30),
+    },
+  };
+  const seeds = independentEntryStates(fixture, 'EP08');
+  expect(new Set(seeds.map((s) => s.campaign!.politicalPoints))).toEqual(
+    new Set(Array.from({ length: 51 }, (_, i) => i))
+  );
+  expect(new Set(seeds.map((s) => s.campaign!.unrest)).size).toBe(101);
+});
+
 it('checks every unrest value and both affordability sides for each independent worldline entry', () => {
   const chapters = independentChapters(story);
   expect([...chapters]).toEqual(['EP08']);

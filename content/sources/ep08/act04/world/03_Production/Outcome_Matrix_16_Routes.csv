@@ -1,0 +1,17 @@
+﻿letter_sent,visit_first,notice_valid,P01,P02,good_count,outcome,political_delta,unrest_raw_delta,shalia_event,ice_eye_manifested
+False,False,False,B,B,0,大失敗,-50,50,FAILED,False
+False,False,False,B,A,1,小失敗,-35,35,FAILED,False
+False,False,False,A,B,1,小失敗,-35,35,FAILED,False
+False,False,False,A,A,2,小失敗・補救充分,-20,20,FAILED,False
+False,True,True,B,B,0,小成功・最低,0,-10,COMPLETE,False
+False,True,True,B,A,1,小成功,10,-20,COMPLETE,False
+False,True,True,A,B,1,小成功,10,-20,COMPLETE,False
+False,True,True,A,A,2,大成功,20,-30,COMPLETE,False
+True,False,True,B,B,0,小成功・最低,0,-10,COMPLETE,False
+True,False,True,B,A,1,小成功,10,-20,COMPLETE,False
+True,False,True,A,B,1,小成功,10,-20,COMPLETE,False
+True,False,True,A,A,2,大成功,20,-30,COMPLETE,False
+True,True,True,B,B,0,小成功・最低,0,-10,COMPLETE,False
+True,True,True,B,A,1,小成功,10,-20,COMPLETE,False
+True,True,True,A,B,1,小成功,10,-20,COMPLETE,False
+True,True,True,A,A,2,大成功,20,-30,COMPLETE,False

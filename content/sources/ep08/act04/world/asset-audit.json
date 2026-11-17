@@ -1,0 +1,350 @@
+{
+  "archive": "EP08_ACT04_World_34_CG_Corrected_v1.1.zip",
+  "productionArchive": "Lioness_Empire_EP08_ACT04_World_Full_Script_CG_Prompts_v1.0.zip",
+  "productionSha256": "a3511aa8095cd1a6bcb3bcccadf505d3a5d40776e4ed8a39841d8a4c0cfc8f62",
+  "script": "01_Script/Full_Script.md",
+  "scriptSha256": "4f16d98cf80f9d5a87af5facc8dd208175a2f931932d1fceaa760e444272e16a",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP08-ACT04-WORLD-CG01",
+      "path": "assets/cg/ep08/act04/world/cg01.png",
+      "sha256": "13af833a4b5f92e76eb81b3e601ce2654bc27850786f3dd799b4c8d317770d9a",
+      "member": "CG/W08A04-01.png",
+      "crc": 2545094682,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "02",
+      "id": "EP08-ACT04-WORLD-CG02",
+      "path": "assets/cg/ep08/act04/world/cg02.png",
+      "sha256": "4914aaa330333d547919f90b75bfc4565e24e5d7a023d66b44acd2dd0820a24f",
+      "member": "CG/W08A04-02.png",
+      "crc": 1466062936,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "03",
+      "id": "EP08-ACT04-WORLD-CG03",
+      "path": "assets/cg/ep08/act04/world/cg03.png",
+      "sha256": "85b136176ecd4a09796bee586e484263a1609b4696d7792dd84ef015a7c48514",
+      "member": "CG/W08A04-03.png",
+      "crc": 4095068225,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "04",
+      "id": "EP08-ACT04-WORLD-CG04",
+      "path": "assets/cg/ep08/act04/world/cg04.png",
+      "sha256": "337cf06f3879cf935375682cf29e1660fe12bd423bc5c62afebd18d105b0ae72",
+      "member": "CG/W08A04-04.png",
+      "crc": 3510815318,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "05",
+      "id": "EP08-ACT04-WORLD-CG05",
+      "path": "assets/cg/ep08/act04/world/cg05.png",
+      "sha256": "f6bb670bd3ae48d517475647d0349e7441ccc99ede8d28cbeb1357ea92c2754a",
+      "member": "CG/W08A04-05.png",
+      "crc": 2548389596,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "06A",
+      "id": "EP08-ACT04-WORLD-CG06A",
+      "path": "assets/cg/ep08/act04/world/cg06A.png",
+      "sha256": "92f1724f7adc1017bc571446932e8db1ca9761d6f912d3bdcb1dfc8d33d3bc15",
+      "member": "CG/W08A04-06A.png",
+      "crc": 4201100851,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "06B",
+      "id": "EP08-ACT04-WORLD-CG06B",
+      "path": "assets/cg/ep08/act04/world/cg06B.png",
+      "sha256": "1903f9400daba75475e2dcb4ebecd0a6ba4087eac2c4b64d9b91edd6708bbe74",
+      "member": "CG/W08A04-06B.png",
+      "crc": 1459491079,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "07A",
+      "id": "EP08-ACT04-WORLD-CG07A",
+      "path": "assets/cg/ep08/act04/world/cg07A.png",
+      "sha256": "2449e94a4f22ce79363d901fe84c2766e1fec706980623e8fc678adc518a6c66",
+      "member": "CG/W08A04-07A.png",
+      "crc": 3927482775,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "07B",
+      "id": "EP08-ACT04-WORLD-CG07B",
+      "path": "assets/cg/ep08/act04/world/cg07B.png",
+      "sha256": "dfae3867c8644ff73017d1d572e2adfb3842cca4d5c3b98de4bbd96fcaf908b6",
+      "member": "CG/W08A04-07B.png",
+      "crc": 915874958,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "08",
+      "id": "EP08-ACT04-WORLD-CG08",
+      "path": "assets/cg/ep08/act04/world/cg08.png",
+      "sha256": "68587c381e0045f941844d2baf6a4b85a870c896f6edab428ae50f4a6a80fefd",
+      "member": "CG/W08A04-08.png",
+      "crc": 3364786217,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "09",
+      "id": "EP08-ACT04-WORLD-CG09",
+      "path": "assets/cg/ep08/act04/world/cg09.png",
+      "sha256": "4bbdb1f20ca9992fe11f4f997bcda22309cf4b66c2435093dc557436bc8629e0",
+      "member": "CG/W08A04-09.png",
+      "crc": 3526028526,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "10",
+      "id": "EP08-ACT04-WORLD-CG10",
+      "path": "assets/cg/ep08/act04/world/cg10.png",
+      "sha256": "e0bca64ee61d67065c719246255508681fa8d34201ffdd0b6dca190831bcebe9",
+      "member": "CG/W08A04-10.png",
+      "crc": 2161623264,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "11",
+      "id": "EP08-ACT04-WORLD-CG11",
+      "path": "assets/cg/ep08/act04/world/cg11.png",
+      "sha256": "7926593b113927bdaf31e1a65d5ae815502bd0a405138ea4287c725c4b89a293",
+      "member": "CG/W08A04-11.png",
+      "crc": 3523982500,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "12A",
+      "id": "EP08-ACT04-WORLD-CG12A",
+      "path": "assets/cg/ep08/act04/world/cg12A.png",
+      "sha256": "0e2d175780df210f72940029c5b72c8c0b01eef2bcc14c455a3453cd353eaeee",
+      "member": "CG/W08A04-12A.png",
+      "crc": 315971988,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "12B",
+      "id": "EP08-ACT04-WORLD-CG12B",
+      "path": "assets/cg/ep08/act04/world/cg12B.png",
+      "sha256": "d5493db05d303b04ef752e28a123b427fb966a6add7eadc5532f2b4faca9d282",
+      "member": "CG/W08A04-12B.png",
+      "crc": 2166014432,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "12C",
+      "id": "EP08-ACT04-WORLD-CG12C",
+      "path": "assets/cg/ep08/act04/world/cg12C.png",
+      "sha256": "b7dd9d67b920bb9be0935194e8f4e74a564690885567976cd646721fc5321fe4",
+      "member": "CG/W08A04-12C.png",
+      "crc": 2985953746,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "12D",
+      "id": "EP08-ACT04-WORLD-CG12D",
+      "path": "assets/cg/ep08/act04/world/cg12D.png",
+      "sha256": "c7903faed1c62afea778b6dafd4e3fba42a1673a949b4136d0ec509a254df44a",
+      "member": "CG/W08A04-12D.png",
+      "crc": 2941698471,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "13",
+      "id": "EP08-ACT04-WORLD-CG13",
+      "path": "assets/cg/ep08/act04/world/cg13.png",
+      "sha256": "cad4167170924cc2c27586503db70d12cd7c965dfbf92c90df9e78041e57412f",
+      "member": "CG/W08A04-13.png",
+      "crc": 1413021025,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "14",
+      "id": "EP08-ACT04-WORLD-CG14",
+      "path": "assets/cg/ep08/act04/world/cg14.png",
+      "sha256": "3d2edf5d33cae294d77131fab6300f593eb76c8bbddc4bd0df7d8cc6ed306245",
+      "member": "CG/W08A04-14.png",
+      "crc": 4202550056,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "15",
+      "id": "EP08-ACT04-WORLD-CG15",
+      "path": "assets/cg/ep08/act04/world/cg15.png",
+      "sha256": "a3df693eb4a7a5192826a47bf3b67d72a44e370190572758ac42640d6dc47df3",
+      "member": "CG/W08A04-15.png",
+      "crc": 647593234,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "16A",
+      "id": "EP08-ACT04-WORLD-CG16A",
+      "path": "assets/cg/ep08/act04/world/cg16A.png",
+      "sha256": "55793793e68b1fc689709ea3c3f9bf283dd6e78b6ccc2948ed9dbcf9c2dc43fe",
+      "member": "CG/W08A04-16A.png",
+      "crc": 2539378420,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "16B",
+      "id": "EP08-ACT04-WORLD-CG16B",
+      "path": "assets/cg/ep08/act04/world/cg16B.png",
+      "sha256": "e5b3c0c61d0c95caf4dbbcbf7ceb76d618bb9f39276a0f32c7174ee977b85042",
+      "member": "CG/W08A04-16B.png",
+      "crc": 3533974189,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "16C",
+      "id": "EP08-ACT04-WORLD-CG16C",
+      "path": "assets/cg/ep08/act04/world/cg16C.png",
+      "sha256": "a248f596c5824be69f2548bde575612a161314f27cdb448c37aa4678c3d2bada",
+      "member": "CG/W08A04-16C.png",
+      "crc": 1356953937,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "16D",
+      "id": "EP08-ACT04-WORLD-CG16D",
+      "path": "assets/cg/ep08/act04/world/cg16D.png",
+      "sha256": "9b3e7b0850eec909c06d99fc3846e834dcf5857a33f8a5f6f81d89feb527436a",
+      "member": "CG/W08A04-16D.png",
+      "crc": 619008544,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "17",
+      "id": "EP08-ACT04-WORLD-CG17",
+      "path": "assets/cg/ep08/act04/world/cg17.png",
+      "sha256": "8cec9ebddac03db9ab7ae1bb4af93d82293cd09d4d52f7c1ed0e730519555432",
+      "member": "CG/W08A04-17.png",
+      "crc": 3995149457,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "18",
+      "id": "EP08-ACT04-WORLD-CG18",
+      "path": "assets/cg/ep08/act04/world/cg18.png",
+      "sha256": "b32bf90fff4e3901970a7ddba57879d4b8e52f315e5b762976446d77e89ce5b5",
+      "member": "CG/W08A04-18.png",
+      "crc": 116970911,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "19",
+      "id": "EP08-ACT04-WORLD-CG19",
+      "path": "assets/cg/ep08/act04/world/cg19.png",
+      "sha256": "3e70b35045665d63df43ed5fdfcd0ad716ba356734f6e3e14545a58934b96dbe",
+      "member": "CG/W08A04-19.png",
+      "crc": 3765668631,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "20",
+      "id": "EP08-ACT04-WORLD-CG20",
+      "path": "assets/cg/ep08/act04/world/cg20.png",
+      "sha256": "89cefb3cb0be9ababfd10cbb15a0d8c55418a8daac290708386661b9ac03bbfc",
+      "member": "CG/W08A04-20.png",
+      "crc": 2866124579,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "21",
+      "id": "EP08-ACT04-WORLD-CG21",
+      "path": "assets/cg/ep08/act04/world/cg21.png",
+      "sha256": "e944ffc049f96be56c6832fe4f9b7157fbc7a68f88a08406c9f34d123f2a81ce",
+      "member": "CG/W08A04-21.png",
+      "crc": 3426551543,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "22A",
+      "id": "EP08-ACT04-WORLD-CG22A",
+      "path": "assets/cg/ep08/act04/world/cg22A.png",
+      "sha256": "8ac3adc381b6319ec4aff0d6e8a2a57884b73abd8408f8d5ffa6620c3b528f05",
+      "member": "CG/W08A04-22A.png",
+      "crc": 2786673976,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "22B",
+      "id": "EP08-ACT04-WORLD-CG22B",
+      "path": "assets/cg/ep08/act04/world/cg22B.png",
+      "sha256": "5005a0fa146ad6856e3c97e67e8eebd2d6ccf1ad33d0927037efe446fc0e6736",
+      "member": "CG/W08A04-22B.png",
+      "crc": 1835349358,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "23",
+      "id": "EP08-ACT04-WORLD-CG23",
+      "path": "assets/cg/ep08/act04/world/cg23.png",
+      "sha256": "dc3ebba007876f285f0347e6828c56b3ae21a64b93f0a88fa0c3defb0786686b",
+      "member": "CG/W08A04-23.png",
+      "crc": 460281988,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "24",
+      "id": "EP08-ACT04-WORLD-CG24",
+      "path": "assets/cg/ep08/act04/world/cg24.png",
+      "sha256": "fa0262c62609bf2e9dec015475828c9853728d08052e9cf2a38f7b71d93c473b",
+      "member": "CG/W08A04-24.png",
+      "crc": 1491079226,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "25",
+      "id": "EP08-ACT04-WORLD-CG25",
+      "path": "assets/cg/ep08/act04/world/cg25.png",
+      "sha256": "dc9c8340f1c748cad944f810102a77a23a7e681cf8c17dbef4cb808986244ab2",
+      "member": "CG/W08A04-25.png",
+      "crc": 844218718,
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "archiveSha256": "2794ce29043456544253d9480f5310f8d6e6074ec707298c6c292b5b665f693c"
+}

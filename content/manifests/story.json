@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.22.0-ep08-act03",
+  "version": "0.23.0-ep08-act04",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -1014,6 +1014,110 @@
     "EP08_SACRED_FORMAL_LOCAL_BOUNDARY": {
       "initial": false,
       "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_S4_M01": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_S4_M02": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_S4_M03": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_S4_M04": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_W4_N01": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_W4_N02": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_W4_P01": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_W4_P02": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_W4_NOTIFIED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_ACT04_SETTLED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_ACT04_SETTLED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_ACT04_RESULT": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_ACT04_RESULT": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_SHALIA_ACT04_EVENT": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_SHALIA_ACT04_EVENT": {
+      "initial": "UNSET",
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_SHALIA_ACT04_CLEAR_GRANTED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_ACT04_ICE_EYE_MANIFESTED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_ACT04_ALYSSIA_FAIRY_RESEAL": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_ACT04_VILLAGES_SEVERELY_DAMAGED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_ACT04_CHURCH_RELIEF_ACTIVE": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_SACRED_ACT04_CHURCH_SUMMONING_INTERRUPTION_FAILED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_ACT04_ICE_EYE_MANIFESTED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_ACT04_SUMMONING_INTERRUPTED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_ACT04_ELIA_RESEARCH_USED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_ACT04_ACADEMY_TEAM_EXECUTED": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "EP08_WORLD_ACT04_ACADEMY_CREDIBILITY_PARTIAL": {
+      "initial": false,
+      "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
     }
   },
   "migrations": {

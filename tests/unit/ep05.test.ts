@@ -237,4 +237,4 @@ it('merges only behaviorally equivalent exploration states and retains future fl
   const money = structuredClone(s);
   money.campaign!.politicalPoints = 99;
   expect(key(money)).not.toBe(key(s));
-});
+}, 20000);

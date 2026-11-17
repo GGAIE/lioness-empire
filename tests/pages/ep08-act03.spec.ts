@@ -177,7 +177,7 @@ test('keeps the notice image through flavor replies and leaves only act four pen
     await importPlayerState(page, state);
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第三幕完');
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-      '第四幕〈寒冰提前甦醒〉· 敬請期待'
+      route === 'SACRED' ? '第四幕〈慈悲的價碼〉' : '第四幕〈未降臨的寒冰〉'
     );
     await expect(page.getByRole('alertdialog')).toHaveCount(0);
   }

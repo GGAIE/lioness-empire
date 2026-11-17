@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "source_zip": "Lioness_Empire_EP08_Startup_v1.0(5).zip",
+  "script_characters": 14869,
+  "scene_count": 5,
+  "cg_prompts": 34,
+  "cg_per_route": 25,
+  "mutually_exclusive_branch_groups": [
+    "06A/06B",
+    "07A/07B",
+    "12A/12B/12C/12D",
+    "16A/16B/16C/16D",
+    "22A/22B"
+  ],
+  "flavor_choice_groups": 12,
+  "flavor_options": 36,
+  "major_choice_groups": 4,
+  "effective_route_combinations": 16,
+  "max_not_notified_political": -20,
+  "min_notified_political": 0,
+  "min_not_notified_unrest": 20,
+  "max_notified_unrest": -10,
+  "checks": [
+    "all 34 unique CG labels have prompts",
+    "all five scenes present",
+    "12 flavor choice markers present",
+    "four major choice markers present",
+    "every route selects 25 images",
+    "notification OR logic verified",
+    "strict separation between notified and unnotified scores",
+    "no route manifests the ice dragon",
+    "all cumulative score values verified"
+  ],
+  "cautions": [
+    "all dialogue DRAFT",
+    "no actual CG images generated",
+    "official character reference PNGs not bundled",
+    "existing S3 CLEAR mapping not finalized",
+    "no actual engine validation"
+  ]
+}

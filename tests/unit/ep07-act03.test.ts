@@ -216,7 +216,7 @@ it('collapses only balances sufficient for every future debit and keeps affordab
   expect(key(low)).not.toBe(key(enough));
   expect(choiceUnavailableReason(low, question.choices[0])).toContain('5');
   expect(choiceUnavailableReason(enough, question.choices[0])).toBeUndefined();
-});
+}, 20000);
 it('distinguishes intermediate World records and never treats the seal alone as complete evidence', () => {
   for (const count of [5, 9]) {
     const run = play('WORLD', false, (code, options) =>

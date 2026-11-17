@@ -1,0 +1,370 @@
+{
+  "archive": "EP08_ACT04_Sacred_36_CG_Complete_v1.1.zip",
+  "productionArchive": "Lioness_Empire_EP08_ACT04_Sacred_Full_Production_v1.0.zip",
+  "productionSha256": "d6795cc07171c77bc0761f49288171f3af412acaea18caac0861d48e76531075",
+  "script": "01_Full_Script/EP08_ACT04_Sacred_Full_Script_v1.0.md",
+  "scriptSha256": "7c050c8db76e6e9a6b088d53a4104c9229adfa5b68ef1e23a92d62d25a9b073e",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP08-ACT04-SACRED-CG01",
+      "path": "assets/cg/ep08/act04/sacred/cg01.png",
+      "sha256": "813b7d3c42fd511d1da6377949db056eca54825243aefb2ad4b76f332e66b68b",
+      "member": "CG/CG01_The_river_freezes_out_of_season.png",
+      "crc": 4246669364,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "02",
+      "id": "EP08-ACT04-SACRED-CG02",
+      "path": "assets/cg/ep08/act04/sacred/cg02.png",
+      "sha256": "2c69a97ed704e061e98feeefdacc3a5ae1a79f686e09ce9d1ba4935f1007a2f5",
+      "member": "CG/CG02_Shalia_inspects_the_afflicted_village.png",
+      "crc": 2184697662,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "03",
+      "id": "EP08-ACT04-SACRED-CG03",
+      "path": "assets/cg/ep08/act04/sacred/cg03.png",
+      "sha256": "cba748a7864375199b83fda6ecfacbafeaa293c6f768dd82ed65ef6cd441d7e7",
+      "member": "CG/CG03_Two_emergency_dispatches.png",
+      "crc": 742479215,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "04",
+      "id": "EP08-ACT04-SACRED-CG04",
+      "path": "assets/cg/ep08/act04/sacred/cg04.png",
+      "sha256": "d691a9c8d314881b0b433ab0aaa41cfd8f660229a90e4857032b39bef35f70d2",
+      "member": "CG/CG04_Holy_Light_relief_caravan_departs.png",
+      "crc": 12738554,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "05",
+      "id": "EP08-ACT04-SACRED-CG05",
+      "path": "assets/cg/ep08/act04/sacred/cg05.png",
+      "sha256": "fefc6c1eb5d1c635f6c856b8fe7a80e82bbf9f742f11b013ae10c2be610c8db9",
+      "member": "CG/CG05_Adin_serves_villagers.png",
+      "crc": 3090736695,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "06",
+      "id": "EP08-ACT04-SACRED-CG06",
+      "path": "assets/cg/ep08/act04/sacred/cg06.png",
+      "sha256": "72aad88d5d7cd1110729393029f2af9d2e19f150abf3ba6ea38a1d815e6fe017",
+      "member": "CG/CG06_Shalia_and_Adin_inspect_a_village_roster.png",
+      "crc": 3930977612,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "07",
+      "id": "EP08-ACT04-SACRED-CG07",
+      "path": "assets/cg/ep08/act04/sacred/cg07.png",
+      "sha256": "af7b25f481997668073f754b6bd51c16fd74ac5eb8fbc0dedae7f3f7b78f16d5",
+      "member": "CG/CG07_Ritual_cannot_interrupt_the_summons.png",
+      "crc": 3631901148,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "08",
+      "id": "EP08-ACT04-SACRED-CG08",
+      "path": "assets/cg/ep08/act04/sacred/cg08.png",
+      "sha256": "21bfafd3a35be0fe106165387d0bc2694eb850a4a66ba34c58ba7b3193684cd7",
+      "member": "CG/CG08_Adin_receives_an_impossible_relief_ledger.png",
+      "crc": 1037449385,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "09",
+      "id": "EP08-ACT04-SACRED-CG09",
+      "path": "assets/cg/ep08/act04/sacred/cg09.png",
+      "sha256": "d3e1eac50b2b00e98fb95e5922514022424558b7c683df8bfdf41dd4aa0d78cc",
+      "member": "CG/CG09_Alicia_identifies_elemental_seal_residue.png",
+      "crc": 1010550749,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "10",
+      "id": "EP08-ACT04-SACRED-CG10",
+      "path": "assets/cg/ep08/act04/sacred/cg10.png",
+      "sha256": "2d2f76f90d7ca52dee13a3f0a89b485cd5d2943d2d7c6ce02f13a9fae8227a3b",
+      "member": "CG/CG10_Preparations_at_nightfall.png",
+      "crc": 996075662,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "11",
+      "id": "EP08-ACT04-SACRED-CG11",
+      "path": "assets/cg/ep08/act04/sacred/cg11.png",
+      "sha256": "0fece136e2e3813a408f7350e1c8e2271b45e832bbbc1ce6d135567921202fe8",
+      "member": "CG/CG11_The_summoning_array_erupts.png",
+      "crc": 1341982354,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "12",
+      "id": "EP08-ACT04-SACRED-CG12",
+      "path": "assets/cg/ep08/act04/sacred/cg12.png",
+      "sha256": "886569b51196ff9d22515c8397a27793e074f113494ebef22fdecbf9c04ab756",
+      "member": "CG/CG12_Eye_of_Ice_appears_in_full.png",
+      "crc": 172183388,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "13",
+      "id": "EP08-ACT04-SACRED-CG13",
+      "path": "assets/cg/ep08/act04/sacred/cg13.png",
+      "sha256": "7e6dff2565948854ca19b3719dbdae7e3a964d6bc323419a7cd0372bdba746eb",
+      "member": "CG/CG13_Knight_order_evacuation.png",
+      "crc": 1205557615,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "14",
+      "id": "EP08-ACT04-SACRED-CG14",
+      "path": "assets/cg/ep08/act04/sacred/cg14.png",
+      "sha256": "131428c31e8ec641a65e790d84e7b703605d9f2b26a1de9e0fcc3bb1bfd2a8a7",
+      "member": "CG/CG14_Adin_evacuates_an_elderly_resident.png",
+      "crc": 2376386681,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "15",
+      "id": "EP08-ACT04-SACRED-CG15",
+      "path": "assets/cg/ep08/act04/sacred/cg15.png",
+      "sha256": "e30edbf60a9fc72fdb5b08bf24e8c66a1f7b697473f5b2f0170c11ca374e149a",
+      "member": "CG/CG15_Village_and_barns_covered_in_dangerous_ice.png",
+      "crc": 3007029767,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "16",
+      "id": "EP08-ACT04-SACRED-CG16",
+      "path": "assets/cg/ep08/act04/sacred/cg16.png",
+      "sha256": "3c5a706933a3bcc81ed37c55037c79e714d39f44b61b02c3d2016021e5119162",
+      "member": "CG/CG16_Shalia_at_the_shattered_granary.png",
+      "crc": 3446959012,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "17",
+      "id": "EP08-ACT04-SACRED-CG17",
+      "path": "assets/cg/ep08/act04/sacred/cg17.png",
+      "sha256": "1eb278a240eae2f570260bc8a8c008afc18a86ab254a31f573be1002f6d4e9e3",
+      "member": "CG/CG17_Alicia_prepares_fairy_sealing_technique.png",
+      "crc": 3711199803,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "18",
+      "id": "EP08-ACT04-SACRED-CG18",
+      "path": "assets/cg/ep08/act04/sacred/cg18.png",
+      "sha256": "64c87526b6d8e9b7934061a3ab7ecb8d941cebf113d4d24cb4545b29a3022641",
+      "member": "CG/CG18_Elemental_fairy_lights_gather.png",
+      "crc": 3037203841,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "19",
+      "id": "EP08-ACT04-SACRED-CG19",
+      "path": "assets/cg/ep08/act04/sacred/cg19.png",
+      "sha256": "56153a32faec732696d3c984972f2a9c6e3637448ea18b31b30ed642f08c7788",
+      "member": "CG/CG19_Shalia_protects_the_seal_perimeter.png",
+      "crc": 561940829,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "20",
+      "id": "EP08-ACT04-SACRED-CG20",
+      "path": "assets/cg/ep08/act04/sacred/cg20.png",
+      "sha256": "b17145b90e17de0fe9d454a770cf3380bb53cd8079bd9ccb2f92e191725e6996",
+      "member": "CG/CG20_Fairy_sealing_lattice_meets_dragon.png",
+      "crc": 614444840,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "21",
+      "id": "EP08-ACT04-SACRED-CG21",
+      "path": "assets/cg/ep08/act04/sacred/cg21.png",
+      "sha256": "48b7c2f93752d14b3bab01b950b144f6af21a5773a5dfec1785bbaac28013416",
+      "member": "CG/CG21_Alicia_maintains_seal_under_pressure.png",
+      "crc": 393904630,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "22",
+      "id": "EP08-ACT04-SACRED-CG22",
+      "path": "assets/cg/ep08/act04/sacred/cg22.png",
+      "sha256": "44b42024e3316b740e3d98f52c88f2e4b63eebafda22d2a7f9fad91e4127c531",
+      "member": "CG/CG22_Dragon_resealed_not_slain.png",
+      "crc": 3762322465,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "23",
+      "id": "EP08-ACT04-SACRED-CG23",
+      "path": "assets/cg/ep08/act04/sacred/cg23.png",
+      "sha256": "e875f6cdaa84a4958419b0993dd7aa62bfa74d241f5d0dea85f1d7648e3adca2",
+      "member": "CG/CG23_Alicia_after_the_ritual.png",
+      "crc": 3897922122,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "24",
+      "id": "EP08-ACT04-SACRED-CG24",
+      "path": "assets/cg/ep08/act04/sacred/cg24.png",
+      "sha256": "268db3ff20aa25b6aa9ca6aaafc70c14ca22335c5b675b035e88b57556ff6433",
+      "member": "CG/CG24_Calm_sky_and_damaged_village.png",
+      "crc": 2933168810,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "25",
+      "id": "EP08-ACT04-SACRED-CG25",
+      "path": "assets/cg/ep08/act04/sacred/cg25.png",
+      "sha256": "890acbe3806fc279c75a8039d58776a288940034903584512ffe5c9e0018fa3d",
+      "member": "CG/CG25_Shalia_presents_an_enormous_relief_ledger.png",
+      "crc": 2736980546,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "26",
+      "id": "EP08-ACT04-SACRED-CG26",
+      "path": "assets/cg/ep08/act04/sacred/cg26.png",
+      "sha256": "653dfebf7d84bfd2873c8cc4df600b11ea83c20e6fb0d608a035086fe16929fd",
+      "member": "CG/CG26_Young_priest_Adin_at_royal_council.png",
+      "crc": 3391497695,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "27",
+      "id": "EP08-ACT04-SACRED-CG27",
+      "path": "assets/cg/ep08/act04/sacred/cg27.png",
+      "sha256": "4e02eaef3334f8b9650fe3c1f0a81bccfdb06dabd5ad703821f888f311c1513d",
+      "member": "CG/CG27_Olivia_diplomatically_praises_Adin.png",
+      "crc": 53266679,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "28",
+      "id": "EP08-ACT04-SACRED-CG28",
+      "path": "assets/cg/ep08/act04/sacred/cg28.png",
+      "sha256": "292a8ec289d694ec32fc8850e3fc27352e3b0a9c4d5c64848f646488c32b2c71",
+      "member": "CG/CG28_Adin_studies_endless_relief_inventory.png",
+      "crc": 179698972,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "29",
+      "id": "EP08-ACT04-SACRED-CG29",
+      "path": "assets/cg/ep08/act04/sacred/cg29.png",
+      "sha256": "ee8c96df5a7363be1e20592568e16ea3709505e7893c49a5219082cc2cb347b2",
+      "member": "CG/CG29_Royal_clerk_documents_relief_agreement.png",
+      "crc": 3872369732,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "30",
+      "id": "EP08-ACT04-SACRED-CG30",
+      "path": "assets/cg/ep08/act04/sacred/cg30.png",
+      "sha256": "7f1780d8b53950d0d02043ab05bb2530284a631ac8f360157164cc9b88d7b20b",
+      "member": "CG/CG30_Shalia_departs_holding_damaged_land_ledger.png",
+      "crc": 3060761323,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "31",
+      "id": "EP08-ACT04-SACRED-CG31",
+      "path": "assets/cg/ep08/act04/sacred/cg31.png",
+      "sha256": "2986c10c8d735c410459fd4634766fb872e690764fbc492ab45f3455a0312fa1",
+      "member": "CG/CG31_BIG_SUCCESS_church_accepts_expansive_relief.png",
+      "crc": 3914787728,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "32",
+      "id": "EP08-ACT04-SACRED-CG32",
+      "path": "assets/cg/ep08/act04/sacred/cg32.png",
+      "sha256": "946771b74039ce36b054e9d0adde7db97951521e07998ff8300c16022702844e",
+      "member": "CG/CG32_SUCCESS_core_supplies_secured.png",
+      "crc": 1436955975,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "33",
+      "id": "EP08-ACT04-SACRED-CG33",
+      "path": "assets/cg/ep08/act04/sacred/cg33.png",
+      "sha256": "2ee62478e4c4e61f3a289cd88c565aced0b82c05deb896b53d0398b64dd5b3cc",
+      "member": "CG/CG33_SMALL_FAILURE_incomplete_relief.png",
+      "crc": 749328629,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "34",
+      "id": "EP08-ACT04-SACRED-CG34",
+      "path": "assets/cg/ep08/act04/sacred/cg34.png",
+      "sha256": "63f6f597e9921f84bda45f146c0037c710ccfc821a4eb9f80b3ee43c27fe675d",
+      "member": "CG/CG34_BIG_FAILURE_the_ledger_comes_home.png",
+      "crc": 642545800,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "35",
+      "id": "EP08-ACT04-SACRED-CG35",
+      "path": "assets/cg/ep08/act04/sacred/cg35.png",
+      "sha256": "e9abe35ac1a9e5eb9df946f3f920a3fc73ef9cd74d468935ebb2dd82d25ffc12",
+      "member": "CG/CG35_Alicia_and_Olivia_discuss_church_limits.png",
+      "crc": 781634916,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "36",
+      "id": "EP08-ACT04-SACRED-CG36",
+      "path": "assets/cg/ep08/act04/sacred/cg36.png",
+      "sha256": "6ed016b056f7ed34ce91bb48a492352c917cc6df87154e4c564740eae2faabc8",
+      "member": "CG/CG36_Olivia_and_Alicia_plan_return_to_Saint_Annugas.png",
+      "crc": 2103914222,
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "archiveSha256": "720228cd2f021174f17da1cb31f44c98b8491e24f13303871b862987a658cbd1"
+}

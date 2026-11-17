@@ -14,6 +14,25 @@ const assets = JSON.parse(
   await readFile(resolve(root, 'content/manifests/assets.json'), 'utf8')
 ) as { id: string; src: string }[];
 const webPath = (path: string) => path.replace(/\.(png|jpe?g)$/i, '.webp');
+// A retained Pages folder can reuse unchanged, checksum-verified encodings.
+// A clean build still follows the original full conversion path.
+let previousAssets = new Map<string, { output: string; sourceSha256: string; sha256: string }>();
+try {
+  const previous = JSON.parse(
+    await readFile(resolve(root, 'docs/github-pages-package-report.json'), 'utf8')
+  );
+  if (previous.quality === 95 && previous.resizing === false)
+    previousAssets = new Map(
+      previous.assets.map(
+        (a: { source: string; output: string; sourceSha256: string; sha256: string }) => [
+          a.source,
+          a,
+        ]
+      )
+    );
+} catch {
+  /* No valid prior artifact; encode all assets. */
+}
 const runtimeFiles = new Set<string>([
   'manifests/story.json',
   'manifests/assets.json',
@@ -62,25 +81,39 @@ await Promise.all(
       const source = resolve(root, path),
         dest = resolve(output, webPath(path));
       const original = await readFile(source);
+      const sourceSha256 = createHash('sha256').update(original).digest('hex');
       await mkdir(dirname(dest), { recursive: true });
+      const cached = previousAssets.get(path);
+      let reused = false;
+      if (cached?.sourceSha256 === sourceSha256 && cached.output === webPath(path)) {
+        try {
+          reused =
+            createHash('sha256')
+              .update(await readFile(dest))
+              .digest('hex') === cached.sha256;
+        } catch {
+          /* Missing artifact; rebuild it below. */
+        }
+      }
       let width: number | undefined, height: number | undefined;
       if (/\.(png|jpe?g)$/i.test(path)) {
         const info = await sharp(original).metadata();
         width = info.width;
         height = info.height;
         // A separate web delivery encoding; original art and the original-image dist stay untouched.
-        await sharp(original).keepIccProfile().webp({ quality: 95, effort: 4 }).toFile(dest);
+        if (!reused)
+          await sharp(original).keepIccProfile().webp({ quality: 95, effort: 4 }).toFile(dest);
         const result = await sharp(dest).metadata();
         if (result.width !== width || result.height !== height)
           throw Error('Changed image dimensions');
-      } else await copyFile(source, dest);
+      } else if (!reused) await copyFile(source, dest);
       const bytes = await readFile(dest);
       audit.push({
         source: path,
         output: webPath(path),
         originalBytes: original.length,
         bytes: bytes.length,
-        sourceSha256: createHash('sha256').update(original).digest('hex'),
+        sourceSha256,
         sha256: createHash('sha256').update(bytes).digest('hex'),
         width,
         height,

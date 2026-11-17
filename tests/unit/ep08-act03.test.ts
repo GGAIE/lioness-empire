@@ -112,7 +112,8 @@ function play(
       expect(scene.completion).toMatchObject({
         scope: 'ACT',
         nextChapterId: 'EP08',
-        pendingLabel: '第四幕〈寒冰提前甦醒〉· 敬請期待',
+        nextSceneId: `EP08_ACT04_SC01_${route[0]}`,
+        continueLabel: '進入第四幕',
       });
       ended = true;
       break;
