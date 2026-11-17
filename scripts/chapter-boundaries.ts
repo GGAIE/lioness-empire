@@ -68,6 +68,36 @@ export function independentChapters(story: Story): Set<string> {
             : c.path === 'politicalRoute' ||
               (c.path.startsWith('flags.') && ownFlag(c.path.slice(6))));
     const ownWrite = (e: Effect) => e.type === 'flag' && ownFlag(e.key);
+    const onceWrite = (p: { when: Condition; effects: Effect[] }) => {
+      if (!ownCondition(p.when)) return false;
+      if (p.effects.every(ownWrite)) return true;
+      const c = p.when;
+      if (
+        !('path' in c) ||
+        !c.path.startsWith('flags.') ||
+        c.op !== 'eq' ||
+        !ownFlag(c.path.slice(6))
+      )
+        return false;
+      const key = c.path.slice(6);
+      const writes = p.effects.filter((e) => e.type === 'flag' && e.key === key);
+      const lastWrite = writes.at(-1);
+      return (
+        !!lastWrite &&
+        lastWrite.type === 'flag' &&
+        lastWrite.value !== c.value &&
+        !scenes.some((s) =>
+          effectsOf(s).some((e) => e.type === 'flag' && e.key === key && e.value === c.value)
+        ) &&
+        p.effects.every(
+          (e) =>
+            e.type === 'points' ||
+            e.type === 'unrest' ||
+            (e.type === 'clear' && e.delta >= 0) ||
+            ownWrite(e)
+        )
+      );
+    };
     if (
       Object.values(story.scenes).some(
         (s) =>
@@ -109,10 +139,8 @@ export function independentChapters(story: Story): Set<string> {
         (s) =>
           !s.specialEnding &&
           Object.keys(s.completionFlags ?? {}).every(ownFlag) &&
-          (!s.completionEffects ||
-            (ownCondition(s.completionEffects.when) &&
-              s.completionEffects.effects.every(ownWrite))) &&
-          (s.settlements ?? []).every((p) => ownCondition(p.when) && p.effects.every(ownWrite)) &&
+          (!s.completionEffects || onceWrite(s.completionEffects)) &&
+          (s.settlements ?? []).every(onceWrite) &&
           ownCondition(s.conditionalNext?.when) &&
           local(s.conditionalNext?.next) &&
           ownCondition(s.imageWhen) &&
@@ -125,7 +153,9 @@ export function independentChapters(story: Story): Set<string> {
           s.choices.every(
             (c) =>
               c.effects.every((e) => e.type === 'points' || e.type === 'unrest' || ownWrite(e)) &&
-              !c.previewEffects?.length &&
+              (c.previewEffects ?? []).every(
+                (p) => ownCondition(p.when) && p.effects.every((e) => e.type === 'points')
+              ) &&
               ownCondition(c.when) &&
               local(c.next)
           )
@@ -142,7 +172,7 @@ export function independentEntryStates(story: Story, chapter: string) {
   // balances below it are seeded, including both sides of every cost boundary.
   const budget = Object.values(story.scenes)
     .filter((s) => s.chapter === chapter)
-    .flatMap((s) => s.choices.flatMap((c) => c.effects))
+    .flatMap(effectsOf)
     .reduce((total, e) => total + (e.type === 'points' ? Math.max(0, -e.delta) : 0), 0);
   return independentEntryScenes(story, chapter).flatMap((scene) => {
     const condition = scene.availableWhen;

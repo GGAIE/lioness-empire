@@ -1,0 +1,321 @@
+{
+  "package": "EP08_ACT03_WORLD_v1.0",
+  "status": "DRAFT",
+  "player": "Olivia",
+  "global_policy": {
+    "unrest_min": 0,
+    "unrest_max": 100,
+    "apply_each_choice_once": true,
+    "political_points_initial": "USE_PROJECT_STATE",
+    "insufficient_political_points": "USE_EXISTING_PROJECT_POLICY_UNRESOLVED_HERE",
+    "new_route_lock": false,
+    "show_numeric_deltas_in_story_ui": false,
+    "clear_mapping": "UNASSIGNED_USE_PROJECT_EVENT_TABLE"
+  },
+  "important_choices": [
+    {
+      "id": "N01",
+      "scene": "SC01",
+      "prompt": "是否事先知會艾琳達？",
+      "options": [
+        {
+          "id": "A",
+          "text": "先送信給艾琳達，告訴她我們為何前去，以及預定的行程。",
+          "political_delta": 0,
+          "unrest_delta": 0,
+          "set": {
+            "NOTICE_EIRINDA": true
+          }
+        },
+        {
+          "id": "B",
+          "text": "我們先出發，抵達後再告訴她。",
+          "political_delta": 0,
+          "unrest_delta": 0,
+          "set": {
+            "NOTICE_EIRINDA": false
+          }
+        }
+      ],
+      "resolve_at": "SC04_START_BEFORE_RITUAL",
+      "success_if": "NOTICE_EIRINDA == true",
+      "failure_if": "NOTICE_EIRINDA == false",
+      "event_result_flag": "EIRINDA_WORLD_ACT03_SURVEY_RESULT",
+      "late_notice_can_repair": false,
+      "apology_can_repair": false,
+      "extra_failure_penalty": 0,
+      "clear_delta": null
+    },
+    {
+      "id": "P01",
+      "scene": "SC02",
+      "prompt": "如何安排地方後續支持？",
+      "options": [
+        {
+          "id": "A",
+          "text": "將火山地區列為王國重點合作地區，串聯道路、物資往來與學院合作。",
+          "political_delta": 20,
+          "unrest_delta": 10,
+          "set": {
+            "WORLD_ACT03_LOCAL_SUPPORT": "PRIORITY_COOPERATION"
+          },
+          "public_reason": "改善道路與穩定物資往來",
+          "political_method": "串聯地方、商會及學院的合作承諾，取得支持",
+          "beneficiaries": [
+            "火山部族",
+            "合作各方",
+            "中央協調能力"
+          ],
+          "cost_bearers": [
+            "其他等待優先資源的地區"
+          ],
+          "delayed_result": "SC05：合作名單與其他地方的質疑信同時到達"
+        },
+        {
+          "id": "B",
+          "text": "先投入現有資源，依聚落眼前的需求逐項協助。",
+          "political_delta": -15,
+          "unrest_delta": -5,
+          "set": {
+            "WORLD_ACT03_LOCAL_SUPPORT": "DAILY_RECOVERY"
+          },
+          "public_reason": "恢復聚落日常",
+          "political_method": "支出既有協調資源，依地方需求排序",
+          "beneficiaries": [
+            "聚落居民",
+            "地方日常秩序"
+          ],
+          "cost_bearers": [
+            "王室既有協調資源"
+          ],
+          "delayed_result": "SC05：屋頂與藥材需求落實、地方恢復日常"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "scene": "SC05",
+      "prompt": "如何保存並發表這份歷史見證？",
+      "precondition": "Aurea and tribe consent to share an agreed subset; private details retained locally",
+      "options": [
+        {
+          "id": "A",
+          "text": "支持學院公開發表，並由王國舉辦見證報告會；內容先經部族確認。",
+          "political_delta": 20,
+          "unrest_delta": 10,
+          "set": {
+            "WORLD_ACT03_HISTORY_RELEASE": "PUBLIC_REPORT"
+          },
+          "public_reason": "讓歷史見證被更多人理解",
+          "political_method": "以共同支持學術發表凝聚聲望及合作",
+          "beneficiaries": [
+            "王室",
+            "學院",
+            "公開知識"
+          ],
+          "cost_bearers": [
+            "面對史觀爭論的社群及協調者"
+          ],
+          "delayed_result": "SC05尾聲：支持信與史觀異議並至"
+        },
+        {
+          "id": "B",
+          "text": "先協助部族整理自己的紀錄，再分階段對外發表。",
+          "political_delta": -15,
+          "unrest_delta": -5,
+          "set": {
+            "WORLD_ACT03_HISTORY_RELEASE": "LOCAL_FIRST"
+          },
+          "public_reason": "讓部族先擁有可使用的完整紀錄",
+          "political_method": "支出保存、抄寫及持續往返的協調資源",
+          "beneficiaries": [
+            "部族",
+            "地方保存工作",
+            "循序研究"
+          ],
+          "cost_bearers": [
+            "王室及合作人員的既有資源"
+          ],
+          "delayed_result": "SC05尾聲：地方抄本完成，分散外來造訪"
+        }
+      ]
+    }
+  ],
+  "flavor_choices": [
+    {
+      "id": "F01",
+      "scene": "SC01",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F02",
+      "scene": "SC01",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F03",
+      "scene": "SC02",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F04",
+      "scene": "SC02",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F05",
+      "scene": "SC03",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F06",
+      "scene": "SC03",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F07",
+      "scene": "SC04",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F08",
+      "scene": "SC04",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F09",
+      "scene": "SC05",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    },
+    {
+      "id": "F10",
+      "scene": "SC05",
+      "option_ids": [
+        "A",
+        "B",
+        "C"
+      ],
+      "political_delta": 0,
+      "unrest_delta": 0,
+      "persistent_flag_changes": {},
+      "relation_delta": 0,
+      "clear_delta": 0,
+      "route_changes": false,
+      "merge_after_response": true
+    }
+  ],
+  "fixed_results": {
+    "AUREA_INHERITANCE_COMPLETE": true,
+    "LAVA_GUARDIAN_CALMED": true,
+    "EIRINDA_ATTENDS_RITUAL": true,
+    "ACADEMY_PROCEDURE_SUCCESS": true
+  },
+  "prohibited_additions": [
+    "追責或追查騙徒支線",
+    "因未知會中止或破壞傳承",
+    "以政治點數購買艾琳達事件通過",
+    "自行啟用政治點數歸零遊戲結束",
+    "把地方守護契約等同永生永久契約",
+    "新增精靈術士能力或時間代價",
+    "強迫奧瑞亞赴王都報告"
+  ]
+}

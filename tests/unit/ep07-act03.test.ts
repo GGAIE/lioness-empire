@@ -202,7 +202,8 @@ it('collapses only balances sufficient for every future debit and keeps affordab
   const key = explorationKey(story);
   const high = at('WORLD'),
     higher = structuredClone(high);
-  higher.campaign!.politicalPoints = 200;
+  high.campaign!.politicalPoints = 1000;
+  higher.campaign!.politicalPoints = 2000;
   expect(key(high)).toBe(key(higher));
   const question = Object.values(story.scenes).find(
     (s) => s.kind === 'choice' && s.choices[0]?.next.includes('_W_W04_')

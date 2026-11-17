@@ -616,6 +616,58 @@ dialog > header button {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
+.gallery-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.gallery-filters label {
+  display: grid;
+  gap: 8px;
+  flex: 1 1 170px;
+  min-width: 0;
+  color: #ccb88d;
+  font-size: 13px;
+}
+.gallery-filters select {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px;
+  background: #151e29;
+  color: #e4dccd;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  font: inherit;
+}
+.gallery-filters select:disabled {
+  opacity: 0.5;
+}
+.gallery-filters select:focus-visible {
+  outline: 2px solid #ccb88d;
+  outline-offset: 2px;
+}
+.gallery-filters button {
+  min-height: 44px;
+}
+.gallery-empty {
+  padding: 32px 0;
+  text-align: center;
+  color: #99a3ab;
+}
+.gallery-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.gallery-pagination span {
+  color: #ccb88d;
+  font-size: 13px;
+}
 .gallery-grid img {
   width: 100%;
   aspect-ratio: 16/9;

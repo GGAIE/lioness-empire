@@ -1,0 +1,18 @@
+## W08A03-09B｜SC02｜按需求卸下的物資
+
+Condition: `P01=B`
+
+**Positive prompt**
+
+A quiet working scene in the settlement: villagers choose which medicine bundles and roof repair materials are needed first, a local elder marks the order on an unreadable list, Olivia listens and Finley directs a small careful unloading. Concentrate on useful aid reaching ordinary hands rather than royal grandeur. No large construction project, no coercion, no abandoned villagers.
+
+Olivia: adult female regent princess, pale skin, waist-length straight blue-black hair, amber-gold eyes, refined navy and ivory clothing with antique-gold details, lion signet ring, practical travel cloak outdoors, absolutely no crown. Finley: petite androgynous adult with completely human external features, simple refined navy academic clothing, calm and competent, no horns, scales, tail or dragon eyes; retain established project face and hair reference if supplied.
+
+Premium 2D Japanese anime visual novel event illustration, detailed linework and painterly cel shading, cinematic 16:9 landscape, refined fantasy material culture of stone, wool, copper, parchment and leather. One single coherent scene, expressive faces, anatomically correct hands, no readable text, no lettering, no speech bubbles, no logo, no watermark. Render at the highest supported landscape resolution; final video delivery target 1920x1080 or higher without stretching.
+
+**Negative prompt**
+
+Extra arms or legs, extra fingers, fused hands, rotated neck, detached limbs, duplicate people, inconsistent clothing, changed hair colors, celebrity likeness, photorealism, 3D render, modern equipment, guns, neon science-fiction screens, readable letters, subtitles, collage, comic panels, watermark, Olivia wearing a crown, nonhuman features on Finley, Aurea as an elf or princess, giant-cat death or explosion, body possession, burning skin, erotic framing, distressed villagers under attack during the completed ritual.
+
+Production note: exact Eirinda/Finley established image references are not bundled in this package. Preserve project references when available; do not treat descriptive fallback as a new approved redesign.
+

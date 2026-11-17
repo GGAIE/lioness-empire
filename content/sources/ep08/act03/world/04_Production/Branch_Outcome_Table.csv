@@ -1,0 +1,9 @@
+﻿notice_eirinda,P01,P02,political_delta,unrest_raw_delta,eirinda_event,inheritance,cg_count
+True,A,A,40,20,SUCCESS,COMPLETE,25
+True,A,B,5,5,SUCCESS,COMPLETE,25
+True,B,A,5,5,SUCCESS,COMPLETE,25
+True,B,B,-30,-10,SUCCESS,COMPLETE,25
+False,A,A,40,20,FAILURE,COMPLETE,25
+False,A,B,5,5,FAILURE,COMPLETE,25
+False,B,A,5,5,FAILURE,COMPLETE,25
+False,B,B,-30,-10,FAILURE,COMPLETE,25

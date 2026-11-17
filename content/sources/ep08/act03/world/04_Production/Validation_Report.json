@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scenes": 5,
+  "important_choices": 3,
+  "political_choices": 2,
+  "notice_choices": 1,
+  "flavor_choice_groups": 10,
+  "flavor_options": 30,
+  "cg_prompts": 28,
+  "cg_per_playthrough": 25,
+  "effective_branch_combinations_verified": 8,
+  "script_characters": 12313,
+  "script_cjk_characters": 8838,
+  "checks": [
+    "CG markers exactly match prompt IDs",
+    "All prompt and reference paths exist",
+    "Both source image byte hashes preserved and PNG decoding passed",
+    "All eight branches contain one image per alternate slot",
+    "All eight branches retain complete transmission",
+    "Notice solely determines Eirinda survey success",
+    "Notice imposes no additional points penalty",
+    "Both political decisions use approved exact deltas",
+    "Flavor groups have zero persistent effects"
+  ],
+  "limitations": [
+    "No scene CG generated",
+    "Candidate reference art remains candidate",
+    "No game-engine import or runtime playtest performed",
+    "Political insufficiency and global CLEAR mapping remain in project-level policy"
+  ]
+}

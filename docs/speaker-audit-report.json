@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 7640,
+    "dialogue": 7934,
     "thoughts": 72,
-    "narration": 3134,
+    "narration": 3431,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -233,6 +233,42 @@
       "sceneId": "EP08_ACT02_SC05_S",
       "segmentId": "L008",
       "text": "它牽涉錢款、跨境管轄、王國官署、宗教見證，還有誰有資格在這個國家說出「由誰處理」四個字。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT03_SC01_S_C02_COMMON",
+      "segmentId": "L005",
+      "text": "芬利將「接觸」二字記進一頁獨立備忘，與救濟物資的清單分開。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT03_SC03_S",
+      "segmentId": "L019",
+      "text": "可那個「下一個人」，一直沒有出現。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT03_SC03_S_M02_C",
+      "segmentId": "L002",
+      "text": "幾名聖光會神職者得以進入聚落，以「安撫與引導」的名義接觸族人，並對誰適合承接契約、承接後該以何種方式繼續生活提出意見。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT03_SC03_S_M02_COMMON",
+      "segmentId": "L002",
+      "text": "熔岩貓並非忽然瘋狂，而是長期沒有等到承接者的回應。牠依舊守在該守的位置，卻再也找不到那個應該對牠說話、安撫牠、告訴牠「契約仍在」的人。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT03_SC05_S_M03_C",
+      "segmentId": "L001",
+      "text": "奧莉維亞最終批准了聖光會提出的後續方案：在部族聚落設立常設教化與監督據點，以「避免舊契約再次中斷」。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT03_SC02_W",
+      "segmentId": "L018",
+      "text": "赫碧聽完，向奧瑞亞詢問那個「回應」在族語中的說法，仔細記下她的發音。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

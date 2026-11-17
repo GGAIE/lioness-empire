@@ -75,6 +75,34 @@ it('covers all affordability thresholds and unrest inputs for the self-contained
   expect(independentChapters(contaminated).has('EP08')).toBe(false);
 }, 20000);
 
+it('requires a monotonic once guard for deferred numerical and character awards', () => {
+  const scene = story.scenes.EP08_ACT03_SC05_S_RESULT_BIG_SUCCESS;
+  expect(independentChapters(story).has('EP08')).toBe(true);
+  const unsafe = {
+    ...scene,
+    completionEffects: {
+      ...scene.completionEffects!,
+      effects: scene.completionEffects!.effects.filter(
+        (e) => !(e.type === 'flag' && e.key === 'EP08_S3_SETTLED')
+      ),
+    },
+  };
+  expect(
+    independentChapters({ ...story, scenes: { ...story.scenes, [scene.id]: unsafe } }).has('EP08')
+  ).toBe(false);
+  const root = story.scenes.EP08_ACT01_SC01_S;
+  const reset = {
+    ...root,
+    choices: root.choices.map((c) => ({
+      ...c,
+      effects: [{ type: 'flag' as const, key: 'EP08_S3_SETTLED', value: false }],
+    })),
+  };
+  expect(
+    independentChapters({ ...story, scenes: { ...story.scenes, [root.id]: reset } }).has('EP08')
+  ).toBe(false);
+});
+
 it('isolates only certified chapter-entry dependencies while the ordinary key preserves fee distinctions', () => {
   const scene = Object.values(story.scenes).find(
     (s) => s.chapter === 'EP07' && s.completion?.nextSceneId === 'EP08_ACT01_SC01_W'

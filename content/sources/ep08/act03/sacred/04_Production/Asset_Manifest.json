@@ -1,0 +1,65 @@
+{
+  "package": "Lioness_Empire_EP08_ACT03_Sacred_Complete_v1.1",
+  "files": [
+    {
+      "path": "01_Script/EP08_ACT03_Sacred_Full_Script_v1.1.md",
+      "bytes": 38846,
+      "sha256": "1f69ad44643db138939fec2834184585b5d3c4901c4bff33b597ece9bf16b8d1"
+    },
+    {
+      "path": "02_CG_Prompts/EP08_ACT03_Sacred_24_CG_Prompts_v1.1.md",
+      "bytes": 8023,
+      "sha256": "c8a76fa3461bbd64ce95ba0de24ce2a2e4a59970aeeb9ea9e90d3a52a06f6db4"
+    },
+    {
+      "path": "03_Character_Design/Aurea_Design_Spec_v1.0.md",
+      "bytes": 2095,
+      "sha256": "be3141acb91d37b4143195ca2d5ee9a8686b3009171fa154c2026ba2f859d989"
+    },
+    {
+      "path": "03_Character_Design/Aurea_Three_View_v1.0.png",
+      "bytes": 2126548,
+      "sha256": "c288e8e3af56f531662a3871e577371349e912377bb6de52f11e704ad6e4d579"
+    },
+    {
+      "path": "04_Production/Choice_Resolver_v1.1.json",
+      "bytes": 5316,
+      "sha256": "e0fc7ddb81b8261093a03f7b405ffd91509d6e534c9836a20d3ad8cc860819c9"
+    },
+    {
+      "path": "04_Production/QA_and_Coverage_v1.1.md",
+      "bytes": 1709,
+      "sha256": "0e3052751fb9e00c3d9edce42a13cd29aca1179f26c6f186e7ca9394511edd8b"
+    },
+    {
+      "path": "04_Production/Scene_Index_and_Flags_v1.1.md",
+      "bytes": 6506,
+      "sha256": "a8d89d0a2c2a4cc023b93b04a1b24f11b0b5482bc72f923a89ae8e8f294c7855"
+    },
+    {
+      "path": "05_Source_Startup/EP08_Flags_and_Open_Issues_v1.0.md",
+      "bytes": 4992,
+      "sha256": "304f1962148faefb5fa061ae85b1b870aacd88e58905dda02fdde06b55358785"
+    },
+    {
+      "path": "05_Source_Startup/EP08_Production_Startup_v1.0.md",
+      "bytes": 14841,
+      "sha256": "ebc67afba758701c247fedd3bc867f32da74f6ac1ca1b3d6c5cfc5e401200ed9"
+    },
+    {
+      "path": "05_Source_Startup/EP08_Scene_Map_v1.0.md",
+      "bytes": 3607,
+      "sha256": "b7eb458ed2047350b832fda47f5ec0b320212f16f7d58daed9ef683b32ee7907"
+    },
+    {
+      "path": "05_Source_Startup/README.md",
+      "bytes": 797,
+      "sha256": "4ca96ed47d24d8d74f0e3376f5f53f7a6f0163b3bea61724618e1535385b9492"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1826,
+      "sha256": "62fd0d5174471a891b62b75b4a7e89dfd05a683efcb5bd3133e782c26c08a6a9"
+    }
+  ]
+}

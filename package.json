@@ -40,7 +40,8 @@
     "content:import-ep07-act04": "python -X utf8 scripts/import-ep07-act04.py",
     "content:import-ep07-act05": "python -X utf8 scripts/import-ep07-act05.py",
     "content:import-ep08-act01": "python -X utf8 scripts/import-ep08-act01.py",
-    "content:import-ep08-act02": "python -X utf8 scripts/import-ep08-act02.py"
+    "content:import-ep08-act02": "python -X utf8 scripts/import-ep08-act02.py",
+    "content:import-ep08-act03": "python -X utf8 scripts/import-ep08-act03.py"
   },
   "dependencies": {
     "idb": "^8.0.0",

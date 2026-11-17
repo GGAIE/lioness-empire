@@ -1,0 +1,254 @@
+{
+  "status": "WORKING_v1.1",
+  "rules": [
+    "M03 C -> big failure",
+    "Any earlier C -> small failure if M03 B (late formal reversal), otherwise big failure",
+    "Without earlier C, M01 B + M02 A + M03 B -> big success",
+    "Other all non-overreach combinations -> small success"
+  ],
+  "outcomes": [
+    {
+      "M01": "A",
+      "M02": "A",
+      "M03": "A",
+      "result": "SMALL_SUCCESS",
+      "political_delta": 0,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG18"
+    },
+    {
+      "M01": "A",
+      "M02": "A",
+      "M03": "B",
+      "result": "SMALL_SUCCESS",
+      "political_delta": 0,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG18"
+    },
+    {
+      "M01": "A",
+      "M02": "A",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "A",
+      "M02": "B",
+      "M03": "A",
+      "result": "SMALL_SUCCESS",
+      "political_delta": 0,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG18"
+    },
+    {
+      "M01": "A",
+      "M02": "B",
+      "M03": "B",
+      "result": "SMALL_SUCCESS",
+      "political_delta": 0,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG18"
+    },
+    {
+      "M01": "A",
+      "M02": "B",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "A",
+      "M02": "C",
+      "M03": "A",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "A",
+      "M02": "C",
+      "M03": "B",
+      "result": "SMALL_FAILURE",
+      "political_delta": -10,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG19"
+    },
+    {
+      "M01": "A",
+      "M02": "C",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "B",
+      "M02": "A",
+      "M03": "A",
+      "result": "SMALL_SUCCESS",
+      "political_delta": 0,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG18"
+    },
+    {
+      "M01": "B",
+      "M02": "A",
+      "M03": "B",
+      "result": "BIG_SUCCESS",
+      "political_delta": 10,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG17"
+    },
+    {
+      "M01": "B",
+      "M02": "A",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "B",
+      "M02": "B",
+      "M03": "A",
+      "result": "SMALL_SUCCESS",
+      "political_delta": 0,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG18"
+    },
+    {
+      "M01": "B",
+      "M02": "B",
+      "M03": "B",
+      "result": "SMALL_SUCCESS",
+      "political_delta": 0,
+      "alinda_clear_delta": 1,
+      "result_cg": "CG18"
+    },
+    {
+      "M01": "B",
+      "M02": "B",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "B",
+      "M02": "C",
+      "M03": "A",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "B",
+      "M02": "C",
+      "M03": "B",
+      "result": "SMALL_FAILURE",
+      "political_delta": -10,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG19"
+    },
+    {
+      "M01": "B",
+      "M02": "C",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "C",
+      "M02": "A",
+      "M03": "A",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "C",
+      "M02": "A",
+      "M03": "B",
+      "result": "SMALL_FAILURE",
+      "political_delta": -10,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG19"
+    },
+    {
+      "M01": "C",
+      "M02": "A",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "C",
+      "M02": "B",
+      "M03": "A",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "C",
+      "M02": "B",
+      "M03": "B",
+      "result": "SMALL_FAILURE",
+      "political_delta": -10,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG19"
+    },
+    {
+      "M01": "C",
+      "M02": "B",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "C",
+      "M02": "C",
+      "M03": "A",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    },
+    {
+      "M01": "C",
+      "M02": "C",
+      "M03": "B",
+      "result": "SMALL_FAILURE",
+      "political_delta": -10,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG19"
+    },
+    {
+      "M01": "C",
+      "M02": "C",
+      "M03": "C",
+      "result": "BIG_FAILURE",
+      "political_delta": -30,
+      "alinda_clear_delta": 0,
+      "result_cg": "CG20"
+    }
+  ]
+}

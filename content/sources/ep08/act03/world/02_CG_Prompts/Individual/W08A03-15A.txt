@@ -1,0 +1,22 @@
+## W08A03-15A｜SC04｜收到邀訊的來客
+
+Condition: `NOTICE_EIRINDA=true`
+
+**Positive prompt**
+
+At the sanctuary entrance before the ceremony, Eirinda arrives on foot after handing off her horse and speaks calmly with Olivia, referring to the earlier delivered notification. Hebe explains the rare opportunity. Eirinda then turns toward the ritual space with restrained wonder, welcome and competent local coordination. Only these three foreground figures, no complaint, no argument, no military intervention; ritual has not begun.
+
+Olivia: adult female regent princess, pale skin, waist-length straight blue-black hair, amber-gold eyes, refined navy and ivory clothing with antique-gold details, lion signet ring, practical travel cloak outdoors, absolutely no crown. Eirinda: female territorial noble in practical dark frontier attire or light armor, composed and direct, use established project reference where available; never replace her face with Hebe or Aurea. If no exact visual reference is supplied, treat details beyond role and costume function as unapproved and obtain the established reference before final rendering. Hebe: use the included Hebe_Character_Sheet_Reference.png for exact face, long warm dark-brown hair with partial braids, green eyes, ivory and forest-green layered scholarly robes with gold botanical embroidery, emerald clasp and brown research satchel. Her current role is a natural-spirit history researcher and newly elected academy councillor; do not copy the old sheet typography into the scene.
+
+Premium 2D Japanese anime visual novel event illustration, detailed linework and painterly cel shading, cinematic 16:9 landscape, refined fantasy material culture of stone, wool, copper, parchment and leather. One single coherent scene, expressive faces, anatomically correct hands, no readable text, no lettering, no speech bubbles, no logo, no watermark. Render at the highest supported landscape resolution; final video delivery target 1920x1080 or higher without stretching.
+
+**Negative prompt**
+
+Extra arms or legs, extra fingers, fused hands, rotated neck, detached limbs, duplicate people, inconsistent clothing, changed hair colors, celebrity likeness, photorealism, 3D render, modern equipment, guns, neon science-fiction screens, readable letters, subtitles, collage, comic panels, watermark, Olivia wearing a crown, nonhuman features on Finley, Aurea as an elf or princess, giant-cat death or explosion, body possession, burning skin, erotic framing, distressed villagers under attack during the completed ritual.
+
+**Identity references**
+
+- `../../03_Character_References/Hebe_Character_Sheet_Reference.png`
+
+Production note: exact Eirinda/Finley established image references are not bundled in this package. Preserve project references when available; do not treat descriptive fallback as a new approved redesign.
+

@@ -1,0 +1,259 @@
+{
+  "archive": "EP08_ACT03_World_28_CG_Selected_v1.0.zip",
+  "script": "01_Script/Full_Script_Traditional_Chinese.md",
+  "scriptSha256": "75c289c5ffc2c4cf1b7daa21c3e0e598c9a3d50f9d80abea29c199c6fddabf96",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP08-ACT03-WORLD-01",
+      "path": "assets/cg/ep08/act03/world/cg01.png",
+      "sha256": "36e7a4a8eb251569a213069782a74a9942341bc0140d4bbaf0f5a1b273870572",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-01.png"
+    },
+    {
+      "key": "02",
+      "id": "EP08-ACT03-WORLD-02",
+      "path": "assets/cg/ep08/act03/world/cg02.png",
+      "sha256": "a16f3b8de7a76a98d49fb01d8016155b6f5a6310c0667152669e1259c4040435",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-02.png"
+    },
+    {
+      "key": "03",
+      "id": "EP08-ACT03-WORLD-03",
+      "path": "assets/cg/ep08/act03/world/cg03.png",
+      "sha256": "c386d0a8a2a4ebb586d1e95d9ffe85b8696e3c2ea5846fd15b0510e3038557f5",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-03.png"
+    },
+    {
+      "key": "04",
+      "id": "EP08-ACT03-WORLD-04",
+      "path": "assets/cg/ep08/act03/world/cg04.png",
+      "sha256": "4fdb15d5ba3c16c6d9190d6db9e8878639f79ebb0081b7db1b59652a47213448",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-04.png"
+    },
+    {
+      "key": "05",
+      "id": "EP08-ACT03-WORLD-05",
+      "path": "assets/cg/ep08/act03/world/cg05.png",
+      "sha256": "9e88e36d00e709f8b26ac8ff6bbee884e5040e9f1f099b000007a9361feed45a",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-05.png"
+    },
+    {
+      "key": "06",
+      "id": "EP08-ACT03-WORLD-06",
+      "path": "assets/cg/ep08/act03/world/cg06.png",
+      "sha256": "a146f9032b29eda48270590ad145f52c9a9fff9006ec883329ee73340d2c66f7",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-06.png"
+    },
+    {
+      "key": "07",
+      "id": "EP08-ACT03-WORLD-07",
+      "path": "assets/cg/ep08/act03/world/cg07.png",
+      "sha256": "e1eb42e2e24255aa0f1a0c571215dd279effe7e79c403bc037322662f101ef54",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-07.png"
+    },
+    {
+      "key": "08",
+      "id": "EP08-ACT03-WORLD-08",
+      "path": "assets/cg/ep08/act03/world/cg08.png",
+      "sha256": "62998101a8260d4706692c7406b6f95a0b87844007424a6085179a799aedd946",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-08.png"
+    },
+    {
+      "key": "09A",
+      "id": "EP08-ACT03-WORLD-09A",
+      "path": "assets/cg/ep08/act03/world/cg09A.png",
+      "sha256": "8babdb509e41489c4f4b8a48ad27dd7976cfb72257068b234355952baf32f59f",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-09A.png"
+    },
+    {
+      "key": "09B",
+      "id": "EP08-ACT03-WORLD-09B",
+      "path": "assets/cg/ep08/act03/world/cg09B.png",
+      "sha256": "d0d02fabcdb9a1d3cdbc2fd8db03cb5b99286c890ffd29b7d7ef3e65b7958773",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-09B.png"
+    },
+    {
+      "key": "10",
+      "id": "EP08-ACT03-WORLD-10",
+      "path": "assets/cg/ep08/act03/world/cg10.png",
+      "sha256": "22f5fb9bef1c74db1d976a5d7d9ea92dd997c9f797e89431e5ff55af0f86c42e",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-10.png"
+    },
+    {
+      "key": "11",
+      "id": "EP08-ACT03-WORLD-11",
+      "path": "assets/cg/ep08/act03/world/cg11.png",
+      "sha256": "43d088aabf54d8c5a7b371448687cd2ed5a30b24da0db2cd358b1bc0812b1a4d",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-11.png"
+    },
+    {
+      "key": "12",
+      "id": "EP08-ACT03-WORLD-12",
+      "path": "assets/cg/ep08/act03/world/cg12.png",
+      "sha256": "90c0597255ea4ee8b318f324667c75b0f2fb9aab1b3f119cfdfb491b1b5f7639",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-12.png"
+    },
+    {
+      "key": "13",
+      "id": "EP08-ACT03-WORLD-13",
+      "path": "assets/cg/ep08/act03/world/cg13.png",
+      "sha256": "c369f121876a71b5d67ae908bad6ae23564bc2cfde4d0d2ffe038f108c5ab9ad",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-13.png"
+    },
+    {
+      "key": "14",
+      "id": "EP08-ACT03-WORLD-14",
+      "path": "assets/cg/ep08/act03/world/cg14.png",
+      "sha256": "110f0468147967b9f68264cad6c1b87903a135920cca002b4faa449df3f0b504",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-14.png"
+    },
+    {
+      "key": "15A",
+      "id": "EP08-ACT03-WORLD-15A",
+      "path": "assets/cg/ep08/act03/world/cg15A.png",
+      "sha256": "fd823b90b07e33ca362e6a1e6319221738e15dfd4417cb77bea414c9954f24db",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-15A.png"
+    },
+    {
+      "key": "15B",
+      "id": "EP08-ACT03-WORLD-15B",
+      "path": "assets/cg/ep08/act03/world/cg15B.png",
+      "sha256": "3c8fad26609d22bda07f98d7ff36f47d089ba5ec480878555ee6718f6edca8fb",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-15B.png"
+    },
+    {
+      "key": "16",
+      "id": "EP08-ACT03-WORLD-16",
+      "path": "assets/cg/ep08/act03/world/cg16.png",
+      "sha256": "47a96656bd73d6a4eb5aa011b5f82af0426979773c0bca0e987a8aec4298b7ad",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-16.png"
+    },
+    {
+      "key": "17",
+      "id": "EP08-ACT03-WORLD-17",
+      "path": "assets/cg/ep08/act03/world/cg17.png",
+      "sha256": "b086cb96a0a4289fa168682c7d9c1ecc0f13422b60ad58f1dcdfc50b4ee6a221",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-17.png"
+    },
+    {
+      "key": "18",
+      "id": "EP08-ACT03-WORLD-18",
+      "path": "assets/cg/ep08/act03/world/cg18.png",
+      "sha256": "e47a269c37152e2a6fd8338f872ea9ddea595d89f41716f85b0209824b151ff6",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-18.png"
+    },
+    {
+      "key": "19",
+      "id": "EP08-ACT03-WORLD-19",
+      "path": "assets/cg/ep08/act03/world/cg19.png",
+      "sha256": "9bc3a9cd1e305bfcf1f113184a1c284cd1eb6ad55b57b328725a87adf1b64741",
+      "width": 1671,
+      "height": 941,
+      "member": "CG/W08A03-19_corrected.png"
+    },
+    {
+      "key": "20",
+      "id": "EP08-ACT03-WORLD-20",
+      "path": "assets/cg/ep08/act03/world/cg20.png",
+      "sha256": "6b35b368f8360bf64af7f3cbe4244a3c046848b1ff4df7c22071b6036135344d",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-20.png"
+    },
+    {
+      "key": "21",
+      "id": "EP08-ACT03-WORLD-21",
+      "path": "assets/cg/ep08/act03/world/cg21.png",
+      "sha256": "7e1486c4560f0e13f31dfb2fad32a9a4e1d98a42e2f39e02e1f98dffafe39f5e",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-21.png"
+    },
+    {
+      "key": "22",
+      "id": "EP08-ACT03-WORLD-22",
+      "path": "assets/cg/ep08/act03/world/cg22.png",
+      "sha256": "83a78cefe281b37db7805f9a182b6eed09d1e52b53e604b9fcea710aa97603d6",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-22.png"
+    },
+    {
+      "key": "23",
+      "id": "EP08-ACT03-WORLD-23",
+      "path": "assets/cg/ep08/act03/world/cg23.png",
+      "sha256": "701f56cca60fc8f766fbdafafce0c2414532951072cfcfa1b7efc71ae7066f72",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-23.png"
+    },
+    {
+      "key": "24A",
+      "id": "EP08-ACT03-WORLD-24A",
+      "path": "assets/cg/ep08/act03/world/cg24A.png",
+      "sha256": "8e2de8324e0b826c9d7deb6bcc0ef688598e7d14f4d8910cb6174bc9e689c1a4",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-24A.png"
+    },
+    {
+      "key": "24B",
+      "id": "EP08-ACT03-WORLD-24B",
+      "path": "assets/cg/ep08/act03/world/cg24B.png",
+      "sha256": "ed76522d41efe1c9008d9c9fe818c482cce9b65ae09dac4112ccfb264ec07a10",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-24B.png"
+    },
+    {
+      "key": "25",
+      "id": "EP08-ACT03-WORLD-25",
+      "path": "assets/cg/ep08/act03/world/cg25.png",
+      "sha256": "e3c0bca428a1a5b0e9771d7038b26990bbe4e77924909be604879a8da44e4655",
+      "width": 1672,
+      "height": 941,
+      "member": "CG/W08A03-25.png"
+    }
+  ]
+}

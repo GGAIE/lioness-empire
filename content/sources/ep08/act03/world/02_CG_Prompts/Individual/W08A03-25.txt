@@ -1,0 +1,20 @@
+## W08A03-25｜SC05｜傳承之後仍有日常
+
+Condition: `always`
+
+**Positive prompt**
+
+Final wide village epilogue under soft morning sun: Aurea returns to helping carry clean dried cloth into a familiar stone house after waving goodbye to the departing visitors. Far up the mountain the huge Lava Cat rests peacefully on a basalt ledge, clearly separate in depth and alive. Ordinary life continues under a calm sky, fine ash settled, no regal elevation, no new crisis, no science-fiction machinery. Let the departure wagon be a tiny background detail.
+
+Aurea: use the included Aurea_Three_View_Reference.png for exact identity and wardrobe: young tribal maiden with warm tan skin, amber eyes, long partially braided dark-brown hair with warm reddish tips, small copper ornaments, cream and rust layered practical clothing, charcoal shawl with ember-crack motif, basalt beads, wrapped practical sandals. Modest and quietly determined, never a royal princess or church saint. The Lava Cat is a gigantic ancient feline natural spirit manifested as black volcanic rock with glowing red-gold seams and golden eyes, coherent feline anatomy with four legs and one tail. Majestic and sentient, not a demon, dragon, humanoid elf, pet kitten or weapon. It remains alive and present after the covenant transmission.
+
+Premium 2D Japanese anime visual novel event illustration, detailed linework and painterly cel shading, cinematic 16:9 landscape, refined fantasy material culture of stone, wool, copper, parchment and leather. One single coherent scene, expressive faces, anatomically correct hands, no readable text, no lettering, no speech bubbles, no logo, no watermark. Render at the highest supported landscape resolution; final video delivery target 1920x1080 or higher without stretching.
+
+**Negative prompt**
+
+Extra arms or legs, extra fingers, fused hands, rotated neck, detached limbs, duplicate people, inconsistent clothing, changed hair colors, celebrity likeness, photorealism, 3D render, modern equipment, guns, neon science-fiction screens, readable letters, subtitles, collage, comic panels, watermark, Olivia wearing a crown, nonhuman features on Finley, Aurea as an elf or princess, giant-cat death or explosion, body possession, burning skin, erotic framing, distressed villagers under attack during the completed ritual.
+
+**Identity references**
+
+- `../../03_Character_References/Aurea_Three_View_Reference.png`
+

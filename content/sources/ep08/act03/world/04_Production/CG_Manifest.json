@@ -1,0 +1,399 @@
+[
+  {
+    "cg_id": "W08A03-01",
+    "scene": "SC01",
+    "title": "議事卷宗旁的山路圖",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-01.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-02",
+    "scene": "SC01",
+    "title": "三位教授與過重的行囊",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-02.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-03",
+    "scene": "SC01",
+    "title": "出發前的知會",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-03.txt",
+    "references": [],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-04",
+    "scene": "SC01",
+    "title": "向火山而行",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-04.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-05",
+    "scene": "SC02",
+    "title": "火山下的聚落",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-05.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-06",
+    "scene": "SC02",
+    "title": "提水的奧瑞亞",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-06.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-07",
+    "scene": "SC02",
+    "title": "學者與長者共坐",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-07.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-08",
+    "scene": "SC02",
+    "title": "聚落的需求清單",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-08.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-09A",
+    "scene": "SC02",
+    "title": "山路上的合作計畫",
+    "condition": "P01=A",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-09A.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-09B",
+    "scene": "SC02",
+    "title": "按需求卸下的物資",
+    "condition": "P01=B",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-09B.txt",
+    "references": [],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-10",
+    "scene": "SC03",
+    "title": "走向山火",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-10.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-11",
+    "scene": "SC03",
+    "title": "被確認的碑文",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-11.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-12",
+    "scene": "SC03",
+    "title": "守護者現身",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-12.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-13",
+    "scene": "SC03",
+    "title": "奧瑞亞自己的決定",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-13.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-14",
+    "scene": "SC03",
+    "title": "傳承前的等候",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-14.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-15A",
+    "scene": "SC04",
+    "title": "收到邀訊的來客",
+    "condition": "NOTICE_EIRINDA=true",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-15A.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-15B",
+    "scene": "SC04",
+    "title": "遲來的領地消息",
+    "condition": "NOTICE_EIRINDA=false",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-15B.txt",
+    "references": [],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-16",
+    "scene": "SC04",
+    "title": "走入聖所的少女",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-16.txt",
+    "references": [
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-17",
+    "scene": "SC04",
+    "title": "山火俯首",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-17.txt",
+    "references": [
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-18",
+    "scene": "SC04",
+    "title": "火光中的回應",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-18.txt",
+    "references": [
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-19",
+    "scene": "SC04",
+    "title": "忘記落筆的學者",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-19.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-20",
+    "scene": "SC04",
+    "title": "傳承完成",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-20.txt",
+    "references": [
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-21",
+    "scene": "SC04",
+    "title": "守護者身旁的位置",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-21.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-22",
+    "scene": "SC05",
+    "title": "晨光裡的早餐",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-22.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-23",
+    "scene": "SC05",
+    "title": "部族與學者共讀的記錄",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-23.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-24A",
+    "scene": "SC05",
+    "title": "共同確認的報告會準備",
+    "condition": "P02=A",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-24A.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-24B",
+    "scene": "SC05",
+    "title": "留在聚落的抄本",
+    "condition": "P02=B",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-24B.txt",
+    "references": [
+      "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  },
+  {
+    "cg_id": "W08A03-25",
+    "scene": "SC05",
+    "title": "傳承之後仍有日常",
+    "condition": "always",
+    "prompt_file": "02_CG_Prompts/Individual/W08A03-25.txt",
+    "references": [
+      "03_Character_References/Aurea_Three_View_Reference.png"
+    ],
+    "target_aspect": "16:9",
+    "target_delivery": "1920x1080_or_higher",
+    "status": "PROMPT_ONLY",
+    "generated_image": null
+  }
+]

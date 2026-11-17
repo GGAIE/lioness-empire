@@ -177,6 +177,8 @@ class Act(base.Reader):
 
 
 def main():
+    existing_path = ROOT / 'content/episodes/ep08/chapter.json'
+    had_act03 = existing_path.exists() and any(s['act'] == 'ACT03' for s in core.read(existing_path)['scenes'])
     for route in TITLES:
         Act(route).compile()
     used = {s.get('cg') for s in SCENES} | {p.get('cg') for s in SCENES for p in s['segments']}
@@ -207,6 +209,10 @@ def main():
     core.write(path, characters)
     print(len(SCENES), 'nodes', sum(len(s['segments']) for s in SCENES), 'segments',
           sum(len(s['choices']) for s in SCENES), 'answers', len(ASSETS), 'CGs')
+    if had_act03:
+        import subprocess
+        import sys
+        subprocess.run([sys.executable, '-X', 'utf8', str(ROOT / 'scripts/import-ep08-act03.py')], check=True)
 
 
 if __name__ == '__main__':

@@ -70,7 +70,7 @@ function play(route: 'SACRED' | 'WORLD', picks: string[], flavor = 'A', unrest =
       expect(scene.completion).toMatchObject({
         scope: 'ACT',
         nextChapterId: 'EP08',
-        pendingLabel: '第三幕〈熔岩之下的契約〉· 敬請期待',
+        nextSceneId: `EP08_ACT03_SC01_${route[0]}`,
       });
       ended = true;
       break;

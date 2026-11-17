@@ -1,0 +1,22 @@
+## W08A03-01｜SC01｜議事卷宗旁的山路圖
+
+Condition: `always`
+
+**Positive prompt**
+
+In the northeast palace tower study in morning light, a volcanic mountain route map lies where Olivia wanted to set her teacup. Olivia studies the ash-flecked dispatch while Finley lays out the itinerary and Hebe arrives carrying two old books. Medium-wide composition, cool window light and warm wood, modest scholarly anticipation rather than a war council. Keep maps abstract and unreadable.
+
+Olivia: adult female regent princess, pale skin, waist-length straight blue-black hair, amber-gold eyes, refined navy and ivory clothing with antique-gold details, lion signet ring, practical travel cloak outdoors, absolutely no crown. Finley: petite androgynous adult with completely human external features, simple refined navy academic clothing, calm and competent, no horns, scales, tail or dragon eyes; retain established project face and hair reference if supplied. Hebe: use the included Hebe_Character_Sheet_Reference.png for exact face, long warm dark-brown hair with partial braids, green eyes, ivory and forest-green layered scholarly robes with gold botanical embroidery, emerald clasp and brown research satchel. Her current role is a natural-spirit history researcher and newly elected academy councillor; do not copy the old sheet typography into the scene.
+
+Premium 2D Japanese anime visual novel event illustration, detailed linework and painterly cel shading, cinematic 16:9 landscape, refined fantasy material culture of stone, wool, copper, parchment and leather. One single coherent scene, expressive faces, anatomically correct hands, no readable text, no lettering, no speech bubbles, no logo, no watermark. Render at the highest supported landscape resolution; final video delivery target 1920x1080 or higher without stretching.
+
+**Negative prompt**
+
+Extra arms or legs, extra fingers, fused hands, rotated neck, detached limbs, duplicate people, inconsistent clothing, changed hair colors, celebrity likeness, photorealism, 3D render, modern equipment, guns, neon science-fiction screens, readable letters, subtitles, collage, comic panels, watermark, Olivia wearing a crown, nonhuman features on Finley, Aurea as an elf or princess, giant-cat death or explosion, body possession, burning skin, erotic framing, distressed villagers under attack during the completed ritual.
+
+**Identity references**
+
+- `../../03_Character_References/Hebe_Character_Sheet_Reference.png`
+
+Production note: exact Eirinda/Finley established image references are not bundled in this package. Preserve project references when available; do not treat descriptive fallback as a new approved redesign.
+

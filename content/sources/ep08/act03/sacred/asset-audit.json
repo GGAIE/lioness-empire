@@ -1,0 +1,223 @@
+{
+  "archive": "EP08_ACT03_Sacred_24_CG_Selected_v1.1.zip",
+  "script": "01_Script/EP08_ACT03_Sacred_Full_Script_v1.1.md",
+  "scriptSha256": "1f69ad44643db138939fec2834184585b5d3c4901c4bff33b597ece9bf16b8d1",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP08-ACT03-SACRED-01",
+      "path": "assets/cg/ep08/act03/sacred/cg01.png",
+      "sha256": "d752c6e5cb05be284f0c17865617e119c9b0c8b1097fe3bc6f80f57ab1246f75",
+      "width": 1672,
+      "height": 941,
+      "member": "CG01_Urgent_report_at_northeast_tower.png"
+    },
+    {
+      "key": "02",
+      "id": "EP08-ACT03-SACRED-02",
+      "path": "assets/cg/ep08/act03/sacred/cg02.png",
+      "sha256": "f11b34db4c89ee7ce63fdc0ba7e566d6daf553a775aafb2dacea6356c46a2ac6",
+      "width": 1672,
+      "height": 941,
+      "member": "CG02_Holy_Light_presents_the_guidance_proposal.png"
+    },
+    {
+      "key": "03",
+      "id": "EP08-ACT03-SACRED-03",
+      "path": "assets/cg/ep08/act03/sacred/cg03.png",
+      "sha256": "852c7fd71479861b4ef8cb2aca170ee7dfc2b46ad67a8b840ab1924d631eba04",
+      "width": 1672,
+      "height": 941,
+      "member": "CG03_Alinda_protests_church_intervention.png"
+    },
+    {
+      "key": "04",
+      "id": "EP08-ACT03-SACRED-04",
+      "path": "assets/cg/ep08/act03/sacred/cg04.png",
+      "sha256": "6a33df75ea5d2a2e30ed367906218edd3361360a02c6694f9b4555fb7ec530e8",
+      "width": 1672,
+      "height": 941,
+      "member": "CG04_Ash_covered_tribal_settlement.png"
+    },
+    {
+      "key": "05",
+      "id": "EP08-ACT03-SACRED-05",
+      "path": "assets/cg/ep08/act03/sacred/cg05.png",
+      "sha256": "ac8e41f66e6e0a32e808e8f283dae000947b2c139b55c639bf39055c970eb3e8",
+      "width": 1672,
+      "height": 941,
+      "member": "CG05_First_appearance_of_Aurea.png"
+    },
+    {
+      "key": "06",
+      "id": "EP08-ACT03-SACRED-06",
+      "path": "assets/cg/ep08/act03/sacred/cg06.png",
+      "sha256": "2a32c3ad29991e8e232b256250dd4cd83b6bc071b7e4e2322e1f4c55b4d3c6be",
+      "width": 1672,
+      "height": 941,
+      "member": "CG06_Old_covenant_fragments.png"
+    },
+    {
+      "key": "07",
+      "id": "EP08-ACT03-SACRED-07",
+      "path": "assets/cg/ep08/act03/sacred/cg07.png",
+      "sha256": "389ec9f52bbda68f1c8c38637c46f14a8b17ea3508042ce34c9946717660d70e",
+      "width": 1672,
+      "height": 941,
+      "member": "CG07_Path_to_the_old_sanctuary.png"
+    },
+    {
+      "key": "08",
+      "id": "EP08-ACT03-SACRED-08",
+      "path": "assets/cg/ep08/act03/sacred/cg08.png",
+      "sha256": "ec0d721e65b966fdea38253aed94280152c83b807910b0022a7a0339b197fe5b",
+      "width": 1672,
+      "height": 941,
+      "member": "CG08_The_Lava_Cat_appears.png"
+    },
+    {
+      "key": "09",
+      "id": "EP08-ACT03-SACRED-09",
+      "path": "assets/cg/ep08/act03/sacred/cg09.png",
+      "sha256": "6c7bda0b70a8227075c036602790237acdeab031e0ad45f1b39162f83095ba59",
+      "width": 1672,
+      "height": 941,
+      "member": "CG09_Aurea_accepts_the_covenant.png"
+    },
+    {
+      "key": "10",
+      "id": "EP08-ACT03-SACRED-10",
+      "path": "assets/cg/ep08/act03/sacred/cg10.png",
+      "sha256": "4d5556946664360f2dd8600e618b83854a4f0645a6678f3ccaae28664ba996e8",
+      "width": 1672,
+      "height": 941,
+      "member": "CG10_Crisis_resolved.png"
+    },
+    {
+      "key": "11",
+      "id": "EP08-ACT03-SACRED-11",
+      "path": "assets/cg/ep08/act03/sacred/cg11.png",
+      "sha256": "4d872d0182cc9330722fa442eb8ba471f7c98b421a7f68b18881e57659f65251",
+      "width": 1672,
+      "height": 941,
+      "member": "CG11_Local_settlement_meeting_after_the_crisis.png"
+    },
+    {
+      "key": "12",
+      "id": "EP08-ACT03-SACRED-12",
+      "path": "assets/cg/ep08/act03/sacred/cg12.png",
+      "sha256": "6a7e1fc1d82e82a733d30372d63ac5e54c5a20a76a1cd68dedcabfc9a1f47c76",
+      "width": 1672,
+      "height": 941,
+      "member": "CG12_Olivia_reading_the_settlement_report.png"
+    },
+    {
+      "key": "13",
+      "id": "EP08-ACT03-SACRED-13",
+      "path": "assets/cg/ep08/act03/sacred/cg13.png",
+      "sha256": "fe6a149e8041f886b5a62104e6960cc2bb54e38e6269b72ae6a38ba28b76be4e",
+      "width": 1672,
+      "height": 941,
+      "member": "CG13_Two_different_versions_of_the_urgent_report.png"
+    },
+    {
+      "key": "14",
+      "id": "EP08-ACT03-SACRED-14",
+      "path": "assets/cg/ep08/act03/sacred/cg14.png",
+      "sha256": "6ae3d6286cc3184a9b83adfd901683c3dccde964a3ceab7825afe74b4df323ef",
+      "width": 1672,
+      "height": 941,
+      "member": "CG14_Rival_authorities_on_the_table.png"
+    },
+    {
+      "key": "15",
+      "id": "EP08-ACT03-SACRED-15",
+      "path": "assets/cg/ep08/act03/sacred/cg15.png",
+      "sha256": "e22d20206a629208c3005213cb209b5dd1d2ebb0f094029e4f113137fe13f2d4",
+      "width": 1672,
+      "height": 941,
+      "member": "CG15_Elders_and_disputed_covenant_memory.png"
+    },
+    {
+      "key": "16",
+      "id": "EP08-ACT03-SACRED-16",
+      "path": "assets/cg/ep08/act03/sacred/cg16.png",
+      "sha256": "e8d9e482d1f17d907f8fb251e78ebca50320aef2aeabfcebff89c70ef3827ba8",
+      "width": 1671,
+      "height": 941,
+      "member": "CG16_Aurea_at_sanctuary_threshold.png"
+    },
+    {
+      "key": "17",
+      "id": "EP08-ACT03-SACRED-17",
+      "path": "assets/cg/ep08/act03/sacred/cg17.png",
+      "sha256": "51d203904e5a3dffb3cc4a9d637d8cff73b558519bb9bdff40b057b6b5a02027",
+      "width": 1672,
+      "height": 941,
+      "member": "CG17_Royal_decree_protects_local_jurisdiction_BIG_SUCCESS_ONLY.png"
+    },
+    {
+      "key": "18",
+      "id": "EP08-ACT03-SACRED-18",
+      "path": "assets/cg/ep08/act03/sacred/cg18.png",
+      "sha256": "eb9ce8a0f8fc74887965ad293f98bac9e885e495d1eb81a4638bf76218e6578a",
+      "width": 1672,
+      "height": 941,
+      "member": "CG18_Negotiated_written_terms_SMALL_SUCCESS_ONLY.png"
+    },
+    {
+      "key": "19",
+      "id": "EP08-ACT03-SACRED-19",
+      "path": "assets/cg/ep08/act03/sacred/cg19.png",
+      "sha256": "aa4a73c79e23146d43b8ff73f70bb2b71c4654e7d42c7da98790a2fa9be233b5",
+      "width": 1672,
+      "height": 941,
+      "member": "CG19_Late_rescission_of_overreach_SMALL_FAILURE_ONLY.png"
+    },
+    {
+      "key": "20",
+      "id": "EP08-ACT03-SACRED-20",
+      "path": "assets/cg/ep08/act03/sacred/cg20.png",
+      "sha256": "f6407478aea331956a89d4b433999707c8230c3bbf8eb603f8513e034b9fc204",
+      "width": 1672,
+      "height": 941,
+      "member": "CG20_Cold_council_chamber_BIG_FAILURE_ONLY.png"
+    },
+    {
+      "key": "21",
+      "id": "EP08-ACT03-SACRED-21",
+      "path": "assets/cg/ep08/act03/sacred/cg21.png",
+      "sha256": "71cd067fce576acc862f283a8bbd95ceee2531c8f01725d03b80bd2239ae0b73",
+      "width": 1672,
+      "height": 941,
+      "member": "CG21_Lava_light_settles.png"
+    },
+    {
+      "key": "22",
+      "id": "EP08-ACT03-SACRED-22",
+      "path": "assets/cg/ep08/act03/sacred/cg22.png",
+      "sha256": "59f2e4c46315ad8764c18e0302fe3167322a7cbc7b590085abd7d806880f473f",
+      "width": 1672,
+      "height": 941,
+      "member": "CG22_Four_post_crisis_documents.png"
+    },
+    {
+      "key": "23",
+      "id": "EP08-ACT03-SACRED-23",
+      "path": "assets/cg/ep08/act03/sacred/cg23.png",
+      "sha256": "fde22b6135b7fdb14b3dbcb15277c266c839c8aad7835fa0043fc14067495192",
+      "width": 1672,
+      "height": 941,
+      "member": "CG23_Regent_s_reflection_by_the_tower_window.png"
+    },
+    {
+      "key": "24",
+      "id": "EP08-ACT03-SACRED-24",
+      "path": "assets/cg/ep08/act03/sacred/cg24.png",
+      "sha256": "74ee940f8176f9ab1360e92859afdf78566079417b5d99d8cfbc15f9a8e7e7d3",
+      "width": 1672,
+      "height": 941,
+      "member": "CG24_Aurea_after_the_covenant.png"
+    }
+  ]
+}

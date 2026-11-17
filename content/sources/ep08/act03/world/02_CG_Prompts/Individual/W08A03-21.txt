@@ -1,0 +1,23 @@
+## W08A03-21｜SC04｜守護者身旁的位置
+
+Condition: `always`
+
+**Positive prompt**
+
+Gentle aftermath near the stone dais. Eirinda steadies Aurea briefly by one forearm as she returns; Olivia offers a water bag, Finley confirms the calm conditions, Hebe stands quietly nearby. The Lava Cat rests alive and relaxed on the basalt behind them, tail curved naturally beside its body. A warm grounded human moment after a vast event; no celebration platform, no cheering army, no change of Aurea’s identity.
+
+Olivia: adult female regent princess, pale skin, waist-length straight blue-black hair, amber-gold eyes, refined navy and ivory clothing with antique-gold details, lion signet ring, practical travel cloak outdoors, absolutely no crown. Finley: petite androgynous adult with completely human external features, simple refined navy academic clothing, calm and competent, no horns, scales, tail or dragon eyes; retain established project face and hair reference if supplied. Eirinda: female territorial noble in practical dark frontier attire or light armor, composed and direct, use established project reference where available; never replace her face with Hebe or Aurea. If no exact visual reference is supplied, treat details beyond role and costume function as unapproved and obtain the established reference before final rendering. Hebe: use the included Hebe_Character_Sheet_Reference.png for exact face, long warm dark-brown hair with partial braids, green eyes, ivory and forest-green layered scholarly robes with gold botanical embroidery, emerald clasp and brown research satchel. Her current role is a natural-spirit history researcher and newly elected academy councillor; do not copy the old sheet typography into the scene. Aurea: use the included Aurea_Three_View_Reference.png for exact identity and wardrobe: young tribal maiden with warm tan skin, amber eyes, long partially braided dark-brown hair with warm reddish tips, small copper ornaments, cream and rust layered practical clothing, charcoal shawl with ember-crack motif, basalt beads, wrapped practical sandals. Modest and quietly determined, never a royal princess or church saint. The Lava Cat is a gigantic ancient feline natural spirit manifested as black volcanic rock with glowing red-gold seams and golden eyes, coherent feline anatomy with four legs and one tail. Majestic and sentient, not a demon, dragon, humanoid elf, pet kitten or weapon. It remains alive and present after the covenant transmission.
+
+Premium 2D Japanese anime visual novel event illustration, detailed linework and painterly cel shading, cinematic 16:9 landscape, refined fantasy material culture of stone, wool, copper, parchment and leather. One single coherent scene, expressive faces, anatomically correct hands, no readable text, no lettering, no speech bubbles, no logo, no watermark. Render at the highest supported landscape resolution; final video delivery target 1920x1080 or higher without stretching.
+
+**Negative prompt**
+
+Extra arms or legs, extra fingers, fused hands, rotated neck, detached limbs, duplicate people, inconsistent clothing, changed hair colors, celebrity likeness, photorealism, 3D render, modern equipment, guns, neon science-fiction screens, readable letters, subtitles, collage, comic panels, watermark, Olivia wearing a crown, nonhuman features on Finley, Aurea as an elf or princess, giant-cat death or explosion, body possession, burning skin, erotic framing, distressed villagers under attack during the completed ritual.
+
+**Identity references**
+
+- `../../03_Character_References/Hebe_Character_Sheet_Reference.png`
+- `../../03_Character_References/Aurea_Three_View_Reference.png`
+
+Production note: exact Eirinda/Finley established image references are not bundled in this package. Preserve project references when available; do not treat descriptive fallback as a new approved redesign.
+

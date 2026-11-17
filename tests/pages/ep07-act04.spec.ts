@@ -8,7 +8,7 @@ test('shows the release log and continues both third-act saves into the matching
 }) => {
   const story = await loadReaderContent();
   await page.goto('/');
-  const release = page.getByRole('button', { name: /更新日誌 OLIVIA2026\.11\.14/ });
+  const release = page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.17/ });
   await expect(release).toBeInViewport();
   await release.click();
   const log = page.getByRole('dialog', { name: '更新日誌' });

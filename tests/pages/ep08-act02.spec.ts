@@ -16,7 +16,7 @@ test('continues both old first-act saves, loads the matching CG and lists the No
 }, info) => {
   const story = await loadReaderContent();
   await prepare(page);
-  await page.getByRole('button', { name: /更新日誌 OLIVIA2026\.11\.14/ }).click();
+  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.17/ }).click();
   await expect(page.getByRole('dialog')).toContainText('第八章第二幕');
   await expect(page.getByRole('dialog')).toContainText('42 張 CG');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
@@ -149,7 +149,7 @@ test('displays Hebe with a speaker label, blocks unaffordable Sacred choices and
     await importPlayerState(page, final);
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第二幕完');
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-      '第三幕〈熔岩之下的契約〉· 敬請期待'
+      route === 'SACRED' ? '第三幕〈無人承接的契約〉' : '第三幕〈山火記得的名字〉'
     );
     await expect(page.getByRole('alertdialog')).toHaveCount(0);
   }

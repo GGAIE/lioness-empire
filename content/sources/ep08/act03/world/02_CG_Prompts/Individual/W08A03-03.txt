@@ -1,0 +1,18 @@
+## W08A03-03｜SC01｜出發前的知會
+
+Condition: `always`
+
+**Positive prompt**
+
+Close three-quarter view of an unsealed letter, ink and route sheet on a courtyard writing desk. Olivia pauses with her hand beside the letter as a waiting messenger and saddled horse stand in the softly focused background. Finley indicates the itinerary without dictating the choice. This is the moment before choosing whether to notify the territorial noble; do not depict the letter already sent. No readable writing.
+
+Olivia: adult female regent princess, pale skin, waist-length straight blue-black hair, amber-gold eyes, refined navy and ivory clothing with antique-gold details, lion signet ring, practical travel cloak outdoors, absolutely no crown. Finley: petite androgynous adult with completely human external features, simple refined navy academic clothing, calm and competent, no horns, scales, tail or dragon eyes; retain established project face and hair reference if supplied.
+
+Premium 2D Japanese anime visual novel event illustration, detailed linework and painterly cel shading, cinematic 16:9 landscape, refined fantasy material culture of stone, wool, copper, parchment and leather. One single coherent scene, expressive faces, anatomically correct hands, no readable text, no lettering, no speech bubbles, no logo, no watermark. Render at the highest supported landscape resolution; final video delivery target 1920x1080 or higher without stretching.
+
+**Negative prompt**
+
+Extra arms or legs, extra fingers, fused hands, rotated neck, detached limbs, duplicate people, inconsistent clothing, changed hair colors, celebrity likeness, photorealism, 3D render, modern equipment, guns, neon science-fiction screens, readable letters, subtitles, collage, comic panels, watermark, Olivia wearing a crown, nonhuman features on Finley, Aurea as an elf or princess, giant-cat death or explosion, body possession, burning skin, erotic framing, distressed villagers under attack during the completed ritual.
+
+Production note: exact Eirinda/Finley established image references are not bundled in this package. Preserve project references when available; do not treat descriptive fallback as a new approved redesign.
+

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.21.0-ep08-act02",
+  "version": "0.22.0-ep08-act03",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -930,6 +930,90 @@
     "EP08_SACRED_THEOCRACY_CASE_ACCEPTED": {
       "initial": false,
       "description": "第八章第二幕：神聖線議會改革的事實與已選決策。"
+    },
+    "EP08_S3_M01": {
+      "initial": "UNSET",
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_S3_M02": {
+      "initial": "UNSET",
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_S3_M03": {
+      "initial": "UNSET",
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_RESULT": {
+      "initial": "UNSET",
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_S3_SETTLED": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_ALINDA_EVENT_CLEAR_GRANTED": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_NOTICE_EIRINDA": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_EIRINDA_SURVEY_RESULT": {
+      "initial": "UNSET",
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT03_LOCAL_SUPPORT": {
+      "initial": "UNSET",
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT03_HISTORY_RELEASE": {
+      "initial": "UNSET",
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_LAVACAT_RESOLVED": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_AUREA_COVENANT_BEARER": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_ALINDA_FIELD_RESPONSE": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_CHURCH_GUIDANCE_ATTEMPT": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_VALKEN_DISSATISFACTION": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_AUREA_INHERITANCE_COMPLETE": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_LAVA_GUARDIAN_CALMED": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_EIRINDA_ATTENDS_RITUAL": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_WORLD_ACADEMY_PROCEDURE_SUCCESS": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_CHURCH_OVERREACH_EARLY": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
+    },
+    "EP08_SACRED_FORMAL_LOCAL_BOUNDARY": {
+      "initial": false,
+      "description": "第八章第三幕：路線獨立的決策、事件與一次性結算。"
     }
   },
   "migrations": {

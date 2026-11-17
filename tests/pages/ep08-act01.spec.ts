@@ -8,7 +8,7 @@ test('continues EP07 saves into the matching EP08 opening with one upkeep receip
 }, info) => {
   const story = await loadReaderContent();
   await page.goto('/');
-  await page.getByRole('button', { name: /更新日誌 OLIVIA2026\.11\.14/ }).click();
+  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.17/ }).click();
   await expect(page.getByRole('dialog')).toContainText('第八章第一幕');
   await expect(page.getByRole('dialog')).toContainText('43 張 CG');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();

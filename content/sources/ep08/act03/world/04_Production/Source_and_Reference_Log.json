@@ -1,0 +1,41 @@
+{
+  "latest_author_direction": "本次對話：World／SC01–05；無追責；奧瑞亞傳承固定成功；赫碧與兩三位魔法史老教授；艾琳達只考察協助且事先知會即可通過；兩政治選擇與知會分支；委託完整劇情與CG提示詞打包。",
+  "sources": [
+    {
+      "name": "Lioness_Empire_EP08_ACT02_World_Full_Script_27_CG_Prompts_Hebe_v1.0.zip",
+      "library_file_id": "libfile_233cd400aadc819184e71e24d4134e63",
+      "use": "赫碧原圖、前幕銜接、奧莉維亞與芬利視覺原則"
+    },
+    {
+      "name": "Lioness_Empire_EP08_ACT03_Sacred_Complete_v1.1.zip",
+      "library_file_id": "libfile_d99076e1f6c48191ba1a292e423b29d0",
+      "use": "奧瑞亞原圖與文字設計、共同承接對象及部族守護關係；不移植聖光會政治分歧"
+    },
+    {
+      "name": "奧瑞雅的火山部族角色三視圖.png",
+      "library_file_id": "libfile_4df8122d45488191b559b45a801bb614",
+      "use": "同角色展示圖已取得；交付以神聖線包內原三視圖為主"
+    }
+  ],
+  "source_note": "神聖線來源全文末端混入舊提示詞及 shell heredoc 殘留；只作來源閱讀，未複製到本包劇情。",
+  "image_integrity": [
+    {
+      "file": "03_Character_References/Hebe_Character_Sheet_Reference.png",
+      "sha256": "1165db170fd16f779bc7042b5781b1812495ada34a8633e50393382c817df88c",
+      "original_bytes_preserved": true,
+      "pixel_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "file": "03_Character_References/Aurea_Three_View_Reference.png",
+      "sha256": "c288e8e3af56f531662a3871e577371349e912377bb6de52f11e704ad6e4d579",
+      "original_bytes_preserved": true,
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

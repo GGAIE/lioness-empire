@@ -1,0 +1,23 @@
+## W08A03-10｜SC03｜走向山火
+
+Condition: `always`
+
+**Positive prompt**
+
+Wide mountain-path scene in afternoon fading toward dusk. Aurea guides the visitors toward the old sanctuary while academy assistants check a safe stopping place and Finley surveys the route. The three professors walk carefully with staffs and light satchels. Black basalt slopes and low red fissure light, majestic but navigable terrain; no attack, no collapsing ground, no Eirinda yet.
+
+Olivia: adult female regent princess, pale skin, waist-length straight blue-black hair, amber-gold eyes, refined navy and ivory clothing with antique-gold details, lion signet ring, practical travel cloak outdoors, absolutely no crown. Finley: petite androgynous adult with completely human external features, simple refined navy academic clothing, calm and competent, no horns, scales, tail or dragon eyes; retain established project face and hair reference if supplied. Hebe: use the included Hebe_Character_Sheet_Reference.png for exact face, long warm dark-brown hair with partial braids, green eyes, ivory and forest-green layered scholarly robes with gold botanical embroidery, emerald clasp and brown research satchel. Her current role is a natural-spirit history researcher and newly elected academy councillor; do not copy the old sheet typography into the scene. Aurea: use the included Aurea_Three_View_Reference.png for exact identity and wardrobe: young tribal maiden with warm tan skin, amber eyes, long partially braided dark-brown hair with warm reddish tips, small copper ornaments, cream and rust layered practical clothing, charcoal shawl with ember-crack motif, basalt beads, wrapped practical sandals. Modest and quietly determined, never a royal princess or church saint. Exactly three recurring elderly magic-history professors: one elderly man with round spectacles and short silver hair in slate scholarly robes; one elderly man with a long white beard and worn brown robes; one elderly woman with a gray bun and muted plum scholarly robes. Same faces, outfits and satchels across images; these supporting designs are new draft proposals.
+
+Premium 2D Japanese anime visual novel event illustration, detailed linework and painterly cel shading, cinematic 16:9 landscape, refined fantasy material culture of stone, wool, copper, parchment and leather. One single coherent scene, expressive faces, anatomically correct hands, no readable text, no lettering, no speech bubbles, no logo, no watermark. Render at the highest supported landscape resolution; final video delivery target 1920x1080 or higher without stretching.
+
+**Negative prompt**
+
+Extra arms or legs, extra fingers, fused hands, rotated neck, detached limbs, duplicate people, inconsistent clothing, changed hair colors, celebrity likeness, photorealism, 3D render, modern equipment, guns, neon science-fiction screens, readable letters, subtitles, collage, comic panels, watermark, Olivia wearing a crown, nonhuman features on Finley, Aurea as an elf or princess, giant-cat death or explosion, body possession, burning skin, erotic framing, distressed villagers under attack during the completed ritual.
+
+**Identity references**
+
+- `../../03_Character_References/Hebe_Character_Sheet_Reference.png`
+- `../../03_Character_References/Aurea_Three_View_Reference.png`
+
+Production note: exact Eirinda/Finley established image references are not bundled in this package. Preserve project references when available; do not treat descriptive fallback as a new approved redesign.
+

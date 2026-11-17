@@ -66,6 +66,7 @@ export function chapterDirectory(
             ?.completion?.title.split(' · ')
             .slice(1)
             .join(' · ') ||
+          actTitles[`${ch.id}_${id}_${state?.politicalRoute}` as keyof typeof actTitles] ||
           (ch.id === 'PROLOGUE'
             ? ch.title
             : (actTitles[`${ch.id}_${id}` as keyof typeof actTitles] ?? '未命名篇章'));

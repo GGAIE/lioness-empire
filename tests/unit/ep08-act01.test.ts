@@ -143,7 +143,7 @@ it('merges fixed unrest only within an identical upkeep band, preserving afforda
     ...story,
     scenes: Object.fromEntries(
       Object.entries(story.scenes)
-        .filter(([, s]) => !(s.chapter === 'EP08' && s.act === 'ACT02'))
+        .filter(([, s]) => s.chapter !== 'EP08' || s.act === 'ACT01')
         .map(([id, s]) => [
           id,
           s.chapter === 'EP08' && s.completion
