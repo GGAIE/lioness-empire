@@ -1,6 +1,5 @@
 import type { Condition, Story } from '../../../../packages/narrative-core/schema';
-import { actName } from '../../../../packages/narrative-core/directory';
-import actTitles from '../../../../packages/narrative-core/act-titles.json';
+import { actName, actScripture, actTitle } from '../../../../packages/narrative-core/directory';
 
 export type GalleryRoute = 'COMMON' | 'SACRED' | 'WORLD';
 const routes = ['SACRED', 'WORLD'] as const;
@@ -59,8 +58,8 @@ export function galleryActTitle(
   route: GalleryRoute | 'ALL',
   interlude = false
 ) {
-  const titles = actTitles as Record<string, string>;
-  const title = titles[`${chapter}_${act}_${route}`] ?? titles[`${chapter}_${act}`];
+  const title = actTitle(chapter, act, route);
+  const reference = actScripture(chapter, act, route)?.reference;
   const number = Number(act.replace('ACT', ''));
-  return `${interlude ? '幕間' : actName(number)}${title ? ` · ${title}` : ''}`;
+  return `${interlude ? '幕間' : actName(number)}${title ? ` · ${title}` : ''}${reference ? ` · ${reference}` : ''}`;
 }

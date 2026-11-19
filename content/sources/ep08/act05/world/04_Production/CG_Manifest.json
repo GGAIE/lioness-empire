@@ -1,0 +1,172 @@
+[
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG01",
+    "scene": "SC01",
+    "title_zh": "東北塔的下午茶",
+    "branch_condition": "共同",
+    "prompt_path": "02_CG_Prompts/Individual/CG_01_SC01.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG02",
+    "scene": "SC01",
+    "title_zh": "四個人的下午茶",
+    "branch_condition": "共同",
+    "prompt_path": "02_CG_Prompts/Individual/CG_02_SC01.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG03",
+    "scene": "SC02",
+    "title_zh": "艾莉留下的研究",
+    "branch_condition": "共同",
+    "prompt_path": "02_CG_Prompts/Individual/CG_03_SC02.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG04",
+    "scene": "SC02",
+    "title_zh": "艾莉西亞的傳聞",
+    "branch_condition": "共同",
+    "prompt_path": "02_CG_Prompts/Individual/CG_04_SC02.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG05",
+    "scene": "SC03",
+    "title_zh": "芬利提出申請",
+    "branch_condition": "共同",
+    "prompt_path": "02_CG_Prompts/Individual/CG_05_SC03.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG06A",
+    "scene": "SC04-A",
+    "title_zh": "前往奧特丹",
+    "branch_condition": "僅F5批准",
+    "prompt_path": "02_CG_Prompts/Individual/CG_06A_SC04-A.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": false
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG07A",
+    "scene": "SC04-A",
+    "title_zh": "奧特丹的街道",
+    "branch_condition": "僅F5批准",
+    "prompt_path": "02_CG_Prompts/Individual/CG_07A_SC04-A.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": false
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG08A",
+    "scene": "SC04-A",
+    "title_zh": "建設圖與資金表",
+    "branch_condition": "僅F5批准",
+    "prompt_path": "02_CG_Prompts/Individual/CG_08A_SC04-A.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": false
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG09A",
+    "scene": "SC05-A",
+    "title_zh": "奧莉薇雅想到的領主",
+    "branch_condition": "僅F5批准",
+    "prompt_path": "02_CG_Prompts/Individual/CG_09A_SC05-A.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": false
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG10A",
+    "scene": "SC05-A",
+    "title_zh": "沒有簽名的投資協議",
+    "branch_condition": "僅F5批准",
+    "prompt_path": "02_CG_Prompts/Individual/CG_10A_SC05-A.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": false
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG06B",
+    "scene": "SC04-B",
+    "title_zh": "皇家魔法學院的走廊",
+    "branch_condition": "僅F5拒絕",
+    "prompt_path": "02_CG_Prompts/Individual/CG_06B_SC04-B.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG07B",
+    "scene": "SC04-B",
+    "title_zh": "以前的教室",
+    "branch_condition": "僅F5拒絕",
+    "prompt_path": "02_CG_Prompts/Individual/CG_07B_SC04-B.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG08B",
+    "scene": "SC05-B",
+    "title_zh": "古老的研究筆記",
+    "branch_condition": "僅F5拒絕",
+    "prompt_path": "02_CG_Prompts/Individual/CG_08B_SC05-B.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG09B",
+    "scene": "SC05-B",
+    "title_zh": "學院的封印研究資料",
+    "branch_condition": "僅F5拒絕",
+    "prompt_path": "02_CG_Prompts/Individual/CG_09B_SC05-B.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG10B",
+    "scene": "SC05-B",
+    "title_zh": "老師不在的教室",
+    "branch_condition": "僅F5拒絕",
+    "prompt_path": "02_CG_Prompts/Individual/CG_10B_SC05-B.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": true
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG11",
+    "scene": "EPILOGUE",
+    "title_zh": "晚霞中的王都",
+    "branch_condition": "共同",
+    "prompt_path": "02_CG_Prompts/Individual/CG_11_EPILOGUE.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": false
+  },
+  {
+    "cg_id": "EP08_ACT05_WORLD_CG12",
+    "scene": "EPILOGUE",
+    "title_zh": "東線的急報",
+    "branch_condition": "共同",
+    "prompt_path": "02_CG_Prompts/Individual/CG_12_EPILOGUE.md",
+    "image_target_px": "1920x1080",
+    "actual_generated_cg": false,
+    "hebe_original_reference_available": false
+  }
+]

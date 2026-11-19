@@ -70,9 +70,6 @@ manifest.flags[ACT02_PRIORITY] = {
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP01')!,
   {
-    title: hasLaterActs
-      ? manifest.chapters.find((c) => c.id === 'EP01')!.title
-      : '王冠之前 · ACT I–II',
     status: 'DRAFT_AVAILABLE',
   }
 );

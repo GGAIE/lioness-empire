@@ -1,0 +1,33 @@
+﻿cg_id,scene_id,title,condition,actors,filename,status
+CG01,EP08_SACRED_ACT05_SC01,A quiet room after the ice crisis,common,"Olivia, Alicia",LE_CG_EP08_ACT05_CG01_v1.0.png,PROMPT_ONLY
+CG02,EP08_SACRED_ACT05_SC01,Seal is not a weapon,common,"Alicia, Olivia",LE_CG_EP08_ACT05_CG02_v1.0.png,PROMPT_ONLY
+CG03,EP08_SACRED_ACT05_SC01,Finley notices a research lead,common,"Finley, Alicia, Olivia",LE_CG_EP08_ACT05_CG03_v1.0.png,PROMPT_ONLY
+CG04,EP08_SACRED_ACT05_SC01,A moment of laughter at the tower,common,"Olivia, Alicia, Finley",LE_CG_EP08_ACT05_CG04_v1.0.png,PROMPT_ONLY
+CG05,EP08_SACRED_ACT05_SC01,Unexpected holy visitor,common,"Olivia, Alicia, Finley",LE_CG_EP08_ACT05_CG05_v1.0.png,PROMPT_ONLY
+CG06,EP08_SACRED_ACT05_SC02,Mier arrives respectfully,common,Mier,LE_CG_EP08_ACT05_CG06_v1.0.png,PROMPT_ONLY
+CG07,EP08_SACRED_ACT05_SC02,The regent and emissary greet,common,"Olivia, Mier",LE_CG_EP08_ACT05_CG07_v1.0.png,PROMPT_ONLY
+CG08,EP08_SACRED_ACT05_SC02,Three observers and one envoy,common,"Olivia, Mier, Alicia, Finley",LE_CG_EP08_ACT05_CG08_v1.0.png,PROMPT_ONLY
+CG09,EP08_SACRED_ACT05_SC02,Help offered without asking,common,"Mier, Olivia",LE_CG_EP08_ACT05_CG09_v1.0.png,PROMPT_ONLY
+CG10,EP08_SACRED_ACT05_SC02,Olivia studies the hidden terms,common,"Olivia, Mier",LE_CG_EP08_ACT05_CG10_v1.0.png,PROMPT_ONLY
+CG11,EP08_SACRED_ACT05_SC03,The cooperation papers,common,"Mier, Finley",LE_CG_EP08_ACT05_CG11_v1.0.png,PROMPT_ONLY
+CG12,EP08_SACRED_ACT05_SC03,A bureaucrat draws a boundary,common,"Finley, Mier, Olivia",LE_CG_EP08_ACT05_CG12_v1.0.png,PROMPT_ONLY
+CG13,EP08_SACRED_ACT05_SC03,Priests helping those in need,flashback; Mier not physically present; this is local relief volunteers and civilians only,,LE_CG_EP08_ACT05_CG13_v1.0.png,PROMPT_ONLY
+CG14,EP08_SACRED_ACT05_SC03,The church finds its argument,common,"Mier, Olivia",LE_CG_EP08_ACT05_CG14_v1.0.png,PROMPT_ONLY
+CG15,EP08_SACRED_ACT05_SC03,A proposal with two meanings,common,"Mier, Finley, Olivia",LE_CG_EP08_ACT05_CG15_v1.0.png,PROMPT_ONLY
+CG16,EP08_SACRED_ACT05_SC03,The relief window outside,common,Olivia,LE_CG_EP08_ACT05_CG16_v1.0.png,PROMPT_ONLY
+CG17,EP08_SACRED_ACT05_SC04,Alicia opens her evidence,common,"Alicia, Mier",LE_CG_EP08_ACT05_CG17_v1.0.png,PROMPT_ONLY
+CG18,EP08_SACRED_ACT05_SC04,Mier defends actual aid,common,"Mier, Alicia",LE_CG_EP08_ACT05_CG18_v1.0.png,PROMPT_ONLY
+CG19,EP08_SACRED_ACT05_SC04,Olivia sets the reports down,common,"Olivia, Mier",LE_CG_EP08_ACT05_CG19_v1.0.png,PROMPT_ONLY
+CG20,EP08_SACRED_ACT05_SC04,Two kinds of expertise,common,"Alicia, Finley, Olivia",LE_CG_EP08_ACT05_CG20_v1.0.png,PROMPT_ONLY
+CG21,EP08_SACRED_ACT05_SC04,The final scope of authority,common,"Olivia, Mier, Finley",LE_CG_EP08_ACT05_CG21_v1.0.png,PROMPT_ONLY
+CG22,EP08_SACRED_ACT05_SC04,End of the courteous clash,common,"Olivia, Mier, Alicia, Finley",LE_CG_EP08_ACT05_CG22_v1.0.png,PROMPT_ONLY
+CG23,EP08_SACRED_ACT05_SC05,Farewell without a treaty,common,"Mier, Olivia",LE_CG_EP08_ACT05_CG23_v1.0.png,PROMPT_ONLY
+CG24,EP08_SACRED_ACT05_SC05,The departing emissary,common,Mier,LE_CG_EP08_ACT05_CG24_v1.0.png,PROMPT_ONLY
+CG25,EP08_SACRED_ACT05_SC05,"T0 preserved autonomy, gathering discontent",T0,"Olivia, Finley",LE_CG_EP08_ACT05_CG25_v1.0.png,PROMPT_ONLY
+CG26,EP08_SACRED_ACT05_SC05,T1 authority remains measured,T1,"Olivia, Finley, Alicia",LE_CG_EP08_ACT05_CG26_v1.0.png,PROMPT_ONLY
+CG27,EP08_SACRED_ACT05_SC05,T2 a cautiously functioning compromise,T2,"Olivia, Finley, Alicia",LE_CG_EP08_ACT05_CG27_v1.0.png,PROMPT_ONLY
+CG28,EP08_SACRED_ACT05_SC05,T3 uncertain balance,T3,Olivia,LE_CG_EP08_ACT05_CG28_v1.0.png,PROMPT_ONLY
+CG29,EP08_SACRED_ACT05_SC05,T4 inconvenient dependencies,T4,"Olivia, Finley",LE_CG_EP08_ACT05_CG29_v1.0.png,PROMPT_ONLY
+CG30,EP08_SACRED_ACT05_SC05,T5 institutional reliance builds,T5,"Olivia, Alicia, Finley",LE_CG_EP08_ACT05_CG30_v1.0.png,PROMPT_ONLY
+CG31,EP08_SACRED_ACT05_SC05,T6 too much authority given away,T6,"Olivia, Finley, Alicia",LE_CG_EP08_ACT05_CG31_v1.0.png,PROMPT_ONLY
+CG32,EP08_SACRED_ACT05_SC05,Eastern frontline dispatch arrives,common,"Olivia, Alicia, Finley",LE_CG_EP08_ACT05_CG32_v1.0.png,PROMPT_ONLY

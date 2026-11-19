@@ -51,6 +51,8 @@ import { ChapterDirectory } from './screens/ChapterDirectory';
 import { SecretAccess } from './screens/SecretAccess';
 import {
   actName,
+  actScripture,
+  actTitle,
   continueCommittedChoice,
   openDirectorySection,
   matchesStoryPassword,
@@ -88,7 +90,8 @@ function playerEndNotice(story: Story, state: GameState, unlocked = false): Sett
   const chapter = story.manifest.chapters.find(
     (c) => c.id === story.scenes[state.currentSceneId].chapter
   );
-  if (chapter) notice.lines[0] = `本章：${chapter.id} ${chapter.title.replace(/ · ACT.*$/, '')}`;
+  if (chapter)
+    notice.lines[0] = `本章：${chapter.id} ${chapter.title}${chapter.subtitle ? `〈${chapter.subtitle}〉` : ''}`;
   return notice;
 }
 export default function App() {
@@ -231,10 +234,69 @@ function Game({
     key,
     dialogueHidden
   );
+  const completion = scene.completion;
+  const chapter = story.manifest.chapters.find((entry) => entry.id === scene.chapter);
+  const nextChapter = story.manifest.chapters.find(
+    (entry) => entry.id === completion?.nextChapterId
+  );
+  const title =
+    completion?.scope === 'CHAPTER'
+      ? chapter?.title
+      : actTitle(scene.chapter, scene.act, state.politicalRoute);
+  const completionSubtitle =
+    completion?.scope === 'CHAPTER'
+      ? chapter?.subtitle
+      : actScripture(scene.chapter, scene.act, state.politicalRoute)?.reference;
+  const completionTitle =
+    completion && title && !scene.specialEnding && scene.chapter !== 'PROLOGUE'
+      ? `${completion.title.split(' · ')[0]} · ${title}`
+      : completion?.title;
+  const destination = completion?.nextSceneId ? story.scenes[completion.nextSceneId] : undefined;
+  const destinationAct =
+    destination?.act ??
+    (completion?.pendingLabel && completion.nextChapterId === scene.chapter
+      ? `ACT${String(Number(scene.act.slice(3)) + 1).padStart(2, '0')}`
+      : undefined);
+  const nextActTitle =
+    nextChapter && destinationAct
+      ? actTitle(nextChapter.id, destinationAct, state.politicalRoute)
+      : undefined;
+  // Keep the authored navigation wording and resolve its titles by destination.
+  const chapterReference = /^(EP\d{2}|第[一二三四五六七八九十]+章)〈[^〉]+〉/;
+  const actReference = /(ACT [IVX]+|第[一二三四五六七八九十0-9]+幕|幕間)〈[^〉]+〉/;
+  const updateTitles = (label: string | undefined) => {
+    if (!label) return undefined;
+    const chapterLabel = nextChapter
+      ? label.replace(chapterReference, (_, prefix) => `${prefix}〈${nextChapter.title}〉`)
+      : label;
+    if (!nextActTitle) return chapterLabel;
+    if (actReference.test(chapterLabel)) {
+      return chapterLabel.replace(actReference, (_, prefix) => `${prefix}〈${nextActTitle}〉`);
+    }
+    return destination?.chapter === scene.chapter && destination.act !== scene.act
+      ? nextActTitle
+      : chapterLabel;
+  };
+  const nextLabel = updateTitles(completion?.nextLabel);
+  const pendingLabel = updateTitles(completion?.pendingLabel)?.replace('劇本尚未提供', '敬請期待');
+  const previewLabel = completion?.nextSceneId
+    ? (nextLabel ??
+      (scene.chapter === 'PROLOGUE'
+        ? `EP01〈${nextChapter?.title}〉· ACT I〈${nextActTitle}〉`
+        : nextChapter?.title))
+    : (pendingLabel ??
+      (completion && `${nextChapter?.title ?? completion.nextChapterId} · 敬請期待`));
+  const previewSubtitle =
+    nextChapter && nextChapter.id !== scene.chapter ? nextChapter.subtitle : undefined;
+  const previewReference =
+    nextChapter && destinationAct && nextActTitle && previewLabel?.includes(nextActTitle)
+      ? actScripture(nextChapter.id, destinationAct, state.politicalRoute)?.reference
+      : undefined;
   const chapterContinue = last && Boolean(scene.completion?.nextSceneId);
   const storyContinue =
     writer.complete &&
-    (chapterContinue ||
+    ((scene.specialEnding === 'ARCANA_06' && last) ||
+      chapterContinue ||
       (!(last && (scene.kind === 'end' || scene.kind === 'choice')) &&
         (last
           ? Boolean(nextSceneId(story, state))
@@ -289,7 +351,8 @@ function Game({
     settings.sfx,
     settings.musicTrack,
     notify,
-    started && scene.transient === true
+    started && (scene.transient === true || scene.specialEnding === 'ARCANA_06'),
+    scene.specialEnding === 'ARCANA_06'
   );
   const refreshSaves = useCallback(async () => {
     try {
@@ -397,7 +460,14 @@ function Game({
     };
   }, [state, started, pending, store, scene.transient]);
   useEffect(() => {
-    if (!started || !scene.specialEnding || !last || !writer.complete || dialogueHidden || panel)
+    if (
+      !started ||
+      scene.specialEnding !== 'RETURN_TO_TITLE' ||
+      !last ||
+      !writer.complete ||
+      dialogueHidden ||
+      panel
+    )
       return;
     const timer = setTimeout(() => {
       const snapshot = specialReturnRef.current;
@@ -417,10 +487,25 @@ function Game({
     }, 1800);
     return () => clearTimeout(timer);
   }, [started, scene.specialEnding, last, writer.complete, dialogueHidden, panel, store, notify]);
+  useEffect(() => {
+    if (started && scene.specialEnding === 'ARCANA_06') {
+      specialReturnRef.current = null;
+      setAuto(false);
+      setSkip(false);
+      setPanel(null);
+      setPending(null);
+      setSettlement(null);
+      setDialogueHidden(false);
+    }
+  }, [started, scene.specialEnding]);
   const move = useCallback(() => {
     if (panel || pending || settlement || dialogueHidden || !started) return;
     if (!writer.complete) {
       writer.reveal();
+      return;
+    }
+    if (scene.specialEnding === 'ARCANA_06' && last) {
+      void returnToTitle();
       return;
     }
     if (chapterContinue) {
@@ -430,7 +515,11 @@ function Game({
         const before = stateRef.current;
         const next = continueChapter(story, before, settings.storyUnlocked);
         setState(next);
-        if (before.campaign && next.campaign) {
+        if (
+          before.campaign &&
+          next.campaign &&
+          story.scenes[next.currentSceneId].specialEnding !== 'ARCANA_06'
+        ) {
           const notice = chapterStartNotice(before.campaign, next.campaign);
           if (notice) setSettlement(notice);
         }
@@ -477,7 +566,8 @@ function Game({
     }
   };
   useEffect(() => {
-    if (panel || pending || !started || (!auto && !skip)) return;
+    if (panel || pending || !started || scene.specialEnding === 'ARCANA_06' || (!auto && !skip))
+      return;
     if (skip && !skipKnown.current.has(segmentKey(story, state))) {
       setSkip(false);
       notify('已到達尚未閱讀的段落。');
@@ -695,7 +785,7 @@ function Game({
   ] as const;
   return (
     <main
-      className={`shell${started ? '' : ' shell--title'}${dialogueHidden ? ' shell--dialogue-hidden' : ''}`}
+      className={`shell${started ? '' : ' shell--title'}${dialogueHidden ? ' shell--dialogue-hidden' : ''}${started && scene.specialEnding === 'ARCANA_06' ? ' shell--resource-ending' : ''}`}
     >
       <audio
         ref={audio.musicRef}
@@ -735,7 +825,7 @@ function Game({
         </aside>
         <section
           ref={frameRef}
-          className={`game-frame${started && scene.specialEnding && last && writer.complete ? ' special-ending-fade' : ''}`}
+          className={`game-frame${started && scene.specialEnding === 'RETURN_TO_TITLE' && last && writer.complete ? ' special-ending-fade' : ''}`}
           aria-label="視覺小說閱讀器"
           data-scene-id={scene.id}
           data-segment-id={segment.id}
@@ -837,13 +927,21 @@ function Game({
                     {scene.chapter} /{' '}
                     {scene.completion.scope === 'ACT' ? `${scene.act} COMPLETE` : 'COMPLETE'}
                   </span>
-                  <h3>{scene.completion.title}</h3>
-                  <p>
-                    {scene.completion.nextSceneId
-                      ? (scene.completion.nextLabel ?? 'EP01〈王冠之前〉· ACT I〈平靜被打破〉')
-                      : (scene.completion.pendingLabel?.replace('劇本尚未提供', '敬請期待') ??
-                        `${scene.completion.nextChapterId} · 敬請期待`)}
-                  </p>
+                  <h3>{completionTitle}</h3>
+                  {completionSubtitle && (
+                    <p
+                      className={
+                        scene.completion.scope === 'CHAPTER'
+                          ? 'chapter-subtitle'
+                          : 'scripture-reference'
+                      }
+                    >
+                      {completionSubtitle}
+                    </p>
+                  )}
+                  <p>{previewLabel}</p>
+                  {previewSubtitle && <p className="chapter-subtitle">{previewSubtitle}</p>}
+                  {previewReference && <p className="scripture-reference">{previewReference}</p>}
                   <small>
                     政治點數 {state.campaign?.politicalPoints ?? '待設定'} · 動盪{' '}
                     {state.campaign?.unrest ?? '待設定'} ·{' '}
@@ -901,7 +999,12 @@ function Game({
                 <div className={`dialogue-bottom${storyContinue ? ' has-story-continue' : ''}`}>
                   {storyContinue ? (
                     <button ref={continueRef} className="primary story-continue" onClick={move}>
-                      {chapterContinue ? continueLabel : '繼續'} →
+                      {scene.specialEnding === 'ARCANA_06' && last
+                        ? '返回主畫面'
+                        : chapterContinue
+                          ? continueLabel
+                          : '繼續'}{' '}
+                      →
                     </button>
                   ) : (
                     <span>
@@ -909,8 +1012,7 @@ function Game({
                         ? '點擊顯示全文'
                         : scene.kind === 'end' && last
                           ? scene.completion
-                            ? (scene.completion.pendingLabel?.replace('劇本尚未提供', '敬請期待') ??
-                              '待續')
+                            ? (pendingLabel ?? '待續')
                             : '故事告一段落'
                           : scene.kind === 'choice' && last
                             ? '選擇下一步'
@@ -1013,7 +1115,7 @@ function Game({
           </button>
         </dialog>
       )}
-      {message && !panel && !pending && (
+      {message && !panel && !pending && !(started && scene.specialEnding === 'ARCANA_06') && (
         <div
           className={`toast${message === '結局已達成〈回主畫面〉' ? ' special-ending-toast' : ''}`}
           role="status"

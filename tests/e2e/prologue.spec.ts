@@ -60,7 +60,7 @@ test('plays source CG scenes, saves/restores correctly, ends at flashback, and n
   await expect(page.locator('.stage')).toHaveClass(/stage-black/);
   await expect(page.getByRole('region', { name: '章節完成', exact: true })).toContainText('序幕完');
   await expect(page.getByRole('region', { name: '章節完成', exact: true })).toContainText(
-    'EP01〈王冠之前〉· ACT I〈平靜被打破〉'
+    'EP01〈The Call〉· ACT I〈凡事都有定期，天下萬務都有定時〉'
   );
   await expect(page.getByRole('alertdialog')).toHaveCount(0);
   await expect(page.getByLabel('劇情選項')).toHaveCount(0);

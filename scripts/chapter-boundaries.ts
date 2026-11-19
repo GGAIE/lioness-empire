@@ -22,7 +22,7 @@ const effectsOf = (s: Scene): Effect[] => [
   })),
 ];
 
-// Terminal chapters can be checked separately when all decisions depend only on
+// Chapters can be checked separately when all decisions depend only on
 // their own newly introduced flags, the locked route, and exhaustively seeded
 // resources. Incoming historical flags, character progress and route changes
 // remain part of the ordinary cross-chapter graph.
@@ -148,8 +148,12 @@ export function independentChapters(story: Story): Set<string> {
           ownCondition(s.availableWhen) &&
           s.segments.every((p) => ownCondition(p.when)) &&
           local(s.next) &&
-          local(s.completion?.nextSceneId) &&
-          (s.kind !== 'end' || s.completion?.scope === 'ACT') &&
+          (local(s.completion?.nextSceneId) ||
+            (s.completion?.scope === 'CHAPTER' &&
+              story.scenes[s.completion.nextSceneId!]?.chapter === s.completion.nextChapterId)) &&
+          (s.kind !== 'end' ||
+            s.completion?.scope === 'ACT' ||
+            s.completion?.scope === 'CHAPTER') &&
           s.choices.every(
             (c) =>
               c.effects.every((e) => e.type === 'points' || e.type === 'unrest' || ownWrite(e)) &&
@@ -162,6 +166,25 @@ export function independentChapters(story: Story): Set<string> {
       )
     )
       eligible.add(chapter.id);
+  }
+  // An outgoing chapter boundary is factored only if its destination has the
+  // same certificate. Prune backwards so dependencies cannot escape verification.
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const id of [...eligible]) {
+      const unsafe = Object.values(story.scenes).some(
+        (s) =>
+          s.chapter === id &&
+          s.completion?.nextSceneId &&
+          s.completion.nextChapterId !== id &&
+          !eligible.has(s.completion.nextChapterId)
+      );
+      if (unsafe) {
+        eligible.delete(id);
+        changed = true;
+      }
+    }
   }
   return eligible;
 }
@@ -197,7 +220,9 @@ export function independentEntryStates(story: Story, chapter: string) {
     return total;
   };
   // Seed every exact low balance up to this bound, including affordability edges.
-  const budget = Math.max(0, ...independentEntryScenes(story, chapter).map((s) => bound(s.id)));
+  const budget =
+    Math.max(0, ...independentEntryScenes(story, chapter).map((s) => bound(s.id))) +
+    (story.manifest.resourceExhaustionEnding ? 1 : 0);
   return independentEntryScenes(story, chapter).flatMap((scene) => {
     const condition = scene.availableWhen;
     const route =
@@ -254,15 +279,18 @@ export function verifyChapterBoundaries(story: Story, chapters: Set<string>) {
           const next = continueChapter(story, read);
           if (points < cost) throw Error('Entry allowed with insufficient points');
           const receipts = next.campaign!.upkeep.filter((r) => r.chapter === end.nextChapterId);
+          const exhaustion = story.manifest.resourceExhaustionEnding;
+          const depleted = !!exhaustion && cost > 0 && points === cost;
+          const expectedFlags = depleted ? { ...read.flags, [exhaustion!.flag]: true } : read.flags;
           if (
-            next.currentSceneId !== target.id ||
+            next.currentSceneId !== (depleted ? exhaustion!.scene : target.id) ||
             next.campaign!.politicalPoints !== points - cost ||
             next.campaign!.unrest !== unrest ||
             receipts.length !== 1 ||
             receipts[0].cost !== cost ||
             enterPlayerChapter(story, next, end.nextChapterId).campaign!.politicalPoints !==
               points - cost ||
-            JSON.stringify(next.flags) !== JSON.stringify(read.flags) ||
+            JSON.stringify(next.flags) !== JSON.stringify(expectedFlags) ||
             JSON.stringify(next.clear) !== JSON.stringify(read.clear)
           )
             throw Error('Entry changed progress or applied the wrong fee');

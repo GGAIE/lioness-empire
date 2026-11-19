@@ -60,7 +60,7 @@ it('imports 25 nodes, 312 paragraphs, 20 CGs and five zero-effect decisions with
         .flatMap((s) => s.segments.filter((p) => p.cg))
     ).toHaveLength(4);
   expect(chapterDirectory(story)[2].acts[0].sections).toHaveLength(5);
-  expect(chapterDirectory(story)[2].title).toBe('留下來的人');
+  expect(chapterDirectory(story)[2].title).toBe('The Weight');
   expect(story.assets.find((a) => a.id === 'EP02-ACT01-CG04-02')?.src).toMatch(/v0\.9-r2\.png$/);
 });
 it('plays all 243 combinations with the same chronology, CGs, resources, facts and prior decisions', () => {

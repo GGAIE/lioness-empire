@@ -72,19 +72,19 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沿著長廊緩步前行。她曾經無數次經過這裡。作為王女時，所有人都會向她行禮。但今天不同。他們行禮之後，還會多看她一眼，彷彿正在重新估量她所代表的政治分量。",
+          "text": "奧莉薇雅沿著長廊緩步前行。她曾經無數次經過這裡。作為王女時，所有人都會向她行禮。但今天不同。他們行禮之後，還會多看她一眼，彷彿正在重新估量她所代表的政治分量。",
           "cg": "EP04-ACT01-CG01-02"
         },
         {
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉站在大廳入口，確認最後一批儀仗人員的位置。"
+          "text": "塔瑪拉站在大廳入口，確認最後一批儀仗人員的位置。"
         },
         {
           "id": "L005",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下，王室席位已經安排妥當。第一騎士團負責儀式內側警戒，第二騎士團負責廳外通道。」"
@@ -92,7 +92,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「父王呢？」",
@@ -101,7 +101,7 @@
         {
           "id": "L007",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「依照今早的醫療評估，陛下不宜長時間出席。正式授權文書已完成本人確認，稍後將在大廳宣讀。」"
@@ -109,7 +109,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以今天只是宣告？」"
@@ -117,7 +117,7 @@
         {
           "id": "L009",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「不完全是。對各官署來說，今天才是他們能夠正式依照新授權辦事的開始。」"
@@ -132,12 +132,12 @@
           "id": "L011",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉確認周圍無人靠得太近，忽然露出笑容。"
+          "text": "塔瑪拉確認周圍無人靠得太近，忽然露出笑容。"
         },
         {
           "id": "L012",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以，今天終於輪到妳坐在那個位置了。感覺怎麼樣？」"
@@ -204,7 +204,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「說不緊張是騙人的。」"
@@ -212,7 +212,7 @@
         {
           "id": "L002",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「難得聽妳說這種話。放心，今天我會盯著。」"
@@ -267,7 +267,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「只是換了一張辦公桌而已。」"
@@ -275,7 +275,7 @@
         {
           "id": "L002",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「希望妳看見送來的公文數量之後，還能這麼說。」"
@@ -284,7 +284,7 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞忍不住笑了一下。"
+          "text": "奧莉薇雅忍不住笑了一下。"
         }
       ],
       "choices": [],
@@ -330,7 +330,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我比較想知道午餐還能不能準時吃。」"
@@ -338,7 +338,7 @@
         {
           "id": "L002",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「如果妳現在就開始擔心這件事，那恐怕有點晚了。」"
@@ -409,7 +409,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "遠處傳來禮官準備就緒的通報。奧莉維亞最後整理了一下衣袖，走進覲見大廳。"
+          "text": "遠處傳來禮官準備就緒的通報。奧莉薇雅最後整理了一下衣袖，走進覲見大廳。"
         },
         {
           "id": "L002",
@@ -421,7 +421,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「至少今天，我還不需要坐在父王的位置上。」",
@@ -539,7 +539,7 @@
           "speakerLabel": "王室文書官",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「經國王本人裁定，授權王女奧莉維亞・艾蕾諾爾・德安杜旺斯，於正式授權文書指定之期限內，代理處置王國中央行政事務。」"
+          "text": "「經國王本人裁定，授權王女奧莉薇雅・艾蕾諾爾・德安杜旺斯，於正式授權文書指定之期限內，代理處置王國中央行政事務。」"
         },
         {
           "id": "L007",
@@ -567,7 +567,7 @@
           "id": "L010",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "文書官將卷軸交由禮官確認。奧莉維亞走向中央。她沒有走向王座，而是停在王座前方的宣誓位置。"
+          "text": "文書官將卷軸交由禮官確認。奧莉薇雅走向中央。她沒有走向王座，而是停在王座前方的宣誓位置。"
         },
         {
           "id": "L011",
@@ -575,12 +575,12 @@
           "speakerLabel": "禮官",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「奧莉維亞殿下，是否願意承擔此項職責？」"
+          "text": "「奧莉薇雅殿下，是否願意承擔此項職責？」"
         },
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我願意。」"
@@ -588,7 +588,7 @@
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我將依父王授權，處理王國當前之行政責任，維持現有法統，尊重王儲的合法地位。」"
@@ -596,7 +596,7 @@
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我所行使的權力，只屬於王國所託付的職責。」"
@@ -604,7 +604,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「若有不能自行決斷之事，應依法律與王命呈報；若有執行不當之處，也應留下可供追究的紀錄。」"
@@ -621,7 +621,7 @@
           "id": "L017",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "王室文書官將攝政印信交到奧莉維亞面前。她伸手接過。印信比她想像中沉。",
+          "text": "王室文書官將攝政印信交到奧莉薇雅面前。她伸手接過。印信比她想像中沉。",
           "cg": "EP04-ACT01-CG02-03"
         },
         {
@@ -636,7 +636,7 @@
           "id": "L019",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "鐘聲再次響起。大廳裡響起整齊的掌聲。奧莉維亞微微低頭。",
+          "text": "鐘聲再次響起。大廳裡響起整齊的掌聲。奧莉薇雅微微低頭。",
           "cg": "EP04-ACT01-CG02-04"
         }
       ],
@@ -700,7 +700,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「願我不負父王的信任。」"
@@ -754,7 +754,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「感謝諸位今日的見證。」"
@@ -808,7 +808,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「接下來，還請各位多多指教。」"
@@ -874,13 +874,13 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞抬起頭。大廳裡仍有許多人望著她。有些人顯然鬆了一口氣；有人低聲交談；還有人在禮官宣布儀式結束之前，便朝她的方向挪動腳步。",
+          "text": "奧莉薇雅抬起頭。大廳裡仍有許多人望著她。有些人顯然鬆了一口氣；有人低聲交談；還有人在禮官宣布儀式結束之前，便朝她的方向挪動腳步。",
           "cg": "EP04-ACT01-CG02-05"
         },
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「原來如此。從現在開始，所有人都知道該把公文送給誰了。」"
@@ -959,7 +959,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "正式儀式結束後，王宮按照慣例安排簡短的祝賀。然而奧莉維亞很快發現，今日的祝賀似乎特別熱烈。",
+          "text": "正式儀式結束後，王宮按照慣例安排簡短的祝賀。然而奧莉薇雅很快發現，今日的祝賀似乎特別熱烈。",
           "cg": "EP04-ACT01-CG03-01"
         },
         {
@@ -988,7 +988,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「大人過獎了。只是把一些不必要的程序簡化。」"
@@ -1004,7 +1004,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那麼，往後還需要仰賴各位的經驗。」"
@@ -1020,7 +1020,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我會記住大人的推薦。」"
@@ -1043,7 +1043,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「他們有什麼意見？」"
@@ -1059,7 +1059,7 @@
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「原來大人與商會也很熟悉？」"
@@ -1075,7 +1075,7 @@
         {
           "id": "L016",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那麼，往後還請大人協助。」"
@@ -1106,7 +1106,7 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「請說。」"
@@ -1122,10 +1122,10 @@
         {
           "id": "L022",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「授權範圍內的事項，可以依正式程序交由攝政辦公體系處理。其他事項，仍照原本的法律與權限辦理。」"
+          "text": "「在授權裡的事，照正式程序交給攝政辦公室辦；沒授權的，仍由原來有權的人依法處理。」"
         },
         {
           "id": "L023",
@@ -1139,7 +1139,7 @@
           "id": "L024",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著他的表情。那不是畏懼，也不像單純的討好，更像一個多年身處官僚體系的人，正在確認接下來如何維持自己的工作。"
+          "text": "奧莉薇雅看著他的表情。那不是畏懼，也不像單純的討好，更像一個多年身處官僚體系的人，正在確認接下來如何維持自己的工作。"
         }
       ],
       "choices": [
@@ -1203,7 +1203,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「承蒙各位厚愛。」"
@@ -1266,7 +1266,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「希望往後也能得到各位協助。」"
@@ -1329,7 +1329,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「原來諸位這麼支持行政改革。」"
@@ -1346,7 +1346,7 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞微笑點頭，沒有再追問。"
+          "text": "奧莉薇雅微笑點頭，沒有再追問。"
         }
       ],
       "choices": [],
@@ -1403,7 +1403,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "祝賀持續進行。奧莉維亞覺得自己今天聽見的稱讚，恐怕比過去幾個月加起來還多。她甚至開始懷疑，王宮是不是為了攝政儀式，特別準備了一份適用於所有場合的讚美詞彙。",
+          "text": "祝賀持續進行。奧莉薇雅覺得自己今天聽見的稱讚，恐怕比過去幾個月加起來還多。她甚至開始懷疑，王宮是不是為了攝政儀式，特別準備了一份適用於所有場合的讚美詞彙。",
           "cg": "EP04-ACT01-CG03-05"
         }
       ],
@@ -1473,19 +1473,19 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "祝賀持續了一段時間。奧莉維亞已經記不清，自己究竟聽見了多少次「王國幸甚」。她端起茶杯，終於得到片刻安靜。",
+          "text": "祝賀持續了一段時間。奧莉薇雅已經記不清，自己究竟聽見了多少次「王國幸甚」。她端起茶杯，終於得到片刻安靜。",
           "cg": "EP04-ACT01-CG04-01"
         },
         {
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉走到一旁。"
+          "text": "塔瑪拉走到一旁。"
         },
         {
           "id": "L003",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「看來今天大家都很高興。」",
@@ -1494,7 +1494,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「是啊。」"
@@ -1502,7 +1502,7 @@
         {
           "id": "L005",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳不高興？」"
@@ -1510,7 +1510,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「高興。只是有點意外。」",
@@ -1519,7 +1519,7 @@
         {
           "id": "L007",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「意外什麼？」"
@@ -1527,7 +1527,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「前幾天整頓行政機構的時候，我還以為會有很多人不滿。結果今天卻有那麼多人來祝賀。」"
@@ -1536,7 +1536,7 @@
           "id": "L009",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉看向遠處的人群。"
+          "text": "塔瑪拉看向遠處的人群。"
         }
       ],
       "choices": [
@@ -1600,7 +1600,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「看來大家真的很高興。」"
@@ -1608,7 +1608,7 @@
         {
           "id": "L002",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「至少今天他們看起來是這樣。」"
@@ -1617,7 +1617,7 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞輕輕點頭。"
+          "text": "奧莉薇雅輕輕點頭。"
         }
       ],
       "choices": [],
@@ -1663,7 +1663,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我以前有這麼受歡迎嗎？」"
@@ -1671,7 +1671,7 @@
         {
           "id": "L002",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「以前也有人歡迎妳，只是沒這麼多人排隊。」"
@@ -1680,7 +1680,7 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞忍不住笑了。"
+          "text": "奧莉薇雅忍不住笑了。"
         }
       ],
       "choices": [],
@@ -1726,7 +1726,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這裡面有多少是真心話？」"
@@ -1734,7 +1734,7 @@
         {
           "id": "L002",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳要是知道怎麼分辨，記得教我。」"
@@ -1743,7 +1743,7 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞望著手中的茶杯，沒有立即回答。"
+          "text": "奧莉薇雅望著手中的茶杯，沒有立即回答。"
         }
       ],
       "choices": [],
@@ -1805,7 +1805,7 @@
         {
           "id": "L001",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「可能有人真的認為改革有必要。也可能有人只是覺得，現在最好跟妳說幾句好話。」"
@@ -1813,7 +1813,7 @@
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「還有呢？」"
@@ -1821,7 +1821,7 @@
         {
           "id": "L003",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「還有些人只是想知道，以後辦事該找誰。」"
@@ -1829,7 +1829,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「倒也合理。」"
@@ -1843,16 +1843,16 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
-          "text": "「一個懂舊程序的人。一個熟悉商會的人。還有一個知道每項職務應該向誰報告的人。如果我想讓王國繼續運作，似乎還真的少不了他們。」",
+          "text": "「舊程序得有人懂，商會得有人熟，還得有人知道每份差事該往哪裡報。看來想讓王國繼續動下去，我還真少不了他們。」",
           "cg": "EP04-ACT01-CG04-04"
         },
         {
           "id": "L007",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳在看什麼？」",
@@ -1861,7 +1861,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「沒什麼。只是在想，我們前幾天究竟裁掉了多少辦公室。」"
@@ -1869,7 +1869,7 @@
         {
           "id": "L009",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這件事妳應該比我清楚。」"
@@ -1877,7 +1877,7 @@
         {
           "id": "L010",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「嗯。但辦公室裡的人，總不會跟著辦公室一起消失吧？」"
@@ -1885,7 +1885,7 @@
         {
           "id": "L011",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「當然不會。」"
@@ -1894,7 +1894,7 @@
           "id": "L012",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有再說話，心裡仍惦記著那個再普通不過的疑問。"
+          "text": "奧莉薇雅沒有再說話，心裡仍惦記著那個再普通不過的疑問。"
         }
       ],
       "choices": [],
@@ -1970,7 +1970,7 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞坐在桌前。攝政印信放在她的右手邊。白天的鐘聲彷彿仍在耳際。"
+          "text": "奧莉薇雅坐在桌前。攝政印信放在她的右手邊。白天的鐘聲彷彿仍在耳際。"
         },
         {
           "id": "L003",
@@ -1988,7 +1988,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「原本只是臨時的工作。後來變成一個職務。再後來，又需要另外的人監督這個職務。」"
@@ -2022,7 +2022,7 @@
         {
           "id": "L010",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「進來吧。」"
@@ -2045,7 +2045,7 @@
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「順利得有點不像話。」"
@@ -2061,7 +2061,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「也許吧。」"
@@ -2134,7 +2134,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有沒有興趣陪我聊聊以前的研究？」"
@@ -2151,7 +2151,7 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞點頭。"
+          "text": "奧莉薇雅點頭。"
         }
       ],
       "choices": [],
@@ -2197,7 +2197,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我忽然想起一個我們以前討論過的帝國。」"
@@ -2213,7 +2213,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「你倒是很了解我。」"
@@ -2262,7 +2262,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先喝杯茶吧，我有件事想問你。」"
@@ -2278,7 +2278,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「只是剛好想起一件事。」"
@@ -2362,7 +2362,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「你還記得我們以前在學院研究過的薩克敵嗎？」",
@@ -2385,7 +2385,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我今天忽然想到，那個帝國最後的問題……」"
@@ -2481,12 +2481,12 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞將那本筆記推向芬利。"
+          "text": "奧莉薇雅將那本筆記推向芬利。"
         },
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「你還記得我們以前在學院研究過的薩克迪嗎？」"
@@ -2508,7 +2508,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我今天忽然想起來。歷史課本總說，薩克迪是被外敵打垮的。」"
@@ -2537,7 +2537,7 @@
         {
           "id": "L010",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「因為簡單。帝國強盛、外敵入侵、防線崩潰、首都陷落。故事到這裡就結束了。」"
@@ -2553,7 +2553,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「就像只要找到最後一根斷掉的樑柱，就假裝整棟房子不是早就空心了。」"
@@ -2575,7 +2575,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「哪一點？」"
@@ -2612,7 +2612,7 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「但我們當年越查越覺得，不對勁。」"
@@ -2687,7 +2687,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「外敵或許真的很強，但那不是全部。」"
@@ -2744,7 +2744,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「歷史書最擅長把複雜的事講成一句話。」"
@@ -2801,7 +2801,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「被記住的，往往只是最方便記住的結果。」"
@@ -2870,12 +2870,12 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞把椅背稍稍往後靠。"
+          "text": "奧莉薇雅把椅背稍稍往後靠。"
         },
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就從最簡單的地方開始。若薩克迪不是單純亡於外敵，那它是先從哪裡壞掉的？」"
@@ -2982,7 +2982,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以問題不是『有官署』，而是『官署怎麼變成後來那個樣子』。」"
@@ -3013,7 +3013,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「而且很可能真的救到了。」"
@@ -3029,7 +3029,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「因為一旦撤掉，下次有危機時，誰也不想背責任。」"
@@ -3044,7 +3044,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「最開始只是例外處理。後來成了常設機構。」"
@@ -3061,12 +3061,12 @@
           "id": "L013",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞忍不住笑了一下，但很快又收斂。"
+          "text": "奧莉薇雅忍不住笑了一下，但很快又收斂。"
         },
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「真難看。」"
@@ -3141,7 +3141,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「當時的統治者，可能根本沒有其他選擇。」"
@@ -3198,7 +3198,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「真正的問題不是設立，而是沒有人規定何時撤除。」"
@@ -3255,7 +3255,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「也許從那時起，就有人學會利用危機擴張權力。」"
@@ -3324,12 +3324,12 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞伸手把筆記壓平。"
+          "text": "奧莉薇雅伸手把筆記壓平。"
         },
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以薩克迪的可怕之處，不是它做錯了一件大事。」"
@@ -3345,7 +3345,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「直到這些小事彼此疊在一起，變成沒有任何人能拆掉的東西。」"
@@ -3438,7 +3438,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「最後一批魔導核心？」"
@@ -3449,7 +3449,7 @@
           "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「對。工坊完成製造，軍方提出請求，運輸也準備好了。問題是，每個機構都還有自己的核准程序。」"
+          "text": "「對。東西造好了，軍方也開了口，連車都備妥了。偏偏每個機構都還有一道要自己點頭的關。」"
         },
         {
           "id": "L005",
@@ -3461,7 +3461,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「最糟糕的地方在於，這裡看起來不像陰謀。」"
@@ -3477,7 +3477,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「每個人都在做自己的工作。」"
@@ -3508,7 +3508,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「——那麼輸掉戰爭的，未必是軍隊。」"
@@ -3581,7 +3581,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「最該負責的是決定程序的人。」"
@@ -3638,7 +3638,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「照程序做事的人，也不能永遠說自己沒有責任。」"
@@ -3695,7 +3695,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「也許真正的問題是，這件事根本不能只怪某個人。」"
@@ -3763,7 +3763,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「一個國家真正危險的時候，也許不是有人公開叛國的時候。」"
@@ -3780,7 +3780,7 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有立刻接話，只看著車隊停在門前的想像圖。那裡沒有尖叫、沒有屍體、沒有烈火，卻已在崩潰。卻比戰場更令人不安。"
+          "text": "奧莉薇雅沒有立刻接話，只看著車隊停在門前的想像圖。那裡沒有尖叫、沒有屍體、沒有烈火，卻已在崩潰。卻比戰場更令人不安。"
         },
         {
           "id": "L004",
@@ -3862,13 +3862,13 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "兩人從歷史的想像中收回思緒，書房裡的燭光依舊搖曳。奧莉維亞抬手按了按眉心。",
+          "text": "兩人從歷史的想像中收回思緒，書房裡的燭光依舊搖曳。奧莉薇雅抬手按了按眉心。",
           "cg": "EP04-ACT02-CG04-01"
         },
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「說起來，今天倒有幾個人特別高興。」"
@@ -3884,7 +3884,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「路德維克、馬提厄、赫爾曼。前陣子王宮才精簡了一批冗餘機構，他們今天卻笑得比誰都熱情。」"
@@ -3900,7 +3900,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「懷疑還談不上。我只是覺得，他們未免太早知道該向誰示好了。」"
@@ -3909,7 +3909,7 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞想起白日的祝賀廳。路德維克溫和地說，自己願意全力配合文書協調；馬提厄自然地談起商務與運輸流程可以由他親自協調；赫爾曼則非常在意往後人事與請示路徑。",
+          "text": "奧莉薇雅想起白日的祝賀廳。路德維克溫和地說，自己願意全力配合文書協調；馬提厄自然地談起商務與運輸流程可以由他親自協調；赫爾曼則非常在意往後人事與請示路徑。",
           "cg": "EP04-ACT02-CG04-02"
         },
         {
@@ -3923,7 +3923,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我不否認。」"
@@ -3940,12 +3940,12 @@
           "id": "L011",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看向桌邊那幾份今天才送來的履歷與交接摘要。"
+          "text": "奧莉薇雅看向桌邊那幾份今天才送來的履歷與交接摘要。"
         },
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「薩克迪晚期，也有這種人嗎？」"
@@ -3961,7 +3961,7 @@
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「聽起來，沒有哪一種特別邪惡。」"
@@ -3993,12 +3993,12 @@
           "id": "L018",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看向空杯。"
+          "text": "奧莉薇雅看向空杯。"
         },
         {
           "id": "L019",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「一壺茶也需要時間？」"
@@ -4026,7 +4026,7 @@
         {
           "id": "L023",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以我的茶，現在卡在哪一關？」"
@@ -4048,7 +4048,7 @@
         {
           "id": "L026",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「你如果笑出來，我就讓你去填那份申請。」"
@@ -4124,7 +4124,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「不用了，我自己泡。」"
@@ -4140,7 +4140,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「放心，我只是想先喝到茶。」"
@@ -4189,7 +4189,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就照程序來吧。」"
@@ -4205,7 +4205,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我想看看這壺茶多久才會抵達。」"
@@ -4254,7 +4254,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「芬利，你不是會魔法嗎？」"
@@ -4270,7 +4270,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就更值得試了。」"
@@ -4349,7 +4349,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我知道。」"
@@ -4360,12 +4360,12 @@
           "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「內廷想確認職責範圍，攝政辦公室也想確認新的交接程序。誰都不是故意在拖延一壺茶。」"
+          "text": "「內廷還在問這算誰的差事，我們這邊也得弄清楚怎麼交接。倒不是誰存心不讓您喝茶。」"
         },
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「可結果就是，茶送不進來。」"
@@ -4388,7 +4388,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以我不該只問，這些官員今天是不是對我太熱情。」"
@@ -4404,7 +4404,7 @@
         {
           "id": "L010",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「以及那些制度最初是為了解決什麼問題。」"
@@ -4419,7 +4419,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「沒有誰因為笑得太好看，就可以免於被查清楚自己做過什麼。」"
@@ -4500,13 +4500,13 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞將目光重新移回薩克迪的最後幾頁研究摘要。曾經輝煌的帝都如今出現在想像中：塔樓殘缺、街道冷清、巨大的魔導裝置仍立在原處，卻像是失去用途的骨架。",
+          "text": "奧莉薇雅將目光重新移回薩克迪的最後幾頁研究摘要。曾經輝煌的帝都如今出現在想像中：塔樓殘缺、街道冷清、巨大的魔導裝置仍立在原處，卻像是失去用途的骨架。",
           "cg": "EP04-ACT02-CG05-01"
         },
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「如果我們的推論沒錯，那薩克迪真正的衰亡，在外敵攻進來以前就開始了。」"
@@ -4522,7 +4522,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「是被自己慢慢耗乾。」"
@@ -4537,7 +4537,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有軍隊，卻調不動軍隊。有糧食，卻送不到飢餓的人手裡。有魔法，卻沒有能力讓魔法發揮作用。」"
@@ -4554,7 +4554,7 @@
           "id": "L008",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看向自己的舊筆跡。那句話寫得很重，幾乎劃破紙背。"
+          "text": "奧莉薇雅看向自己的舊筆跡。那句話寫得很重，幾乎劃破紙背。"
         },
         {
           "id": "L009",
@@ -4573,7 +4573,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「現在呢？」"
@@ -4646,7 +4646,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我開始懷疑，外敵只是最後一擊。」"
@@ -4703,7 +4703,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「也許帝都陷落時，帝國其實早就死了。」"
@@ -4760,7 +4760,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我更在意的是，他們為什麼沒有及時停下來。」"
@@ -4847,7 +4847,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「因為我們當年沒拿到最後那部分資料。」"
@@ -4869,7 +4869,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「而我們想知道的，是它在那之前，究竟已經壞到什麼程度。」"
@@ -4969,7 +4969,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那些沒有調到的資料。」"
@@ -4985,7 +4985,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「現在你還想把這件事做完？」"
@@ -5025,12 +5025,12 @@
           "id": "L010",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著那本筆記，像在看見五年前的自己。"
+          "text": "奧莉薇雅看著那本筆記，像在看見五年前的自己。"
         },
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「你到現在還放不下啊。」"
@@ -5047,13 +5047,13 @@
           "id": "L013",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有否認。"
+          "text": "奧莉薇雅沒有否認。"
         },
         {
           "id": "L014",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "她忽然想起某件事。不是完整答案，只是一個模糊但真實的記憶：塔馬拉那邊，似乎知道某些舊資料的保管或合法調閱路徑。她並不確定細節。",
+          "text": "她忽然想起某件事。不是完整答案，只是一個模糊但真實的記憶：塔瑪拉那邊，似乎知道某些舊資料的保管或合法調閱路徑。她並不確定細節。",
           "cg": "EP04-ACT02-CG06-03"
         },
         {
@@ -5080,13 +5080,13 @@
           "id": "L018",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著他收起筆記的動作，沉默片刻。"
+          "text": "奧莉薇雅看著他收起筆記的動作，沉默片刻。"
         }
       ],
       "choices": [
         {
           "id": "1",
-          "text": "「我知道塔馬拉那邊好像有。」",
+          "text": "「我知道塔瑪拉那邊好像有。」",
           "next": "EP04_ACT02_SC06_1",
           "effects": [
             {
@@ -5160,10 +5160,10 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「我知道塔馬拉那邊好像有。」"
+          "text": "「我知道塔瑪拉那邊好像有。」"
         },
         {
           "id": "L002",
@@ -5174,7 +5174,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我不保證一定拿得到，也不保證她會願意浪費時間幫我們翻這件事。」"
@@ -5182,7 +5182,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「但如果是合法途徑，也許能查一查。」"
@@ -5204,7 +5204,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「別太早高興。我只是說，也許。」"
@@ -5266,12 +5266,12 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞垂下眼，像是沒有想起任何值得一提的線索。"
+          "text": "奧莉薇雅垂下眼，像是沒有想起任何值得一提的線索。"
         },
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「五年前沒查到的東西，現在多半也不會突然自己跑出來。」"
@@ -5293,7 +5293,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先把眼前該查的事情查清楚吧。薩克迪還躺在歷史裡，安度因可沒有。」"
@@ -5383,12 +5383,12 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞重新把安度因的舊官署沿革與薩克迪筆記並排放好。"
+          "text": "奧莉薇雅重新把安度因的舊官署沿革與薩克迪筆記並排放好。"
         },
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「以前我們研究的是一個帝國為什麼滅亡。」"
@@ -5405,12 +5405,12 @@
           "id": "L005",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著桌上的兩疊文件。"
+          "text": "奧莉薇雅看著桌上的兩疊文件。"
         },
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「現在我想知道，一個還沒滅亡的王國，是怎麼把自己弄成這樣的。」"
@@ -5487,7 +5487,7 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞坐定時，法伊德與艾拉已經先前談到一半。"
+          "text": "奧莉薇雅坐定時，法伊德與艾拉已經先前談到一半。"
         },
         {
           "id": "L003",
@@ -5521,12 +5521,12 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞望向兩人。"
+          "text": "奧莉薇雅望向兩人。"
         },
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「聽起來，兩位都沒有過得比較輕鬆。」"
@@ -5627,15 +5627,15 @@
           "id": "L022",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著桌上的資料。她原本只是想知道學院與學會對制度運作的看法，卻先聽見了兩種不同的資源困境。"
+          "text": "奧莉薇雅看著桌上的資料。她原本只是想知道學院與學會對制度運作的看法，卻先聽見了兩種不同的資源困境。"
         },
         {
           "id": "L023",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「也就是說，」她慢慢地說，「一邊有資源，卻不完全屬於自己；另一邊有自由，卻得為了活下去消耗大量力氣。」"
+          "text": "「所以，」她慢慢地說，「一邊有東西能用，卻不能全由自己作主；另一邊能自己決定，光要撐下去就得花掉大半力氣。」"
         },
         {
           "id": "L024",
@@ -5669,7 +5669,7 @@
           "id": "L028",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沉默片刻。"
+          "text": "奧莉薇雅沉默片刻。"
         },
         {
           "id": "L029",
@@ -5738,7 +5738,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有經費，卻不能自由使用，也是一種困境。」"
@@ -5792,7 +5792,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「沒有穩定資源，再好的研究也難以繼續。」"
@@ -5865,7 +5865,7 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞記住了這句話。",
+          "text": "奧莉薇雅記住了這句話。",
           "cg": "EP04-ACT03-CG04"
         },
         {
@@ -5938,10 +5938,10 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「妳這次來王都，」奧莉維亞問，「是為了卡巴剛得最近的流寇問題？」"
+          "text": "「妳這次來王都，」奧莉薇雅問，「是為了卡巴剛得最近的流寇問題？」"
         },
         {
           "id": "L004",
@@ -5976,12 +5976,12 @@
           "id": "L008",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著桌上的物件。"
+          "text": "奧莉薇雅看著桌上的物件。"
         },
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那不是好消息嗎？」"
@@ -6018,12 +6018,12 @@
           "id": "L014",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞的視線落在那段零件上。"
+          "text": "奧莉薇雅的視線落在那段零件上。"
         },
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳懷疑有人在持續供應他們？」"
@@ -6061,12 +6061,12 @@
           "id": "L020",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞聽完，第一個感覺不是混亂，而是某種過於穩定的不合理。"
+          "text": "奧莉薇雅聽完，第一個感覺不是混亂，而是某種過於穩定的不合理。"
         },
         {
           "id": "L021",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳可以擊退他們，卻很難根除。」"
@@ -6098,7 +6098,7 @@
           "id": "L025",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞微微沉思。"
+          "text": "奧莉薇雅微微沉思。"
         },
         {
           "id": "L026",
@@ -6109,7 +6109,7 @@
         {
           "id": "L027",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳希望我怎麼幫妳？」"
@@ -6140,7 +6140,7 @@
           "speakerLabel": "艾琳達",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「若殿下願意幫忙，我希望不是單純增派人手，而是幫我確認：我們到底該先追著人跑，還是先查清楚，究竟是什麼讓這些人能一直回來。」"
+          "text": "「殿下若願意幫忙，我不只需要更多人手。我得先知道，是該繼續追人，還是先查清楚，他們到底為什麼能一再回來。」"
         }
       ],
       "choices": [
@@ -6203,7 +6203,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我可以協助妳協調鄰近領主與追緝權限。」"
@@ -6257,7 +6257,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「或許我們該先查清楚，他們為什麼能持續活動。」"
@@ -6327,7 +6327,7 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "談話最後，她看著奧莉維亞，語氣比先前更慢了一點。"
+          "text": "談話最後，她看著奧莉薇雅，語氣比先前更慢了一點。"
         },
         {
           "id": "L005",
@@ -6349,7 +6349,7 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞聽著這句話，第一次很明確地感覺到："
+          "text": "奧莉薇雅聽著這句話，第一次很明確地感覺到："
         },
         {
           "id": "L008",
@@ -6411,7 +6411,7 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "艾爾維爾今天看起來精神比前幾日好一些。至少，他有力氣靠坐起來，並在奧莉維亞進門時，先露出一個略帶諷意的笑。"
+          "text": "艾爾維爾今天看起來精神比前幾日好一些。至少，他有力氣靠坐起來，並在奧莉薇雅進門時，先露出一個略帶諷意的笑。"
         },
         {
           "id": "L003",
@@ -6425,12 +6425,12 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞忍不住笑了一下。"
+          "text": "奧莉薇雅忍不住笑了一下。"
         },
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「父王猜得倒很準。」"
@@ -6447,12 +6447,12 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "那句話之後，奧莉維亞才將話題帶回她真正想問的事。"
+          "text": "那句話之後，奧莉薇雅才將話題帶回她真正想問的事。"
         },
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「父王，」她說，「我想知道，當年那些後來被裁撤的官署，究竟是怎麼被建立起來的。」"
@@ -6480,7 +6480,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我想知道，為什麼它們會變成今天這樣。」"
@@ -6595,7 +6595,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「父王，當年究竟是誰提出建立這些機構的？」"
@@ -6649,7 +6649,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「既然原本的任務結束了，為什麼沒有人能讓它們退場？」"
@@ -6742,7 +6742,7 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有反駁。"
+          "text": "奧莉薇雅沒有反駁。"
         },
         {
           "id": "L008",
@@ -6768,7 +6768,7 @@
           "id": "L011",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞正要起身，艾爾維爾卻忽然又開了口。"
+          "text": "奧莉薇雅正要起身，艾爾維爾卻忽然又開了口。"
         },
         {
           "id": "L012",
@@ -6782,12 +6782,12 @@
           "id": "L013",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞停住動作。"
+          "text": "奧莉薇雅停住動作。"
         },
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「因為王兄留在前線？」"
@@ -6847,12 +6847,12 @@
           "id": "L022",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞微微一怔。"
+          "text": "奧莉薇雅微微一怔。"
         },
         {
           "id": "L023",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「父王，王兄畢竟是合法王儲。」"
@@ -6891,7 +6891,7 @@
           "id": "L028",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有立刻回答。"
+          "text": "奧莉薇雅沒有立刻回答。"
         },
         {
           "id": "L029",
@@ -6911,7 +6911,7 @@
           "id": "L031",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "這回，奧莉維亞真的笑了。"
+          "text": "這回，奧莉薇雅真的笑了。"
         },
         {
           "id": "L032",
@@ -7012,7 +7012,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有通知內廷，也沒有讓人替她安排路線。她只換上一身比平日低調許多的服裝，將王室身分盡量收進簡單的披肩與素色衣料裡，然後獨自走進王都。",
+          "text": "奧莉薇雅沒有通知內廷，也沒有讓人替她安排路線。她只換上一身比平日低調許多的服裝，將王室身分盡量收進簡單的披肩與素色衣料裡，然後獨自走進王都。",
           "cg": "EP04-ACT03-CG15"
         },
         {
@@ -7032,13 +7032,13 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞停在一個賣乾貨與常用材料的攤位前。攤主一邊整理東西，一邊忍不住對附近熟客抱怨最近有些貨來得慢。"
+          "text": "奧莉薇雅停在一個賣乾貨與常用材料的攤位前。攤主一邊整理東西，一邊忍不住對附近熟客抱怨最近有些貨來得慢。"
         },
         {
           "id": "L005",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞順著話題問了幾句。"
+          "text": "奧莉薇雅順著話題問了幾句。"
         },
         {
           "id": "L006",
@@ -7058,7 +7058,7 @@
           "id": "L008",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞點點頭。她沒有多說，只把這句話記在心裡。"
+          "text": "奧莉薇雅點點頭。她沒有多說，只把這句話記在心裡。"
         },
         {
           "id": "L009",
@@ -7125,7 +7125,7 @@
           "id": "L018",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞安靜聽著。"
+          "text": "奧莉薇雅安靜聽著。"
         },
         {
           "id": "L019",
@@ -7150,7 +7150,7 @@
           "id": "L022",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞與其中一名中年車夫攀談起來。"
+          "text": "奧莉薇雅與其中一名中年車夫攀談起來。"
         },
         {
           "id": "L023",
@@ -7184,7 +7184,7 @@
           "id": "L027",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞望向那排還沒動的車隊，忽然很清楚地意識到："
+          "text": "奧莉薇雅望向那排還沒動的車隊，忽然很清楚地意識到："
         },
         {
           "id": "L028",
@@ -7217,7 +7217,7 @@
           "id": "L032",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞問她，這樣做會不會惹麻煩。"
+          "text": "奧莉薇雅問她，這樣做會不會惹麻煩。"
         },
         {
           "id": "L033",
@@ -7237,7 +7237,7 @@
           "id": "L035",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有接話。"
+          "text": "奧莉薇雅沒有接話。"
         },
         {
           "id": "L036",
@@ -7274,7 +7274,7 @@
           "id": "L041",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞低頭看著手中的茶盞，忽然覺得今天聽見的每一句話，其實都比朝堂上的很多表態來得誠實。"
+          "text": "奧莉薇雅低頭看著手中的茶盞，忽然覺得今天聽見的每一句話，其實都比朝堂上的很多表態來得誠實。"
         },
         {
           "id": "L042",
@@ -7304,7 +7304,7 @@
           "id": "L046",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "當奧莉維亞起身準備返回時，她已經比早上更清楚一件事："
+          "text": "當奧莉薇雅起身準備返回時，她已經比早上更清楚一件事："
         },
         {
           "id": "L047",
@@ -7386,7 +7386,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞剛離開茶攤不久，便在轉角處看見了熟悉的身影。",
+          "text": "奧莉薇雅剛離開茶攤不久，便在轉角處看見了熟悉的身影。",
           "when": {
             "any": [
               {
@@ -7412,7 +7412,7 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉顯然也是剛辦完事情，身邊沒有多餘隨從，只帶著一種做事做完一半、還沒真正鬆下來的俐落感。",
+          "text": "塔瑪拉顯然也是剛辦完事情，身邊沒有多餘隨從，只帶著一種做事做完一半、還沒真正鬆下來的俐落感。",
           "when": {
             "any": [
               {
@@ -7436,7 +7436,7 @@
         {
           "id": "L003",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下？」她先是一愣，隨即微微行禮，「沒想到會在這裡遇見您。」",
@@ -7464,7 +7464,7 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞笑了笑。",
+          "text": "奧莉薇雅笑了笑。",
           "when": {
             "any": [
               {
@@ -7488,7 +7488,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我也是。妳今天怎麼來了？」",
@@ -7515,10 +7515,10 @@
         {
           "id": "L006",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「有些城防與王都內部協調的事要處理。」塔馬拉說，「倒是您，怎麼一個人在外頭？」",
+          "text": "「有些城防與王都內部協調的事要處理。」塔瑪拉說，「倒是您，怎麼一個人在外頭？」",
           "when": {
             "any": [
               {
@@ -7542,10 +7542,10 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「出來走走。」奧莉維亞回答得很自然，「看看王都平常是怎麼運作的。」",
+          "text": "「出來走走。」奧莉薇雅回答得很自然，「看看王都平常是怎麼運作的。」",
           "when": {
             "any": [
               {
@@ -7570,7 +7570,7 @@
           "id": "L008",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉看了她一眼，像是想說什麼，最後卻只是很有分寸地點了點頭。",
+          "text": "塔瑪拉看了她一眼，像是想說什麼，最後卻只是很有分寸地點了點頭。",
           "when": {
             "any": [
               {
@@ -7594,7 +7594,7 @@
         {
           "id": "L009",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那您今天大概看到了不少。」",
@@ -7622,7 +7622,7 @@
           "id": "L010",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞聽見這句話，忽然想起另一件事。",
+          "text": "奧莉薇雅聽見這句話，忽然想起另一件事。",
           "when": {
             "any": [
               {
@@ -7646,10 +7646,10 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「對了，塔馬拉。」她說，「我記得妳家族的源流，已經證實能追溯到薩克敵？」",
+          "text": "「對了，塔瑪拉。」她說，「我記得妳家族的源流，已經證實能追溯到薩克敵？」",
           "when": {
             "any": [
               {
@@ -7675,7 +7675,7 @@
           "id": "L012",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉略微挑眉。",
+          "text": "塔瑪拉略微挑眉。",
           "when": {
             "any": [
               {
@@ -7699,7 +7699,7 @@
         {
           "id": "L013",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「是。雖然那也是五百年前的事情了，但家裡確實還保留著一些相關資料。」",
@@ -7726,10 +7726,10 @@
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「那就正好。」奧莉維亞說，「芬利最近正在研究薩克敵。我想，那些資料或許能幫上忙。」",
+          "text": "「那就正好。」奧莉薇雅說，「芬利最近正在研究薩克敵。我想，那些資料或許能幫上忙。」",
           "when": {
             "any": [
               {
@@ -7754,7 +7754,7 @@
           "id": "L015",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉沒有立刻拒絕。",
+          "text": "塔瑪拉沒有立刻拒絕。",
           "when": {
             "any": [
               {
@@ -7778,7 +7778,7 @@
         {
           "id": "L016",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「讓他自己來看吧。」她說，「有些原件不能帶走，但若只是調閱，我可以安排。」",
@@ -7806,7 +7806,7 @@
           "id": "L017",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞點點頭。",
+          "text": "奧莉薇雅點點頭。",
           "when": {
             "any": [
               {
@@ -7830,7 +7830,7 @@
         {
           "id": "L018",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「好，我會轉告他。」",
@@ -7857,10 +7857,10 @@
         {
           "id": "L019",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "塔馬拉又補上一句：「若他真能看懂那些東西，也算幫了我們家一個忙。那些文件留了很多代，後人大多只知道它們重要，卻不一定知道它們真正有什麼價值。」",
+          "text": "塔瑪拉又補上一句：「若他真能看懂那些東西，也算幫了我們家一個忙。那些文件留了很多代，後人大多只知道它們重要，卻不一定知道它們真正有什麼價值。」",
           "when": {
             "any": [
               {
@@ -7884,10 +7884,10 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "奧莉維亞笑道：「我想，芬利大概會很高興遇到這種麻煩。」",
+          "text": "奧莉薇雅笑道：「我想，芬利大概會很高興遇到這種麻煩。」",
           "when": {
             "any": [
               {
@@ -7937,7 +7937,7 @@
           "id": "L022",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞知道，芬利的研究已經有了下一步能走的方向。",
+          "text": "奧莉薇雅知道，芬利的研究已經有了下一步能走的方向。",
           "when": {
             "any": [
               {
@@ -7962,7 +7962,7 @@
           "id": "L023",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞剛離開茶攤不久，便在街道轉角處遇見塔馬拉。",
+          "text": "奧莉薇雅剛離開茶攤不久，便在街道轉角處遇見塔瑪拉。",
           "when": {
             "not": {
               "any": [
@@ -7989,10 +7989,10 @@
         {
           "id": "L024",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「殿下？」塔馬拉微微一怔，隨即行禮，「沒想到會在這裡遇見您。」",
+          "text": "「殿下？」塔瑪拉微微一怔，隨即行禮，「沒想到會在這裡遇見您。」",
           "when": {
             "not": {
               "any": [
@@ -8018,10 +8018,10 @@
         {
           "id": "L025",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「我也是。」奧莉維亞回答，「妳今天怎麼來了？」",
+          "text": "「我也是。」奧莉薇雅回答，「妳今天怎麼來了？」",
           "when": {
             "not": {
               "any": [
@@ -8047,10 +8047,10 @@
         {
           "id": "L026",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「有些城防與內部協調的事。」塔馬拉說，「倒是您，一個人出來？」",
+          "text": "「有些城防與內部協調的事。」塔瑪拉說，「倒是您，一個人出來？」",
           "when": {
             "not": {
               "any": [
@@ -8076,10 +8076,10 @@
         {
           "id": "L027",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「出來走走。」奧莉維亞說，「想看看王都平常的樣子。」",
+          "text": "「出來走走。」奧莉薇雅說，「想看看王都平常的樣子。」",
           "when": {
             "not": {
               "any": [
@@ -8106,7 +8106,7 @@
           "id": "L028",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉看著她，像是想提醒安全，最後卻只是點頭。",
+          "text": "塔瑪拉看著她，像是想提醒安全，最後卻只是點頭。",
           "when": {
             "not": {
               "any": [
@@ -8132,7 +8132,7 @@
         {
           "id": "L029",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那我就不耽誤您了。改日若有空，再向殿下請安。」",
@@ -8161,10 +8161,10 @@
         {
           "id": "L030",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「好。」奧莉維亞笑了笑，「妳也一路小心。」",
+          "text": "「好。」奧莉薇雅笑了笑，「妳也一路小心。」",
           "when": {
             "not": {
               "any": [
@@ -8218,7 +8218,7 @@
           "id": "L032",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞回宮時的心情都比出門時沉了一些，也穩了一些。"
+          "text": "奧莉薇雅回宮時的心情都比出門時沉了一些，也穩了一些。"
         },
         {
           "id": "L033",
@@ -8317,12 +8317,12 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞將那些紀錄並排，拿出一份在前些日子整頓時便曾見過的舊議會名冊。"
+          "text": "奧莉薇雅將那些紀錄並排，拿出一份在前些日子整頓時便曾見過的舊議會名冊。"
         },
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「一、二、三……五。」"
@@ -8338,7 +8338,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「知道。但我今天才覺得，這個數字似乎很有意思。」"
@@ -8352,7 +8352,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「要讓議會正常運作，至少得有二十個人。對吧？」"
@@ -8368,7 +8368,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以現在缺的不是一兩張椅子。」"
@@ -8384,7 +8384,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「嗯，我又沒說要指派。」"
@@ -8398,7 +8398,7 @@
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我只是突然好奇——王國明明這麼大，怎麼會找不到二十個值得一起談事情的人？」"
@@ -8414,7 +8414,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就先從值得談事情的人開始找。」"
@@ -8423,13 +8423,13 @@
           "id": "L016",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "她的指尖依次停在王都的商業區、莎莉亞領地，以及王都外較遠的一座衛星城。紙上沒有寫出「候選議員」，只有三個圈記與一行短短的安排：拜訪、聆聽、留意回音。",
+          "text": "她的指尖依次停在王都的商業區、莎莉雅領地，以及王都外較遠的一座衛星城。紙上沒有寫出「候選議員」，只有三個圈記與一行短短的安排：拜訪、聆聽、留意回音。",
           "cg": "EP04-ACT04-CG02"
         },
         {
           "id": "L017",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「現在急著宣布要給誰座位，未免太便宜了。」"
@@ -8437,7 +8437,7 @@
         {
           "id": "L018",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「我倒想看看，聽見那張椅子的人，誰會先回頭。」"
@@ -8510,7 +8510,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞換下王室禮裝，以普通商隊代理人的身份來到商業區。她攜帶的是一筆合理的民用貨物運輸詢問：入城許可、卸貨時段、倉儲與過境證明。她不要求特權，也沒有讓人帶她進入商會內部不對外開放的檔案室。",
+          "text": "奧莉薇雅換下王室禮裝，以普通商隊代理人的身份來到商業區。她攜帶的是一筆合理的民用貨物運輸詢問：入城許可、卸貨時段、倉儲與過境證明。她不要求特權，也沒有讓人帶她進入商會內部不對外開放的檔案室。",
           "cg": "EP04-ACT04-CG03"
         },
         {
@@ -8524,7 +8524,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那如果我只是想知道貨物究竟哪天能送到？」"
@@ -8540,7 +8540,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那前一個窗口，又看誰何時確認？」"
@@ -8562,7 +8562,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我懂了。流程沒人說不合法，只是自己跑完比較辛苦。」"
@@ -8577,13 +8577,13 @@
           "id": "L010",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "稍晚，透過正當引介，奧莉維亞以王女身分與幾名商會領袖閒談。商會桌上放著抽象航路圖、封緘帳簿與貨運標記。眾人談到王都每次遇到缺糧、急需修繕或大宗運輸時，都會尋求商會協助。",
+          "text": "稍晚，透過正當引介，奧莉薇雅以王女身分與幾名商會領袖閒談。商會桌上放著抽象航路圖、封緘帳簿與貨運標記。眾人談到王都每次遇到缺糧、急需修繕或大宗運輸時，都會尋求商會協助。",
           "cg": "EP04-ACT04-CG04"
         },
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以真正缺物資時，王都總會想起各位？」"
@@ -8599,7 +8599,7 @@
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那商路的規矩要改時，王都也會先來問各位嗎？」"
@@ -8615,7 +8615,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「咦？出錢出車時總找得到人，商量規矩時反而不一定找得到？」"
@@ -8637,7 +8637,7 @@
         {
           "id": "L018",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我還以為這麼大的商會，議會裡總該有人替你們說說話。」"
@@ -8653,7 +8653,7 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那還真是可惜。」"
@@ -8667,10 +8667,10 @@
         {
           "id": "L022",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "離開時，一名商會秘書特意詢問王宮是否預計重新處理商路章程。奧莉維亞只回答：「有值得研究的事情，自然要多聽各位的意見。」"
+          "text": "離開時，一名商會秘書特意詢問王宮是否預計重新處理商路章程。奧莉薇雅只回答：「有值得研究的事情，自然要多聽各位的意見。」"
         }
       ],
       "choices": [],
@@ -8739,13 +8739,13 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉亞領地的交流處並非正式官署。它有酒、有餐食，也有可供旅人、莊園管事、行會成員與地方士紳談事情的公共桌席。屋裡沒有人要求奧莉維亞先聽一場長篇報告；來往的人照常談收成、道路和馬車。",
+          "text": "莎莉雅領地的交流處並非正式官署。它有酒、有餐食，也有可供旅人、莊園管事、行會成員與地方士紳談事情的公共桌席。屋裡沒有人要求奧莉薇雅先聽一場長篇報告；來往的人照常談收成、道路和馬車。",
           "cg": "EP04-ACT04-CG05"
         },
         {
           "id": "L002",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下如果想聽像樣的奉承，這裡大概不是好地方。」"
@@ -8753,7 +8753,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那不是更好？我今天聽奉承聽得夠多了。」"
@@ -8762,12 +8762,12 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "兩人落座，奧莉維亞翻看熱茶旁的一份舊領地記錄，像是忽然想起什麼。"
+          "text": "兩人落座，奧莉薇雅翻看熱茶旁的一份舊領地記錄，像是忽然想起什麼。"
         },
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「對了，我最近翻議會名冊，居然沒看見妳們家。」"
@@ -8775,7 +8775,7 @@
         {
           "id": "L006",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「原本就沒有。」"
@@ -8783,7 +8783,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「真的？妳們可是第三騎士團耶。領地、軍隊、糧道，哪一樣不是自己顧？」"
@@ -8791,7 +8791,7 @@
         {
           "id": "L008",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「然後呢？」"
@@ -8799,7 +8799,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「結果連個議席都沒有？哎呀，看來妳們家真的被看輕了。」"
@@ -8807,7 +8807,7 @@
         {
           "id": "L010",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「殿下，妳這趟是來喝茶，還是專程來笑我的？」"
@@ -8815,7 +8815,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「兩者又不衝突。」"
@@ -8824,12 +8824,12 @@
           "id": "L012",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉亞失笑，卻沒有應聲說自己想要席位。"
+          "text": "莎莉雅失笑，卻沒有應聲說自己想要席位。"
         },
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「瓦肯家也沒有呢。原先我還以為，像你們這種要替王國守住邊境、照看領民的人，至少有機會談談那些會影響自己的規矩。」"
@@ -8837,7 +8837,7 @@
         {
           "id": "L014",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有沒有椅子，與別人肯不肯聽，是兩回事。」"
@@ -8845,7 +8845,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「說得也是。所以我今天先聽。」"
@@ -8860,7 +8860,7 @@
         {
           "id": "L017",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那位是這裡的官員？」"
@@ -8868,7 +8868,7 @@
         {
           "id": "L018",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「不是。只是地方上大家願意找的人。」"
@@ -8877,12 +8877,12 @@
           "id": "L019",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞起身詢問幾句，知道對方平日也常幫忙修橋募款、協調糧食借貸。"
+          "text": "奧莉薇雅起身詢問幾句，知道對方平日也常幫忙修橋募款、協調糧食借貸。"
         },
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這些事都是您在處理？王都的官員可知道？」"
@@ -8898,7 +8898,7 @@
         {
           "id": "L022",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那王都那些領薪水的官員，要是知道有人免費替他們做這麼多事，怕是要不好意思了。」"
@@ -8914,7 +8914,7 @@
         {
           "id": "L024",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「沒有，我是覺得，像您這樣的人，王都應該多認識幾位。」"
@@ -8929,7 +8929,7 @@
           "id": "L026",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉亞在一旁看著，似乎逐漸明白奧莉維亞的提問並不完全隨興。"
+          "text": "莎莉雅在一旁看著，似乎逐漸明白奧莉薇雅的提問並不完全隨興。"
         }
       ],
       "choices": [],
@@ -9016,13 +9016,13 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "隔日，莎莉亞親自陪同奧莉維亞前往一座較遠的王都衛星城。兩人沿途經過農田、商路與修繕中的小橋。這趟行程並非正式宣告議會招募；名義上仍是察看民用運輸與地方協作。",
+          "text": "隔日，莎莉雅親自陪同奧莉薇雅前往一座較遠的王都衛星城。兩人沿途經過農田、商路與修繕中的小橋。這趟行程並非正式宣告議會招募；名義上仍是察看民用運輸與地方協作。",
           "cg": "EP04-ACT04-CG07"
         },
         {
           "id": "L002",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳昨天在交流處，跟每個人聊天都像是發現他們受了委屈。」"
@@ -9030,7 +9030,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「說不定是因為大家真的有委屈呀。」"
@@ -9038,7 +9038,7 @@
         {
           "id": "L004",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳還沒問完，就先替人家抱不平。」"
@@ -9046,7 +9046,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我問完了才知道要抱哪一種不平嘛。」"
@@ -9054,7 +9054,7 @@
         {
           "id": "L006",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「……這回答倒很像妳。」"
@@ -9063,7 +9063,7 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "兩人看見一支貨車隊為了橋面通行次序停下，地方人員很快就協調出讓行辦法。奧莉維亞記得，王都官署的制度對這座橋的情況並不熟悉。"
+          "text": "兩人看見一支貨車隊為了橋面通行次序停下，地方人員很快就協調出讓行辦法。奧莉薇雅記得，王都官署的制度對這座橋的情況並不熟悉。"
         },
         {
           "id": "L008",
@@ -9075,7 +9075,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以路是你們走得最多，橋是你們先找人修，王都決定怎麼修時反倒未必先問你們？」"
@@ -9091,7 +9091,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就當我今天學到一件新鮮事。」"
@@ -9105,7 +9105,7 @@
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這些事情，全是您跟大家商量出來的？」"
@@ -9121,7 +9121,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那如果王都想知道這座城真正缺什麼，找您倒是比先繞一圈公文快得多。」"
@@ -9138,18 +9138,18 @@
           "id": "L017",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞笑了，沒有繼續推進，只問對方若要傳遞正式意見，平常會交給誰。"
+          "text": "奧莉薇雅笑了，沒有繼續推進，只問對方若要傳遞正式意見，平常會交給誰。"
         },
         {
           "id": "L018",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "返程時，莎莉亞望著奧莉維亞一路留下的簡短筆記。"
+          "text": "返程時，莎莉雅望著奧莉薇雅一路留下的簡短筆記。"
         },
         {
           "id": "L019",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳到處說人家被忽略，究竟打算找多少人？」"
@@ -9157,7 +9157,7 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「至少得知道有十五個地方值得問問吧。」"
@@ -9165,7 +9165,7 @@
         {
           "id": "L021",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「十五？」"
@@ -9173,7 +9173,7 @@
         {
           "id": "L022",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「啊，沒什麼。隨口說說。」"
@@ -9181,7 +9181,7 @@
         {
           "id": "L023",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「……我現在開始懷疑，妳這趟不是來看橋的。」"
@@ -9189,7 +9189,7 @@
         {
           "id": "L024",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「橋也看了呀。」"
@@ -9303,7 +9303,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞返宮後收到芬利的訊息。研究室內，原先由塔馬拉依合法途徑協助取得的魔法史研究材料，已被仔細安置於記錄架上。芬利將研究筆記闔起，神情明顯輕鬆。",
+          "text": "奧莉薇雅返宮後收到芬利的訊息。研究室內，原先由塔瑪拉依合法途徑協助取得的魔法史研究材料，已被仔細安置於記錄架上。芬利將研究筆記闔起，神情明顯輕鬆。",
           "cg": "EP04-ACT04-CG09"
         },
         {
@@ -9312,12 +9312,12 @@
           "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「殿下，研究部分完成了。這次多虧塔馬拉肯幫忙把材料調來。」"
+          "text": "「殿下，研究部分完成了。這次多虧塔瑪拉肯幫忙把材料調來。」"
         },
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這樣就值得妳熬那麼多個晚上？」"
@@ -9333,7 +9333,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就好。她幫了妳大忙，記得好好謝謝人家。」"
@@ -9364,7 +9364,7 @@
         {
           "id": "L009",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以不會又把我擋在門口，還要我請人來領？」"
@@ -9372,7 +9372,7 @@
         {
           "id": "L010",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「上次那個真的不是故意針對妳。」"
@@ -9388,7 +9388,7 @@
         {
           "id": "L012",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「聽起來比較像樣了。」"
@@ -9397,13 +9397,13 @@
           "id": "L013",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "塔馬拉實際測試幾次，確認守衛能依命令巡查並回報，而不是自作主張地攔截所有人。",
+          "text": "塔瑪拉實際測試幾次，確認守衛能依命令巡查並回報，而不是自作主張地攔截所有人。",
           "cg": "EP04-ACT04-CG11"
         },
         {
           "id": "L014",
           "speaker": "TAMARA",
-          "speakerLabel": "塔馬拉",
+          "speakerLabel": "塔瑪拉",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這份答謝我收下。值勤的事情，我會照第二團自己的規矩安排。」"
@@ -9420,7 +9420,7 @@
           "id": "L016",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著兩人，沒有把答謝當作能任意調動第二團的憑證。"
+          "text": "奧莉薇雅看著兩人，沒有把答謝當作能任意調動第二團的憑證。"
         }
       ],
       "choices": [],
@@ -9502,7 +9502,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "王宮書房裡，奧莉維亞將旅行後的紙頁重新排好。沒有十五個被圈起的名字，也沒有誰允諾加入議會的署名。她記錄的只有地點、說過的話，以及消息最可能從哪裡傳出去：王都商會的秘書、第三團交流處的公共桌、衛星城行會的會館與地方公共活動。",
+          "text": "王宮書房裡，奧莉薇雅將旅行後的紙頁重新排好。沒有十五個被圈起的名字，也沒有誰允諾加入議會的署名。她記錄的只有地點、說過的話，以及消息最可能從哪裡傳出去：王都商會的秘書、第三團交流處的公共桌、衛星城行會的會館與地方公共活動。",
           "cg": "EP04-ACT04-CG12"
         },
         {
@@ -9516,7 +9516,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「嗯。」"
@@ -9532,7 +9532,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「誰說我要這麼早挑人了？」"
@@ -9548,7 +9548,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「想啊。但現在我連誰真想坐都不知道。」"
@@ -9564,7 +9564,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「撒餌。」"
@@ -9586,7 +9586,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我可從來沒答應給誰席位。再說了，真有人找上門，也不代表他就適合當議員。」"
@@ -9602,7 +9602,7 @@
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那也很好啊。至少先知道誰想占什麼便宜。」"
@@ -9618,7 +9618,7 @@
         {
           "id": "L016",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就記下來。不理我的人，也可能比急著送禮的人值得談。」"
@@ -9641,7 +9641,7 @@
         {
           "id": "L019",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「猜到有人想讓議會能開會，跟知道議會會怎麼改，是兩回事。」"
@@ -9657,7 +9657,7 @@
         {
           "id": "L021",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「等先看看，誰會循著這些話走過來。」"
@@ -9671,7 +9671,7 @@
         {
           "id": "L023",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「被撒下去的，是一點點期待。」"
@@ -9679,7 +9679,7 @@
         {
           "id": "L024",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞（心聲）",
+          "speakerLabel": "奧莉薇雅（心聲）",
           "kind": "thought",
           "visual": "SCENE",
           "text": "「真正會上鉤的是誰，現在還早。」"
@@ -9748,12 +9748,12 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞捏住額角，又讀了一遍某項調閱請求。"
+          "text": "奧莉薇雅捏住額角，又讀了一遍某項調閱請求。"
         },
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「王宮好不容易少了幾個互相轉送文件的辦公室，現在倒好，所有文件都知道該往哪裡走了。」"
@@ -9769,7 +9769,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我的書房。」"
@@ -9791,7 +9791,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「也至少有三倍的人來敲門。」"
@@ -9800,12 +9800,12 @@
           "id": "L010",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "兩人無奈地笑了一下。奧莉維亞抽出一本封皮磨損的名冊。"
+          "text": "兩人無奈地笑了一下。奧莉薇雅抽出一本封皮磨損的名冊。"
         },
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我不可能一直替所有人作決定。原本議會還在的時候，很多事情能先在那裡談過。」"
@@ -9821,7 +9821,7 @@
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「不是新建。它本來就在，只是被這場仗折騰得不像樣了。」"
@@ -9839,12 +9839,12 @@
           "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「要重新召集，首先得弄清哪些席位仍然有效，哪些需要重新舉薦。」"
+          "text": "「要重新召集，就得先看哪些席位還有效，哪些得重新舉薦。」"
         },
         {
           "id": "L016",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我原本以為，這會是整個王宮最沒有爭議的一件事。」"
@@ -9861,7 +9861,7 @@
         {
           "id": "L018",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「怎麼可能忘。」"
@@ -9875,7 +9875,7 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「學院每三年改選一次代表。有人要經費，有人要保住研究室，有人只想證明另一個研究組的提案不合理。」"
@@ -9891,7 +9891,7 @@
         {
           "id": "L022",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「至少我真的把議案看完。」",
@@ -9922,7 +9922,7 @@
         {
           "id": "L026",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「是啊。她總說通過議案只是開始。」"
@@ -9931,7 +9931,7 @@
           "id": "L027",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看向名冊上學院代表的欄位。她、芬利與艾莉，都曾在不同時期或議期以學院代表身分參與議事。如今寫在紙上的名字仍清楚，人卻早已分散在不同地方。"
+          "text": "奧莉薇雅看向名冊上學院代表的欄位。她、芬利與艾莉，都曾在不同時期或議期以學院代表身分參與議事。如今寫在紙上的名字仍清楚，人卻早已分散在不同地方。"
         },
         {
           "id": "L028",
@@ -9939,12 +9939,12 @@
           "speakerLabel": "芬利",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「學院這條管道至少有固定改選的規矩；其他席位沒那麼單純。有的繼承的是議席，有的沿襲的是舉薦資格，還有的必須由王權確認。」"
+          "text": "「學院至少知道到時候該怎麼改選。別的就難說了：有的家族接的是議席，有的只接到舉薦資格，還有的得等王權確認。不能拿同一本名冊當答案。」"
         },
         {
           "id": "L029",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「戰時總有人沒辦法按照舊例交接。難的是現在要把那些沒做完的事情，一件件補回來。」"
@@ -10019,7 +10019,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「原來的權利不能只因為戰亂就被我一句話抹掉。先讓合法資格仍清楚的人回到位置上。」"
@@ -10035,7 +10035,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就留給正式程序處理，不能讓爭議先吞掉所有位置。」"
@@ -10084,7 +10084,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「戰前的名冊可以參考，但不能照抄。至少要弄清楚誰還有資格代表自己的團體。」"
@@ -10100,7 +10100,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以查核理由、程序和期限都得說清楚。」"
@@ -10149,7 +10149,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「能確認的先恢復，缺席的與有爭議的慢慢查。總不能等所有家族都談妥，王國才開始議事。」"
@@ -10165,7 +10165,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「但臨時安排要有退場日期。最近我對『先這樣辦』四個字很有戒心。」"
@@ -10229,7 +10229,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我知道。沒有兵力的領主、沒有經費的學院、沒有繼承人的家族——他們不會因為我一句『恢復秩序』就忘了自己的難處。」"
@@ -10238,12 +10238,12 @@
           "id": "L004",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "桌上另一張行政調度單的封蠟已經乾透。奧莉維亞把它壓在名冊旁，望著被燈光分成兩半的長桌。"
+          "text": "桌上另一張行政調度單的封蠟已經乾透。奧莉薇雅把它壓在名冊旁，望著被燈光分成兩半的長桌。"
         },
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那麼，誰先願意走回議事廳呢？」"
@@ -10315,12 +10315,12 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞翻看其中一疊。"
+          "text": "奧莉薇雅翻看其中一疊。"
         },
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「以前這些位置多半早就安排好了。現在不是了。」"
@@ -10336,7 +10336,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我反而想到一件事。」"
@@ -10350,7 +10350,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「既然能夠重組議會，何不利用這個機會，讓我們站穩腳步？」",
@@ -10373,7 +10373,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「不需要每個人都喜歡我。只要他們相信，跟我把議會恢復，比各自守著破碎的舊規矩更有利。」"
@@ -10389,10 +10389,10 @@
         {
           "id": "L013",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「所以不能私自指定名單。父王仍是國王，哥哥仍是合法王儲。我主持協調，不代表可以把舉薦權攬到自己手裡。」"
+          "text": "「那就不能私下把名單定了。父王還是國王，哥哥也還是合法王儲。我來主持，不是來把大家的舉薦權收進自己抽屜。」"
         },
         {
           "id": "L014",
@@ -10405,7 +10405,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「明確的程序、合理的席位確認，還有願意真正處理他們請求的攝政辦公處。」"
@@ -10427,7 +10427,7 @@
         {
           "id": "L018",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「前些日子我去打聽商務通行的那些事，不就是想知道誰在等什麼、誰願意替誰說話？」"
@@ -10443,7 +10443,7 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「但還沒有收網。現在才知道，水裡原來還有這麼多船。」",
@@ -10511,7 +10511,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「他們知道怎麼讓命令落地。如果有些人真願意做事，我不想只因過去任職就排除他們。」"
@@ -10527,7 +10527,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「正好。請他們把理由拿出來。」"
@@ -10576,7 +10576,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「議席不是王宮自己說了算。承擔兵役、道路和糧食的人，也得願意把人送回議事廳。」"
@@ -10592,7 +10592,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就逐項談。說不出口的承諾，最好別先答應。」"
@@ -10641,7 +10641,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先讓各方都知道我願意聽，再判斷誰適合承擔什麼。太早押在某一邊，只會逼其他人結盟防備我。」"
@@ -10657,7 +10657,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「看來要再準備幾壺茶。」"
@@ -10722,12 +10722,12 @@
           "id": "L003",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞卻沒有起身。"
+          "text": "奧莉薇雅卻沒有起身。"
         },
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「還有件事，我一直放不下。」"
@@ -10743,7 +10743,7 @@
         {
           "id": "L006",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「攝政儀式上那些突然熱情起來的高官。前些天裁撤的辦公室，有些連我以前都沒聽過；可每一間都有主管、副主管，還有人負責監督。」",
@@ -10760,7 +10760,7 @@
         {
           "id": "L008",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我知道有些確實需要。可是是誰提出的？誰批准？那些主管又是怎麼任命的？」"
@@ -10774,7 +10774,7 @@
         {
           "id": "L010",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「如果我要跟這群人合作，總得知道他們原本是怎麼坐上那些位置的。」"
@@ -10790,7 +10790,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「就從紀錄查起。先別把任何人當罪人，也別把當年的每一項任命都當成理所當然。」"
@@ -10807,12 +10807,12 @@
           "id": "L014",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞將剛寫好的查閱單交給芬利。"
+          "text": "奧莉薇雅將剛寫好的查閱單交給芬利。"
         },
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「議會要復辦，高官的來路也得弄清。否則我很可能只是把他們從一張椅子請下來，又親手送到另一張椅子上。」"
@@ -10876,7 +10876,7 @@
           "id": "L002",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "承辦官員接過奧莉維亞的調閱清單，從頭讀到尾，神情漸漸為難。"
+          "text": "承辦官員接過奧莉薇雅的調閱清單，從頭讀到尾，神情漸漸為難。"
         },
         {
           "id": "L003",
@@ -10889,7 +10889,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我不需要一天內就有答案。先告訴我，哪一種紀錄最能追到源頭。」"
@@ -10956,7 +10956,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先弄清楚每個部門原本為什麼存在。至於後來多了多少主管，可以再慢慢比對。」"
@@ -11013,7 +11013,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我想知道那些高官原先在什麼位置、何時被調任，又由誰簽署。」"
@@ -11070,7 +11070,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有些人或許一面參與議事，一面替官署推薦人選。先查有沒有相同的名字。」"
@@ -11129,7 +11129,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「聽來你心裡已有一個人選。」"
@@ -11146,7 +11146,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「剛姆？我不認識。」"
@@ -11162,7 +11162,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「他的辦公處在哪裡？」"
@@ -11179,19 +11179,19 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞道了謝，沒有要求承辦人立刻替她找出所有答案，只請對方按照原有程序登記調閱需求。"
+          "text": "奧莉薇雅道了謝，沒有要求承辦人立刻替她找出所有答案，只請對方按照原有程序登記調閱需求。"
         },
         {
           "id": "L008",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "午後，皇家圖書館的石砌拱窗灑下柔光。廊道間沒有宮廷會客廳的喧鬧，只有書頁摩擦與遠處木梯移動的細響。奧莉維亞在接待處停下。",
+          "text": "午後，皇家圖書館的石砌拱窗灑下柔光。廊道間沒有宮廷會客廳的喧鬧，只有書頁摩擦與遠處木梯移動的細響。奧莉薇雅在接待處停下。",
           "cg": "EP04-ACT05-CG13"
         },
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我想拜訪剛姆書記官。沒有事先約定，勞煩替我通報。」"
@@ -11235,7 +11235,7 @@
         {
           "id": "L015",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「您就是剛姆書記官？」"
@@ -11251,7 +11251,7 @@
         {
           "id": "L017",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有人說，王宮許多舊事您都知道。」"
@@ -11268,12 +11268,12 @@
           "id": "L019",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞忍不住笑了一下。"
+          "text": "奧莉薇雅忍不住笑了一下。"
         },
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那我先問您知道的。戰時那些高官與臨時官署，到底從哪裡來？」"
@@ -11295,7 +11295,7 @@
         {
           "id": "L023",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「看來是兩個不同的問題。」"
@@ -11368,7 +11368,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「然後人手越來越多？」"
@@ -11399,7 +11399,7 @@
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以……又設一個監督監督單位的人？」"
@@ -11416,12 +11416,12 @@
           "id": "L009",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞看著紙上愈來愈密的職務欄位，半晌說不出話。"
+          "text": "奧莉薇雅看著紙上愈來愈密的職務欄位，半晌說不出話。"
         },
         {
           "id": "L010",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這些人最早只是為了讓車隊快一點通過道路？」"
@@ -11437,7 +11437,7 @@
         {
           "id": "L012",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那怎麼一直沒有撤回？」"
@@ -11453,7 +11453,7 @@
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「誰負責確認，這些安排是不是還需要？」"
@@ -11484,7 +11484,7 @@
         {
           "id": "L018",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「您很早就覺得不妥？」"
@@ -11500,7 +11500,7 @@
         {
           "id": "L020",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「以前沒有人聽您的意見？」"
@@ -11516,7 +11516,7 @@
         {
           "id": "L022",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「哥哥也是這樣？」"
@@ -11532,7 +11532,7 @@
         {
           "id": "L024",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「他是個好好先生。有人缺人，他想辦法補；有人說辦不成，他總願意先找一條路。」",
@@ -11549,7 +11549,7 @@
         {
           "id": "L026",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我知道。我不是想把所有麻煩推給哥哥。」"
@@ -11563,7 +11563,7 @@
         {
           "id": "L028",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「只是大家都有人幫忙把事情開始，卻沒有人兜底，負責讓它結束。」"
@@ -11579,7 +11579,7 @@
         {
           "id": "L030",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那您願意幫我繼續往前查嗎？」"
@@ -11656,7 +11656,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我不想只查完幾個名字就算了。能否依原有職權，把設立、任命、改組和撤編的沿革整理成可供查核的索引？不必替誰下判斷，只求有據可查。」"
@@ -11672,7 +11672,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我會讓文書承辦處依程序送來請求；超出授權的部分，另行呈報。」"
@@ -11729,7 +11729,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「不必一口氣把所有舊事翻出來。先從任命與職務重疊最明顯的幾個例子查起。」"
@@ -11745,7 +11745,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「有疑點就寫疑點，別替我猜結論。」"
@@ -11802,7 +11802,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「您已經幫我釐清不少事情。其餘資料先照既有程序調閱，不必為我額外變動辦公安排。」"
@@ -11818,7 +11818,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就麻煩您了。」"
@@ -11889,7 +11889,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「還有誰推薦了他。」"
@@ -11905,7 +11905,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「能問到的就先問，沒證據的不必湊。」"
@@ -11922,7 +11922,7 @@
           "id": "L007",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞告辭。剛姆待門關上，翻開兩冊年份不同的名冊，在其中一個名字旁做了個小小記號。"
+          "text": "奧莉薇雅告辭。剛姆待門關上，翻開兩冊年份不同的名冊，在其中一個名字旁做了個小小記號。"
         },
         {
           "id": "L008",
@@ -12009,7 +12009,7 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "幾日後的黃昏，奧莉維亞再次走進皇家圖書館。接待職員認得她，仍依照禮節先行通報。",
+          "text": "幾日後的黃昏，奧莉薇雅再次走進皇家圖書館。接待職員認得她，仍依照禮節先行通報。",
           "cg": "EP04-ACT05-CG21"
         },
         {
@@ -12021,7 +12021,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「看來我給您找了不少事。」"
@@ -12037,7 +12037,7 @@
         {
           "id": "L005",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「您已經查出什麼？」"
@@ -12067,7 +12067,7 @@
         {
           "id": "L009",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以不能全算在哥哥頭上。」"
@@ -12083,7 +12083,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我最想知道的是，那些現在還有影響力的高官，究竟從哪裡來。」"
@@ -12105,7 +12105,7 @@
         {
           "id": "L014",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「議員？」"
@@ -12136,13 +12136,13 @@
           "id": "L018",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沿著索引逐個查看。她忽然停在其中一個名字上。",
+          "text": "奧莉薇雅沿著索引逐個查看。她忽然停在其中一個名字上。",
           "cg": "EP04-ACT05-CG22"
         },
         {
           "id": "L019",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這個人，在攝政儀式上向我祝賀過。」"
@@ -12156,7 +12156,7 @@
         {
           "id": "L021",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這位還說，願意幫我推薦合適的人手。」"
@@ -12170,7 +12170,7 @@
         {
           "id": "L023",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「牽涉這些官署和任命的人，究竟有多少？」"
@@ -12194,12 +12194,12 @@
           "id": "L026",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞靜了一會兒。"
+          "text": "奧莉薇雅靜了一會兒。"
         },
         {
           "id": "L027",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「連您都沒想過會有這麼多？」"
@@ -12215,7 +12215,7 @@
         {
           "id": "L029",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這些人當中，多少真的有問題？」"
@@ -12231,7 +12231,7 @@
         {
           "id": "L031",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「但那些職位和人脈留下來了。」"
@@ -12248,12 +12248,12 @@
           "id": "L033",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞望著交錯的資料，想起與芬利談過的復辦議會。她原以為自己是利用戰後空缺重新建立秩序，現在才發現，空缺旁仍站著許多早已互相認識的人。"
+          "text": "奧莉薇雅望著交錯的資料，想起與芬利談過的復辦議會。她原以為自己是利用戰後空缺重新建立秩序，現在才發現，空缺旁仍站著許多早已互相認識的人。"
         },
         {
           "id": "L034",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「如果我要恢復議會，恐怕得重新見一遍這些人。」"
@@ -12350,7 +12350,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「能證實的就列清楚，不能證實的就標明還待查。復辦議會時，我希望每一方都能知道席位與舉薦資格的依據。」"
@@ -12366,7 +12366,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那就照規則辦。我要的是能坐下來談的共同依據，不是一張用來嚇人的名單。」"
@@ -12423,7 +12423,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先挑那些仍在承擔責任、也願意把事情辦成的人談。不必急著讓所有人一起走進議事廳。」"
@@ -12439,7 +12439,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那是我的工作。您只需告訴我哪些資料可信。」"
@@ -12496,7 +12496,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「事情比我想的複雜。先把來源留好，不要讓每個人都以為自己明天就會被清算。」"
@@ -12512,7 +12512,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「議會仍要恢復，只是不能拿未查明的事替人定罪。」"
@@ -12569,7 +12569,7 @@
         {
           "id": "L001",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先把權責最不清楚的幾項送交有權部門審核。該承認當年有必要的，就承認；若有責任缺口，也得留下正式結論。」"
@@ -12585,7 +12585,7 @@
         {
           "id": "L003",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我明白。調查有調查的代價，但我不想讓下一代再問，當年到底是誰負責結束。」"
@@ -12659,12 +12659,12 @@
           "id": "L001",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞把索引輕輕推回桌上。"
+          "text": "奧莉薇雅把索引輕輕推回桌上。"
         },
         {
           "id": "L002",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「剛姆，這些日子辛苦您了。」"
@@ -12680,7 +12680,7 @@
         {
           "id": "L004",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這個建議，我會記住。」"
@@ -12697,12 +12697,12 @@
           "id": "L006",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞笑了。"
+          "text": "奧莉薇雅笑了。"
         },
         {
           "id": "L007",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「您剛才不是還慶幸，終於有個有權的人發現問題？」"
@@ -12732,7 +12732,7 @@
         {
           "id": "L011",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我明白。我要弄清誰能承擔現在的工作，而不是把所有舊人都趕出門。」"
@@ -12761,12 +12761,12 @@
           "id": "L015",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞沒有拒絕，也沒有立刻答應。"
+          "text": "奧莉薇雅沒有拒絕，也沒有立刻答應。"
         },
         {
           "id": "L016",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「多謝。等調閱的資料齊了，我會請您談談以前的實際經驗。」"
@@ -12775,7 +12775,7 @@
           "id": "L017",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "對方欣然行禮離去。奧莉維亞看著他的背影，想起那些重複出現的名字。"
+          "text": "對方欣然行禮離去。奧莉薇雅看著他的背影，想起那些重複出現的名字。"
         },
         {
           "id": "L018",
@@ -12805,7 +12805,7 @@
         {
           "id": "L022",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「先讓他們願意坐下來吧。」"

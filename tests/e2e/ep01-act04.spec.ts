@@ -132,10 +132,10 @@ test('ACT IV starts black, reveals twenty corrected CGs, reads five choices and 
   if (await page.getByRole('button', { name: '關閉通知', exact: true }).isVisible())
     await page.getByRole('button', { name: '關閉通知', exact: true }).click();
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    '第四幕完 · 王女的職責'
+    '第四幕完 · 你們各人的重擔要互相擔當'
   );
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    'ACT V〈暫時留下的人〉'
+    'ACT V〈你要聽從生你的父親〉'
   );
   await expect
     .poll(async () => {

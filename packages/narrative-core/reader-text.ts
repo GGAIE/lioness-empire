@@ -1,37 +1,56 @@
 import review from '../../content/reader/immersive-text-v1.json' with { type: 'json' };
+import dialogueReview from '../../content/reader/dialogue-polish-v1.5.json' with { type: 'json' };
+import ep09DialogueReview from '../../content/reader/dialogue-polish-ep09-v1.json' with { type: 'json' };
 import type { Scene, Story } from './schema';
 
 export const readerTextEdits = review.edits;
+export const dialoguePolishEdits = [...dialogueReview.edits, ...ep09DialogueReview.edits] as Array<{
+  sceneId: string;
+  segmentId: string;
+  from: string;
+  to: string;
+}>;
 export const readerContentVersion = (version: string) =>
   version.endsWith('.' + review.revision) ? version : version + '.' + review.revision;
 
 export function readerNames(text: string): string {
   return text
-    .replaceAll('奧莉薇雅', '奧莉維亞')
-    .replaceAll('莎莉雅', '莎莉亞')
-    .replaceAll('塔瑪拉', '塔馬拉')
-    .replaceAll('米椰爾', '米耶爾');
+    .replaceAll('奧莉維亞', '奧莉薇雅')
+    .replaceAll('莎莉亞', '莎莉雅')
+    .replaceAll('塔馬拉', '塔瑪拉')
+    .replaceAll('米耶爾', '米椰爾')
+    .replaceAll('薩拉菲尼亞', '撒拉非尼亞');
 }
 
 export function readerSpeakerLabel(speaker: string | undefined, label: string): string {
   if (speaker === 'PALACE_CLERK' && label === '承辦人') return '內廷承辦人';
   if (speaker === 'NORTH_WING_STEWARD' && ['主管', '內廷主管'].includes(label)) return '北翼主管';
   if (speaker === 'RUENNE_EXILE_DELEGATE' && label === '路恩代表') return '流亡貴族代表';
-  if (speaker === 'OLIVIA' && label === '奧莉維亞低聲自語') return '奧莉維亞（低聲自語）';
+  if (speaker === 'OLIVIA' && label === '奧莉維亞低聲自語') return '奧莉薇雅（低聲自語）';
   return readerNames(label).replace('・心聲', '（心聲）').replace('（內心）', '（心聲）');
 }
 
 // Exact editorial replacements, rather than deleting words such as "故事" or
 // "演戲" that also have ordinary meanings inside the story.
 export function readerText(sceneId: string, id: string, text: string, choice = false): string {
+  const polish = !choice
+    ? dialoguePolishEdits.find((e) => e.sceneId === sceneId && e.segmentId === id)
+    : undefined;
+  if (polish && (text === polish.to || text === readerNames(polish.to)))
+    return readerNames(polish.to);
   const edit = readerTextEdits.find(
     (e) => e.sceneId === sceneId && (choice ? e.choiceId === id : e.segmentId === id)
   );
-  if (!edit) return readerNames(text);
-  const reviewed = readerNames(edit.to);
-  if (text === edit.to || text === reviewed) return reviewed;
-  if (text !== edit.from) throw Error(`Reader text needs source review: ${sceneId}/${id}`);
-  return reviewed;
+  let reviewed = readerNames(text);
+  if (edit) {
+    if (text !== edit.to && text !== readerNames(edit.to) && text !== edit.from)
+      throw Error(`Reader text needs source review: ${sceneId}/${id}`);
+    reviewed = readerNames(edit.to);
+  }
+  if (!polish) return reviewed;
+  if (reviewed !== readerNames(polish.from))
+    throw Error(`Dialogue source needs review: ${sceneId}/${id}`);
+  return readerNames(polish.to);
 }
 
 export function readerScene(scene: Scene): Scene {
@@ -48,6 +67,13 @@ export function readerScene(scene: Scene): Scene {
 }
 
 export function prepareReaderStory(story: Story): Story {
+  for (const edit of dialoguePolishEdits) {
+    const segment = story.scenes[edit.sceneId]?.segments.find((s) => s.id === edit.segmentId);
+    if (!segment || !['dialogue', 'thought'].includes(segment.kind ?? '') || !segment.speaker)
+      throw Error(
+        `Dialogue review must target a spoken paragraph: ${edit.sceneId}/${edit.segmentId}`
+      );
+  }
   for (const edit of readerTextEdits) {
     const scene = story.scenes[edit.sceneId];
     const item = edit.choiceId
@@ -70,9 +96,15 @@ export function prepareReaderStory(story: Story): Story {
 // Only migrate history whose exact original wording is in the reviewed list.
 // Unrelated or user-modified historical text remains untouched.
 export function reviewedHistoryText(sceneId: string, segmentId: string, text: string): string {
-  return readerNames(
+  const immersive =
     readerTextEdits.find(
       (e) => e.sceneId === sceneId && e.segmentId === segmentId && e.from === text
-    )?.to ?? text
+    )?.to ?? text;
+  const polished = dialoguePolishEdits.find(
+    (e) =>
+      e.sceneId === sceneId &&
+      e.segmentId === segmentId &&
+      readerNames(e.from) === readerNames(immersive)
   );
+  return readerNames(polished?.to ?? immersive);
 }

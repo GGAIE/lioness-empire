@@ -1,0 +1,112 @@
+{
+  "status": "DRAFT",
+  "episode": "EP08",
+  "act": "ACT05",
+  "route": "WORLD",
+  "pov": "OLIVIA",
+  "flavor_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+  ],
+  "flavor_options_each": 3,
+  "flavor_effects": {},
+  "conditional_flavors": {
+    "shared": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F16"
+    ],
+    "A_ONLY": [
+      "F08",
+      "F09",
+      "F10",
+      "F11"
+    ],
+    "B_ONLY": [
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+    ]
+  },
+  "major_event": {
+    "id": "F5",
+    "note": "F5 major event differs from flavor F01-F16",
+    "A": {
+      "label": "批准芬利調查艾莉西亞",
+      "set": {
+        "PROPOSED_FINLEY_F5_APPROVED": true,
+        "PROPOSED_FINLEY_F5_COMPLETE": true
+      },
+      "next": "SC04-A"
+    },
+    "B": {
+      "label": "不批准芬利調查艾莉西亞",
+      "set": {
+        "PROPOSED_FINLEY_F5_APPROVED": false,
+        "PROPOSED_FINLEY_F5_COMPLETE": false
+      },
+      "next": "SC04-B"
+    }
+  },
+  "branch_A_choice": {
+    "id": "A-P01",
+    "A": {
+      "label": "王室正式提出邀請",
+      "set": {
+        "PROPOSED_AUTEDAN_INVESTOR_CONTACT": "ROYAL_INVITATION"
+      }
+    },
+    "B": {
+      "label": "艾拉先私人接洽",
+      "set": {
+        "PROPOSED_AUTEDAN_INVESTOR_CONTACT": "PRIVATE_APPROACH"
+      }
+    }
+  },
+  "branch_B_choice": {
+    "id": "B-P01",
+    "A": {
+      "label": "封印資訊有限查核",
+      "set": {
+        "PROPOSED_ELIA_SEAL_POLICY": "LIMITED_RESEARCH"
+      }
+    },
+    "B": {
+      "label": "維持封存",
+      "set": {
+        "PROPOSED_ELIA_SEAL_POLICY": "PRESERVE"
+      }
+    }
+  },
+  "unvisited_branch_value": "NOT_VISITED",
+  "EP09_investment_resolution": "PENDING",
+  "EP09_reinforcement_decision": "UNDECIDED",
+  "political_and_unrest_deltas": "NOT_APPROVED_NOT_ASSIGNED",
+  "no_character_clear_auto_increment": true,
+  "world_fixed": {
+    "ICE_EYE_MANIFESTED": false,
+    "ELIA_RETURNED": false,
+    "ACADEMY_TECH_REPUTATION_PARTIALLY_RESTORED": true,
+    "ACADEMY_SEATS_AUTO_INCREASED": false
+  }
+}

@@ -69,9 +69,6 @@ for (const key of Object.keys(act03CompletionFlags))
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP01')!,
   {
-    title: hasLaterActs
-      ? manifest.chapters.find((c) => c.id === 'EP01')!.title
-      : '王冠之前 · ACT I–III',
     status: 'DRAFT_AVAILABLE',
   }
 );

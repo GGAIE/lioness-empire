@@ -1,5 +1,11 @@
 import type { Scene, Story } from '../packages/narrative-core/schema';
 import review from '../content/sources/ep01/speaker-annotations-v1.json' with { type: 'json' };
+import {
+  readerText,
+  readerSpeakerLabel,
+  readerNames,
+  readerContentVersion,
+} from '../packages/narrative-core/reader-text';
 
 // These are editorial assignments, checked against the exact original text.
 // Do not alternate speakers or assign every quoted phrase to a character.
@@ -20,6 +26,7 @@ export function annotateSpeakers(scenes: Scene[]): void {
 }
 
 export function auditSpeakers(story: Story) {
+  const readingEdition = story.manifest.version === readerContentVersion(story.manifest.version);
   const errors: string[] = [];
   const retainedQuotes: { sceneId: string; segmentId: string; text: string; reason: string }[] = [];
   let dialogue = 0,
@@ -45,7 +52,10 @@ export function auditSpeakers(story: Story) {
           errors.push(`${ref}: narration has a character header`);
         if (!segment.text.includes('「')) continue;
         const exception = review.nonDialogueExceptions.find(
-          (r) => r.sceneId === scene.id && r.segmentId === segment.id && r.text === segment.text
+          (r) =>
+            r.sceneId === scene.id &&
+            r.segmentId === segment.id &&
+            (readingEdition ? readerNames(r.text) : r.text) === segment.text
         );
         const prompt =
           scene.kind === 'choice' &&
@@ -72,10 +82,12 @@ export function auditSpeakers(story: Story) {
     const segment = story.scenes[row.sceneId]?.segments.find((p) => p.id === row.segmentId);
     if (
       !segment ||
-      segment.text !== row.text ||
+      segment.text !==
+        (readingEdition ? readerText(row.sceneId, row.segmentId, row.text) : row.text) ||
       segment.kind !== 'dialogue' ||
       segment.speaker !== row.speaker ||
-      segment.speakerLabel !== row.speakerLabel
+      segment.speakerLabel !==
+        (readingEdition ? readerSpeakerLabel(row.speaker, row.speakerLabel) : row.speakerLabel)
     )
       errors.push(`${row.sceneId}/${row.segmentId}: reviewed speaker assignment was lost`);
   }

@@ -9782,5 +9782,829 @@
     "label": "第八章 第四幕 WORLD CG25",
     "status": "APPROVED",
     "source": "EP08_ACT04_World_34_CG_Corrected_v1.1.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg01.png",
+    "label": "第八章 第五幕 SACRED CG01",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg02.png",
+    "label": "第八章 第五幕 SACRED CG02",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg03.png",
+    "label": "第八章 第五幕 SACRED CG03",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg04.png",
+    "label": "第八章 第五幕 SACRED CG04",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg05.png",
+    "label": "第八章 第五幕 SACRED CG05",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG06",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg06.png",
+    "label": "第八章 第五幕 SACRED CG06",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG07",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg07.png",
+    "label": "第八章 第五幕 SACRED CG07",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG08",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg08.png",
+    "label": "第八章 第五幕 SACRED CG08",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG09",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg09.png",
+    "label": "第八章 第五幕 SACRED CG09",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG10",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg10.png",
+    "label": "第八章 第五幕 SACRED CG10",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg11.png",
+    "label": "第八章 第五幕 SACRED CG11",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg12.png",
+    "label": "第八章 第五幕 SACRED CG12",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG13",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg13.png",
+    "label": "第八章 第五幕 SACRED CG13",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG14",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg14.png",
+    "label": "第八章 第五幕 SACRED CG14",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG15",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg15.png",
+    "label": "第八章 第五幕 SACRED CG15",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG16",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg16.png",
+    "label": "第八章 第五幕 SACRED CG16",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG17",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg17.png",
+    "label": "第八章 第五幕 SACRED CG17",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG18",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg18.png",
+    "label": "第八章 第五幕 SACRED CG18",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG19",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg19.png",
+    "label": "第八章 第五幕 SACRED CG19",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG20",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg20.png",
+    "label": "第八章 第五幕 SACRED CG20",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG21",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg21.png",
+    "label": "第八章 第五幕 SACRED CG21",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG22",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg22.png",
+    "label": "第八章 第五幕 SACRED CG22",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG23",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg23.png",
+    "label": "第八章 第五幕 SACRED CG23",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG24",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg24.png",
+    "label": "第八章 第五幕 SACRED CG24",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG25",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg25.png",
+    "label": "第八章 第五幕 SACRED CG25",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG26",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg26.png",
+    "label": "第八章 第五幕 SACRED CG26",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG27",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg27.png",
+    "label": "第八章 第五幕 SACRED CG27",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG28",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg28.png",
+    "label": "第八章 第五幕 SACRED CG28",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG29",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg29.png",
+    "label": "第八章 第五幕 SACRED CG29",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-SACRED-CG30",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/sacred/cg30.png",
+    "label": "第八章 第五幕 SACRED CG30",
+    "status": "APPROVED",
+    "source": "Lioness_Empire_EP08_ACT05_Sacred_30_CG_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG01",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg01.png",
+    "label": "第八章 第五幕 WORLD CG01",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG02",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg02.png",
+    "label": "第八章 第五幕 WORLD CG02",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG03",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg03.png",
+    "label": "第八章 第五幕 WORLD CG03",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG04",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg04.png",
+    "label": "第八章 第五幕 WORLD CG04",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG05",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg05.png",
+    "label": "第八章 第五幕 WORLD CG05",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG06A",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg06A.png",
+    "label": "第八章 第五幕 WORLD CG06A",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG07A",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg07A.png",
+    "label": "第八章 第五幕 WORLD CG07A",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG08A",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg08A.png",
+    "label": "第八章 第五幕 WORLD CG08A",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG09A",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg09A.png",
+    "label": "第八章 第五幕 WORLD CG09A",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG10A",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg10A.png",
+    "label": "第八章 第五幕 WORLD CG10A",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG06B",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg06B.png",
+    "label": "第八章 第五幕 WORLD CG06B",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG07B",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg07B.png",
+    "label": "第八章 第五幕 WORLD CG07B",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG08B",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg08B.png",
+    "label": "第八章 第五幕 WORLD CG08B",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG09B",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg09B.png",
+    "label": "第八章 第五幕 WORLD CG09B",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG10B",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg10B.png",
+    "label": "第八章 第五幕 WORLD CG10B",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG11",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg11.png",
+    "label": "第八章 第五幕 WORLD CG11",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP08-ACT05-WORLD-CG12",
+    "type": "cg",
+    "src": "assets/cg/ep08/act05/world/cg12.png",
+    "label": "第八章 第五幕 WORLD CG12",
+    "status": "APPROVED",
+    "source": "EP08_ACT05_World_17_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-01-01",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc01-01.png",
+    "label": "第九章 第一幕 SACRED CG01_01",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-01-02",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc01-02.png",
+    "label": "第九章 第一幕 SACRED CG01_02",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-01-03",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc01-03.png",
+    "label": "第九章 第一幕 SACRED CG01_03",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-01-04",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc01-04.png",
+    "label": "第九章 第一幕 SACRED CG01_04",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-01-05",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc01-05.png",
+    "label": "第九章 第一幕 SACRED CG01_05",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-01-06",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc01-06.png",
+    "label": "第九章 第一幕 SACRED CG01_06",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-02-01",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc02-01.png",
+    "label": "第九章 第一幕 SACRED CG02_01",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-02-02",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc02-02.png",
+    "label": "第九章 第一幕 SACRED CG02_02",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-02-03",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc02-03.png",
+    "label": "第九章 第一幕 SACRED CG02_03",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-02-04",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc02-04.png",
+    "label": "第九章 第一幕 SACRED CG02_04",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-02-05",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc02-05.png",
+    "label": "第九章 第一幕 SACRED CG02_05",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-03-01",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc03-01.png",
+    "label": "第九章 第一幕 SACRED CG03_01",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-03-02",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc03-02.png",
+    "label": "第九章 第一幕 SACRED CG03_02",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-03-03",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc03-03.png",
+    "label": "第九章 第一幕 SACRED CG03_03",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-03-04",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc03-04.png",
+    "label": "第九章 第一幕 SACRED CG03_04",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-03-05",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc03-05.png",
+    "label": "第九章 第一幕 SACRED CG03_05",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-03-06",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc03-06.png",
+    "label": "第九章 第一幕 SACRED CG03_06",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-04-01",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc04-01.png",
+    "label": "第九章 第一幕 SACRED CG04_01",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-04-02",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc04-02.png",
+    "label": "第九章 第一幕 SACRED CG04_02",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-04-03",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc04-03.png",
+    "label": "第九章 第一幕 SACRED CG04_03",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-04-04",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc04-04.png",
+    "label": "第九章 第一幕 SACRED CG04_04",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-04-05",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc04-05.png",
+    "label": "第九章 第一幕 SACRED CG04_05",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-04-06",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc04-06.png",
+    "label": "第九章 第一幕 SACRED CG04_06",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-05-01",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc05-01.png",
+    "label": "第九章 第一幕 SACRED CG05_01",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-05-02",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc05-02.png",
+    "label": "第九章 第一幕 SACRED CG05_02",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-05-03",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc05-03.png",
+    "label": "第九章 第一幕 SACRED CG05_03",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-05-04",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc05-04.png",
+    "label": "第九章 第一幕 SACRED CG05_04",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-S-05-05",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/sacred/sc05-05.png",
+    "label": "第九章 第一幕 SACRED CG05_05",
+    "status": "APPROVED",
+    "source": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-01",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg01.png",
+    "label": "第九章 第一幕 WORLD CG01",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-02",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg02.png",
+    "label": "第九章 第一幕 WORLD CG02",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-03",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg03.png",
+    "label": "第九章 第一幕 WORLD CG03",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-04",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg04.png",
+    "label": "第九章 第一幕 WORLD CG04",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-05",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg05.png",
+    "label": "第九章 第一幕 WORLD CG05",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-06",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg06.png",
+    "label": "第九章 第一幕 WORLD CG06",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-07",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg07.png",
+    "label": "第九章 第一幕 WORLD CG07",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-08",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg08.png",
+    "label": "第九章 第一幕 WORLD CG08",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-09",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg09.png",
+    "label": "第九章 第一幕 WORLD CG09",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-10",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg10.png",
+    "label": "第九章 第一幕 WORLD CG10",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-11",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg11.png",
+    "label": "第九章 第一幕 WORLD CG11",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-12",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg12.png",
+    "label": "第九章 第一幕 WORLD CG12",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-13",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg13.png",
+    "label": "第九章 第一幕 WORLD CG13",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-14",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg14.png",
+    "label": "第九章 第一幕 WORLD CG14",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-15",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg15.png",
+    "label": "第九章 第一幕 WORLD CG15",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-16",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg16.png",
+    "label": "第九章 第一幕 WORLD CG16",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-17",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg17.png",
+    "label": "第九章 第一幕 WORLD CG17",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-18",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg18.png",
+    "label": "第九章 第一幕 WORLD CG18",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-19",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg19.png",
+    "label": "第九章 第一幕 WORLD CG19",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-20",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg20.png",
+    "label": "第九章 第一幕 WORLD CG20",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-21",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg21.png",
+    "label": "第九章 第一幕 WORLD CG21",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-22",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg22.png",
+    "label": "第九章 第一幕 WORLD CG22",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-23",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg23.png",
+    "label": "第九章 第一幕 WORLD CG23",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-24",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg24.png",
+    "label": "第九章 第一幕 WORLD CG24",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-25",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg25.png",
+    "label": "第九章 第一幕 WORLD CG25",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-26",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg26.png",
+    "label": "第九章 第一幕 WORLD CG26",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-27",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg27.png",
+    "label": "第九章 第一幕 WORLD CG27",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
+  },
+  {
+    "id": "EP09-ACT01-W-28",
+    "type": "cg",
+    "src": "assets/cg/ep09/act01/world/cg28.png",
+    "label": "第九章 第一幕 WORLD CG28",
+    "status": "APPROVED",
+    "source": "EP09_World_ACT01_28_CG_Review_v0.1.zip"
   }
 ]

@@ -155,7 +155,7 @@ test('reads every A-route paragraph in all five acts, all main CGs, music and fi
   await expect(page.getByRole('alertdialog')).toContainText('章末結算');
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    '第三章完 · 東北塔的議員們'
+    '第三章完 · King and Lionheart'
   );
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP04');
   await expect(page.getByRole('button', { name: /進入 EP04/ })).toBeVisible();

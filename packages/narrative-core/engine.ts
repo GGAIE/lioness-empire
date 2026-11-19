@@ -125,7 +125,8 @@ export function choiceUnavailableReason(
     if (effect.type !== 'points') continue;
     if (points === undefined || points === null) return '目前無法確認政治點數';
     points += effect.delta;
-    if (points < 0) return `政治點數不足，需要 ${-effect.delta} 點`;
+    if (points < 0 && choice.pointCostPolicy !== 'ALLOW_EXHAUSTION')
+      return `政治點數不足，需要 ${-effect.delta} 點`;
   }
   if (choice.previewEffects) {
     try {
@@ -157,6 +158,46 @@ export function nextSceneId(story: Story, state: GameState): string | undefined 
     ? scene.conditionalNext.next
     : scene.next;
 }
+// Called only at real transaction boundaries, never by previews or raw imports.
+export function finalizePointSettlement(
+  story: Story,
+  state: GameState,
+  settled: boolean
+): GameState {
+  const rule = story.manifest.resourceExhaustionEnding;
+  if (
+    !rule ||
+    !settled ||
+    state.campaign?.mode !== 'PLAYER' ||
+    state.campaign.politicalPoints === null ||
+    state.campaign.politicalPoints > 0 ||
+    state.flags[rule.flag] === true ||
+    story.scenes[state.currentSceneId].status === 'DEMO_ONLY'
+  )
+    return state;
+  const ending = story.scenes[rule.scene];
+  if (!ending || ending.specialEnding !== rule.ending) throw Error('耗盡結局資料不完整。');
+  const n = clone(state);
+  n.campaign!.politicalPoints = 0;
+  n.campaign!.sealed = true;
+  n.flags[rule.flag] = true;
+  n.currentSceneId = rule.scene;
+  n.currentSegmentIndex = 0;
+  return n;
+}
+
+// Sum a formal batch before checking exhaustion: -10 followed by +10 in one
+// settlement is not a bankruptcy in the middle of that same transaction.
+function applySettlement(story: Story, state: GameState, effects: Effect[]): GameState {
+  if (!story.manifest.resourceExhaustionEnding || !effects.some((e) => e.type === 'points'))
+    return applyEffects(state, effects);
+  const delta = effects.reduce((sum, e) => sum + (e.type === 'points' ? e.delta : 0), 0);
+  const other = effects.filter((e) => e.type !== 'points');
+  const n = applyEffects(state, other);
+  if (!n.campaign || n.campaign.politicalPoints === null) throw Error('目前無法確認政治點數');
+  n.campaign.politicalPoints = Math.max(0, n.campaign.politicalPoints + delta);
+  return n;
+}
 export function markRead(story: Story, state: GameState): GameState {
   let n = clone(state);
   const segment = visibleSegments(story, n)[n.currentSegmentIndex],
@@ -175,10 +216,41 @@ export function markRead(story: Story, state: GameState): GameState {
       text: segment.text,
     });
   if (n.currentSegmentIndex === visibleSegments(story, n).length - 1) {
+    let pointsSettled = false;
+    let deferredPoints = 0;
     const completion = story.scenes[n.currentSceneId].completionEffects;
-    if (completion && evaluate(n, completion.when)) n = applyEffects(n, completion.effects);
-    for (const settlement of story.scenes[n.currentSceneId].settlements ?? [])
-      if (evaluate(n, settlement.when)) n = applyEffects(n, settlement.effects);
+    if (completion && evaluate(n, completion.when)) {
+      pointsSettled ||= completion.effects.some((e) => e.type === 'points');
+      if (story.manifest.resourceExhaustionEnding) {
+        deferredPoints += completion.effects.reduce(
+          (sum, e) => sum + (e.type === 'points' ? e.delta : 0),
+          0
+        );
+        n = applyEffects(
+          n,
+          completion.effects.filter((e) => e.type !== 'points')
+        );
+      } else n = applyEffects(n, completion.effects);
+    }
+    // Each conditional group uses the state at its boundary, preserving the
+    // established flag ordering while exhaustion waits for the entire batch.
+    const settlements = story.scenes[n.currentSceneId].settlements ?? [];
+    for (const settlement of settlements)
+      if (evaluate(n, settlement.when)) {
+        if (story.manifest.resourceExhaustionEnding) {
+          pointsSettled ||= settlement.effects.some((e) => e.type === 'points');
+          deferredPoints += settlement.effects.reduce(
+            (sum, e) => sum + (e.type === 'points' ? e.delta : 0),
+            0
+          );
+          n = applyEffects(
+            n,
+            settlement.effects.filter((e) => e.type !== 'points')
+          );
+        } else n = applyEffects(n, settlement.effects);
+      }
+    if (pointsSettled && story.manifest.resourceExhaustionEnding)
+      n = applySettlement(story, n, [{ type: 'points', delta: deferredPoints }]);
     for (const [key, value] of Object.entries(
       story.scenes[n.currentSceneId].completionFlags ?? {}
     )) {
@@ -186,9 +258,12 @@ export function markRead(story: Story, state: GameState): GameState {
         throw Error(`Invalid completion flag ${key}`);
       n.flags[key] = value;
     }
+    n = finalizePointSettlement(story, n, pointsSettled);
+    if (n.currentSceneId !== state.currentSceneId) return n;
     const ch = story.scenes[n.currentSceneId].chapter;
     if (
       !n.readChapters.includes(ch) &&
+      !story.manifest.chapters.find((c) => c.id === ch)?.libraryOnly &&
       story.scenes[n.currentSceneId].kind === 'end' &&
       story.scenes[n.currentSceneId].completion?.scope !== 'ACT'
     )
@@ -199,6 +274,7 @@ export function markRead(story: Story, state: GameState): GameState {
 export function advance(story: Story, state: GameState): GameState {
   const scene = story.scenes[state.currentSceneId];
   let n = markRead(story, state);
+  if (n.currentSceneId !== state.currentSceneId) return n;
   if (n.currentSegmentIndex < visibleSegments(story, n).length - 1) n.currentSegmentIndex++;
   else if (nextSceneId(story, n)) {
     n.currentSceneId = nextSceneId(story, n)!;
@@ -219,8 +295,20 @@ export function choose(story: Story, state: GameState, id: string): GameState {
     throw Error('Choice already committed in this playthrough');
   const unavailable = choiceUnavailableReason(state, c);
   if (unavailable) throw Error(unavailable);
-  const n = applyEffects(markRead(story, state), c.effects);
+  const before = markRead(story, state);
+  if (before.currentSceneId !== state.currentSceneId) return before;
+  if (c.pointCostPolicy && !story.manifest.resourceExhaustionEnding)
+    throw Error('耗盡選項缺少全域結局設定');
+  const n = c.pointCostPolicy
+    ? applySettlement(story, before, c.effects)
+    : applyEffects(before, c.effects);
   n.decisionLog.push(key);
+  const settled = finalizePointSettlement(
+    story,
+    n,
+    c.effects.some((e) => e.type === 'points')
+  );
+  if (settled.currentSceneId !== state.currentSceneId) return settled;
   n.currentSceneId = c.next;
   n.currentSegmentIndex = 0;
   return n;
@@ -238,7 +326,13 @@ export function continueChapter(story: Story, state: GameState, unlocked = false
   )
     throw Error('尚未到達可銜接的章節結尾');
   let n = markRead(story, state);
+  if (n.currentSceneId !== state.currentSceneId) return n;
   if (!unlocked) n = enterPlayerChapter(story, n, story.scenes[target].chapter);
+  if (
+    story.manifest.resourceExhaustionEnding &&
+    n.currentSceneId === story.manifest.resourceExhaustionEnding.scene
+  )
+    return n;
   n.currentSceneId = target;
   n.currentSegmentIndex = 0;
   if (n.campaign?.mode === 'PLAYER') {
@@ -280,7 +374,12 @@ export function enterPlayerChapter(story: Story, state: GameState, chapterId: st
   const entered = enterChapter(campaign, plan, chapterId);
   if (!['APPLIED', 'UNCHANGED'].includes(entered.status)) throw Error(entered.reason);
   n.campaign = entered.state;
-  return n;
+  return finalizePointSettlement(
+    story,
+    n,
+    entered.state.upkeep.length > campaign.upkeep.length &&
+      (entered.state.upkeep.at(-1)?.cost ?? 0) > 0
+  );
 }
 export function resolveEnding(state: GameState, rules: EndingRule[]) {
   const evaluated = [...rules]

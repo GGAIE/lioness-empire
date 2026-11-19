@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "script_characters": 11451,
+  "cg_manifest_count": 17,
+  "common_cg_count": 7,
+  "branch_A_cg_count": 5,
+  "branch_B_cg_count": 5,
+  "per_run_cg_count": 12,
+  "existing_hebe_reference_found": true,
+  "hebe_image_dimensions": [
+    1122,
+    1402
+  ],
+  "flavor_choice_groups": 16,
+  "flavor_option_total": 48,
+  "flavor_group_count_per_run": 12,
+  "effective_choice_groups": 2,
+  "effective_outcome_combinations": 4,
+  "actual_cg_generated": 0,
+  "script_status": "DRAFT",
+  "checks": [
+    "CG IDs in full script match 17 prompt files",
+    "all 16 flavor F01-F16 appear once",
+    "1 F5 and one political choice per route",
+    "Hebe original image real pixels validated",
+    "four outcome combinations enumerated",
+    "branch conditions non-overlapping"
+  ],
+  "open_items": [
+    "Autedan construction purpose",
+    "unnamed investment lord",
+    "Elia seal detail",
+    "existing F5 CLEAR linkage",
+    "political cost and unrest values"
+  ]
+}

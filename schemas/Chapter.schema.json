@@ -125,7 +125,10 @@
           },
           "specialEnding": {
             "type": "string",
-            "const": "RETURN_TO_TITLE"
+            "enum": [
+              "RETURN_TO_TITLE",
+              "ARCANA_06"
+            ]
           },
           "completionEffects": {
             "type": "object",
@@ -855,6 +858,10 @@
                       }
                     ]
                   }
+                },
+                "pointCostPolicy": {
+                  "type": "string",
+                  "const": "ALLOW_EXHAUSTION"
                 },
                 "previewEffects": {
                   "type": "array",

@@ -78,7 +78,7 @@ test('restored ACT05 illustrations display and only the true chapter ending issu
   await expect(page.getByRole('alertdialog')).toContainText('章末結算');
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    '第二章完 · 留下來的人'
+    '第二章完 · The Weight'
   );
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP03');
   await expect(page.getByRole('button', { name: '進入 EP03 第三章' })).toBeVisible();

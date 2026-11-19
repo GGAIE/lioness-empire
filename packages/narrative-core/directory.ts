@@ -1,5 +1,6 @@
 import type { GameState, Scene, Story } from './schema';
 import actTitles from './act-titles.json';
+import scriptures from './act-scriptures.json';
 import {
   clone,
   initialState,
@@ -12,6 +13,18 @@ import {
 
 export const actName = (number: number) =>
   ['第一幕', '第二幕', '第三幕', '第四幕', '第五幕'][number - 1] ?? `第${number}幕`;
+export function actScripture(chapter: string, act: string, route?: string) {
+  const entries: Readonly<Partial<Record<string, { text: string; reference: string }>>> =
+    scriptures.acts;
+  return entries[`${chapter}_${act}_${route}`] ?? entries[`${chapter}_${act}`];
+}
+
+export function actTitle(chapter: string, act: string, route?: string) {
+  const scripture = actScripture(chapter, act, route);
+  const titles: Readonly<Partial<Record<string, string>>> = actTitles;
+  return scripture?.text ?? titles[`${chapter}_${act}`];
+}
+
 export interface DirectorySection {
   id: string;
   number: number;
@@ -24,12 +37,14 @@ export interface DirectoryAct {
   number: number;
   label: string;
   title: string;
+  scriptureReference?: string;
   sections: DirectorySection[];
 }
 export interface DirectoryChapter {
   id: string;
   number: string;
   title: string;
+  subtitle?: string;
   acts: DirectoryAct[];
 }
 export function chapterDirectory(
@@ -39,7 +54,7 @@ export function chapterDirectory(
 ): DirectoryChapter[] {
   const read = new Set(readKeys);
   return story.manifest.chapters
-    .filter((ch) => ch.status !== 'DEMO_ONLY')
+    .filter((ch) => ch.status !== 'DEMO_ONLY' && !ch.libraryOnly)
     .map((ch, i) => {
       const plan = story.plan?.chapters.find((p) => p.id === ch.id);
       const scenes = Object.values(story.scenes).filter(
@@ -60,16 +75,8 @@ export function chapterDirectory(
         const number = Number(id.replace('ACT', ''));
         const authored = scenes.filter((s) => s.act === id);
         const title =
-          authored
-            .filter((s) => !state || !s.availableWhen || evaluate(state, s.availableWhen))
-            .find((s) => s.completion)
-            ?.completion?.title.split(' · ')
-            .slice(1)
-            .join(' · ') ||
-          actTitles[`${ch.id}_${id}_${state?.politicalRoute}` as keyof typeof actTitles] ||
-          (ch.id === 'PROLOGUE'
-            ? ch.title
-            : (actTitles[`${ch.id}_${id}` as keyof typeof actTitles] ?? '未命名篇章'));
+          (ch.id === 'PROLOGUE' ? ch.title : actTitle(ch.id, id, state?.politicalRoute)) ??
+          '未命名篇章';
         const groups = new Map<number, Scene[]>();
         for (const [index, scene] of authored.entries()) {
           const n = scene.sceneNumber ?? index + 1;
@@ -80,6 +87,7 @@ export function chapterDirectory(
           number,
           label: authored.some((s) => s.interlude) ? '幕間' : actName(number),
           title,
+          scriptureReference: actScripture(ch.id, id, state?.politicalRoute)?.reference,
           sections: [...groups.entries()].map(([number, group]) => {
             const eligible = state
               ? group.filter((s) => !s.availableWhen || evaluate(state, s.availableWhen))
@@ -133,7 +141,8 @@ export function chapterDirectory(
       return {
         id: ch.id,
         number: ch.id === 'PROLOGUE' ? '序' : String(i).padStart(2, '0'),
-        title: ch.id === 'EP01' ? ch.title.split(' · ')[0] : ch.title,
+        title: ch.title,
+        subtitle: ch.subtitle,
         acts,
       };
     });
@@ -219,10 +228,20 @@ export function openDirectorySection(
   id: string,
   unlocked = false
 ): GameState {
+  if (
+    story.manifest.resourceExhaustionEnding &&
+    state.flags[story.manifest.resourceExhaustionEnding.flag] === true
+  )
+    throw Error('這段歷史已經結束，請開始新遊戲或讀取先前存檔。');
   if (!navigableScenes(story, state, unlocked).has(id)) throw Error('請先完成前一小節的選擇。');
   let n =
     story.scenes[state.currentSceneId].status === 'DEMO_ONLY' ? initialState(story) : clone(state);
   if (!unlocked) n = enterPlayerChapter(story, n, story.scenes[id].chapter);
+  if (
+    story.manifest.resourceExhaustionEnding &&
+    n.currentSceneId === story.manifest.resourceExhaustionEnding.scene
+  )
+    return n;
   n.currentSceneId = id;
   n.currentSegmentIndex = 0;
   if (n.campaign) {
@@ -245,6 +264,7 @@ export function continueCommittedChoice(story: Story, state: GameState): GameSta
   )
     throw Error('尚未讀完已選路線的小節。');
   const n = markRead(story, state);
+  if (n.currentSceneId !== state.currentSceneId) return n;
   n.currentSceneId = chosen.next;
   n.currentSegmentIndex = 0;
   return n;

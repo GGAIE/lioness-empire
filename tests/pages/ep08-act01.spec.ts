@@ -8,7 +8,7 @@ test('continues EP07 saves into the matching EP08 opening with one upkeep receip
 }, info) => {
   const story = await loadReaderContent();
   await page.goto('/');
-  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.17/ }).click();
+  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.19/ }).click();
   await expect(page.getByRole('dialog')).toContainText('第八章第一幕');
   await expect(page.getByRole('dialog')).toContainText('43 張 CG');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
@@ -86,7 +86,7 @@ test('renders both flavor choices with correct speakers and offers the next auth
       'data-scene-id',
       `EP08_ACT01_SC01_${route[0]}_C01_B`
     );
-    await expect(page.locator('.speaker-line')).toContainText('奧莉維亞');
+    await expect(page.locator('.speaker-line')).toContainText('奧莉薇雅');
     const end = Object.values(story.scenes).find(
       (s) =>
         s.chapter === 'EP08' &&
@@ -103,7 +103,7 @@ test('renders both flavor choices with correct speakers and offers the next auth
     await importPlayerState(page, final);
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第一幕完');
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-      route === 'SACRED' ? '第二幕〈五十張椅子〉' : '第二幕〈懸空的席位〉'
+      route === 'SACRED' ? '第二幕〈身子原不是一個肢體，乃是許多肢體〉' : '第二幕〈若一個肢體受苦，所有的肢體就一同受苦〉'
     );
     await expect(page.getByRole('button', { name: '進入第二幕 →', exact: true })).toBeVisible();
     await expect(page.getByRole('alertdialog')).toHaveCount(0);

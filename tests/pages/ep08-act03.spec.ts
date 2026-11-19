@@ -21,7 +21,7 @@ test('continues both second-act saves and shows the first Finley release with 52
 }, info) => {
   const story = await loadReaderContent();
   await prepare(page);
-  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.17/ }).click();
+  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.19/ }).click();
   await expect(page.getByRole('dialog')).toContainText('第八章第三幕');
   await expect(page.getByRole('dialog')).toContainText('52 張 CG');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
@@ -177,7 +177,7 @@ test('keeps the notice image through flavor replies and leaves only act four pen
     await importPlayerState(page, state);
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第三幕完');
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-      route === 'SACRED' ? '第四幕〈慈悲的價碼〉' : '第四幕〈未降臨的寒冰〉'
+      route === 'SACRED' ? '第四幕〈行公義，好憐憫〉' : '第四幕〈你只可到這裏，不可越過〉'
     );
     await expect(page.getByRole('alertdialog')).toHaveCount(0);
   }

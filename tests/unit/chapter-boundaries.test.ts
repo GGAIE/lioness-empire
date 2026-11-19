@@ -82,14 +82,14 @@ it('seeds up to the maximum acyclic debit path without adding exclusive branches
   };
   const seeds = independentEntryStates(fixture, 'EP08');
   expect(new Set(seeds.map((s) => s.campaign!.politicalPoints))).toEqual(
-    new Set(Array.from({ length: 51 }, (_, i) => i))
+    new Set(Array.from({ length: 52 }, (_, i) => i))
   );
   expect(new Set(seeds.map((s) => s.campaign!.unrest)).size).toBe(101);
 });
 
 it('checks every unrest value and both affordability sides for each independent worldline entry', () => {
   const chapters = independentChapters(story);
-  expect([...chapters]).toEqual(['EP08']);
+  expect([...chapters]).toEqual(['EP08', 'EP09']);
   const report = verifyChapterBoundaries(story, chapters);
   expect(report.errors).toEqual([]);
   expect(report.checks).toBeGreaterThan(600);
@@ -147,7 +147,7 @@ it('covers all affordability thresholds and unrest inputs for the self-contained
     },
   };
   expect(independentChapters(contaminated).has('EP08')).toBe(false);
-}, 20000);
+}, 40000);
 
 it('requires a monotonic once guard for deferred numerical and character awards', () => {
   const scene = story.scenes.EP08_ACT03_SC05_S_RESULT_BIG_SUCCESS;
@@ -192,4 +192,22 @@ it('isolates only certified chapter-entry dependencies while the ordinary key pr
   expect(factored(a)).toBe(factored(b));
   expect(a.campaign!.politicalPoints).toBe(0);
   expect(b.campaign!.politicalPoints).toBe(50);
-}, 20000);
+}, 40000);
+
+it('certifies chained chapter boundaries only while every destination remains independent', () => {
+  expect([...independentChapters(story)]).toEqual(['EP08', 'EP09']);
+  const opening = story.scenes.EP09_ACT01_SC01_W;
+  const changed = {
+    ...story,
+    scenes: {
+      ...story.scenes,
+      [opening.id]: {
+        ...opening,
+        availableWhen: { path: 'flags.S3_CLEAR' as const, op: 'eq' as const, value: true },
+      },
+    },
+  };
+  const certified = independentChapters(changed);
+  expect(certified.has('EP09')).toBe(false);
+  expect(certified.has('EP08')).toBe(false);
+});

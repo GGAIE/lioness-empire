@@ -140,7 +140,7 @@ it('charges F1 once, preserves committed replay and rejects insufficient points 
   const scene = reader.scenes.EP04_ACT02_SC06;
   const state = initialState({ ...reader, manifest: { ...reader.manifest, start: scene.id } });
   state.currentSegmentIndex = scene.segments.length - 1;
-  expect(scene.choices.map((c) => c.text)).toEqual(['「我知道塔馬拉那邊好像有。」', '「裝傻。」']);
+  expect(scene.choices.map((c) => c.text)).toEqual(['「我知道塔瑪拉那邊好像有。」', '「裝傻。」']);
   state.campaign!.politicalPoints = 9;
   const original = structuredClone(state);
   expect(choiceUnavailableReason(state, scene.choices[0])).toContain('10');
@@ -151,10 +151,15 @@ it('charges F1 once, preserves committed replay and rejects insufficient points 
   expect(choiceUnavailableReason(state, scene.choices[0])).toBeUndefined();
   const chosen = choose(reader, state, '1');
   expect(chosen.campaign!.politicalPoints).toBe(0);
-  const replay = openDirectorySection(reader, chosen, scene.id, true);
+  expect(chosen.currentSceneId).toBe('ENDING-VI-TREATY');
+  expect(() => openDirectorySection(reader, chosen, scene.id, true)).toThrow('結束');
+  const enough = structuredClone(state);
+  enough.campaign!.politicalPoints = 11;
+  const paid = choose(reader, enough, '1');
+  const replay = openDirectorySection(reader, paid, scene.id, true);
   replay.currentSegmentIndex = scene.segments.length - 1;
   expect(() => choose(reader, replay, '1')).toThrow('already committed');
-  expect(continueCommittedChoice(reader, replay).campaign!.politicalPoints).toBe(0);
+  expect(continueCommittedChoice(reader, replay).campaign!.politicalPoints).toBe(1);
   expect(restoreSave(chosen, reader).state).toEqual(chosen);
 });
 it('continues an old first-act save without another fee, migrates the new flag and includes six directory sections', () => {

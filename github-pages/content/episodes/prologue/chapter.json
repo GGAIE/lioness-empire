@@ -843,7 +843,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "然而今天的儀式，將由奧莉維亞站在王座之前。"
+          "text": "然而今天的儀式，將由奧莉薇雅站在王座之前。"
         },
         {
           "id": "L028",
@@ -901,7 +901,7 @@
           "speakerLabel": "侍從",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「瓦肯大人，第三騎士團的莎莉亞大人請問，您是否方便在儀式前與她見一面？」"
+          "text": "「瓦肯大人，第三騎士團的莎莉雅大人請問，您是否方便在儀式前與她見一面？」"
         },
         {
           "id": "L036",
@@ -984,7 +984,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉亞站在窗邊，手中拿著一份折起的典禮程序。"
+          "text": "莎莉雅站在窗邊，手中拿著一份折起的典禮程序。"
         },
         {
           "id": "L004",
@@ -996,7 +996,7 @@
         {
           "id": "L005",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我還以為妳會比我更早到。」"
@@ -1012,7 +1012,7 @@
         {
           "id": "L007",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天？」"
@@ -1030,12 +1030,12 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉亞笑了。"
+          "text": "莎莉雅笑了。"
         },
         {
           "id": "L010",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「也是。」"
@@ -1043,7 +1043,7 @@
         {
           "id": "L011",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「王都總有辦法在最需要道路暢通的日子，把所有道路都封起來。」"
@@ -1059,7 +1059,7 @@
         {
           "id": "L013",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那已經比有些命令強多了。」"
@@ -1088,7 +1088,7 @@
         {
           "id": "L017",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「卡巴剛得最近怎麼樣？」"
@@ -1112,7 +1112,7 @@
         {
           "id": "L020",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「第三團也差不多。」"
@@ -1120,7 +1120,7 @@
         {
           "id": "L021",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我現在最怕聽到的，就是有人告訴我只需要『暫時調整』。」"
@@ -1136,7 +1136,7 @@
         {
           "id": "L023",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「因為他們從來不會告訴我，什麼時候可以調整回來。」"
@@ -1179,7 +1179,7 @@
         {
           "id": "L029",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天之後，王都應該又會有很多事情要我們配合。」"
@@ -1195,7 +1195,7 @@
         {
           "id": "L031",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「所以我才說，又。」"
@@ -1212,12 +1212,12 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "片刻之後，莎莉亞收起笑意，望向登基大廳的方向。"
+          "text": "片刻之後，莎莉雅收起笑意，望向登基大廳的方向。"
         },
         {
           "id": "L034",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「妳覺得呢？」"
@@ -1233,7 +1233,7 @@
         {
           "id": "L036",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天的事。」"
@@ -1263,7 +1263,7 @@
         {
           "id": "L040",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「這可不像妳平常會給的答案。」"
@@ -1279,7 +1279,7 @@
         {
           "id": "L042",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我也不知道。」"
@@ -1289,12 +1289,12 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "莎莉亞重新望向窗外。"
+          "text": "莎莉雅重新望向窗外。"
         },
         {
           "id": "L044",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「或許只是想知道，接下來會不會比以前好一點。」"
@@ -1310,7 +1310,7 @@
         {
           "id": "L046",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「少一點臨時命令。」"
@@ -1326,7 +1326,7 @@
         {
           "id": "L048",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「少一點王都替我們決定地方能承受什麼。」"
@@ -1342,7 +1342,7 @@
         {
           "id": "L050",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「那麼至少還有希望。」"
@@ -1371,7 +1371,7 @@
         {
           "id": "L054",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「走吧。」"
@@ -1379,7 +1379,7 @@
         {
           "id": "L055",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「今天可不能讓新王等我們。」"
@@ -1395,7 +1395,7 @@
         {
           "id": "L057",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「抱怨歸抱怨。」"
@@ -1403,7 +1403,7 @@
         {
           "id": "L058",
           "speaker": "SHALIA",
-          "speakerLabel": "莎莉亞",
+          "speakerLabel": "莎莉雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「禮數還是要有的。」"
@@ -1552,7 +1552,7 @@
           "speakerLabel": "禮儀官",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「恭迎奧莉維亞・艾蕾諾爾・德安杜旺斯殿下。」"
+          "text": "「恭迎奧莉薇雅・艾蕾諾爾・德安杜旺斯殿下。」"
         },
         {
           "id": "L006",
@@ -1580,7 +1580,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞出現在大廳另一端。"
+          "text": "奧莉薇雅出現在大廳另一端。"
         },
         {
           "id": "L010",
@@ -1608,7 +1608,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "艾琳達並不是第一次見到奧莉維亞。"
+          "text": "艾琳達並不是第一次見到奧莉薇雅。"
         },
         {
           "id": "L014",
@@ -1658,7 +1658,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞經過騎士團席位。"
+          "text": "奧莉薇雅經過騎士團席位。"
         },
         {
           "id": "L021",
@@ -1700,7 +1700,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞逐漸接近王座前的階梯。"
+          "text": "奧莉薇雅逐漸接近王座前的階梯。"
         },
         {
           "id": "L027",
@@ -1736,7 +1736,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞停在王座前。"
+          "text": "奧莉薇雅停在王座前。"
         },
         {
           "id": "L032",
@@ -1914,7 +1914,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "儀式官轉向奧莉維亞。"
+          "text": "儀式官轉向奧莉薇雅。"
         },
         {
           "id": "L018",
@@ -1922,7 +1922,7 @@
           "speakerLabel": "儀式官",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「奧莉維亞殿下。」"
+          "text": "「奧莉薇雅殿下。」"
         },
         {
           "id": "L019",
@@ -1937,12 +1937,12 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞抬起頭。"
+          "text": "奧莉薇雅抬起頭。"
         },
         {
           "id": "L021",
           "speaker": "OLIVIA",
-          "speakerLabel": "奧莉維亞",
+          "speakerLabel": "奧莉薇雅",
           "kind": "dialogue",
           "visual": "SCENE",
           "text": "「我願意。」"
@@ -1973,7 +1973,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "艾琳達注意到，站在王座前的奧莉維亞沒有顯得特別激動。"
+          "text": "艾琳達注意到，站在王座前的奧莉薇雅沒有顯得特別激動。"
         },
         {
           "id": "L026",
@@ -2124,7 +2124,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "儀式官退至一旁，將中央的位置留給奧莉維亞。"
+          "text": "儀式官退至一旁，將中央的位置留給奧莉薇雅。"
         },
         {
           "id": "L003",
@@ -2175,7 +2175,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "她看見王座前的奧莉維亞微微低下頭，接受最後的王室禮儀。"
+          "text": "她看見王座前的奧莉薇雅微微低下頭，接受最後的王室禮儀。"
         },
         {
           "id": "L010",
@@ -2212,7 +2212,7 @@
           "speakerLabel": "儀式官",
           "kind": "dialogue",
           "visual": "SCENE",
-          "text": "「奧莉維亞・艾蕾諾爾・德安杜旺斯，承繼安度因王權。」"
+          "text": "「奧莉薇雅・艾蕾諾爾・德安杜旺斯，承繼安度因王權。」"
         },
         {
           "id": "L015",
@@ -2328,7 +2328,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞仍然站在王座前。"
+          "text": "奧莉薇雅仍然站在王座前。"
         },
         {
           "id": "L031",
@@ -2342,7 +2342,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "但她看見奧莉維亞轉身，面向那張原本不屬於她的王座。"
+          "text": "但她看見奧莉薇雅轉身，面向那張原本不屬於她的王座。"
         },
         {
           "id": "L033",
@@ -2442,7 +2442,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "她看向王座上的奧莉維亞。"
+          "text": "她看向王座上的奧莉薇雅。"
         },
         {
           "id": "L047",
@@ -2569,7 +2569,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "她看見莎莉亞正在與另一位領主交換簡短的問候。"
+          "text": "她看見莎莉雅正在與另一位領主交換簡短的問候。"
         },
         {
           "id": "L008",
@@ -2597,7 +2597,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "而奧莉維亞，仍然坐在王座之上。"
+          "text": "而奧莉薇雅，仍然坐在王座之上。"
         },
         {
           "id": "L012",
@@ -2619,7 +2619,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "那時的奧莉維亞，並不是所有人目光的中心。"
+          "text": "那時的奧莉薇雅，並不是所有人目光的中心。"
         },
         {
           "id": "L015",
@@ -2647,7 +2647,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "如果在那個時候，有人告訴她，未來將由奧莉維亞坐上王座——"
+          "text": "如果在那個時候，有人告訴她，未來將由奧莉薇雅坐上王座——"
         },
         {
           "id": "L019",
@@ -2711,7 +2711,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "艾琳達重新望向奧莉維亞。"
+          "text": "艾琳達重新望向奧莉薇雅。"
         },
         {
           "id": "L028",
@@ -2746,7 +2746,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "奧莉維亞。"
+          "text": "奧莉薇雅。"
         },
         {
           "id": "L033",
@@ -2803,7 +2803,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "SCENE",
-          "text": "王座上的奧莉維亞，正接受另一位王國代表的致意。"
+          "text": "王座上的奧莉薇雅，正接受另一位王國代表的致意。"
         },
         {
           "id": "L041",
@@ -2861,7 +2861,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "BLACK",
-          "text": "那時候，奧莉維亞還不是女王。"
+          "text": "那時候，奧莉薇雅還不是女王。"
         },
         {
           "id": "L049",
@@ -2903,7 +2903,7 @@
           "speakerLabel": "旁白",
           "kind": "narration",
           "visual": "BLACK",
-          "text": "一封來自王宮的召回命令，即將打斷奧莉維亞原本的生活。"
+          "text": "一封來自王宮的召回命令，即將打斷奧莉薇雅原本的生活。"
         }
       ],
       "choices": [],

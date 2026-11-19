@@ -121,10 +121,10 @@ for (const answer of ['A', 'B', 'C'])
       expect([count, choices, cues]).toEqual([118, 5, 25]);
       await expect(page.getByRole('alertdialog')).toHaveCount(0);
       await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-        '第一幕完 · 攝政之日'
+        '第一幕完 · 君王藉我定公平'
       );
       await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-        '第二幕〈薩克迪之亡〉'
+        '第二幕〈已過的世代，無人記念〉'
       );
       await expect(page.getByRole('button', { name: '查看章末結算提醒', exact: true })).toHaveCount(
         0

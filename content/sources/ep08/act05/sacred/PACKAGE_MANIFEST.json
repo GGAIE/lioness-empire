@@ -1,0 +1,251 @@
+{
+  "package_id": "Lioness_Empire_EP08_ACT05_Sacred_Codex_Art_Production_v1.0",
+  "version": "v1.0",
+  "created_on": "2026-11-18",
+  "status": "DRAFT_FOR_REVIEW",
+  "scene_count": 5,
+  "flavor_choice_count": 10,
+  "political_combinations": 36,
+  "political_outcome_count": 7,
+  "event_cg_prompt_count": 32,
+  "event_cg_render_count": 0,
+  "character_turnaround_count": 2,
+  "files_excluding_manifest": 37,
+  "files": [
+    {
+      "path": "01_Story/ACT05_Sacred_Full_Script_v1.0.md",
+      "bytes": 35133,
+      "sha256": "7ffa191b4dac9eca5e602d08a1ac43f20ab420cfb6946e125c2bfce21ff59b26"
+    },
+    {
+      "path": "02_Codex/ACT05_Choice_Graph.json",
+      "bytes": 5830,
+      "sha256": "d0001be1ec894c151de7498cefd6bda6e8ee52bcc1e292d66cddbd15d2919250"
+    },
+    {
+      "path": "02_Codex/CODEX_START_PROMPT.md",
+      "bytes": 2139,
+      "sha256": "9cf8259049e9ee241a4ad3b416252718a615a96ae38646e94790839d7345d74c"
+    },
+    {
+      "path": "02_Codex/README_CODEX.md",
+      "bytes": 4349,
+      "sha256": "085b395f13c51349079c922cac89c5cd473fc415632ada43de82ea931ba96ee5"
+    },
+    {
+      "path": "02_Codex/scene_data/SC01.json",
+      "bytes": 7446,
+      "sha256": "fc048dd3055b10270b25222b7a000716d98a3f5044c369049410a8ece262f41c"
+    },
+    {
+      "path": "02_Codex/scene_data/SC02.json",
+      "bytes": 5065,
+      "sha256": "492e9deded75aec3120cd9c548258813d0ca681786d95c9b27e3ac5f116884a6"
+    },
+    {
+      "path": "02_Codex/scene_data/SC03.json",
+      "bytes": 5844,
+      "sha256": "fcc65462a87c54cc01f8025a40b8f9784ae85804dd724a892b3ae8ebe0b44981"
+    },
+    {
+      "path": "02_Codex/scene_data/SC04.json",
+      "bytes": 8148,
+      "sha256": "f071b2b4e4000d29b083ebbd9c07265f31ea1a9087b7054a606f2d1acd259962"
+    },
+    {
+      "path": "02_Codex/scene_data/SC05.json",
+      "bytes": 8430,
+      "sha256": "776bb7147bdfdbde3648b9fb24f1677978a35c70197c172eb4db9eebeda8be73"
+    },
+    {
+      "path": "02_Codex/src/act05Resolver.ts",
+      "bytes": 4001,
+      "sha256": "ab441a550e5f2765b15fdb7c80bafab4bcafe60b99a91d4e6c5cb9d1dc550794"
+    },
+    {
+      "path": "02_Codex/tests/all_36_political_combinations.csv",
+      "bytes": 1416,
+      "sha256": "e0ebd3105e15258879e128e7b2834b565630accf4af55e4070d7053a8b4d434b"
+    },
+    {
+      "path": "02_Codex/tests/all_36_political_combinations.json",
+      "bytes": 7060,
+      "sha256": "249ce17e1238d2a58511746c34396d43062352039d95b42364f7a38a728de83d"
+    },
+    {
+      "path": "02_Codex/tools/validate_act05.py",
+      "bytes": 2113,
+      "sha256": "9ac3875e2c10b041dd1b2a85e7b00c36a71ca6e20b4b534bb520e1d6d2ee20cb"
+    },
+    {
+      "path": "03_Art_Project/ART_PROJECT_START_PROMPT.md",
+      "bytes": 2143,
+      "sha256": "2bc70b35d90daa2d434a0b1a6cd09ed7e37e24d523d120bdcc988905d46e3106"
+    },
+    {
+      "path": "03_Art_Project/CG_Asset_Manifest.json",
+      "bytes": 54085,
+      "sha256": "a4277fc8d941ffd3ddb811db71570fb322e1050ed45c62fb1d32c33256c9670f"
+    },
+    {
+      "path": "03_Art_Project/CG_Prompts/ACT05_32_CG_Prompts_v1.0.md",
+      "bytes": 49265,
+      "sha256": "c1539dae1753202f317ae8ec3d5d07500aed7ad0eb8bc062db6874d7a9104bb0"
+    },
+    {
+      "path": "03_Art_Project/CG_Shot_List.csv",
+      "bytes": 4157,
+      "sha256": "f6cd69f0b1c456dd9a0f2942b7ce449f7bcea1a758d0300f1d98ac9c00f4cb58"
+    },
+    {
+      "path": "03_Art_Project/Character_Locks_and_Turnarounds.md",
+      "bytes": 4081,
+      "sha256": "1cebc2bf435643bcb99713ce3d6909933ec662359b40a608f8d490ca8ef101f8"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Alicia_Three_View_USER_REFERENCE.jpg",
+      "bytes": 303324,
+      "sha256": "d6a5e40e1952268aff449d5bcfc4aa753ea024471f27fc4f9bc1b77dbb341b02",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Alicia_Three_View_v1.0_USER_REFERENCE.png",
+      "bytes": 1070490,
+      "sha256": "a7836c3a2b3e86ce997a01c729280fbbb6bfec4bea71b7e5e3fd9807b1f668ed",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Mier_Original_Look_USER_REFERENCE.jpg",
+      "bytes": 627633,
+      "sha256": "6dc528415d37ba9c03b3481223de6c69bd8b7e64166415cc4407c2f5ef1b1cb2",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Mier_Three_View_v1.0_CANDIDATE.png",
+      "bytes": 2311769,
+      "sha256": "9e6c35da432e6f1835bcfef83a4a9e53e4112c0712e3f5caa13553d40bb490ef",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Views/Alicia_Back_Crop.png",
+      "bytes": 363280,
+      "sha256": "5b0f9a343403ac2176674061c9a3faeabd6684fe05badea98c5808031c87a86d",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Views/Alicia_Front_Crop.png",
+      "bytes": 391042,
+      "sha256": "e32d844f3a184f1fcfdb5e6b1246791e6a47bea9257c60f8b2815e959a50910a",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Views/Alicia_Side_Crop.png",
+      "bytes": 315669,
+      "sha256": "efe37d7efe770577284771bffb51f11cf81acda111dc8b85aeeef2a93476cd3c",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Views/Mier_Back_Crop.png",
+      "bytes": 718579,
+      "sha256": "e6d7a1e69bba758223ee59e3ac2c04de621157a000904e7c6dd1eb11cf2d258d",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Views/Mier_Front_Crop.png",
+      "bytes": 725763,
+      "sha256": "c8dfe5a71a0fbb45fdd5be09219342a96fe67b639af9a0487385f15ca664ea3e",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/Character_References/Views/Mier_Side_Crop.png",
+      "bytes": 638682,
+      "sha256": "b4d4d2b9eb5b20ea68e999f4c8f2cf68602efb611ea2d8956ea05b8ffa85c23c",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "03_Art_Project/README_ART.md",
+      "bytes": 3607,
+      "sha256": "34fbacf6a89da3a55a55e1499742a28860e845a23599aa8b20aa6f43c38c7605"
+    },
+    {
+      "path": "04_Canon_and_QA/Current_Canon_and_Delta.md",
+      "bytes": 4040,
+      "sha256": "278dd15ddffabf884fad84cf3cecfb7ae50bb694f52a0190e7ac088d4358e921"
+    },
+    {
+      "path": "04_Canon_and_QA/QA_and_Acceptance.md",
+      "bytes": 2503,
+      "sha256": "41c1484a3105b623006ecd1ee92bd301e5264420201cef4a50991f1e3c602120"
+    },
+    {
+      "path": "05_Source_References/EP08_Flags_and_Open_Issues_v1.0.md",
+      "bytes": 4992,
+      "sha256": "304f1962148faefb5fa061ae85b1b870aacd88e58905dda02fdde06b55358785"
+    },
+    {
+      "path": "05_Source_References/EP08_Production_Startup_v1.0.md",
+      "bytes": 14841,
+      "sha256": "ebc67afba758701c247fedd3bc867f32da74f6ac1ca1b3d6c5cfc5e401200ed9"
+    },
+    {
+      "path": "05_Source_References/EP08_Scene_Map_v1.0.md",
+      "bytes": 3607,
+      "sha256": "b7eb458ed2047350b832fda47f5ec0b320212f16f7d58daed9ef683b32ee7907"
+    },
+    {
+      "path": "05_Source_References/README.md",
+      "bytes": 797,
+      "sha256": "4ca96ed47d24d8d74f0e3376f5f53f7a6f0163b3bea61724618e1535385b9492"
+    },
+    {
+      "path": "05_Source_References/README_HISTORICAL_ONLY.md",
+      "bytes": 323,
+      "sha256": "efd108a0d5339d922b7fa047745f56e0cd88ad93c61cfdb4b94aa380cc2f3297"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5556,
+      "sha256": "bdd901975124d330ad3fa375c5f52cea180f2db5997359cb1ff83c2911300e22"
+    }
+  ]
+}

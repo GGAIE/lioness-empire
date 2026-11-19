@@ -1,0 +1,46 @@
+{
+  "release": "FINLEY2026.11.18",
+  "contentVersion": "0.24.0-ep08-act05.reader-v1",
+  "chapter": "EP08 ACT05",
+  "routes": {
+    "SACRED": {
+      "title": "善意的限度",
+      "CG": 30,
+      "politicalCombinations": 36,
+      "outcomeTiers": 7
+    },
+    "WORLD": {
+      "title": "老師留下的空白",
+      "CG": 17,
+      "numericEffects": "Unspecified source values remain unchanged; branch flags recorded."
+    }
+  },
+  "editorial": {
+    "scope": "All existing chapters and new ACT05; prologue reviewed without forced edits.",
+    "changedParagraphs": 82,
+    "audit": "docs/dialogue-polish-v1.5-report.json"
+  },
+  "ending": "VI 被寫回條約: legal political point settlement exhaustion, pure black, music fade-out, six exact manual dialogue units, manual return to title.",
+  "validation": {
+    "unitTestsPassed": 314,
+    "fullGraphStates": 2848520,
+    "fullGraphErrors": 0,
+    "earlierBrowserRegressionsPassed": 21,
+    "finalBrowserChecksPassed": 12,
+    "devices": [
+      "Desktop Chrome",
+      "Pixel 7",
+      "iPhone 13"
+    ]
+  },
+  "delivery": {
+    "archive": "母獅帝國_GitHubPages_上傳包.zip",
+    "rootEntry": "index.html",
+    "publishTogether": [
+      "index.html",
+      "_config.yml",
+      "github-pages/"
+    ],
+    "githubPushed": false
+  }
+}

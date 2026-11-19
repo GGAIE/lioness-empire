@@ -88,7 +88,12 @@ export function validateStory(story: Story) {
     for (const [key, value] of Object.entries(scene.completionFlags ?? {}))
       if (!story.manifest.flags[key] || typeof story.manifest.flags[key].initial !== typeof value)
         errors.push(`${scene.id}: invalid completion flag ${key}`);
-    if (story.plan && (scene.status === 'CANON' || scene.status === 'DRAFT') && !scene.planNodeId)
+    if (
+      story.plan &&
+      (scene.status === 'CANON' || scene.status === 'DRAFT') &&
+      !scene.planNodeId &&
+      !story.manifest.chapters.find((c) => c.id === scene.chapter)?.libraryOnly
+    )
       errors.push(`${scene.id}: Canon scene requires a planning node`);
     if (scene.planNodeId) {
       const chapter = story.plan?.chapters.find((c) => c.id === scene.chapter);
@@ -158,6 +163,15 @@ export function validateStory(story: Story) {
       choices.add(c.id);
       if (!story.scenes[c.next]) errors.push(`${scene.id}: missing choice target ${c.next}`);
       if (c.when) check(c.when, scene.id);
+      if (
+        c.pointCostPolicy &&
+        (!story.manifest.resourceExhaustionEnding ||
+          c.previewEffects?.length ||
+          !c.effects.some((e) => e.type === 'points' && e.delta < 0))
+      )
+        errors.push(
+          `${scene.id}: exhaustion choice requires a negative settlement and the global ending policy`
+        );
       for (const e of c.effects)
         if (
           e.type === 'flag' &&
@@ -202,13 +216,35 @@ export function validateStory(story: Story) {
       warnings.push(`${r.id}: ${r.status} — Canon draft, no production award`);
   }
   if (!story.scenes[story.manifest.start]) errors.push('Missing start scene');
+  const exhaustion = story.manifest.resourceExhaustionEnding;
+  if (exhaustion) {
+    const scene = story.scenes[exhaustion.scene],
+      rule = story.endings.find((r) => r.id === exhaustion.ending);
+    if (
+      !scene ||
+      scene.specialEnding !== exhaustion.ending ||
+      scene.kind !== 'end' ||
+      scene.cg ||
+      scene.bgm ||
+      scene.segments.some((s) => s.visual !== 'BLACK')
+    )
+      errors.push('Invalid resource-exhaustion scene');
+    if (
+      !rule ||
+      rule.status !== 'APPROVED' ||
+      !story.manifest.flags[exhaustion.flag] ||
+      story.manifest.flags[exhaustion.flag].initial !== false
+    )
+      errors.push('Invalid resource-exhaustion rule');
+  }
   const chapters = new Set<string>();
   for (const c of story.manifest.chapters) {
     if (chapters.has(c.id)) errors.push(`Duplicate chapter ${c.id}`);
     chapters.add(c.id);
     if (c.status === 'NOT_YET_AVAILABLE' && (c.file || c.entry))
       errors.push(`${c.id}: unavailable chapter may not load content`);
-    if (c.file && !story.scenes[c.entry ?? '']) errors.push(`${c.id}: missing chapter entry`);
+    if (c.file && !c.libraryOnly && !story.scenes[c.entry ?? ''])
+      errors.push(`${c.id}: missing chapter entry`);
     if (c.entry && story.scenes[c.entry]?.chapter !== c.id)
       errors.push(`${c.id}: entry chapter mismatch`);
   }
@@ -229,6 +265,7 @@ export function validateStory(story: Story) {
   story.manifest.chapters.forEach((c) => {
     if (c.entry) visit(c.entry);
   });
+  if (story.manifest.resourceExhaustionEnding) visit(story.manifest.resourceExhaustionEnding.scene);
   for (const id of Object.keys(story.scenes))
     if (!reached.has(id)) warnings.push(`Unreachable scene ${id}`);
   // Detect scenes with no structural path to an end. Conditional feasibility is checked separately by exploration.

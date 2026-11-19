@@ -1,0 +1,30 @@
+{
+  "dateTaipei": "2026-11-18",
+  "scope": "Existing chapters and new EP08 ACT05, including prologue; exact dialogue edits only.",
+  "editedParagraphs": 82,
+  "editedByChapter": {
+    "EP01": 10,
+    "EP02": 8,
+    "EP03": 7,
+    "EP04": 9,
+    "EP05": 7,
+    "EP06": 10,
+    "EP07": 12,
+    "EP08": 19
+  },
+  "prologue": "Reviewed the 68 existing dialogue units; retained the established voices without forced rewriting.",
+  "constraints": [
+    "No choice text edits beyond the existing reader edition and confirmed name aliases.",
+    "No branch, cost, flag, CLEAR, CG path, narrator action or reveal order changes from this dialogue pass.",
+    "Unconfirmed supporting-character proposals were not applied.",
+    "Bad End VI is verbatim and excluded from the editorial substitutions."
+  ],
+  "authoritativeEdits": "content/reader/dialogue-polish-v1.5.json",
+  "nameAliases": {
+    "奧莉維亞": "奧莉薇雅",
+    "莎莉亞": "莎莉雅",
+    "塔馬拉": "塔瑪拉",
+    "米耶爾": "米椰爾",
+    "薩拉菲尼亞": "撒拉非尼亞"
+  }
+}

@@ -22,7 +22,7 @@ test('continues both old third-act saves with the matching fourth act and no ext
 }, info) => {
   const story = await loadReaderContent();
   await prepare(page);
-  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.17/ }).click();
+  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.19/ }).click();
   await expect(page.getByRole('dialog')).toContainText('70 張 CG');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   for (const route of ['SACRED', 'WORLD'] as const) {

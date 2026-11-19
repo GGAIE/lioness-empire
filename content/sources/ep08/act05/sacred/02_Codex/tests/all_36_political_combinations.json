@@ -1,0 +1,362 @@
+[
+  {
+    "entry": "A",
+    "middle": "LIMIT",
+    "closing": "CASE",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "A",
+    "middle": "LIMIT",
+    "closing": "OPEN",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "A",
+    "middle": "LIMIT",
+    "closing": "STANDING",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "A",
+    "middle": "BOUND",
+    "closing": "CASE",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "A",
+    "middle": "BOUND",
+    "closing": "OPEN",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "A",
+    "middle": "BOUND",
+    "closing": "STANDING",
+    "tier": 1,
+    "political_delta": 20,
+    "unrest_delta": 10,
+    "outcome_name": "優良",
+    "result_cg": "CG26"
+  },
+  {
+    "entry": "A",
+    "middle": "EXPAND",
+    "closing": "CASE",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "A",
+    "middle": "EXPAND",
+    "closing": "OPEN",
+    "tier": 1,
+    "political_delta": 20,
+    "unrest_delta": 10,
+    "outcome_name": "優良",
+    "result_cg": "CG26"
+  },
+  {
+    "entry": "A",
+    "middle": "EXPAND",
+    "closing": "STANDING",
+    "tier": 2,
+    "political_delta": 10,
+    "unrest_delta": 5,
+    "outcome_name": "成功",
+    "result_cg": "CG27"
+  },
+  {
+    "entry": "B",
+    "middle": "LIMIT",
+    "closing": "CASE",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "B",
+    "middle": "LIMIT",
+    "closing": "OPEN",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "B",
+    "middle": "LIMIT",
+    "closing": "STANDING",
+    "tier": 1,
+    "political_delta": 20,
+    "unrest_delta": 10,
+    "outcome_name": "優良",
+    "result_cg": "CG26"
+  },
+  {
+    "entry": "B",
+    "middle": "BOUND",
+    "closing": "CASE",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "B",
+    "middle": "BOUND",
+    "closing": "OPEN",
+    "tier": 1,
+    "political_delta": 20,
+    "unrest_delta": 10,
+    "outcome_name": "優良",
+    "result_cg": "CG26"
+  },
+  {
+    "entry": "B",
+    "middle": "BOUND",
+    "closing": "STANDING",
+    "tier": 2,
+    "political_delta": 10,
+    "unrest_delta": 5,
+    "outcome_name": "成功",
+    "result_cg": "CG27"
+  },
+  {
+    "entry": "B",
+    "middle": "EXPAND",
+    "closing": "CASE",
+    "tier": 1,
+    "political_delta": 20,
+    "unrest_delta": 10,
+    "outcome_name": "優良",
+    "result_cg": "CG26"
+  },
+  {
+    "entry": "B",
+    "middle": "EXPAND",
+    "closing": "OPEN",
+    "tier": 2,
+    "political_delta": 10,
+    "unrest_delta": 5,
+    "outcome_name": "成功",
+    "result_cg": "CG27"
+  },
+  {
+    "entry": "B",
+    "middle": "EXPAND",
+    "closing": "STANDING",
+    "tier": 3,
+    "political_delta": 0,
+    "unrest_delta": -5,
+    "outcome_name": "普通",
+    "result_cg": "CG28"
+  },
+  {
+    "entry": "C",
+    "middle": "LIMIT",
+    "closing": "CASE",
+    "tier": 0,
+    "political_delta": 30,
+    "unrest_delta": 15,
+    "outcome_name": "大成功",
+    "result_cg": "CG25"
+  },
+  {
+    "entry": "C",
+    "middle": "LIMIT",
+    "closing": "OPEN",
+    "tier": 1,
+    "political_delta": 20,
+    "unrest_delta": 10,
+    "outcome_name": "優良",
+    "result_cg": "CG26"
+  },
+  {
+    "entry": "C",
+    "middle": "LIMIT",
+    "closing": "STANDING",
+    "tier": 2,
+    "political_delta": 10,
+    "unrest_delta": 5,
+    "outcome_name": "成功",
+    "result_cg": "CG27"
+  },
+  {
+    "entry": "C",
+    "middle": "BOUND",
+    "closing": "CASE",
+    "tier": 1,
+    "political_delta": 20,
+    "unrest_delta": 10,
+    "outcome_name": "優良",
+    "result_cg": "CG26"
+  },
+  {
+    "entry": "C",
+    "middle": "BOUND",
+    "closing": "OPEN",
+    "tier": 2,
+    "political_delta": 10,
+    "unrest_delta": 5,
+    "outcome_name": "成功",
+    "result_cg": "CG27"
+  },
+  {
+    "entry": "C",
+    "middle": "BOUND",
+    "closing": "STANDING",
+    "tier": 3,
+    "political_delta": 0,
+    "unrest_delta": -5,
+    "outcome_name": "普通",
+    "result_cg": "CG28"
+  },
+  {
+    "entry": "C",
+    "middle": "EXPAND",
+    "closing": "CASE",
+    "tier": 2,
+    "political_delta": 10,
+    "unrest_delta": 5,
+    "outcome_name": "成功",
+    "result_cg": "CG27"
+  },
+  {
+    "entry": "C",
+    "middle": "EXPAND",
+    "closing": "OPEN",
+    "tier": 3,
+    "political_delta": 0,
+    "unrest_delta": -5,
+    "outcome_name": "普通",
+    "result_cg": "CG28"
+  },
+  {
+    "entry": "C",
+    "middle": "EXPAND",
+    "closing": "STANDING",
+    "tier": 4,
+    "political_delta": -10,
+    "unrest_delta": -10,
+    "outcome_name": "失利",
+    "result_cg": "CG29"
+  },
+  {
+    "entry": "D",
+    "middle": "LIMIT",
+    "closing": "CASE",
+    "tier": 2,
+    "political_delta": 10,
+    "unrest_delta": 5,
+    "outcome_name": "成功",
+    "result_cg": "CG27"
+  },
+  {
+    "entry": "D",
+    "middle": "LIMIT",
+    "closing": "OPEN",
+    "tier": 3,
+    "political_delta": 0,
+    "unrest_delta": -5,
+    "outcome_name": "普通",
+    "result_cg": "CG28"
+  },
+  {
+    "entry": "D",
+    "middle": "LIMIT",
+    "closing": "STANDING",
+    "tier": 4,
+    "political_delta": -10,
+    "unrest_delta": -10,
+    "outcome_name": "失利",
+    "result_cg": "CG29"
+  },
+  {
+    "entry": "D",
+    "middle": "BOUND",
+    "closing": "CASE",
+    "tier": 3,
+    "political_delta": 0,
+    "unrest_delta": -5,
+    "outcome_name": "普通",
+    "result_cg": "CG28"
+  },
+  {
+    "entry": "D",
+    "middle": "BOUND",
+    "closing": "OPEN",
+    "tier": 4,
+    "political_delta": -10,
+    "unrest_delta": -10,
+    "outcome_name": "失利",
+    "result_cg": "CG29"
+  },
+  {
+    "entry": "D",
+    "middle": "BOUND",
+    "closing": "STANDING",
+    "tier": 5,
+    "political_delta": -25,
+    "unrest_delta": -20,
+    "outcome_name": "嚴重失利",
+    "result_cg": "CG30"
+  },
+  {
+    "entry": "D",
+    "middle": "EXPAND",
+    "closing": "CASE",
+    "tier": 4,
+    "political_delta": -10,
+    "unrest_delta": -10,
+    "outcome_name": "失利",
+    "result_cg": "CG29"
+  },
+  {
+    "entry": "D",
+    "middle": "EXPAND",
+    "closing": "OPEN",
+    "tier": 5,
+    "political_delta": -25,
+    "unrest_delta": -20,
+    "outcome_name": "嚴重失利",
+    "result_cg": "CG30"
+  },
+  {
+    "entry": "D",
+    "middle": "EXPAND",
+    "closing": "STANDING",
+    "tier": 6,
+    "political_delta": -40,
+    "unrest_delta": -30,
+    "outcome_name": "重大失敗",
+    "result_cg": "CG31"
+  }
+]

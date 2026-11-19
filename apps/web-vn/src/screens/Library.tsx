@@ -71,7 +71,11 @@ export function Library({
               return (
                 <article className={`ending${unlocked ? '' : ' locked'}`} key={r.id}>
                   <span>
-                    {r.orientation === 'UPRIGHT' ? `正位 · ${r.id.replace('ARCANA_', '')}` : '逆位'}
+                    {r.id === 'ARCANA_06'
+                      ? 'VI · 戀人'
+                      : r.orientation === 'UPRIGHT'
+                        ? `正位 · ${r.id.replace('ARCANA_', '')}`
+                        : '逆位'}
                   </span>
                   <h3>{unlocked ? r.title : '尚未解鎖'}</h3>
                   <small>
@@ -107,7 +111,9 @@ export function Library({
             <option value="ALL">全部章節</option>
             {chapters.map((ch) => (
               <option key={ch.id} value={ch.id}>
-                {ch.id === 'PROLOGUE' ? ch.title : `${ch.id} · ${ch.title}`}
+                {ch.id === 'PROLOGUE'
+                  ? ch.title
+                  : `${ch.id} · ${ch.title}${ch.subtitle ? ` · ${ch.subtitle}` : ''}`}
               </option>
             ))}
           </select>

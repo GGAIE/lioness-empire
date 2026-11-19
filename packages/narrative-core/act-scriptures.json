@@ -1,0 +1,326 @@
+{
+  "edition": "新標點和合本（繁體）",
+  "source": "https://ebible.org/find/details.php?id=cmn-cu89t",
+  "acts": {
+    "EP01_ACT01": {
+      "text": "凡事都有定期，天下萬務都有定時",
+      "reference": "傳道書 3:1",
+      "url": "https://ebible.org/cmn-cu89t/ECC03.htm"
+    },
+    "EP01_ACT02": {
+      "text": "人心籌算自己的道路",
+      "reference": "箴言 16:9",
+      "url": "https://ebible.org/cmn-cu89t/PRO16.htm"
+    },
+    "EP01_ACT03": {
+      "text": "他將深奧的事從黑暗中彰顯",
+      "reference": "約伯記 12:22",
+      "url": "https://ebible.org/cmn-cu89t/JOB12.htm"
+    },
+    "EP01_ACT04": {
+      "text": "你們各人的重擔要互相擔當",
+      "reference": "加拉太書 6:2",
+      "url": "https://ebible.org/cmn-cu89t/GAL06.htm"
+    },
+    "EP01_ACT05": {
+      "text": "你要聽從生你的父親",
+      "reference": "箴言 23:22",
+      "url": "https://ebible.org/cmn-cu89t/PRO23.htm"
+    },
+    "EP02_ACT01": {
+      "text": "已有的事後必再有",
+      "reference": "傳道書 1:9",
+      "url": "https://ebible.org/cmn-cu89t/ECC01.htm"
+    },
+    "EP02_ACT02": {
+      "text": "人在最小的事上忠心，在大事上也忠心",
+      "reference": "路加福音 16:10",
+      "url": "https://ebible.org/cmn-cu89t/LUK16.htm"
+    },
+    "EP02_ACT03": {
+      "text": "懷抱有時，不懷抱有時",
+      "reference": "傳道書 3:5",
+      "url": "https://ebible.org/cmn-cu89t/ECC03.htm"
+    },
+    "EP02_ACT04": {
+      "text": "客，要一味地款待",
+      "reference": "羅馬書 12:13",
+      "url": "https://ebible.org/cmn-cu89t/ROM12.htm"
+    },
+    "EP02_ACT05": {
+      "text": "誰願為大，就必作你們的用人",
+      "reference": "馬可福音 10:43",
+      "url": "https://ebible.org/cmn-cu89t/MRK10.htm"
+    },
+    "EP03_ACT01": {
+      "text": "城牆拆毀，城門被火焚燒",
+      "reference": "尼希米記 1:3",
+      "url": "https://ebible.org/cmn-cu89t/NEH01.htm"
+    },
+    "EP03_ACT02": {
+      "text": "一日要生何事，你尚且不能知道",
+      "reference": "箴言 27:1",
+      "url": "https://ebible.org/cmn-cu89t/PRO27.htm"
+    },
+    "EP03_ACT03": {
+      "text": "王摘下自己的戒指",
+      "reference": "以斯帖記 8:2",
+      "url": "https://ebible.org/cmn-cu89t/EST08.htm"
+    },
+    "EP03_ACT04": {
+      "text": "我們起來建造吧！",
+      "reference": "尼希米記 2:18",
+      "url": "https://ebible.org/cmn-cu89t/NEH02.htm"
+    },
+    "EP03_ACT05": {
+      "text": "謀士眾多，所謀乃成",
+      "reference": "箴言 15:22",
+      "url": "https://ebible.org/cmn-cu89t/PRO15.htm"
+    },
+    "EP04_ACT01": {
+      "text": "君王藉我定公平",
+      "reference": "箴言 8:15",
+      "url": "https://ebible.org/cmn-cu89t/PRO08.htm"
+    },
+    "EP04_ACT02": {
+      "text": "已過的世代，無人記念",
+      "reference": "傳道書 1:11",
+      "url": "https://ebible.org/cmn-cu89t/ECC01.htm"
+    },
+    "EP04_ACT03": {
+      "text": "未曾聽完先回答的，便是他的愚昧和羞辱",
+      "reference": "箴言 18:13",
+      "url": "https://ebible.org/cmn-cu89t/PRO18.htm"
+    },
+    "EP04_ACT04": {
+      "text": "不要坐在首位上",
+      "reference": "路加福音 14:8",
+      "url": "https://ebible.org/cmn-cu89t/LUK14.htm"
+    },
+    "EP04_ACT05": {
+      "text": "選舉有智慧、有見識、為眾人所認識的",
+      "reference": "申命記 1:13",
+      "url": "https://ebible.org/cmn-cu89t/DEU01.htm"
+    },
+    "EP05_ACT01": {
+      "text": "一切泛海的船隻和水手",
+      "reference": "以西結書 27:9",
+      "url": "https://ebible.org/cmn-cu89t/EZK27.htm"
+    },
+    "EP05_ACT02": {
+      "text": "在海上坐船，在大水中經理事務的",
+      "reference": "詩篇 107:23",
+      "url": "https://ebible.org/cmn-cu89t/PSA107.htm"
+    },
+    "EP05_ACT03": {
+      "text": "把你的餅分給飢餓的人",
+      "reference": "以賽亞書 58:7",
+      "url": "https://ebible.org/cmn-cu89t/ISA58.htm"
+    },
+    "EP05_ACT04": {
+      "text": "不可忘記用愛心接待客旅",
+      "reference": "希伯來書 13:2",
+      "url": "https://ebible.org/cmn-cu89t/HEB13.htm"
+    },
+    "EP05_ACT05": {
+      "text": "欠債的是債主的僕人",
+      "reference": "箴言 22:7",
+      "url": "https://ebible.org/cmn-cu89t/PRO22.htm"
+    },
+    "EP06_ACT01": {
+      "text": "你手若有行善的力量，不可推辭",
+      "reference": "箴言 3:27",
+      "url": "https://ebible.org/cmn-cu89t/PRO03.htm"
+    },
+    "EP06_ACT02": {
+      "text": "若是跌倒，這人可以扶起他的同伴",
+      "reference": "傳道書 4:10",
+      "url": "https://ebible.org/cmn-cu89t/ECC04.htm"
+    },
+    "EP06_ACT03": {
+      "text": "公平的法碼為他所喜悅",
+      "reference": "箴言 11:1",
+      "url": "https://ebible.org/cmn-cu89t/PRO11.htm"
+    },
+    "EP06_ACT04": {
+      "text": "是，就說是；不是，就說不是",
+      "reference": "馬太福音 5:37",
+      "url": "https://ebible.org/cmn-cu89t/MAT05.htm"
+    },
+    "EP06_ACT05": {
+      "text": "善美的要持守",
+      "reference": "帖撒羅尼迦前書 5:21",
+      "url": "https://ebible.org/cmn-cu89t/1TH05.htm"
+    },
+    "EP06_ACT06": {
+      "text": "一個人不能事奉兩個主",
+      "reference": "馬太福音 6:24",
+      "url": "https://ebible.org/cmn-cu89t/MAT06.htm"
+    },
+    "EP07_ACT01": {
+      "text": "重修路徑與人居住的",
+      "reference": "以賽亞書 58:12",
+      "url": "https://ebible.org/cmn-cu89t/ISA58.htm"
+    },
+    "EP07_ACT02": {
+      "text": "自己要找一個家鄉",
+      "reference": "希伯來書 11:14",
+      "url": "https://ebible.org/cmn-cu89t/HEB11.htm"
+    },
+    "EP07_ACT03": {
+      "text": "當保護貧寒和窮乏的人",
+      "reference": "詩篇 82:4",
+      "url": "https://ebible.org/cmn-cu89t/PSA082.htm"
+    },
+    "EP07_ACT03_SACRED": {
+      "text": "他醫好傷心的人，裹好他們的傷處",
+      "reference": "詩篇 147:3",
+      "url": "https://ebible.org/cmn-cu89t/PSA147.htm"
+    },
+    "EP07_ACT03_WORLD": {
+      "text": "一點愚昧也能敗壞智慧和尊榮",
+      "reference": "傳道書 10:1",
+      "url": "https://ebible.org/cmn-cu89t/ECC10.htm"
+    },
+    "EP07_ACT04": {
+      "text": "地雖改變，山雖搖動到海心",
+      "reference": "詩篇 46:2",
+      "url": "https://ebible.org/cmn-cu89t/PSA046.htm"
+    },
+    "EP07_ACT04_SACRED": {
+      "text": "用膀臂聚集羊羔抱在懷中",
+      "reference": "以賽亞書 40:11",
+      "url": "https://ebible.org/cmn-cu89t/ISA40.htm"
+    },
+    "EP07_ACT04_WORLD": {
+      "text": "使隱藏的物顯露出來",
+      "reference": "約伯記 28:11",
+      "url": "https://ebible.org/cmn-cu89t/JOB28.htm"
+    },
+    "EP07_ACT05": {
+      "text": "先坐下算計花費",
+      "reference": "路加福音 14:28",
+      "url": "https://ebible.org/cmn-cu89t/LUK14.htm"
+    },
+    "EP07_ACT05_SACRED": {
+      "text": "此外所費用的，我回來必還你",
+      "reference": "路加福音 10:35",
+      "url": "https://ebible.org/cmn-cu89t/LUK10.htm"
+    },
+    "EP07_ACT05_WORLD": {
+      "text": "把你所經管的交代明白",
+      "reference": "路加福音 16:2",
+      "url": "https://ebible.org/cmn-cu89t/LUK16.htm"
+    },
+    "EP08_ACT01": {
+      "text": "求你指教我們怎樣數算自己的日子",
+      "reference": "詩篇 90:12",
+      "url": "https://ebible.org/cmn-cu89t/PSA090.htm"
+    },
+    "EP08_ACT01_SACRED": {
+      "text": "尋找有時，失落有時",
+      "reference": "傳道書 3:6",
+      "url": "https://ebible.org/cmn-cu89t/ECC03.htm"
+    },
+    "EP08_ACT01_WORLD": {
+      "text": "惟有愛心能造就人",
+      "reference": "哥林多前書 8:1",
+      "url": "https://ebible.org/cmn-cu89t/1CO08.htm"
+    },
+    "EP08_ACT02": {
+      "text": "房屋因智慧建造，又因聰明立穩",
+      "reference": "箴言 24:3",
+      "url": "https://ebible.org/cmn-cu89t/PRO24.htm"
+    },
+    "EP08_ACT02_SACRED": {
+      "text": "身子原不是一個肢體，乃是許多肢體",
+      "reference": "哥林多前書 12:14",
+      "url": "https://ebible.org/cmn-cu89t/1CO12.htm"
+    },
+    "EP08_ACT02_WORLD": {
+      "text": "若一個肢體受苦，所有的肢體就一同受苦",
+      "reference": "哥林多前書 12:26",
+      "url": "https://ebible.org/cmn-cu89t/1CO12.htm"
+    },
+    "EP08_ACT03": {
+      "text": "樹若被砍下，還可指望發芽",
+      "reference": "約伯記 14:7",
+      "url": "https://ebible.org/cmn-cu89t/JOB14.htm"
+    },
+    "EP08_ACT03_SACRED": {
+      "text": "不可挪移你鄰舍的地界",
+      "reference": "申命記 19:14",
+      "url": "https://ebible.org/cmn-cu89t/DEU19.htm"
+    },
+    "EP08_ACT03_WORLD": {
+      "text": "述說給後代聽",
+      "reference": "詩篇 78:4",
+      "url": "https://ebible.org/cmn-cu89t/PSA078.htm"
+    },
+    "EP08_ACT04": {
+      "text": "他發出寒冷，誰能當得起呢？",
+      "reference": "詩篇 147:17",
+      "url": "https://ebible.org/cmn-cu89t/PSA147.htm"
+    },
+    "EP08_ACT04_SACRED": {
+      "text": "行公義，好憐憫",
+      "reference": "彌迦書 6:8",
+      "url": "https://ebible.org/cmn-cu89t/MIC06.htm"
+    },
+    "EP08_ACT04_WORLD": {
+      "text": "你只可到這裏，不可越過",
+      "reference": "約伯記 38:11",
+      "url": "https://ebible.org/cmn-cu89t/JOB38.htm"
+    },
+    "EP08_ACT05": {
+      "text": "守望的啊，夜裏如何？",
+      "reference": "以賽亞書 21:11",
+      "url": "https://ebible.org/cmn-cu89t/ISA21.htm"
+    },
+    "EP08_ACT05_SACRED": {
+      "text": "你許願不還，不如不許",
+      "reference": "傳道書 5:5",
+      "url": "https://ebible.org/cmn-cu89t/ECC05.htm"
+    },
+    "EP08_ACT05_WORLD": {
+      "text": "請你考問前代，追念他們的列祖所查究的",
+      "reference": "約伯記 8:8",
+      "url": "https://ebible.org/cmn-cu89t/JOB08.htm"
+    },
+    "EP09_ACT01": {
+      "text": "爭戰有時，和好有時",
+      "reference": "傳道書 3:8",
+      "url": "https://ebible.org/cmn-cu89t/ECC03.htm"
+    },
+    "EP09_ACT01_SACRED": {
+      "text": "隱藏被趕散的人，不可顯露逃民",
+      "reference": "以賽亞書 16:3",
+      "url": "https://ebible.org/cmn-cu89t/ISA16.htm"
+    },
+    "EP09_ACT01_WORLD": {
+      "text": "謀士多，人便安居",
+      "reference": "箴言 11:14",
+      "url": "https://ebible.org/cmn-cu89t/PRO11.htm"
+    },
+    "EP09_ACT02": {
+      "text": "智慧勝過打仗的兵器",
+      "reference": "傳道書 9:18",
+      "url": "https://ebible.org/cmn-cu89t/ECC09.htm"
+    },
+    "EP09_ACT03": {
+      "text": "憑兩三個人的口作見證才可定案",
+      "reference": "申命記 19:15",
+      "url": "https://ebible.org/cmn-cu89t/DEU19.htm"
+    },
+    "EP09_ACT04": {
+      "text": "為困苦和窮乏的辨屈",
+      "reference": "箴言 31:9",
+      "url": "https://ebible.org/cmn-cu89t/PRO31.htm"
+    },
+    "EP09_ACT05": {
+      "text": "必有首領藉公平掌權",
+      "reference": "以賽亞書 32:1",
+      "url": "https://ebible.org/cmn-cu89t/ISA32.htm"
+    }
+  }
+}

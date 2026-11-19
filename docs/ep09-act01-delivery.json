@@ -1,0 +1,57 @@
+{
+  "release": "FINLEY2026.11.19",
+  "contentVersion": "0.25.0-ep09-act01.reader-v1",
+  "routes": {
+    "SACRED": {
+      "title": "讓子彈飛一下",
+      "cg": 28,
+      "flavorChoices": 8,
+      "politicalChoices": 1,
+      "politicalDeltas": {
+        "A": 0,
+        "B": -30,
+        "C": 0
+      }
+    },
+    "WORLD": {
+      "title": "讓子彈飛一下的政治分贓大會",
+      "cg": 28,
+      "flavorChoices": 6,
+      "politicalChoices": 1,
+      "politicalDeltas": {
+        "A": 10,
+        "B": 5,
+        "C": 0,
+        "D": -15
+      },
+      "provisional": "D -15 follows supplied draft, subject to later calibration."
+    }
+  },
+  "editorial": {
+    "previousEditsPreserved": 82,
+    "newParagraphs": 19,
+    "source": "content/reader/dialogue-polish-ep09-v1.json"
+  },
+  "ignoredAttachment": "Gold_Arcana_Codex_UX_v1.2.1.zip",
+  "validation": {
+    "unitTestsPassed": 321,
+    "unitFilesPassed": 38,
+    "browserChecksPassed": 24,
+    "platforms": [
+      "Desktop Chrome",
+      "Pixel 7",
+      "iPhone 13"
+    ],
+    "fullGraph": {
+      "complete": true,
+      "states": 2849573,
+      "errors": [],
+      "boundaryChecks": 1540
+    }
+  },
+  "delivery": {
+    "archive": "母獅帝國_GitHubPages_上傳包.zip",
+    "githubPushed": false,
+    "preview": "http://127.0.0.1:4175/"
+  }
+}

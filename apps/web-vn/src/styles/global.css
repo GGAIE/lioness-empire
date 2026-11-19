@@ -668,6 +668,50 @@ dialog > header button {
   color: #ccb88d;
   font-size: 13px;
 }
+.shell--resource-ending {
+  background: #000;
+  min-height: 100dvh;
+}
+.shell--resource-ending > .masthead,
+.shell--resource-ending > .resource-hud,
+.shell--resource-ending > .toolbar,
+.shell--resource-ending > .page-footer,
+.shell--resource-ending .side-label,
+.shell--resource-ending .right-rail,
+.shell--resource-ending .scene-heading,
+.shell--resource-ending .stage-heading,
+.shell--resource-ending .dialogue-controls > button:not(.hide-dialogue) {
+  display: none;
+}
+.shell--resource-ending .game-frame {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+  min-height: 100dvh;
+  margin: 0;
+  border: 0;
+  background: #000;
+  z-index: 10;
+}
+.shell--resource-ending .dialogue-wrap {
+  position: absolute;
+  bottom: max(24px, env(safe-area-inset-bottom));
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  background: #000;
+  border: 0;
+  backdrop-filter: none;
+}
+.shell--resource-ending .speaker-line small {
+  display: none;
+}
+.shell--resource-ending .stage-blackout {
+  background: #000;
+  opacity: 1;
+  transition: none;
+}
 .gallery-grid img {
   width: 100%;
   aspect-ratio: 16/9;
@@ -2225,4 +2269,24 @@ input[type='range'] {
     min-height: 30px;
     padding: 0;
   }
+}
+
+
+.chapter-directory summary .chapter-subtitle,
+.chapter-complete .chapter-subtitle {
+  margin: 3px 0 6px;
+  color: #dcc495;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.chapter-directory summary .scripture-reference,
+.chapter-complete .scripture-reference {
+  margin: 3px 0 6px;
+  color: #c8af7b;
+  font-size: 12px;
+}
+
+.chapter-complete h3:has(+ :is(.chapter-subtitle, .scripture-reference)) {
+  margin-bottom: 3px;
 }

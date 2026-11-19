@@ -12,12 +12,24 @@ let story: Story;
 beforeAll(async () => {
   story = await loadContent();
 });
-it('groups 13 chapters and 62 acts with 220 authored sections, hiding engine demos and branch internals', () => {
+it('groups 13 chapters and 62 acts with 231 authored sections, hiding engine demos and branch internals', () => {
   const index = chapterDirectory(story);
   expect(index).toHaveLength(13);
   expect(index.flatMap((c) => c.acts)).toHaveLength(62);
-  expect(index.flatMap((c) => c.acts.flatMap((a) => a.sections))).toHaveLength(220);
-  expect(index[1].title).toBe('王冠之前');
+  expect(index.flatMap((c) => c.acts.flatMap((a) => a.sections))).toHaveLength(231);
+  expect(index.slice(1, 10).map((chapter) => chapter.title)).toEqual([
+    'The Call',
+    'The Weight',
+    'King and Lionheart',
+    'Everybody Wants to Rule the World',
+    'Gimme Shelter',
+    'Which Side Are You On?',
+    'How Much a Dollar Cost',
+    'People Have the Power',
+    'Waiting for the End',
+  ]);
+  expect(index[1].acts[4].title).toBe('你要聽從生你的父親');
+  expect(index[2].acts[4].title).toBe('誰願為大，就必作你們的用人');
   expect(index[1].acts.map((a) => a.sections.length)).toEqual([5, 5, 5, 5, 5]);
   expect(index[1].acts[1].sections[2].sceneIds).toHaveLength(5);
   expect(
@@ -27,7 +39,7 @@ it('groups 13 chapters and 62 acts with 220 authored sections, hiding engine dem
   expect(index.flatMap((c) => c.acts).every((a) => !/規劃|未命名|劇本待續/.test(a.title))).toBe(
     true
   );
-  expect(index.find((c) => c.id === 'EP08')!.acts[1].title).toBe('五十張椅子');
+  expect(index.find((c) => c.id === 'EP08')!.acts[1].title).toBe('房屋因智慧建造，又因聰明立穩');
   expect(index.find((c) => c.id === 'EP12')!.acts[4].title).toBe('帝國之後');
 });
 it('counts a decision section as read after the selected response and common passage, without requiring every branch', () => {

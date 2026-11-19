@@ -1,9 +1,9 @@
 {
   "errors": [],
   "counts": {
-    "dialogue": 8371,
-    "thoughts": 72,
-    "narration": 3644,
+    "dialogue": 9146,
+    "thoughts": 77,
+    "narration": 3804,
     "fixed": 137
   },
   "retainedQuotes": [
@@ -269,6 +269,36 @@
       "sceneId": "EP08_ACT03_SC02_W",
       "segmentId": "L018",
       "text": "赫碧聽完，向奧瑞亞詢問那個「回應」在族語中的說法，仔細記下她的發音。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT05_SC02_S",
+      "segmentId": "L010",
+      "text": "這番話並沒有錯。聖光會的醫療站、信眾網絡與救濟隊確實讓許多居民渡過災後的日子。但它刻意沒有說清楚：「交換資訊」後，究竟由誰決定如何運用資訊。",
+      "reason": "敘述引述交換資訊一詞的含義，並非角色直接發言。"
+    },
+    {
+      "sceneId": "EP08_ACT05_SC03_S",
+      "segmentId": "L001",
+      "text": "米椰爾把自己的文件放在桌面中央。紙頁上沒有誇張的請求，也沒有獅徽或教會印章並列的正式協約。只有幾項被稱作「方便作業」的建議。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT05_SC03_S",
+      "segmentId": "L014",
+      "text": "她說「理解」，而不是「授權」。這個選字像一張薄紗，剛好能遮住後面一扇正在緩緩打開的門。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT05_SC04_S",
+      "segmentId": "L001",
+      "text": "陽光逐漸從書桌上移開，窗櫺把金色切成一格格細長的影子。米椰爾提到「預防下一次災難」時，艾莉西亞終於把一直合著的手稿打開。",
+      "reason": "NARRATIVE_REFERENCE"
+    },
+    {
+      "sceneId": "EP08_ACT05_SC04_S_FL09_COMMON",
+      "segmentId": "L003",
+      "text": "她們都站起身。會談沒有走向公開決裂，也沒有通往一份漂亮的新條約。真正重要的差別，藏在她們對「今日已經同意到哪一步」的理解裡。",
       "reason": "NARRATIVE_REFERENCE"
     }
   ]

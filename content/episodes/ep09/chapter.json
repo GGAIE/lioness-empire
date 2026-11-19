@@ -1,0 +1,6830 @@
+{
+  "schemaVersion": 1,
+  "id": "EP09",
+  "version": "1.1.0",
+  "status": "DRAFT",
+  "source": "使用者提供神聖線 v1.1、世界線 v1.0 完整劇本及 56 張 CG。",
+  "scenes": [
+    {
+      "id": "EP09_ACT01_SC01_S",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "王都的天色明亮得近乎無趣。窗外有人修剪庭園，簾下的長桌卻被七份公文佔得沒有空隙。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-01-01"
+        },
+        {
+          "id": "L002",
+          "text": "七枚封蠟，各有自己的紋章。七份要求，卻像同一個人在反覆說著同一句話：再等等。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-01-02"
+        },
+        {
+          "id": "L003",
+          "text": "芬利抱著另一疊文件走進來，沒有立即坐下。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-01-03"
+        },
+        {
+          "id": "L004",
+          "text": "「殿下，裂谷那七位領主，回覆了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「喔？這次總算願意讓軍糧通過了？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「很遺憾，沒有。他們同意『原則上支持』。但是呢，通行權要等各領主的稅務官重新簽認。還有，負責維護的那條道路……他們說不在任何一家的完整管轄範圍。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「所以連一條路，都能被他們拆成七個問題。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「更精確地說，是十四個。每家還各自寄了一份補充條件。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "「……你數過？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "「這是我的工作。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L011",
+          "text": "奧莉維亞翻到最下一頁。幾名領主要求王室優先確認舊約；另一些人堅稱攝政無權改變沿用多年的私兵通行規矩。每一封信都寫得恭敬，卻沒有一封提出可以履行的日期。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-01-04"
+        },
+        {
+          "id": "L012",
+          "text": "「他們是不是覺得，只要艾維斯回國，這些事情就能從頭來過？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「有兩份公文暗示得很明白。剩下幾位比較謹慎，至少沒把那句話寫出來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "先翻哪一份？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「先看軍需那份。」",
+          "next": "EP09_ACT01_SC01_S_C01_FLAVOR_01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「我倒想看看誰的藉口最有創意。」",
+          "next": "EP09_ACT01_SC01_S_C01_FLAVOR_01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「七份都留著，別丟。」",
+          "next": "EP09_ACT01_SC01_S_C01_FLAVOR_01_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_01_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「軍糧不會因為他們寫得客氣，就自己走到前線。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「這份最讓人頭痛，沒錯。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-04",
+      "next": "EP09_ACT01_SC01_S_C01_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_01_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這個『道路歸屬有待歷史考證』……我差點要佩服他了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「請不要鼓勵他們。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-04",
+      "next": "EP09_ACT01_SC01_S_C01_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_01_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「有一天得把它們按日期擺出來，讓大家看看我們都在等什麼。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我會留好副本。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-04",
+      "next": "EP09_ACT01_SC01_S_C01_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_01_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「還有另一件事。羅蘭・卡辛斯基的動作，比上週快了不少。他在裂谷周圍買通了幾支小隊，還有人替他打聽各領主的糧倉位置。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-S-01-05"
+        },
+        {
+          "id": "L002",
+          "text": "奧莉維亞抬眼。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L003",
+          "text": "「他開始把手伸進去啦。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「您不意外？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「那些領主互不信任，彼此卻比誰都清楚對方的弱點。總會有人想利用這一點。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「要先警告他們嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "如何回答芬利？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「把已知情報整理給我。」",
+          "next": "EP09_ACT01_SC01_S_C01_FLAVOR_02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「你覺得他們會聽？」",
+          "next": "EP09_ACT01_SC01_S_C01_FLAVOR_02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「他們之前不是很喜歡自己決定嗎？」",
+          "next": "EP09_ACT01_SC01_S_C01_FLAVOR_02_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-04",
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_02_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「先分清楚傳聞跟確認的行動。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「明白。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-05",
+      "next": "EP09_ACT01_SC01_S_C01_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_02_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「……從上次的回信看來，我沒有那麼樂觀。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-05",
+      "next": "EP09_ACT01_SC01_S_C01_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_02_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「那就看看這次能不能自己做決定。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「殿下，這話聽起來不太像稱讚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-05",
+      "next": "EP09_ACT01_SC01_S_C01_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_S_C01_FLAVOR_02_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "七枚釘子",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "芬利把羅蘭的活動範圍標在地圖上，旁邊還附有第六騎士團更新的道路巡防紀錄。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-01-06"
+        },
+        {
+          "id": "L002",
+          "text": "「第六團已經加強對外道路的監視。艾琳達的回報是：只要不越過既有警戒線，她可以守住裂谷之外的通道。但領主內部的私戰，得有另一套命令與名分。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「很好。那就讓她守住界線。至於裂谷裡面的事……暫時別急。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「您又在等什麼？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "奧莉維亞沒有立刻回答。她將七份公文疊在一起，推向地圖一角。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "「芬利，你讀過白蘆河之戰嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-01-05",
+      "next": "EP09_ACT01_SC02_S"
+    },
+    {
+      "id": "EP09_ACT01_SC02_S",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河的故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "芬利從書架取下一卷年代久遠的戰史。紙面早已泛黃，卻仍看得出河道兩側密集的兵旗。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-02-01"
+        },
+        {
+          "id": "L002",
+          "text": "「溫室分裂後，白蘆河一帶有七個小邦。彼此都不大，也都不肯讓步。後來黑冠王把他們逐一打下來；銀槍王國等到他完成整合，才在河岸決戰。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-S-02-02"
+        },
+        {
+          "id": "L003",
+          "text": "「結局呢？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「黑冠王大敗。銀槍王國還接收了原本七邦的土地。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-S-02-03"
+        },
+        {
+          "id": "L005",
+          "text": "「所以它出兵了幾次？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「……一次決戰。但那是因為敵軍統一之後，反而能被集中擊敗。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「正是如此。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "她指尖沿著河道滑過，停在原本分散的七面小旗上。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L009",
+          "text": "「如果銀槍王國一開始就介入，每個小邦都會提出自己的條件。幫了這個，另一個會說不公平；守了這條路，下一條路又要重新談。最後呢？它得替七個人的野心付帳。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "「但黑冠王征服他們的時候，難道就沒有平民傷亡？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-S-02-04"
+        },
+        {
+          "id": "L011",
+          "text": "「當然有。等戰爭結束才出手，從來就不是沒有代價的做法。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "「您打算讓羅蘭當那個黑冠王？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L013",
+          "text": "對歷史的看法",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「歷史通常不會照原樣重演。」",
+          "next": "EP09_ACT01_SC02_S_C02_FLAVOR_01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「倒也省了不少軍費。」",
+          "next": "EP09_ACT01_SC02_S_C02_FLAVOR_01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「至少先把差異列出來。」",
+          "next": "EP09_ACT01_SC02_S_C02_FLAVOR_01_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC02_S_C02_FLAVOR_01_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河的故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「不過人們的貪心，倒是沒什麼新花樣。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-02-04",
+      "next": "EP09_ACT01_SC02_S_C02_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC02_S_C02_FLAVOR_01_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河的故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「您的結論還真是……實際。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L002",
+          "text": "「有問題嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-02-04",
+      "next": "EP09_ACT01_SC02_S_C02_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC02_S_C02_FLAVOR_01_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河的故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「好。這次的地形、領主義務和王室授權，都和白蘆河不同。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L002",
+          "text": "「所以才要看情報，不能只看故事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-02-04",
+      "next": "EP09_ACT01_SC02_S_C02_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC02_S_C02_FLAVOR_01_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河的故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我不會教羅蘭怎麼打，也不會替他找盟友。他要做什麼，是他自己的事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「可您也不打算阻止他。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「至少現在沒有理由派王國軍隊進去。領主間的爭端，就連那些領主自己都不願讓王室仲裁。現在突然要我們為他們打仗？以什麼名分？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「大義、秩序，或是救濟？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "奧莉維亞把那卷戰史闔上。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "「你不能打著大義或救濟的旗號，去救一群會亂殺人的惡狼。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「那生活在他們領地上的人呢？他們可不是惡狼。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「我知道。所以我沒有打算連他們一起丟下。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "芬利沉默了一瞬。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L010",
+          "text": "「聖光會在裂谷外圍有幾處收容點吧？要安排的難民，預估不會太多。糧食、床位、基本醫療，先準備好。至於那七個人……」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "她將一枚象徵羅蘭的黑色棋子放在七個領主之間。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-02-05"
+        },
+        {
+          "id": "L012",
+          "text": "「讓子彈飛一下吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L013",
+          "text": "「……這句話我會記在會議摘要裡嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L014",
+          "text": "「不要。換一句比較能給人看的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L015",
+          "text": "「『持續觀察局勢，保護既有邊境秩序』？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L016",
+          "text": "「你看，這不是很會寫嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L017",
+          "text": "她沒有預言勝利，也沒有承諾這場戰爭不會傷人。她只是決定，王國不該替七個人的互相掣肘一直支付代價。",
+          "kind": "narration",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-02-04",
+      "next": "EP09_ACT01_SC03_S"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "小會客室沒有王座。窗邊擺著一只銀壺、三個茶杯，以及一張刻意沒有鋪滿的救濟區域圖。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-03-01"
+        },
+        {
+          "id": "L002",
+          "text": "聖光會米椰爾看了看地圖，先開了口。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-03-02"
+        },
+        {
+          "id": "L003",
+          "text": "「殿下希望我們增加裂谷外圍的收容準備？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L004",
+          "text": "「嗯。不必大規模動員。先把能住人的地方清出來，糧食和藥品也留一些機動額度。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「是出現了新的災情嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L006",
+          "text": "「還沒有。但領主之間的關係越來越緊張。我不希望真的有人逃出來時，大家才開始找空房間。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「這倒是。只是我們需要知道大概的規模，才能決定向哪些地方借調物資。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L008",
+          "text": "如何說明預估規模？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「目前預估人數不多，但要保留餘裕。」",
+          "next": "EP09_ACT01_SC03_S_C03_FLAVOR_01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「先依現有收容點的空床規畫。」",
+          "next": "EP09_ACT01_SC03_S_C03_FLAVOR_01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「先問問他們最缺什麼。」",
+          "next": "EP09_ACT01_SC03_S_C03_FLAVOR_01_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_C03_FLAVOR_01_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這樣比較好安排。若超出預期，我們也能提早調整。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-02",
+      "next": "EP09_ACT01_SC03_S_C03_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_C03_FLAVOR_01_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「可以。我們會回報不足的項目。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-02",
+      "next": "EP09_ACT01_SC03_S_C03_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_C03_FLAVOR_01_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「床位通常還好，真正容易缺的是會照顧傷病的人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-02",
+      "next": "EP09_ACT01_SC03_S_C03_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_C03_FLAVOR_01_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「王室會協調救濟物資的道路通行，不讓前線封鎖把避難的人一起攔住。聖光會負責收容與照護，遇到超出能力的情況，直接回報。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP09-ACT01-S-03-03"
+        },
+        {
+          "id": "L002",
+          "text": "「這樣我們可以答應。不過，殿下，我必須先說清楚：收容難民不代表我們支持任何一方出兵，也不代表我們可以替領主的私戰背書。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L003",
+          "text": "「這一點，我同意。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "米椰爾正要點頭，芬利卻看了奧莉維亞一眼。他知道她真正想等的，是另一件事。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L005",
+          "text": "「那麼，這份約定要如何對外說明？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾",
+          "cg": "EP09-ACT01-S-03-04"
+        },
+        {
+          "id": "L006",
+          "text": "這份約定要如何對外說明？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「救濟就由聖光會負責，王室保障通行與必要協調。」",
+          "next": "EP09_ACT01_SC03_S_PACT_A",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP09_S_ACT01_PACT_CHOICE",
+              "value": "A"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_S_RIFT_CHURCH_PRECOMMIT",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "「請聖光會公開支持王室暫不干預領主戰爭的決定。」",
+          "next": "EP09_ACT01_SC03_S_PACT_B",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP09_S_ACT01_PACT_CHOICE",
+              "value": "B"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_S_RIFT_CHURCH_PRECOMMIT",
+              "value": true
+            },
+            {
+              "type": "points",
+              "delta": -30
+            }
+          ],
+          "pointCostPolicy": "ALLOW_EXHAUSTION"
+        },
+        {
+          "id": "C",
+          "text": "「先不要公開王室的預判，救濟通知由聖光會依需求發布。」",
+          "next": "EP09_ACT01_SC03_S_PACT_C",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP09_S_ACT01_PACT_CHOICE",
+              "value": "C"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_S_RIFT_CHURCH_PRECOMMIT",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-02",
+      "planDecisionOverride": {
+        "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+        "reason": "使用者提供的第一幕完整版明定此處為唯一實質政治選擇，覆蓋早期無選項規劃。"
+      },
+      "choiceMode": "STORY"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_PACT_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我們就照實說。聖光會願意收容難民，王室確保救濟通道能運作。至於領主之間的爭端，那是另一件事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「好。救人是我們可以公開承諾的，其他事情，就由有權處理的人負責。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L003",
+          "text": "「我會把需求與聯絡窗口整理清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-04",
+      "next": "EP09_ACT01_SC03_S_PACT_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_PACT_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「既然你們都認為要先照顧百姓，不如把話說得完整一點。請聖光會公開支持王室暫時不介入的立場。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "米椰爾原本扶著杯緣的手停住。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-03-05"
+        },
+        {
+          "id": "L003",
+          "text": "「……殿下，您是希望我們承擔救濟，還是希望我們替王室的軍事判斷作見證？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L004",
+          "text": "「只是避免有人誤解我們什麼都沒做。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「那麼更應該把兩件事分開。有人需要庇護，我們可以收留；王室何時出兵、為何不出兵，則應由王室自己說明。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L006",
+          "text": "「我明白你的意思。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「抱歉，這個要求我們不能答應。若公開以聖光會名義支持觀望，將來每一個受害家庭都可能以為，是我們替這場戰爭選擇了沉默。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L008",
+          "text": "屋裡安靜了一會兒。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L009",
+          "text": "「殿下，救濟協議還是可以繼續，但我們得重新對外說明權責。原本幾個願意提供物資的地方窗口，恐怕也會要求王室另行擔保。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「……好。是我把兩件事混在一起了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「我們照顧難民的承諾不變。但軍事政策的責任，請王室自行承擔。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L012",
+          "text": "協議沒有破裂。然而王室得補交一份書面聲明，並以自己的政治信用保證救濟路線的暢通。原本能簡單辦妥的事情，因為一次越界的要求，變得昂貴許多。",
+          "kind": "narration",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-04",
+      "next": "EP09_ACT01_SC03_S_PACT_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_PACT_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「不用提尚未發生的戰事。哪裡有收容需求，就照既有程序發通知。王室只處理通行和聯絡。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「可以。若真的有人逃來，我們至少不用等到一紙新命令才開門。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L003",
+          "text": "「那我就按這個範圍整理。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-04",
+      "next": "EP09_ACT01_SC03_S_PACT_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_S_PACT_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "聖光會的兜底",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "MIEL",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "米椰爾收好地圖，卻沒有立刻起身。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-03-06"
+        },
+        {
+          "id": "L002",
+          "text": "「還有一點，殿下。若收容人數真的少，我們自己應付得來；但如果某個村莊整批逃出來，王室恐怕得重新協調軍隊放行。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L003",
+          "text": "「可以。把聯絡方式留給芬利，消息到了就處理。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「那就說定了。我們救人，不替任何一家的野心抬轎。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "MIEL",
+          "speakerLabel": "米椰爾"
+        },
+        {
+          "id": "L005",
+          "text": "「這樣就很好。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "米椰爾離開後，茶還有餘溫。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L007",
+          "text": "「您從一開始，就不打算勸那七個領主停手吧？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「他們如果願意聽勸，我們也不會有這七疊公文。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「您知道收容人數可能不止我們預估的那些。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「我知道。所以我才說，要留餘裕。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「……知道了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L012",
+          "text": "兩人都沒有提起羅蘭。那個名字卻始終留在桌上的地圖中央。",
+          "kind": "narration",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "SACRED"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-03-04",
+      "next": "EP09_ACT01_SC04_S"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "戰事比任何一封正式公文都快。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-04-01"
+        },
+        {
+          "id": "L002",
+          "text": "第一份報告說，羅蘭的人已取得一處領主宅邸的實際控制權。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-04-02"
+        },
+        {
+          "id": "L003",
+          "text": "第二份報告說，其他領主開始徵調私兵；",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-04-03"
+        },
+        {
+          "id": "L004",
+          "text": "第三份則帶來消息：有人放火燒毀了道路旁的倉棚，數戶人家連夜離村。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-04-04"
+        },
+        {
+          "id": "L005",
+          "text": "王室最初收到的求援，不是來自平民，而是來自一位昨日還拒絕交出軍需通行權的領主。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "「他現在請求王室立刻調兵，保護他的家族財產，還希望我們承認他可以徵用附近道路的糧車。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L007",
+          "text": "「承認他徵用別人的糧車？……他是不是連求救都不肯少拿一點？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「很遺憾，公文確實是這樣寫的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "如何回應領主求援？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「把他先前的回文附在一起。」",
+          "next": "EP09_ACT01_SC04_S_C04_FLAVOR_01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「真會挑時間。」",
+          "next": "EP09_ACT01_SC04_S_C04_FLAVOR_01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「先看有沒有平民的消息。」",
+          "next": "EP09_ACT01_SC04_S_C04_FLAVOR_01_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_01_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「讓他看看自己上個月怎麼說的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我會保留完整往來紀錄。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-04",
+      "next": "EP09_ACT01_SC04_S_C04_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_01_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「現在才想起王室的好處了？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「人在著急的時候，記憶通常不太可靠。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-04",
+      "next": "EP09_ACT01_SC04_S_C04_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_01_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「他的莊園可以等。附近的住戶有沒有撤出去？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「已經在查了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-04",
+      "next": "EP09_ACT01_SC04_S_C04_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_01_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「聖光會已經開放兩處臨時收容空間，第一批人數還在原先預估範圍內。他們要的主要是乾糧、熱水，以及能替傷者換藥的人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-S-04-05"
+        },
+        {
+          "id": "L002",
+          "text": "「需要王室補的，照協議送過去。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「好。但戰報裡還有另一件事：羅蘭的部隊搶走了商隊，幾處村落的房舍也受到破壞。傷亡數字還無法確認。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-S-04-06"
+        },
+        {
+          "id": "L004",
+          "text": "「記錄來源，別把猜測寫成確定人數。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「我會。只是……您當初就知道這些事可能發生吧？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「是。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「如果我們早點出手，也許能少死一些人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "「也許。但那會變成王室替一群拒絕接受仲裁的領主打仗。他們守住自己的莊園後，還是會照舊把命令拖下去。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L009",
+          "text": "「我說的是人民，不是莊園。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "奧莉維亞停了一下。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L011",
+          "text": "「我知道你說的是誰。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "「那這份代價，您也打算記在帳上？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L013",
+          "text": "「記。別漏掉。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L014",
+          "text": "「……好。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L015",
+          "text": "面對不完整的傷亡消息",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「讓教會先回報安置狀況。」",
+          "next": "EP09_ACT01_SC04_S_C04_FLAVOR_02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「我要各地報告的原始時間。」",
+          "next": "EP09_ACT01_SC04_S_C04_FLAVOR_02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「不要替我修飾文字。」",
+          "next": "EP09_ACT01_SC04_S_C04_FLAVOR_02_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-04",
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_02_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「活著的人現在在哪裡，先弄清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「已經在聯繫。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-06",
+      "next": "EP09_ACT01_SC04_S_C04_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_02_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「別把昨天的失火和今天的逃難寫成同一件事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我會核對。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-06",
+      "next": "EP09_ACT01_SC04_S_C04_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_02_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「搶掠就是搶掠。寫清楚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我本來也沒打算改。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-06",
+      "next": "EP09_ACT01_SC04_S_C04_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_S_C04_FLAVOR_02_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "第一封戰報",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "窗外的日光慢慢暗下去。地圖上，羅蘭的控制區已從最初的一角延伸到幾條主要道路。不同領主的旗號有的仍在，有的則被撤下；沒有任何報告能證實七人都已死亡。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「第六團剛剛確認，羅蘭的先頭部隊正試圖往裂谷外側延伸。艾琳達已經把他們擋在警戒線內，暫時沒有讓戰事進入其他騎士團的領地。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「她做得很好。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「她還問了一句，是否維持原本的限制命令。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "奧莉維亞凝視著地圖。七枚封蠟仍擺在角落，卻已經沒有哪一枚能替整片裂谷說話。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "「把第六團的詳細軍報拿來。現在該算下一筆帳了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-04-06",
+      "next": "EP09_ACT01_SC05_S"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "深夜，王宮的燈還亮著。第六騎士團送來一份新的布防圖。圖上的警戒線沒有後退，羅蘭的部隊卻已經在幾處通道碰上了阻力。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-05-01"
+        },
+        {
+          "id": "L002",
+          "text": "「艾琳達的軍報到了。第六團已控制主要外溢通道，能限制羅蘭的活動範圍。不過，如果要真正結束這場戰事，還需要正式軍令，以及另一側的兵力配合。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-S-05-02"
+        },
+        {
+          "id": "L003",
+          "text": "「第三團呢？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP09-ACT01-S-05-03"
+        },
+        {
+          "id": "L004",
+          "text": "「莎莉亞那邊有能力從另一岸配合。但她不會因為一份模糊的命令，就替我們承擔全部政治責任。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「這很合理。出兵不是一句『幫個忙』就能交代的。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "她將七份公文重新攤開。最早要求保留自治的領主，如今最急著請王室干預；曾經反對王室巡查道路的領主，則希望軍隊立刻替他清出商道。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L007",
+          "text": "「真奇妙。前幾天，他們還說這裡不需要王室指手畫腳。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L008",
+          "text": "「現在他們倒是很需要了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L009",
+          "text": "「那就回到真正有權處理的問題：守住王國的道路、阻止私兵繼續越界，以及結束已經威脅區域秩序的武裝擴張。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L010",
+          "text": "軍令措辭",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「寫得正式些。」",
+          "next": "EP09_ACT01_SC05_S_C05_FLAVOR_01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「別寫成替七個領主討公道。」",
+          "next": "EP09_ACT01_SC05_S_C05_FLAVOR_01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「先確認避難通道不受影響。」",
+          "next": "EP09_ACT01_SC05_S_C05_FLAVOR_01_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_01_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「每一道責任都寫清楚，免得事後有人說沒聽懂。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「這次我非常贊成。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "next": "EP09_ACT01_SC05_S_C05_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_01_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我們不是在替他們把特權打回來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我會避免這種措辭。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "next": "EP09_ACT01_SC05_S_C05_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_01_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「軍隊往前時，別把求救的人往回趕。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我會在附件註明與聖光會的聯絡安排。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "next": "EP09_ACT01_SC05_S_C05_FLAVOR_01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_01_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「發令給第六團，維持封鎖與既定防線；再請第三團提交配合方案。等兩邊的時間、道路和救濟路線都對上，就結束觀望。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「是。那羅蘭……」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「他已經把自己送到王國不得不處理的位置了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "芬利拿起文件，卻沒有離開。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L005",
+          "text": "「殿下，我知道您為什麼不願意替那些領主出兵。只是，這場仗結束後，還是會有很多人問：為什麼要等到現在？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「讓他們問。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "「您會回答嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L008",
+          "text": "奧莉維亞的回答",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「會。該留下的紀錄就留下。」",
+          "next": "EP09_ACT01_SC05_S_C05_FLAVOR_02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「等我先把事情辦完。」",
+          "next": "EP09_ACT01_SC05_S_C05_FLAVOR_02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「你到時候也可以問。」",
+          "next": "EP09_ACT01_SC05_S_C05_FLAVOR_02_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_02_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「只是回答，不代表他們就會滿意。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "next": "EP09_ACT01_SC05_S_C05_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_02_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「現在還有活人需要安置、軍隊需要命令。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "next": "EP09_ACT01_SC05_S_C05_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_02_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「那我可能會問得比他們更難聽。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L002",
+          "text": "「你什麼時候客氣過？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "next": "EP09_ACT01_SC05_S_C05_FLAVOR_02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_S_C05_FLAVOR_02_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "把戰爭關在裂谷裡",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/sacred/01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+      "version": "1.1.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "傳令員拿走軍令。窗外響起夜間換哨的鐘聲，筆尖最後一次在地圖邊緣停住。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-05-04"
+        },
+        {
+          "id": "L002",
+          "text": "白蘆河的故事沒有再被提起。如今的裂谷也不是白蘆河，沒有誰能保證每一步都能照歷史走下去。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L003",
+          "text": "但七名領主曾經牢牢釘在攝政桌上的公文，已經不再是唯一必須回答的問題。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L004",
+          "text": "從現在起，王國要面對的是一支擴張中的武裝，以及戰爭留下的人。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L005",
+          "text": "「那麼，第三團和第六團的協同方案一到，我們就進下一步。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "「嗯。這次，別讓他跑了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": " ",
+          "kind": "caption",
+          "visual": "BLACK"
+        },
+        {
+          "id": "L008",
+          "text": " ",
+          "kind": "caption",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-S-05-05"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "SACRED"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_S_ACT01_PACT_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-S-05-03",
+      "completionFlags": {
+        "EP09_S_ACT01_COMPLETE": true
+      },
+      "completion": {
+        "title": "第一幕完 · 讓子彈飛一下",
+        "scope": "ACT",
+        "nextChapterId": "EP09",
+        "pendingLabel": "第二幕〈裂谷兩岸〉· 敬請期待",
+        "policy": "NO_SCORING"
+      }
+    },
+    {
+      "id": "EP09_ACT01_SC01_W",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "一張地圖上的七種請求",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "HEBE",
+        "ALINDA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "窗外細雨綿綿，桌上攤著裂谷地圖。七個領地分別用不同顏色的封蠟標示；旁邊是一疊將近倒下的請求書。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-01"
+        },
+        {
+          "id": "L002",
+          "text": "「第一位要求降低通行稅。第二位反對第一位的車隊走他的路。第三位說只要王室肯派兵，其他事情都好談。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-W-02"
+        },
+        {
+          "id": "L003",
+          "text": "「那第四位呢？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「要求王室替他向前三位說情。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "赫碧忍著笑。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L006",
+          "text": "「這個倒是很有創意耶。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L007",
+          "text": "「有創意的是他們還能把問題全塞給王都。第六團的人可不是不需要睡覺。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L008",
+          "text": "芬利翻出另一張地圖。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-03"
+        },
+        {
+          "id": "L009",
+          "text": "「至於羅蘭・卡辛斯基，他的傭兵已經在其中一個領地取得實際的軍事調度權。他打算將那些彼此不信任的領主逐一吞下。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「七個領主，一個羅蘭。倒是比上個月容易數了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "「殿下，那不是什麼好消息。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L012",
+          "text": "奧莉維亞先問什麼？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「所以，最後究竟是誰在收稅？」",
+          "next": "EP09_ACT01_SC01_W_F01_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「他們就不能先坐下來談嗎？」",
+          "next": "EP09_ACT01_SC01_W_F01_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「羅蘭的兵力夠吞下所有地方嗎？」",
+          "next": "EP09_ACT01_SC01_W_F01_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC01_W_F01_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "一張地圖上的七種請求",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「所以，最後究竟是誰在收稅？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「目前至少有四套互相矛盾的說法。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「很好，難怪商人寧願繞遠路。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-03",
+      "next": "EP09_ACT01_SC01_W_F01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_W_F01_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "一張地圖上的七種請求",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「他們就不能先坐下來談嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「他們有談啊。只是每次談完，請求書又會多三份。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L003",
+          "text": "「那還真是勤勉。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-03",
+      "next": "EP09_ACT01_SC01_W_F01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_W_F01_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "一張地圖上的七種請求",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「羅蘭的兵力夠吞下所有地方嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「正面打不夠。他靠的是各個擊破，還有那些領主不肯互相幫忙。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-03",
+      "next": "EP09_ACT01_SC01_W_F01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC01_W_F01_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "一張地圖上的七種請求",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HEBE",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "赫碧把另一份家族商路圖攤開。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L002",
+          "text": "「如果七領地真的整合，這些被重複徵收的路段也許終於可以接起來。對地方經營來說，這不是小事。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L003",
+          "text": "「妳看見的是路段。我看見的，是路斷了以後往我們這邊走的人。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "cg": "EP09-ACT01-W-04"
+        },
+        {
+          "id": "L004",
+          "text": "奧莉維亞把七枚小棋子移到同一側。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-05"
+        },
+        {
+          "id": "L005",
+          "text": "「所以，我們得先決定——現在要跟七個人談，還是等有人替他們談完？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-03",
+      "next": "EP09_ACT01_SC02_W"
+    },
+    {
+      "id": "EP09_ACT01_SC02_W",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河邊的舊故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "HEBE",
+        "ALINDA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「您該不會又想到什麼歷史典故吧？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-W-06"
+        },
+        {
+          "id": "L002",
+          "text": "「溫室分裂以後，有七個小邦在白蘆河流域各自為政。你們記得嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP09-ACT01-W-07"
+        },
+        {
+          "id": "L003",
+          "text": "「白蘆七邦？學院有舊圖。不過那批文獻的年代還有爭議。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L004",
+          "text": "「故事的細節可以爭論，結局倒是一致。黑冠王花了多年，一個個擊敗七邦，把他們的軍隊和糧倉都收進自己手裡。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "繪卷上，七道小旗被黑色王旗取代。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-08"
+        },
+        {
+          "id": "L006",
+          "text": "「然後銀槍王國來了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L007",
+          "text": "「對。銀槍王國沒有在第一天出兵救每一個小邦。他們等黑冠王完成整合，才在白蘆河會戰中故意退兵，引他冒進。黑冠王的部隊追得太深，隊形亂了，後方補給跟不上。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP09-ACT01-W-09"
+        },
+        {
+          "id": "L008",
+          "text": "繪卷中的銀槍軍轉向反擊。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-10"
+        },
+        {
+          "id": "L009",
+          "text": "「結果，銀槍王國一次擊敗了七邦的新主人。您想節省的是七場談判，還有七場戰爭。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L010",
+          "text": "「我原本就不想逐個替那七位領主擦屁股。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L011",
+          "text": "奧莉維亞如何替歷史故事收尾？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「打贏七次，不如只打贏一次。」",
+          "next": "EP09_ACT01_SC02_W_F02_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「統一的人，未必能享受統一的成果。」",
+          "next": "EP09_ACT01_SC02_W_F02_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「故事聽起來很省事，代價卻不便宜。」",
+          "next": "EP09_ACT01_SC02_W_F02_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC02_W_F02_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河邊的舊故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「打贏七次，不如只打贏一次。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「嗯，至少帳目比較容易算。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-10",
+      "next": "EP09_ACT01_SC02_W_F02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC02_W_F02_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河邊的舊故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「統一的人，未必能享受統一的成果。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「這句話很適合放進戰後報告。只是別把死者寫成註腳。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-10",
+      "next": "EP09_ACT01_SC02_W_F02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC02_W_F02_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河邊的舊故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「故事聽起來很省事，代價卻不便宜。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「總算有人提到代價了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-10",
+      "next": "EP09_ACT01_SC02_W_F02_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC02_W_F02_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 2,
+      "title": "白蘆河邊的舊故事",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ALINDA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "芬利闔上史書。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-11"
+        },
+        {
+          "id": "L002",
+          "text": "「但這不是棋局。您等一天，羅蘭就可能多燒掉一個村莊。那些人不會因為戰後地圖變得整齊，就活過來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「我知道。所以等待不能沒有截止線。第六團已在觀察他的行軍路線；他越往前，退路就越少。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L004",
+          "text": "「我可以看住主要渡口。但如果要我放任難民在城外堆著，等一份漂亮戰報，那我做不到。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L005",
+          "text": "「妳不用。救人照做，兵先別推進。等他越過那條線，我會給妳命令。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "赫碧輕輕敲了敲桌面。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L007",
+          "text": "「所以，現在的問題是……等子彈飛完以後，誰收拾留下來的東西？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L008",
+          "text": "「這就是今天請妳們一起來的原因。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-10",
+      "next": "EP09_ACT01_SC03_W"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "FINLEY",
+        "HEBE"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "芬利將地圖換成難民收容與道路修復報告。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-12"
+        },
+        {
+          "id": "L002",
+          "text": "「如果裂谷的秩序整個垮掉，第六團能不能先接住逃出來的人？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「我們能開幾處臨時收容點，醫療隊也能調動。不過，我先講清楚——我們很缺錢。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "cg": "EP09-ACT01-W-13"
+        },
+        {
+          "id": "L004",
+          "text": "「卡巴岡德還在修復道路、水渠和村舍。第六團承接難民，不只是多幾張床；明年春天要種的田、補給的車、治療的藥，都得先付錢。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L005",
+          "text": "「對，就是錢。您別再給我們土地了。瓦肯家族領地已經夠多了，修都修不完。裂谷就算有什麼好地，我們也不打算往外擴張。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L006",
+          "text": "「咦，可是土地我們家有興趣呀。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧",
+          "cg": "EP09-ACT01-W-14"
+        },
+        {
+          "id": "L007",
+          "text": "「妳倒是一點都不客氣。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L008",
+          "text": "「不然呢？商路、開發地段，還有可以合法整修的舊設施，都是長期投資。但先講好，我只能協助介紹家族的意向，不是我一個人就能替整個家族簽約。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L009",
+          "text": "「所以一邊要現金，一邊想要經營土地。我們倒是開了一場分贓大會。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP09-ACT01-W-15"
+        },
+        {
+          "id": "L010",
+          "text": "「殿下，正式接收還得交由國王議會審議。現在談的只能是原則與準備，不能先把七領地分出去。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L011",
+          "text": "「當然。先談各自要什麼，不等於今日就能拿到。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L012",
+          "text": "奧莉維亞回應兩家的坦率？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「至少大家都省了猜謎時間。」",
+          "next": "EP09_ACT01_SC03_W_F03_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「妳們還真是一點都不掩飾。」",
+          "next": "EP09_ACT01_SC03_W_F03_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「這場會議的名字倒是愈來愈難聽了。」",
+          "next": "EP09_ACT01_SC03_W_F03_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F03_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「至少大家都省了猜謎時間。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我不喜歡猜。我比較喜歡有數字的答案。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-15",
+      "next": "EP09_ACT01_SC03_W_F03_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F03_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「妳們還真是一點都不掩飾。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「要是我說第六團只為理想吃飯，您會信嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-15",
+      "next": "EP09_ACT01_SC03_W_F03_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F03_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這場會議的名字倒是愈來愈難聽了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我可以把正式紀錄改成『戰後責任協調』。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「拜託你了。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-15",
+      "next": "EP09_ACT01_SC03_W_F03_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F03_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "STORY_EFFECTS",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "芬利將四份方案攤在桌上。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-16"
+        },
+        {
+          "id": "L002",
+          "text": "如何替瓦肯家族籌措安置資金？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「向艾拉・葛拉維茨尋求資金。」",
+          "next": "EP09_ACT01_SC03_W_M01_A",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP09_W_ACT01_M01_CHOICE",
+              "value": "A"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_FUNDING_SOURCE",
+              "value": "GRAVITZ"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_REFUGEE_COMMITMENT",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAMILY_LAND_INTEREST",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAVOR_OWED",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_LAND_OFFER_REJECTED",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_ACADEMY_LAND_LEASE_PENDING",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_RECONSTRUCTION_FUNDING_PENDING",
+              "value": false
+            },
+            {
+              "type": "points",
+              "delta": 10
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "「請皇家魔法學院提出融資方案。」",
+          "next": "EP09_ACT01_SC03_W_M01_B",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP09_W_ACT01_M01_CHOICE",
+              "value": "B"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_FUNDING_SOURCE",
+              "value": "ACADEMY"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_REFUGEE_COMMITMENT",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAMILY_LAND_INTEREST",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAVOR_OWED",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_LAND_OFFER_REJECTED",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_ACADEMY_LAND_LEASE_PENDING",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_RECONSTRUCTION_FUNDING_PENDING",
+              "value": false
+            },
+            {
+              "type": "points",
+              "delta": 5
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "「先從王室庫房調撥基本物資。」",
+          "next": "EP09_ACT01_SC03_W_M01_C",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP09_W_ACT01_M01_CHOICE",
+              "value": "C"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_FUNDING_SOURCE",
+              "value": "BASIC_AID"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_REFUGEE_COMMITMENT",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAMILY_LAND_INTEREST",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAVOR_OWED",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_LAND_OFFER_REJECTED",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_ACADEMY_LAND_LEASE_PENDING",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_RECONSTRUCTION_FUNDING_PENDING",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "「將裂谷部分領地封給瓦肯家族。」",
+          "next": "EP09_ACT01_SC03_W_M01_D",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "EP09_W_ACT01_M01_CHOICE",
+              "value": "D"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_FUNDING_SOURCE",
+              "value": "HEBE_BRIDGE"
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_REFUGEE_COMMITMENT",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAMILY_LAND_INTEREST",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_HEBE_FAVOR_OWED",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_VALKEN_LAND_OFFER_REJECTED",
+              "value": true
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_ACADEMY_LAND_LEASE_PENDING",
+              "value": false
+            },
+            {
+              "type": "flag",
+              "key": "EP09_W_RECONSTRUCTION_FUNDING_PENDING",
+              "value": false
+            },
+            {
+              "type": "points",
+              "delta": -15
+            }
+          ],
+          "pointCostPolicy": "ALLOW_EXHAUSTION"
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-15",
+      "planDecisionOverride": {
+        "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+        "reason": "使用者提供的第一幕完整版明定此處為唯一實質政治選擇，覆蓋早期無選項規劃。"
+      },
+      "choiceMode": "STORY"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_M01_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "HEBE",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「我會請艾拉牽線。葛拉維茨家族有能力提供一筆足以動工的資金。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP09-ACT01-W-17"
+        },
+        {
+          "id": "L002",
+          "text": "「這才是我們能拿回去交代的東西。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L003",
+          "text": "「那我家就專心談土地。嗯，分工愉快。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L004",
+          "text": "「資金仍需正式承諾與帳目核對；我會安排書面流程。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC03_W_M01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_M01_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ALINDA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「學院或許願意提供資金，但會要求談部分土地的設施租用。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-W-17"
+        },
+        {
+          "id": "L002",
+          "text": "「租用可以談，期限、用途和歸還方式都得寫明白。別又變成我們出地、還替人修房子。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L003",
+          "text": "「而且學院用地跟我家經營的地，麻煩分清楚喔。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC03_W_M01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_M01_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "FINLEY",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「糧食和藥材能救急，我收下。可是道路還是沒錢修。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "cg": "EP09-ACT01-W-17"
+        },
+        {
+          "id": "L002",
+          "text": "「至少先讓人活過這一段。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「我會把未補足的重建預算列為待辦。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「那筆缺口還是得有人想辦法。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC03_W_M01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_M01_D",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA",
+        "HEBE",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「……殿下，您剛剛有聽我說嗎？我們缺的是錢。卡巴岡德連自己的村子都沒修完，再給我們裂谷領地，是要我們再背幾筆帳？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "cg": "EP09-ACT01-W-17"
+        },
+        {
+          "id": "L002",
+          "text": "「我以為長期收益能補償——」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L003",
+          "text": "「那也得先有錢修。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L004",
+          "text": "「啊，那我家先墊難民安置的資金吧。土地開發的事情，之後也請殿下幫我們說句公道話。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧",
+          "cg": "EP09-ACT01-W-18"
+        },
+        {
+          "id": "L005",
+          "text": "「妳是在救場，還是趁火打劫？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "「兩個不能同時成立嗎？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L007",
+          "text": "「資金缺口因此補上；但殿下，您欠下的不是財政款，而是一筆政治人情。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC03_W_M01_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_M01_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "奧莉維亞如何結束會議？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「先讓人有地方住，再談他們要繳多少稅。」",
+          "next": "EP09_ACT01_SC03_W_F04_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「希望我們下一次談的是修好的路。」",
+          "next": "EP09_ACT01_SC03_W_F04_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「這可不是我見過最便宜的一場宴會。」",
+          "next": "EP09_ACT01_SC03_W_F04_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F04_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「先讓人有地方住，再談他們要繳多少稅。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「這句我贊成。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC03_W_F04_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F04_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「希望我們下一次談的是修好的路。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「那我會帶最新的工程圖來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC03_W_F04_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F04_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「這可不是我見過最便宜的一場宴會。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「但至少沒有真的訂宴席。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC03_W_F04_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC03_W_F04_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 3,
+      "title": "政治分贓大會",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": " ",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "path": "politicalRoute",
+        "op": "eq",
+        "value": "WORLD"
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-16",
+      "next": "EP09_ACT01_SC04_W"
+    },
+    {
+      "id": "EP09_ACT01_SC04_W",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "等候不是無事可做",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "SIXTH_ORDER_MESSENGER",
+        "FINLEY",
+        "ALINDA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "新戰報遞上。羅蘭奪取一領的實權後，試圖繼續向其餘領地施壓。部分聚落被掠奪，難民沿舊商路往第六團的哨站走。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-19"
+        },
+        {
+          "id": "L002",
+          "text": "「第六團的外圍關卡已登記第一批逃難者。羅蘭的人在上游封了兩座橋。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "SIXTH_ORDER_MESSENGER",
+          "speakerLabel": "傳令兵",
+          "cg": "EP09-ACT01-W-20"
+        },
+        {
+          "id": "L003",
+          "text": "「原本應該送到農村的糧車，現在得改往收容點。商隊也在等確切的安全消息。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L004",
+          "text": "「我們已經把醫療帳篷搭起來了。但有人帶著孩子走了兩天，路上什麼都沒吃。殿下，我可以照計畫守住渡口，不能保證每一個人都等得到那一天。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "cg": "EP09-ACT01-W-21"
+        },
+        {
+          "id": "L005",
+          "text": "「不必等。醫療隊照常接人，補給照先前談妥的方式啟動。軍隊不要越線追擊。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L006",
+          "text": "奧莉維亞如何詢問現場？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「孩子和傷者先安排在哪裡？」",
+          "next": "EP09_ACT01_SC04_W_F05_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「誰有權確認通行證？」",
+          "next": "EP09_ACT01_SC04_W_F05_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「有沒有漏掉沒進名冊的人？」",
+          "next": "EP09_ACT01_SC04_W_F05_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC04_W_F05_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "等候不是無事可做",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「孩子和傷者先安排在哪裡？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「靠內側的營地，離軍車最遠。醫療隊正在處理。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-21",
+      "next": "EP09_ACT01_SC04_W_F05_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_W_F05_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "等候不是無事可做",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「誰有權確認通行證？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「第六團與地方文書並行核驗，避免同一人反覆受阻。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-21",
+      "next": "EP09_ACT01_SC04_W_F05_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_W_F05_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "等候不是無事可做",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「有沒有漏掉沒進名冊的人？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「我會請商路聯絡人留意。沒有留下姓名的人，最容易被帳目忘掉。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-21",
+      "next": "EP09_ACT01_SC04_W_F05_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC04_W_F05_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 4,
+      "title": "等候不是無事可做",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "第六團士兵把毯子交給被雨淋透的難民；遠方的房舍冒著煙。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-22"
+        },
+        {
+          "id": "L002",
+          "text": "「如果等下去，這份名單只會更長。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-W-23"
+        },
+        {
+          "id": "L003",
+          "text": "「我知道。把最新行軍位置標出來。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-21",
+      "next": "EP09_ACT01_SC05_W"
+    },
+    {
+      "id": "EP09_ACT01_SC05_W",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "讓子彈落地",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ALINDA"
+      ],
+      "kind": "choice",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "芬利把七領地標記從桌面移到中央。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-24"
+        },
+        {
+          "id": "L002",
+          "text": "「羅蘭已經控制一處核心補給點，正在調動其他幾處殘存的私人軍隊。他想把七塊地方拼成一支軍隊，卻還沒有建立可靠的後勤。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「第六團已經守住兩個主要渡口。他現在若繼續向西，就會把側翼交給我們。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達",
+          "cg": "EP09-ACT01-W-25"
+        },
+        {
+          "id": "L004",
+          "text": "「第三團那邊呢？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L005",
+          "text": "「莎莉亞已收到預備協同方案。正式進攻仍需您的命令；裂谷戰役不等於往東線派兵。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L006",
+          "text": "奧莉維亞望向原本分散的七枚棋子，如今都被壓在羅蘭的黑色旗標旁。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L007",
+          "text": "奧莉維亞在發令前說什麼？",
+          "kind": "caption",
+          "visual": "SCENE"
+        }
+      ],
+      "choices": [
+        {
+          "id": "A",
+          "text": "「看來他幫我們省了不少談判時間。」",
+          "next": "EP09_ACT01_SC05_W_F06_A",
+          "effects": []
+        },
+        {
+          "id": "B",
+          "text": "「希望這是最後一份裂谷戰報。」",
+          "next": "EP09_ACT01_SC05_W_F06_B",
+          "effects": []
+        },
+        {
+          "id": "C",
+          "text": "「讓大家今晚都能睡個覺吧。」",
+          "next": "EP09_ACT01_SC05_W_F06_C",
+          "effects": []
+        }
+      ],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "choiceMode": "DIALOGUE_FLAVOR"
+    },
+    {
+      "id": "EP09_ACT01_SC05_W_F06_A",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "讓子彈落地",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「看來他幫我們省了不少談判時間。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「代價是那些村莊付的，殿下。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "「我沒有忘。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-25",
+      "next": "EP09_ACT01_SC05_W_F06_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_W_F06_B",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "讓子彈落地",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "ALINDA"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「希望這是最後一份裂谷戰報。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「不會是最後一份，但可以是最後一份擴張戰報。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-25",
+      "next": "EP09_ACT01_SC05_W_F06_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_W_F06_C",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "讓子彈落地",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "HEBE"
+      ],
+      "kind": "narrative",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「讓大家今晚都能睡個覺吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L002",
+          "text": "「等這一仗打完，也許有機會。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-25",
+      "next": "EP09_ACT01_SC05_W_F06_COMMON"
+    },
+    {
+      "id": "EP09_ACT01_SC05_W_F06_COMMON",
+      "chapter": "EP09",
+      "act": "ACT01",
+      "sceneNumber": 5,
+      "title": "讓子彈落地",
+      "pov": "OLIVIA",
+      "cast": [
+        "OLIVIA",
+        "FINLEY",
+        "ALINDA",
+        "HEBE"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/ep09/act01/world/01_SCRIPT/ACT01_FULL_SCRIPT.md",
+      "version": "1.0.0",
+      "planNodeId": "EP09_ACT01",
+      "knowledge": {
+        "knows": [
+          "依本幕對話及已選前情。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "text": "「通知第三團，與第六團按兩岸方案協同。第六團保持渡口控制，第三團從另一岸壓進。救濟線不能因為進攻就被抽空。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞",
+          "cg": "EP09-ACT01-W-26"
+        },
+        {
+          "id": "L002",
+          "text": "「我會將軍令分送兩邊，並標註醫療、車隊與平民通道的最低保留量。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利"
+        },
+        {
+          "id": "L003",
+          "text": "艾琳達整理護腕。",
+          "kind": "narration",
+          "visual": "SCENE"
+        },
+        {
+          "id": "L004",
+          "text": "「收到。我會讓羅蘭知道，有些地方不是他想拿就拿。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "ALINDA",
+          "speakerLabel": "艾琳達"
+        },
+        {
+          "id": "L005",
+          "text": "「那我先去準備戰後的帳吧。希望這次不用算七遍。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "HEBE",
+          "speakerLabel": "赫碧"
+        },
+        {
+          "id": "L006",
+          "text": "「先別高興得太早。戰後的帳，通常比戰前厚。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        },
+        {
+          "id": "L007",
+          "text": "軍令離桌。第六團在夜間整隊，第三團也收到了封緘軍令。",
+          "kind": "narration",
+          "visual": "SCENE",
+          "cg": "EP09-ACT01-W-27"
+        },
+        {
+          "id": "L008",
+          "text": "「殿下，現在？」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "cg": "EP09-ACT01-W-28"
+        },
+        {
+          "id": "L009",
+          "text": "「嗯。讓子彈落地吧。」",
+          "kind": "dialogue",
+          "visual": "SCENE",
+          "speaker": "OLIVIA",
+          "speakerLabel": "奧莉維亞"
+        }
+      ],
+      "choices": [],
+      "directions": [],
+      "presentation": {
+        "fit": "contain",
+        "focusX": 50,
+        "focusY": 50,
+        "zoom": 1,
+        "panX": 0,
+        "fadeMs": 700
+      },
+      "availableWhen": {
+        "all": [
+          {
+            "path": "politicalRoute",
+            "op": "eq",
+            "value": "WORLD"
+          },
+          {
+            "not": {
+              "path": "flags.EP09_W_ACT01_M01_CHOICE",
+              "op": "eq",
+              "value": "UNSET"
+            }
+          }
+        ]
+      },
+      "directoryVisibleWhenLocked": true,
+      "cg": "EP09-ACT01-W-25",
+      "completionFlags": {
+        "EP09_W_ACT01_COMPLETE": true
+      },
+      "completion": {
+        "title": "第一幕完 · 讓子彈飛一下的政治分贓大會",
+        "scope": "ACT",
+        "nextChapterId": "EP09",
+        "pendingLabel": "第二幕〈裂谷兩岸〉· 敬請期待",
+        "policy": "NO_SCORING"
+      }
+    }
+  ]
+}

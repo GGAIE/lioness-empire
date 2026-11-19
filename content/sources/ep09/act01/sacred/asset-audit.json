@@ -1,0 +1,262 @@
+{
+  "archive": "EP09_ACT01_Sacred_28_CG_Selected_v1.0.zip",
+  "archiveSha256": "0120947115789abe21822590fd8b806ff6f73ded321366bec3da8f5ba5a864aa",
+  "productionArchive": "Lioness_Empire_EP09_ACT01_Sacred_Complete_Production_v1.1.zip",
+  "productionSha256": "e3c8758d77fc4e1af6ee43c62b665069ad7ace574f8adc4a4b2aad093178adf1",
+  "script": "01_Script/EP09_ACT01_SACRED_FULL_SCRIPT_v1.1.md",
+  "scriptSha256": "49a4eaa652cd5a2be3663294f2bf0b03903e8de817dd18f5cbad63d6e8e3a71f",
+  "images": [
+    {
+      "key": "01_01",
+      "id": "EP09-ACT01-S-01-01",
+      "path": "assets/cg/ep09/act01/sacred/sc01-01.png",
+      "sha256": "ff77bf38d755508a77e7fb6509358e93b3ca24b3512d21faf823d9dcadc58dc8",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC01_01.png"
+    },
+    {
+      "key": "01_02",
+      "id": "EP09-ACT01-S-01-02",
+      "path": "assets/cg/ep09/act01/sacred/sc01-02.png",
+      "sha256": "8dbcdb2909fe19370d56afaa7e63fee52a9f0157ca8321abc5a90e7ce75b7d98",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC01_02.png"
+    },
+    {
+      "key": "01_03",
+      "id": "EP09-ACT01-S-01-03",
+      "path": "assets/cg/ep09/act01/sacred/sc01-03.png",
+      "sha256": "f26ea9e611156dcf6102080bb951d5c5b3c73e59c2cac80f0193e1b5f9e8530e",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC01_03.png"
+    },
+    {
+      "key": "01_04",
+      "id": "EP09-ACT01-S-01-04",
+      "path": "assets/cg/ep09/act01/sacred/sc01-04.png",
+      "sha256": "208b7cc9e86ce0c727630aecc36b8efee07c1d43c4f6301616d5022d4a9a6bff",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC01_04.png"
+    },
+    {
+      "key": "01_05",
+      "id": "EP09-ACT01-S-01-05",
+      "path": "assets/cg/ep09/act01/sacred/sc01-05.png",
+      "sha256": "6a97e43e4c6716964e5cfbc114037900cccab7aa197d551516245c786f8d6296",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC01_05.png"
+    },
+    {
+      "key": "01_06",
+      "id": "EP09-ACT01-S-01-06",
+      "path": "assets/cg/ep09/act01/sacred/sc01-06.png",
+      "sha256": "86c795a1554195c80ed5d8f67992ba1eeb27545434181234afa27da485b546d3",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC01_06.png"
+    },
+    {
+      "key": "02_01",
+      "id": "EP09-ACT01-S-02-01",
+      "path": "assets/cg/ep09/act01/sacred/sc02-01.png",
+      "sha256": "3866ef36be37702de0a5ba90ae3554f2faf18a17a00531c3cbbbec5cf5cf446d",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC02_01.png"
+    },
+    {
+      "key": "02_02",
+      "id": "EP09-ACT01-S-02-02",
+      "path": "assets/cg/ep09/act01/sacred/sc02-02.png",
+      "sha256": "8c8010fa93bd5abadc7c378e407297520a736a48647aaab3454c040ef948a947",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC02_02.png"
+    },
+    {
+      "key": "02_03",
+      "id": "EP09-ACT01-S-02-03",
+      "path": "assets/cg/ep09/act01/sacred/sc02-03.png",
+      "sha256": "a87e1fe1b906f7c080254352ac125221956fb0baefc24b0d8ace520a520bfa98",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC02_03.png"
+    },
+    {
+      "key": "02_04",
+      "id": "EP09-ACT01-S-02-04",
+      "path": "assets/cg/ep09/act01/sacred/sc02-04.png",
+      "sha256": "2dd98befad6c7c9baabfe8c80a30dba4feb95e318d9046b663a22cac84cf1df0",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC02_04.png"
+    },
+    {
+      "key": "02_05",
+      "id": "EP09-ACT01-S-02-05",
+      "path": "assets/cg/ep09/act01/sacred/sc02-05.png",
+      "sha256": "e14727c5ad54fa3c20ecc926e1b8cb30fb00b1491a1930f238b9232eab974efd",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC02_05.png"
+    },
+    {
+      "key": "03_01",
+      "id": "EP09-ACT01-S-03-01",
+      "path": "assets/cg/ep09/act01/sacred/sc03-01.png",
+      "sha256": "d1e0fc54e145f378ca9cd9e5b80843543b89744dad999eb8c9abe0272181c92a",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC03_01.png"
+    },
+    {
+      "key": "03_02",
+      "id": "EP09-ACT01-S-03-02",
+      "path": "assets/cg/ep09/act01/sacred/sc03-02.png",
+      "sha256": "3e3a378c7e679eb82660174a449daeb83817f2bc0656b34520a2a39b53b1b5a7",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC03_02.png"
+    },
+    {
+      "key": "03_03",
+      "id": "EP09-ACT01-S-03-03",
+      "path": "assets/cg/ep09/act01/sacred/sc03-03.png",
+      "sha256": "42d0ccb2b719946c7a78f756ba85674cafa3aa2c84270514086dc15359b777a3",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC03_03.png"
+    },
+    {
+      "key": "03_04",
+      "id": "EP09-ACT01-S-03-04",
+      "path": "assets/cg/ep09/act01/sacred/sc03-04.png",
+      "sha256": "f1ffeb1ae4127833cfa034c4a170e411319b2b23fec6100209dffb5f2af5fb73",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC03_04.png"
+    },
+    {
+      "key": "03_05",
+      "id": "EP09-ACT01-S-03-05",
+      "path": "assets/cg/ep09/act01/sacred/sc03-05.png",
+      "sha256": "fe43c5c2bc78e85cc077210fda97695c079051aa856d0a4cd49d6087f2d5cbdb",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC03_05.png"
+    },
+    {
+      "key": "03_06",
+      "id": "EP09-ACT01-S-03-06",
+      "path": "assets/cg/ep09/act01/sacred/sc03-06.png",
+      "sha256": "713df7a6eaa63894aa722167fd175d4fa013672243692bda95414be90a0fe1d3",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC03_06.png"
+    },
+    {
+      "key": "04_01",
+      "id": "EP09-ACT01-S-04-01",
+      "path": "assets/cg/ep09/act01/sacred/sc04-01.png",
+      "sha256": "510519830314a13abff25ea3b25cacc9f9e16f3b7284041b46d2fb6b646d5c57",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC04_01.png"
+    },
+    {
+      "key": "04_02",
+      "id": "EP09-ACT01-S-04-02",
+      "path": "assets/cg/ep09/act01/sacred/sc04-02.png",
+      "sha256": "1ba91d103d34be981bc4513db5b8b9b7e239207f9170be017edbbf64984fb3b8",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC04_02.png"
+    },
+    {
+      "key": "04_03",
+      "id": "EP09-ACT01-S-04-03",
+      "path": "assets/cg/ep09/act01/sacred/sc04-03.png",
+      "sha256": "a4ad693293320a7b7e4b6bf9414348e89f1dcd648edde0424d3d6bc739a122a9",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC04_03.png"
+    },
+    {
+      "key": "04_04",
+      "id": "EP09-ACT01-S-04-04",
+      "path": "assets/cg/ep09/act01/sacred/sc04-04.png",
+      "sha256": "8721cb904bea13ad093bd2d704267e32e4ba2a3323b91eca7e7af28d800cdda4",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC04_04.png"
+    },
+    {
+      "key": "04_05",
+      "id": "EP09-ACT01-S-04-05",
+      "path": "assets/cg/ep09/act01/sacred/sc04-05.png",
+      "sha256": "9e8e97d568ae071e76890a96192b3390980f8c668ba8bd42da1f420c63c905e9",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC04_05.png"
+    },
+    {
+      "key": "04_06",
+      "id": "EP09-ACT01-S-04-06",
+      "path": "assets/cg/ep09/act01/sacred/sc04-06.png",
+      "sha256": "7f75129c5692850f44f5aedbe64c64e5de5c49aa25b6ed95ddba48704ea833ca",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC04_06.png"
+    },
+    {
+      "key": "05_01",
+      "id": "EP09-ACT01-S-05-01",
+      "path": "assets/cg/ep09/act01/sacred/sc05-01.png",
+      "sha256": "e4400725848246184076396239e5a9426df1b467f078fb94f7021ee687b64943",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC05_01.png"
+    },
+    {
+      "key": "05_02",
+      "id": "EP09-ACT01-S-05-02",
+      "path": "assets/cg/ep09/act01/sacred/sc05-02.png",
+      "sha256": "9fd41f711f75e0805a6dc66443f85911a8813cc5a7cf71ee46ea6a8b2e77662f",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC05_02.png"
+    },
+    {
+      "key": "05_03",
+      "id": "EP09-ACT01-S-05-03",
+      "path": "assets/cg/ep09/act01/sacred/sc05-03.png",
+      "sha256": "b9b0ff310dccf7a90a1363312c9056b7812f22feb01263a48601484ad6c08cfc",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC05_03.png"
+    },
+    {
+      "key": "05_04",
+      "id": "EP09-ACT01-S-05-04",
+      "path": "assets/cg/ep09/act01/sacred/sc05-04.png",
+      "sha256": "ec31583a128709166d5fc795d7a49f0e62b9be4030100832469fb0e19e119a5c",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC05_04.png"
+    },
+    {
+      "key": "05_05",
+      "id": "EP09-ACT01-S-05-05",
+      "path": "assets/cg/ep09/act01/sacred/sc05-05.png",
+      "sha256": "ef44f570c5c36f3ad7a55741792ffeeaa3b7fcd71d6bbbb45e224cf5c10f91dd",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_ACT01_SC05_05.png"
+    }
+  ]
+}

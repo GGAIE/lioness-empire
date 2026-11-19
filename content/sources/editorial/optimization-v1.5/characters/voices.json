@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "package_version": "1.5",
+  "updated_at": "2026-11-18",
+  "language": "zh-Hant",
+  "id_policy": "KIT_* 僅本包索引，不是專案 canonical characterId，不可直接改寫遊戲 ID。",
+  "alias_policy": "別名僅檢索候選，實際身分須對照場景；不進行全文自動改名。",
+  "characters": [
+    {
+      "kit_id": "KIT_OLIVIA",
+      "display_name": "奧莉薇雅",
+      "search_alias_candidates": [
+        "奧莉維亞",
+        "奧莉薇雅"
+      ],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "富有幽默感的政治家。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "以機智化解尷尬、試探條件，能自嘲也能真心逗人。",
+        "boundaries": "不每句都譏諷；識破意圖仍須有資訊依據。"
+      },
+      "english_name": {
+        "display": "Olivia Éléonore d’Anduvence",
+        "short": "Olivia",
+        "full": "Olivia Éléonore d’Anduvence",
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_FINLEY",
+      "display_name": "芬利",
+      "search_alias_candidates": [],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "說話略帶黑色幽默。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "平靜點出荒謬後果與代價，再提出可行辦法。",
+        "boundaries": "略帶即可；不把無辜者痛苦當笑料，不變成死亡笑話機器。"
+      },
+      "english_name": {
+        "display": "Finley Noé Veyre",
+        "short": "Finley",
+        "full": "Finley Noé Veyre",
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_ALINDA",
+      "display_name": "艾琳達",
+      "search_alias_candidates": [],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "較嚴肅，本身有點笨拙。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "正事認真，關心與客套表達稍生硬，可笨拙地補救。",
+        "boundaries": "笨拙不等於軍事無能、愚蠢或反覆跌倒。"
+      },
+      "english_name": {
+        "display": "Alinda Valeria Valken",
+        "short": "Alinda",
+        "full": "Alinda Valeria Valken",
+        "aliases": [
+          "Alinda Valken"
+        ]
+      }
+    },
+    {
+      "kit_id": "KIT_SHALIA",
+      "display_name": "莎莉雅",
+      "search_alias_candidates": [
+        "莎莉亞"
+      ],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "吐槽精。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "迅速抓住說法中的矛盾與荒謬，吐槽後仍有自己的判斷。",
+        "boundaries": "不只唱反調，也不負責接完每一個笑點。"
+      },
+      "english_name": {
+        "display": "Shalia Aveline von Rheinfeld",
+        "short": "Shalia",
+        "full": "Shalia Aveline von Rheinfeld",
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_TAMARA",
+      "display_name": "塔瑪拉",
+      "search_alias_candidates": [
+        "塔馬拉",
+        "塔娜拉"
+      ],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "刀子嘴豆腐心。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "嘴上嫌麻煩，行動已替對方照顧、補救。",
+        "boundaries": "不靠辱罵或旁白宣稱善良；不與塔莉雅合併。"
+      },
+      "english_name": {
+        "display": "Tamara Adélaïde d’Anduvence",
+        "short": "Tamara",
+        "full": "Tamara Adélaïde d’Anduvence",
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_AIVIS",
+      "display_name": "艾維斯",
+      "search_alias_candidates": [],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "不斷用華麗辭藻掩蓋陰謀，通常被奧莉薇雅識破。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "用榮譽、團結、王國包裝具體權力安排，被識破後仍能談條件。",
+        "boundaries": "不因此抹去統帥能力；意圖被看穿不等於計畫必定失敗。"
+      },
+      "english_name": {
+        "display": "Aivis Leopold d’Anduvence",
+        "short": "Aivis",
+        "full": "Aivis Leopold d’Anduvence",
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_AYLA",
+      "display_name": "艾拉·葛拉維茨",
+      "search_alias_candidates": [
+        "艾拉",
+        "艾拉・葛拉維茨"
+      ],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "說話有點油膩的政治掮客。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "熟絡奉承、人情交換，漂亮話背後確有消息、管道及底價。",
+        "boundaries": "不把油膩自動寫成色誘、騷擾或固定身體接觸。"
+      },
+      "english_name": {
+        "display": "Ayla “Ella” Gravitz",
+        "short": "Ayla",
+        "full": "Ayla “Ella” Gravitz",
+        "aliases": [
+          "Ella",
+          "Ayla Gravitz",
+          "Ella Gravitz"
+        ]
+      }
+    },
+    {
+      "kit_id": "KIT_MIYEER",
+      "display_name": "米椰爾",
+      "search_alias_candidates": [
+        "米耶爾"
+      ],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "神職人員；他用神聖的語言說出最現實的政治建議。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "神聖理由落到資源、名分、支持、交換等可執行建議。",
+        "boundaries": "不自動認定虛偽或貪腐；教派與職階依原文，不自行補定。"
+      },
+      "english_name": {
+        "display": "Miyel",
+        "short": "Miyel",
+        "full": null,
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_SALAFENIA",
+      "display_name": "撒拉非尼亞",
+      "search_alias_candidates": [],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "精明政治家；話語細節滿滿，每個字都是重點。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "精準抓住關鍵細節，以自然問答限定真正有爭議之處；不固定列出一整套條款。",
+        "boundaries": "不自動等同賽菲莉亞；不靠資訊超前或堆砌術語顯聰明。"
+      },
+      "english_name": {
+        "display": "Saraphenia",
+        "short": "Saraphenia",
+        "full": null,
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_ALICIA",
+      "display_name": "艾莉西亞",
+      "search_alias_candidates": [],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "強大的精靈術士；成熟幽默，附帶專業吐槽。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "從經驗與實際專業指出破綻，語氣有餘裕，必要時說清補救。",
+        "boundaries": "不自動等同艾莉／艾莉希雅；不羞辱初學者，不新增魔法規則。"
+      },
+      "english_name": {
+        "display": "Alicia Slint",
+        "short": "Alicia",
+        "full": "Alicia Slint",
+        "aliases": []
+      }
+    },
+    {
+      "kit_id": "KIT_KALIS",
+      "display_name": "卡利斯",
+      "search_alias_candidates": [],
+      "confirmed": {
+        "status": "CONFIRMED_USER",
+        "source": "本輪使用者明確設定，2026-11-18",
+        "voice": "強大的精靈術士；表現出「大哥罩你」的安全感。"
+      },
+      "editorial_guidance": {
+        "status": "PROPOSED",
+        "delivery": "主動承擔、明確分工，承諾以行動支撐，保留同伴自主性。",
+        "boundaries": "不只喊口號、不包辦所有問題、不新增無敵能力。"
+      },
+      "english_name": {
+        "display": "Carlis Tovell",
+        "short": "Carlis",
+        "full": "Carlis Tovell",
+        "aliases": []
+      }
+    }
+  ],
+  "global_dialogue_rules": {
+    "status": "CONFIRMED_USER",
+    "goal": "修正過度 AI 化的條例式、列舉式談判，回歸自然人類說話",
+    "preserve": "原意、資訊與揭露時點、立場、決定、結果、選項、旗標及 CG 對應",
+    "implementation_reference": "rules/NATURAL_DIALOGUE.md",
+    "reference_review": "rules/SHORT_DRAMA_REFERENCE.md",
+    "taiwan_mandarin": "rules/TAIWAN_MANDARIN_DIALOGUE.md"
+  },
+  "english_name_reference": "characters/CHARACTER_NAMES.md"
+}

@@ -131,7 +131,7 @@ test('reads all three later acts, 844 A-route paragraphs and 73 real CGs through
   await expect(page.getByRole('alertdialog').getByTestId('political-points')).toHaveText('50');
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    '第二章完 · 留下來的人'
+    '第二章完 · The Weight'
   );
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP03');
   await expect

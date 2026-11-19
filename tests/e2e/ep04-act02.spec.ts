@@ -130,7 +130,7 @@ for (const [answer, f1] of [
     expect(paragraphs).toBeGreaterThan(150);
     expect([choices, cues]).toEqual([6, 25]);
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-      '第三幕〈各自的難題〉'
+      '第三幕〈未曾聽完先回答的，便是他的愚昧和羞辱〉'
     );
     await expect(page.getByRole('alertdialog')).toHaveCount(0);
     await expect(page.getByRole('button', { name: '查看章末結算提醒', exact: true })).toHaveCount(

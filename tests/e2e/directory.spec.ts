@@ -15,11 +15,11 @@ test('chapter and act summaries collapse, pending acts are readable as placehold
   await expect(page.locator('.directory-sections li')).toHaveCount(156);
   const chapter = page
     .locator('.directory-chapter')
-    .filter({ has: page.getByRole('heading', { name: '王冠之前', exact: true }) });
+    .filter({ has: page.getByRole('heading', { name: 'The Call', exact: true }) });
   await expect(chapter).toContainText('已提供 5 / 5 幕');
   const act = chapter
     .locator('.directory-act')
-    .filter({ has: page.getByRole('heading', { name: '第二幕 · 離開學院', exact: true }) });
+    .filter({ has: page.getByRole('heading', { name: '第二幕 · 人心籌算自己的道路', exact: true }) });
   await expect(act.getByRole('button')).toHaveCount(5);
   await expect(act.getByRole('button', { name: /學院與王室/ })).toBeDisabled();
   await expect(act.getByRole('button', { name: /同行者/ })).toBeDisabled();

@@ -121,7 +121,6 @@ if (fourthChapter?.entry) {
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP03')!,
   {
-    title: '責任先於權力',
     status: 'DRAFT_AVAILABLE',
     file: 'episodes/ep03/chapter.json',
     entry: 'EP03_ACT01_SC01',

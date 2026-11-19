@@ -82,7 +82,6 @@ assets.sort(
 const characters = (await readJson('characters/index.json')) as Record<string, string>;
 for (const [id, name] of Object.entries(parsed.roles)) characters[id] ??= name;
 Object.assign(existing, {
-  title: '不得已攝政',
   status: 'DRAFT_AVAILABLE',
   file: 'episodes/ep04/chapter.json',
   entry: 'EP04_ACT01_SC01',

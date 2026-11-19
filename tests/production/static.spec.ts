@@ -165,7 +165,7 @@ test('production continues ACT III into the ACT IV black opening and corrected f
   await expect(page.getByTestId('dialogue-text')).toHaveText('「……大公主。」');
   for (let i = 0; i < 5; i++)
     await page.getByRole('button', { name: '推進對話', exact: true }).click();
-  await expect(page.getByTestId('dialogue-text')).toHaveText('奧莉維亞睜開眼。');
+  await expect(page.getByTestId('dialogue-text')).toHaveText('奧莉薇雅睜開眼。');
   await expect(page.getByTestId('scene-cg')).toHaveAttribute('src', /ACT04_SC01_IMG01_v0.1.png$/);
   await expect(page.getByTestId('scene-cg')).toHaveJSProperty('naturalWidth', 1672);
   await expect(page.getByRole('button', { name: '開發', exact: true })).toHaveCount(0);
@@ -225,7 +225,7 @@ test('production continues ACT IV into ACT V and shows a non-charging first-chap
   await expect(page.getByRole('alertdialog')).toContainText('下一章 EP02 開局');
   await expect(page.getByRole('alertdialog')).toContainText('此處僅預告');
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
-  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第一章完 · 王冠之前');
+  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第一章完 · The Call');
   await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
     '50'
   );

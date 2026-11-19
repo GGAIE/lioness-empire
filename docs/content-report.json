@@ -1,7 +1,6 @@
 {
   "errors": [],
   "warnings": [
-    "ARCANA_06: UNRESOLVED — Canon draft, no production award",
     "ARCANA_13: DRAFT — Canon draft, no production award",
     "ARCANA_01: DRAFT — Canon draft, no production award",
     "ARCANA_00: DRAFT — Canon draft, no production award",
@@ -32,22 +31,23 @@
     "ARCANA_08: DRAFT — Canon draft, no production award",
     "ARCANA_14: DRAFT — Canon draft, no production award"
   ],
-  "scenes": 1606,
-  "exploredStates": 2458674,
-  "endStates": 101686,
-  "blockedChoices": 7724,
-  "blockedChapterEntries": 843,
+  "scenes": 1839,
+  "exploredStates": 2849573,
+  "endStates": 103865,
+  "blockedChoices": 7420,
+  "blockedChapterEntries": 823,
   "explorationComplete": true,
-  "verificationStrategy": "state exploration with certified terminal chapters and exhaustive resource inputs",
+  "verificationStrategy": "state exploration with certified chapter boundaries and exhaustive resource inputs",
   "chapterBoundaryChecks": {
     "chapters": [
-      "EP08"
+      "EP08",
+      "EP09"
     ],
-    "checks": 770,
+    "checks": 1540,
     "errors": []
   },
   "canonEndings": 30,
-  "approvedCanonEndings": 0,
+  "approvedCanonEndings": 1,
   "planning": {
     "version": "0.1.0-planning",
     "chapters": 13,
@@ -57,7 +57,6 @@
     "unresolved": 8
   },
   "unavailableChapters": [
-    "EP09",
     "EP10",
     "EP11",
     "EP12"

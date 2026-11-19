@@ -1,0 +1,262 @@
+{
+  "archive": "EP09_World_ACT01_28_CG_Review_v0.1.zip",
+  "archiveSha256": "29d2a8e27f0b39958bbc86990ae2e63dfa730e2a7a5d3ae9b280226bacde747e",
+  "productionArchive": "Lioness_Empire_EP09_World_ACT01_Political_Spoils_Startup_v1.0.zip",
+  "productionSha256": "21e917d00f1109b320bf31c7141a244a22deeec3086c7ea0229bbb62cb1aaa07",
+  "script": "01_SCRIPT/ACT01_FULL_SCRIPT.md",
+  "scriptSha256": "a12eb99f963b6467f27e98bf848a5135c8026653e3d385d2ddfdcd6c075ceb99",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP09-ACT01-W-01",
+      "path": "assets/cg/ep09/act01/world/cg01.png",
+      "sha256": "06a355990f6564ed055806d74c59db81a634136c2fa455809f6b7eb08d145873",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_01.png"
+    },
+    {
+      "key": "02",
+      "id": "EP09-ACT01-W-02",
+      "path": "assets/cg/ep09/act01/world/cg02.png",
+      "sha256": "20f1e36fa8a0bd79b7873c48434fedb425425085e8afe06d4350d896143d6532",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_02.png"
+    },
+    {
+      "key": "03",
+      "id": "EP09-ACT01-W-03",
+      "path": "assets/cg/ep09/act01/world/cg03.png",
+      "sha256": "325bc4512c0c0e0836741ab408786a85651b4316da8f72f35a4ca009a578fd72",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_03.png"
+    },
+    {
+      "key": "04",
+      "id": "EP09-ACT01-W-04",
+      "path": "assets/cg/ep09/act01/world/cg04.png",
+      "sha256": "a2b9c35de9086331439941a840b0531d18edda7066e8db8559af39d088e30ebf",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_04.png"
+    },
+    {
+      "key": "05",
+      "id": "EP09-ACT01-W-05",
+      "path": "assets/cg/ep09/act01/world/cg05.png",
+      "sha256": "ce90231037896f95afa6fd0e06916960ed50e9f7f79bc5bf565e2660f4d250b6",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_05.png"
+    },
+    {
+      "key": "06",
+      "id": "EP09-ACT01-W-06",
+      "path": "assets/cg/ep09/act01/world/cg06.png",
+      "sha256": "4263055e4eb8696145d40298ff4ef2f11b4de6be6c64e6dba6bffc035cacc0dd",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_06.png"
+    },
+    {
+      "key": "07",
+      "id": "EP09-ACT01-W-07",
+      "path": "assets/cg/ep09/act01/world/cg07.png",
+      "sha256": "5f9455fe89516028b4e1edca8cfe817fb21373de9f0029102b97c99d6860029c",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_07.png"
+    },
+    {
+      "key": "08",
+      "id": "EP09-ACT01-W-08",
+      "path": "assets/cg/ep09/act01/world/cg08.png",
+      "sha256": "5e8fbc3e830e41618b78c5dfd628104d40051967d6dda04c5291d4f605009b88",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_08.png"
+    },
+    {
+      "key": "09",
+      "id": "EP09-ACT01-W-09",
+      "path": "assets/cg/ep09/act01/world/cg09.png",
+      "sha256": "b2c7c6efd3fb7f4577883821e0b68f3c40db63f3815d97b0ccc14e905524b79a",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_09.png"
+    },
+    {
+      "key": "10",
+      "id": "EP09-ACT01-W-10",
+      "path": "assets/cg/ep09/act01/world/cg10.png",
+      "sha256": "69e0211254c192761545dbcf12b3d7b62cd04bfbfe0c616757a7fdd4b97bd6f1",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_10.png"
+    },
+    {
+      "key": "11",
+      "id": "EP09-ACT01-W-11",
+      "path": "assets/cg/ep09/act01/world/cg11.png",
+      "sha256": "6f5e4bf3ae57b65a8a9fec3fbfef844298ccc679df45f77d0de4bcf85ab783b1",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_11.png"
+    },
+    {
+      "key": "12",
+      "id": "EP09-ACT01-W-12",
+      "path": "assets/cg/ep09/act01/world/cg12.png",
+      "sha256": "11c5180e5c68b4bb490cbc36a5dad10e5c9ad421cb265f5954ad8a171becba4e",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_12.png"
+    },
+    {
+      "key": "13",
+      "id": "EP09-ACT01-W-13",
+      "path": "assets/cg/ep09/act01/world/cg13.png",
+      "sha256": "3827d7b7efb27e9a009fd494a704120c07a3990aa49aa6e04755a6ae8fc32e40",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_13.png"
+    },
+    {
+      "key": "14",
+      "id": "EP09-ACT01-W-14",
+      "path": "assets/cg/ep09/act01/world/cg14.png",
+      "sha256": "51fdeca8a740bc11c04096d17d1aa28ec192c6d069556012e52bf98acf82dbb5",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_14.png"
+    },
+    {
+      "key": "15",
+      "id": "EP09-ACT01-W-15",
+      "path": "assets/cg/ep09/act01/world/cg15.png",
+      "sha256": "299dbbdcd4922584d06ff6071918444af4cc2cc55287ec9442b80975917c6470",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_15.png"
+    },
+    {
+      "key": "16",
+      "id": "EP09-ACT01-W-16",
+      "path": "assets/cg/ep09/act01/world/cg16.png",
+      "sha256": "8e3b78f4b02794630a35d7130e5eb5b3724c72bbe26475e9ef24e225564ce7c9",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_16.png"
+    },
+    {
+      "key": "17",
+      "id": "EP09-ACT01-W-17",
+      "path": "assets/cg/ep09/act01/world/cg17.png",
+      "sha256": "5fe45c842d8446e4b130ee54b8ade69258da64d58894a423aea7612fd7d3f981",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_17.png"
+    },
+    {
+      "key": "18",
+      "id": "EP09-ACT01-W-18",
+      "path": "assets/cg/ep09/act01/world/cg18.png",
+      "sha256": "d118220cba115f23e322f9d1401a1e301b712fb0f7b9abf7749be1d55245fb6b",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_18.png"
+    },
+    {
+      "key": "19",
+      "id": "EP09-ACT01-W-19",
+      "path": "assets/cg/ep09/act01/world/cg19.png",
+      "sha256": "98fbb6f8099908d984ce7c04903ec1ef88638a5072b7cc1e0cae60a6548145dd",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_19.png"
+    },
+    {
+      "key": "20",
+      "id": "EP09-ACT01-W-20",
+      "path": "assets/cg/ep09/act01/world/cg20.png",
+      "sha256": "eb647b0f01fd4732f1adffbd82b7ef556893e890513504fbb99918488468db78",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_20.png"
+    },
+    {
+      "key": "21",
+      "id": "EP09-ACT01-W-21",
+      "path": "assets/cg/ep09/act01/world/cg21.png",
+      "sha256": "4186cb39b1ca6ba018328b0004fa0f9add93cac92c33ebd8ce50257422d48fa7",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_21.png"
+    },
+    {
+      "key": "22",
+      "id": "EP09-ACT01-W-22",
+      "path": "assets/cg/ep09/act01/world/cg22.png",
+      "sha256": "48d326b94e1acfcbda7728c902479d44f386494919d386f48fbd23e2ab982c7c",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_22.png"
+    },
+    {
+      "key": "23",
+      "id": "EP09-ACT01-W-23",
+      "path": "assets/cg/ep09/act01/world/cg23.png",
+      "sha256": "8abd6728278f0175b6bb5f01921d38dcdc6ef4d567e8c61eeb14b834a35b460c",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_23.png"
+    },
+    {
+      "key": "24",
+      "id": "EP09-ACT01-W-24",
+      "path": "assets/cg/ep09/act01/world/cg24.png",
+      "sha256": "aeb2a812ce56a6a882250c8a0e9394b94cb5b75d2715a38486bb6e3f43400012",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_24.png"
+    },
+    {
+      "key": "25",
+      "id": "EP09-ACT01-W-25",
+      "path": "assets/cg/ep09/act01/world/cg25.png",
+      "sha256": "865c6b2fee6870bca8897cbaf32bccfb87cf1b42b77b00e3cb78471796d1790e",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_25.png"
+    },
+    {
+      "key": "26",
+      "id": "EP09-ACT01-W-26",
+      "path": "assets/cg/ep09/act01/world/cg26.png",
+      "sha256": "63474b51b822086684d1d16fe9fa1a13dca4b41a34f4e5af5a8efea01c40403f",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_26.png"
+    },
+    {
+      "key": "27",
+      "id": "EP09-ACT01-W-27",
+      "path": "assets/cg/ep09/act01/world/cg27.png",
+      "sha256": "49ec642ed3c3c4bfd241932a99b1ff26b8a7389eddc6eafea5af8b5b41e3b512",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_27.png"
+    },
+    {
+      "key": "28",
+      "id": "EP09-ACT01-W-28",
+      "path": "assets/cg/ep09/act01/world/cg28.png",
+      "sha256": "19e6cb5a5d659e79ff04f0facee8e3295b7c079a579f8617e3f91a0f82f929f8",
+      "width": 1672,
+      "height": 941,
+      "source": "LE_CG_EP09_WORLD_ACT01_28.png"
+    }
+  ]
+}

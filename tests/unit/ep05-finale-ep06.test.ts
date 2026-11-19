@@ -198,10 +198,15 @@ it('guards insufficient costs, clamps unrest, and never pays again on committed 
   expect(chosen.campaign!.unrest).toBe(0);
   const saved = restoreSave(chosen, story).state;
   expect(saved.campaign).toEqual(chosen.campaign);
-  const replay = openDirectorySection(story, saved, scene.id, true);
+  expect(saved.currentSceneId).toBe('ENDING-VI-TREATY');
+  expect(() => openDirectorySection(story, saved, scene.id, true)).toThrow('結束');
+  const replayState = at(scene.id, 11);
+  replayState.currentSegmentIndex = visibleSegments(story, replayState).length - 1;
+  const paid = choose(story, replayState, 'A');
+  const replay = openDirectorySection(story, paid, scene.id, true);
   replay.currentSegmentIndex = visibleSegments(story, replay).length - 1;
   expect(() => choose(story, replay, 'A')).toThrow('already committed');
-  expect(continueCommittedChoice(story, replay).campaign).toEqual(chosen.campaign);
+  expect(continueCommittedChoice(story, replay).campaign).toEqual(paid.campaign);
   const high = at(scene.id);
   high.campaign!.unrest = 95;
   high.currentSegmentIndex = visibleSegments(story, high).length - 1;

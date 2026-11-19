@@ -1,0 +1,270 @@
+{
+  "schema": "lioness-empire-episode-choice-v1",
+  "status": "DRAFT_FOR_REVIEW",
+  "route": "SACRED",
+  "episode": "EP08",
+  "act": "ACT05",
+  "scene_ids": [
+    "EP08_SACRED_ACT05_SC01",
+    "EP08_SACRED_ACT05_SC02",
+    "EP08_SACRED_ACT05_SC03",
+    "EP08_SACRED_ACT05_SC04",
+    "EP08_SACRED_ACT05_SC05"
+  ],
+  "political_choices": {
+    "P01": {
+      "scene": "SC02",
+      "type": "entry",
+      "options": {
+        "A": {
+          "label": "有界線合作",
+          "base": 0
+        },
+        "B": {
+          "label": "技術優先",
+          "base": 1
+        },
+        "C": {
+          "label": "政治交換",
+          "base": 2
+        },
+        "D": {
+          "label": "全面接納",
+          "base": 4
+        }
+      }
+    },
+    "P02": {
+      "scene": "SC03",
+      "type": "middle",
+      "options": {
+        "LIMIT": {
+          "label": "先釐清並限制權限",
+          "delta": -1
+        },
+        "BOUND": {
+          "label": "有限合作",
+          "delta": 0
+        },
+        "EXPAND": {
+          "label": "開放較多協調空間",
+          "delta": 1
+        }
+      }
+    },
+    "P03": {
+      "scene": "SC04",
+      "type": "closing",
+      "options": {
+        "CASE": {
+          "label": "限定個案",
+          "delta": -1
+        },
+        "OPEN": {
+          "label": "保留未定",
+          "delta": 0
+        },
+        "STANDING": {
+          "label": "允許常態化",
+          "delta": 1
+        }
+      }
+    }
+  },
+  "f5": {
+    "scene": "SC01",
+    "options": {
+      "F5_A": {
+        "clear": 1,
+        "text": "協助安排"
+      },
+      "F5_B": {
+        "clear": 1,
+        "text": "自行協調"
+      },
+      "F5_C": {
+        "clear": 0,
+        "text": "忙碌拒絕"
+      }
+    },
+    "max_award_this_event": 1,
+    "repeats_award_allowed": false
+  },
+  "flavor_choices": {
+    "FL01": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL02": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL03": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL04": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL05": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL06": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL07": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL08": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL09": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    },
+    "FL10": {
+      "choice_owner": "OLIVIA",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "effects": {},
+      "returns_to": "same_scene_common_continuation"
+    }
+  },
+  "resolver": {
+    "formula": "tier = clamp(entries[entry].base + middles[middle].delta + closings[closing].delta, 0, 6)",
+    "political_applied_once_at": "SC05",
+    "unrest_clamp": [
+      0,
+      100
+    ],
+    "political_low_resource_policy": "DEFER_TO_HOST_SYSTEM",
+    "episode09_opening_unrest_tax": "APPLY_ONCE_AT_EP09_OPENING_ONLY"
+  },
+  "result_table": {
+    "0": {
+      "tier": 0,
+      "name": "大成功",
+      "political_delta": 30,
+      "unrest_delta": 15,
+      "description": "王室保留完整權限，獨自承擔更多民怨",
+      "cg_id": "CG25"
+    },
+    "1": {
+      "tier": 1,
+      "name": "優良",
+      "political_delta": 20,
+      "unrest_delta": 10,
+      "description": "王室保有主導，教會有限合作",
+      "cg_id": "CG26"
+    },
+    "2": {
+      "tier": 2,
+      "name": "成功",
+      "political_delta": 10,
+      "unrest_delta": 5,
+      "description": "有限授權，民怨略升",
+      "cg_id": "CG27"
+    },
+    "3": {
+      "tier": 3,
+      "name": "普通",
+      "political_delta": 0,
+      "unrest_delta": -5,
+      "description": "教會安撫部分民怨，協作界線尚不完整",
+      "cg_id": "CG28"
+    },
+    "4": {
+      "tier": 4,
+      "name": "失利",
+      "political_delta": -10,
+      "unrest_delta": -10,
+      "description": "教會取得部分持續介入管道",
+      "cg_id": "CG29"
+    },
+    "5": {
+      "tier": 5,
+      "name": "嚴重失利",
+      "political_delta": -25,
+      "unrest_delta": -20,
+      "description": "王室漸依賴教會協調救濟與行政",
+      "cg_id": "CG30"
+    },
+    "6": {
+      "tier": 6,
+      "name": "重大失敗",
+      "political_delta": -40,
+      "unrest_delta": -30,
+      "description": "多項入口互相連動，形成制度性依賴",
+      "cg_id": "CG31"
+    }
+  },
+  "canon": {
+    "no_signed_agreement": true,
+    "sacred_route_persists_until_ep09": true,
+    "other_player_choice_owners": false,
+    "f5_does_not_affect_negotiation": true,
+    "alicia_is_not_elia": true
+  }
+}

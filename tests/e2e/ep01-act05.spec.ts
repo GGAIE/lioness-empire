@@ -138,8 +138,8 @@ test('ACT V continues the prior act, reads twenty original CGs and five choices,
   });
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
   await expect(notice).toHaveCount(0);
-  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第一章完 · 王冠之前');
-  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP02〈留下來的人〉');
+  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第一章完 · The Call');
+  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('EP02〈The Weight〉');
   await expect(page.locator('.stage-blackout')).toHaveCSS('opacity', '1');
   await expect
     .poll(async () => {
@@ -226,11 +226,11 @@ test('chapter completion uses the authored title and keeps its reminder, caption
   const story = await loadContent();
   await start(page, story, true);
   const notice = page.getByRole('alertdialog');
-  await expect(notice).toContainText('本章：EP01 王冠之前');
+  await expect(notice).toContainText('本章：EP01 The Call');
   await expect(notice).toContainText('政治點數不足');
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
   const card = page.getByRole('region', { name: '章節完成' });
-  await expect(card).toContainText('第一章完 · 王冠之前');
+  await expect(card).toContainText('第一章完 · The Call');
   await expect(page.locator('.stage-blackout')).toHaveCSS('opacity', '1');
   await expect
     .poll(async () => {
@@ -252,7 +252,7 @@ test('chapter completion uses the authored title and keeps its reminder, caption
     fullPage: true,
   });
   await card.getByRole('button', { name: '查看章末結算提醒' }).click();
-  await expect(notice).toContainText('本章：EP01 王冠之前');
+  await expect(notice).toContainText('本章：EP01 The Call');
   await page.screenshot({
     path: `docs/screenshots/${info.project.name}-ep01-act05-warning.png`,
     fullPage: true,

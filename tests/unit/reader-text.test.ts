@@ -5,6 +5,7 @@ import {
   readerNames,
   readerSpeakerLabel,
   readerTextEdits,
+  dialoguePolishEdits,
   readerText,
 } from '../../packages/narrative-core/reader-text';
 import { initialState, choose } from '../../packages/narrative-core/engine';
@@ -17,11 +18,17 @@ beforeAll(async () => {
 });
 it('preserves the story graph and applies only reviewed text and character name changes', () => {
   const scenes = Object.values(reader.scenes).filter((s) => s.status !== 'DEMO_ONLY');
-  expect(scenes.flatMap((s) => s.segments)).toHaveLength(12424);
-  expect(scenes.flatMap((s) => s.choices)).toHaveLength(938);
+  expect(scenes.flatMap((s) => s.segments)).toHaveLength(13423);
+  expect(scenes.flatMap((s) => s.choices)).toHaveLength(1084);
   expect(readerTextEdits).toHaveLength(47);
   expect(readerTextEdits.filter((e) => e.choiceId)).toHaveLength(1);
   const reconstructed = structuredClone(reader.scenes);
+  expect(dialoguePolishEdits).toHaveLength(101);
+  for (const edit of dialoguePolishEdits) {
+    const item = reconstructed[edit.sceneId].segments.find((s) => s.id === edit.segmentId)!;
+    expect(item.text).toBe(readerNames(edit.to));
+    item.text = readerNames(edit.from);
+  }
   for (const edit of readerTextEdits) {
     const scene = reconstructed[edit.sceneId];
     const item = edit.choiceId
@@ -45,12 +52,12 @@ it('preserves the story graph and applies only reviewed text and character name 
   }
   expect(reconstructed).toEqual(expected);
   expect(reader.assets).toEqual(original.assets);
-  expect(reader.characters).toMatchObject({ MIYER: '米耶爾', MIEL: '米耶爾' });
+  expect(reader.characters).toMatchObject({ MIYER: '米椰爾', MIEL: '米椰爾' });
   expect(reader.scenes['PRO-SC08'].segments.find((s) => s.id === 'L042')?.speakerLabel).toBe(
     '艾琳達（心聲）'
   );
   expect(reader.scenes.EP02_ACT02_SC04.segments.find((s) => s.id === 'L016')?.speakerLabel).toBe(
-    '奧莉維亞、芬利（同時）'
+    '奧莉薇雅、芬利（同時）'
   );
   expect(reader.endings).toEqual(original.endings);
   expect(reader.plan).toEqual(original.plan);

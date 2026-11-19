@@ -1,0 +1,737 @@
+{
+  "schema": "lioness-art-cg-manifest-v1",
+  "status": "GENERATED",
+  "items": [
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG01",
+      "shortId": "CG01",
+      "scene": "SC01",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG01_v1.0.webp",
+      "prompt": "Warm afternoon in the Northeast Tower study; Olivia and Alicia face each other at a tea table with magical research and the palace skyline; relaxed conversation, articulate expressions. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "重做艾莉西亞的坐姿，雙臂分置椅子扶手。",
+      "generationPrompt": "CG01. Warm afternoon in the Northeast Tower study; Olivia and Alicia face each other at a tea table with magical research and the palace skyline; relaxed conversation, articulate expressions. Two adult women seated facing each other across a small round walnut tea table in the book-lined palace study. Olivia left and Alicia right. Their relaxed expressions carry the conversation. Both of Alicia's forearms rest on her chair's two separate armrests, sleeves trace clearly from shoulder to wrist. No hand raised toward her face or hovering. Two porcelain cups, quiet research diagrams, closed folio and afternoon palace skyline. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG01_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "477eb1abcad3e2da23ff5fab66ea3215b6d5172ef86fc7c45f0d1884cd22ca4b"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG02",
+      "shortId": "CG02",
+      "scene": "SC01",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG02_v1.0.webp",
+      "prompt": "Alicia shows Olivia a fragmented elemental-spirit sealing diagram beside tea; Olivia reacts with fascinated skepticism; close two-shot, diagram illegible. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已修正奧莉維亞的桌邊手部與袖口。",
+      "generationPrompt": "CG02. Alicia shows Olivia a fragmented elemental-spirit sealing diagram beside tea; Olivia reacts with fascinated skepticism; close two-shot, diagram illegible. Same table, Gothic palace skyline, and warm afternoon as the introductory tea conversation. Frame each adult with distinct silhouettes and only one hand visible per character if needed. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN; reference 2 = Alicia the independent researcher with ash-brown low ponytail tied with olive ribbon, ivory cloaklet green trim, forest-green sash and satchel\n\nRevision: Precisely edit this CG02 16:9 Lioness Empire painting. Preserve the entirety of the picture as-is except for the empty navy cuff at the lower left next to Olivia's teacup. Add Olivia's anatomically correct right hand emerging naturally from that single open cuff, palm down and relaxed diagonally on the walnut tea table, fingers together, no overlap with the existing teacup. Hand proportions are natural and all digits coherent. Her left hand remains under her chin. Alicia on the right, both of her hands, the fragmented sealing diagrams, and all costumes and details remain the same. Two hands maximum per person. No text or watermark.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG02_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "c86a8ab4efbe46014f9469011ff41647defe7bbb69101ac75cb2d5b35861f54e"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG03",
+      "shortId": "CG03",
+      "scene": "SC01",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG03_v1.0.webp",
+      "prompt": "Finley leans forward from the bookshelf after overhearing Alicia describe sealed research stored at 非爾斯敦 (official Chinese place name); earnest scholarly curiosity; three-character medium shot. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG03. Finley leans forward from the bookshelf after overhearing Alicia describe sealed research stored at 非爾斯敦 (official Chinese place name); earnest scholarly curiosity; three-character medium shot. Finley foreground next to bookshelf; the two seated women turn in response. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN; reference 2 = Alicia the independent researcher with ash-brown low ponytail tied with olive ribbon, ivory cloaklet green trim, forest-green sash and satchel; reference 3 = Finley the small androgynous scholar with wavy dark-brown short hair and navy longcoat, fully human ears and face",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG03_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "395f9313aa7d9b320e48d62b703ef048cfc95356f6a40b66de810b46d1473f62"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG04",
+      "shortId": "CG04",
+      "scene": "SC01",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG04_v1.0.webp",
+      "prompt": "Finley politely requests permission to study Alicia’s 非爾斯敦 (official Chinese place name) documents, Olivia looks amused and tired; Alicia assesses him; balanced cinematic composition. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG04. Finley politely requests permission to study Alicia’s 非爾斯敦 (official Chinese place name) documents, Olivia looks amused and tired; Alicia assesses him; balanced cinematic composition. Alicia keeps her folio in front of her; clear separation of the three bodies, navy regent on left and short-haired scholar near bookshelf. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN; reference 2 = Alicia the independent researcher with ash-brown low ponytail tied with olive ribbon, ivory cloaklet green trim, forest-green sash and satchel; reference 3 = Finley the small androgynous scholar with wavy dark-brown short hair and navy longcoat, fully human ears and face",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG04_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "6ebf28cdc50c70ba558e9b18fd5853455251ff17dceb4a5c0014b764ff631f35"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG05",
+      "shortId": "CG05",
+      "scene": "SC01",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG05_v1.0.webp",
+      "prompt": "A palace attendant knocks at the study door announcing an unexpected Holy Light envoy; three characters turn toward doorway, documents remain on tea table. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG05. A palace attendant knocks at the study door announcing an unexpected Holy Light envoy; three characters turn toward doorway, documents remain on tea table. A fourth figure, a palace attendant in muted house livery, visible at the open doorway, nobody else. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN; reference 2 = Alicia the independent researcher with ash-brown low ponytail tied with olive ribbon, ivory cloaklet green trim, forest-green sash and satchel; reference 3 = Finley the small androgynous scholar with wavy dark-brown short hair and navy longcoat, fully human ears and face",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG05_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "8ba7f7f462bd9a8e8f8a52fd44936d67529bb5259d2a1ed890b1931701aa8b04"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG06",
+      "shortId": "CG06",
+      "scene": "SC02",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG06_v1.0.webp",
+      "prompt": "Establishing view of Northeast Tower reception chamber, tall stone arches and windows, tea service and maps, sunlight edging toward evening, restrained noble atmosphere. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG06. Establishing view of Northeast Tower reception chamber, tall stone arches and windows, tea service and maps, sunlight edging toward evening, restrained noble atmosphere. Empty chamber. This is the tower reception room, distinct from the intimate book-lined study. A rectangular carved council table, deep arched doorway, blue royal drapes and cream-gold porcelain service. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG06_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "36d9352d23eff3503df00debc4db43af7e315ae5294d062f11a3c669ea865389"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG07",
+      "shortId": "CG07",
+      "scene": "SC02",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG07_v1.0.webp",
+      "prompt": "Mier, blonde braided-bun clergywoman, enters the royal reception room and bows with refined diplomatic composure, elaborate white-gold dress matching turnaround. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "Mier_Turnaround_Front_Side_Back.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG07. Mier, blonde braided-bun clergywoman, enters the royal reception room and bows with refined diplomatic composure, elaborate white-gold dress matching turnaround. Only Mier clearly visible, bowing at the tall entry arch of the chamber beside blue royal drapes. Preserve the hair silhouette and the robes. Neutral light catches her face. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Mier the female envoy with honey-blonde low braided bun, ivory white-gold embroidered solar ceremonial dress and solar pendant",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG07_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "2350fc5d375dce91d777f1a8469e39235758595d17fd72f32dd200c02e1a20c7"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG08",
+      "shortId": "CG08",
+      "scene": "SC02",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG08_v1.0.webp",
+      "prompt": "Olivia receives Mier with a guarded but impeccably polite smile; Mier offers a sealed greeting from Saraphenia; four-person diplomatic tableau. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png",
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG08. Olivia receives Mier with a guarded but impeccably polite smile; Mier offers a sealed greeting from Saraphenia; four-person diplomatic tableau. Four clearly separated adults: Olivia with blue-black hair receives the greeting from the blonde Mier, Alicia in muted green and cream, Finley short-haired navy-clad. Meeting at a rectangular carved walnut table. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN; reference 2 = Mier the female envoy with honey-blonde low braided bun, ivory white-gold embroidered solar ceremonial dress and solar pendant; reference 3 = Alicia the independent researcher with ash-brown low ponytail tied with olive ribbon, ivory cloaklet green trim, forest-green sash and satchel; reference 4 = Finley the small androgynous scholar with wavy dark-brown short hair and navy longcoat, fully human ears and face",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG08_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "ee9e8232e15e3906843ea301296ad5c75d139888b1a490957a68ceb5f6ba2a0d"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG09",
+      "shortId": "CG09",
+      "scene": "SC03",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG09_v1.0.webp",
+      "prompt": "Mier unfolds an abstract relief coordination map on table, emphasizing aid to affected villages; Olivia listens with cautious interest, Finley checks ledgers. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG09. Mier unfolds an abstract relief coordination map on table, emphasizing aid to affected villages; Olivia listens with cautious interest, Finley checks ledgers. Unrolling a parchment aid map with illustrations of villages and supply routes. Three distinct adults with the aid records in foreground. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 3: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG09_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "b2805f2f478a5ee23dc06e43fa1a975efb23e9f507487d9d0305f3de6f57d347"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG10",
+      "shortId": "CG10",
+      "scene": "SC03",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG10_v1.0.webp",
+      "prompt": "Alternative A route: Olivia points to the boundary between relief reporting and royal authorization while Mier responds thoughtfully; close view of hands and map. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG10. Alternative A route: Olivia points to the boundary between relief reporting and royal authorization while Mier responds thoughtfully; close view of hands and map. Only Olivia and Mier. Use only one visible hand per person in the close frame with the aid route map; sleeves attach to the correct person. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG10_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "953871ddd5560b0c4d949af079374a85801eb88ff1d1e7a57100c3548b68e1c9"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG11",
+      "shortId": "CG11",
+      "scene": "SC03",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG11_v1.0.webp",
+      "prompt": "Alternative B route: Alicia calmly points out the distinction between magical crisis reporting and technical judgment; Mier listens with a slight pause. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "Alicia_Turnaround_User_Reference.png",
+        "Mier_Turnaround_Front_Side_Back.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG11. Alternative B route: Alicia calmly points out the distinction between magical crisis reporting and technical judgment; Mier listens with a slight pause. Only Alicia and Mier, facing each other across walnut table. Compare technical diagrams and a simple summary slip. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 2: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG11_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "ba554dd9c0744d776d93b2c571785538b87a1daa23e585166b08ed9256013e79"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG12",
+      "shortId": "CG12",
+      "scene": "SC03",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG12_v1.0.webp",
+      "prompt": "Alternative C route: Olivia asks what material resources accompany proposed political cooperation; Mier indicates relief supply records; sophisticated bargaining. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG12. Alternative C route: Olivia asks what material resources accompany proposed political cooperation; Mier indicates relief supply records; sophisticated bargaining. Only Olivia and Mier. Pictograms for baskets of wheat, cordwood and medicine. Olivia regards ledger with quiet resolve, no signed agreement. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG12_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "9af43992fb42b700d46a75338e75df644713b197d4891deb97759d434d999d1a"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG13",
+      "shortId": "CG13",
+      "scene": "SC03",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG13_v1.0.webp",
+      "prompt": "Alternative D route: Mier gently suggests permanent coordination offices; Olivia looks receptive while Finley notices administrative overlap; subtle foreshadowing. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG13. Alternative D route: Mier gently suggests permanent coordination offices; Olivia looks receptive while Finley notices administrative overlap; subtle foreshadowing. Mier speaks pleasantly, Olivia stays composed, Finley in the right background sees administrative notes partly overlap. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 3: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG13_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "ea27c153e54a7eff4f74b6b0d0ac8a074edcbef3cffffdf8e8c582d225ffe8cc"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG14",
+      "shortId": "CG14",
+      "scene": "SC04",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG14_v1.0.webp",
+      "prompt": "The Northeast Tower at dusk; long shadows across documents and tea; all four characters in tense silence before an honest disagreement. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png",
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "修正米椰爾的手勢與表情，保留四人開口前的沉默。",
+      "generationPrompt": "CG14. The Northeast Tower at dusk; long shadows across documents and tea; all four characters in tense silence before an honest disagreement. Four adults, distinct silhouettes around a rectangular walnut table. One grounded shot with deep orange afternoon shadows. No dragon. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 3: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 4: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 5: style and location reference.\n\nRevision: Edit this CG14, single 16:9 full-bleed visual novel CG. Keep the exact painted scene, sunset shadows, objects, framing, identities and wardrobes: Finley left, uncrowned black-haired Olivia center-left, blonde braided-bun white-gold envoy Mier center-right, researcher Alicia right. Change only Mier's gesture and expression. The four sit in a deliberately tense silence just before the disagreement; Mier has closed lips, quiet attentive gaze turned slightly toward the papers, and rests both forearms naturally on the table with her hands neutrally out of sight under the edge of the long embroidered sleeves. Remove the raised gesturing hand and integrate that sleeve naturally into the new resting pose. Preserve all other poses, reestablish the unbroken sunlit walnut tabletop where any overlap is removed. No added hands, figures or text.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG14_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "e03d1e646322a44ce24b9a1c16620c307fea1f2c9076818a5659bccd5069d3f8"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG15",
+      "shortId": "CG15",
+      "scene": "SC04",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG15_v1.0.webp",
+      "prompt": "Alicia presents evidence that the Eye of Ice had fully manifested before she resealed it; technical notes and symbolic frozen-dragon diagram, NOT a dragon fight. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG15. Alicia presents evidence that the Eye of Ice had fully manifested before she resealed it; technical notes and symbolic frozen-dragon diagram, NOT a dragon fight. Alicia's finger indicates a frost-dragon diagram inked across parchment, an inert small frosted trace next to it is optional. No live dragon. Clearly stage her as the speaker. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Alicia the independent researcher with ash-brown low ponytail tied with olive ribbon, ivory cloaklet green trim, forest-green sash and satchel; reference 2 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN; reference 3 = Mier the female envoy with honey-blonde low braided bun, ivory white-gold embroidered solar ceremonial dress and solar pendant; reference 4 = Finley the small androgynous scholar with wavy dark-brown short hair and navy longcoat, fully human ears and face",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG15_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "aa1ecd1cc21d452d5c589f43490c7ab1e3dfc3685ddd67ea6fcf59f4fe8719b2"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG16",
+      "shortId": "CG16",
+      "scene": "SC04",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG16_v1.0.webp",
+      "prompt": "Mier maintains dignity and speaks of real medical aid and evacuation while facing criticism; empathy, not villainy, in a close portrait. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "Mier_Turnaround_Front_Side_Back.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG16. Mier maintains dignity and speaks of real medical aid and evacuation while facing criticism; empathy, not villainy, in a close portrait. Only Mier clearly seen in a dignified bust portrait; hands out of frame. Considered empathetic eyes, courtly reserve. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Mier the female envoy with honey-blonde low braided bun, ivory white-gold embroidered solar ceremonial dress and solar pendant",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG16_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "f74fa727001c097b0f99dc321aa3dcce9661f627499703e7e8593af038344087"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG17",
+      "shortId": "CG17",
+      "scene": "SC04",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG17_v1.0.webp",
+      "prompt": "Olivia arranges three abstract documents: council, local ancestral contract, and frozen-dragon crisis report; all markings unreadable; visual metaphor for hidden overreach. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG17. Olivia arranges three abstract documents: council, local ancestral contract, and frozen-dragon crisis report; all markings unreadable; visual metaphor for hidden overreach. Keep the separate documents large enough to read their abstract emblems visually: administrative council, ancestral contract, frost-dragon report. Clearly two anatomically distinct hands of Olivia maximum. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG17_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "76330948028014759dbb5b0c3998d3b24cbc79092f8a8506c7ca3a07ae844d51"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG18",
+      "shortId": "CG18",
+      "scene": "SC04",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG18_v1.0.webp",
+      "prompt": "Olivia quietly delivers her cutting criticism about improper intervention; cold amber eyes, composed hands on tabletop, no shouting, cinematic close-up. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG18. Olivia quietly delivers her cutting criticism about improper intervention; cold amber eyes, composed hands on tabletop, no shouting, cinematic close-up. Only Olivia clearly seen at table; keep the seated anatomy natural, focus on cold amber eyes and hands calmly placed at opposite sides. The Lioness Empire polished hand-painted 2D Japanese dark political fantasy VN illustration. Single full-bleed 16:9 landscape composition. Northeast Tower with tall Gothic gray limestone arches, carved old walnut, indigo and muted burgundy accents, antique-gold filigree, restrained grounded late medieval fantasy. Nuanced faces, correct head angle, hand anatomy with two arms and hands per person. Parchments have abstract pictograms only, no readable marks or letters. No caption, signature, watermark or interface. Reference sheets are for identity and wardrobe only. Show only the characters specified plus any explicitly requested extras. Match the exact character designs from the references: reference 1 = Olivia the adult regent with long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, NO CROWN",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG18_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "5151812e1a31624bf17d439704f8361ecfae581ed5c9293a47638e5dc36d5976"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG19",
+      "shortId": "CG19",
+      "scene": "SC04",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG19_v1.0.webp",
+      "prompt": "Alicia offers a concise technical rebuttal while Mier keeps polite composure; contrasting research clothing and church robes, three-quarter shot. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "Alicia_Turnaround_User_Reference.png",
+        "Mier_Turnaround_Front_Side_Back.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG19. Alicia offers a concise technical rebuttal while Mier keeps polite composure; contrasting research clothing and church robes, three-quarter shot. Alicia speaks toward Mier over the evidence at an oblique angle; no extra figures. Blue dusk beyond windows. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 2: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG19_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "edda43d32b5d6b15e671d774b8ee92bff1420c8fbe80a8d2f117373df8904323"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG20",
+      "shortId": "CG20",
+      "scene": "SC04",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG20_v1.0.webp",
+      "prompt": "Finley closes a notebook and explains administrative precedents; Olivia listens as Mier studies the papers, evening light, no magic spectacle. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png",
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Mier_Turnaround_Front_Side_Back.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG20. Finley closes a notebook and explains administrative precedents; Olivia listens as Mier studies the papers, evening light, no magic spectacle. Three adults. Finley's hand lies naturally on one closed notebook, subdued dusk. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 2: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 3: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG20_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "8acef235dcbce8e695ae75344796bf1f131bbaae3a179766125246bbd001b606"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG21",
+      "shortId": "CG21",
+      "scene": "SC05",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG21_v1.0.webp",
+      "prompt": "Mier departs the Northeast Tower with a formal bow; Olivia remains poised, subtle tension, golden dusk through corridor. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "Mier_Turnaround_Front_Side_Back.png",
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG21. Mier departs the Northeast Tower with a formal bow; Olivia remains poised, subtle tension, golden dusk through corridor. Olivia to one side, Mier in white-gold at doorway gives a shallow courteous bow, amber dusk in hall. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: Mier, female envoy with honey-blonde low braided bun, ivory white-gold embroidered ceremonial dress and solar pendant; image 2: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG21_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "53df0c3d75d4092d25186e223fc5f982aa2403e50823d9458a2d7999527d76eb"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG22",
+      "shortId": "CG22",
+      "scene": "SC05_RESULT0",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG22_v1.0.webp",
+      "prompt": "Best outcome: Olivia at window retaining royal oversight, Finley holds separate intact government ledgers, Alicia nearby; distant uneasy citizens below, proud yet costly. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG22. Best outcome: Olivia at window retaining royal oversight, Finley holds separate intact government ledgers, Alicia nearby; distant uneasy citizens below, proud yet costly. From inside looking out over the street at dusk, Olivia by the window keeps royal oversight with intact separate government ledgers; include unsettled citizens far below gathered to demand answers from the Crown. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 3: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG22_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "870a94a27de4f5a19db917f53d21865a8cc6459eda66c3b7587fd8e6ca306651"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG23",
+      "shortId": "CG23",
+      "scene": "SC05_RESULT1",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG23_v1.0.webp",
+      "prompt": "High outcome: careful coordination notes separated by color and folder, Olivia attentive while Finley confirms responsibilities; Mier has departed. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG23. High outcome: careful coordination notes separated by color and folder, Olivia attentive while Finley confirms responsibilities; Mier has departed. Keep color-coded folders separate, royal seal distinct, subtle church coordination under Crown oversight. Diligent, working late. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG23_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "2c8ee1dfb91f30e0fbe91acebab9a42e54beff78b002758fcc0805a6a581722b"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG24",
+      "shortId": "CG24",
+      "scene": "SC05_RESULT2",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG24_v1.0.webp",
+      "prompt": "Positive outcome: three characters review limited cooperation documents, weary but relieved, warm late evening study. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG24. Positive outcome: three characters review limited cooperation documents, weary but relieved, warm late evening study. One modest auxiliary packet beside separate royal ledgers. The three adults exchange early evening weary relief. Limited aid, no sealed agreement. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 3: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG24_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "6c742c1a44a56134bc8877a2348ee20cb0c44de88ef165e7e470bac8a293f732"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG25",
+      "shortId": "CG25",
+      "scene": "SC05_RESULT3",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG25_v1.0.webp",
+      "prompt": "Neutral outcome: Olivia alone at table before several ambiguously arranged papers, quiet uncertain dusk, Alicia and Finley considering unresolved loose ends. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG25. Neutral outcome: Olivia alone at table before several ambiguously arranged papers, quiet uncertain dusk, Alicia and Finley considering unresolved loose ends. Olivia alone seated at the table, Alicia and Finley stand apart in semi-shadow. Unsorted stacks and conspicuously blank area on a half-completed parchment imply unresolved authority. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 3: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG25_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "2697147e8fb50659699118d58a4dbf6b0de28e6e97d2b2facf1e0faa00c883a5"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG26",
+      "shortId": "CG26",
+      "scene": "SC05_RESULT4",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG26_v1.0.webp",
+      "prompt": "Poor outcome: Finley points out church documents placed alongside royal administrative ledgers, Olivia regrets ambiguity; symbolic close-up of overlapping seals. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png",
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG26. Poor outcome: Finley points out church documents placed alongside royal administrative ledgers, Olivia regrets ambiguity; symbolic close-up of overlapping seals. Sharp foreground clerical paper with sun wax seal laid partly atop a royal ledger with a lion impressed in its binding; Finley and Olivia react to the encroachment, no signed treaty. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 2: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 3: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG26_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "87d383968d6e6b0a0b5aef2653e6be059f6f1cd8683c774c7a09ed7c7f980f6c"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG27",
+      "shortId": "CG27",
+      "scene": "SC05_RESULT5",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG27_v1.0.webp",
+      "prompt": "Severe outcome: fantasy montage showing real church relief workers distributing food to calm crowds, juxtaposed with Olivia watching dependence grow from a tower window. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "重繪救濟廣場及志工，移除近似米椰爾與艾莉西亞的路人，改用黃昏。",
+      "generationPrompt": "CG27. Severe outcome: fantasy montage showing real church relief workers distributing food to calm crowds, juxtaposed with Olivia watching dependence grow from a tower window. One coherent composition with deep perspective down from Olivia's tower window onto the square where white-gold clergy compassionately distribute grain and bread to a newly calm crowd. Relief really works, and dependence is growing. Only Olivia at the window, Mier is not present. No panels. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: style and location reference.\n\nRevision: Revise Japanese fantasy story CG27, single 16:9 painting. Preserve Olivia and the left interior of supplied frame 1, especially her face and dark blue-black hair, navy gown and no crown, as defined by visual reference 2. Completely repaint the right-hand view through the opening. View FROM A HIGHER FLOOR down over a public square in clear lowered perspective, compact scene, people smaller further below, warm lanterns under soft purple-orange late dusk light. Relief workers in plain warm-white coats with minimal muted-gold piping, simple pinned sun badges. Adult white-haired male worker and middle-aged dark-haired kerchiefed woman in plain cream with gold piping hand grain and bread to families, the queue is calming after today’s tension. Different faces and haircuts among distinct people. There must be no blonde braided woman and no woman in a green-trimmed capelet in the square: neither Envoy Mier nor Alicia is in this shot, Olivia is the only named character in the composition. Cream solar banners based on the supplied frame and crates outside the Gothic church. Match the detailed painterly rendering. No text, no comic panels, no extra or overlapping limbs.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG27_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "44a167aaa9a7e1a685c86ffaf84751bb42284863da74f6c19969d93b694994f8"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG28",
+      "shortId": "CG28",
+      "scene": "SC05_RESULT6",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG28_v1.0.webp",
+      "prompt": "Major failure: Olivia stares in delayed realization as Finley maps multiple church coordination channels crossing royal administration, Alicia beside him; visual weight of dependence. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png",
+        "Alicia_Turnaround_User_Reference.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對四本王室帳冊及以太陽印為中心的重疊協調線。",
+      "generationPrompt": "CG28. Major failure: Olivia stares in delayed realization as Finley maps multiple church coordination channels crossing royal administration, Alicia beside him; visual weight of dependence. High three-quarter angle on Finley, Olivia and Alicia. Finley uses cords and abstract wax tokens, a single white-gold sun seal in the center of overlapping channels spread across four royal ledgers. Heavy realization, restrained reactions, nightfall. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 3: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG28_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "3a5cb2dddc0b3af1b8887ee9075692a8d9b2dc74554c81977a972f8dc08bd0ac"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG29",
+      "shortId": "CG29",
+      "scene": "SC05",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG29_v1.0.webp",
+      "prompt": "Common aftermath: Alicia ties her sealed research folio, Finley separates clerical notes from magic references, Olivia tired yet ready, purple twilight. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "Alicia_Turnaround_User_Reference.png",
+        "LE_REF_FINLEY_TURNAROUND_v0.1.png",
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "已核對場景、角色及可見人體與文書。",
+      "generationPrompt": "CG29. Common aftermath: Alicia ties her sealed research folio, Finley separates clerical notes from magic references, Olivia tired yet ready, purple twilight. Three adults. Alicia tying one olive ribbon around a closed folio, Finley separates the two sets of documents, weary Olivia glancing toward the barely ajar door. Purple twilight. No courier yet. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: Alicia, independent researcher, ash-brown low ponytail with olive ribbon, ivory cloaklet with green trim, forest-green sash and satchel; image 2: Finley, small androgynous scholar with short wavy dark-brown hair and navy longcoat, entirely human appearance; image 3: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 4: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG29_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "851ff5e568ba27586d0ca65eda3f957c61e5f6f1bff7ac8c10ed3e719037f724"
+    },
+    {
+      "cgId": "LE_CG_EP08_ACT05_CG30",
+      "shortId": "CG30",
+      "scene": "SC05",
+      "status": "GENERATED",
+      "proposedFile": "LE_CG_EP08_ACT05_CG30_v1.0.webp",
+      "prompt": "Final hook: muddy royal courier brings eastern front urgent dispatch to Olivia in candlelit Northeast Tower, Olivia unfolds map; heavy political-fantasy anticipation, no route-choice shown. VISUAL LOCKS (every prompt): premium hand-painted 2D Japanese political fantasy VN event CG; cinematic 16:9; nuanced facial acting, believable hands and fingers, anatomically correct seated and standing figures; no readable words, no letters, no logos, no watermarks. Olivia: adult royal regent, waist-length straight blue-black hair, amber-gold eyes, no crown, deep navy/antique gold/ivory royal attire. Alicia: exact user's three-view reference; brown/ash-brown hair low ponytail with green ribbon, muted green eyes, ivory long coat, short cream cape edged in olive green, dark green waist sash, satchel, dark trousers and boots; not a priest, not Elia. Mier: exact new blonde female turnaround; elaborate honey-blonde braided bun, amber eyes, ivory gold embroidered high-neck clerical dress with solar pendant, not the male Adin. Finley: small androgynous fully human administrative scholar; no horns, scales, ears, tail, wings or dragon eyes. Same Northeast Tower architecture and time-of-day lighting across scenes.",
+      "negativePrompt": "extra limbs, missing fingers, duplicate person, mirrored anatomically impossible head, wrong hair or clothing, illegible anatomy, watermark, readable text, photorealism, 3D render, sexualization.",
+      "characterReferences": [
+        "LE_REF_OLIVIA_TURNAROUND_v0.1.png"
+      ],
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "reviewStatus": "QA_PASS",
+      "reviewNotes": "共通尾聲，只呈現軍報與查閱地圖。",
+      "generationPrompt": "CG30. Final hook: muddy royal courier brings eastern front urgent dispatch to Olivia in candlelit Northeast Tower, Olivia unfolds map; heavy political-fantasy anticipation, no route-choice shown. Adult Olivia in candlelit study with an open eastern frontier map without readable labels and a muddy urgent dispatch. One messenger in practical royal livery by the arch, no troops or decision made. Night, tense silence. One full-bleed 16:9 horizontal hand-painted Japanese dark political fantasy story CG. Northeast Tower, Gothic gray limestone arches, carved old walnut, slate blue or indigo drapes, antique gold filigree. Grounded painted fantasy realism with delicate linework and nuanced acting. Distinct silhouettes, believable head angle, natural eye lines, two arms and hands at most for each person. Abstract drawn symbols on documents, no readable letters, no captions, logos or watermark. The sheets are exact identity and outfit references only. Location image is architecture/materials/painting-style continuity only, use unique framing and lighting per prompt. Render each person only once, in story action, no turnaround or panels. Inputs: image 1: adult regent Olivia, long straight blue-black hair, gold amber eyes, navy/old-gold/ivory court gown, no crown; image 2: style and location reference.",
+      "deliveredFile": "PNG/LE_CG_EP08_ACT05_CG30_v1.0.png",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "sha256": "67dbadca5fbefdecf533d15445ea245364e218b25aec04390f09c8fcb31ba2ac"
+    }
+  ],
+  "generatedCount": 30,
+  "missingIds": [],
+  "reviewRequiredIds": []
+}

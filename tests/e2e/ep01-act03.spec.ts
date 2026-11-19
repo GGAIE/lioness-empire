@@ -119,7 +119,7 @@ test('ACT III reads twenty CGs and three dialogue decisions, persists their answ
   }
   expect(images).toBe(20);
   expect(paragraphs).toBe(160);
-  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第三幕完 · 重返王都');
+  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第三幕完 · 他將深奧的事從黑暗中彰顯');
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText('ACT IV');
   await expect
     .poll(async () => {

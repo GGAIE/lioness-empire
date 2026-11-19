@@ -183,6 +183,10 @@
         ]
       }
     },
+    "pointCostPolicy": {
+      "type": "string",
+      "const": "ALLOW_EXHAUSTION"
+    },
     "previewEffects": {
       "type": "array",
       "items": {

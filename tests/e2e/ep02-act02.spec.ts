@@ -120,7 +120,7 @@ for (const answer of ['A', 'B', 'C'])
       expect(unique.size).toBe(20);
       expect(choices).toBe(5);
       await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-        '第二幕完 · 王冠之外的責任'
+        '第二幕完 · 人在最小的事上忠心，在大事上也忠心'
       );
       await expect(page.getByRole('region', { name: '章節完成' })).toContainText('ACT III');
       await expect(page.locator('.stage-blackout')).toHaveCSS('opacity', '1');

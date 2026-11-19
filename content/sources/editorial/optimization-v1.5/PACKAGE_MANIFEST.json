@@ -1,0 +1,58 @@
+{
+  "package": "Lioness_Empire_Optimization_Patch",
+  "version": "1.5",
+  "entrypoint": "CODEX_START.md",
+  "purpose": "中英姓名定稿、人物聲音與自然對話潤飾",
+  "confirmed_characters": 11,
+  "manuscripts_included": false,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "eaa13706a9dd61d6980dcd3d3cade1c59cdfc6866b7e1b64cdf37ed12624407e"
+    },
+    {
+      "path": "CODEX_START.md",
+      "sha256": "ae9d128d1bde3859ec1c47c9c0d04eb00d8487567d65eb46741660efbb2f6577"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d7e7a8467539f97d3318ca286b9846e6e026b717559f9b40b069ec356072ac06"
+    },
+    {
+      "path": "characters/CHARACTER_NAMES.md",
+      "sha256": "5ed27c5063ef8e7d760cad4e23b650c45aed79f1628fc10bc8414447e4e39b40"
+    },
+    {
+      "path": "characters/CONFIRMED_VOICES.md",
+      "sha256": "5344cdb1b527987ec7691ac48a521c1f04e32f2ab924cccc5941de4789cd5e3c"
+    },
+    {
+      "path": "characters/SUPPORTING_CAST_PROPOSALS.md",
+      "sha256": "24a75dd223b8cc5eaf5949486552b5442c381317e0776dc0ee90cfb01cd2413a"
+    },
+    {
+      "path": "characters/voices.json",
+      "sha256": "3441e131241ac881fe05d574607667974204162bf0d513622a77ed228038f818"
+    },
+    {
+      "path": "rules/CANON_AND_SCOPE.md",
+      "sha256": "481a527561de461b31c4750d2801df2d6fd5efd3b5b6682ac0f86cd03efd33a4"
+    },
+    {
+      "path": "rules/NATURAL_DIALOGUE.md",
+      "sha256": "55aaaa82581045bbc5a0cacba89a0b52f087560a54c581a28f124ba394735fe4"
+    },
+    {
+      "path": "rules/SHORT_DRAMA_REFERENCE.md",
+      "sha256": "66910c8123bbbc90d5f8db22fb52c187f621f34afd4e2ba3a24c627178453bd2"
+    },
+    {
+      "path": "rules/TAIWAN_MANDARIN_DIALOGUE.md",
+      "sha256": "9e2dcfc41ce6bc1eb374508cca13f934ca684345eb0f65fd1b67ea493f5f370f"
+    },
+    {
+      "path": "workflow/EDITING_PROTOCOL.md",
+      "sha256": "adf3144a3471e1275fd4f5ff6ea680ac741b99e6e52bbb63878875adc39b89ea"
+    }
+  ]
+}

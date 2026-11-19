@@ -1,0 +1,163 @@
+{
+  "archive": "EP08_ACT05_World_17_CG_Selected_v1.0.zip",
+  "archiveSha256": "e06d94fa6b0b15bde4eb7d8844c0d398e1f40638bc5100bedac2d8231fe1ecc3",
+  "productionArchive": "Lioness_Empire_EP08_ACT05_World_Complete_Startup_v1.0.zip",
+  "productionSha256": "4fed7b4fcc696e693bff08925a0d2580f3140fd721b682e8dad6b9064424a500",
+  "script": "01_Full_Script/EP08_ACT05_World_Full_Script_v1.0.md",
+  "scriptSha256": "3fc3c021c10441c83776bae6e67d8380064ce321715650a2397eae8784d26074",
+  "images": [
+    {
+      "key": "01",
+      "id": "EP08-ACT05-WORLD-CG01",
+      "path": "assets/cg/ep08/act05/world/cg01.png",
+      "member": "CG_01_東北塔的下午茶.png",
+      "sha256": "74446730522cc662484359bbdda4b220c42359a2918193c3396360a64d6c0703",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "02",
+      "id": "EP08-ACT05-WORLD-CG02",
+      "path": "assets/cg/ep08/act05/world/cg02.png",
+      "member": "CG_02_四個人的下午茶.png",
+      "sha256": "8a7f52b9c44bf1fb32bbf6333a671cf08abdde97daa66d6f8ad468fe5216f651",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "03",
+      "id": "EP08-ACT05-WORLD-CG03",
+      "path": "assets/cg/ep08/act05/world/cg03.png",
+      "member": "CG_03_艾莉留下的研究.png",
+      "sha256": "7a4b204f94f9e81939536007bbbd90e976a37aa73a8214c8fd677489835211b0",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "04",
+      "id": "EP08-ACT05-WORLD-CG04",
+      "path": "assets/cg/ep08/act05/world/cg04.png",
+      "member": "CG_04_艾莉西亞的傳聞.png",
+      "sha256": "b23c393236aeb3c3e611789ce2c46611ab845b7d2139fad6c8526a0604f03e6d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "05",
+      "id": "EP08-ACT05-WORLD-CG05",
+      "path": "assets/cg/ep08/act05/world/cg05.png",
+      "member": "CG_05_芬利提出申請.png",
+      "sha256": "343b27204c86b19384866b9a0a485d87b84c313f00392048c9b17ecb3fef37f9",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "06A",
+      "id": "EP08-ACT05-WORLD-CG06A",
+      "path": "assets/cg/ep08/act05/world/cg06A.png",
+      "member": "CG_06A_前往奧特丹.png",
+      "sha256": "f7f8a23037411efcd50aaa3d258d80f51732fb84248a4caa5db17341f06dce12",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "07A",
+      "id": "EP08-ACT05-WORLD-CG07A",
+      "path": "assets/cg/ep08/act05/world/cg07A.png",
+      "member": "CG_07A_奧特丹的街道.png",
+      "sha256": "8eb3fd1d8b358fdc546ada754a1a83001648f1c0580cddebb4863f03ac97e8a5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "08A",
+      "id": "EP08-ACT05-WORLD-CG08A",
+      "path": "assets/cg/ep08/act05/world/cg08A.png",
+      "member": "CG_08A_建設圖與資金表.png",
+      "sha256": "0828e75443f8cbd4aeb8f913f394a71f7282b1fd4058252efd2c9013e84c54cf",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "09A",
+      "id": "EP08-ACT05-WORLD-CG09A",
+      "path": "assets/cg/ep08/act05/world/cg09A.png",
+      "member": "CG_09A_奧莉薇雅想到的領主.png",
+      "sha256": "453abfca76db4b57d57c92504edb1ff2c42c959d6a8b738d3dec43defaf355b0",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "10A",
+      "id": "EP08-ACT05-WORLD-CG10A",
+      "path": "assets/cg/ep08/act05/world/cg10A.png",
+      "member": "CG_10A_沒有簽名的投資協議.png",
+      "sha256": "83b96560547ac7c0670059a69661962e8f91f8f11cfb16a29dc2ef5171e6b8cd",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "06B",
+      "id": "EP08-ACT05-WORLD-CG06B",
+      "path": "assets/cg/ep08/act05/world/cg06B.png",
+      "member": "CG_06B_皇家魔法學院的走廊.png",
+      "sha256": "3606639da3ebab649aedd1f02428d5211dac94e072e24f0b20437662cdc19bec",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "07B",
+      "id": "EP08-ACT05-WORLD-CG07B",
+      "path": "assets/cg/ep08/act05/world/cg07B.png",
+      "member": "CG_07B_以前的教室.png",
+      "sha256": "aac591f30c754049dd03ded709d75aeec5e7c5cf6ddabc8d0a264534e3c6ec9d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "08B",
+      "id": "EP08-ACT05-WORLD-CG08B",
+      "path": "assets/cg/ep08/act05/world/cg08B.png",
+      "member": "CG_08B_古老的研究筆記.png",
+      "sha256": "145d32a6ba36a76bea438ed2027c211c9512e33420d96a47f48d77842a07b845",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "09B",
+      "id": "EP08-ACT05-WORLD-CG09B",
+      "path": "assets/cg/ep08/act05/world/cg09B.png",
+      "member": "CG_09B_學院的封印研究資料.png",
+      "sha256": "c61b33aa2dc7f00c58cdfc924dc0eb8c625a41bd2cc65d4202e7d29cd494c330",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "10B",
+      "id": "EP08-ACT05-WORLD-CG10B",
+      "path": "assets/cg/ep08/act05/world/cg10B.png",
+      "member": "CG_10B_老師不在的教室.png",
+      "sha256": "87304c19b501de1c7b079a425af11667636806524615a52965ed1eba57dc7872",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "11",
+      "id": "EP08-ACT05-WORLD-CG11",
+      "path": "assets/cg/ep08/act05/world/cg11.png",
+      "member": "CG_11_晚霞中的王都.png",
+      "sha256": "d7f45a410d973076997b9fb4d95e6795bdf11e172a35322c9c41fc00eb7753c1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "key": "12",
+      "id": "EP08-ACT05-WORLD-CG12",
+      "path": "assets/cg/ep08/act05/world/cg12.png",
+      "member": "CG_12_東線的急報.png",
+      "sha256": "e4731196483db5b94f833be20a981cf61314ea3509da20791718e366ba1ef0d1",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

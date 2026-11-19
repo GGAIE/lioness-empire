@@ -83,8 +83,8 @@ test('ACT II reads all twenty CGs, pauses at the real choice, restores both side
   expect(images).toBe(20);
   expect(paragraphs).toBe(161);
   const finish = page.getByRole('region', { name: '章節完成' });
-  await expect(finish).toContainText('第二幕完 · 離開學院');
-  await expect(finish).toContainText('ACT III〈重返王都〉');
+  await expect(finish).toContainText('第二幕完 · 人心籌算自己的道路');
+  await expect(finish).toContainText('ACT III〈他將深奧的事從黑暗中彰顯〉');
   await expect(finish).toContainText('整章尚未結算');
   await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
     '50'

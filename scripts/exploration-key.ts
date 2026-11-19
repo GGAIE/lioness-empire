@@ -32,7 +32,9 @@ export function explorationKey(story: Story, options: { independentChapters?: Se
       if (c) refs(c, set);
     if (scene.kind === 'end' && !scene.completion) {
       set.add('ending');
-      for (const rule of story.endings) if (rule.when) refs(rule.when, set);
+      for (const rule of story.endings)
+        if (rule.when && (!scene.specialEnding || rule.id === scene.specialEnding))
+          refs(rule.when, set);
     }
     live.set(scene.id, set);
     chapters.set(scene.id, new Set([scene.chapter]));
@@ -49,7 +51,12 @@ export function explorationKey(story: Story, options: { independentChapters?: Se
     if (effects.some((e) => e.type === 'political' || e.type === 'reinforce'))
       set.add('politicalRoute');
     if (effects.some((e) => e.type === 'reinforce')) set.add('tarotRoute');
-    if (effects.some((e) => e.type === 'points' && e.delta < 0)) reads.add('points');
+    if (
+      effects.some(
+        (e) => e.type === 'points' && (e.delta < 0 || story.manifest.resourceExhaustionEnding)
+      )
+    )
+      reads.add('points');
     if (effects.some((e) => e.type === 'unrest' && !e.clamp)) reads.add('unrest');
     if (effects.some((e) => e.type === 'unrest')) reads.add('mutatesUnrest');
     if (
@@ -135,11 +142,9 @@ export function explorationKey(story: Story, options: { independentChapters?: Se
         : (story.plan?.rules.resource.bands.find(
             (b) => s.campaign!.unrest! >= b.min && s.campaign!.unrest! <= b.max
           )?.cost ?? null);
-    const remainingDebit = bound(
-      s.currentSceneId,
-      new Set(),
-      fixedUnrest && fee !== null ? fee : maxUpkeep
-    );
+    const remainingDebit =
+      bound(s.currentSceneId, new Set(), fixedUnrest && fee !== null ? fee : maxUpkeep) +
+      (story.manifest.resourceExhaustionEnding ? 1 : 0);
     return JSON.stringify([
       s.currentSceneId,
       s.currentSegmentIndex,

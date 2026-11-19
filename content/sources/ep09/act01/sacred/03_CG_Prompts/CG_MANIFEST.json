@@ -1,0 +1,495 @@
+[
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC01_01",
+    "scene": "SC01",
+    "shot": 1,
+    "title_zh": "攝政書房的早晨",
+    "cast": [
+      "OLIVIA"
+    ],
+    "camera": "wide establishing",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: wide establishing. Royal regent study at clear morning light, seven sealed petitions spread across long walnut desk, Olivia at far end, quiet garden through leaded windows. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC01_01.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC01_02",
+    "scene": "SC01",
+    "shot": 2,
+    "title_zh": "七枚封蠟",
+    "cast": [
+      "NONE"
+    ],
+    "camera": "macro",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: macro. Extreme close-up of seven different abstract wax seals on delayed local-lord petitions, worn map edge, scattered uninked counting tokens, subtle administrative fatigue. ",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC01_02.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC01_03",
+    "scene": "SC01",
+    "shot": 3,
+    "title_zh": "芬利送來補件",
+    "cast": [
+      "OLIVIA",
+      "FINLEY"
+    ],
+    "camera": "medium two-shot",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: medium two-shot. Olivia in dark navy royal attire receiving thick bundle of petitions from petite androgynous Finley in plain navy robe, restrained dry humor, no other people. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC01_03.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC01_04",
+    "scene": "SC01",
+    "shot": 4,
+    "title_zh": "無人負責的道路",
+    "cast": [
+      "OLIVIA_HAND"
+    ],
+    "camera": "top down",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: top down. Top-down cadastral map with seven abstract segments of a trade road, Olivia gloved finger pointing to the junction, miniature unmarked supply wagons and wax seals. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC01_04.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC01_05",
+    "scene": "SC01",
+    "shot": 5,
+    "title_zh": "羅蘭的滲透情報",
+    "cast": [
+      "FINLEY",
+      "OLIVIA"
+    ],
+    "camera": "over shoulder",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: over shoulder. Finley spreading fragmentary scouts reports and wooden markers showing emerging Roland influence among divided lordships, Olivia watches, uncertain intelligence visualized without written text. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC01_05.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC01_06",
+    "scene": "SC01",
+    "shot": 6,
+    "title_zh": "七枚釘子",
+    "cast": [
+      "OLIVIA"
+    ],
+    "camera": "cinematic close",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: cinematic close. Olivia stacking seven unopened returned petitions together beside a lone black military token, her expression controlled and faintly amused, morning shadow slicing desk. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC01_06.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC02_01",
+    "scene": "SC02",
+    "shot": 1,
+    "title_zh": "白蘆河舊史",
+    "cast": [
+      "OLIVIA",
+      "FINLEY"
+    ],
+    "camera": "wide",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: wide. Sunlit side chamber with weathered historical battle tapestry of seven small domains across a river, Finley unfurls source chronicle; Olivia examines it critically. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC02_01.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC02_02",
+    "scene": "SC02",
+    "shot": 2,
+    "title_zh": "七面旗幟",
+    "cast": [
+      "NONE"
+    ],
+    "camera": "historic panorama",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: historic panorama. Historical mural-like illustrative flashback, seven small rival medieval states facing a winding pale river, period-agnostic banners without words, aged fresco texture. ",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC02_02.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC02_03",
+    "scene": "SC02",
+    "shot": 3,
+    "title_zh": "黑冠王的整合",
+    "cast": [
+      "NONE"
+    ],
+    "camera": "symbolic overhead",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: symbolic overhead. Historic illustrative map tableau, seven small standards grouped into one powerful dark standard, fallen miniature fortress tokens, avoid portraying as modern timeline verified fact. ",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC02_03.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC02_04",
+    "scene": "SC02",
+    "shot": 4,
+    "title_zh": "代價的追問",
+    "cast": [
+      "FINLEY",
+      "OLIVIA"
+    ],
+    "camera": "dramatic two-shot",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: dramatic two-shot. Finley standing by history painting with sober worried eyes, Olivia quiet seated near sealed folio, warm afternoon rays, the two disagree about cost to civilians. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC02_04.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC02_05",
+    "scene": "SC02",
+    "shot": 5,
+    "title_zh": "讓子彈飛一下",
+    "cast": [
+      "OLIVIA",
+      "FINLEY"
+    ],
+    "camera": "key medium close",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: key medium close. Olivia placing a single black chess-like military figurine in the middle of seven smaller tokens on old map, small incisive smile, Finley in soft focus behind. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC02_05.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC03_01",
+    "scene": "SC03",
+    "shot": 1,
+    "title_zh": "聖光會會客室",
+    "cast": [
+      "OLIVIA",
+      "MIYEER",
+      "FINLEY"
+    ],
+    "camera": "wide establishing",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: wide establishing. Modest royal meeting room with three tea cups and small relief map, Olivia and blonde Miyeer religious delegate seated facing one another, Finley nearby, no throne. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available. Miyeer: use bundled NEW PROVISIONAL turnaround v0.1, blonde female in blue white gold faith robes; not verified as matching EP08 asset.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC03_01.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC03_02",
+    "scene": "SC03",
+    "shot": 2,
+    "title_zh": "聖光會的救濟圖",
+    "cast": [
+      "MIYEER_HAND",
+      "OLIVIA_HAND"
+    ],
+    "camera": "top down detail",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: top down detail. Close-up hands point to modest chapel shelters around rift valleys on abstract relief map, bread tokens, medicinal sachet and an ink-free route diagram. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Miyeer: use bundled NEW PROVISIONAL turnaround v0.1, blonde female in blue white gold faith robes; not verified as matching EP08 asset.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC03_02.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC03_03",
+    "scene": "SC03",
+    "shot": 3,
+    "title_zh": "米椰爾的答覆",
+    "cast": [
+      "MIYEER"
+    ],
+    "camera": "portrait medium",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: portrait medium. Blonde female sacred light delegate in ivory white and navy clerical robes with restrained gold sun motifs, composed serious expression during careful humanitarian agreement, tea steam. Miyeer: use bundled NEW PROVISIONAL turnaround v0.1, blonde female in blue white gold faith robes; not verified as matching EP08 asset.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC03_03.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC03_04",
+    "scene": "SC03",
+    "shot": 4,
+    "title_zh": "責任界線",
+    "cast": [
+      "OLIVIA",
+      "MIYEER"
+    ],
+    "camera": "profile two-shot",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: profile two-shot. Olivia and Miyeer face each other across small table, neither yielding on role boundaries, soft sunlight line dividing shadow across papers, political intimacy without romance. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Miyeer: use bundled NEW PROVISIONAL turnaround v0.1, blonde female in blue white gold faith robes; not verified as matching EP08 asset.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC03_04.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC03_05",
+    "scene": "SC03",
+    "shot": 5,
+    "title_zh": "不替王室背書",
+    "cast": [
+      "MIYEER",
+      "OLIVIA",
+      "FINLEY"
+    ],
+    "camera": "reaction close",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: reaction close. Choice trap visual: Miyeer hand stops near tea cup, face stern but not hostile as Olivia asks religious endorsement of military non-intervention; Finley watches behind. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available. Miyeer: use bundled NEW PROVISIONAL turnaround v0.1, blonde female in blue white gold faith robes; not verified as matching EP08 asset.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC03_05.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC03_06",
+    "scene": "SC03",
+    "shot": 6,
+    "title_zh": "協議仍成立",
+    "cast": [
+      "MIYEER",
+      "OLIVIA",
+      "FINLEY"
+    ],
+    "camera": "concluding medium",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: concluding medium. Miyeer collecting neutral relief map and simple supply list after humane agreement, Olivia gives respectful nod, Finley receives contact notes, a calm but politically expensive meeting. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available. Miyeer: use bundled NEW PROVISIONAL turnaround v0.1, blonde female in blue white gold faith robes; not verified as matching EP08 asset.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC03_06.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC04_01",
+    "scene": "SC04",
+    "shot": 1,
+    "title_zh": "第一封戰報",
+    "cast": [
+      "OLIVIA",
+      "FINLEY"
+    ],
+    "camera": "wide scene",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: wide scene. Regent study dusk, urgent courier sliding wax sealed letter onto crowded table while Olivia and Finley assess fragmented dispatches, sunset fading into shadows. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC04_01.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC04_02",
+    "scene": "SC04",
+    "shot": 2,
+    "title_zh": "羅蘭初登場",
+    "cast": [
+      "ROLAND"
+    ],
+    "camera": "character reveal medium",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: character reveal medium. Roland Kaczynski in dark weathered plate armor, charcoal fur mantle and richly trimmed crimson cloak, slick black hair and short beard, in medieval command pavilion reviewing a campaign map. Roland Kaczynski: use bundled turnaround as primary identity lock; swept black hair streaked silver, short dark beard, worn blackened steel armour, dark fur mantle, burgundy red cloak with restrained gold trim, mature 42-ish.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC04_02.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC04_03",
+    "scene": "SC04",
+    "shot": 3,
+    "title_zh": "奪取首領地",
+    "cast": [
+      "ROLAND"
+    ],
+    "camera": "wide military",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: wide military. Roland mounted on dark warhorse above a recently seized stone fortress, one previous banner lowered, guarded soldiers and distant smoke; no civilian gore, no final victory. Roland Kaczynski: use bundled turnaround as primary identity lock; swept black hair streaked silver, short dark beard, worn blackened steel armour, dark fur mantle, burgundy red cloak with restrained gold trim, mature 42-ish.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC04_03.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC04_04",
+    "scene": "SC04",
+    "shot": 4,
+    "title_zh": "小村的損失",
+    "cast": [
+      "NONE"
+    ],
+    "camera": "wide aftermath",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: wide aftermath. Aftermath of a raided rural settlement, damaged wagons, scorched storage shed, villagers collecting belongings, restrained grief without gore or theatrical spectacle. ",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC04_04.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC04_05",
+    "scene": "SC04",
+    "shot": 5,
+    "title_zh": "不多的難民",
+    "cast": [
+      "MIYEER"
+    ],
+    "camera": "documentary medium wide",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: documentary medium wide. A small group of civilians reaches an organized sacred-light shelter with practical beds, soup and bandaging, Miyeer supervising compassionate relief work, no vast refugee crowd. Miyeer: use bundled NEW PROVISIONAL turnaround v0.1, blonde female in blue white gold faith robes; not verified as matching EP08 asset.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC04_05.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC04_06",
+    "scene": "SC04",
+    "shot": 6,
+    "title_zh": "傷亡入帳",
+    "cast": [
+      "FINLEY",
+      "OLIVIA"
+    ],
+    "camera": "intimate two-shot",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: intimate two-shot. Finley holds casualty report with illegible marks, Olivia listens without surprise by map at dusk, quiet ethical confrontation, dim lantern on untouched tea cup. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC04_06.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC05_01",
+    "scene": "SC05",
+    "shot": 1,
+    "title_zh": "夜間戰略室",
+    "cast": [
+      "OLIVIA",
+      "FINLEY"
+    ],
+    "camera": "wide interior",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: wide interior. Nighttime royal strategy chamber with lamps, Olivia and Finley at campaign table outlining rift perimeter, guarded commanders shown only as silhouettes. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC05_01.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC05_02",
+    "scene": "SC05",
+    "shot": 2,
+    "title_zh": "第六團的警戒線",
+    "cast": [
+      "ALINDA"
+    ],
+    "camera": "military wide",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: military wide. Alinda in navy practical military armor with pale ash-blonde low ponytail and steel-blue eyes overlooking fortified road checkpoint with orderly sixth knight regiment, enemy kept in distance. Alinda adult 26, pale ash blonde low ponytail, steel-blue eyes, navy sixth-knight armor, use approved Alinda reference.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC05_02.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC05_03",
+    "scene": "SC05",
+    "shot": 3,
+    "title_zh": "兩岸軍力預案",
+    "cast": [
+      "NONE"
+    ],
+    "camera": "strategic macro",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: strategic macro. Overhead strategy map with two different knight-regiment miniature forces positioned on opposing rift banks, preserved humanitarian corridor highlighted by physical tokens, illegible map. ",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC05_03.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC05_04",
+    "scene": "SC05",
+    "shot": 4,
+    "title_zh": "封緘的軍令",
+    "cast": [
+      "OLIVIA_HAND",
+      "FINLEY_HAND"
+    ],
+    "camera": "detail macro",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: detail macro. Olivia presses lion signet into red sealing wax on a military order while Finley aligns supporting documents, close hands, strong lamp shadows, no legible script. Olivia: adult woman waist-length straight blue-black hair, amber gold eyes, navy/antique gold/ivory courtwear, Ogan pendant, lion ring, never crown. Use approved Olivia turnaround if available. Finley: petite androgynous adult, navy scholar robe, entirely human visible appearance, no horns/ears/scales, use approved Finley asset if available.",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC05_04.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  },
+  {
+    "cg_id": "LE_CG_EP09_ACT01_SC05_05",
+    "scene": "SC05",
+    "shot": 5,
+    "title_zh": "裂谷兩岸的黎明前",
+    "cast": [
+      "NONE"
+    ],
+    "camera": "chapter transition panorama",
+    "status": "PROMPT_ONLY",
+    "target_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium Japanese visual novel event CG, dark political fantasy, hand-painted 2D anime illustration, cinematic natural lighting, landscape 16:9, target 1920x1080, understated medieval European court realism, refined detailed linework, convincing anatomical hands and bodies, consistent faces and garments. Composition: chapter transition panorama. Distant cinematic view of two separated disciplined military banners stationed on both banks of a ravine at predawn, Roland forces distant beyond; no battle, no death or seven-land transfer yet. ",
+    "negative_prompt": "No readable text, letters, UI overlays, watermark, logos, photography, 3D CGI, chibi, explicit gore, duplicated limbs, extra fingers, distorted heads, accidental crowns on Olivia, dragon traits on Finley, invented coats of arms, premature Roland death, premature annexation or victory.",
+    "file": "assets/cg/LE_CG_EP09_ACT01_SC05_05.webp",
+    "reference_status": "ROLAND_INCLUDED_MIYEER_PROVISIONAL_OTHERS_EXTERNAL"
+  }
+]

@@ -12,7 +12,8 @@ export function useAudio(
   sfxVolume: number,
   selected: string,
   onError: (m: string) => void,
-  suspended = false
+  suspended = false,
+  fadeOnSuspend = false
 ) {
   const music = useRef<HTMLAudioElement | null>(null),
     effect = useRef<HTMLAudioElement | null>(null);
@@ -123,9 +124,32 @@ export function useAudio(
       music.current.volume = Math.max(0, Math.min(1, musicVolume * musicGain(loadedTrack.current)));
   }, [musicVolume]);
   useEffect(() => {
+    if (suspended && fadeOnSuspend) {
+      const a = music.current;
+      wanted.current = false;
+      generation.current++;
+      if (!a) return;
+      const start = performance.now(),
+        volume = a.volume;
+      let frame = 0;
+      const fade = () => {
+        const left = Math.max(0, 1 - (performance.now() - start) / 700);
+        a.volume = volume * left;
+        if (left > 0) frame = requestAnimationFrame(fade);
+        else {
+          a.pause();
+          a.removeAttribute('src');
+          a.load();
+          loadedTrack.current = undefined;
+          setStatus('stopped');
+        }
+      };
+      frame = requestAnimationFrame(fade);
+      return () => cancelAnimationFrame(frame);
+    }
     if (enabledRef.current && wanted.current && loadedTrack.current !== track) playTrack(track);
     // Playback intent is controlled by explicit gestures; paragraph changes never restart music.
-  }, [track, story]);
+  }, [track, story, suspended, fadeOnSuspend]);
   useEffect(() => {
     const a = effect.current,
       asset = story.assets.find((x) => x.id === sfx && x.type === 'sfx');

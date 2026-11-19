@@ -56,7 +56,7 @@ function start(route: 'SACRED' | 'WORLD', points = 100, unrest = 30) {
   expect(next.campaign!.politicalPoints).toBe(points);
   expect(next.campaign!.upkeep).toEqual(state.campaign!.upkeep);
   expect(chapterDirectory(story, [], next).find((c) => c.id === 'EP08')!.acts[3].title).toBe(
-    route === 'SACRED' ? '慈悲的價碼' : '未降臨的寒冰'
+    route === 'SACRED' ? '行公義，好憐憫' : '你只可到這裏，不可越過'
   );
   return next;
 }
@@ -69,6 +69,7 @@ function play(route: 'SACRED' | 'WORLD', picks: string, flavor = 'A', points = 1
     text: string[] = [];
   for (let turn = 0; turn < 200; turn++) {
     const scene = story.scenes[state.currentSceneId];
+    if (scene.specialEnding === 'ARCANA_06') { ended = true; break; }
     expect(evaluate(state, scene.availableWhen!)).toBe(true);
     const segments = visibleSegments(story, state);
     for (let i = 0; i < segments.length; i++) {
@@ -90,7 +91,7 @@ function play(route: 'SACRED' | 'WORLD', picks: string, flavor = 'A', points = 1
     }
     if (scene.kind === 'end') {
       expect(scene.completion).toMatchObject({ scope: 'ACT', nextChapterId: 'EP08' });
-      expect(scene.completion!.pendingLabel).toContain('第五幕');
+      expect(scene.completion!.nextSceneId).toBe(`EP08_ACT05_SC01_${route[0]}`);
       ended = true;
       break;
     }
@@ -115,7 +116,7 @@ function play(route: 'SACRED' | 'WORLD', picks: string, flavor = 'A', points = 1
   }
   expect(ended).toBe(true);
   expect(index).toBe(4);
-  expect(flavors).toBe(route === 'SACRED' ? 14 : 12);
+  if (!state.flags.POLITICAL_POINTS_EXHAUSTED) expect(flavors).toBe(route === 'SACRED' ? 14 : 12);
   expect(state.flags.S3_CLEAR).toBe(true);
   expect(state.flags.FINLEY_SECRETARY_SEAL).toBe(true);
   expect(state.flags.EP08_S3_M01).toBe('A');

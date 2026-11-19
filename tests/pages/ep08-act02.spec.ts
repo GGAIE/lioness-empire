@@ -16,7 +16,7 @@ test('continues both old first-act saves, loads the matching CG and lists the No
 }, info) => {
   const story = await loadReaderContent();
   await prepare(page);
-  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.17/ }).click();
+  await page.getByRole('button', { name: /更新日誌 FINLEY2026\.11\.19/ }).click();
   await expect(page.getByRole('dialog')).toContainText('第八章第二幕');
   await expect(page.getByRole('dialog')).toContainText('42 張 CG');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
@@ -94,7 +94,7 @@ test('shows the selected World political response and updates the permanent HUD 
     await expect(page.locator('.shell > .resource-hud').getByTestId('unrest-value')).toHaveText(
       unrest
     );
-    await expect(page.locator('.speaker-line')).toContainText('奧莉維亞');
+    await expect(page.locator('.speaker-line')).toContainText('奧莉薇雅');
   }
 });
 
@@ -149,7 +149,7 @@ test('displays Hebe with a speaker label, blocks unaffordable Sacred choices and
     await importPlayerState(page, final);
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第二幕完');
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-      route === 'SACRED' ? '第三幕〈無人承接的契約〉' : '第三幕〈山火記得的名字〉'
+      route === 'SACRED' ? '第三幕〈不可挪移你鄰舍的地界〉' : '第三幕〈述說給後代聽〉'
     );
     await expect(page.getByRole('alertdialog')).toHaveCount(0);
   }

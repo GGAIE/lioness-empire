@@ -213,7 +213,7 @@ export function ep06Checks() {
     end.contentVersion = '0.14.2-reader-staging.reader-v1';
     delete end.flags.F2_METHOD;
     await importPlayerState(page, end);
-    await expect(page.getByRole('region', { name: '章節完成' })).toContainText('盤根錯節');
+    await expect(page.getByRole('region', { name: '章節完成' })).toContainText('公平的法碼為他所喜悅');
     await expect(page.getByRole('alertdialog')).toHaveCount(0);
     await page.getByRole('button', { name: /進入第三幕/ }).click();
     await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP06_ACT03_SC01');
@@ -230,7 +230,7 @@ export function ep06Checks() {
     await page.getByRole('button', { name: '推進對話', exact: true }).click();
     await expect(page.getByRole('alertdialog')).toContainText('章末');
     await page.getByRole('button', { name: '確認結算資訊' }).click();
-    await expect(page.getByRole('region', { name: '章節完成' })).toContainText('不能兼顧的王國');
+    await expect(page.getByRole('region', { name: '章節完成' })).toContainText('一個人不能事奉兩個主');
     await expect(page.locator('.stage-blackout')).toHaveCSS('opacity', '1');
     await page.screenshot({
       path: info.outputPath('ep06-finale.png'),

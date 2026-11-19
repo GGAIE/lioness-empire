@@ -54,6 +54,8 @@ export const ChoiceSchema = z
     next: z.string().min(1),
     when: ConditionSchema.optional(),
     effects: z.array(EffectSchema).default([]),
+    // Authored narrative mistakes can exhaust resources even when unaffordable.
+    pointCostPolicy: z.literal('ALLOW_EXHAUSTION').optional(),
     previewEffects: z
       .array(z.object({ when: ConditionSchema, effects: z.array(EffectSchema) }).strict())
       .optional(),
@@ -91,7 +93,7 @@ export const SceneSchema = z
     directoryVisibleWhenLocked: z.boolean().optional(),
     interlude: z.boolean().optional(),
     transient: z.boolean().optional(),
-    specialEnding: z.literal('RETURN_TO_TITLE').optional(),
+    specialEnding: z.enum(['RETURN_TO_TITLE', 'ARCANA_06']).optional(),
     completionEffects: z
       .object({ when: ConditionSchema, effects: z.array(EffectSchema).min(1) })
       .strict()
@@ -154,7 +156,10 @@ export const SceneSchema = z
   .superRefine((s, c) => {
     if (s.choiceMode && s.kind !== 'choice')
       c.addIssue({ code: 'custom', message: 'Choice mode requires a choice scene' });
-    if (s.choiceMode === 'DIALOGUE_FLAVOR' && s.choices.some((choice) => choice.effects.length))
+    if (
+      s.choiceMode === 'DIALOGUE_FLAVOR' &&
+      s.choices.some((choice) => choice.effects.length || choice.pointCostPolicy)
+    )
       c.addIssue({ code: 'custom', message: 'Flavor choices must have no gameplay effects' });
     if (
       s.choiceMode === 'DIALOGUE_FLAVOR' &&
@@ -253,6 +258,8 @@ export const ChapterSchema = z
   .object({
     id: z.string(),
     title: z.string(),
+    subtitle: z.string().min(1).optional(),
+    libraryOnly: z.boolean().optional(),
     status: z.enum(['DEMO_ONLY', 'AVAILABLE', 'DRAFT_AVAILABLE', 'NOT_YET_AVAILABLE']),
     file: z
       .string()
@@ -270,6 +277,10 @@ export const ManifestSchema = z
     chapters: z.array(ChapterSchema),
     flags: z.record(z.string(), z.object({ initial: Scalar, description: z.string() }).strict()),
     migrations: z.record(z.string(), z.string()),
+    resourceExhaustionEnding: z
+      .object({ scene: z.string(), ending: z.string(), flag: z.string() })
+      .strict()
+      .optional(),
     planningFile: z
       .string()
       .regex(/^planning\/[a-zA-Z0-9_-]+\.json$/)

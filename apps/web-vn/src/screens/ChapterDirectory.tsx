@@ -68,6 +68,7 @@ export function ChapterDirectory({
                 <span className="directory-number">{chapter.number}</span>
                 <div>
                   <h3>{chapter.title}</h3>
+                  {chapter.subtitle && <p className="chapter-subtitle">{chapter.subtitle}</p>}
                   <p>
                     {sections.length
                       ? `已提供 ${authored} / ${chapter.acts.length} 幕 · 已讀 ${count} / ${sections.length} 節${authored < chapter.acts.length ? ' · 後續待續' : ''}`
@@ -99,6 +100,9 @@ export function ChapterDirectory({
                           <h4>
                             {act.label} · {act.title}
                           </h4>
+                          {act.scriptureReference && (
+                            <p className="scripture-reference">{act.scriptureReference}</p>
+                          )}
                           <p>
                             {act.sections.length
                               ? `${act.sections.length} 節 · 已讀 ${act.sections.filter((s) => s.read).length} 節`

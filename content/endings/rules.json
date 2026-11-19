@@ -4,10 +4,15 @@
     "title": "被寫回條約",
     "orientation": "UPRIGHT",
     "grade": "BAD",
-    "status": "UNRESOLVED",
-    "priority": 10,
-    "reason": "新政治資源與舊 PS 定義不同，此結局門檻待重新校準；不沿用歸零或45分判定。",
-    "source": "planning/source-v0.1.md §二、§六"
+    "status": "APPROVED",
+    "priority": -1000,
+    "reason": "正式政治點數結算後耗盡，優先進入VI；不以舊政治評分或Tarot路線作門檻。",
+    "source": "sources/endings/Lioness_Empire_Bad_End_VI_Written_Back_Into_the_Treaty_v1.0.md",
+    "when": {
+      "path": "flags.POLITICAL_POINTS_EXHAUSTED",
+      "op": "eq",
+      "value": true
+    }
   },
   {
     "id": "ARCANA_13",

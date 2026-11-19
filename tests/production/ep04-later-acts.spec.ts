@@ -98,7 +98,7 @@ test('production skips declined F1, completes the earned reward once and warns o
   await expect(page.getByRole('alertdialog')).toContainText('章末政治點數：85');
   await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    '第五章〈攝政成為習慣〉'
+    '第五章〈Gimme Shelter〉'
   );
   await expect(page.getByRole('button', { name: /進入第五章/ })).toBeVisible();
   await expect(page.getByRole('region', { name: '章節完成' })).not.toContainText('劇本尚未提供');

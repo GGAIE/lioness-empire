@@ -1,0 +1,525 @@
+{
+  "schema": "lioness-empire-cg-v1",
+  "episode": "EP08",
+  "act": "ACT05",
+  "route": "SACRED",
+  "expected_cg_count": 32,
+  "generated_event_cg_count": 0,
+  "assets": [
+    {
+      "cg_id": "CG01",
+      "title": "A quiet room after the ice crisis",
+      "scene_id": "EP08_SACRED_ACT05_SC01",
+      "actors": [
+        "Olivia",
+        "Alicia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG01_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Wide establishing view of the Northeast Tower study in the royal capital on a clear afternoon, open arched windows, distant rooftops, unsent relief documents and tea, Olivia and Alicia seated opposite one another, tired but genuinely amused, the city seen beyond the window. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG02",
+      "title": "Seal is not a weapon",
+      "scene_id": "EP08_SACRED_ACT05_SC01",
+      "actors": [
+        "Alicia",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG02_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Medium close scene: Alicia points to abstract loop-shaped elemental sealing diagrams with her gloved fingertip, Olivia listens with thoughtful curiosity, faint cool cyan reflections from NON-READABLE magical geometry, no giant dragon in room. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG03",
+      "title": "Finley notices a research lead",
+      "scene_id": "EP08_SACRED_ACT05_SC01",
+      "actors": [
+        "Finley",
+        "Alicia",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG03_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Triangular composition of Finley leaning forward toward Alicia, an academic spark in his face, Alicia gestures toward a small tied bundle of manuscript pages, Olivia watches with a playful eyebrow raised; no papers with readable words. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG04",
+      "title": "A moment of laughter at the tower",
+      "scene_id": "EP08_SACRED_ACT05_SC01",
+      "actors": [
+        "Olivia",
+        "Alicia",
+        "Finley"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG04_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Candid cinematic shot of Olivia smiling as Alicia dryly jokes about a mage moving her bookcases, Finley looks offended but politely restrained, warm afternoon sunlight through window tracery, research desk in foreground. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG05",
+      "title": "Unexpected holy visitor",
+      "scene_id": "EP08_SACRED_ACT05_SC01",
+      "actors": [
+        "Olivia",
+        "Alicia",
+        "Finley"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG05_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "A palace attendant at the oak door of the Northeast Tower study announcing a church visitor, Olivia turns from tea with mildly incredulous expression, Alicia and Finley pause their conversation, subtle tension enters the light room. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG06",
+      "title": "Mier arrives respectfully",
+      "scene_id": "EP08_SACRED_ACT05_SC02",
+      "actors": [
+        "Mier"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG06_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Full-body cinematic entrance of Mier alone passing through high oak double doors into a restrained royal reception chamber in the Northeast Tower, delicate ivory-gold robes, proper braided golden hairstyle, carrying a sealed greeting, confident diplomacy without guards or grand procession. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG07",
+      "title": "The regent and emissary greet",
+      "scene_id": "EP08_SACRED_ACT05_SC02",
+      "actors": [
+        "Olivia",
+        "Mier"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG07_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Balanced eye-level two-shot: Olivia offers Mier a proper seat, Mier bows slightly and smiles with careful courtesy, no handshake required, tea service and city windows forming an understated diplomatic setting. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG08",
+      "title": "Three observers and one envoy",
+      "scene_id": "EP08_SACRED_ACT05_SC02",
+      "actors": [
+        "Olivia",
+        "Mier",
+        "Alicia",
+        "Finley"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG08_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png",
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Four-character meeting tableau from slightly elevated perspective, Mier across table from Olivia, Alicia set aside in researcher attire, Finley writing on a discreet notepad, all physically correct, staged to avoid clutter. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG09",
+      "title": "Help offered without asking",
+      "scene_id": "EP08_SACRED_ACT05_SC02",
+      "actors": [
+        "Mier",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG09_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Mier makes a soft open-hand gesture as she alludes to social relief and administrative help, golden late-afternoon rim light catching her embroidered sleeve, Olivia visible in opposite shallow-focus foreground scrutinizing her wording. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG10",
+      "title": "Olivia studies the hidden terms",
+      "scene_id": "EP08_SACRED_ACT05_SC02",
+      "actors": [
+        "Olivia",
+        "Mier"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG10_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Intimate three-quarter portrait of Olivia studying an unsealed administrative sheet between two cups of tea, almost invisible suspicion in her amber eyes, Mier still gracious behind her, palace sunlight dimming. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG11",
+      "title": "The cooperation papers",
+      "scene_id": "EP08_SACRED_ACT05_SC03",
+      "actors": [
+        "Mier",
+        "Finley"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG11_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Overhead composition of four abstract paperwork bundles, unmarked maps, a sun-motif wax seal, a lion signet and a cup on a wooden council table, hands of an emissary and bureaucrat entering frame from different sides, no legible text. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG12",
+      "title": "A bureaucrat draws a boundary",
+      "scene_id": "EP08_SACRED_ACT05_SC03",
+      "actors": [
+        "Finley",
+        "Mier",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG12_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Finley points to two distinct piles of paper on the table to explain the difference between coordination and authorization, Mier responds politely, Olivia watches from an adjacent chair, academic administrative detail in near focus. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG13",
+      "title": "Priests helping those in need",
+      "scene_id": "EP08_SACRED_ACT05_SC03",
+      "actors": [],
+      "condition": "flashback; Mier not physically present; this is local relief volunteers and civilians only",
+      "filename": "LE_CG_EP08_ACT05_CG13_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [],
+      "prompt": "Respectful documentary-feeling flashback vignette in a damaged provincial village: white-and-gold church relief volunteers distributing bread, blanket bundles and medical assistance to affected civilians, no propaganda, no caricatures, no snowstorm during aid.  Environment: Historical relief flashback shown as visual insert; do not imply Mier was at this particular village. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG14",
+      "title": "The church finds its argument",
+      "scene_id": "EP08_SACRED_ACT05_SC03",
+      "actors": [
+        "Mier",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG14_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Mier viewed from Olivia side of table speaking softly about easing anger among frightened villagers, her gold eyes observant, genuinely convinced helping the public matters, warm light but strong diagonal desk shadows. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG15",
+      "title": "A proposal with two meanings",
+      "scene_id": "EP08_SACRED_ACT05_SC03",
+      "actors": [
+        "Mier",
+        "Finley",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG15_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Tight still-life and hands: Mier slides a modest trial-cooperation memorandum across the table, Finley carefully holds a separate approval ledger apart, Olivia signet on the edge of the frame, paper writing abstract and unreadable. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG16",
+      "title": "The relief window outside",
+      "scene_id": "EP08_SACRED_ACT05_SC03",
+      "actors": [
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG16_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [],
+      "prompt": "From within Northeast Tower, Olivia looks through arched window at the distant bustling capital with tiny church volunteers and local citizens near a public relief wagon, her reflection in glass and faint golden flags, politics versus visible need. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG17",
+      "title": "Alicia opens her evidence",
+      "scene_id": "EP08_SACRED_ACT05_SC04",
+      "actors": [
+        "Alicia",
+        "Mier"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG17_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png",
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "At sunset, Alicia unfolds several non-readable technical sketches of protective seals, calm assertive gaze toward Mier, cream-green mage outfit and low ponytail clearly visible; Mier receives the question without contempt. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG18",
+      "title": "Mier defends actual aid",
+      "scene_id": "EP08_SACRED_ACT05_SC04",
+      "actors": [
+        "Mier",
+        "Alicia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG18_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png",
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Close two-shot as Mier speaks earnestly about relief stations and medical volunteers, composed and serious rather than villainous, Alicia listens without mocking, sunburst chest medallion clear. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG19",
+      "title": "Olivia sets the reports down",
+      "scene_id": "EP08_SACRED_ACT05_SC04",
+      "actors": [
+        "Olivia",
+        "Mier"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG19_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Olivia lays a thick relief report on the table, no readable figures, gives Mier a politely severe look, sophisticated courtly staging at the moment a gentle talk becomes open institutional criticism. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG20",
+      "title": "Two kinds of expertise",
+      "scene_id": "EP08_SACRED_ACT05_SC04",
+      "actors": [
+        "Alicia",
+        "Finley",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG20_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Alicia and Finley each point to different facets of an abstract sealing diagram and an administrative route map on the same table, illustrating how magic judgment and official authority are separate, Olivia in soft-focus. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG21",
+      "title": "The final scope of authority",
+      "scene_id": "EP08_SACRED_ACT05_SC04",
+      "actors": [
+        "Olivia",
+        "Mier",
+        "Finley"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG21_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Tense three-person composition: Olivia with poised hand over a simple memorandum, Mier attentively waiting, Finley taking a careful note, late sunlight edging papers, no signed treaty, silent power imbalance. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG22",
+      "title": "End of the courteous clash",
+      "scene_id": "EP08_SACRED_ACT05_SC04",
+      "actors": [
+        "Olivia",
+        "Mier",
+        "Alicia",
+        "Finley"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG22_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png",
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Wide dusk view of the Northeast Tower reception room, Mier standing to leave while Olivia remains composed, Alicia calmly closing her notes, Finley holding the unfinalized papers, no theatrical rage, no physical fighting. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG23",
+      "title": "Farewell without a treaty",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Mier",
+        "Olivia"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG23_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Mier performs a respectful courtly bow at the Northeast Tower interior doorway before leaving, Olivia returns the gesture without warmth or cruelty, twilight passing across patterned stone walls. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG24",
+      "title": "The departing emissary",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Mier"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG24_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Mier_Three_View_v1.0_CANDIDATE.png"
+      ],
+      "prompt": "Long ornate palace corridor at dusk, view from behind Mier walking toward archway shadows, long ivory-gold robe and complex golden braided chignon accurate from back, her composure remains unreadable. Mier, elegant adult blonde church diplomat, golden-amber eyes, elaborately braided low chignon, ivory and warm-gold ceremonial ecclesiastical robe with embroidered hems, short layered mantle and round golden sun medallion. Match Mier_Three_View_v1.0_CANDIDATE.png closely. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG25",
+      "title": "T0 preserved autonomy, gathering discontent",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia",
+        "Finley"
+      ],
+      "condition": "T0",
+      "filename": "LE_CG_EP08_ACT05_CG25_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [],
+      "prompt": "Outcome art: Olivia at Northeast Tower window and Finley beside a clear stack of independent royal documents, city public petitions visible only as tiny indistinct activity beyond, solemn pride and burden, no flags or writing legible. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG26",
+      "title": "T1 authority remains measured",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia",
+        "Finley",
+        "Alicia"
+      ],
+      "condition": "T1",
+      "filename": "LE_CG_EP08_ACT05_CG26_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Outcome art: Olivia sits upright reviewing limited-cooperation records while Mier is gone, Finley separates time-limited documents, Alicia watches from one side; disciplined relief with unresolved demands. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG27",
+      "title": "T2 a cautiously functioning compromise",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia",
+        "Finley",
+        "Alicia"
+      ],
+      "condition": "T2",
+      "filename": "LE_CG_EP08_ACT05_CG27_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Outcome art: Olivia points at an administratively controlled distribution map as Alicia and Finley calmly affirm limited boundaries, eastern sunset over capital, restrained sense of cautious progress. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG28",
+      "title": "T3 uncertain balance",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia"
+      ],
+      "condition": "T3",
+      "filename": "LE_CG_EP08_ACT05_CG28_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [],
+      "prompt": "Outcome art: twilight roundtable after negotiations, Olivia alone in a thoughtful pose with two neat bundles of still unresolved documents, candle just lit, fair balanced atmosphere, not celebratory. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG29",
+      "title": "T4 inconvenient dependencies",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia",
+        "Finley"
+      ],
+      "condition": "T4",
+      "filename": "LE_CG_EP08_ACT05_CG29_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [],
+      "prompt": "Outcome art: Finley notices a gold sun-marked correspondence slip beneath royal paperwork, Olivia leans in to examine subtle procedural dependency, amber eyes narrowing, cool indoor dusk. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG30",
+      "title": "T5 institutional reliance builds",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia",
+        "Alicia",
+        "Finley"
+      ],
+      "condition": "T5",
+      "filename": "LE_CG_EP08_ACT05_CG30_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Outcome art: Olivia and Alicia in silent unease as Finley maps with unmarked strings and document piles how church relief, town administration and unusual alerts are connected, no writing, candlelight with deep shadows. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG31",
+      "title": "T6 too much authority given away",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia",
+        "Finley",
+        "Alicia"
+      ],
+      "condition": "T6",
+      "filename": "LE_CG_EP08_ACT05_CG31_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Outcome art: Olivia seated with an incredulous, fatigued look as Finley lays four separate bundles of church-related administrative memos onto the table and Alicia closes her eyes in concern; low candlelight, not defeat in battle, realistic institutional political failure. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Environment: Interior Northeast Tower study/reception at afternoon to dusk, or relevant permitted flashback. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    },
+    {
+      "cg_id": "CG32",
+      "title": "Eastern frontline dispatch arrives",
+      "scene_id": "EP08_SACRED_ACT05_SC05",
+      "actors": [
+        "Olivia",
+        "Alicia",
+        "Finley"
+      ],
+      "condition": "common",
+      "filename": "LE_CG_EP08_ACT05_CG32_v1.0.png",
+      "status": "PROMPT_ONLY",
+      "reference_files": [
+        "Alicia_Three_View_v1.0_USER_REFERENCE.png"
+      ],
+      "prompt": "Final night shot: a road-dusty eastern courier presents a sealed, unreadable military dispatch to Olivia at Northeast Tower study, Alicia and Finley nearby, dark window and amber candles, the new crisis arriving before the room has recovered from negotiation. Olivia, the adult royal regent, very long straight blue-black hair, amber-gold eyes, fair skin, understated navy-violet and antique-gold court garments, lion signet and discreet pendant; no crown. Alicia, adult magic researcher with ash-brown hair in a low loose ponytail tied with muted green ribbon, gray-green eyes, cream practical high-collar coat with moss-green capelet trim and sash, dark trousers, leather boots and small brown satchel. Strictly match the user-provided Alicia three-view. Finley, petite androgynous human bureaucrat-magician, conventional human anatomy, dark navy administrative outfit, careful gaze and restrained movement; no horns, tail, scales, wings, pointed ears or reptile eyes. Environment: Night Northeast Tower / EP09 dramatic handoff. High-end 2D Japanese dark political fantasy visual novel event CG, painterly cel shading, detailed hand-drawn line art, cinematic 16:9 horizontal framing, coherent perspective and realistic human anatomy, historically inspired non-modern fantasy palace architecture, grounded character emotion, nuanced institutional power, no readable writing on paper, no subtitles, no logos, no watermark."
+    }
+  ]
+}

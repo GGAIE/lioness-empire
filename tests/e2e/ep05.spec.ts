@@ -103,7 +103,7 @@ test('Tamara costs 8 at the decision, grants 15 only after arriving, and keeps e
   await expect(hud(page, 'political-points')).toHaveText('57');
   expect(requests.some((r) => /ACT03_2[12]_/.test(r))).toBe(false);
   await importPlayerState(page, at('EP05_ACT04_SC05', {}, true));
-  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('庇護的代價');
+  await expect(page.getByRole('region', { name: '章節完成' })).toContainText('第五章完 · Gimme Shelter');
   await expect(page.getByRole('alertdialog')).toHaveCount(0);
   expect(errors).toEqual([]);
 });

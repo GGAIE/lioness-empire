@@ -65,8 +65,8 @@ test('EP01 ACT I reads every paragraph, loads all eleven CGs, saves mid-scene an
   }
   expect(imageCount).toBe(11);
   const finish = page.getByRole('region', { name: '章節完成' });
-  await expect(finish).toContainText('第一幕完 · 平靜被打破');
-  await expect(finish).toContainText('ACT II〈離開學院〉');
+  await expect(finish).toContainText('第一幕完 · 凡事都有定期，天下萬務都有定時');
+  await expect(finish).toContainText('ACT II〈人心籌算自己的道路〉');
   await expect(finish).toContainText('整章尚未結算');
   await expect(page.getByRole('alertdialog')).toHaveCount(0);
   await expect(page.locator('.shell>.resource-hud').getByTestId('political-points')).toHaveText(
@@ -84,7 +84,7 @@ test('EP01 ACT I reads every paragraph, loads all eleven CGs, saves mid-scene an
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   await page.getByRole('button', { name: '章節', exact: true }).click();
   await expect(
-    page.getByRole('article').filter({ has: page.getByRole('heading', { name: /王冠之前/ }) })
+    page.getByRole('article').filter({ has: page.getByRole('heading', { name: /The Call/ }) })
   ).toContainText('已提供 5 / 5 幕');
   await page.getByRole('button', { name: '關閉視窗', exact: true }).click();
   await page.getByRole('button', { name: '進入 EP01 第二幕' }).click();

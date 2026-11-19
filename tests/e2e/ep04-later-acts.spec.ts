@@ -179,7 +179,7 @@ for (const active of [true, false])
     await expect(page.getByRole('alertdialog')).toContainText(`章末政治點數：${active ? 85 : 45}`);
     await page.getByRole('button', { name: '確認結算資訊', exact: true }).click();
     await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-      '第五章〈攝政成為習慣〉'
+      '第五章〈Gimme Shelter〉'
     );
     const musicState = await page
       .getByTestId('background-music')

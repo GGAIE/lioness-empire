@@ -27,6 +27,7 @@ beforeAll(async () => {
   story.manifest.start = story.manifest.chapters.find((c) => c.id === 'DEMO')!.entry!;
   // The v2 resolver remains regression-tested as an explicitly archived model.
   // The new resource model must not reactivate its PS=0/45 or obsolete XI gates.
+  story.manifest.resourceExhaustionEnding = undefined;
   story.endings = z.array(EndingRuleSchema).parse(await readJson('endings/legacy-v2-rules.json'));
 });
 const start = () => initialState(story);
@@ -41,19 +42,31 @@ const gate = (s: GameState, flags: Record<string, boolean | number | string>) =>
   flags: { ...s.flags, ...flags },
 });
 describe('data contract and story graph', () => {
-  it('validates independently loaded chapters and 30 external slots', () => {
-    expect(validateStory(story).errors).toEqual([]);
+  it('validates independently loaded chapters and 30 external slots', async () => {
+    expect(validateStory(await loadContent()).errors).toEqual([]);
     expect(story.endings).toHaveLength(30);
     expect(story.endings.filter((r) => r.orientation === 'REVERSED')).toHaveLength(8);
   });
   it('does not compile unavailable Canon chapters', () => {
-    expect(story.manifest.chapters.filter((c) => c.status === 'NOT_YET_AVAILABLE')).toHaveLength(4);
+    expect(story.manifest.chapters.filter((c) => c.status === 'NOT_YET_AVAILABLE')).toHaveLength(3);
     expect(
       Object.values(story.scenes).every(
         (s) =>
           (s.status === 'DEMO_ONLY' && s.chapter === 'DEMO') ||
           (s.status === 'DRAFT' &&
-            ['PROLOGUE', 'EP01', 'EP02', 'EP03', 'EP04', 'EP05', 'EP06', 'EP07', 'EP08'].includes(s.chapter))
+            [
+              'PROLOGUE',
+              'EP01',
+              'EP02',
+              'EP03',
+              'EP04',
+              'EP05',
+              'EP06',
+              'EP07',
+              'EP08',
+              'EP09',
+              'ENDINGS',
+            ].includes(s.chapter))
       )
     ).toBe(true);
   });

@@ -122,7 +122,19 @@ describe('source-backed chapter architecture', () => {
         (s) =>
           s.status === 'DEMO_ONLY' ||
           (s.status === 'DRAFT' &&
-            ['PROLOGUE', 'EP01', 'EP02', 'EP03', 'EP04', 'EP05', 'EP06', 'EP07', 'EP08'].includes(s.chapter))
+            [
+              'PROLOGUE',
+              'EP01',
+              'EP02',
+              'EP03',
+              'EP04',
+              'EP05',
+              'EP06',
+              'EP07',
+              'EP08',
+              'EP09',
+              'ENDINGS',
+            ].includes(s.chapter))
       )
     ).toBe(true);
     expect(plan.chapters.every((c) => c.availability === 'NOT_YET_AVAILABLE')).toBe(true);
@@ -146,7 +158,7 @@ describe('source-backed chapter architecture', () => {
   });
   it('retires invalidated active PS/XI gates while retaining all 30 slots', async () => {
     const story = await loadContent();
-    for (const id of ['ARCANA_06', 'ARCANA_07', 'ARCANA_11', 'ARCANA_12', 'ARCANA_21']) {
+    for (const id of ['ARCANA_07', 'ARCANA_11', 'ARCANA_12', 'ARCANA_21']) {
       const r = story.endings.find((r) => r.id === id)!;
       expect(r.status).toBe('UNRESOLVED');
       expect(r.when).toBeUndefined();

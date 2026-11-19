@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.23.0-ep08-act04",
+  "version": "0.25.0-ep09-act01",
   "start": "PRO-SC01",
   "chapters": [
     {
@@ -19,64 +19,75 @@
     },
     {
       "id": "EP01",
-      "title": "王冠之前 · ACT I–V",
+      "title": "The Call",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep01/chapter.json",
-      "entry": "EP01_ACT01_SC01"
+      "entry": "EP01_ACT01_SC01",
+      "subtitle": "王都的召回令"
     },
     {
       "id": "EP02",
-      "title": "留下來的人",
+      "title": "The Weight",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep02/chapter.json",
-      "entry": "EP02_ACT01_SC01"
+      "entry": "EP02_ACT01_SC01",
+      "subtitle": "王冠照不到的地方"
     },
     {
       "id": "EP03",
-      "title": "責任先於權力",
+      "title": "King and Lionheart",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep03/chapter.json",
-      "entry": "EP03_ACT01_SC01"
+      "entry": "EP03_ACT01_SC01",
+      "subtitle": "獅王交出的印戒"
     },
     {
       "id": "EP04",
-      "title": "不得已攝政",
+      "title": "Everybody Wants to Rule the World",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep04/chapter.json",
-      "entry": "EP04_ACT01_SC01"
+      "entry": "EP04_ACT01_SC01",
+      "subtitle": "攝政與空席"
     },
     {
       "id": "EP05",
-      "title": "攝政成為習慣",
+      "title": "Gimme Shelter",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep05/chapter.json",
-      "entry": "EP05_ACT01_SC01"
+      "entry": "EP05_ACT01_SC01",
+      "subtitle": "七艘船與一盞燈"
     },
     {
       "id": "EP06",
-      "title": "兩份攝政令",
+      "title": "Which Side Are You On?",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep06/chapter.json",
-      "entry": "EP06_ACT01_SC01"
+      "entry": "EP06_ACT01_SC01",
+      "subtitle": "向誰借一雙手"
     },
     {
       "id": "EP07",
-      "title": "無旗者",
+      "title": "How Much a Dollar Cost",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep07/chapter.json",
-      "entry": "EP07_ACT01_SC01"
+      "entry": "EP07_ACT01_SC01",
+      "subtitle": "救援之後的帳"
     },
     {
       "id": "EP08",
-      "title": "兩個繼承人",
+      "title": "People Have the Power",
       "status": "DRAFT_AVAILABLE",
       "file": "episodes/ep08/chapter.json",
-      "entry": "EP08_ACT01_SC01_S"
+      "entry": "EP08_ACT01_SC01_S",
+      "subtitle": "誰能替人民作主"
     },
     {
       "id": "EP09",
-      "title": "誰在統治安度因",
-      "status": "NOT_YET_AVAILABLE"
+      "title": "Waiting for the End",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/ep09/chapter.json",
+      "entry": "EP09_ACT01_SC01_S",
+      "subtitle": "裂谷的七面旗"
     },
     {
       "id": "EP10",
@@ -92,6 +103,13 @@
       "id": "EP12",
       "title": "母獅帝國",
       "status": "NOT_YET_AVAILABLE"
+    },
+    {
+      "id": "ENDINGS",
+      "title": "已寫下的結局",
+      "status": "DRAFT_AVAILABLE",
+      "file": "episodes/endings/chapter.json",
+      "libraryOnly": true
     }
   ],
   "flags": {
@@ -1118,10 +1136,167 @@
     "EP08_WORLD_ACT04_ACADEMY_CREDIBILITY_PARTIAL": {
       "initial": false,
       "description": "第八章第四幕：獨立世界線的決策、災害事實與一次性結算。"
+    },
+    "POLITICAL_POINTS_EXHAUSTED": {
+      "initial": false,
+      "description": "2026-11-18新版VI：正式政治點數結算耗盡，鎖定結局。"
+    },
+    "EP08_S5_F5": {
+      "initial": "UNSET",
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_S5_P01": {
+      "initial": "UNSET",
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_S5_P02": {
+      "initial": "UNSET",
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_S5_P03": {
+      "initial": "UNSET",
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_SACRED_ACT05_POLITICS_RESOLVED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_SACRED_ACT05_F5_RESOLVED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_SACRED_ACT05_F5_CLEAR_GRANTED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_SACRED_ACT05_POLITICAL_TIER": {
+      "initial": -1,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_F5_CHOICE": {
+      "initial": "UNSET",
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_F5_APPROVED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_F5_COMPLETE": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_INVESTOR_CONTACT": {
+      "initial": "NOT_VISITED",
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_ELIA_SEAL_POLICY": {
+      "initial": "NOT_VISITED",
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_SACRED_ACT05_NO_SIGNED_AGREEMENT": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_SACRED_ACT05_EASTERN_REPORT_RECEIVED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_ICE_EYE_MANIFESTED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_ELIA_RETURNED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_ACADEMY_REPUTATION_PARTIALLY_RESTORED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_ACADEMY_SEATS_AUTO_INCREASED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP08_WORLD_ACT05_EASTERN_REPORT_RECEIVED": {
+      "initial": false,
+      "description": "第八章第五幕：獨立路線決策、芬利事件與一次性結算。"
+    },
+    "EP09_S_ACT01_PACT_CHOICE": {
+      "initial": "UNSET",
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_ACT01_M01_CHOICE": {
+      "initial": "UNSET",
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_S_RIFT_CHURCH_PRECOMMIT": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_VALKEN_FUNDING_SOURCE": {
+      "initial": "UNSET",
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_HEBE_FAVOR_OWED": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_VALKEN_LAND_OFFER_REJECTED": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_ACADEMY_LAND_LEASE_PENDING": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_VALKEN_REFUGEE_COMMITMENT": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_HEBE_FAMILY_LAND_INTEREST": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_RECONSTRUCTION_FUNDING_PENDING": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_LAND_LEGALLY_TRANSFERRED": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_ROLAND_DEAD": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_ROLAND_DEFEATED": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_S_ROLAND_DEAD": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_S_LAND_LEGALLY_TRANSFERRED": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_S_ACT01_COMPLETE": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
+    },
+    "EP09_W_ACT01_COMPLETE": {
+      "initial": false,
+      "description": "第九章第一幕：依路線分開記錄救濟承諾與籌資選擇。"
     }
   },
   "migrations": {
     "DEMO_OLD_START": "DEMO_ACT01_SC01"
   },
-  "planningFile": "planning/part-one.json"
+  "planningFile": "planning/part-one.json",
+  "resourceExhaustionEnding": {
+    "scene": "ENDING-VI-TREATY",
+    "ending": "ARCANA_06",
+    "flag": "POLITICAL_POINTS_EXHAUSTED"
+  }
 }

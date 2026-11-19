@@ -95,7 +95,6 @@ if (!later.length) manifest.version = '0.8.0-ep02-act01-v0.9';
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP02')!,
   {
-    title: '留下來的人',
     status: 'DRAFT_AVAILABLE',
     file: 'episodes/ep02/chapter.json',
     entry: 'EP02_ACT01_SC01',

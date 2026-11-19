@@ -37,6 +37,7 @@ export function recordRouteCompletion(meta: Meta, state: GameState, story: Story
   if (
     !scene ||
     scene.kind !== 'end' ||
+    scene.specialEnding === 'ARCANA_06' ||
     scene.completion ||
     scene.status === 'DEMO_ONLY' ||
     state.currentSegmentIndex !== visibleSegments(story, state).length - 1 ||

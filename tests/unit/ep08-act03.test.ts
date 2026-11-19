@@ -65,7 +65,7 @@ function start(route: 'SACRED' | 'WORLD', points = 100, unrest = 30, alinda = 3)
   const next = continueChapter(story, restoreSave(state, story).state);
   expect(next.currentSceneId).toBe(`EP08_ACT03_SC01_${route[0]}`);
   expect(chapterDirectory(story, [], next).find((c) => c.id === 'EP08')!.acts[2].title).toBe(
-    route === 'SACRED' ? '無人承接的契約' : '山火記得的名字'
+    route === 'SACRED' ? '不可挪移你鄰舍的地界' : '述說給後代聽'
   );
   expect(next.campaign!.politicalPoints).toBe(points);
   expect(next.campaign!.upkeep).toEqual(state.campaign!.upkeep);
@@ -89,6 +89,7 @@ function play(
     ended = false;
   for (let turn = 0; turn < 160; turn++) {
     const scene = story.scenes[state.currentSceneId];
+    if (scene.specialEnding === 'ARCANA_06') { ended = true; break; }
     expect(evaluate(state, scene.availableWhen!)).toBe(true);
     const segments = visibleSegments(story, state);
     segments.forEach((p, i) => {
@@ -142,7 +143,7 @@ function play(
   }
   expect(ended).toBe(true);
   expect(index).toBe(3);
-  expect(flavors).toBe(route === 'SACRED' ? 11 : 10);
+  if (!state.flags.POLITICAL_POINTS_EXHAUSTED) expect(flavors).toBe(route === 'SACRED' ? 11 : 10);
   expect(state.campaign!.upkeep).toEqual(before.campaign!.upkeep);
   expect(state.flags.FINLEY_SECRETARY_SEAL).toBe(true);
   expect(state.flags.S3_CLEAR).toBe(true);

@@ -146,7 +146,7 @@ it('runs all 40 investigation, resettlement, gate and authorization combinations
               );
             expect(images.has('EP06-ACT05-CG21')).toBe(transferred);
             expect(images.has('EP06-ACT05-CG22')).toBe(!transferred);
-            expect(lines).toContain('「新任聖女，薩拉菲尼亞。」');
+            expect(lines).toContain('「新任聖女，撒拉非尼亞。」');
             expect(state.politicalRoute).toBe(boundary[0].politicalRoute);
             expect(state.readChapters).toContain('EP06');
             expect(story.scenes[state.currentSceneId].completion).toMatchObject({

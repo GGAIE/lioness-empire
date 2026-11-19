@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "ENDINGS",
+  "version": "1.0.0",
+  "status": "DRAFT",
+  "source": "sources/endings/Lioness_Empire_Bad_End_VI_Written_Back_Into_the_Treaty_v1.0.md",
+  "scenes": [
+    {
+      "id": "ENDING-VI-TREATY",
+      "chapter": "ENDINGS",
+      "act": "ACT01",
+      "sceneNumber": 1,
+      "title": "被寫回條約",
+      "pov": "FINLEY",
+      "cast": [
+        "FINLEY"
+      ],
+      "kind": "end",
+      "status": "DRAFT",
+      "playback": "READER",
+      "scoring": "NONE",
+      "source": "sources/endings/Lioness_Empire_Bad_End_VI_Written_Back_Into_the_Treaty_v1.0.md",
+      "version": "1.0.0",
+      "knowledge": {
+        "knows": [
+          "已正式結算政治資源耗盡。"
+        ],
+        "withheld": []
+      },
+      "segments": [
+        {
+          "id": "L001",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "text": "停一下。你是不是玩錯了？"
+        },
+        {
+          "id": "L002",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "text": "我還以為你在等誰來幫忙。後來一看，嗯，能幫的人你都快得罪完了。"
+        },
+        {
+          "id": "L003",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "text": "條約倒是寫好了。她的名字在最後，只差簽字。"
+        },
+        {
+          "id": "L004",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "text": "你想看內容啊？"
+        },
+        {
+          "id": "L005",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "text": "他們也沒打算給她看。"
+        },
+        {
+          "id": "L006",
+          "speaker": "FINLEY",
+          "speakerLabel": "芬利",
+          "kind": "dialogue",
+          "visual": "BLACK",
+          "text": "遊戲結束了，你該回主畫面了。"
+        }
+      ],
+      "choices": [],
+      "specialEnding": "ARCANA_06"
+    }
+  ]
+}

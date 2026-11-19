@@ -60,7 +60,13 @@ if (story.plan) {
   }
 }
 const demoRules = z.array(EndingRuleSchema).parse(await readJson('endings/demo.json'));
-report.errors.push(...validateStory({ ...story, endings: demoRules }).errors);
+report.errors.push(
+  ...validateStory({
+    ...story,
+    // Validate archived demo awards alongside the real shared ending policy.
+    endings: [...story.endings, ...demoRules],
+  }).errors
+);
 if (demoRules.some((r) => r.status !== 'DEMO_ONLY'))
   report.errors.push('Demo ending rules must stay DEMO_ONLY');
 if (story.endings.some((r) => r.status === 'DEMO_ONLY'))
@@ -136,7 +142,7 @@ const full = {
   blockedChapterEntries,
   explorationComplete: pending.length === 0,
   verificationStrategy:
-    'state exploration with certified terminal chapters and exhaustive resource inputs',
+    'state exploration with certified chapter boundaries and exhaustive resource inputs',
   chapterBoundaryChecks: boundaryReport,
   canonEndings: story.endings.length,
   approvedCanonEndings: story.endings.filter((r) => r.status === 'APPROVED').length,

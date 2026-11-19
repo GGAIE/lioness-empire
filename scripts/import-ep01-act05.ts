@@ -83,7 +83,7 @@ for (const key of Object.keys(act05CompletionFlags))
   manifest.flags[key] ??= { initial: false, description: `ACT V章末事實：${key}；不作選項獎懲。` };
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP01')!,
-  { title: '王冠之前 · ACT I–V', status: 'DRAFT_AVAILABLE' }
+  { status: 'DRAFT_AVAILABLE' }
 );
 const write = (path: string, value: unknown) =>
   writeFile(resolve(root, path), JSON.stringify(value, null, 2) + '\n');

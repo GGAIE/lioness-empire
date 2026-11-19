@@ -58,9 +58,6 @@ if (!laterScenes.length) manifest.version = '0.3.0-ep01-act01-v0.3';
 Object.assign(
   manifest.chapters.find((c) => c.id === 'EP01')!,
   {
-    title: laterScenes.length
-      ? manifest.chapters.find((c) => c.id === 'EP01')!.title
-      : '王冠之前 · ACT I 平靜被打破',
     status: 'DRAFT_AVAILABLE',
     file: 'episodes/ep01/chapter.json',
     entry: scenes[0].id,

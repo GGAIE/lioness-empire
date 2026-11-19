@@ -133,10 +133,10 @@ test('EP02 reads 270 paragraphs, all twenty original CGs and five choices with c
   expect(images).toBe(20);
   expect(choices).toBe(5);
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    '第一幕完 · 重新升起的王旗'
+    '第一幕完 · 已有的事後必再有'
   );
   await expect(page.getByRole('region', { name: '章節完成' })).toContainText(
-    'ACT II〈王冠之外的責任〉'
+    'ACT II〈人在最小的事上忠心，在大事上也忠心〉'
   );
   await expect(page.locator('.stage-blackout')).toHaveCSS('opacity', '1');
   await expect(page.getByRole('alertdialog')).toHaveCount(0);
@@ -221,13 +221,13 @@ test('chapter entry charges once, directory replay preserves the receipt, and in
   await page.getByRole('button', { name: '展開全部', exact: true }).click();
   const ep01 = page
     .locator('.directory-chapter')
-    .filter({ has: page.getByRole('heading', { name: '王冠之前', exact: true }) });
+    .filter({ has: page.getByRole('heading', { name: 'The Call', exact: true }) });
   await ep01.getByRole('button', { name: /學院的早晨/ }).click();
   await page.getByRole('button', { name: '章節', exact: true }).click();
   await page.getByRole('button', { name: '展開全部', exact: true }).click();
   const ep02 = page
     .locator('.directory-chapter')
-    .filter({ has: page.getByRole('heading', { name: '留下來的人', exact: true }) });
+    .filter({ has: page.getByRole('heading', { name: 'The Weight', exact: true }) });
   await expect(ep02).toContainText('已提供 5 / 5 幕');
   await ep02.getByRole('button', { name: /晨鐘再響/ }).click();
   await expect(page.locator('.game-frame')).toHaveAttribute('data-scene-id', 'EP02_ACT01_SC01');
